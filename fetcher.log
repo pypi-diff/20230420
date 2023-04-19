@@ -337,3 +337,61 @@
 [2023-04-20 00:25:12] INFO root fetch - processPackages [tinyfk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyfk-0.6.0.dev6.tar.gz tmp/tinyfk-0.6.0.dev7.tar.gz --markdown 20230420/t/tinyfk/0.6.0.dev6-0.6.0.dev7/diff.md --exclude *.pyd
 [2023-04-20 00:25:27] INFO root fetch - main [MainThread]: End processing [tinyfk]: success
 [2023-04-20 00:25:27] INFO root fetch - main [MainThread]: Store serial: [17777740]
+[2023-04-20 00:30:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17777740]
+[2023-04-20 00:30:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-20 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyKVFinder
+[2023-04-20 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docker-composer-v2
+[2023-04-20 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-speech
+[2023-04-20 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avio
+[2023-04-20 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysml
+[2023-04-20 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: launchdarkly-api
+[2023-04-20 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dictextra
+[2023-04-20 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: excelcolumnizer
+[2023-04-20 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: postpruner
+[2023-04-20 00:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: notebook-logger
+[2023-04-20 00:30:36] INFO root fetch - processPackages [pyKVFinder]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-04-20 00:30:36] INFO root fetch - processPackages [docker-composer-v2]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-04-20 00:30:36] INFO root fetch - processPackages [neon-speech]: New version: [3.2.2a2] Old Version: [3.2.2a0]
+[2023-04-20 00:30:36] INFO root fetch - processPackages [excelcolumnizer]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-20 00:30:36] WARNING root fetch - processPackages [avio]: Skipping, unable to determine old version
+[2023-04-20 00:30:36] WARNING root fetch - processPackages [postpruner]: Skipping, unable to determine old version
+[2023-04-20 00:30:36] INFO root fetch - main [MainThread]: End processing [avio] error
+[2023-04-20 00:30:36] INFO root fetch - main [MainThread]: End processing [postpruner] error
+[2023-04-20 00:30:36] INFO root fetch - processPackages [pysml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 00:30:36] WARNING root fetch - processPackages [dictextra]: Skipping, unable to determine old version
+[2023-04-20 00:30:36] INFO root fetch - main [MainThread]: End processing [dictextra] error
+[2023-04-20 00:30:36] INFO root fetch - processPackages [excelcolumnizer]: executing diffoscope
+[2023-04-20 00:30:36] INFO root fetch - processPackages [excelcolumnizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excelcolumnizer-0.0.6.tar.gz tmp/excelcolumnizer-0.0.7.tar.gz --markdown 20230420/e/excelcolumnizer/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-20 00:30:36] INFO root fetch - processPackages [notebook-logger]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 00:30:36] INFO root fetch - processPackages [launchdarkly-api]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-04-20 00:30:36] INFO root fetch - processPackages [pyKVFinder]: Downloading https://files.pythonhosted.org/packages/a6/3c/783fb728ec788fc991ebfdac43709d97f7ce866a7e3ca5057d8d2a009f31/pyKVFinder-0.5.3.tar.gz
+[2023-04-20 00:30:36] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/a8/23/e8ea6338e86283e0563b169dfff8a253e9e1bea0601cca4b48582469ffa7/neon_speech-3.2.2a0-py3-none-any.whl
+[2023-04-20 00:30:36] INFO root fetch - processPackages [pysml]: Downloading https://files.pythonhosted.org/packages/81/68/bdc13e5f3a215cc4b9bc9eedf3033b38bd1188e0acefecbfeb4aa622f043/pysml-0.0.8.tar.gz
+[2023-04-20 00:30:36] INFO root fetch - processPackages [docker-composer-v2]: Downloading https://files.pythonhosted.org/packages/c4/b8/5b068f4426c2f87a31438f96db21c3041526499d15d5352cd86560b58fdb/docker_composer_v2-0.8.7.tar.gz
+[2023-04-20 00:30:36] INFO root fetch - processPackages [notebook-logger]: Downloading https://files.pythonhosted.org/packages/6e/c5/39f35151c70fd11b0e5a178d999c70c2a16d8c57fbbb758ec443c4623f50/notebook-logger-0.1.2.tar.gz
+[2023-04-20 00:30:36] INFO root fetch - processPackages [launchdarkly-api]: Downloading https://files.pythonhosted.org/packages/87/d8/ce229699736582c2294c171f7f1387d64fc42f0fb9a50145362c21dd9710/launchdarkly_api-9.0.0-py2.py3-none-any.whl
+[2023-04-20 00:30:36] INFO root fetch - processPackages [docker-composer-v2]: executing diffoscope
+[2023-04-20 00:30:36] INFO root fetch - processPackages [docker-composer-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_composer_v2-0.8.6.tar.gz tmp/docker_composer_v2-0.8.7.tar.gz --markdown 20230420/d/docker-composer-v2/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-04-20 00:30:36] INFO root fetch - processPackages [notebook-logger]: Downloading https://files.pythonhosted.org/packages/06/ac/932b8ca0a907e1c3547b512e9be80bd73c16c030de2c60f6a259cc67d85f/notebook-logger-0.1.3.tar.gz
+[2023-04-20 00:30:36] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/e2/f3/9852bc64c5eec9b4846c86df9ddb37649a8a67da23737e95f9f60b205446/neon_speech-3.2.2a2-py3-none-any.whl
+[2023-04-20 00:30:36] INFO root fetch - processPackages [pyKVFinder]: Downloading https://files.pythonhosted.org/packages/e1/30/2112f0b051cab1c85dbb740c02452c51a2371122d6e364fccef17a80cc17/pyKVFinder-0.5.4.tar.gz
+[2023-04-20 00:30:37] INFO root fetch - processPackages [pysml]: Downloading https://files.pythonhosted.org/packages/0a/ca/f05e12c18129794bb7659844be5f17524f3c2c3ca3a58ab3669d4574828d/pysml-0.0.9.tar.gz
+[2023-04-20 00:30:37] INFO root fetch - processPackages [notebook-logger]: executing diffoscope
+[2023-04-20 00:30:37] INFO root fetch - processPackages [notebook-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-logger-0.1.2.tar.gz tmp/notebook-logger-0.1.3.tar.gz --markdown 20230420/n/notebook-logger/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 00:30:37] INFO root fetch - processPackages [neon-speech]: executing diffoscope
+[2023-04-20 00:30:37] INFO root fetch - processPackages [neon-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_speech-3.2.2a0-py3-none-any.whl.zip tmp/neon_speech-3.2.2a2-py3-none-any.whl.zip --markdown 20230420/n/neon-speech/3.2.2a0-3.2.2a2/diff.md --exclude *.pyd
+[2023-04-20 00:30:37] INFO root fetch - processPackages [pyKVFinder]: executing diffoscope
+[2023-04-20 00:30:37] INFO root fetch - processPackages [pyKVFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyKVFinder-0.5.3.tar.gz tmp/pyKVFinder-0.5.4.tar.gz --markdown 20230420/p/pyKVFinder/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-04-20 00:30:37] INFO root fetch - processPackages [pysml]: executing diffoscope
+[2023-04-20 00:30:37] INFO root fetch - processPackages [pysml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysml-0.0.8.tar.gz tmp/pysml-0.0.9.tar.gz --markdown 20230420/p/pysml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 00:30:37] INFO root fetch - main [MainThread]: End processing [excelcolumnizer]: success
+[2023-04-20 00:30:37] INFO root fetch - processPackages [launchdarkly-api]: Downloading https://files.pythonhosted.org/packages/60/ff/0e7af8ea6112be64c6803392bf1a71ac1b355d861a456573db3c4da59e5f/launchdarkly_api-9.0.1-py2.py3-none-any.whl
+[2023-04-20 00:30:38] INFO root fetch - main [MainThread]: End processing [notebook-logger]: success
+[2023-04-20 00:30:38] INFO root fetch - main [MainThread]: End processing [neon-speech]: success
+[2023-04-20 00:30:38] INFO root fetch - main [MainThread]: End processing [pysml]: success
+[2023-04-20 00:30:38] INFO root fetch - main [MainThread]: End processing [docker-composer-v2]: success
+[2023-04-20 00:30:38] INFO root fetch - main [MainThread]: End processing [pyKVFinder]: success
+[2023-04-20 00:30:38] INFO root fetch - processPackages [launchdarkly-api]: executing diffoscope
+[2023-04-20 00:30:38] INFO root fetch - processPackages [launchdarkly-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchdarkly_api-9.0.0-py2.py3-none-any.whl.zip tmp/launchdarkly_api-9.0.1-py2.py3-none-any.whl.zip --markdown 20230420/l/launchdarkly-api/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-04-20 00:30:45] INFO root fetch - main [MainThread]: End processing [launchdarkly-api]: success
+[2023-04-20 00:30:45] INFO root fetch - main [MainThread]: Store serial: [17777784]
