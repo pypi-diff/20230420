@@ -1,0 +1,55 @@
+[2023-04-20 00:03:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17777525]
+[2023-04-20 00:03:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-20 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twb-project
+[2023-04-20 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cli-command-parser
+[2023-04-20 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: textfiles
+[2023-04-20 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rian-alba-tools
+[2023-04-20 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sm-grams
+[2023-04-20 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shub-workflow
+[2023-04-20 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bfrac
+[2023-04-20 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ethraid
+[2023-04-20 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-ns1
+[2023-04-20 00:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crowdcores-node
+[2023-04-20 00:03:06] INFO root fetch - processPackages [ethraid]: New version: [1.0.0] Old Version: [0.1.90]
+[2023-04-20 00:03:06] INFO root fetch - processPackages [shub-workflow]: New version: [1.9.7.4] Old Version: [1.9.7.3]
+[2023-04-20 00:03:06] INFO root fetch - processPackages [twb-project]: New version: [0.7.3a9] Old Version: [0.7.3a8]
+[2023-04-20 00:03:06] INFO root fetch - processPackages [crowdcores-node]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-20 00:03:06] INFO root fetch - processPackages [sm-grams]: New version: [3.0.0a4] Old Version: [2.1.7]
+[2023-04-20 00:03:06] INFO root fetch - processPackages [shub-workflow]: executing diffoscope
+[2023-04-20 00:03:06] INFO root fetch - processPackages [shub-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shub-workflow-1.9.7.3.tar.gz tmp/shub-workflow-1.9.7.4.tar.gz --markdown 20230420/s/shub-workflow/1.9.7.3-1.9.7.4/diff.md --exclude *.pyd
+[2023-04-20 00:03:06] WARNING root fetch - processPackages [rian-alba-tools]: Skipping, unable to determine old version
+[2023-04-20 00:03:06] INFO root fetch - main [MainThread]: End processing [rian-alba-tools] error
+[2023-04-20 00:03:06] INFO root fetch - processPackages [ethraid]: executing diffoscope
+[2023-04-20 00:03:06] INFO root fetch - processPackages [ethraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethraid-0.1.90.tar.gz tmp/ethraid-1.0.0.tar.gz --markdown 20230420/e/ethraid/0.1.90-1.0.0/diff.md --exclude *.pyd
+[2023-04-20 00:03:06] WARNING root fetch - processPackages [textfiles]: Skipping, unable to determine old version
+[2023-04-20 00:03:06] INFO root fetch - main [MainThread]: End processing [textfiles] error
+[2023-04-20 00:03:06] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-04-20 00:03:06] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.7.3a8.tar.gz tmp/twb_project-0.7.3a9.tar.gz --markdown 20230420/t/twb-project/0.7.3a8-0.7.3a9/diff.md --exclude *.pyd
+[2023-04-20 00:03:06] INFO root fetch - processPackages [cli-command-parser]: New version: [2023.4.8] Old Version: [2023.4.7]
+[2023-04-20 00:03:06] INFO root fetch - processPackages [bfrac]: New version: [0.0.53] Old Version: [0.0.52]
+[2023-04-20 00:03:06] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.1.0a1681940488] Old Version: [3.1.0a1680910095]
+[2023-04-20 00:03:06] INFO root fetch - processPackages [crowdcores-node]: Downloading https://files.pythonhosted.org/packages/97/94/ddd26f42d94712e73e5e4ebe0917e3435d0a65964f10828eb8e25a20e274/crowdcores-node-1.0.8.tar.gz
+[2023-04-20 00:03:06] INFO root fetch - processPackages [sm-grams]: Downloading https://files.pythonhosted.org/packages/47/50/c2d6ad4ce0e1a78a5b8ca5f936262792e093c4ca06066c50a6dd008ba193/sm_grams-2.1.7.tar.gz
+[2023-04-20 00:03:06] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/10/06/286ced01ffafd42e997e9072951a87379fca32dcb9db1cb4dd17e77dbbdd/pulumi_ns1-3.1.0a1680910095.tar.gz
+[2023-04-20 00:03:06] INFO root fetch - processPackages [crowdcores-node]: executing diffoscope
+[2023-04-20 00:03:06] INFO root fetch - processPackages [crowdcores-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdcores-node-1.0.7.tar.gz tmp/crowdcores-node-1.0.8.tar.gz --markdown 20230420/c/crowdcores-node/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-20 00:03:06] INFO root fetch - processPackages [bfrac]: Downloading https://files.pythonhosted.org/packages/e7/a6/45552cbf390e2628917a319ddabe3052b648a3a7a87dd9181cab134c110c/bfrac-0.0.53.tar.gz
+[2023-04-20 00:03:06] INFO root fetch - processPackages [cli-command-parser]: executing diffoscope
+[2023-04-20 00:03:06] INFO root fetch - processPackages [cli-command-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli_command_parser-2023.4.7.tar.gz tmp/cli_command_parser-2023.4.8.tar.gz --markdown 20230420/c/cli-command-parser/2023.4.7-2023.4.8/diff.md --exclude *.pyd
+[2023-04-20 00:03:06] INFO root fetch - processPackages [sm-grams]: Downloading https://files.pythonhosted.org/packages/31/22/a0cb4a1449c9c9c7970317afada1659f75beca7c7e963e3f04dcb3567468/sm_grams-3.0.0a4-cp39-cp39-macosx_11_0_arm64.whl
+[2023-04-20 00:03:06] INFO root fetch - processPackages [bfrac]: executing diffoscope
+[2023-04-20 00:03:06] INFO root fetch - processPackages [bfrac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfrac-0.0.52.tar.gz tmp/bfrac-0.0.53.tar.gz --markdown 20230420/b/bfrac/0.0.52-0.0.53/diff.md --exclude *.pyd
+[2023-04-20 00:03:06] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/a9/20/455e704962ab27ff12059a335bf7e4865403cc162c13a87319c9122a3dd1/pulumi_ns1-3.1.0a1681940488.tar.gz
+[2023-04-20 00:03:07] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2023-04-20 00:03:07] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.1.0a1680910095.tar.gz tmp/pulumi_ns1-3.1.0a1681940488.tar.gz --markdown 20230420/p/pulumi-ns1/3.1.0a1680910095-3.1.0a1681940488/diff.md --exclude *.pyd
+[2023-04-20 00:03:07] INFO root fetch - processPackages [sm-grams]: executing diffoscope
+[2023-04-20 00:03:07] INFO root fetch - processPackages [sm-grams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sm_grams-2.1.7.tar.gz tmp/sm_grams-3.0.0a4-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20230420/s/sm-grams/2.1.7-3.0.0a4/diff.md --exclude *.pyd
+[2023-04-20 00:03:08] INFO root fetch - main [MainThread]: End processing [shub-workflow]: success
+[2023-04-20 00:03:08] INFO root fetch - main [MainThread]: End processing [crowdcores-node]: success
+[2023-04-20 00:03:08] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-04-20 00:03:08] INFO root fetch - main [MainThread]: End processing [bfrac]: success
+[2023-04-20 00:03:08] INFO root fetch - main [MainThread]: End processing [cli-command-parser]: success
+[2023-04-20 00:03:08] INFO root fetch - main [MainThread]: End processing [sm-grams]: success
+[2023-04-20 00:03:09] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2023-04-20 00:03:11] INFO root fetch - main [MainThread]: End processing [ethraid]: success
+[2023-04-20 00:03:11] INFO root fetch - main [MainThread]: Store serial: [17777561]
