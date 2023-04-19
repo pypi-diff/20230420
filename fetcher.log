@@ -1157,3 +1157,56 @@
 [2023-04-20 01:30:06] INFO root fetch - main [MainThread]: End processing [ord-schema]: success
 [2023-04-20 01:30:07] INFO root fetch - main [MainThread]: End processing [google-cloud-gke-hub]: success
 [2023-04-20 01:30:07] INFO root fetch - main [MainThread]: Store serial: [17778334]
+[2023-04-20 01:35:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17778334]
+[2023-04-20 01:35:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-20 01:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: postpruner
+[2023-04-20 01:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: up-fmap
+[2023-04-20 01:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: postpruner
+[2023-04-20 01:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astrodown
+[2023-04-20 01:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seqlog
+[2023-04-20 01:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynih
+[2023-04-20 01:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: postpruner
+[2023-04-20 01:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shed
+[2023-04-20 01:35:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shiny-mdc
+[2023-04-20 01:35:16] INFO root fetch - processPackages [astrodown]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 01:35:16] INFO root fetch - processPackages [postpruner]: New version: [1.0] Old Version: [0.9]
+[2023-04-20 01:35:16] INFO root fetch - processPackages [postpruner]: New version: [1.0] Old Version: [0.9]
+[2023-04-20 01:35:16] INFO root fetch - processPackages [shiny-mdc]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-20 01:35:16] WARNING root fetch - processPackages [pynih]: Skipping, unable to determine old version
+[2023-04-20 01:35:16] INFO root fetch - processPackages [up-fmap]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-20 01:35:16] INFO root fetch - main [MainThread]: End processing [pynih] error
+[2023-04-20 01:35:16] INFO root fetch - processPackages [seqlog]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-20 01:35:16] INFO root fetch - processPackages [shed]: New version: [2023.4.1] Old Version: [2023.3.1]
+[2023-04-20 01:35:16] INFO root fetch - processPackages [astrodown]: executing diffoscope
+[2023-04-20 01:35:16] INFO root fetch - processPackages [astrodown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrodown-0.1.8.tar.gz tmp/astrodown-0.1.9.tar.gz --markdown 20230420/a/astrodown/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 01:35:16] INFO root fetch - processPackages [postpruner]: New version: [1.0] Old Version: [0.9]
+[2023-04-20 01:35:16] INFO root fetch - processPackages [shiny-mdc]: Downloading https://files.pythonhosted.org/packages/c9/7f/b5146c45b8aec343afcdad51e88414574f1b948604a4ee803b055c7290eb/shiny_mdc-1.4.1.tar.gz
+[2023-04-20 01:35:16] INFO root fetch - processPackages [shed]: Downloading https://files.pythonhosted.org/packages/75/fe/ff4ac44f469b2c1158d059a2ccaa7cad75ccf214213a952aca2c2654e8f7/shed-2023.3.1.tar.gz
+[2023-04-20 01:35:16] INFO root fetch - processPackages [up-fmap]: Downloading https://files.pythonhosted.org/packages/39/82/d6d0af7e134023762c9c457159e0325ba655f8122c40d265aaabbe9018f9/up_fmap-0.0.5.tar.gz
+[2023-04-20 01:35:16] INFO root fetch - processPackages [postpruner]: Downloading https://files.pythonhosted.org/packages/a0/3b/e50d745d439b01d806a0319ba1bc2c2ff8fc838366f6c7ce57ed203bf50b/postpruner-1.0.tar.gz
+[2023-04-20 01:35:16] INFO root fetch - processPackages [postpruner]: Downloading https://files.pythonhosted.org/packages/a0/3b/e50d745d439b01d806a0319ba1bc2c2ff8fc838366f6c7ce57ed203bf50b/postpruner-1.0.tar.gz
+[2023-04-20 01:35:16] INFO root fetch - processPackages [postpruner]: Downloading https://files.pythonhosted.org/packages/a0/3b/e50d745d439b01d806a0319ba1bc2c2ff8fc838366f6c7ce57ed203bf50b/postpruner-1.0.tar.gz
+[2023-04-20 01:35:16] INFO root fetch - processPackages [seqlog]: executing diffoscope
+[2023-04-20 01:35:16] INFO root fetch - processPackages [seqlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqlog-0.3.8.tar.gz tmp/seqlog-0.3.9-py2.py3-none-any.whl.zip --markdown 20230420/s/seqlog/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-20 01:35:16] INFO root fetch - processPackages [up-fmap]: executing diffoscope
+[2023-04-20 01:35:16] INFO root fetch - processPackages [up-fmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_fmap-0.0.4.tar.gz tmp/up_fmap-0.0.5.tar.gz --markdown 20230420/u/up-fmap/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 01:35:16] INFO root fetch - processPackages [shed]: Downloading https://files.pythonhosted.org/packages/14/b1/30f8b059e07e84fe070e87d6e4b9c239aee181d0d152ba43ee207a544692/shed-2023.4.1.tar.gz
+[2023-04-20 01:35:16] INFO root fetch - processPackages [postpruner]: executing diffoscope
+[2023-04-20 01:35:16] INFO root fetch - processPackages [postpruner]: executing diffoscope
+[2023-04-20 01:35:16] INFO root fetch - processPackages [postpruner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postpruner-0.9.tar.gz tmp/postpruner-1.0.tar.gz --markdown 20230420/p/postpruner/0.9-1.0/diff.md --exclude *.pyd
+[2023-04-20 01:35:16] INFO root fetch - processPackages [postpruner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postpruner-0.9.tar.gz tmp/postpruner-1.0.tar.gz --markdown 20230420/p/postpruner/0.9-1.0/diff.md --exclude *.pyd
+[2023-04-20 01:35:16] INFO root fetch - processPackages [postpruner]: executing diffoscope
+[2023-04-20 01:35:16] INFO root fetch - processPackages [postpruner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postpruner-0.9.tar.gz tmp/postpruner-1.0.tar.gz --markdown 20230420/p/postpruner/0.9-1.0/diff.md --exclude *.pyd
+[2023-04-20 01:35:16] INFO root fetch - processPackages [shed]: executing diffoscope
+[2023-04-20 01:35:16] INFO root fetch - processPackages [shed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shed-2023.3.1.tar.gz tmp/shed-2023.4.1.tar.gz --markdown 20230420/s/shed/2023.3.1-2023.4.1/diff.md --exclude *.pyd
+[2023-04-20 01:35:17] INFO root fetch - processPackages [shiny-mdc]: executing diffoscope
+[2023-04-20 01:35:17] INFO root fetch - processPackages [shiny-mdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiny_mdc-1.4.0.tar.gz tmp/shiny_mdc-1.4.1.tar.gz --markdown 20230420/s/shiny-mdc/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-04-20 01:35:18] INFO root fetch - main [MainThread]: End processing [up-fmap]: success
+[2023-04-20 01:35:18] INFO root fetch - main [MainThread]: End processing [postpruner]: success
+[2023-04-20 01:35:18] INFO root fetch - main [MainThread]: End processing [postpruner]: success
+[2023-04-20 01:35:18] INFO root fetch - main [MainThread]: End processing [postpruner]: success
+[2023-04-20 01:35:18] INFO root fetch - main [MainThread]: End processing [seqlog]: success
+[2023-04-20 01:35:18] INFO root fetch - main [MainThread]: End processing [shed]: success
+[2023-04-20 01:35:18] INFO root fetch - main [MainThread]: End processing [astrodown]: success
+[2023-04-20 01:35:42] INFO root fetch - main [MainThread]: End processing [shiny-mdc]: success
+[2023-04-20 01:35:42] INFO root fetch - main [MainThread]: Store serial: [17778360]
