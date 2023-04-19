@@ -303,3 +303,37 @@
 [2023-04-20 00:19:47] INFO root fetch - main [MainThread]: End processing [gentrace-py]: success
 [2023-04-20 00:20:00] INFO root fetch - main [MainThread]: End processing [keepercommander]: success
 [2023-04-20 00:20:00] INFO root fetch - main [MainThread]: Store serial: [17777726]
+[2023-04-20 00:25:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17777726]
+[2023-04-20 00:25:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-20 00:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rssreruns
+[2023-04-20 00:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybricksdev
+[2023-04-20 00:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xhtml2pdf
+[2023-04-20 00:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinyfk
+[2023-04-20 00:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: austitech-attributedict
+[2023-04-20 00:25:09] INFO root fetch - processPackages [rssreruns]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 00:25:09] WARNING root fetch - processPackages [austitech-attributedict]: Skipping, unable to determine old version
+[2023-04-20 00:25:09] INFO root fetch - main [MainThread]: End processing [austitech-attributedict] error
+[2023-04-20 00:25:09] INFO root fetch - processPackages [xhtml2pdf]: New version: [0.2b1] Old Version: [0.2.9]
+[2023-04-20 00:25:09] INFO root fetch - processPackages [pybricksdev]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-04-20 00:25:09] INFO root fetch - processPackages [tinyfk]: New version: [0.6.0.dev7] Old Version: [0.6.0.dev6]
+[2023-04-20 00:25:10] INFO root fetch - processPackages [xhtml2pdf]: Downloading https://files.pythonhosted.org/packages/3c/a9/beeae666c73d34542019a49bf91b836cc372a447ff777182048736e1c508/xhtml2pdf-0.2.9-py3-none-any.whl
+[2023-04-20 00:25:10] INFO root fetch - processPackages [tinyfk]: Downloading https://files.pythonhosted.org/packages/fe/92/3045281205849948467cfdbfa5883ae6a692c6c934cfcf1aa35f9f4c5036/tinyfk-0.6.0.dev6.tar.gz
+[2023-04-20 00:25:10] INFO root fetch - processPackages [rssreruns]: Downloading https://files.pythonhosted.org/packages/c9/26/0d3f8f7c00295d40277b2ed9ab2410fabc6b44a275a049ff8cdbbf99a491/rssreruns-0.0.8.tar.gz
+[2023-04-20 00:25:10] INFO root fetch - processPackages [pybricksdev]: Downloading https://files.pythonhosted.org/packages/d8/1e/c421edf2d4e3e78875f086225f3f2c71e3d1cf1c15ce112c9572c5a08c75/pybricksdev-1.0.0a8.tar.gz
+[2023-04-20 00:25:10] INFO root fetch - processPackages [pybricksdev]: Downloading https://files.pythonhosted.org/packages/b2/c2/4693366e378d5b1836a7720f8cabd4cfd2957d17aad28c11dda505034edc/pybricksdev-1.0.0a9.tar.gz
+[2023-04-20 00:25:10] INFO root fetch - processPackages [xhtml2pdf]: Downloading https://files.pythonhosted.org/packages/a9/82/57ada36111511206ff2db1f77f0f3e3e5e8b2dfb073c2b6239016c493be1/xhtml2pdf-0.2b1.zip
+[2023-04-20 00:25:10] INFO root fetch - processPackages [pybricksdev]: executing diffoscope
+[2023-04-20 00:25:10] INFO root fetch - processPackages [pybricksdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybricksdev-1.0.0a8.tar.gz tmp/pybricksdev-1.0.0a9.tar.gz --markdown 20230420/p/pybricksdev/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-04-20 00:25:10] INFO root fetch - processPackages [xhtml2pdf]: executing diffoscope
+[2023-04-20 00:25:10] INFO root fetch - processPackages [xhtml2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhtml2pdf-0.2.9-py3-none-any.whl.zip tmp/xhtml2pdf-0.2b1.zip --markdown 20230420/x/xhtml2pdf/0.2.9-0.2b1/diff.md --exclude *.pyd
+[2023-04-20 00:25:10] INFO root fetch - processPackages [rssreruns]: Downloading https://files.pythonhosted.org/packages/46/03/74a5a9418183b8e90fa01a78b1c3f6bcddf75526607c31ae3a2adfcdf56f/rssreruns-0.0.9.tar.gz
+[2023-04-20 00:25:10] INFO root fetch - processPackages [rssreruns]: executing diffoscope
+[2023-04-20 00:25:10] INFO root fetch - processPackages [rssreruns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssreruns-0.0.8.tar.gz tmp/rssreruns-0.0.9.tar.gz --markdown 20230420/r/rssreruns/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 00:25:11] INFO root fetch - processPackages [tinyfk]: Downloading https://files.pythonhosted.org/packages/9e/9b/da9937cc997c00234eaa7cd002e315148a01cca4b8e7d7b3da85f0d3eecc/tinyfk-0.6.0.dev7.tar.gz
+[2023-04-20 00:25:11] INFO root fetch - main [MainThread]: End processing [rssreruns]: success
+[2023-04-20 00:25:11] INFO root fetch - main [MainThread]: End processing [pybricksdev]: success
+[2023-04-20 00:25:12] INFO root fetch - main [MainThread]: End processing [xhtml2pdf]: success
+[2023-04-20 00:25:12] INFO root fetch - processPackages [tinyfk]: executing diffoscope
+[2023-04-20 00:25:12] INFO root fetch - processPackages [tinyfk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyfk-0.6.0.dev6.tar.gz tmp/tinyfk-0.6.0.dev7.tar.gz --markdown 20230420/t/tinyfk/0.6.0.dev6-0.6.0.dev7/diff.md --exclude *.pyd
+[2023-04-20 00:25:27] INFO root fetch - main [MainThread]: End processing [tinyfk]: success
+[2023-04-20 00:25:27] INFO root fetch - main [MainThread]: Store serial: [17777740]
