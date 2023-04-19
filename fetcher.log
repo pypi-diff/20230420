@@ -764,3 +764,63 @@
 [2023-04-20 01:02:47] INFO root fetch - main [MainThread]: End processing [BIDSit]: success
 [2023-04-20 01:02:55] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-04-20 01:02:55] INFO root fetch - main [MainThread]: Store serial: [17778124]
+[2023-04-20 01:07:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17778124]
+[2023-04-20 01:08:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-20 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flwr-nightly
+[2023-04-20 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2023-04-20 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: download-sorter
+[2023-04-20 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: postpruner
+[2023-04-20 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crowdcores
+[2023-04-20 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: redscrap
+[2023-04-20 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c65faucet
+[2023-04-20 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discord-qalib
+[2023-04-20 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: postpruner
+[2023-04-20 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mcnets
+[2023-04-20 01:08:04] INFO root fetch - processPackages [crowdcores]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-20 01:08:04] WARNING root fetch - processPackages [download-sorter]: Skipping, unable to determine old version
+[2023-04-20 01:08:04] INFO root fetch - processPackages [download-sorter]: Start processing: foxglove-data-platform
+[2023-04-20 01:08:04] INFO root fetch - main [MainThread]: End processing [download-sorter] error
+[2023-04-20 01:08:04] WARNING root fetch - processPackages [postpruner]: Skipping, unable to determine old version
+[2023-04-20 01:08:04] INFO root fetch - main [MainThread]: End processing [postpruner] error
+[2023-04-20 01:08:04] INFO root fetch - processPackages [c65faucet]: New version: [1.0.48] Old Version: [1.0.47]
+[2023-04-20 01:08:04] WARNING root fetch - processPackages [postpruner]: Skipping, unable to determine old version
+[2023-04-20 01:08:04] INFO root fetch - main [MainThread]: End processing [postpruner] error
+[2023-04-20 01:08:04] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230418] Old Version: [0.7.0b20230417]
+[2023-04-20 01:08:04] INFO root fetch - processPackages [c65faucet]: executing diffoscope
+[2023-04-20 01:08:04] INFO root fetch - processPackages [c65faucet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c65faucet-1.0.47.tar.gz tmp/c65faucet-1.0.48.tar.gz --markdown 20230420/c/c65faucet/1.0.47-1.0.48/diff.md --exclude *.pyd
+[2023-04-20 01:08:04] INFO root fetch - processPackages [mcnets]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-20 01:08:04] INFO root fetch - processPackages [redscrap]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-20 01:08:04] INFO root fetch - processPackages [discord-qalib]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-20 01:08:04] INFO root fetch - processPackages [flwr-nightly]: New version: [1.4.0.dev20230419] Old Version: [1.4.0.dev20230418]
+[2023-04-20 01:08:04] INFO root fetch - processPackages [foxglove-data-platform]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-20 01:08:04] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-04-20 01:08:04] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230417.tar.gz tmp/tmnt-0.7.0b20230418.tar.gz --markdown 20230420/t/tmnt/0.7.0b20230417-0.7.0b20230418/diff.md --exclude *.pyd
+[2023-04-20 01:08:04] INFO root fetch - processPackages [crowdcores]: Downloading https://files.pythonhosted.org/packages/7f/1c/f35d6e216158114cfa44d18a3f930d528a3e5905cb8fabc2f91c77999510/crowdcores-1.0.2.tar.gz
+[2023-04-20 01:08:04] INFO root fetch - processPackages [mcnets]: Downloading https://files.pythonhosted.org/packages/69/77/cff35e9f59226b65c712fc159b22a2c8dad62550d5bf78ef054cb1f365bf/mcnets-0.2.1.tar.gz
+[2023-04-20 01:08:04] INFO root fetch - processPackages [foxglove-data-platform]: Downloading https://files.pythonhosted.org/packages/bf/16/6933727a524cb409f7a70d155439ab9f5849ccffa447e829d8769de02758/foxglove-data-platform-0.4.0.tar.gz
+[2023-04-20 01:08:04] INFO root fetch - processPackages [discord-qalib]: Downloading https://files.pythonhosted.org/packages/c2/b0/9dea6d59ccfba75607942a9e7ede0f5bf70030da2d6f5c97c42d752d17c4/discord-qalib-2.0.0.tar.gz
+[2023-04-20 01:08:04] INFO root fetch - processPackages [crowdcores]: executing diffoscope
+[2023-04-20 01:08:04] INFO root fetch - processPackages [crowdcores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdcores-1.0.1.tar.gz tmp/crowdcores-1.0.2.tar.gz --markdown 20230420/c/crowdcores/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 01:08:04] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/60/e7/5dcb648c2de46d53580197fae3e40dde5b6c085898cf527bd55362c1f345/flwr_nightly-1.4.0.dev20230418.tar.gz
+[2023-04-20 01:08:04] INFO root fetch - processPackages [redscrap]: Downloading https://files.pythonhosted.org/packages/68/f9/0b445dd220aa8769d66d556a172da80481f0036dbbc79e74082601248d80/redscrap-0.0.4-py3-none-any.whl
+[2023-04-20 01:08:04] WARNING root fetch - processPackages [mcnets]: Skipping package: exceeds size limit 24115418>=10485760
+[2023-04-20 01:08:04] INFO root fetch - main [MainThread]: End processing [mcnets] error
+[2023-04-20 01:08:04] INFO root fetch - processPackages [redscrap]: executing diffoscope
+[2023-04-20 01:08:04] INFO root fetch - processPackages [redscrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redscrap-0.0.3-py3-none-any.whl.zip tmp/redscrap-0.0.4-py3-none-any.whl.zip --markdown 20230420/r/redscrap/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-20 01:08:04] INFO root fetch - processPackages [foxglove-data-platform]: Downloading https://files.pythonhosted.org/packages/81/d1/18a2750ebda88610b365f377ab953488e45482495b39354ff46af7f641b0/foxglove-data-platform-0.5.0.tar.gz
+[2023-04-20 01:08:04] INFO root fetch - processPackages [discord-qalib]: Downloading https://files.pythonhosted.org/packages/50/14/8bbd91b4870ac96d871d9934ee21b892730a127f41f2af7ce0a8f1e79f61/discord-qalib-2.1.0.tar.gz
+[2023-04-20 01:08:04] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/f6/f6/3bc2222a18bea6e0c8c206debf96ae2b7278837b4dd6c2ad2f6cd2c16aae/flwr_nightly-1.4.0.dev20230419.tar.gz
+[2023-04-20 01:08:05] INFO root fetch - processPackages [foxglove-data-platform]: executing diffoscope
+[2023-04-20 01:08:05] INFO root fetch - processPackages [foxglove-data-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxglove-data-platform-0.4.0.tar.gz tmp/foxglove-data-platform-0.5.0.tar.gz --markdown 20230420/f/foxglove-data-platform/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-20 01:08:05] INFO root fetch - processPackages [discord-qalib]: executing diffoscope
+[2023-04-20 01:08:05] INFO root fetch - processPackages [discord-qalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-qalib-2.0.0.tar.gz tmp/discord-qalib-2.1.0.tar.gz --markdown 20230420/d/discord-qalib/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-20 01:08:05] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-04-20 01:08:05] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.4.0.dev20230418.tar.gz tmp/flwr_nightly-1.4.0.dev20230419.tar.gz --markdown 20230420/f/flwr-nightly/1.4.0.dev20230418-1.4.0.dev20230419/diff.md --exclude *.pyd
+[2023-04-20 01:08:05] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-04-20 01:08:05] INFO root fetch - main [MainThread]: End processing [crowdcores]: success
+[2023-04-20 01:08:06] INFO root fetch - main [MainThread]: End processing [foxglove-data-platform]: success
+[2023-04-20 01:08:06] INFO root fetch - main [MainThread]: End processing [redscrap]: success
+[2023-04-20 01:08:06] INFO root fetch - main [MainThread]: End processing [discord-qalib]: success
+[2023-04-20 01:08:06] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-04-20 01:08:07] INFO root fetch - main [MainThread]: End processing [c65faucet]: success
+[2023-04-20 01:08:07] INFO root fetch - main [MainThread]: Store serial: [17778153]
