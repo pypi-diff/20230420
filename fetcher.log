@@ -1074,3 +1074,86 @@
 [2023-04-20 01:24:32] INFO root fetch - main [MainThread]: End processing [django-hydrothings]: success
 [2023-04-20 01:24:52] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-04-20 01:24:52] INFO root fetch - main [MainThread]: Store serial: [17778294]
+[2023-04-20 01:29:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17778294]
+[2023-04-20 01:30:02] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-20 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-cloud-gke-hub
+[2023-04-20 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ord-schema
+[2023-04-20 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graph-envs
+[2023-04-20 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipr
+[2023-04-20 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: postpruner
+[2023-04-20 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fprime-tools
+[2023-04-20 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: guidance
+[2023-04-20 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pseudopeople
+[2023-04-20 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: google-cloud-resource-manager
+[2023-04-20 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: postpruner
+[2023-04-20 01:30:02] INFO root fetch - processPackages [fprime-tools]: New version: [3.1.2a4] Old Version: [3.1.2a3]
+[2023-04-20 01:30:02] INFO root fetch - processPackages [fprime-tools]: executing diffoscope
+[2023-04-20 01:30:02] INFO root fetch - processPackages [fprime-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime-tools-3.1.2a3.tar.gz tmp/fprime-tools-3.1.2a4.tar.gz --markdown 20230420/f/fprime-tools/3.1.2a3-3.1.2a4/diff.md --exclude *.pyd
+[2023-04-20 01:30:02] INFO root fetch - processPackages [google-cloud-gke-hub]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-20 01:30:02] INFO root fetch - processPackages [guidance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 01:30:02] INFO root fetch - processPackages [postpruner]: New version: [0.9] Old Version: [0.8]
+[2023-04-20 01:30:02] INFO root fetch - processPackages [postpruner]: New version: [0.9] Old Version: [0.8]
+[2023-04-20 01:30:02] INFO root fetch - processPackages [ord-schema]: New version: [0.3.47] Old Version: [0.3.46]
+[2023-04-20 01:30:02] INFO root fetch - processPackages [ipr]: New version: [3.8.0] Old Version: [3.7.1]
+[2023-04-20 01:30:02] INFO root fetch - processPackages [graph-envs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 01:30:02] INFO root fetch - processPackages [pseudopeople]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-20 01:30:02] INFO root fetch - processPackages [google-cloud-resource-manager]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-20 01:30:02] INFO root fetch - processPackages [ord-schema]: Downloading https://files.pythonhosted.org/packages/47/c5/d9f064abeca90b92acbe2bbbecdfcf37fe22585d68a81aee187418afdcb5/ord-schema-0.3.46.tar.gz
+[2023-04-20 01:30:02] INFO root fetch - processPackages [google-cloud-gke-hub]: Downloading https://files.pythonhosted.org/packages/cb/5a/013f89a145f10d3770ad987d8a746f47df705c5f2d65151003b77e1d1aa7/google-cloud-gke-hub-1.8.1.tar.gz
+[2023-04-20 01:30:03] INFO root fetch - processPackages [pseudopeople]: Downloading https://files.pythonhosted.org/packages/79/15/901f13869114274d61bc2313157e0dde5b2ab8743f62b5b920c9508a81ed/pseudopeople-0.5.1.tar.gz
+[2023-04-20 01:30:03] INFO root fetch - processPackages [google-cloud-resource-manager]: Downloading https://files.pythonhosted.org/packages/da/34/fbcd3ce991dc7a1c0d7bb6793c547c0f8b9ce0c127e3c62007ad190efbc1/google-cloud-resource-manager-1.9.0.tar.gz
+[2023-04-20 01:30:03] INFO root fetch - processPackages [postpruner]: executing diffoscope
+[2023-04-20 01:30:03] INFO root fetch - processPackages [postpruner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postpruner-0.8.tar.gz tmp/postpruner-0.9.tar.gz --markdown 20230420/p/postpruner/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-20 01:30:03] INFO root fetch - processPackages [graph-envs]: Downloading https://files.pythonhosted.org/packages/04/f2/27668b746055c29a37c7498375cc1456cef849cef80f9c0b8749a0b9095b/graph-envs-0.0.8.tar.gz
+[2023-04-20 01:30:03] INFO root fetch - processPackages [ipr]: Downloading https://files.pythonhosted.org/packages/ba/17/9b63c942cb6e7f6b46ac5db366f755c3a0b884d374e28d716f02d2a7c49d/ipr-3.7.1.tar.gz
+[2023-04-20 01:30:03] INFO root fetch - processPackages [postpruner]: executing diffoscope
+[2023-04-20 01:30:03] INFO root fetch - processPackages [postpruner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postpruner-0.8.tar.gz tmp/postpruner-0.9.tar.gz --markdown 20230420/p/postpruner/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-20 01:30:03] WARNING root fetch - processPackages [pseudopeople]: Skipping package: exceeds size limit 10493012>=10485760
+[2023-04-20 01:30:03] INFO root fetch - processPackages [pseudopeople]: Start processing: glapi
+[2023-04-20 01:30:03] INFO root fetch - main [MainThread]: End processing [pseudopeople] error
+[2023-04-20 01:30:03] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2023-04-20 01:30:03] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.0.8.tar.gz tmp/guidance-0.0.9.tar.gz --markdown 20230420/g/guidance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 01:30:03] INFO root fetch - processPackages [ord-schema]: Downloading https://files.pythonhosted.org/packages/86/9f/78a70d6b97d0373ecb092fe55b91db703035ed06d9408d064e04dbb19d78/ord-schema-0.3.47.tar.gz
+[2023-04-20 01:30:03] INFO root fetch - processPackages [google-cloud-gke-hub]: Downloading https://files.pythonhosted.org/packages/eb/b2/bae02764ddea68858d90cb4dda1ff2005a0bab4663fbd44711ebadcdf65d/google-cloud-gke-hub-1.9.0.tar.gz
+[2023-04-20 01:30:03] INFO root fetch - processPackages [glapi]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-20 01:30:03] INFO root fetch - processPackages [ipr]: Downloading https://files.pythonhosted.org/packages/da/02/d3487776bad0f4fd600123b578274ec2381ffa8afff5c5122d0787e50192/ipr-3.8.0.tar.gz
+[2023-04-20 01:30:03] INFO root fetch - processPackages [ord-schema]: executing diffoscope
+[2023-04-20 01:30:03] INFO root fetch - processPackages [ord-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ord-schema-0.3.46.tar.gz tmp/ord-schema-0.3.47.tar.gz --markdown 20230420/o/ord-schema/0.3.46-0.3.47/diff.md --exclude *.pyd
+[2023-04-20 01:30:03] INFO root fetch - processPackages [google-cloud-resource-manager]: Downloading https://files.pythonhosted.org/packages/70/07/dd62c78a8d599a9707ffa8f7795a086f2cb2707e0dd3509263ac1436af79/google-cloud-resource-manager-1.9.1.tar.gz
+[2023-04-20 01:30:03] INFO root fetch - processPackages [ipr]: executing diffoscope
+[2023-04-20 01:30:03] INFO root fetch - processPackages [ipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipr-3.7.1.tar.gz tmp/ipr-3.8.0.tar.gz --markdown 20230420/i/ipr/3.7.1-3.8.0/diff.md --exclude *.pyd
+[2023-04-20 01:30:03] INFO root fetch - processPackages [glapi]: Downloading https://files.pythonhosted.org/packages/e6/fd/c435160d43e67140151e85b98211ec79f26545d210354470ed98acd1f808/glapi-0.7.2.tar.gz
+[2023-04-20 01:30:03] INFO root fetch - processPackages [google-cloud-gke-hub]: executing diffoscope
+[2023-04-20 01:30:03] INFO root fetch - processPackages [google-cloud-gke-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-gke-hub-1.8.1.tar.gz tmp/google-cloud-gke-hub-1.9.0.tar.gz --markdown 20230420/g/google-cloud-gke-hub/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 01:30:03] INFO root fetch - processPackages [graph-envs]: Downloading https://files.pythonhosted.org/packages/4d/b2/31d92c42dd199b971b6afa83ea3f4bd903c59fa760f2c2397c8e5be0a6d1/graph-envs-0.0.9.tar.gz
+[2023-04-20 01:30:03] INFO root fetch - processPackages [google-cloud-resource-manager]: executing diffoscope
+[2023-04-20 01:30:03] INFO root fetch - processPackages [google-cloud-resource-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-resource-manager-1.9.0.tar.gz tmp/google-cloud-resource-manager-1.9.1.tar.gz --markdown 20230420/g/google-cloud-resource-manager/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-20 01:30:03] INFO root fetch - processPackages [glapi]: Downloading https://files.pythonhosted.org/packages/fd/1e/a37759c06e2980e7cd45db21dfa010b69eba3aba26959963ddb64a3e8b4a/glapi-0.7.3.tar.gz
+[2023-04-20 01:30:03] INFO root fetch - processPackages [graph-envs]: executing diffoscope
+[2023-04-20 01:30:03] INFO root fetch - processPackages [graph-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-envs-0.0.8.tar.gz tmp/graph-envs-0.0.9.tar.gz --markdown 20230420/g/graph-envs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 01:30:03] INFO root fetch - processPackages [glapi]: executing diffoscope
+[2023-04-20 01:30:03] INFO root fetch - processPackages [glapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glapi-0.7.2.tar.gz tmp/glapi-0.7.3.tar.gz --markdown 20230420/g/glapi/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-20 01:30:04] INFO root fetch - processPackages [postpruner]: Start processing: niceplots
+[2023-04-20 01:30:04] INFO root fetch - main [MainThread]: End processing [postpruner]: success
+[2023-04-20 01:30:04] INFO root fetch - processPackages [postpruner]: Start processing: html2info
+[2023-04-20 01:30:04] INFO root fetch - main [MainThread]: End processing [postpruner]: success
+[2023-04-20 01:30:04] WARNING root fetch - processPackages [html2info]: Skipping, unable to determine old version
+[2023-04-20 01:30:04] INFO root fetch - processPackages [html2info]: Start processing: netbox-validity
+[2023-04-20 01:30:04] INFO root fetch - main [MainThread]: End processing [html2info] error
+[2023-04-20 01:30:04] INFO root fetch - processPackages [niceplots]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-20 01:30:04] WARNING root fetch - processPackages [netbox-validity]: Skipping, unable to determine old version
+[2023-04-20 01:30:04] INFO root fetch - main [MainThread]: End processing [netbox-validity] error
+[2023-04-20 01:30:04] INFO root fetch - main [MainThread]: End processing [guidance]: success
+[2023-04-20 01:30:04] INFO root fetch - processPackages [niceplots]: Downloading https://files.pythonhosted.org/packages/93/b6/98fbbe1f78a9d709b9e7d65b7402dde8d2f300dade0d0ebad5a17c7ec6c5/niceplots-2.1.0-py3-none-any.whl
+[2023-04-20 01:30:04] INFO root fetch - processPackages [niceplots]: Downloading https://files.pythonhosted.org/packages/89/7f/f6eb58cb399b0b4e2fee8464094f684100c6cd71fefc071385d3920cea60/niceplots-2.2.0-py3-none-any.whl
+[2023-04-20 01:30:04] INFO root fetch - processPackages [niceplots]: executing diffoscope
+[2023-04-20 01:30:04] INFO root fetch - processPackages [niceplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niceplots-2.1.0-py3-none-any.whl.zip tmp/niceplots-2.2.0-py3-none-any.whl.zip --markdown 20230420/n/niceplots/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-20 01:30:05] INFO root fetch - main [MainThread]: End processing [glapi]: success
+[2023-04-20 01:30:05] INFO root fetch - main [MainThread]: End processing [graph-envs]: success
+[2023-04-20 01:30:05] INFO root fetch - main [MainThread]: End processing [ipr]: success
+[2023-04-20 01:30:05] INFO root fetch - main [MainThread]: End processing [fprime-tools]: success
+[2023-04-20 01:30:05] INFO root fetch - main [MainThread]: End processing [google-cloud-resource-manager]: success
+[2023-04-20 01:30:05] INFO root fetch - main [MainThread]: End processing [niceplots]: success
+[2023-04-20 01:30:06] INFO root fetch - main [MainThread]: End processing [ord-schema]: success
+[2023-04-20 01:30:07] INFO root fetch - main [MainThread]: End processing [google-cloud-gke-hub]: success
+[2023-04-20 01:30:07] INFO root fetch - main [MainThread]: Store serial: [17778334]
