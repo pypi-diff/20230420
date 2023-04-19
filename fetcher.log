@@ -162,3 +162,83 @@
 [2023-04-20 00:08:32] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-04-20 00:08:46] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
 [2023-04-20 00:08:46] INFO root fetch - main [MainThread]: Store serial: [17777629]
+[2023-04-20 00:13:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17777629]
+[2023-04-20 00:13:58] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edl-reader
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exceptnotifier
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ream2
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: JupyterPiDAQ
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: osin
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kwil
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reflutter
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-aws
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-openstack
+[2023-04-20 00:13:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-20 00:13:58] INFO root fetch - processPackages [exceptnotifier]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 00:13:58] INFO root fetch - processPackages [reflutter]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-04-20 00:13:58] INFO root fetch - processPackages [pulumi-aws]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-04-20 00:13:58] WARNING root fetch - processPackages [edl-reader]: Skipping, unable to determine old version
+[2023-04-20 00:13:58] INFO root fetch - processPackages [edl-reader]: Start processing: bowtie-json-schema
+[2023-04-20 00:13:58] INFO root fetch - main [MainThread]: End processing [edl-reader] error
+[2023-04-20 00:13:58] INFO root fetch - processPackages [JupyterPiDAQ]: New version: [0.8.0.dev0] Old Version: [0.7.9]
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ream2]: New version: [2.5.2] Old Version: [2.3.0]
+[2023-04-20 00:13:58] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-04-20 00:13:58] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.1.8.tar.gz tmp/exceptnotifier-0.1.9.tar.gz --markdown 20230420/e/exceptnotifier/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 00:13:58] INFO root fetch - processPackages [osin]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-20 00:13:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-04-20 00:13:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230420/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-20 00:13:58] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2023-04-20 00:13:58] INFO root fetch - processPackages [bowtie-json-schema]: New version: [0.9.1] Old Version: [0.84.0]
+[2023-04-20 00:13:58] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-04-20 00:13:58] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-5.9.1.tar.gz tmp/pulumi_aws-5.9.2.tar.gz --markdown 20230420/p/pulumi-aws/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-04-20 00:13:58] INFO root fetch - processPackages [reflutter]: Downloading https://files.pythonhosted.org/packages/5f/e1/60237ac8379ba72147ab70f50be244dd3bae36e2947a0c9b51c5e0a53187/reflutter-0.7.6.tar.gz
+[2023-04-20 00:13:58] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2023-04-20 00:13:58] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-0.84.0.tar.gz tmp/bowtie_json_schema-0.9.1.tar.gz --markdown 20230420/b/bowtie-json-schema/0.84.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 00:13:58] INFO root fetch - processPackages [reflutter]: executing diffoscope
+[2023-04-20 00:13:58] INFO root fetch - processPackages [reflutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflutter-0.7.5.tar.gz tmp/reflutter-0.7.6.tar.gz --markdown 20230420/r/reflutter/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/1d/9d/5deea17fd6245dcc5485fa9b0c5efe36ea985a158c94b30e94ec689981f3/ream2-2.3.0.tar.gz
+[2023-04-20 00:13:58] INFO root fetch - processPackages [kwil]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 00:13:58] INFO root fetch - processPackages [osin]: Downloading https://files.pythonhosted.org/packages/b7/66/b3d35a8a1e0f8be54bddb8ac00787d75ed3fe79a8c09313e16bc478e7382/osin-1.9.1.tar.gz
+[2023-04-20 00:13:58] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/d3/71/f44ec1db9dca48765ce44a3fed8ef84ab1e30177a90449c9cb6bfb4c98b2/ream2-2.5.2.tar.gz
+[2023-04-20 00:13:58] INFO root fetch - processPackages [kwil]: Downloading https://files.pythonhosted.org/packages/50/3b/24701a642f89141681fb0fba311db4dc80c49d369f4c30fe17d35ba3af28/kwil-0.0.2.tar.gz
+[2023-04-20 00:13:58] INFO root fetch - processPackages [JupyterPiDAQ]: Downloading https://files.pythonhosted.org/packages/38/77/eaf72c48ef83deaf3d249c2c38768ce85fb22b04a4310092b756f7fce424/JupyterPiDAQ-0.7.9.tar.gz
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ream2]: executing diffoscope
+[2023-04-20 00:13:58] INFO root fetch - processPackages [ream2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ream2-2.3.0.tar.gz tmp/ream2-2.5.2.tar.gz --markdown 20230420/r/ream2/2.3.0-2.5.2/diff.md --exclude *.pyd
+[2023-04-20 00:13:58] INFO root fetch - processPackages [osin]: Downloading https://files.pythonhosted.org/packages/e5/5b/884d1d51d27b2e5b3c47af2788fcc5f6fb94c389ff4ccad981a3b4dabf02/osin-1.9.2.tar.gz
+[2023-04-20 00:13:58] INFO root fetch - processPackages [kwil]: Downloading https://files.pythonhosted.org/packages/4a/4b/67f932fbf78f0fd3dc75f007bc474631e8b714e0653a875aefea53e35d49/kwil-0.0.3.tar.gz
+[2023-04-20 00:13:58] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2023-04-20 00:13:58] INFO root fetch - processPackages [JupyterPiDAQ]: Downloading https://files.pythonhosted.org/packages/fe/d0/785fba4e06df8badb7e504c22a3c9169fdda308213206d5f6dde23005cc8/JupyterPiDAQ-0.8.0.dev0.tar.gz
+[2023-04-20 00:13:58] INFO root fetch - processPackages [osin]: executing diffoscope
+[2023-04-20 00:13:58] INFO root fetch - processPackages [osin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osin-1.9.1.tar.gz tmp/osin-1.9.2.tar.gz --markdown 20230420/o/osin/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-20 00:13:58] INFO root fetch - processPackages [kwil]: executing diffoscope
+[2023-04-20 00:13:58] INFO root fetch - processPackages [kwil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwil-0.0.2.tar.gz tmp/kwil-0.0.3.tar.gz --markdown 20230420/k/kwil/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 00:13:59] INFO root fetch - processPackages [JupyterPiDAQ]: executing diffoscope
+[2023-04-20 00:13:59] INFO root fetch - processPackages [JupyterPiDAQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JupyterPiDAQ-0.7.9.tar.gz tmp/JupyterPiDAQ-0.8.0.dev0.tar.gz --markdown 20230420/J/JupyterPiDAQ/0.7.9-0.8.0.dev0/diff.md --exclude *.pyd
+[2023-04-20 00:13:59] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2023-04-20 00:13:59] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20230420/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/diff.md --exclude *.pyd
+[2023-04-20 00:13:59] INFO root fetch - processPackages [bowtie-json-schema]: Start processing: dcTrackClient
+[2023-04-20 00:13:59] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2023-04-20 00:14:00] INFO root fetch - processPackages [dcTrackClient]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-04-20 00:14:00] INFO root fetch - processPackages [reflutter]: Start processing: Izmon
+[2023-04-20 00:14:00] INFO root fetch - main [MainThread]: End processing [reflutter]: success
+[2023-04-20 00:14:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-04-20 00:14:00] INFO root fetch - processPackages [Izmon]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-20 00:14:00] INFO root fetch - processPackages [dcTrackClient]: Downloading https://files.pythonhosted.org/packages/4e/57/8c3e5f391620749757fe9439fb6a9b247305c250f306c404c5834cb769cd/dctrackclient-0.1.2.tar.gz
+[2023-04-20 00:14:00] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-04-20 00:14:00] INFO root fetch - processPackages [Izmon]: Downloading https://files.pythonhosted.org/packages/4a/5c/3414bd30082b00244c3e0e390e5e747b12601c89907be31a803ffab742f7/Izmon-1.1.2.tar.gz
+[2023-04-20 00:14:00] INFO root fetch - processPackages [dcTrackClient]: Downloading https://files.pythonhosted.org/packages/e2/47/4ed4fb76238380ef09681947dde5f7657c1e06d503e0b72dd6bd05ea16c5/dctrackclient-0.2.0.tar.gz
+[2023-04-20 00:14:00] INFO root fetch - main [MainThread]: End processing [osin]: success
+[2023-04-20 00:14:00] INFO root fetch - processPackages [Izmon]: executing diffoscope
+[2023-04-20 00:14:00] INFO root fetch - processPackages [Izmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Izmon-1.1.1.tar.gz tmp/Izmon-1.1.2.tar.gz --markdown 20230420/I/Izmon/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-20 00:14:00] INFO root fetch - main [MainThread]: End processing [JupyterPiDAQ]: success
+[2023-04-20 00:14:00] INFO root fetch - main [MainThread]: End processing [ream2]: success
+[2023-04-20 00:14:00] INFO root fetch - processPackages [dcTrackClient]: executing diffoscope
+[2023-04-20 00:14:00] INFO root fetch - processPackages [dcTrackClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dctrackclient-0.1.2.tar.gz tmp/dctrackclient-0.2.0.tar.gz --markdown 20230420/d/dcTrackClient/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 00:14:00] INFO root fetch - main [MainThread]: End processing [kwil]: success
+[2023-04-20 00:14:01] INFO root fetch - main [MainThread]: End processing [dcTrackClient]: success
+[2023-04-20 00:14:02] INFO root fetch - main [MainThread]: End processing [Izmon]: success
+[2023-04-20 00:14:07] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2023-04-20 00:14:35] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-04-20 00:14:35] INFO root fetch - main [MainThread]: Store serial: [17777686]
