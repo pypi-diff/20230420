@@ -662,3 +662,105 @@
 [2023-04-20 00:57:34] INFO root fetch - main [MainThread]: End processing [astrodown]: success
 [2023-04-20 00:57:34] INFO root fetch - main [MainThread]: End processing [svtplay-dl]: success
 [2023-04-20 00:57:34] INFO root fetch - main [MainThread]: Store serial: [17778070]
+[2023-04-20 01:02:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17778070]
+[2023-04-20 01:02:43] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-20 01:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: debloat
+[2023-04-20 01:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twitter-api-client
+[2023-04-20 01:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: turbo-queue
+[2023-04-20 01:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crowdcores
+[2023-04-20 01:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: backendpy
+[2023-04-20 01:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naruno
+[2023-04-20 01:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cssfinder-backend-rust
+[2023-04-20 01:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: naruno-api
+[2023-04-20 01:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: naruno-gui
+[2023-04-20 01:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: naruno-remote-app
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno-api]: New version: [0.57.0] Old Version: [0.56.7]
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno]: New version: [0.57.0] Old Version: [0.56.7]
+[2023-04-20 01:02:43] INFO root fetch - processPackages [crowdcores]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno-remote-app]: New version: [0.57.0] Old Version: [0.56.7]
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno-gui]: New version: [0.57.0] Old Version: [0.56.7]
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno]: executing diffoscope
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno-0.56.7.tar.gz tmp/naruno-0.57.0.tar.gz --markdown 20230420/n/naruno/0.56.7-0.57.0/diff.md --exclude *.pyd
+[2023-04-20 01:02:43] INFO root fetch - processPackages [backendpy]: New version: [0.2.4a5] Old Version: [0.2.4a4]
+[2023-04-20 01:02:43] INFO root fetch - processPackages [turbo-queue]: New version: [0.7.0.0] Old Version: [0.5.2.2]
+[2023-04-20 01:02:43] INFO root fetch - processPackages [debloat]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-20 01:02:43] WARNING root fetch - processPackages [cssfinder-backend-rust]: Skipping, unable to determine old version
+[2023-04-20 01:02:43] INFO root fetch - processPackages [cssfinder-backend-rust]: Start processing: naruno-tests
+[2023-04-20 01:02:43] INFO root fetch - main [MainThread]: End processing [cssfinder-backend-rust] error
+[2023-04-20 01:02:43] INFO root fetch - processPackages [twitter-api-client]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno-gui]: executing diffoscope
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_gui-0.56.7.tar.gz tmp/naruno_gui-0.57.0.tar.gz --markdown 20230420/n/naruno-gui/0.56.7-0.57.0/diff.md --exclude *.pyd
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno-tests]: New version: [0.57.0] Old Version: [0.56.7]
+[2023-04-20 01:02:43] INFO root fetch - processPackages [crowdcores]: Downloading https://files.pythonhosted.org/packages/50/5d/592f3423846ef64072ff1f137b9e9f3c7763d438320efc437d5c612c1493/crowdcores-1.0.0.tar.gz
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno-remote-app]: executing diffoscope
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno-remote-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_remote_app-0.56.7.tar.gz tmp/naruno_remote_app-0.57.0.tar.gz --markdown 20230420/n/naruno-remote-app/0.56.7-0.57.0/diff.md --exclude *.pyd
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno-tests]: executing diffoscope
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_tests-0.56.7.tar.gz tmp/naruno_tests-0.57.0.tar.gz --markdown 20230420/n/naruno-tests/0.56.7-0.57.0/diff.md --exclude *.pyd
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno-api]: executing diffoscope
+[2023-04-20 01:02:43] INFO root fetch - processPackages [naruno-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naruno_api-0.56.7.tar.gz tmp/naruno_api-0.57.0.tar.gz --markdown 20230420/n/naruno-api/0.56.7-0.57.0/diff.md --exclude *.pyd
+[2023-04-20 01:02:43] INFO root fetch - processPackages [debloat]: Downloading https://files.pythonhosted.org/packages/c3/a6/8d1ef6f3a3cf7966d66336b11d6eebd4c38d437898626095ada9b991444e/debloat-1.3.1.tar.gz
+[2023-04-20 01:02:43] INFO root fetch - processPackages [backendpy]: Downloading https://files.pythonhosted.org/packages/9d/70/9218fc82b6a1413d7f2566d7b7247deb215a0cc6861f3d164d7dadd35b3d/backendpy-0.2.4a4.tar.gz
+[2023-04-20 01:02:43] INFO root fetch - processPackages [turbo-queue]: Downloading https://files.pythonhosted.org/packages/a2/bb/3a858f05bc6d9905bca34666b71cdecfcb8acb1952b56383d6d66add99ab/turbo_queue-0.7.0.0.tar.gz
+[2023-04-20 01:02:43] INFO root fetch - processPackages [crowdcores]: Downloading https://files.pythonhosted.org/packages/ae/d4/5d9209165b47fee4f9dc9c3c72198f50e7726f99eeaaf29268c3dc5efc3c/crowdcores-1.0.1.tar.gz
+[2023-04-20 01:02:43] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/31/94/6e972c6e4ab005b40731f7250cd9464291b97c2096e3a0661c29d9c7ce13/twitter-api-client-0.6.6.tar.gz
+[2023-04-20 01:02:44] INFO root fetch - processPackages [crowdcores]: executing diffoscope
+[2023-04-20 01:02:44] INFO root fetch - processPackages [crowdcores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdcores-1.0.0.tar.gz tmp/crowdcores-1.0.1.tar.gz --markdown 20230420/c/crowdcores/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-20 01:02:44] INFO root fetch - processPackages [turbo-queue]: executing diffoscope
+[2023-04-20 01:02:44] INFO root fetch - processPackages [turbo-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo_queue-0.5.2.2.tar.gz tmp/turbo_queue-0.7.0.0.tar.gz --markdown 20230420/t/turbo-queue/0.5.2.2-0.7.0.0/diff.md --exclude *.pyd
+[2023-04-20 01:02:44] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-04-20 01:02:44] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.6.5.tar.gz tmp/twitter-api-client-0.6.6.tar.gz --markdown 20230420/t/twitter-api-client/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-04-20 01:02:44] INFO root fetch - processPackages [debloat]: Downloading https://files.pythonhosted.org/packages/94/46/f8141d8cee5741c754aee3fbcf3dbe17bafa87db196b02db1de019b18fb1/debloat-1.3.2.tar.gz
+[2023-04-20 01:02:44] INFO root fetch - processPackages [backendpy]: Downloading https://files.pythonhosted.org/packages/42/ab/4b008bd6a35dccfcf6ecbfe253cd54369a787cbade77284a44d6a5304d82/backendpy-0.2.4a5.tar.gz
+[2023-04-20 01:02:44] INFO root fetch - processPackages [debloat]: executing diffoscope
+[2023-04-20 01:02:44] INFO root fetch - processPackages [debloat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debloat-1.3.1.tar.gz tmp/debloat-1.3.2.tar.gz --markdown 20230420/d/debloat/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-20 01:02:44] INFO root fetch - processPackages [backendpy]: executing diffoscope
+[2023-04-20 01:02:44] INFO root fetch - processPackages [backendpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backendpy-0.2.4a4.tar.gz tmp/backendpy-0.2.4a5.tar.gz --markdown 20230420/b/backendpy/0.2.4a4-0.2.4a5/diff.md --exclude *.pyd
+[2023-04-20 01:02:45] INFO root fetch - processPackages [naruno-remote-app]: Start processing: up-fmap
+[2023-04-20 01:02:45] INFO root fetch - main [MainThread]: End processing [naruno-remote-app]: success
+[2023-04-20 01:02:45] INFO root fetch - processPackages [naruno-gui]: Start processing: download-sorter
+[2023-04-20 01:02:45] INFO root fetch - main [MainThread]: End processing [naruno-gui]: success
+[2023-04-20 01:02:45] INFO root fetch - processPackages [up-fmap]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-20 01:02:45] WARNING root fetch - processPackages [download-sorter]: Skipping, unable to determine old version
+[2023-04-20 01:02:45] INFO root fetch - processPackages [download-sorter]: Start processing: alacorder
+[2023-04-20 01:02:45] INFO root fetch - main [MainThread]: End processing [download-sorter] error
+[2023-04-20 01:02:45] INFO root fetch - processPackages [naruno-tests]: Start processing: BIDSit
+[2023-04-20 01:02:45] INFO root fetch - main [MainThread]: End processing [naruno-tests]: success
+[2023-04-20 01:02:45] INFO root fetch - processPackages [alacorder]: New version: [79.5.1] Old Version: [79.5.0]
+[2023-04-20 01:02:45] INFO root fetch - processPackages [naruno-api]: Start processing: ipfsclient
+[2023-04-20 01:02:45] INFO root fetch - main [MainThread]: End processing [naruno-api]: success
+[2023-04-20 01:02:45] INFO root fetch - processPackages [ipfsclient]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-20 01:02:45] INFO root fetch - processPackages [BIDSit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 01:02:45] INFO root fetch - processPackages [ipfsclient]: executing diffoscope
+[2023-04-20 01:02:45] INFO root fetch - processPackages [ipfsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfsclient-0.0.5.tar.gz tmp/ipfsclient-0.0.6-py3-none-any.whl.zip --markdown 20230420/i/ipfsclient/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-20 01:02:45] INFO root fetch - processPackages [up-fmap]: Downloading https://files.pythonhosted.org/packages/47/62/d4d8ad91743d9eb4aaacb0a22e59afd0aeb1c6446a3e6fe14dab7a3bd32b/up_fmap-0.0.4.tar.gz
+[2023-04-20 01:02:45] INFO root fetch - processPackages [crowdcores]: Start processing: python-Levenshtein
+[2023-04-20 01:02:45] INFO root fetch - main [MainThread]: End processing [crowdcores]: success
+[2023-04-20 01:02:45] INFO root fetch - processPackages [up-fmap]: executing diffoscope
+[2023-04-20 01:02:45] INFO root fetch - processPackages [up-fmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_fmap-0.0.3.tar.gz tmp/up_fmap-0.0.4.tar.gz --markdown 20230420/u/up-fmap/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-20 01:02:45] INFO root fetch - processPackages [python-Levenshtein]: New version: [0.21.0] Old Version: [0.20.9]
+[2023-04-20 01:02:45] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/28/dd/311633a5cbed0a84f4b78f7eb42f7c80138861e4e68d0a01f65cb7c8c8f8/alacorder-79.5.1.tar.gz
+[2023-04-20 01:02:45] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/7a/f2/2f933e8adcb74d69c2f4824fa01e4397362a7418037d0b2b9037dfaffc27/BIDSit-0.0.3.tar.gz
+[2023-04-20 01:02:45] INFO root fetch - processPackages [twitter-api-client]: Start processing: tmnt-cu101
+[2023-04-20 01:02:45] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-04-20 01:02:45] INFO root fetch - main [MainThread]: End processing [turbo-queue]: success
+[2023-04-20 01:02:45] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230418] Old Version: [0.7.0b20230417]
+[2023-04-20 01:02:45] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-20 01:02:45] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.5.0.tar.gz tmp/alacorder-79.5.1.tar.gz --markdown 20230420/a/alacorder/79.5.0-79.5.1/diff.md --exclude *.pyd
+[2023-04-20 01:02:45] INFO root fetch - processPackages [python-Levenshtein]: Downloading https://files.pythonhosted.org/packages/59/f9/2c0153d4e0e552234626142b6c0d97d0b638bdd55724da40a18d0b6e8d39/python-Levenshtein-0.20.9.tar.gz
+[2023-04-20 01:02:45] INFO root fetch - processPackages [BIDSit]: executing diffoscope
+[2023-04-20 01:02:45] INFO root fetch - processPackages [BIDSit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BIDSit-0.0.2.tar.gz tmp/BIDSit-0.0.3.tar.gz --markdown 20230420/B/BIDSit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 01:02:45] INFO root fetch - main [MainThread]: End processing [debloat]: success
+[2023-04-20 01:02:45] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-04-20 01:02:45] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230417.tar.gz tmp/tmnt-cu101-0.7.0b20230418.tar.gz --markdown 20230420/t/tmnt-cu101/0.7.0b20230417-0.7.0b20230418/diff.md --exclude *.pyd
+[2023-04-20 01:02:45] INFO root fetch - main [MainThread]: End processing [backendpy]: success
+[2023-04-20 01:02:46] INFO root fetch - processPackages [python-Levenshtein]: Downloading https://files.pythonhosted.org/packages/f2/6b/4a03914df5e8a76a7dab8eeade75cbc87790823f293a11a77f25ed9524bd/python-Levenshtein-0.21.0.tar.gz
+[2023-04-20 01:02:46] INFO root fetch - processPackages [python-Levenshtein]: executing diffoscope
+[2023-04-20 01:02:46] INFO root fetch - processPackages [python-Levenshtein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-Levenshtein-0.20.9.tar.gz tmp/python-Levenshtein-0.21.0.tar.gz --markdown 20230420/p/python-Levenshtein/0.20.9-0.21.0/diff.md --exclude *.pyd
+[2023-04-20 01:02:46] INFO root fetch - main [MainThread]: End processing [ipfsclient]: success
+[2023-04-20 01:02:46] INFO root fetch - main [MainThread]: End processing [naruno]: success
+[2023-04-20 01:02:46] INFO root fetch - main [MainThread]: End processing [up-fmap]: success
+[2023-04-20 01:02:47] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-04-20 01:02:47] INFO root fetch - main [MainThread]: End processing [python-Levenshtein]: success
+[2023-04-20 01:02:47] INFO root fetch - main [MainThread]: End processing [BIDSit]: success
+[2023-04-20 01:02:55] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-20 01:02:55] INFO root fetch - main [MainThread]: Store serial: [17778124]
