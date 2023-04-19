@@ -53,3 +53,112 @@
 [2023-04-20 00:03:09] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
 [2023-04-20 00:03:11] INFO root fetch - main [MainThread]: End processing [ethraid]: success
 [2023-04-20 00:03:11] INFO root fetch - main [MainThread]: Store serial: [17777561]
+[2023-04-20 00:08:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17777561]
+[2023-04-20 00:08:20] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-20 00:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-slack
+[2023-04-20 00:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-source-risk-engine
+[2023-04-20 00:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faker-file
+[2023-04-20 00:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bleak
+[2023-04-20 00:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crowdcores-node
+[2023-04-20 00:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astrohack
+[2023-04-20 00:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-ckeditor-link
+[2023-04-20 00:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-github
+[2023-04-20 00:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sem-desc
+[2023-04-20 00:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-postgresql
+[2023-04-20 00:08:20] INFO root fetch - processPackages [astrohack]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 00:08:20] INFO root fetch - processPackages [crowdcores-node]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-04-20 00:08:20] INFO root fetch - processPackages [django-ckeditor-link]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-04-20 00:08:20] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-20 00:08:20] INFO root fetch - processPackages [open-source-risk-engine]: New version: [1.8.9.2] Old Version: [1.8.9.1]
+[2023-04-20 00:08:20] INFO root fetch - processPackages [bleak]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-20 00:08:20] INFO root fetch - processPackages [pulumi-slack]: New version: [0.4.2a1681937753] Old Version: [0.4.2a1680911772]
+[2023-04-20 00:08:20] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1681940795] Old Version: [3.9.0a1680912861]
+[2023-04-20 00:08:20] INFO root fetch - processPackages [sem-desc]: New version: [4.5.0] Old Version: [4.4.4]
+[2023-04-20 00:08:20] INFO root fetch - processPackages [pulumi-github]: New version: [5.8.0a1681938440] Old Version: [5.8.0a1681929454]
+[2023-04-20 00:08:20] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-04-20 00:08:20] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230420/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-20 00:08:20] INFO root fetch - processPackages [crowdcores-node]: Downloading https://files.pythonhosted.org/packages/e5/af/b554aac0de8cd1fc9b0d6cecfd2853ba5ec0a6006f76ef5e0893bd505a35/crowdcores-node-1.0.9.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [sem-desc]: Downloading https://files.pythonhosted.org/packages/4c/aa/8a6284029f539cd832e0302d7052c2e43df7b41fd2ecd5bc2d7f70b47018/sem_desc-4.4.4.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [django-ckeditor-link]: Downloading https://files.pythonhosted.org/packages/5b/92/83dd3d0850eb1ec8274c106b8ebcf27740872d3e86f1c34f5e64b7df6d05/django-ckeditor-link-0.4.4.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [open-source-risk-engine]: Downloading https://files.pythonhosted.org/packages/59/de/eba2810a44d2c93a50f86f327cb4a212096d0616a9fcb5ac33767352581d/open_source_risk_engine-1.8.9.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-04-20 00:08:20] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/9d/9b/1a26a02d0c07d440b1ea627b846feb91bcbe74ebee0a216192981ffdbd9b/pulumi_slack-0.4.2a1680911772.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/c4/9a/e41e465678dc52c31de5a872492ff34b8a08bbb219ad9abe43ed44204099/pulumi_postgresql-3.9.0a1680912861.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [bleak]: Downloading https://files.pythonhosted.org/packages/e8/33/141a68b8770fc339dd0ddc0e1b5704bdd42bfe5755feaec56120954da614/bleak-0.9.0.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/f9/6b/83f74ef90b0a0544a0e351b4727582250bcbee476abb6ea72abfa9b03bd1/pulumi_github-5.8.0a1681938440.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [astrohack]: Downloading https://files.pythonhosted.org/packages/db/0a/b3924a0bdb11fea53931e49e847e37d17dfc0ecfcac0befd07e47d97f938/astrohack-0.0.8.tar.gz
+[2023-04-20 00:08:20] WARNING root fetch - processPackages [open-source-risk-engine]: Skipping package: exceeds size limit 19019930>=10485760
+[2023-04-20 00:08:20] INFO root fetch - processPackages [open-source-risk-engine]: Start processing: SCALECAST
+[2023-04-20 00:08:20] INFO root fetch - main [MainThread]: End processing [open-source-risk-engine] error
+[2023-04-20 00:08:20] INFO root fetch - processPackages [django-ckeditor-link]: Downloading https://files.pythonhosted.org/packages/00/c6/c997b16b1507945925c8901ba529f51ac4efca59ae89bbe0e5d66dfab2df/django-ckeditor-link-0.5.0.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [SCALECAST]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-20 00:08:20] INFO root fetch - processPackages [sem-desc]: Downloading https://files.pythonhosted.org/packages/fc/4f/5baa60fb634dfd081b54662af39465de8c0c81717a636a468daacbdd81b9/sem_desc-4.5.0.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-04-20 00:08:20] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.8.0a1681929454.tar.gz tmp/pulumi_github-5.8.0a1681938440.tar.gz --markdown 20230420/p/pulumi-github/5.8.0a1681929454-5.8.0a1681938440/diff.md --exclude *.pyd
+[2023-04-20 00:08:20] INFO root fetch - processPackages [crowdcores-node]: Downloading https://files.pythonhosted.org/packages/8a/1e/3284622557ffc032bb4cbc73148ac8432974f44720063ae41c0ec2fe163b/crowdcores-node-1.1.0.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [astrohack]: executing diffoscope
+[2023-04-20 00:08:20] INFO root fetch - processPackages [astrohack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrohack-0.0.7.tar.gz tmp/astrohack-0.0.8.tar.gz --markdown 20230420/a/astrohack/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 00:08:20] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/9d/04/b51818e52e21a3a7162dd8c6e9f1eeffd09ddfe65ab55edb13b1ff1a212a/pulumi_slack-0.4.2a1681937753.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [sem-desc]: executing diffoscope
+[2023-04-20 00:08:20] INFO root fetch - processPackages [sem-desc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sem_desc-4.4.4.tar.gz tmp/sem_desc-4.5.0.tar.gz --markdown 20230420/s/sem-desc/4.4.4-4.5.0/diff.md --exclude *.pyd
+[2023-04-20 00:08:20] INFO root fetch - processPackages [django-ckeditor-link]: executing diffoscope
+[2023-04-20 00:08:20] INFO root fetch - processPackages [django-ckeditor-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ckeditor-link-0.4.4.tar.gz tmp/django-ckeditor-link-0.5.0.tar.gz --markdown 20230420/d/django-ckeditor-link/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-04-20 00:08:20] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/97/2a/33b9e24047a0ffe7b92657526bcebdc0de80711692fa19ec4aa7a955752f/pulumi_postgresql-3.9.0a1681940795.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/73/06/0be2546f7ab47d5f04df64688f9e7e15e62ba9a76512c61f1fbe4203f198/SCALECAST-0.9.8.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [bleak]: Downloading https://files.pythonhosted.org/packages/3e/43/6d88604149459a7e3fefe72c7cf03a95bafd33216c18d72ade40adeb427a/bleak-0.9.1.tar.gz
+[2023-04-20 00:08:20] INFO root fetch - processPackages [crowdcores-node]: executing diffoscope
+[2023-04-20 00:08:20] INFO root fetch - processPackages [crowdcores-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdcores-node-1.0.9.tar.gz tmp/crowdcores-node-1.1.0.tar.gz --markdown 20230420/c/crowdcores-node/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-04-20 00:08:20] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2023-04-20 00:08:20] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.2a1680911772.tar.gz tmp/pulumi_slack-0.4.2a1681937753.tar.gz --markdown 20230420/p/pulumi-slack/0.4.2a1680911772-0.4.2a1681937753/diff.md --exclude *.pyd
+[2023-04-20 00:08:21] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2023-04-20 00:08:21] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1680912861.tar.gz tmp/pulumi_postgresql-3.9.0a1681940795.tar.gz --markdown 20230420/p/pulumi-postgresql/3.9.0a1680912861-3.9.0a1681940795/diff.md --exclude *.pyd
+[2023-04-20 00:08:21] INFO root fetch - processPackages [SCALECAST]: Downloading https://files.pythonhosted.org/packages/97/84/a40b0cf229ccc710ac89d010acac4e409d1a556ce05bedf45679f58d1719/SCALECAST-0.9.9.tar.gz
+[2023-04-20 00:08:21] INFO root fetch - processPackages [bleak]: executing diffoscope
+[2023-04-20 00:08:21] INFO root fetch - processPackages [bleak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bleak-0.9.0.tar.gz tmp/bleak-0.9.1.tar.gz --markdown 20230420/b/bleak/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 00:08:21] INFO root fetch - processPackages [SCALECAST]: executing diffoscope
+[2023-04-20 00:08:21] INFO root fetch - processPackages [SCALECAST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCALECAST-0.9.8.tar.gz tmp/SCALECAST-0.9.9.tar.gz --markdown 20230420/S/SCALECAST/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-20 00:08:22] INFO root fetch - processPackages [crowdcores-node]: Start processing: cirro
+[2023-04-20 00:08:22] INFO root fetch - main [MainThread]: End processing [crowdcores-node]: success
+[2023-04-20 00:08:22] INFO root fetch - processPackages [cirro]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-20 00:08:22] INFO root fetch - processPackages [cirro]: Downloading https://files.pythonhosted.org/packages/2e/a2/ebbfb587e84126e18e7151957be90f492a1cda7d6d5914db543db5539e99/cirro-0.6.8.tar.gz
+[2023-04-20 00:08:22] INFO root fetch - processPackages [faker-file]: Start processing: ned
+[2023-04-20 00:08:22] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-04-20 00:08:22] INFO root fetch - processPackages [ned]: New version: [1.7.0] Old Version: [1.11.1]
+[2023-04-20 00:08:22] INFO root fetch - processPackages [cirro]: Downloading https://files.pythonhosted.org/packages/ca/6c/b61e7564b0a185ecf5a521fcc5bf3ad10d448e3ec1d4e11f815daab82051/cirro-0.6.9.tar.gz
+[2023-04-20 00:08:22] INFO root fetch - processPackages [pulumi-slack]: Start processing: remindmail
+[2023-04-20 00:08:22] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2023-04-20 00:08:22] INFO root fetch - processPackages [pulumi-github]: Start processing: alacorder
+[2023-04-20 00:08:22] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-04-20 00:08:22] INFO root fetch - processPackages [remindmail]: New version: [2023.4.2.2] Old Version: [2023.4.2.1]
+[2023-04-20 00:08:22] INFO root fetch - processPackages [ned]: Downloading https://files.pythonhosted.org/packages/e6/e4/f8bd5ec646266638d569422b12a328c9aae8b6956d5bdc3571a0c3a9c6ee/ned-1.11.1.tar.gz
+[2023-04-20 00:08:22] INFO root fetch - processPackages [alacorder]: New version: [79.5.0] Old Version: [79.4.9]
+[2023-04-20 00:08:22] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-04-20 00:08:22] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.4.2.1.tar.gz tmp/remindmail-2023.4.2.2.tar.gz --markdown 20230420/r/remindmail/2023.4.2.1-2023.4.2.2/diff.md --exclude *.pyd
+[2023-04-20 00:08:22] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-20 00:08:22] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.4.9.tar.gz tmp/alacorder-79.5.0.tar.gz --markdown 20230420/a/alacorder/79.4.9-79.5.0/diff.md --exclude *.pyd
+[2023-04-20 00:08:22] INFO root fetch - processPackages [cirro]: executing diffoscope
+[2023-04-20 00:08:22] INFO root fetch - processPackages [cirro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirro-0.6.8.tar.gz tmp/cirro-0.6.9.tar.gz --markdown 20230420/c/cirro/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-20 00:08:23] INFO root fetch - processPackages [bleak]: Start processing: pulumi-snowflake
+[2023-04-20 00:08:23] INFO root fetch - main [MainThread]: End processing [bleak]: success
+[2023-04-20 00:08:23] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-04-20 00:08:23] INFO root fetch - processPackages [sem-desc]: Start processing: DBRetina
+[2023-04-20 00:08:23] INFO root fetch - main [MainThread]: End processing [sem-desc]: success
+[2023-04-20 00:08:23] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-04-20 00:08:23] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230420/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-04-20 00:08:23] INFO root fetch - processPackages [DBRetina]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-04-20 00:08:23] INFO root fetch - main [MainThread]: End processing [SCALECAST]: success
+[2023-04-20 00:08:23] INFO root fetch - processPackages [ned]: Downloading https://files.pythonhosted.org/packages/28/fd/cd13123e24f87cbfe7cbebf3dd2a41836ee18c1a44f79b4502a4c29a5e90/ned-1.7.0.tar.gz
+[2023-04-20 00:08:23] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/09/61/fd7789e02057862216db95c30ff1e4934dd3573a01f103b7a70650809a6b/DBRetina-2.1.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-20 00:08:23] INFO root fetch - processPackages [ned]: executing diffoscope
+[2023-04-20 00:08:23] INFO root fetch - processPackages [ned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ned-1.11.1.tar.gz tmp/ned-1.7.0.tar.gz --markdown 20230420/n/ned/1.11.1-1.7.0/diff.md --exclude *.pyd
+[2023-04-20 00:08:23] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2023-04-20 00:08:23] INFO root fetch - main [MainThread]: End processing [django-ckeditor-link]: success
+[2023-04-20 00:08:24] INFO root fetch - main [MainThread]: End processing [astrohack]: success
+[2023-04-20 00:08:24] INFO root fetch - processPackages [DBRetina]: executing diffoscope
+[2023-04-20 00:08:24] INFO root fetch - processPackages [DBRetina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DBRetina-2.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/DBRetina-2.1.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230420/D/DBRetina/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-04-20 00:08:24] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-04-20 00:08:25] INFO root fetch - main [MainThread]: End processing [cirro]: success
+[2023-04-20 00:08:25] INFO root fetch - main [MainThread]: End processing [ned]: success
+[2023-04-20 00:08:26] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-04-20 00:08:32] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-20 00:08:46] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
+[2023-04-20 00:08:46] INFO root fetch - main [MainThread]: Store serial: [17777629]
