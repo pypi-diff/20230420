@@ -1348,3 +1348,80 @@
 [2023-04-20 01:46:13] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2023-04-20 01:46:13] INFO root fetch - main [MainThread]: End processing [docassemble.AssemblyLine]: success
 [2023-04-20 01:46:13] INFO root fetch - main [MainThread]: Store serial: [17778429]
+[2023-04-20 01:51:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17778429]
+[2023-04-20 01:51:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-20 01:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: APtools
+[2023-04-20 01:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nmodl-preprocessor
+[2023-04-20 01:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graph-envs
+[2023-04-20 01:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-hr-expense-invoice
+[2023-04-20 01:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-spotinst
+[2023-04-20 01:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CodeToCAD
+[2023-04-20 01:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-audio
+[2023-04-20 01:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: debloat
+[2023-04-20 01:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bikeshed
+[2023-04-20 01:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: virtualenv
+[2023-04-20 01:51:22] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-04-20 01:51:22] INFO root fetch - processPackages [debloat]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-20 01:51:22] INFO root fetch - processPackages [virtualenv]: New version: [20.9.0] Old Version: [20.8.1]
+[2023-04-20 01:51:22] INFO root fetch - processPackages [nmodl-preprocessor]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-20 01:51:22] INFO root fetch - processPackages [APtools]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-20 01:51:22] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-04-20 01:51:22] INFO root fetch - processPackages [graph-envs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 01:51:22] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230420/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-04-20 01:51:22] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1681948051]
+[2023-04-20 01:51:22] INFO root fetch - processPackages [odoo14-addon-hr-expense-invoice]: New version: [14.0.1.1.2] Old Version: [14.0.1.1.1]
+[2023-04-20 01:51:22] INFO root fetch - processPackages [neon-audio]: New version: [1.3.2a2] Old Version: [1.3.2a1]
+[2023-04-20 01:51:22] INFO root fetch - processPackages [debloat]: executing diffoscope
+[2023-04-20 01:51:22] INFO root fetch - processPackages [debloat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debloat-1.3.1.tar.gz tmp/debloat-1.3.2.tar.gz --markdown 20230420/d/debloat/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-20 01:51:22] INFO root fetch - processPackages [virtualenv]: executing diffoscope
+[2023-04-20 01:51:22] INFO root fetch - processPackages [virtualenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtualenv-20.8.1.tar.gz tmp/virtualenv-20.9.0.tar.gz --markdown 20230420/v/virtualenv/20.8.1-20.9.0/diff.md --exclude *.pyd
+[2023-04-20 01:51:22] INFO root fetch - processPackages [bikeshed]: New version: [3.9.0] Old Version: [3.8.2]
+[2023-04-20 01:51:22] INFO root fetch - processPackages [nmodl-preprocessor]: Downloading https://files.pythonhosted.org/packages/b8/e3/07630d4efacf3d5de985c9477a3c7741db60599f0422d4d2a13fa2c3fcd9/nmodl_preprocessor-1.0.1.tar.gz
+[2023-04-20 01:51:22] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/73/1a/97a4a8dfa9b9a803558e03cd3a40ccbaf62cc01f36fd3a6e43add496c4fa/CodeToCAD-0.2.1681948051.tar.gz
+[2023-04-20 01:51:22] INFO root fetch - processPackages [graph-envs]: executing diffoscope
+[2023-04-20 01:51:22] INFO root fetch - processPackages [graph-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-envs-0.0.8.tar.gz tmp/graph-envs-0.0.9.tar.gz --markdown 20230420/g/graph-envs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 01:51:22] INFO root fetch - processPackages [odoo14-addon-hr-expense-invoice]: Downloading https://files.pythonhosted.org/packages/e3/af/df4d216291a4751da1ba63a13655c17997ea6c5e8c1db5b958b633ecd510/odoo14_addon_hr_expense_invoice-14.0.1.1.1-py3-none-any.whl
+[2023-04-20 01:51:22] INFO root fetch - processPackages [neon-audio]: Downloading https://files.pythonhosted.org/packages/ab/8b/a2584110315fbea424b8a34849994830290aff90478077d7d1b985af50c4/neon_audio-1.3.2a1-py3-none-any.whl
+[2023-04-20 01:51:22] INFO root fetch - processPackages [bikeshed]: Downloading https://files.pythonhosted.org/packages/8d/01/4bf86ee6dd68b65b221cc8cd652fcdadf6ef3763d556ba2ed9d328fd7e70/bikeshed-3.8.2.tar.gz
+[2023-04-20 01:51:22] INFO root fetch - processPackages [APtools]: Downloading https://files.pythonhosted.org/packages/29/04/4f72c8d92138603ec891c3f096697c171fb750bcd6402c476306e4d9caf2/APtools-0.2.4.tar.gz
+[2023-04-20 01:51:22] INFO root fetch - processPackages [nmodl-preprocessor]: Downloading https://files.pythonhosted.org/packages/20/aa/d0503bc95e388ee72b3686509fe13ab8def058bcc98e344dfa845ad7ca8a/nmodl_preprocessor-1.0.2.tar.gz
+[2023-04-20 01:51:22] INFO root fetch - processPackages [odoo14-addon-hr-expense-invoice]: Downloading https://files.pythonhosted.org/packages/9f/fa/a3d6f6512f071e746fbc6349ffdedd6f5c7f973964e6f2e1aaf68055f70c/odoo14_addon_hr_expense_invoice-14.0.1.1.2-py3-none-any.whl
+[2023-04-20 01:51:22] INFO root fetch - processPackages [APtools]: executing diffoscope
+[2023-04-20 01:51:22] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-04-20 01:51:22] INFO root fetch - processPackages [APtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/APtools-0.2.3.tar.gz tmp/APtools-0.2.4.tar.gz --markdown 20230420/A/APtools/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-20 01:51:22] INFO root fetch - processPackages [neon-audio]: Downloading https://files.pythonhosted.org/packages/fb/47/a22bb6763b94642cf252e0e8e64b6702d69468cd8f2d4227489e78190c6c/neon_audio-1.3.2a2-py3-none-any.whl
+[2023-04-20 01:51:22] INFO root fetch - processPackages [nmodl-preprocessor]: executing diffoscope
+[2023-04-20 01:51:22] INFO root fetch - processPackages [nmodl-preprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmodl_preprocessor-1.0.1.tar.gz tmp/nmodl_preprocessor-1.0.2.tar.gz --markdown 20230420/n/nmodl-preprocessor/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 01:51:22] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-04-20 01:51:22] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1681948051.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230420/C/CodeToCAD/0.2.1681948051-0.2.6/diff.md --exclude *.pyd
+[2023-04-20 01:51:22] INFO root fetch - processPackages [odoo14-addon-hr-expense-invoice]: executing diffoscope
+[2023-04-20 01:51:22] INFO root fetch - processPackages [odoo14-addon-hr-expense-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_expense_invoice-14.0.1.1.1-py3-none-any.whl.zip tmp/odoo14_addon_hr_expense_invoice-14.0.1.1.2-py3-none-any.whl.zip --markdown 20230420/o/odoo14-addon-hr-expense-invoice/14.0.1.1.1-14.0.1.1.2/diff.md --exclude *.pyd
+[2023-04-20 01:51:22] INFO root fetch - processPackages [neon-audio]: executing diffoscope
+[2023-04-20 01:51:22] INFO root fetch - processPackages [neon-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_audio-1.3.2a1-py3-none-any.whl.zip tmp/neon_audio-1.3.2a2-py3-none-any.whl.zip --markdown 20230420/n/neon-audio/1.3.2a1-1.3.2a2/diff.md --exclude *.pyd
+[2023-04-20 01:51:23] INFO root fetch - processPackages [debloat]: Start processing: DynamicAnnotationDB
+[2023-04-20 01:51:23] INFO root fetch - main [MainThread]: End processing [debloat]: success
+[2023-04-20 01:51:23] INFO root fetch - processPackages [DynamicAnnotationDB]: New version: [5.7.2] Old Version: [5.7.1]
+[2023-04-20 01:51:23] INFO root fetch - processPackages [graph-envs]: Start processing: jadecobra
+[2023-04-20 01:51:23] INFO root fetch - main [MainThread]: End processing [graph-envs]: success
+[2023-04-20 01:51:23] INFO root fetch - processPackages [jadecobra]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-20 01:51:23] INFO root fetch - processPackages [bikeshed]: Downloading https://files.pythonhosted.org/packages/0d/7b/7da3451cea6ea989a5021170faad121ec4e6491f37be25499c9e2f10b1cb/bikeshed-3.9.0.tar.gz
+[2023-04-20 01:51:23] INFO root fetch - processPackages [jadecobra]: executing diffoscope
+[2023-04-20 01:51:23] INFO root fetch - processPackages [jadecobra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jadecobra-0.3.6.tar.gz tmp/jadecobra-0.3.7.tar.gz --markdown 20230420/j/jadecobra/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-20 01:51:23] INFO root fetch - processPackages [DynamicAnnotationDB]: Downloading https://files.pythonhosted.org/packages/dd/be/c2691164de1454a52a94568f88e94c8d6553461db10ec23bac34c6cd0045/DynamicAnnotationDB-5.7.1.tar.gz
+[2023-04-20 01:51:24] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-04-20 01:51:24] INFO root fetch - processPackages [DynamicAnnotationDB]: Downloading https://files.pythonhosted.org/packages/74/7b/e37830eeb996228c4fdd022c43609ee5caf618748b692bb7a1144a5ff9c5/DynamicAnnotationDB-5.7.2.tar.gz
+[2023-04-20 01:51:24] INFO root fetch - main [MainThread]: End processing [nmodl-preprocessor]: success
+[2023-04-20 01:51:24] INFO root fetch - processPackages [DynamicAnnotationDB]: executing diffoscope
+[2023-04-20 01:51:24] INFO root fetch - processPackages [DynamicAnnotationDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicAnnotationDB-5.7.1.tar.gz tmp/DynamicAnnotationDB-5.7.2.tar.gz --markdown 20230420/D/DynamicAnnotationDB/5.7.1-5.7.2/diff.md --exclude *.pyd
+[2023-04-20 01:51:24] INFO root fetch - main [MainThread]: End processing [APtools]: success
+[2023-04-20 01:51:24] INFO root fetch - main [MainThread]: End processing [neon-audio]: success
+[2023-04-20 01:51:24] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-04-20 01:51:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-expense-invoice]: success
+[2023-04-20 01:51:25] INFO root fetch - main [MainThread]: End processing [jadecobra]: success
+[2023-04-20 01:51:25] INFO root fetch - processPackages [bikeshed]: executing diffoscope
+[2023-04-20 01:51:25] INFO root fetch - processPackages [bikeshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bikeshed-3.8.2.tar.gz tmp/bikeshed-3.9.0.tar.gz --markdown 20230420/b/bikeshed/3.8.2-3.9.0/diff.md --exclude *.pyd
+[2023-04-20 01:51:25] INFO root fetch - main [MainThread]: End processing [DynamicAnnotationDB]: success
+[2023-04-20 01:51:37] INFO root fetch - main [MainThread]: End processing [virtualenv]: success
+[2023-04-20 01:54:25] ERROR root fetch - processPackages [bikeshed]: Timeout during execution of pkgdiff
+[2023-04-20 01:54:25] INFO root fetch - main [MainThread]: End processing [bikeshed] error
+[2023-04-20 01:54:25] INFO root fetch - main [MainThread]: Store serial: [17778460]
