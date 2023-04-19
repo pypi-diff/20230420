@@ -1272,3 +1272,79 @@
 [2023-04-20 01:40:54] INFO root fetch - main [MainThread]: End processing [astrodown]: success
 [2023-04-20 01:41:00] INFO root fetch - main [MainThread]: End processing [corellium-api]: success
 [2023-04-20 01:41:00] INFO root fetch - main [MainThread]: Store serial: [17778388]
+[2023-04-20 01:46:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17778388]
+[2023-04-20 01:46:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-20 01:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: up-fmap
+[2023-04-20 01:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: postpruner
+[2023-04-20 01:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hypothesis
+[2023-04-20 01:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-core
+[2023-04-20 01:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet
+[2023-04-20 01:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flet-pyodide
+[2023-04-20 01:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: servir
+[2023-04-20 01:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dreifus
+[2023-04-20 01:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ethraid
+[2023-04-20 01:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: postpruner
+[2023-04-20 01:46:08] INFO root fetch - processPackages [up-fmap]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-20 01:46:08] INFO root fetch - processPackages [flet-core]: New version: [0.6.0.dev1336] Old Version: [0.6.0.dev1322]
+[2023-04-20 01:46:08] INFO root fetch - processPackages [postpruner]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-20 01:46:08] INFO root fetch - processPackages [flet]: New version: [0.6.0.dev1336] Old Version: [0.6.0.dev1322]
+[2023-04-20 01:46:08] INFO root fetch - processPackages [postpruner]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-20 01:46:08] INFO root fetch - processPackages [dreifus]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-20 01:46:08] INFO root fetch - processPackages [ethraid]: New version: [1.0.0] Old Version: [0.1.90]
+[2023-04-20 01:46:08] INFO root fetch - processPackages [flet-pyodide]: New version: [0.6.0.dev1336] Old Version: [0.6.0.dev1322]
+[2023-04-20 01:46:08] INFO root fetch - processPackages [servir]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-20 01:46:09] INFO root fetch - processPackages [hypothesis]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-04-20 01:46:09] INFO root fetch - processPackages [ethraid]: executing diffoscope
+[2023-04-20 01:46:09] INFO root fetch - processPackages [ethraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethraid-0.1.90.tar.gz tmp/ethraid-1.0.0.tar.gz --markdown 20230420/e/ethraid/0.1.90-1.0.0/diff.md --exclude *.pyd
+[2023-04-20 01:46:09] INFO root fetch - processPackages [postpruner]: Downloading https://files.pythonhosted.org/packages/f0/2d/dc5d215324b18d406599f713405c8a9a34e5482d1c3434c324414ea4962c/postpruner-1.1.1.tar.gz
+[2023-04-20 01:46:09] INFO root fetch - processPackages [postpruner]: Downloading https://files.pythonhosted.org/packages/f0/2d/dc5d215324b18d406599f713405c8a9a34e5482d1c3434c324414ea4962c/postpruner-1.1.1.tar.gz
+[2023-04-20 01:46:09] INFO root fetch - processPackages [servir]: Downloading https://files.pythonhosted.org/packages/99/10/2d5cf0de0d81abb102051850181d3a28bbe3a55cad38c17da7e4535055a1/servir-0.0.5.tar.gz
+[2023-04-20 01:46:09] INFO root fetch - processPackages [dreifus]: Downloading https://files.pythonhosted.org/packages/75/3e/d757ad9815936f21b8022b48dc19681e27bc7c4cd5981578191103d05399/dreifus-0.0.5.tar.gz
+[2023-04-20 01:46:09] INFO root fetch - processPackages [up-fmap]: Downloading https://files.pythonhosted.org/packages/61/01/02053125c6f17156abdce423c4e55b68c27f3369c6df41cfaf513ea35f73/up_fmap-0.0.6.tar.gz
+[2023-04-20 01:46:09] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/ee/05/eed5461510527dd66d4b81104000a8446d1bc4b9efa49223da49f737848c/flet_core-0.6.0.dev1336.tar.gz
+[2023-04-20 01:46:09] INFO root fetch - processPackages [servir]: executing diffoscope
+[2023-04-20 01:46:09] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/a1/cd/7c73a89f4ae85a603a0feb64980ee1f5eca48f6bf33b1d8c2de7a581171c/flet_pyodide-0.6.0.dev1336.tar.gz
+[2023-04-20 01:46:09] INFO root fetch - processPackages [servir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servir-0.0.4.tar.gz tmp/servir-0.0.5.tar.gz --markdown 20230420/s/servir/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 01:46:09] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/f8/30/a7fee6ceda2f02ae8c44138cfdda6ff8bc86b02e2cb3e5dd071bb0939873/flet-0.6.0.dev1336.tar.gz
+[2023-04-20 01:46:09] INFO root fetch - processPackages [up-fmap]: executing diffoscope
+[2023-04-20 01:46:09] INFO root fetch - processPackages [up-fmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_fmap-0.0.5.tar.gz tmp/up_fmap-0.0.6.tar.gz --markdown 20230420/u/up-fmap/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-20 01:46:09] INFO root fetch - processPackages [postpruner]: Downloading https://files.pythonhosted.org/packages/f0/bb/4056a3e855a2b7fda199c3972c1cc3e86c9d0331b1cca13d9ba2c5999525/postpruner-1.1.2.tar.gz
+[2023-04-20 01:46:09] INFO root fetch - processPackages [postpruner]: Downloading https://files.pythonhosted.org/packages/f0/bb/4056a3e855a2b7fda199c3972c1cc3e86c9d0331b1cca13d9ba2c5999525/postpruner-1.1.2.tar.gz
+[2023-04-20 01:46:09] INFO root fetch - processPackages [dreifus]: Downloading https://files.pythonhosted.org/packages/81/fc/0dd5f005d3fdf2d0bf9e0b72c6092ce97f41359402689717628ce99b475b/dreifus-0.0.6.tar.gz
+[2023-04-20 01:46:09] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2023-04-20 01:46:09] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.9.1.tar.gz tmp/hypothesis-6.9.2.tar.gz --markdown 20230420/h/hypothesis/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-04-20 01:46:09] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-04-20 01:46:09] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.6.0.dev1322.tar.gz tmp/flet_core-0.6.0.dev1336.tar.gz --markdown 20230420/f/flet-core/0.6.0.dev1322-0.6.0.dev1336/diff.md --exclude *.pyd
+[2023-04-20 01:46:09] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-04-20 01:46:09] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.6.0.dev1322.tar.gz tmp/flet_pyodide-0.6.0.dev1336.tar.gz --markdown 20230420/f/flet-pyodide/0.6.0.dev1322-0.6.0.dev1336/diff.md --exclude *.pyd
+[2023-04-20 01:46:09] INFO root fetch - processPackages [postpruner]: executing diffoscope
+[2023-04-20 01:46:09] INFO root fetch - processPackages [postpruner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postpruner-1.1.1.tar.gz tmp/postpruner-1.1.2.tar.gz --markdown 20230420/p/postpruner/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-20 01:46:09] INFO root fetch - processPackages [postpruner]: executing diffoscope
+[2023-04-20 01:46:09] INFO root fetch - processPackages [postpruner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postpruner-1.1.1.tar.gz tmp/postpruner-1.1.2.tar.gz --markdown 20230420/p/postpruner/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-20 01:46:09] INFO root fetch - processPackages [dreifus]: executing diffoscope
+[2023-04-20 01:46:09] INFO root fetch - processPackages [dreifus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreifus-0.0.5.tar.gz tmp/dreifus-0.0.6.tar.gz --markdown 20230420/d/dreifus/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-20 01:46:09] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-04-20 01:46:09] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.6.0.dev1322.tar.gz tmp/flet-0.6.0.dev1336.tar.gz --markdown 20230420/f/flet/0.6.0.dev1322-0.6.0.dev1336/diff.md --exclude *.pyd
+[2023-04-20 01:46:10] INFO root fetch - processPackages [up-fmap]: Start processing: astrodown
+[2023-04-20 01:46:10] INFO root fetch - main [MainThread]: End processing [up-fmap]: success
+[2023-04-20 01:46:10] INFO root fetch - processPackages [astrodown]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 01:46:10] INFO root fetch - processPackages [servir]: Start processing: docassemble.AssemblyLine
+[2023-04-20 01:46:10] INFO root fetch - main [MainThread]: End processing [servir]: success
+[2023-04-20 01:46:11] INFO root fetch - processPackages [docassemble.AssemblyLine]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-20 01:46:11] INFO root fetch - processPackages [astrodown]: executing diffoscope
+[2023-04-20 01:46:11] INFO root fetch - processPackages [astrodown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrodown-0.1.8.tar.gz tmp/astrodown-0.1.9.tar.gz --markdown 20230420/a/astrodown/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 01:46:11] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-04-20 01:46:11] INFO root fetch - processPackages [docassemble.AssemblyLine]: Downloading https://files.pythonhosted.org/packages/5b/01/89f47bf3ae4f8d9ff1f360a6c3c3cb5212449f69b646d8b9b313fd82fc3a/docassemble.AssemblyLine-2.8.0.tar.gz
+[2023-04-20 01:46:11] INFO root fetch - main [MainThread]: End processing [postpruner]: success
+[2023-04-20 01:46:11] INFO root fetch - main [MainThread]: End processing [postpruner]: success
+[2023-04-20 01:46:11] INFO root fetch - main [MainThread]: End processing [dreifus]: success
+[2023-04-20 01:46:11] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2023-04-20 01:46:11] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-04-20 01:46:11] INFO root fetch - processPackages [docassemble.AssemblyLine]: Downloading https://files.pythonhosted.org/packages/5f/0b/9922668341483033da01ee3e3eb5b4ca966e0516c0fd98767f094b470477/docassemble.AssemblyLine-2.9.0.tar.gz
+[2023-04-20 01:46:12] INFO root fetch - processPackages [docassemble.AssemblyLine]: executing diffoscope
+[2023-04-20 01:46:12] INFO root fetch - processPackages [docassemble.AssemblyLine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.AssemblyLine-2.8.0.tar.gz tmp/docassemble.AssemblyLine-2.9.0.tar.gz --markdown 20230420/d/docassemble.AssemblyLine/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-20 01:46:12] INFO root fetch - main [MainThread]: End processing [ethraid]: success
+[2023-04-20 01:46:13] INFO root fetch - main [MainThread]: End processing [astrodown]: success
+[2023-04-20 01:46:13] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-04-20 01:46:13] INFO root fetch - main [MainThread]: End processing [docassemble.AssemblyLine]: success
+[2023-04-20 01:46:13] INFO root fetch - main [MainThread]: Store serial: [17778429]
