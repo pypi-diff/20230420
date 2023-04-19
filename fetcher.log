@@ -992,3 +992,85 @@
 [2023-04-20 01:18:54] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
 [2023-04-20 01:19:17] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-04-20 01:19:17] INFO root fetch - main [MainThread]: Store serial: [17778254]
+[2023-04-20 01:24:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17778254]
+[2023-04-20 01:24:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-20 01:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rian-alba-tools
+[2023-04-20 01:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: postpruner
+[2023-04-20 01:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-hydrothings
+[2023-04-20 01:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tilekiln
+[2023-04-20 01:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datasette-sqlite-vss
+[2023-04-20 01:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-vss
+[2023-04-20 01:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cnd-scaffold
+[2023-04-20 01:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quilt-py
+[2023-04-20 01:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: APtools
+[2023-04-20 01:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nidalee
+[2023-04-20 01:24:29] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.0.4a2] Old Version: [0.0.3]
+[2023-04-20 01:24:29] INFO root fetch - processPackages [quilt-py]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-04-20 01:24:29] INFO root fetch - processPackages [sqlite-vss]: New version: [0.0.4a2] Old Version: [0.0.3]
+[2023-04-20 01:24:29] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-04-20 01:24:29] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.0.3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.0.4a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230420/s/sqlite-vss/0.0.3-0.0.4a2/diff.md --exclude *.pyd
+[2023-04-20 01:24:29] INFO root fetch - processPackages [django-hydrothings]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-20 01:24:29] INFO root fetch - processPackages [postpruner]: New version: [0.9] Old Version: [0.8]
+[2023-04-20 01:24:29] INFO root fetch - processPackages [quilt-py]: executing diffoscope
+[2023-04-20 01:24:29] INFO root fetch - processPackages [quilt-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quilt_py-0.5.4.tar.gz tmp/quilt_py-0.5.5.tar.gz --markdown 20230420/q/quilt-py/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-04-20 01:24:29] INFO root fetch - processPackages [rian-alba-tools]: New version: [0.1.3] Old Version: [0.1]
+[2023-04-20 01:24:29] INFO root fetch - processPackages [APtools]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-04-20 01:24:29] INFO root fetch - processPackages [nidalee]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 01:24:29] INFO root fetch - processPackages [cnd-scaffold]: New version: [2.2.4] Old Version: [2.2.2]
+[2023-04-20 01:24:29] INFO root fetch - processPackages [tilekiln]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-20 01:24:29] INFO root fetch - processPackages [postpruner]: Downloading https://files.pythonhosted.org/packages/f6/8f/66fca8c73236e7ecc7b2ee4b62c5d53520b357d966ab0d43a631568c4174/postpruner-0.8.tar.gz
+[2023-04-20 01:24:29] INFO root fetch - processPackages [django-hydrothings]: Downloading https://files.pythonhosted.org/packages/b5/0c/c9f55b34fb1a52a06f30768ee8a3db360bf69ad7a7d27a66ce0d9c3f742f/django-hydrothings-0.1.4.tar.gz
+[2023-04-20 01:24:29] INFO root fetch - processPackages [APtools]: Downloading https://files.pythonhosted.org/packages/fc/83/dd613e023b0155b9e862034b385296401e011bb349cbdb0c9bf43073357b/APtools-0.2.1.tar.gz
+[2023-04-20 01:24:29] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/10/7a/59bae3ebb58ef342466a6f44f31ea5ed574cfcd1206172174c0eae90c40f/nidalee-0.1.8-py3-none-any.whl
+[2023-04-20 01:24:29] INFO root fetch - processPackages [cnd-scaffold]: Downloading https://files.pythonhosted.org/packages/1a/26/e112b639376361aca82c00c0ca8c7238c089e00c5de16e8d3ba6d5729069/cnd_scaffold-2.2.2-py3-none-any.whl
+[2023-04-20 01:24:29] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-04-20 01:24:29] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.0.3-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.0.4a2-py3-none-any.whl.zip --markdown 20230420/d/datasette-sqlite-vss/0.0.3-0.0.4a2/diff.md --exclude *.pyd
+[2023-04-20 01:24:29] INFO root fetch - processPackages [tilekiln]: Downloading https://files.pythonhosted.org/packages/ba/17/6ef1e329da3652cf374f990de10cb3ec0d78760e264665e15f204557e827/tilekiln-0.1.0.tar.gz
+[2023-04-20 01:24:29] INFO root fetch - processPackages [rian-alba-tools]: Downloading https://files.pythonhosted.org/packages/2f/76/ce534a0738f47f622cff89068b019da425218687001c6c8e78fc55e22dd9/rian-alba-tools-0.1.3.tar.gz
+[2023-04-20 01:24:29] INFO root fetch - processPackages [rian-alba-tools]: executing diffoscope
+[2023-04-20 01:24:29] INFO root fetch - processPackages [rian-alba-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rian-alba-tools-0.1.tar.gz tmp/rian-alba-tools-0.1.3.tar.gz --markdown 20230420/r/rian-alba-tools/0.1-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 01:24:29] INFO root fetch - processPackages [django-hydrothings]: Downloading https://files.pythonhosted.org/packages/9d/8f/d19bdc06a61398fb6d88c17642a70da7da6ff03dbbc546e4a5888e33b754/django-hydrothings-0.1.5.tar.gz
+[2023-04-20 01:24:29] INFO root fetch - processPackages [postpruner]: Downloading https://files.pythonhosted.org/packages/c6/28/afbdb34074b47018eedb09614acbaca2c38e80da6bddca03889edacb72a4/postpruner-0.9.tar.gz
+[2023-04-20 01:24:29] INFO root fetch - processPackages [cnd-scaffold]: Downloading https://files.pythonhosted.org/packages/cd/55/7548d08bb1240e4ca5ff02380d61ec298d7814c9fa9d789c81c8d941ff73/cnd_scaffold-2.2.4-py3-none-any.whl
+[2023-04-20 01:24:29] INFO root fetch - processPackages [APtools]: Downloading https://files.pythonhosted.org/packages/71/ed/89f9c43b35f8e0c0dc77094461e97a8eff5f141718dee86a8a622979e838/APtools-0.2.3.tar.gz
+[2023-04-20 01:24:29] INFO root fetch - processPackages [tilekiln]: Downloading https://files.pythonhosted.org/packages/96/83/c942c4d7ed9db0bdff0f8a29a8786c799295819bd089c572172041fc7854/tilekiln-0.2.0.tar.gz
+[2023-04-20 01:24:29] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/7b/aa/5d7542fb6437eddba82a60b311003a8763fdde7cc5d9bce83abd335996cd/nidalee-0.1.9-py3-none-any.whl
+[2023-04-20 01:24:29] INFO root fetch - processPackages [django-hydrothings]: executing diffoscope
+[2023-04-20 01:24:29] INFO root fetch - processPackages [django-hydrothings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-hydrothings-0.1.4.tar.gz tmp/django-hydrothings-0.1.5.tar.gz --markdown 20230420/d/django-hydrothings/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-20 01:24:29] INFO root fetch - processPackages [postpruner]: executing diffoscope
+[2023-04-20 01:24:29] INFO root fetch - processPackages [cnd-scaffold]: executing diffoscope
+[2023-04-20 01:24:29] INFO root fetch - processPackages [postpruner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postpruner-0.8.tar.gz tmp/postpruner-0.9.tar.gz --markdown 20230420/p/postpruner/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-20 01:24:29] INFO root fetch - processPackages [cnd-scaffold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnd_scaffold-2.2.2-py3-none-any.whl.zip tmp/cnd_scaffold-2.2.4-py3-none-any.whl.zip --markdown 20230420/c/cnd-scaffold/2.2.2-2.2.4/diff.md --exclude *.pyd
+[2023-04-20 01:24:29] INFO root fetch - processPackages [tilekiln]: executing diffoscope
+[2023-04-20 01:24:29] INFO root fetch - processPackages [tilekiln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tilekiln-0.1.0.tar.gz tmp/tilekiln-0.2.0.tar.gz --markdown 20230420/t/tilekiln/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 01:24:29] INFO root fetch - processPackages [nidalee]: executing diffoscope
+[2023-04-20 01:24:29] INFO root fetch - processPackages [nidalee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nidalee-0.1.8-py3-none-any.whl.zip tmp/nidalee-0.1.9-py3-none-any.whl.zip --markdown 20230420/n/nidalee/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 01:24:30] INFO root fetch - processPackages [APtools]: executing diffoscope
+[2023-04-20 01:24:30] INFO root fetch - processPackages [APtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/APtools-0.2.1.tar.gz tmp/APtools-0.2.3.tar.gz --markdown 20230420/A/APtools/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-04-20 01:24:30] INFO root fetch - processPackages [datasette-sqlite-vss]: Start processing: postpruner
+[2023-04-20 01:24:30] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-04-20 01:24:30] INFO root fetch - processPackages [postpruner]: New version: [0.9] Old Version: [0.8]
+[2023-04-20 01:24:30] INFO root fetch - processPackages [quilt-py]: Start processing: toolshelf
+[2023-04-20 01:24:30] INFO root fetch - main [MainThread]: End processing [quilt-py]: success
+[2023-04-20 01:24:30] INFO root fetch - processPackages [toolshelf]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-20 01:24:30] INFO root fetch - processPackages [postpruner]: executing diffoscope
+[2023-04-20 01:24:30] INFO root fetch - processPackages [postpruner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postpruner-0.8.tar.gz tmp/postpruner-0.9.tar.gz --markdown 20230420/p/postpruner/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-20 01:24:31] WARNING root fetch - processPackages [toolshelf]: fallback to get urls: [0.2.1]
+[2023-04-20 01:24:31] INFO root fetch - processPackages [rian-alba-tools]: Start processing: html2info
+[2023-04-20 01:24:31] INFO root fetch - main [MainThread]: End processing [rian-alba-tools]: success
+[2023-04-20 01:24:31] WARNING root fetch - processPackages [toolshelf]: None
+[2023-04-20 01:24:31] WARNING root fetch - processPackages [toolshelf]: None
+[2023-04-20 01:24:31] WARNING root fetch - processPackages [toolshelf]: unable to get url for both version [0.2.1]
+[2023-04-20 01:24:31] WARNING root fetch - processPackages [toolshelf]: None
+[2023-04-20 01:24:31] INFO root fetch - main [MainThread]: End processing [toolshelf] error
+[2023-04-20 01:24:31] WARNING root fetch - processPackages [html2info]: Skipping, unable to determine old version
+[2023-04-20 01:24:31] INFO root fetch - main [MainThread]: End processing [html2info] error
+[2023-04-20 01:24:31] INFO root fetch - main [MainThread]: End processing [cnd-scaffold]: success
+[2023-04-20 01:24:31] INFO root fetch - main [MainThread]: End processing [tilekiln]: success
+[2023-04-20 01:24:31] INFO root fetch - main [MainThread]: End processing [nidalee]: success
+[2023-04-20 01:24:31] INFO root fetch - main [MainThread]: End processing [postpruner]: success
+[2023-04-20 01:24:31] INFO root fetch - main [MainThread]: End processing [postpruner]: success
+[2023-04-20 01:24:32] INFO root fetch - main [MainThread]: End processing [APtools]: success
+[2023-04-20 01:24:32] INFO root fetch - main [MainThread]: End processing [django-hydrothings]: success
+[2023-04-20 01:24:52] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-04-20 01:24:52] INFO root fetch - main [MainThread]: Store serial: [17778294]
