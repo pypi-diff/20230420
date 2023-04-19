@@ -1425,3 +1425,63 @@
 [2023-04-20 01:54:25] ERROR root fetch - processPackages [bikeshed]: Timeout during execution of pkgdiff
 [2023-04-20 01:54:25] INFO root fetch - main [MainThread]: End processing [bikeshed] error
 [2023-04-20 01:54:25] INFO root fetch - main [MainThread]: Store serial: [17778460]
+[2023-04-20 01:59:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17778460]
+[2023-04-20 01:59:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-20 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-classy-settings
+[2023-04-20 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remindmail
+[2023-04-20 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: growtopia.py
+[2023-04-20 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-enclosure
+[2023-04-20 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-hr-expense-tax-adjust
+[2023-04-20 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jadecobra
+[2023-04-20 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apinator
+[2023-04-20 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jadecobra
+[2023-04-20 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autosolve-http-client
+[2023-04-20 01:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-project-structure
+[2023-04-20 01:59:34] INFO root fetch - processPackages [apinator]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 01:59:34] INFO root fetch - processPackages [django-classy-settings]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-04-20 01:59:34] INFO root fetch - processPackages [python-project-structure]: New version: [0.8.9b7] Old Version: [0.8.9b0]
+[2023-04-20 01:59:34] INFO root fetch - processPackages [jadecobra]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-20 01:59:34] INFO root fetch - processPackages [autosolve-http-client]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-20 01:59:34] INFO root fetch - processPackages [jadecobra]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-20 01:59:34] INFO root fetch - processPackages [remindmail]: New version: [2023.4.2.2] Old Version: [2023.4.2.1]
+[2023-04-20 01:59:34] WARNING root fetch - processPackages [growtopia.py]: Skipping, unable to determine old version
+[2023-04-20 01:59:34] WARNING root fetch - processPackages [odoo-addon-hr-expense-tax-adjust]: Skipping, unable to determine old version
+[2023-04-20 01:59:34] INFO root fetch - processPackages [neon-enclosure]: New version: [1.3.2a2] Old Version: [1.3.2a1]
+[2023-04-20 01:59:34] INFO root fetch - processPackages [growtopia.py]: Start processing: twitter-api-client
+[2023-04-20 01:59:34] INFO root fetch - main [MainThread]: End processing [growtopia.py] error
+[2023-04-20 01:59:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-tax-adjust] error
+[2023-04-20 01:59:34] INFO root fetch - processPackages [twitter-api-client]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-04-20 01:59:34] INFO root fetch - processPackages [django-classy-settings]: Downloading https://files.pythonhosted.org/packages/ff/2e/85d9a498848e7199b78c0a745b3a261b07a2dff8d7093be73f5ca77303c7/django-classy-settings-3.0.1.tar.gz
+[2023-04-20 01:59:34] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-04-20 01:59:34] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.6.5.tar.gz tmp/twitter-api-client-0.6.6.tar.gz --markdown 20230420/t/twitter-api-client/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-04-20 01:59:34] INFO root fetch - processPackages [autosolve-http-client]: Downloading https://files.pythonhosted.org/packages/bf/8d/28197e1d31a4572728704cb03a51596d907ee2b93672d0e2f593c240f805/autosolve-http-client-1.0.2.tar.gz
+[2023-04-20 01:59:34] INFO root fetch - processPackages [apinator]: Downloading https://files.pythonhosted.org/packages/0a/63/6df9a86aaaa6323c5556203bd5d02d8018d6dd7c5e764f524c0933f14e0f/apinator-0.0.3.tar.gz
+[2023-04-20 01:59:34] INFO root fetch - processPackages [apinator]: executing diffoscope
+[2023-04-20 01:59:34] INFO root fetch - processPackages [apinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apinator-0.0.2.tar.gz tmp/apinator-0.0.3.tar.gz --markdown 20230420/a/apinator/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 01:59:34] INFO root fetch - processPackages [python-project-structure]: executing diffoscope
+[2023-04-20 01:59:34] INFO root fetch - processPackages [python-project-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-project-structure-0.8.9b0.tar.gz tmp/python-project-structure-0.8.9b7.tar.gz --markdown 20230420/p/python-project-structure/0.8.9b0-0.8.9b7/diff.md --exclude *.pyd
+[2023-04-20 01:59:34] INFO root fetch - processPackages [jadecobra]: executing diffoscope
+[2023-04-20 01:59:34] INFO root fetch - processPackages [jadecobra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jadecobra-0.3.6.tar.gz tmp/jadecobra-0.3.7.tar.gz --markdown 20230420/j/jadecobra/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-20 01:59:34] INFO root fetch - processPackages [jadecobra]: executing diffoscope
+[2023-04-20 01:59:34] INFO root fetch - processPackages [jadecobra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jadecobra-0.3.6.tar.gz tmp/jadecobra-0.3.7.tar.gz --markdown 20230420/j/jadecobra/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-20 01:59:34] INFO root fetch - processPackages [django-classy-settings]: Downloading https://files.pythonhosted.org/packages/3a/52/208defedd84e9f6063d170540678b31f776945459fefc7ac38dbc521bef2/django_classy_settings-3.0.2.tar.gz
+[2023-04-20 01:59:34] INFO root fetch - processPackages [autosolve-http-client]: Downloading https://files.pythonhosted.org/packages/af/ea/4ca5decc1615d91eb8cf7a96615a59f97a83f92d9cdf24376756f8cd8fd6/autosolve-http-client-1.0.3.tar.gz
+[2023-04-20 01:59:34] INFO root fetch - processPackages [neon-enclosure]: Downloading https://files.pythonhosted.org/packages/1b/52/c3ca8bd29c1dde6579e456361116ebc90e1e208c12931345dc7ccb1b49b2/neon_enclosure-1.3.2a2-py3-none-any.whl
+[2023-04-20 01:59:34] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-04-20 01:59:34] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.4.2.1.tar.gz tmp/remindmail-2023.4.2.2.tar.gz --markdown 20230420/r/remindmail/2023.4.2.1-2023.4.2.2/diff.md --exclude *.pyd
+[2023-04-20 01:59:34] INFO root fetch - processPackages [autosolve-http-client]: executing diffoscope
+[2023-04-20 01:59:34] INFO root fetch - processPackages [autosolve-http-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosolve-http-client-1.0.2.tar.gz tmp/autosolve-http-client-1.0.3.tar.gz --markdown 20230420/a/autosolve-http-client/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-20 01:59:34] INFO root fetch - processPackages [django-classy-settings]: executing diffoscope
+[2023-04-20 01:59:34] INFO root fetch - processPackages [django-classy-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-classy-settings-3.0.1.tar.gz tmp/django_classy_settings-3.0.2.tar.gz --markdown 20230420/d/django-classy-settings/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-04-20 01:59:35] INFO root fetch - processPackages [neon-enclosure]: executing diffoscope
+[2023-04-20 01:59:35] INFO root fetch - processPackages [neon-enclosure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_enclosure-1.3.2a1-py3-none-any.whl.zip tmp/neon_enclosure-1.3.2a2-py3-none-any.whl.zip --markdown 20230420/n/neon-enclosure/1.3.2a1-1.3.2a2/diff.md --exclude *.pyd
+[2023-04-20 01:59:36] INFO root fetch - main [MainThread]: End processing [jadecobra]: success
+[2023-04-20 01:59:36] INFO root fetch - main [MainThread]: End processing [autosolve-http-client]: success
+[2023-04-20 01:59:36] INFO root fetch - main [MainThread]: End processing [jadecobra]: success
+[2023-04-20 01:59:36] INFO root fetch - main [MainThread]: End processing [django-classy-settings]: success
+[2023-04-20 01:59:36] INFO root fetch - main [MainThread]: End processing [apinator]: success
+[2023-04-20 01:59:36] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-04-20 01:59:36] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-04-20 01:59:36] INFO root fetch - main [MainThread]: End processing [neon-enclosure]: success
+[2023-04-20 01:59:36] INFO root fetch - main [MainThread]: End processing [python-project-structure]: success
+[2023-04-20 01:59:36] INFO root fetch - main [MainThread]: Store serial: [17778493]
