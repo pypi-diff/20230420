@@ -472,3 +472,70 @@
 [2023-04-20 00:41:23] INFO root fetch - main [MainThread]: End processing [fastjet]: success
 [2023-04-20 00:41:51] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-04-20 00:41:51] INFO root fetch - main [MainThread]: Store serial: [17777878]
+[2023-04-20 00:46:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17777878]
+[2023-04-20 00:47:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-20 00:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aspose-barcode-for-python-via-net
+[2023-04-20 00:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: in-dbt-spark
+[2023-04-20 00:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spellbot
+[2023-04-20 00:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2023-04-20 00:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fprime-gds
+[2023-04-20 00:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wg-utilities
+[2023-04-20 00:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: excelcolumnizer
+[2023-04-20 00:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: panel
+[2023-04-20 00:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dapr-ext-workflow-dev
+[2023-04-20 00:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: physicX
+[2023-04-20 00:47:00] INFO root fetch - processPackages [excelcolumnizer]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 00:47:00] INFO root fetch - processPackages [spellbot]: New version: [8.9.1] Old Version: [8.9.0]
+[2023-04-20 00:47:00] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230419184648] Old Version: [2.0.3.dev20230419135633]
+[2023-04-20 00:47:00] INFO root fetch - processPackages [fprime-gds]: New version: [3.2.0] Old Version: [3.1.5a4]
+[2023-04-20 00:47:00] INFO root fetch - processPackages [aspose-barcode-for-python-via-net]: New version: [23.4] Old Version: [23.3]
+[2023-04-20 00:47:00] INFO root fetch - processPackages [in-dbt-spark]: New version: [1.2.511] Old Version: [1.2.510]
+[2023-04-20 00:47:00] INFO root fetch - processPackages [physicX]: New version: [0.0.115] Old Version: [0.0.114]
+[2023-04-20 00:47:00] INFO root fetch - processPackages [wg-utilities]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-04-20 00:47:00] WARNING root fetch - processPackages [dapr-ext-workflow-dev]: Skipping, unable to determine old version
+[2023-04-20 00:47:00] INFO root fetch - processPackages [dapr-ext-workflow-dev]: Start processing: dictextra
+[2023-04-20 00:47:00] INFO root fetch - main [MainThread]: End processing [dapr-ext-workflow-dev] error
+[2023-04-20 00:47:00] WARNING root fetch - processPackages [dictextra]: Skipping, unable to determine old version
+[2023-04-20 00:47:00] INFO root fetch - processPackages [dictextra]: Start processing: fastapi-cruddy-framework
+[2023-04-20 00:47:00] INFO root fetch - main [MainThread]: End processing [dictextra] error
+[2023-04-20 00:47:00] INFO root fetch - processPackages [spellbot]: executing diffoscope
+[2023-04-20 00:47:00] INFO root fetch - processPackages [spellbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spellbot-8.9.0.tar.gz tmp/spellbot-8.9.1.tar.gz --markdown 20230420/s/spellbot/8.9.0-8.9.1/diff.md --exclude *.pyd
+[2023-04-20 00:47:00] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-20 00:47:00] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230419135633.tar.gz tmp/localstack-core-2.0.3.dev20230419184648.tar.gz --markdown 20230420/l/localstack-core/2.0.3.dev20230419135633-2.0.3.dev20230419184648/diff.md --exclude *.pyd
+[2023-04-20 00:47:00] INFO root fetch - processPackages [fastapi-cruddy-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 00:47:00] INFO root fetch - processPackages [panel]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-04-20 00:47:00] INFO root fetch - processPackages [physicX]: Downloading https://files.pythonhosted.org/packages/d6/46/24a19339b4ace8ebca6de9429b342f9b87e1944e3bd3cf23dc6155e34cc4/physicX-0.0.114.tar.gz
+[2023-04-20 00:47:00] INFO root fetch - processPackages [excelcolumnizer]: Downloading https://files.pythonhosted.org/packages/23/ec/429d098f0a44829fea0606e45ea17e356ade7acc00cf46ca3175ac1a8b4f/excelcolumnizer-0.0.8.tar.gz
+[2023-04-20 00:47:00] INFO root fetch - processPackages [fprime-gds]: Downloading https://files.pythonhosted.org/packages/40/42/905662f0efd19b48a5c5d79a4ac9ce52d120b91921f3896082ea04d9b802/fprime_gds-3.1.5a4.tar.gz
+[2023-04-20 00:47:00] INFO root fetch - processPackages [wg-utilities]: Downloading https://files.pythonhosted.org/packages/ab/99/f05427d500339a03de7ecd8bc8195427cd2a02833648f69fec3ba8e604f6/wg_utilities-3.5.0.tar.gz
+[2023-04-20 00:47:00] INFO root fetch - processPackages [aspose-barcode-for-python-via-net]: Downloading https://files.pythonhosted.org/packages/47/a8/f46c1a57483ceb49c3cf43001e738e61093543d4780a91b356510bd19a11/aspose_barcode_for_python_via_net-23.3-py3-none-win_amd64.whl
+[2023-04-20 00:47:00] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/82/cd/5c3589614bd7d434187d91ec69d6d3a7efd54282dd676f0da56ee1776ce2/panel-1.0.0b8.tar.gz
+[2023-04-20 00:47:00] INFO root fetch - processPackages [excelcolumnizer]: executing diffoscope
+[2023-04-20 00:47:00] INFO root fetch - processPackages [excelcolumnizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excelcolumnizer-0.0.7.tar.gz tmp/excelcolumnizer-0.0.8.tar.gz --markdown 20230420/e/excelcolumnizer/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 00:47:00] INFO root fetch - processPackages [fastapi-cruddy-framework]: executing diffoscope
+[2023-04-20 00:47:00] INFO root fetch - processPackages [fastapi-cruddy-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cruddy_framework-0.0.8.tar.gz tmp/fastapi_cruddy_framework-0.0.9.tar.gz --markdown 20230420/f/fastapi-cruddy-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 00:47:01] INFO root fetch - processPackages [in-dbt-spark]: Downloading https://files.pythonhosted.org/packages/ae/2d/f2d95772a93e64fc5558f1852032daaf7882da0e3033d0698cedb46b02fc/in-dbt-spark-1.2.511.tar.gz
+[2023-04-20 00:47:01] INFO root fetch - processPackages [physicX]: Downloading https://files.pythonhosted.org/packages/22/f2/8bc57401bfa3a116f5e6531dd86cedc3dd2dc512890ae3cf2e0e31d525f8/physicX-0.0.115.tar.gz
+[2023-04-20 00:47:01] INFO root fetch - processPackages [wg-utilities]: Downloading https://files.pythonhosted.org/packages/46/6c/3cfe8473bb04e74fae52157a67632bb926553b73799b57c23f75f02e3fa6/wg_utilities-3.6.0.tar.gz
+[2023-04-20 00:47:01] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 25160245>=10485760
+[2023-04-20 00:47:01] INFO root fetch - main [MainThread]: End processing [panel] error
+[2023-04-20 00:47:01] INFO root fetch - processPackages [fprime-gds]: Downloading https://files.pythonhosted.org/packages/86/ac/6474492f64bd16eb900aa4bfb77d092a24735e364571dbc37df5f0425b58/fprime_gds-3.2.0.tar.gz
+[2023-04-20 00:47:01] INFO root fetch - processPackages [in-dbt-spark]: executing diffoscope
+[2023-04-20 00:47:01] INFO root fetch - processPackages [in-dbt-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/in-dbt-spark-1.2.510.tar.gz tmp/in-dbt-spark-1.2.511.tar.gz --markdown 20230420/i/in-dbt-spark/1.2.510-1.2.511/diff.md --exclude *.pyd
+[2023-04-20 00:47:01] INFO root fetch - processPackages [physicX]: executing diffoscope
+[2023-04-20 00:47:01] WARNING root fetch - processPackages [aspose-barcode-for-python-via-net]: Skipping package: exceeds size limit 39065856>=10485760
+[2023-04-20 00:47:01] INFO root fetch - processPackages [physicX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physicX-0.0.114.tar.gz tmp/physicX-0.0.115.tar.gz --markdown 20230420/p/physicX/0.0.114-0.0.115/diff.md --exclude *.pyd
+[2023-04-20 00:47:01] INFO root fetch - main [MainThread]: End processing [aspose-barcode-for-python-via-net] error
+[2023-04-20 00:47:01] INFO root fetch - processPackages [wg-utilities]: executing diffoscope
+[2023-04-20 00:47:01] INFO root fetch - processPackages [wg-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wg_utilities-3.5.0.tar.gz tmp/wg_utilities-3.6.0.tar.gz --markdown 20230420/w/wg-utilities/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-04-20 00:47:01] INFO root fetch - processPackages [fprime-gds]: executing diffoscope
+[2023-04-20 00:47:01] INFO root fetch - processPackages [fprime-gds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_gds-3.1.5a4.tar.gz tmp/fprime_gds-3.2.0.tar.gz --markdown 20230420/f/fprime-gds/3.1.5a4-3.2.0/diff.md --exclude *.pyd
+[2023-04-20 00:47:02] INFO root fetch - main [MainThread]: End processing [excelcolumnizer]: success
+[2023-04-20 00:47:02] INFO root fetch - main [MainThread]: End processing [physicX]: success
+[2023-04-20 00:47:02] INFO root fetch - main [MainThread]: End processing [spellbot]: success
+[2023-04-20 00:47:02] INFO root fetch - main [MainThread]: End processing [in-dbt-spark]: success
+[2023-04-20 00:47:02] INFO root fetch - main [MainThread]: End processing [wg-utilities]: success
+[2023-04-20 00:47:02] INFO root fetch - main [MainThread]: End processing [fastapi-cruddy-framework]: success
+[2023-04-20 00:47:04] INFO root fetch - main [MainThread]: End processing [fprime-gds]: success
+[2023-04-20 00:47:07] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-20 00:47:07] INFO root fetch - main [MainThread]: Store serial: [17777977]
