@@ -9638,3 +9638,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 09:22:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-04-20 09:22:46] INFO root fetch - main [MainThread]: End processing [xrprimer]: success
 [2023-04-20 09:22:46] INFO root fetch - main [MainThread]: Store serial: [17783250]
+[2023-04-20 09:28:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783250]
+[2023-04-20 09:28:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-20 09:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exceltotable
+[2023-04-20 09:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: connect-extension-runner
+[2023-04-20 09:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-bccr
+[2023-04-20 09:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssb-altinn3-util
+[2023-04-20 09:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenFisca-France-Local
+[2023-04-20 09:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wale-net
+[2023-04-20 09:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vayner-clean
+[2023-04-20 09:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wafermap
+[2023-04-20 09:28:04] INFO root fetch - processPackages [antchain-bccr]: New version: [1.8.15] Old Version: [1.17.51]
+[2023-04-20 09:28:04] INFO root fetch - processPackages [vayner-clean]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-20 09:28:04] INFO root fetch - processPackages [ssb-altinn3-util]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 09:28:04] INFO root fetch - processPackages [OpenFisca-France-Local]: New version: [4.5.1] Old Version: [4.5.0]
+[2023-04-20 09:28:04] INFO root fetch - processPackages [connect-extension-runner]: New version: [27.9] Old Version: [27.8]
+[2023-04-20 09:28:04] INFO root fetch - processPackages [wale-net]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-04-20 09:28:04] INFO root fetch - processPackages [exceltotable]: New version: [1.1.0] Old Version: [0.1]
+[2023-04-20 09:28:04] INFO root fetch - processPackages [wafermap]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-20 09:28:05] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/91/ac/d039f57ec49d1f014d5dad7bb60f512061376bb8df2f2e62db874dc4a790/antchain_bccr-1.17.51.tar.gz
+[2023-04-20 09:28:05] INFO root fetch - processPackages [exceltotable]: Downloading https://files.pythonhosted.org/packages/71/49/a15617230f3e5d543003d71e4752403b828f91ec5bc1242becc0fc8e5a98/exceltotable-0.1.tar.gz
+[2023-04-20 09:28:05] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/b9/37/0d587dbf3db8f8a71043017d750075f1477f9cc9a03c1de65493d70e5037/OpenFisca-France-Local-4.5.0.tar.gz
+[2023-04-20 09:28:05] INFO root fetch - processPackages [wale-net]: Downloading https://files.pythonhosted.org/packages/cc/52/3892a135ae254fc5e0350043b3f9dfb07e0a1cab1632b63aca04159f9fdd/wale-net-3.0.1.tar.gz
+[2023-04-20 09:28:05] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/ef/cb/003df3d92e53e6833a38e7c0e143bc4d6f12027d22363d6eaddd6cdfd246/ssb_altinn3_util-0.0.8.tar.gz
+[2023-04-20 09:28:05] INFO root fetch - processPackages [antchain-bccr]: executing diffoscope
+[2023-04-20 09:28:05] INFO root fetch - processPackages [antchain-bccr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bccr-1.17.51.tar.gz tmp/antchain_bccr-1.8.15.tar.gz --markdown 20230420/a/antchain-bccr/1.17.51-1.8.15/diff.md --exclude *.pyd
+[2023-04-20 09:28:05] INFO root fetch - processPackages [wafermap]: Downloading https://files.pythonhosted.org/packages/b4/43/92e733d8c2ab055b5314235520ff1b1b7fb6decfb5ffc17202f8f0fc790f/wafermap-0.2.3.tar.gz
+[2023-04-20 09:28:05] INFO root fetch - processPackages [vayner-clean]: Downloading https://files.pythonhosted.org/packages/c9/f9/6328003dd18cfc3b758289d2f717b48fe3635cf5b1e129a909ae5cc7a968/vayner_clean-0.1.7.tar.gz
+[2023-04-20 09:28:05] INFO root fetch - processPackages [wafermap]: executing diffoscope
+[2023-04-20 09:28:05] INFO root fetch - processPackages [wafermap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-0.2.2.tar.gz tmp/wafermap-0.2.3.tar.gz --markdown 20230420/w/wafermap/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-20 09:28:05] INFO root fetch - processPackages [wale-net]: Downloading https://files.pythonhosted.org/packages/7e/cb/93af0ed3e5448be2d8037fafb67d024304f708a8470dbf36ab6e88747abe/wale-net-3.0.2.tar.gz
+[2023-04-20 09:28:05] INFO root fetch - processPackages [exceltotable]: Downloading https://files.pythonhosted.org/packages/72/58/f0fe49593c3c4fbc839d9699bd60feeab30cfc9c5c2d6057d755089701eb/exceltotable-1.1.0.tar.gz
+[2023-04-20 09:28:05] INFO root fetch - processPackages [vayner-clean]: executing diffoscope
+[2023-04-20 09:28:05] INFO root fetch - processPackages [vayner-clean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vayner_clean-0.1.6.tar.gz tmp/vayner_clean-0.1.7.tar.gz --markdown 20230420/v/vayner-clean/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-20 09:28:05] INFO root fetch - processPackages [connect-extension-runner]: executing diffoscope
+[2023-04-20 09:28:05] INFO root fetch - processPackages [connect-extension-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_extension_runner-27.8.tar.gz tmp/connect_extension_runner-27.9.tar.gz --markdown 20230420/c/connect-extension-runner/27.8-27.9/diff.md --exclude *.pyd
+[2023-04-20 09:28:05] INFO root fetch - processPackages [exceltotable]: executing diffoscope
+[2023-04-20 09:28:05] INFO root fetch - processPackages [exceltotable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceltotable-0.1.tar.gz tmp/exceltotable-1.1.0.tar.gz --markdown 20230420/e/exceltotable/0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-20 09:28:05] INFO root fetch - processPackages [wale-net]: executing diffoscope
+[2023-04-20 09:28:05] INFO root fetch - processPackages [wale-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wale-net-3.0.1.tar.gz tmp/wale-net-3.0.2.tar.gz --markdown 20230420/w/wale-net/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-04-20 09:28:05] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/94/61/ca19b663821a79f349fe04383c5a68f9cf3f6c75cf20b9b9f2c7a92aa898/ssb_altinn3_util-0.0.9.tar.gz
+[2023-04-20 09:28:06] INFO root fetch - processPackages [ssb-altinn3-util]: executing diffoscope
+[2023-04-20 09:28:06] INFO root fetch - processPackages [ssb-altinn3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn3_util-0.0.8.tar.gz tmp/ssb_altinn3_util-0.0.9.tar.gz --markdown 20230420/s/ssb-altinn3-util/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 09:28:06] INFO root fetch - main [MainThread]: End processing [antchain-bccr]: success
+[2023-04-20 09:28:06] INFO root fetch - main [MainThread]: End processing [vayner-clean]: success
+[2023-04-20 09:28:06] INFO root fetch - main [MainThread]: End processing [wafermap]: success
+[2023-04-20 09:28:06] INFO root fetch - main [MainThread]: End processing [connect-extension-runner]: success
+[2023-04-20 09:28:06] INFO root fetch - main [MainThread]: End processing [exceltotable]: success
+[2023-04-20 09:28:06] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/62/4c/704acbc28e8d143ff7d8bcc45dc55313b55dd4b74948fabf991c80c30b51/OpenFisca-France-Local-4.5.1.tar.gz
+[2023-04-20 09:28:06] INFO root fetch - main [MainThread]: End processing [wale-net]: success
+[2023-04-20 09:28:06] INFO root fetch - processPackages [OpenFisca-France-Local]: executing diffoscope
+[2023-04-20 09:28:06] INFO root fetch - processPackages [OpenFisca-France-Local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-France-Local-4.5.0.tar.gz tmp/OpenFisca-France-Local-4.5.1.tar.gz --markdown 20230420/O/OpenFisca-France-Local/4.5.0-4.5.1/diff.md --exclude *.pyd
+[2023-04-20 09:28:07] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
+[2023-04-20 09:28:12] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
+[2023-04-20 09:28:12] INFO root fetch - main [MainThread]: Store serial: [17783274]
