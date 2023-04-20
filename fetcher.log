@@ -1634,3 +1634,79 @@
 [2023-04-20 02:10:08] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2023-04-20 02:10:20] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2023-04-20 02:10:20] INFO root fetch - main [MainThread]: Store serial: [17778565]
+[2023-04-20 02:15:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17778565]
+[2023-04-20 02:15:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-20 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NEURON-nightly
+[2023-04-20 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-common
+[2023-04-20 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e2eAIOK-denas
+[2023-04-20 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sara-compis1-tools
+[2023-04-20 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fasdr
+[2023-04-20 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-events-notify
+[2023-04-20 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-skylight
+[2023-04-20 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-botting-core
+[2023-04-20 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytorch-ignite
+[2023-04-20 02:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-events-notify
+[2023-04-20 02:15:30] INFO root fetch - processPackages [fasdr]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-20 02:15:30] INFO root fetch - processPackages [sara-compis1-tools]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-20 02:15:30] INFO root fetch - processPackages [e2eAIOK-denas]: New version: [1.0.1b2023042000] Old Version: [1.0.1b2023041900]
+[2023-04-20 02:15:30] INFO root fetch - processPackages [ml-botting-core]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-20 02:15:30] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-04-20 02:15:30] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-20 02:15:30] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-20 02:15:30] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-20 02:15:30] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0.dev1336] Old Version: [9.0.dev1335]
+[2023-04-20 02:15:30] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230420] Old Version: [0.5.0.dev20230419]
+[2023-04-20 02:15:30] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-04-20 02:15:30] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230420/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-04-20 02:15:30] INFO root fetch - processPackages [sara-compis1-tools]: Downloading https://files.pythonhosted.org/packages/d5/24/fb42ab66e9afb96e04b8457327cc919d43180c2758273464e8f1ca0ccf2d/sara_compis1_tools-0.0.6.tar.gz
+[2023-04-20 02:15:30] INFO root fetch - processPackages [e2eAIOK-denas]: Downloading https://files.pythonhosted.org/packages/51/ee/cddb197be42372679761513f38f48f3fa660a23426f94d656f218381dfdc/e2eAIOK_denas-1.0.1b2023042000-py3-none-any.whl
+[2023-04-20 02:15:30] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-04-20 02:15:30] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230420/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-20 02:15:30] INFO root fetch - processPackages [fasdr]: Downloading https://files.pythonhosted.org/packages/72/8a/c729898776015cf18e0c0e898c78f710da1d4eee6413d9ec41658d8ea9fd/fasdr-0.0.5.tar.gz
+[2023-04-20 02:15:30] INFO root fetch - processPackages [ml-botting-core]: Downloading https://files.pythonhosted.org/packages/13/09/2a4769975e073974bb6f12d5f7bb4aca8b0956cb80937a00be5921c247fb/ml_botting_core-1.0.2.tar.gz
+[2023-04-20 02:15:31] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-04-20 02:15:31] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230420/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-20 02:15:31] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/e2/de/65e91ac65f077cf342779cb96ec4222baf7da860a88415cd80f0791f2c53/NEURON_nightly-9.0.dev1335-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-20 02:15:31] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/cf/bd/ae72fdeaa5561ecbadc207a2853c5d0ba46326bbd900e6ad59bc9346864c/pytorch-ignite-0.5.0.dev20230419.tar.gz
+[2023-04-20 02:15:31] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-04-20 02:15:31] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230420/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-20 02:15:31] INFO root fetch - processPackages [sara-compis1-tools]: executing diffoscope
+[2023-04-20 02:15:31] INFO root fetch - processPackages [sara-compis1-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sara_compis1_tools-0.0.5.tar.gz tmp/sara_compis1_tools-0.0.6.tar.gz --markdown 20230420/s/sara-compis1-tools/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-20 02:15:31] INFO root fetch - processPackages [e2eAIOK-denas]: executing diffoscope
+[2023-04-20 02:15:31] INFO root fetch - processPackages [e2eAIOK-denas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eAIOK_denas-1.0.1b2023041900-py3-none-any.whl.zip tmp/e2eAIOK_denas-1.0.1b2023042000-py3-none-any.whl.zip --markdown 20230420/e/e2eAIOK-denas/1.0.1b2023041900-1.0.1b2023042000/diff.md --exclude *.pyd
+[2023-04-20 02:15:31] INFO root fetch - processPackages [fasdr]: executing diffoscope
+[2023-04-20 02:15:31] INFO root fetch - processPackages [fasdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasdr-0.0.4.tar.gz tmp/fasdr-0.0.5.tar.gz --markdown 20230420/f/fasdr/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 02:15:31] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 13186724>=10485760
+[2023-04-20 02:15:31] INFO root fetch - processPackages [NEURON-nightly]: Start processing: cdktf-gitlab-runner
+[2023-04-20 02:15:31] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2023-04-20 02:15:31] INFO root fetch - processPackages [ml-botting-core]: executing diffoscope
+[2023-04-20 02:15:31] INFO root fetch - processPackages [ml-botting-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_botting_core-1.0.1.tar.gz tmp/ml_botting_core-1.0.2.tar.gz --markdown 20230420/m/ml-botting-core/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 02:15:31] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-20 02:15:31] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/04/c5/ab146ecb3334ba0568d8fb704df4169d8ae1e77bc9a1d8736d03654429d3/pytorch-ignite-0.5.0.dev20230420.tar.gz
+[2023-04-20 02:15:31] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-04-20 02:15:31] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230420/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-20 02:15:31] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-04-20 02:15:31] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230419.tar.gz tmp/pytorch-ignite-0.5.0.dev20230420.tar.gz --markdown 20230420/p/pytorch-ignite/0.5.0.dev20230419-0.5.0.dev20230420/diff.md --exclude *.pyd
+[2023-04-20 02:15:32] INFO root fetch - processPackages [cdk-events-notify]: Start processing: cdk-common
+[2023-04-20 02:15:32] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-04-20 02:15:32] INFO root fetch - processPackages [cdk-skylight]: Start processing: lucupy
+[2023-04-20 02:15:32] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-04-20 02:15:32] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-20 02:15:32] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-04-20 02:15:32] INFO root fetch - processPackages [lucupy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 02:15:32] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-04-20 02:15:32] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230420/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-20 02:15:32] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/48/24/564fb7fc12915db3e559e4a44c2c2ea56620d4da2174d3da93586a4d9af4/lucupy-0.1.8.tar.gz
+[2023-04-20 02:15:32] INFO root fetch - main [MainThread]: End processing [ml-botting-core]: success
+[2023-04-20 02:15:32] INFO root fetch - main [MainThread]: End processing [sara-compis1-tools]: success
+[2023-04-20 02:15:32] INFO root fetch - main [MainThread]: End processing [fasdr]: success
+[2023-04-20 02:15:33] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-04-20 02:15:33] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/8e/71/90824741abbd5f41e02cef3f27573135ac7ee3e561efa91dfd0394c03374/lucupy-0.1.9.tar.gz
+[2023-04-20 02:15:33] INFO root fetch - processPackages [lucupy]: executing diffoscope
+[2023-04-20 02:15:33] INFO root fetch - processPackages [lucupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucupy-0.1.8.tar.gz tmp/lucupy-0.1.9.tar.gz --markdown 20230420/l/lucupy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 02:15:33] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-04-20 02:15:33] INFO root fetch - main [MainThread]: End processing [e2eAIOK-denas]: success
+[2023-04-20 02:15:33] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-04-20 02:15:34] INFO root fetch - main [MainThread]: End processing [lucupy]: success
+[2023-04-20 02:15:35] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-04-20 02:15:35] INFO root fetch - main [MainThread]: Store serial: [17778608]
