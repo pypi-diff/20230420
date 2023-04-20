@@ -10296,3 +10296,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 10:11:04] INFO root fetch - main [MainThread]: End processing [botoolkit]: success
 [2023-04-20 10:11:04] INFO root fetch - main [MainThread]: End processing [wagtail-cjkcms]: success
 [2023-04-20 10:11:04] INFO root fetch - main [MainThread]: Store serial: [17783601]
+[2023-04-20 10:16:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783601]
+[2023-04-20 10:16:13] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-20 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iqrfpy
+[2023-04-20 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-proxbox-custom
+[2023-04-20 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notifator
+[2023-04-20 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autohooks-plugin-pytest
+[2023-04-20 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: checkov
+[2023-04-20 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unravel-python
+[2023-04-20 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-document-page-approval
+[2023-04-20 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-base-comment-template
+[2023-04-20 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cg-hermes
+[2023-04-20 10:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multiheats
+[2023-04-20 10:16:13] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 10:16:13] INFO root fetch - processPackages [unravel-python]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-20 10:16:13] WARNING root fetch - processPackages [netbox-proxbox-custom]: Skipping, unable to determine old version
+[2023-04-20 10:16:13] INFO root fetch - processPackages [multiheats]: New version: [0.402] Old Version: [0.401]
+[2023-04-20 10:16:13] INFO root fetch - processPackages [autohooks-plugin-pytest]: New version: [23.4.0] Old Version: [23.1.0]
+[2023-04-20 10:16:13] INFO root fetch - processPackages [netbox-proxbox-custom]: Start processing: piperider
+[2023-04-20 10:16:13] INFO root fetch - processPackages [notifator]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 10:16:13] INFO root fetch - main [MainThread]: End processing [netbox-proxbox-custom] error
+[2023-04-20 10:16:13] INFO root fetch - processPackages [odoo14-addon-base-comment-template]: New version: [14.0.4.0.1.dev3] Old Version: [14.0.4.0.1.dev2]
+[2023-04-20 10:16:13] INFO root fetch - processPackages [odoo-addon-document-page-approval]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.9]
+[2023-04-20 10:16:13] INFO root fetch - processPackages [cg-hermes]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-20 10:16:13] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-20 10:16:13] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-04-20 10:16:13] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-04-20 10:16:13] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230420/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-04-20 10:16:13] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-20 10:16:13] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230420/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-20 10:16:13] INFO root fetch - processPackages [notifator]: Downloading https://files.pythonhosted.org/packages/85/b0/d3f223aa57daaccad91131da39b09031fb65fe536be494b0c6ee7d9fd608/notifator-0.2.8.tar.gz
+[2023-04-20 10:16:13] INFO root fetch - processPackages [unravel-python]: Downloading https://files.pythonhosted.org/packages/84/5d/d477eff02b6825441cb5f8363924ddf0ca36f756bc553ff81040fbe555f4/unravel-python-1.2.0.tar.gz
+[2023-04-20 10:16:13] INFO root fetch - processPackages [multiheats]: Downloading https://files.pythonhosted.org/packages/c0/69/5dc7a3671e2beca2efcaebe85984c4c738eb8c55741df3071eb72024a9bc/multiheats-0.401.tar.gz
+[2023-04-20 10:16:13] INFO root fetch - processPackages [odoo14-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/b1/00/761b7124a3d594ae346a5a5e9bb66dc08633ebd7bb5f764f7ae76eefa275/odoo14_addon_base_comment_template-14.0.4.0.1.dev2-py3-none-any.whl
+[2023-04-20 10:16:13] INFO root fetch - processPackages [autohooks-plugin-pytest]: Downloading https://files.pythonhosted.org/packages/cf/10/d49d3943bb3305475cc299c5af4c574dce71b1f640b466dd1321a72c32f9/autohooks_plugin_pytest-23.1.0.tar.gz
+[2023-04-20 10:16:13] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/f7/e3/b1ba097e3b06aa2047db18f3f66e0435cfc22dd4ca219f6ef2de769d043d/odoo_addon_document_page_approval-16.0.1.1.0-py3-none-any.whl
+[2023-04-20 10:16:13] INFO root fetch - processPackages [cg-hermes]: Downloading https://files.pythonhosted.org/packages/6f/0c/a584534c39bc4d96f13ad4273e0913b59d074204fc74b955f3f496188808/cg-hermes-1.8.0.tar.gz
+[2023-04-20 10:16:14] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-04-20 10:16:14] INFO root fetch - processPackages [multiheats]: Downloading https://files.pythonhosted.org/packages/eb/2e/de583036de7ca141a8f910cf04242b9e602d8a2637c9d7829233aba49533/multiheats-0.402.tar.gz
+[2023-04-20 10:16:14] INFO root fetch - processPackages [odoo-addon-document-page-approval]: executing diffoscope
+[2023-04-20 10:16:14] INFO root fetch - processPackages [odoo-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_approval-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_document_page_approval-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-document-page-approval/16.0.1.0.0.9-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-04-20 10:16:14] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-04-20 10:16:14] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230420/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 10:16:14] INFO root fetch - processPackages [multiheats]: executing diffoscope
+[2023-04-20 10:16:14] INFO root fetch - processPackages [multiheats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiheats-0.401.tar.gz tmp/multiheats-0.402.tar.gz --markdown 20230420/m/multiheats/0.401-0.402/diff.md --exclude *.pyd
+[2023-04-20 10:16:14] INFO root fetch - processPackages [autohooks-plugin-pytest]: Downloading https://files.pythonhosted.org/packages/45/55/3b89feaa85fb17b992fb343ca344080854b3432abf5641609fb3d8bbaa18/autohooks_plugin_pytest-23.4.0.tar.gz
+[2023-04-20 10:16:14] INFO root fetch - processPackages [unravel-python]: Downloading https://files.pythonhosted.org/packages/65/ac/a0d78dc62ea933d5b9aa35ce2240efb6b48d83dfc7aa0892d812d06e7da8/unravel-python-1.2.1.tar.gz
+[2023-04-20 10:16:14] INFO root fetch - processPackages [notifator]: Downloading https://files.pythonhosted.org/packages/fb/3d/ae388b2ed088cf4fa9a4c35ac799d2a09f479703372a56f51d2759edb104/notifator-0.2.9.tar.gz
+[2023-04-20 10:16:14] INFO root fetch - processPackages [odoo14-addon-base-comment-template]: Downloading https://files.pythonhosted.org/packages/cc/7b/27366dfe3962011f0b45ff72c43ac62747f9975d5d5f8c292e4c502e4144/odoo14_addon_base_comment_template-14.0.4.0.1.dev3-py3-none-any.whl
+[2023-04-20 10:16:14] INFO root fetch - processPackages [cg-hermes]: Downloading https://files.pythonhosted.org/packages/67/6e/f35065005ad8e514ccb9524361723cdde5d9f965e4abcae652b25b97d748/cg-hermes-1.9.0.tar.gz
+[2023-04-20 10:16:14] INFO root fetch - processPackages [autohooks-plugin-pytest]: executing diffoscope
+[2023-04-20 10:16:14] INFO root fetch - processPackages [autohooks-plugin-pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autohooks_plugin_pytest-23.1.0.tar.gz tmp/autohooks_plugin_pytest-23.4.0.tar.gz --markdown 20230420/a/autohooks-plugin-pytest/23.1.0-23.4.0/diff.md --exclude *.pyd
+[2023-04-20 10:16:14] INFO root fetch - processPackages [unravel-python]: executing diffoscope
+[2023-04-20 10:16:14] INFO root fetch - processPackages [unravel-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unravel-python-1.2.0.tar.gz tmp/unravel-python-1.2.1.tar.gz --markdown 20230420/u/unravel-python/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-20 10:16:14] INFO root fetch - processPackages [notifator]: executing diffoscope
+[2023-04-20 10:16:14] INFO root fetch - processPackages [notifator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notifator-0.2.8.tar.gz tmp/notifator-0.2.9.tar.gz --markdown 20230420/n/notifator/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 10:16:14] INFO root fetch - processPackages [cg-hermes]: executing diffoscope
+[2023-04-20 10:16:14] INFO root fetch - processPackages [cg-hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-hermes-1.8.0.tar.gz tmp/cg-hermes-1.9.0.tar.gz --markdown 20230420/c/cg-hermes/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 10:16:14] INFO root fetch - processPackages [odoo14-addon-base-comment-template]: executing diffoscope
+[2023-04-20 10:16:14] INFO root fetch - processPackages [odoo14-addon-base-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_comment_template-14.0.4.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_base_comment_template-14.0.4.0.1.dev3-py3-none-any.whl.zip --markdown 20230420/o/odoo14-addon-base-comment-template/14.0.4.0.1.dev2-14.0.4.0.1.dev3/diff.md --exclude *.pyd
+[2023-04-20 10:16:15] INFO root fetch - processPackages [multiheats]: Start processing: fastdeploy
+[2023-04-20 10:16:15] INFO root fetch - main [MainThread]: End processing [multiheats]: success
+[2023-04-20 10:16:15] INFO root fetch - processPackages [fastdeploy]: New version: [2.2.8] Old Version: [2.2.7rc4]
+[2023-04-20 10:16:15] INFO root fetch - processPackages [autohooks-plugin-pytest]: Start processing: discoart
+[2023-04-20 10:16:15] INFO root fetch - main [MainThread]: End processing [autohooks-plugin-pytest]: success
+[2023-04-20 10:16:15] INFO root fetch - processPackages [fastdeploy]: executing diffoscope
+[2023-04-20 10:16:15] INFO root fetch - processPackages [fastdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdeploy-2.2.7rc4.tar.gz tmp/fastdeploy-2.2.8.tar.gz --markdown 20230420/f/fastdeploy/2.2.7rc4-2.2.8/diff.md --exclude *.pyd
+[2023-04-20 10:16:15] INFO root fetch - main [MainThread]: End processing [notifator]: success
+[2023-04-20 10:16:15] INFO root fetch - processPackages [discoart]: New version: [0.9.7.dev2] Old Version: [0.9.7]
+[2023-04-20 10:16:16] INFO root fetch - processPackages [discoart]: Downloading https://files.pythonhosted.org/packages/f4/57/236a663ceacfc48da8876bb907ab347d062248163bd1dce9554860a9a0ed/discoart-0.9.7.tar.gz
+[2023-04-20 10:16:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-approval]: success
+[2023-04-20 10:16:16] INFO root fetch - main [MainThread]: End processing [unravel-python]: success
+[2023-04-20 10:16:16] INFO root fetch - main [MainThread]: End processing [cg-hermes]: success
+[2023-04-20 10:16:16] INFO root fetch - processPackages [discoart]: Downloading https://files.pythonhosted.org/packages/b5/f1/a03c0c4389c4ba040411ba1bc394f5720c49422d2605b7bd3bed26954ab5/discoart-0.9.7.dev2.tar.gz
+[2023-04-20 10:16:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-comment-template]: success
+[2023-04-20 10:16:16] INFO root fetch - processPackages [discoart]: executing diffoscope
+[2023-04-20 10:16:16] INFO root fetch - processPackages [discoart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discoart-0.9.7.tar.gz tmp/discoart-0.9.7.dev2.tar.gz --markdown 20230420/d/discoart/0.9.7-0.9.7.dev2/diff.md --exclude *.pyd
+[2023-04-20 10:16:16] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-04-20 10:16:17] INFO root fetch - main [MainThread]: End processing [fastdeploy]: success
+[2023-04-20 10:16:17] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-04-20 10:16:17] INFO root fetch - main [MainThread]: End processing [discoart]: success
+[2023-04-20 10:16:54] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-20 10:16:54] INFO root fetch - main [MainThread]: Store serial: [17783637]
