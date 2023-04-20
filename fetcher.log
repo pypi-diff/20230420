@@ -7732,3 +7732,22 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 06:46:28] INFO root fetch - processPackages [cozo-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cozo_embedded-0.5.1-cp37-abi3-win_amd64.whl.zip tmp/cozo_embedded-0.6.0-cp37-abi3-win_amd64.whl.zip --markdown 20230420/c/cozo-embedded/0.5.1-0.6.0/diff.md --exclude *.pyd
 [2023-04-20 06:46:29] INFO root fetch - main [MainThread]: End processing [cozo-embedded]: success
 [2023-04-20 06:46:29] INFO root fetch - main [MainThread]: Store serial: [17782123]
+[2023-04-20 06:51:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17782123]
+[2023-04-20 06:51:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-20 06:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caesar-rock
+[2023-04-20 06:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huble
+[2023-04-20 06:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skye
+[2023-04-20 06:51:38] WARNING root fetch - processPackages [skye]: Skipping, unable to determine old version
+[2023-04-20 06:51:38] INFO root fetch - processPackages [caesar-rock]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-20 06:51:38] INFO root fetch - main [MainThread]: End processing [skye] error
+[2023-04-20 06:51:38] INFO root fetch - processPackages [huble]: New version: [0.2.304] Old Version: [0.2.303]
+[2023-04-20 06:51:38] INFO root fetch - processPackages [caesar-rock]: Downloading https://files.pythonhosted.org/packages/9b/ab/c0b16b442f35173bb7fdde59ba6fba57f3fdda04c4648728af503e705276/caesar-rock-0.0.4.tar.gz
+[2023-04-20 06:51:38] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/1d/c3/d1b336bf673ecd77c1169e0a03a13d338711b7571eaa55abb8051ca26266/huble-0.2.304.tar.gz
+[2023-04-20 06:51:38] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-20 06:51:38] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.303.tar.gz tmp/huble-0.2.304.tar.gz --markdown 20230420/h/huble/0.2.303-0.2.304/diff.md --exclude *.pyd
+[2023-04-20 06:51:38] INFO root fetch - processPackages [caesar-rock]: Downloading https://files.pythonhosted.org/packages/9a/85/fc24e2d83efd87df18c22adee6cf19c591b4b4cf7066baf83fc64f4e9d78/caesar-rock-0.0.5.tar.gz
+[2023-04-20 06:51:39] INFO root fetch - processPackages [caesar-rock]: executing diffoscope
+[2023-04-20 06:51:39] INFO root fetch - processPackages [caesar-rock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caesar-rock-0.0.4.tar.gz tmp/caesar-rock-0.0.5.tar.gz --markdown 20230420/c/caesar-rock/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 06:51:40] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-20 06:51:40] INFO root fetch - main [MainThread]: End processing [caesar-rock]: success
+[2023-04-20 06:51:40] INFO root fetch - main [MainThread]: Store serial: [17782133]
