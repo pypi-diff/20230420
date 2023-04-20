@@ -19410,3 +19410,167 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 17:05:21] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-04-20 17:05:29] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2023-04-20 17:05:29] INFO root fetch - main [MainThread]: Store serial: [17788793]
+[2023-04-20 17:10:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17788793]
+[2023-04-20 17:10:39] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-04-20 17:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chb
+[2023-04-20 17:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-pipeline-package
+[2023-04-20 17:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-api-server
+[2023-04-20 17:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napari-sam
+[2023-04-20 17:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resqpy
+[2023-04-20 17:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drb-driver-netcdf
+[2023-04-20 17:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorflow-text-nightly
+[2023-04-20 17:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-dkron-dev
+[2023-04-20 17:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: connect-cli
+[2023-04-20 17:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pynih
+[2023-04-20 17:10:39] INFO root fetch - processPackages [napari-sam]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-20 17:10:39] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.13.0.dev20230419] Old Version: [2.13.0.dev20230418]
+[2023-04-20 17:10:39] INFO root fetch - processPackages [connect-cli]: New version: [27.0] Old Version: [26.9]
+[2023-04-20 17:10:39] WARNING root fetch - processPackages [django-dkron-dev]: Skipping, unable to determine old version
+[2023-04-20 17:10:39] INFO root fetch - processPackages [django-dkron-dev]: Start processing: bingbong
+[2023-04-20 17:10:39] INFO root fetch - main [MainThread]: End processing [django-dkron-dev] error
+[2023-04-20 17:10:39] INFO root fetch - processPackages [bingbong]: New version: [0.1.8] Old Version: [0.1.7.1]
+[2023-04-20 17:10:39] INFO root fetch - processPackages [chb]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-04-20 17:10:39] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 17:10:39] INFO root fetch - processPackages [llama-api-server]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-20 17:10:39] INFO root fetch - processPackages [pynih]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 17:10:39] INFO root fetch - processPackages [drb-driver-netcdf]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-20 17:10:39] INFO root fetch - processPackages [resqpy]: New version: [4.7.5] Old Version: [4.7.4]
+[2023-04-20 17:10:39] INFO root fetch - processPackages [napari-sam]: executing diffoscope
+[2023-04-20 17:10:39] INFO root fetch - processPackages [napari-sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sam-0.3.8.tar.gz tmp/napari-sam-0.3.9.tar.gz --markdown 20230420/n/napari-sam/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-20 17:10:39] INFO root fetch - processPackages [bingbong]: executing diffoscope
+[2023-04-20 17:10:39] INFO root fetch - processPackages [bingbong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingbong-0.1.7.1-py3-none-any.whl.zip tmp/bingbong-0.1.8-py3-none-any.whl.zip --markdown 20230420/b/bingbong/0.1.7.1-0.1.8/diff.md --exclude *.pyd
+[2023-04-20 17:10:39] INFO root fetch - processPackages [chb]: Downloading https://files.pythonhosted.org/packages/b6/3e/104ff92a80fd47ca9dde85e402a2090df63eee60c77a06dbc04c833f3f55/chb-2.1.4.tar.gz
+[2023-04-20 17:10:39] INFO root fetch - processPackages [pynih]: Downloading https://files.pythonhosted.org/packages/3f/c7/368a5d6e57ff26beb43d43d20fbcc466a8b3a46f72be8d752f4c305e048b/pynih-0.1.0.tar.gz
+[2023-04-20 17:10:39] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-04-20 17:10:39] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.13.0.dev20230418-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.13.0.dev20230419-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230420/t/tensorflow-text-nightly/2.13.0.dev20230418-2.13.0.dev20230419/diff.md --exclude *.pyd
+[2023-04-20 17:10:39] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 17:10:39] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.8.tar.gz tmp/my-pipeline-package-1.1.9.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 17:10:39] INFO root fetch - processPackages [connect-cli]: executing diffoscope
+[2023-04-20 17:10:39] INFO root fetch - processPackages [connect-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_cli-26.9.tar.gz tmp/connect_cli-27.0.tar.gz --markdown 20230420/c/connect-cli/26.9-27.0/diff.md --exclude *.pyd
+[2023-04-20 17:10:39] INFO root fetch - processPackages [resqpy]: Downloading https://files.pythonhosted.org/packages/81/2f/b26380f98bb441c7b5a598f064148985488906c0a514d50d49c9625a9d2b/resqpy-4.7.5.tar.gz
+[2023-04-20 17:10:39] INFO root fetch - processPackages [llama-api-server]: Downloading https://files.pythonhosted.org/packages/ed/e3/c09767bf9aef216657768e56e5449d6a3e57412ea8c0590ca2d5e2b25afd/llama_api_server-0.2.3.tar.gz
+[2023-04-20 17:10:39] INFO root fetch - processPackages [drb-driver-netcdf]: Downloading https://files.pythonhosted.org/packages/cf/7e/35333b9a01cd0714dd9eb07faee2f67d0ce9c8e6244d1d22678f9fa69b06/drb-driver-netcdf-1.2.1.tar.gz
+[2023-04-20 17:10:39] INFO root fetch - processPackages [pynih]: Downloading https://files.pythonhosted.org/packages/ad/63/1542c0bf66298fefb2a3f35a7da877b1d8c094a6524b4c0c5a3da2028aae/pynih-0.1.1.tar.gz
+[2023-04-20 17:10:39] INFO root fetch - processPackages [chb]: Downloading https://files.pythonhosted.org/packages/a6/a2/5fd7232f03db2985dd4cc3dc316ff4ae367a9dccfa4a8d1572870a108361/chb-2.1.5.tar.gz
+[2023-04-20 17:10:39] INFO root fetch - processPackages [llama-api-server]: executing diffoscope
+[2023-04-20 17:10:39] INFO root fetch - processPackages [llama-api-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_api_server-0.2.2.tar.gz tmp/llama_api_server-0.2.3.tar.gz --markdown 20230420/l/llama-api-server/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-20 17:10:39] INFO root fetch - processPackages [resqpy]: executing diffoscope
+[2023-04-20 17:10:39] INFO root fetch - processPackages [resqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resqpy-4.7.4.tar.gz tmp/resqpy-4.7.5.tar.gz --markdown 20230420/r/resqpy/4.7.4-4.7.5/diff.md --exclude *.pyd
+[2023-04-20 17:10:39] INFO root fetch - processPackages [pynih]: executing diffoscope
+[2023-04-20 17:10:39] INFO root fetch - processPackages [pynih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynih-0.1.0.tar.gz tmp/pynih-0.1.1.tar.gz --markdown 20230420/p/pynih/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 17:10:39] INFO root fetch - processPackages [drb-driver-netcdf]: executing diffoscope
+[2023-04-20 17:10:39] INFO root fetch - processPackages [drb-driver-netcdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-netcdf-1.2.0.tar.gz tmp/drb-driver-netcdf-1.2.1.tar.gz --markdown 20230420/d/drb-driver-netcdf/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-20 17:10:39] INFO root fetch - processPackages [chb]: executing diffoscope
+[2023-04-20 17:10:39] INFO root fetch - processPackages [chb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chb-2.1.4.tar.gz tmp/chb-2.1.5.tar.gz --markdown 20230420/c/chb/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-04-20 17:10:40] INFO root fetch - processPackages [bingbong]: Start processing: odoo-addon-base-tier-validation
+[2023-04-20 17:10:40] INFO root fetch - main [MainThread]: End processing [bingbong]: success
+[2023-04-20 17:10:40] INFO root fetch - processPackages [napari-sam]: Start processing: rerun-sdk
+[2023-04-20 17:10:40] INFO root fetch - main [MainThread]: End processing [napari-sam]: success
+[2023-04-20 17:10:40] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.6]
+[2023-04-20 17:10:40] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-04-20 17:10:40] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.1.6-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-base-tier-validation/16.0.1.0.1.6-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-04-20 17:10:40] INFO root fetch - processPackages [rerun-sdk]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-20 17:10:41] INFO root fetch - processPackages [rerun-sdk]: Downloading https://files.pythonhosted.org/packages/44/43/8ef4f6d9bff904151abcecc3417957fe5764b68418308046099b6eaabea5/rerun_sdk-0.4.0-cp38-abi3-win_amd64.whl
+[2023-04-20 17:10:41] INFO root fetch - processPackages [my-pipeline-package]: Start processing: opendatacrawler
+[2023-04-20 17:10:41] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 17:10:41] WARNING root fetch - processPackages [opendatacrawler]: Skipping, unable to determine old version
+[2023-04-20 17:10:41] INFO root fetch - processPackages [opendatacrawler]: Start processing: globus-compute-sdk
+[2023-04-20 17:10:41] INFO root fetch - main [MainThread]: End processing [opendatacrawler] error
+[2023-04-20 17:10:41] WARNING root fetch - processPackages [rerun-sdk]: Skipping package: exceeds size limit 22396938>=10485760
+[2023-04-20 17:10:41] INFO root fetch - processPackages [rerun-sdk]: Start processing: distcompute-client
+[2023-04-20 17:10:41] INFO root fetch - main [MainThread]: End processing [rerun-sdk] error
+[2023-04-20 17:10:41] INFO root fetch - processPackages [globus-compute-sdk]: New version: [2.0.1a4] Old Version: [2.0.1a3]
+[2023-04-20 17:10:41] WARNING root fetch - processPackages [distcompute-client]: Skipping, unable to determine old version
+[2023-04-20 17:10:41] INFO root fetch - processPackages [distcompute-client]: Start processing: globus-compute-endpoint
+[2023-04-20 17:10:41] INFO root fetch - main [MainThread]: End processing [distcompute-client] error
+[2023-04-20 17:10:41] INFO root fetch - processPackages [llama-api-server]: Start processing: drf-kit
+[2023-04-20 17:10:41] INFO root fetch - main [MainThread]: End processing [llama-api-server]: success
+[2023-04-20 17:10:41] INFO root fetch - processPackages [drf-kit]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-04-20 17:10:41] INFO root fetch - processPackages [globus-compute-endpoint]: New version: [2.0.1a4] Old Version: [2.0.1a3]
+[2023-04-20 17:10:41] INFO root fetch - processPackages [drf-kit]: executing diffoscope
+[2023-04-20 17:10:41] INFO root fetch - processPackages [drf-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-kit-1.8.7.tar.gz tmp/drf-kit-1.9.0.tar.gz --markdown 20230420/d/drf-kit/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 17:10:41] INFO root fetch - processPackages [pynih]: Start processing: slurmui
+[2023-04-20 17:10:41] INFO root fetch - main [MainThread]: End processing [pynih]: success
+[2023-04-20 17:10:41] INFO root fetch - processPackages [slurmui]: New version: [0.3.0.1] Old Version: [0.3.0.0]
+[2023-04-20 17:10:41] INFO root fetch - processPackages [globus-compute-sdk]: Downloading https://files.pythonhosted.org/packages/f6/f5/11b92f9bce3ea52448aeb025a6f94d64f04cf61bd3a48047ad6220b6d2dd/globus-compute-sdk-2.0.1a4.tar.gz
+[2023-04-20 17:10:41] INFO root fetch - processPackages [slurmui]: executing diffoscope
+[2023-04-20 17:10:41] INFO root fetch - processPackages [slurmui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurmui-0.3.0.0-py3-none-any.whl.zip tmp/slurmui-0.3.0.1-py3-none-any.whl.zip --markdown 20230420/s/slurmui/0.3.0.0-0.3.0.1/diff.md --exclude *.pyd
+[2023-04-20 17:10:41] INFO root fetch - processPackages [drb-driver-netcdf]: Start processing: qwak-sdk
+[2023-04-20 17:10:41] INFO root fetch - main [MainThread]: End processing [drb-driver-netcdf]: success
+[2023-04-20 17:10:41] INFO root fetch - processPackages [qwak-sdk]: New version: [0.2.22rc0] Old Version: [0.2.21rc0]
+[2023-04-20 17:10:41] INFO root fetch - processPackages [chb]: Start processing: odoo-addon-base-tier-validation
+[2023-04-20 17:10:41] INFO root fetch - main [MainThread]: End processing [chb]: success
+[2023-04-20 17:10:41] INFO root fetch - processPackages [globus-compute-endpoint]: Downloading https://files.pythonhosted.org/packages/f9/1c/0bbc440f0365428d92616822c28e2c77080176a276dfdfa94a0c71ecb82a/globus-compute-endpoint-2.0.1a4.tar.gz
+[2023-04-20 17:10:41] INFO root fetch - processPackages [globus-compute-sdk]: executing diffoscope
+[2023-04-20 17:10:41] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.3] Old Version: [16.0.1.0.2]
+[2023-04-20 17:10:41] INFO root fetch - processPackages [globus-compute-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globus-compute-sdk-2.0.1a3.tar.gz tmp/globus-compute-sdk-2.0.1a4.tar.gz --markdown 20230420/g/globus-compute-sdk/2.0.1a3-2.0.1a4/diff.md --exclude *.pyd
+[2023-04-20 17:10:42] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/80/c1/d8df0d369c024d12df6e9cc7cbacaa550007fffa1d22a3b5b4968280cfd2/qwak_sdk-0.2.22rc0.tar.gz
+[2023-04-20 17:10:42] INFO root fetch - processPackages [globus-compute-endpoint]: executing diffoscope
+[2023-04-20 17:10:42] INFO root fetch - processPackages [globus-compute-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globus-compute-endpoint-2.0.1a3.tar.gz tmp/globus-compute-endpoint-2.0.1a4.tar.gz --markdown 20230420/g/globus-compute-endpoint/2.0.1a3-2.0.1a4/diff.md --exclude *.pyd
+[2023-04-20 17:10:42] INFO root fetch - processPackages [tensorflow-text-nightly]: Start processing: qontract-reconcile
+[2023-04-20 17:10:42] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-04-20 17:10:42] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/e6/3b/3d99c05e9155fc8160cf11f00fc2f444041d2717ac0a2e947a73a48f356e/odoo_addon_base_tier_validation-16.0.1.0.3-py3-none-any.whl
+[2023-04-20 17:10:42] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-20 17:10:42] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-04-20 17:10:42] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.2.21rc0.tar.gz tmp/qwak_sdk-0.2.22rc0.tar.gz --markdown 20230420/q/qwak-sdk/0.2.21rc0-0.2.22rc0/diff.md --exclude *.pyd
+[2023-04-20 17:10:42] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-20 17:10:42] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230420/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-20 17:10:42] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-04-20 17:10:42] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.3-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-base-tier-validation/16.0.1.0.2-16.0.1.0.3/diff.md --exclude *.pyd
+[2023-04-20 17:10:43] INFO root fetch - processPackages [drf-kit]: Start processing: mistapi
+[2023-04-20 17:10:43] INFO root fetch - main [MainThread]: End processing [drf-kit]: success
+[2023-04-20 17:10:43] INFO root fetch - processPackages [mistapi]: New version: [0.37.4] Old Version: [0.37.3]
+[2023-04-20 17:10:43] INFO root fetch - processPackages [slurmui]: Start processing: jupyter-analysis-tools
+[2023-04-20 17:10:43] INFO root fetch - main [MainThread]: End processing [slurmui]: success
+[2023-04-20 17:10:43] INFO root fetch - processPackages [jupyter-analysis-tools]: New version: [0.1.6.dev5] Old Version: [0.1.0]
+[2023-04-20 17:10:43] INFO root fetch - processPackages [jupyter-analysis-tools]: executing diffoscope
+[2023-04-20 17:10:43] INFO root fetch - processPackages [jupyter-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-analysis-tools-0.1.0.tar.gz tmp/jupyter-analysis-tools-0.1.6.dev5.tar.gz --markdown 20230420/j/jupyter-analysis-tools/0.1.0-0.1.6.dev5/diff.md --exclude *.pyd
+[2023-04-20 17:10:43] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Start processing: funcx-endpoint
+[2023-04-20 17:10:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-04-20 17:10:43] INFO root fetch - processPackages [resqpy]: Start processing: python3-commons
+[2023-04-20 17:10:43] INFO root fetch - main [MainThread]: End processing [resqpy]: success
+[2023-04-20 17:10:43] INFO root fetch - processPackages [python3-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 17:10:43] INFO root fetch - processPackages [funcx-endpoint]: New version: [2.0.1a4] Old Version: [2.0.1a3]
+[2023-04-20 17:10:43] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-04-20 17:10:43] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.0.8.tar.gz tmp/python3-commons-0.0.9.tar.gz --markdown 20230420/p/python3-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 17:10:43] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2023-04-20 17:10:43] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.37.3.tar.gz tmp/mistapi-0.37.4.tar.gz --markdown 20230420/m/mistapi/0.37.3-0.37.4/diff.md --exclude *.pyd
+[2023-04-20 17:10:43] INFO root fetch - processPackages [funcx-endpoint]: Downloading https://files.pythonhosted.org/packages/dc/2a/03f2b5043e6d260839bcf5e7457d449253a9527c7712e31ff86159f4892e/funcx-endpoint-2.0.1a4.tar.gz
+[2023-04-20 17:10:44] INFO root fetch - processPackages [funcx-endpoint]: executing diffoscope
+[2023-04-20 17:10:44] INFO root fetch - processPackages [funcx-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcx-endpoint-2.0.1a3.tar.gz tmp/funcx-endpoint-2.0.1a4.tar.gz --markdown 20230420/f/funcx-endpoint/2.0.1a3-2.0.1a4/diff.md --exclude *.pyd
+[2023-04-20 17:10:44] INFO root fetch - processPackages [globus-compute-sdk]: Start processing: drb-driver-era5
+[2023-04-20 17:10:44] INFO root fetch - main [MainThread]: End processing [globus-compute-sdk]: success
+[2023-04-20 17:10:44] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Start processing: sharingiscaring
+[2023-04-20 17:10:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-04-20 17:10:44] INFO root fetch - processPackages [drb-driver-era5]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-20 17:10:44] INFO root fetch - processPackages [drb-driver-era5]: executing diffoscope
+[2023-04-20 17:10:44] INFO root fetch - processPackages [drb-driver-era5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-era5-1.1.0.tar.gz tmp/drb-driver-era5-1.2.0.tar.gz --markdown 20230420/d/drb-driver-era5/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-20 17:10:44] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 17:10:44] INFO root fetch - processPackages [connect-cli]: Start processing: crunch-cli
+[2023-04-20 17:10:44] INFO root fetch - main [MainThread]: End processing [connect-cli]: success
+[2023-04-20 17:10:44] INFO root fetch - processPackages [crunch-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-20 17:10:44] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-04-20 17:10:44] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-0.8.1.tar.gz tmp/crunch-cli-0.9.0.tar.gz --markdown 20230420/c/crunch-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 17:10:44] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-04-20 17:10:44] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230420/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 17:10:45] INFO root fetch - processPackages [jupyter-analysis-tools]: Start processing: tnnt-templates
+[2023-04-20 17:10:45] INFO root fetch - main [MainThread]: End processing [jupyter-analysis-tools]: success
+[2023-04-20 17:10:45] INFO root fetch - processPackages [tnnt-templates]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-04-20 17:10:45] INFO root fetch - processPackages [globus-compute-endpoint]: Start processing: amlopschat
+[2023-04-20 17:10:45] INFO root fetch - main [MainThread]: End processing [globus-compute-endpoint]: success
+[2023-04-20 17:10:45] INFO root fetch - processPackages [amlopschat]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-20 17:10:45] INFO root fetch - processPackages [tnnt-templates]: executing diffoscope
+[2023-04-20 17:10:45] INFO root fetch - processPackages [tnnt-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tnnt_templates-2.8.1.tar.gz tmp/tnnt_templates-2.9.0.tar.gz --markdown 20230420/t/tnnt-templates/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-04-20 17:10:45] INFO root fetch - processPackages [amlopschat]: executing diffoscope
+[2023-04-20 17:10:45] INFO root fetch - processPackages [amlopschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopschat-1.0.1.tar.gz tmp/amlopschat-1.0.2.tar.gz --markdown 20230420/a/amlopschat/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 17:10:45] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-04-20 17:10:45] INFO root fetch - main [MainThread]: End processing [funcx-endpoint]: success
+[2023-04-20 17:10:45] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-04-20 17:10:45] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-04-20 17:10:46] INFO root fetch - main [MainThread]: End processing [drb-driver-era5]: success
+[2023-04-20 17:10:46] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-04-20 17:10:48] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-20 17:10:49] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2023-04-20 17:10:49] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
+[2023-04-20 17:10:53] INFO root fetch - main [MainThread]: End processing [tnnt-templates]: success
+[2023-04-20 17:10:53] INFO root fetch - main [MainThread]: Store serial: [17788903]
