@@ -10196,3 +10196,103 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 10:05:40] INFO root fetch - main [MainThread]: End processing [eduvpn-client]: success
 [2023-04-20 10:05:47] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2023-04-20 10:05:47] INFO root fetch - main [MainThread]: Store serial: [17783548]
+[2023-04-20 10:10:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783548]
+[2023-04-20 10:10:59] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-20 10:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cavasspy
+[2023-04-20 10:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-hr-holidays-natural-period
+[2023-04-20 10:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ascii-cli
+[2023-04-20 10:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2023-04-20 10:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-website-plausible
+[2023-04-20 10:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: veetility
+[2023-04-20 10:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finalynx
+[2023-04-20 10:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-base-tier-validation
+[2023-04-20 10:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cavasspy
+[2023-04-20 10:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-project-task-recurring-activity
+[2023-04-20 10:10:59] INFO root fetch - processPackages [odoo-addon-hr-holidays-natural-period]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.5]
+[2023-04-20 10:10:59] INFO root fetch - processPackages [ascii-cli]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-04-20 10:10:59] INFO root fetch - processPackages [finalynx]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-04-20 10:10:59] INFO root fetch - processPackages [cavasspy]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-20 10:10:59] INFO root fetch - processPackages [cavasspy]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-20 10:10:59] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.6]
+[2023-04-20 10:10:59] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 10:10:59] INFO root fetch - processPackages [odoo-addon-website-plausible]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.0.4]
+[2023-04-20 10:10:59] WARNING root fetch - processPackages [odoo14-addon-project-task-recurring-activity]: Skipping, unable to determine old version
+[2023-04-20 10:10:59] INFO root fetch - processPackages [odoo14-addon-project-task-recurring-activity]: Start processing: torchchronos
+[2023-04-20 10:10:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-task-recurring-activity] error
+[2023-04-20 10:10:59] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230420] Old Version: [0.3.1.dev20230419]
+[2023-04-20 10:10:59] INFO root fetch - processPackages [torchchronos]: New version: [0.0.2] Old Version: [0.0.1.post7]
+[2023-04-20 10:10:59] INFO root fetch - processPackages [cavasspy]: Downloading https://files.pythonhosted.org/packages/66/d5/347fc3350c5dffe196160141a8c38d8b7e2322eb1c1e142bae36cb92ef72/cavasspy-1.1.5.tar.gz
+[2023-04-20 10:10:59] INFO root fetch - processPackages [cavasspy]: Downloading https://files.pythonhosted.org/packages/66/d5/347fc3350c5dffe196160141a8c38d8b7e2322eb1c1e142bae36cb92ef72/cavasspy-1.1.5.tar.gz
+[2023-04-20 10:10:59] INFO root fetch - processPackages [odoo-addon-hr-holidays-natural-period]: Downloading https://files.pythonhosted.org/packages/72/0d/71885c3979aa568e9746890d646584b5009f7531a76d380fdfa404180e5e/odoo_addon_hr_holidays_natural_period-15.0.1.0.0.5-py3-none-any.whl
+[2023-04-20 10:10:59] INFO root fetch - processPackages [odoo-addon-website-plausible]: Downloading https://files.pythonhosted.org/packages/86/cc/6dcc1aa4e9d162180bd0ea5f6047d454a928053d83a0f687eea3829f920a/odoo_addon_website_plausible-15.0.1.0.0.4-py3-none-any.whl
+[2023-04-20 10:10:59] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/45/08/43c2762ed9cd3f594558a6720da7dc8adaa97f374fefd2e0b56cc629af76/odoo_addon_base_tier_validation-16.0.1.0.2-py3-none-any.whl
+[2023-04-20 10:10:59] INFO root fetch - processPackages [finalynx]: Downloading https://files.pythonhosted.org/packages/b2/2e/d58ded2f03cbf52641bdf2a9a245d637c770c7c5d91d920a8cae3f3f33e9/finalynx-1.6.0.tar.gz
+[2023-04-20 10:10:59] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/3e/66/a3e8e3af822c90789c4570bed6b547e9a655d38a5204817506c4bcd7c5b4/pyglove-0.3.1.dev20230420.tar.gz
+[2023-04-20 10:10:59] INFO root fetch - processPackages [torchchronos]: Downloading https://files.pythonhosted.org/packages/3c/be/4161f34127077e0f3fbcad6365fc09d1d73bc9a1d5141f21578475a19f28/torchchronos-0.0.1.post7.tar.gz
+[2023-04-20 10:10:59] INFO root fetch - processPackages [ascii-cli]: Downloading https://files.pythonhosted.org/packages/f8/04/161ebe371b420a10c09e0d6c3444b53a1e890a3852adbe66305de6d180be/ascii-cli-0.1.2.tar.gz
+[2023-04-20 10:11:00] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-04-20 10:11:00] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230420/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 10:11:00] INFO root fetch - processPackages [finalynx]: Downloading https://files.pythonhosted.org/packages/33/7c/9af52566f5f4b9e2310aeb190a15ba893c9abbe1f3d913e61311e47a0eda/finalynx-1.7.0.tar.gz
+[2023-04-20 10:11:00] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-04-20 10:11:00] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.1.6-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-base-tier-validation/16.0.1.0.1.6-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-04-20 10:11:00] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-04-20 10:11:00] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230419.tar.gz tmp/pyglove-0.3.1.dev20230420.tar.gz --markdown 20230420/p/pyglove/0.3.1.dev20230419-0.3.1.dev20230420/diff.md --exclude *.pyd
+[2023-04-20 10:11:00] INFO root fetch - processPackages [cavasspy]: Downloading https://files.pythonhosted.org/packages/c7/82/ff835a5610b72332fb30d22426d8fc0e492031c5c97ec9d4fe6910644bf6/cavasspy-1.1.6.tar.gz
+[2023-04-20 10:11:00] INFO root fetch - processPackages [cavasspy]: Downloading https://files.pythonhosted.org/packages/c7/82/ff835a5610b72332fb30d22426d8fc0e492031c5c97ec9d4fe6910644bf6/cavasspy-1.1.6.tar.gz
+[2023-04-20 10:11:00] INFO root fetch - processPackages [odoo-addon-hr-holidays-natural-period]: Downloading https://files.pythonhosted.org/packages/bf/0b/8fd27a4faf5630c761eccc1d64c01ab0ff0aa51ab9099f202402ac97c465/odoo_addon_hr_holidays_natural_period-15.0.1.0.1-py3-none-any.whl
+[2023-04-20 10:11:00] INFO root fetch - processPackages [odoo-addon-website-plausible]: Downloading https://files.pythonhosted.org/packages/03/cc/a5630f80bc8e2ef22f8100c2854910d7fc9f8d745063ae2159a5c5a3e2b3/odoo_addon_website_plausible-15.0.1.1.0-py3-none-any.whl
+[2023-04-20 10:11:00] INFO root fetch - processPackages [ascii-cli]: executing diffoscope
+[2023-04-20 10:11:00] INFO root fetch - processPackages [ascii-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascii-cli-0.1.0.tar.gz tmp/ascii-cli-0.1.2.tar.gz --markdown 20230420/a/ascii-cli/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-04-20 10:11:00] INFO root fetch - processPackages [torchchronos]: Downloading https://files.pythonhosted.org/packages/41/42/7fbc26da6377a9af537adbb1b0b219d732730bc1a1fd81a7ebde641c33ba/torchchronos-0.0.2.tar.gz
+[2023-04-20 10:11:00] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-04-20 10:11:00] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.6.0.tar.gz tmp/finalynx-1.7.0.tar.gz --markdown 20230420/f/finalynx/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-04-20 10:11:00] INFO root fetch - processPackages [cavasspy]: executing diffoscope
+[2023-04-20 10:11:00] INFO root fetch - processPackages [cavasspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cavasspy-1.1.5.tar.gz tmp/cavasspy-1.1.6.tar.gz --markdown 20230420/c/cavasspy/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-20 10:11:00] INFO root fetch - processPackages [cavasspy]: executing diffoscope
+[2023-04-20 10:11:00] INFO root fetch - processPackages [cavasspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cavasspy-1.1.5.tar.gz tmp/cavasspy-1.1.6.tar.gz --markdown 20230420/c/cavasspy/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-20 10:11:00] INFO root fetch - processPackages [odoo-addon-hr-holidays-natural-period]: executing diffoscope
+[2023-04-20 10:11:00] INFO root fetch - processPackages [odoo-addon-hr-holidays-natural-period]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_holidays_natural_period-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_hr_holidays_natural_period-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-hr-holidays-natural-period/15.0.1.0.0.5-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-04-20 10:11:00] INFO root fetch - processPackages [odoo-addon-website-plausible]: executing diffoscope
+[2023-04-20 10:11:00] INFO root fetch - processPackages [odoo-addon-website-plausible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_plausible-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_website_plausible-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-website-plausible/15.0.1.0.0.4-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-04-20 10:11:00] INFO root fetch - processPackages [torchchronos]: executing diffoscope
+[2023-04-20 10:11:00] INFO root fetch - processPackages [torchchronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchchronos-0.0.1.post7.tar.gz tmp/torchchronos-0.0.2.tar.gz --markdown 20230420/t/torchchronos/0.0.1.post7-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 10:11:01] INFO root fetch - processPackages [ascii-cli]: Start processing: botoolkit
+[2023-04-20 10:11:01] INFO root fetch - main [MainThread]: End processing [ascii-cli]: success
+[2023-04-20 10:11:01] INFO root fetch - processPackages [botoolkit]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 10:11:01] INFO root fetch - processPackages [veetility]: Start processing: fast-jsonrpc-Latrevious
+[2023-04-20 10:11:01] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-04-20 10:11:01] WARNING root fetch - processPackages [fast-jsonrpc-Latrevious]: Skipping, unable to determine old version
+[2023-04-20 10:11:01] INFO root fetch - processPackages [fast-jsonrpc-Latrevious]: Start processing: wagtail-cjkcms
+[2023-04-20 10:11:01] INFO root fetch - main [MainThread]: End processing [fast-jsonrpc-Latrevious] error
+[2023-04-20 10:11:01] INFO root fetch - processPackages [wagtail-cjkcms]: New version: [23.4.2] Old Version: [23.4.1]
+[2023-04-20 10:11:01] INFO root fetch - processPackages [cavasspy]: Start processing: odoo-addon-stock-route-mto
+[2023-04-20 10:11:01] INFO root fetch - main [MainThread]: End processing [cavasspy]: success
+[2023-04-20 10:11:01] WARNING root fetch - processPackages [odoo-addon-stock-route-mto]: Skipping, unable to determine old version
+[2023-04-20 10:11:01] INFO root fetch - processPackages [odoo-addon-stock-route-mto]: Start processing: autohooks-plugin-flake8
+[2023-04-20 10:11:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-route-mto] error
+[2023-04-20 10:11:01] INFO root fetch - processPackages [autohooks-plugin-flake8]: New version: [23.4.0] Old Version: [23.1.0]
+[2023-04-20 10:11:02] INFO root fetch - processPackages [odoo-addon-website-plausible]: Start processing: qbosdk
+[2023-04-20 10:11:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-plausible]: success
+[2023-04-20 10:11:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-holidays-natural-period]: success
+[2023-04-20 10:11:02] INFO root fetch - main [MainThread]: End processing [cavasspy]: success
+[2023-04-20 10:11:02] INFO root fetch - processPackages [qbosdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-20 10:11:02] INFO root fetch - processPackages [wagtail-cjkcms]: Downloading https://files.pythonhosted.org/packages/8a/4d/bd84a2228b23ed36103b158a6cb331c0e541295b11ba83c91f3257b0c65e/wagtail-cjkcms-23.4.2.tar.gz
+[2023-04-20 10:11:02] INFO root fetch - processPackages [autohooks-plugin-flake8]: Downloading https://files.pythonhosted.org/packages/e5/f8/ed89cd45b78997ed9d20365c9b2f223b3065e47f5502ed3d54fa392f6db4/autohooks_plugin_flake8-23.1.0.tar.gz
+[2023-04-20 10:11:02] INFO root fetch - processPackages [botoolkit]: executing diffoscope
+[2023-04-20 10:11:02] INFO root fetch - processPackages [botoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botoolkit-1.1.8.tar.gz tmp/botoolkit-1.1.9.tar.gz --markdown 20230420/b/botoolkit/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 10:11:02] INFO root fetch - processPackages [qbosdk]: executing diffoscope
+[2023-04-20 10:11:02] INFO root fetch - processPackages [qbosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbosdk-0.8.0.tar.gz tmp/qbosdk-0.9.0.tar.gz --markdown 20230420/q/qbosdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 10:11:02] INFO root fetch - main [MainThread]: End processing [torchchronos]: success
+[2023-04-20 10:11:02] INFO root fetch - processPackages [wagtail-cjkcms]: executing diffoscope
+[2023-04-20 10:11:02] INFO root fetch - processPackages [wagtail-cjkcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-cjkcms-23.4.1.tar.gz tmp/wagtail-cjkcms-23.4.2.tar.gz --markdown 20230420/w/wagtail-cjkcms/23.4.1-23.4.2/diff.md --exclude *.pyd
+[2023-04-20 10:11:02] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-04-20 10:11:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-04-20 10:11:02] INFO root fetch - processPackages [autohooks-plugin-flake8]: Downloading https://files.pythonhosted.org/packages/a0/41/83296fa2d9b908ee36d66781da4f615367bc4577f85dc58d18fbdc38f6c2/autohooks_plugin_flake8-23.4.0.tar.gz
+[2023-04-20 10:11:02] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-04-20 10:11:02] INFO root fetch - processPackages [autohooks-plugin-flake8]: executing diffoscope
+[2023-04-20 10:11:02] INFO root fetch - processPackages [autohooks-plugin-flake8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autohooks_plugin_flake8-23.1.0.tar.gz tmp/autohooks_plugin_flake8-23.4.0.tar.gz --markdown 20230420/a/autohooks-plugin-flake8/23.1.0-23.4.0/diff.md --exclude *.pyd
+[2023-04-20 10:11:03] INFO root fetch - main [MainThread]: End processing [qbosdk]: success
+[2023-04-20 10:11:03] INFO root fetch - main [MainThread]: End processing [autohooks-plugin-flake8]: success
+[2023-04-20 10:11:04] INFO root fetch - main [MainThread]: End processing [botoolkit]: success
+[2023-04-20 10:11:04] INFO root fetch - main [MainThread]: End processing [wagtail-cjkcms]: success
+[2023-04-20 10:11:04] INFO root fetch - main [MainThread]: Store serial: [17783601]
