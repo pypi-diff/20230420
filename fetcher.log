@@ -5806,3 +5806,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 03:34:51] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-04-20 03:34:51] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
 [2023-04-20 03:34:51] INFO root fetch - main [MainThread]: Store serial: [17780875]
+[2023-04-20 03:39:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17780875]
+[2023-04-20 03:40:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-20 03:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moesifwsgi
+[2023-04-20 03:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pandas
+[2023-04-20 03:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-enclosure
+[2023-04-20 03:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taichu-serve
+[2023-04-20 03:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pytorch
+[2023-04-20 03:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emdfile
+[2023-04-20 03:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-scipy
+[2023-04-20 03:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arize-phoenix
+[2023-04-20 03:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: my-wanglei
+[2023-04-20 03:40:00] INFO root fetch - processPackages [moesifwsgi]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-04-20 03:40:00] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [2.0.15]
+[2023-04-20 03:40:00] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 03:40:00] INFO root fetch - processPackages [emdfile]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-04-20 03:40:00] INFO root fetch - processPackages [neon-enclosure]: New version: [1.4.2a1] Old Version: [1.4.2]
+[2023-04-20 03:40:00] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-20 03:40:00] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-20 03:40:00] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-20 03:40:00] WARNING root fetch - processPackages [my-wanglei]: Skipping, unable to determine old version
+[2023-04-20 03:40:00] INFO root fetch - main [MainThread]: End processing [my-wanglei] error
+[2023-04-20 03:40:00] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-04-20 03:40:00] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-04-20 03:40:00] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230420/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 03:40:00] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230420/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-20 03:40:00] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-20 03:40:00] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230420/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-20 03:40:00] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/b6/bd/8820f2881c6c846523b42717f901f5172d8c6f35cda926922abb8cad22b1/taichu-serve-2.0.15.tar.gz
+[2023-04-20 03:40:00] INFO root fetch - processPackages [moesifwsgi]: Downloading https://files.pythonhosted.org/packages/a3/05/6aa04caf1c57180e091ef5ce5fbdb44ded3715f65fffe4ce7b45d2814642/moesifwsgi-1.6.0.tar.gz
+[2023-04-20 03:40:00] INFO root fetch - processPackages [neon-enclosure]: Downloading https://files.pythonhosted.org/packages/7b/e0/bc27edf03d4cff722f0d673d357bf90387b27cbc9d5690cad9f2d86c9f0a/neon_enclosure-1.4.2-py3-none-any.whl
+[2023-04-20 03:40:00] INFO root fetch - processPackages [emdfile]: Downloading https://files.pythonhosted.org/packages/35/2a/c550bca6e8beb54249b8217ceb8104a1184cf6f1506e2aad4c8d2b8a2367/emdfile-0.0.2.tar.gz
+[2023-04-20 03:40:00] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-04-20 03:40:00] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230420/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-20 03:40:00] INFO root fetch - processPackages [neon-enclosure]: executing diffoscope
+[2023-04-20 03:40:00] INFO root fetch - processPackages [neon-enclosure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_enclosure-1.4.2-py3-none-any.whl.zip tmp/neon_enclosure-1.4.2a1-py3-none-any.whl.zip --markdown 20230420/n/neon-enclosure/1.4.2-1.4.2a1/diff.md --exclude *.pyd
+[2023-04-20 03:40:00] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-04-20 03:40:00] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.15.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230420/t/taichu-serve/2.0.15-2.0.9/diff.md --exclude *.pyd
+[2023-04-20 03:40:00] INFO root fetch - processPackages [moesifwsgi]: Downloading https://files.pythonhosted.org/packages/41/6a/4a4007026c4f77e5e5bed290beb3ee93a2714cf172edc2bb91868a670454/moesifwsgi-1.6.1.tar.gz
+[2023-04-20 03:40:00] INFO root fetch - processPackages [emdfile]: Downloading https://files.pythonhosted.org/packages/15/d2/6d0b6671a680466052fa530be12239cf4073542ce5b68e7cd8889eb4c2dd/emdfile-0.0.4.tar.gz
+[2023-04-20 03:40:00] INFO root fetch - processPackages [moesifwsgi]: executing diffoscope
+[2023-04-20 03:40:00] INFO root fetch - processPackages [moesifwsgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moesifwsgi-1.6.0.tar.gz tmp/moesifwsgi-1.6.1.tar.gz --markdown 20230420/m/moesifwsgi/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-04-20 03:40:01] INFO root fetch - processPackages [emdfile]: executing diffoscope
+[2023-04-20 03:40:01] INFO root fetch - processPackages [emdfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emdfile-0.0.2.tar.gz tmp/emdfile-0.0.4.tar.gz --markdown 20230420/e/emdfile/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-04-20 03:40:02] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-04-20 03:40:02] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-20 03:40:02] INFO root fetch - main [MainThread]: End processing [neon-enclosure]: success
+[2023-04-20 03:40:02] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-04-20 03:40:02] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-04-20 03:40:02] INFO root fetch - main [MainThread]: End processing [moesifwsgi]: success
+[2023-04-20 03:40:02] INFO root fetch - main [MainThread]: End processing [emdfile]: success
+[2023-04-20 03:40:19] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-04-20 03:40:19] INFO root fetch - main [MainThread]: Store serial: [17780942]
