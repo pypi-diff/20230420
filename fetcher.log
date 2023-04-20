@@ -22395,3 +22395,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 19:29:52] INFO root fetch - main [MainThread]: End processing [sunpy]: success
 [2023-04-20 19:29:53] INFO root fetch - main [MainThread]: End processing [sunpy]: success
 [2023-04-20 19:29:53] INFO root fetch - main [MainThread]: Store serial: [17790771]
+[2023-04-20 19:34:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790771]
+[2023-04-20 19:35:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-20 19:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: histomicsui
+[2023-04-20 19:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: package-kpengz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phiflow
+[2023-04-20 19:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudformation-cli-python-lib
+[2023-04-20 19:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tkvue
+[2023-04-20 19:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudformation-cli-python-plugin
+[2023-04-20 19:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pywdgen
+[2023-04-20 19:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: panther-analysis-tool
+[2023-04-20 19:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yotpy
+[2023-04-20 19:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: griptape
+[2023-04-20 19:35:03] INFO root fetch - processPackages [cloudformation-cli-python-plugin]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-04-20 19:35:03] INFO root fetch - processPackages [tkvue]: New version: [2.1.0] Old Version: [2.0.5a2]
+[2023-04-20 19:35:03] INFO root fetch - processPackages [package-kpengz]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-20 19:35:03] INFO root fetch - processPackages [phiflow]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-04-20 19:35:03] WARNING root fetch - processPackages [pywdgen]: Skipping, unable to determine old version
+[2023-04-20 19:35:03] INFO root fetch - processPackages [pywdgen]: Start processing: trubrics
+[2023-04-20 19:35:03] INFO root fetch - main [MainThread]: End processing [pywdgen] error
+[2023-04-20 19:35:03] INFO root fetch - processPackages [cloudformation-cli-python-lib]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-04-20 19:35:03] INFO root fetch - processPackages [griptape]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-20 19:35:03] INFO root fetch - processPackages [histomicsui]: New version: [1.4.3.dev8] Old Version: [1.4.3.dev5]
+[2023-04-20 19:35:03] INFO root fetch - processPackages [yotpy]: New version: [0.0.82] Old Version: [0.0.81]
+[2023-04-20 19:35:03] INFO root fetch - processPackages [panther-analysis-tool]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-20 19:35:03] INFO root fetch - processPackages [trubrics]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-04-20 19:35:03] INFO root fetch - processPackages [cloudformation-cli-python-plugin]: Downloading https://files.pythonhosted.org/packages/15/db/2cd0f9208191b0cbf284fa8ae0b9914a30cb90979669426c0c0a6101d907/cloudformation-cli-python-plugin-2.1.7.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [package-kpengz]: Downloading https://files.pythonhosted.org/packages/08/8d/6eee98401fda05e6dbf3b4257e425861354c2e29e4a9ac2aa2603ef393cb/package_kpengz-1.0.1.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [cloudformation-cli-python-lib]: Downloading https://files.pythonhosted.org/packages/dc/33/ca34e18aeac09f33f6c10da4ff5f890023ea1f36f497a64908cecd8dc6d4/cloudformation-cli-python-lib-2.1.8.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [tkvue]: Downloading https://files.pythonhosted.org/packages/1c/56/d301c25f15efe2fb191ac371deec5176ac7d1d6bfdbdd68e6466bd51afd3/tkvue-2.0.5a2-py3-none-any.whl
+[2023-04-20 19:35:03] INFO root fetch - processPackages [phiflow]: Downloading https://files.pythonhosted.org/packages/2c/51/883950d0b003608cc29318861c0ccf0b3288a9053d9cbad511e6aca7e837/phiflow-2.3.3.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [panther-analysis-tool]: Downloading https://files.pythonhosted.org/packages/25/cf/5c87943f90bc11af4cdacde3d5c0400087ed9290bf037b10ab4feec7ed0a/panther_analysis_tool-0.8.3.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [trubrics]: Downloading https://files.pythonhosted.org/packages/da/c2/89ce1461ade3415989aedb409288ab263bb5903a712908e9e785781f50ea/trubrics-1.3.3.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/0e/22/0918f6cb049565ce52f7c01e01d8da39636fcdb6ca3ccf5e5dee3f47585b/griptape-0.4.0.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [yotpy]: Downloading https://files.pythonhosted.org/packages/6f/51/b3c315b819338bb8b015b7eb27d8ccbf80941599e275f2baf8021213e581/yotpy-0.0.82.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-04-20 19:35:03] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.3.0.tar.gz tmp/griptape-0.4.0.tar.gz --markdown 20230420/g/griptape/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-20 19:35:03] INFO root fetch - processPackages [package-kpengz]: Downloading https://files.pythonhosted.org/packages/87/23/aa803d2404531a05798e2c52d0af027d5e33bb23e6e902d2f9d41e201fbf/package_kpengz-1.0.2.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [cloudformation-cli-python-lib]: Downloading https://files.pythonhosted.org/packages/4c/ab/dae2011949e6bf2553b64064ad7cd2f9ce022f640ce2cc46440d7e43d537/cloudformation-cli-python-lib-2.1.9.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [yotpy]: executing diffoscope
+[2023-04-20 19:35:03] INFO root fetch - processPackages [yotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yotpy-0.0.81.tar.gz tmp/yotpy-0.0.82.tar.gz --markdown 20230420/y/yotpy/0.0.81-0.0.82/diff.md --exclude *.pyd
+[2023-04-20 19:35:03] INFO root fetch - processPackages [cloudformation-cli-python-plugin]: Downloading https://files.pythonhosted.org/packages/10/d6/25e80caf4b52f92300adc482c53fa52548cfa68c2896910f5fc50a44b2f0/cloudformation-cli-python-plugin-2.1.8.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [histomicsui]: executing diffoscope
+[2023-04-20 19:35:03] INFO root fetch - processPackages [histomicsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicsui-1.4.3.dev5.tar.gz tmp/histomicsui-1.4.3.dev8.tar.gz --markdown 20230420/h/histomicsui/1.4.3.dev5-1.4.3.dev8/diff.md --exclude *.pyd
+[2023-04-20 19:35:03] INFO root fetch - processPackages [cloudformation-cli-python-lib]: executing diffoscope
+[2023-04-20 19:35:03] INFO root fetch - processPackages [cloudformation-cli-python-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudformation-cli-python-lib-2.1.8.tar.gz tmp/cloudformation-cli-python-lib-2.1.9.tar.gz --markdown 20230420/c/cloudformation-cli-python-lib/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-04-20 19:35:03] INFO root fetch - processPackages [trubrics]: Downloading https://files.pythonhosted.org/packages/32/59/5bfb195efd5ee822dcca165c5eb4c61ac5996d79571b5dbf447b59af0681/trubrics-1.3.4.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [tkvue]: Downloading https://files.pythonhosted.org/packages/4c/44/686f2ad7542934f53901fe69cb78c552ec3609a5e17cdb02e92507d0469b/tkvue-2.1.0-py3-none-any.whl
+[2023-04-20 19:35:03] INFO root fetch - processPackages [phiflow]: Downloading https://files.pythonhosted.org/packages/f0/a5/0a51ff074c4d49abb249a6a72ae845c5eb642143f0387c26ec03faddb360/phiflow-2.3.4.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [panther-analysis-tool]: Downloading https://files.pythonhosted.org/packages/8a/be/c59804c311208907cfa13b402d4bb7ab90cf93490a44736ea7bbc0523c98/panther_analysis_tool-0.9.0.tar.gz
+[2023-04-20 19:35:03] INFO root fetch - processPackages [package-kpengz]: executing diffoscope
+[2023-04-20 19:35:03] INFO root fetch - processPackages [package-kpengz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/package_kpengz-1.0.1.tar.gz tmp/package_kpengz-1.0.2.tar.gz --markdown 20230420/p/package-kpengz/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 19:35:04] INFO root fetch - processPackages [cloudformation-cli-python-plugin]: executing diffoscope
+[2023-04-20 19:35:04] INFO root fetch - processPackages [cloudformation-cli-python-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudformation-cli-python-plugin-2.1.7.tar.gz tmp/cloudformation-cli-python-plugin-2.1.8.tar.gz --markdown 20230420/c/cloudformation-cli-python-plugin/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-04-20 19:35:04] INFO root fetch - processPackages [trubrics]: executing diffoscope
+[2023-04-20 19:35:04] INFO root fetch - processPackages [trubrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trubrics-1.3.3.tar.gz tmp/trubrics-1.3.4.tar.gz --markdown 20230420/t/trubrics/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-04-20 19:35:04] INFO root fetch - processPackages [tkvue]: executing diffoscope
+[2023-04-20 19:35:04] INFO root fetch - processPackages [tkvue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkvue-2.0.5a2-py3-none-any.whl.zip tmp/tkvue-2.1.0-py3-none-any.whl.zip --markdown 20230420/t/tkvue/2.0.5a2-2.1.0/diff.md --exclude *.pyd
+[2023-04-20 19:35:04] INFO root fetch - processPackages [panther-analysis-tool]: executing diffoscope
+[2023-04-20 19:35:04] INFO root fetch - processPackages [panther-analysis-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panther_analysis_tool-0.8.3.tar.gz tmp/panther_analysis_tool-0.9.0.tar.gz --markdown 20230420/p/panther-analysis-tool/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 19:35:04] INFO root fetch - processPackages [phiflow]: executing diffoscope
+[2023-04-20 19:35:04] INFO root fetch - processPackages [phiflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phiflow-2.3.3.tar.gz tmp/phiflow-2.3.4.tar.gz --markdown 20230420/p/phiflow/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-04-20 19:35:05] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-04-20 19:35:05] INFO root fetch - main [MainThread]: End processing [package-kpengz]: success
+[2023-04-20 19:35:05] INFO root fetch - main [MainThread]: End processing [panther-analysis-tool]: success
+[2023-04-20 19:35:05] INFO root fetch - main [MainThread]: End processing [cloudformation-cli-python-lib]: success
+[2023-04-20 19:35:05] INFO root fetch - main [MainThread]: End processing [tkvue]: success
+[2023-04-20 19:35:05] INFO root fetch - main [MainThread]: End processing [trubrics]: success
+[2023-04-20 19:35:06] INFO root fetch - main [MainThread]: End processing [cloudformation-cli-python-plugin]: success
+[2023-04-20 19:35:06] INFO root fetch - main [MainThread]: End processing [histomicsui]: success
+[2023-04-20 19:35:06] INFO root fetch - main [MainThread]: End processing [yotpy]: success
+[2023-04-20 19:35:07] INFO root fetch - main [MainThread]: End processing [phiflow]: success
+[2023-04-20 19:35:07] INFO root fetch - main [MainThread]: Store serial: [17790802]
