@@ -6887,3 +6887,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 05:20:42] INFO root fetch - main [MainThread]: End processing [types-psutil]: success
 [2023-04-20 05:20:43] INFO root fetch - main [MainThread]: End processing [budoux]: success
 [2023-04-20 05:20:43] INFO root fetch - main [MainThread]: Store serial: [17781590]
+[2023-04-20 05:25:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781590]
+[2023-04-20 05:25:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chia-blockchain
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shiny-mdc
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scikit-build
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CodeToCAD
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-mgmt-workloads
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gnssanalysis
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: esphome
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ifunnygifmaker
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ifunnygifmaker
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloudquicklabs1
+[2023-04-20 05:25:51] INFO root fetch - processPackages [chia-blockchain]: New version: [1.8.0rc1] Old Version: [1.8.0b6]
+[2023-04-20 05:25:51] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 05:25:51] INFO root fetch - processPackages [shiny-mdc]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-04-20 05:25:51] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1681948051a0]
+[2023-04-20 05:25:51] INFO root fetch - processPackages [scikit-build]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-20 05:25:51] INFO root fetch - processPackages [azure-mgmt-workloads]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ifunnygifmaker]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-20 05:25:51] INFO root fetch - processPackages [cloudquicklabs1]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ifunnygifmaker]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-20 05:25:51] INFO root fetch - processPackages [esphome]: New version: [2023.4.0b4] Old Version: [2023.4.0b3]
+[2023-04-20 05:25:51] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-04-20 05:25:51] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.4.0b3.tar.gz tmp/esphome-2023.4.0b4.tar.gz --markdown 20230420/e/esphome/2023.4.0b3-2023.4.0b4/diff.md --exclude *.pyd
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/a0/40/c6a2681da773a71c1c588a07603edcf239ef4c5a431497d38fc568d9aee7/ifunnygifmaker-0.1.1.tar.gz
+[2023-04-20 05:25:51] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/a0/40/c6a2681da773a71c1c588a07603edcf239ef4c5a431497d38fc568d9aee7/ifunnygifmaker-0.1.1.tar.gz
+[2023-04-20 05:25:51] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/5c/aa/3e75336d83063794549ce506a4be74ab92720b23ec79dded75aa38966a61/CodeToCAD-0.2.1681948051a0.tar.gz
+[2023-04-20 05:25:51] INFO root fetch - processPackages [scikit-build]: Downloading https://files.pythonhosted.org/packages/30/ee/1d6bc8c865b77d7c74487c63770582b72675c5f3260d687f1504996a5379/scikit-build-0.8.1.tar.gz
+[2023-04-20 05:25:51] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e0/2d/6e9b2e6b7338eb4ade3a80238c53fe3d7046af99576c4229b166e23c1a3a/gnssanalysis-0.0.8.tar.gz
+[2023-04-20 05:25:51] INFO root fetch - processPackages [azure-mgmt-workloads]: Downloading https://files.pythonhosted.org/packages/82/58/4cd9c2325b56187c7f0de2163802292789f8b37debe9b1560aab44c902a2/azure-mgmt-workloads-1.0.0b2.zip
+[2023-04-20 05:25:51] INFO root fetch - processPackages [cloudquicklabs1]: Downloading https://files.pythonhosted.org/packages/73/ab/6bd914e9ef2820841d654165b1919b9b9ab96840964a742a40bdc419ff13/cloudquicklabs1-0.0.1.tar.gz
+[2023-04-20 05:25:51] INFO root fetch - processPackages [shiny-mdc]: Downloading https://files.pythonhosted.org/packages/ea/f9/211c45baea1ed6839f79058564724c6b93836ad1a45b2bad7eb060cd5372/shiny_mdc-1.5.0.tar.gz
+[2023-04-20 05:25:51] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/ff/a6/6e66ccccc126cbb305e898757650f62f5cf7ce9bb23f6d4fa05380851433/chia-blockchain-1.8.0rc1.tar.gz
+[2023-04-20 05:25:52] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/a9/17/a29dd4592b5ed70fffa37a697dccda06a6e8bcc017fbdf895aa09993360b/ifunnygifmaker-0.1.2.tar.gz
+[2023-04-20 05:25:52] INFO root fetch - processPackages [shiny-mdc]: executing diffoscope
+[2023-04-20 05:25:52] INFO root fetch - processPackages [shiny-mdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiny_mdc-1.4.1.tar.gz tmp/shiny_mdc-1.5.0.tar.gz --markdown 20230420/s/shiny-mdc/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-04-20 05:25:52] INFO root fetch - processPackages [ifunnygifmaker]: Downloading https://files.pythonhosted.org/packages/a9/17/a29dd4592b5ed70fffa37a697dccda06a6e8bcc017fbdf895aa09993360b/ifunnygifmaker-0.1.2.tar.gz
+[2023-04-20 05:25:52] INFO root fetch - processPackages [cloudquicklabs1]: Downloading https://files.pythonhosted.org/packages/be/1e/a57effe6faa4f5af18118abeb330f2f6b816bdca87a399c6c22663940a86/cloudquicklabs1-0.0.2.tar.gz
+[2023-04-20 05:25:52] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-04-20 05:25:52] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1681948051a0.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230420/C/CodeToCAD/0.2.1681948051a0-0.2.6/diff.md --exclude *.pyd
+[2023-04-20 05:25:52] INFO root fetch - processPackages [ifunnygifmaker]: executing diffoscope
+[2023-04-20 05:25:52] INFO root fetch - processPackages [ifunnygifmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifunnygifmaker-0.1.1.tar.gz tmp/ifunnygifmaker-0.1.2.tar.gz --markdown 20230420/i/ifunnygifmaker/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-20 05:25:52] INFO root fetch - processPackages [ifunnygifmaker]: executing diffoscope
+[2023-04-20 05:25:52] INFO root fetch - processPackages [ifunnygifmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifunnygifmaker-0.1.1.tar.gz tmp/ifunnygifmaker-0.1.2.tar.gz --markdown 20230420/i/ifunnygifmaker/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-20 05:25:52] INFO root fetch - processPackages [cloudquicklabs1]: executing diffoscope
+[2023-04-20 05:25:52] INFO root fetch - processPackages [cloudquicklabs1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudquicklabs1-0.0.1.tar.gz tmp/cloudquicklabs1-0.0.2.tar.gz --markdown 20230420/c/cloudquicklabs1/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 05:25:52] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e1/ac/da507121836c683adba00ccb9f5f955063e24f97656ce240e4354a9cbe10/gnssanalysis-0.0.9.tar.gz
+[2023-04-20 05:25:52] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2023-04-20 05:25:52] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-1.8.0b6.tar.gz tmp/chia-blockchain-1.8.0rc1.tar.gz --markdown 20230420/c/chia-blockchain/1.8.0b6-1.8.0rc1/diff.md --exclude *.pyd
+[2023-04-20 05:25:52] INFO root fetch - processPackages [azure-mgmt-workloads]: Downloading https://files.pythonhosted.org/packages/53/89/453ca7768d8c8e321618b59fe6d766ef5aeec7fcd7a47338a4b7459efbcd/azure-mgmt-workloads-1.0.0b3.zip
+[2023-04-20 05:25:52] INFO root fetch - processPackages [scikit-build]: Downloading https://files.pythonhosted.org/packages/bb/48/412c5f3fb48364caa8e339d8e84dd2706c75b82d80df377353deecb5b2dc/scikit-build-0.9.0.tar.gz
+[2023-04-20 05:25:52] INFO root fetch - processPackages [azure-mgmt-workloads]: executing diffoscope
+[2023-04-20 05:25:52] INFO root fetch - processPackages [azure-mgmt-workloads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-workloads-1.0.0b2.zip tmp/azure-mgmt-workloads-1.0.0b3.zip --markdown 20230420/a/azure-mgmt-workloads/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-04-20 05:25:52] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-04-20 05:25:52] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230420/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 05:25:52] INFO root fetch - processPackages [scikit-build]: executing diffoscope
+[2023-04-20 05:25:52] INFO root fetch - processPackages [scikit-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-build-0.8.1.tar.gz tmp/scikit-build-0.9.0.tar.gz --markdown 20230420/s/scikit-build/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 05:25:53] INFO root fetch - processPackages [ifunnygifmaker]: Start processing: tabularcompare
+[2023-04-20 05:25:53] INFO root fetch - main [MainThread]: End processing [ifunnygifmaker]: success
+[2023-04-20 05:25:53] WARNING root fetch - processPackages [tabularcompare]: Skipping, unable to determine old version
+[2023-04-20 05:25:53] INFO root fetch - processPackages [tabularcompare]: Start processing: py-ios-device
+[2023-04-20 05:25:53] INFO root fetch - main [MainThread]: End processing [tabularcompare] error
+[2023-04-20 05:25:53] INFO root fetch - processPackages [ifunnygifmaker]: Start processing: bigraph-schema
+[2023-04-20 05:25:53] INFO root fetch - main [MainThread]: End processing [ifunnygifmaker]: success
+[2023-04-20 05:25:53] INFO root fetch - main [MainThread]: End processing [cloudquicklabs1]: success
+[2023-04-20 05:25:53] INFO root fetch - processPackages [bigraph-schema]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 05:25:53] INFO root fetch - processPackages [py-ios-device]: New version: [2.3.32] Old Version: [2.3.31]
+[2023-04-20 05:25:53] INFO root fetch - processPackages [bigraph-schema]: executing diffoscope
+[2023-04-20 05:25:53] INFO root fetch - processPackages [bigraph-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigraph-schema-0.0.2.tar.gz tmp/bigraph-schema-0.0.3.tar.gz --markdown 20230420/b/bigraph-schema/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 05:25:53] INFO root fetch - processPackages [py-ios-device]: Downloading https://files.pythonhosted.org/packages/86/cd/d21db0738a230d6b57f9cfa0937105ab3e8792555bd4ffd5f01a8c98c65f/py_ios_device-2.3.31.tar.gz
+[2023-04-20 05:25:54] INFO root fetch - processPackages [py-ios-device]: Downloading https://files.pythonhosted.org/packages/a1/9a/292c4d72ebd4f79fc0c5395a9868ff36cbc486cd188351bb0fb973791083/py_ios_device-2.3.32.tar.gz
+[2023-04-20 05:25:54] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-04-20 05:25:54] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-04-20 05:25:54] INFO root fetch - processPackages [py-ios-device]: executing diffoscope
+[2023-04-20 05:25:54] INFO root fetch - processPackages [py-ios-device]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ios_device-2.3.31.tar.gz tmp/py_ios_device-2.3.32.tar.gz --markdown 20230420/p/py-ios-device/2.3.31-2.3.32/diff.md --exclude *.pyd
+[2023-04-20 05:25:54] INFO root fetch - main [MainThread]: End processing [bigraph-schema]: success
+[2023-04-20 05:25:54] INFO root fetch - main [MainThread]: End processing [azure-mgmt-workloads]: success
+[2023-04-20 05:25:55] INFO root fetch - main [MainThread]: End processing [scikit-build]: success
+[2023-04-20 05:25:55] INFO root fetch - main [MainThread]: End processing [py-ios-device]: success
+[2023-04-20 05:26:05] INFO root fetch - main [MainThread]: End processing [shiny-mdc]: success
+[2023-04-20 05:26:07] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2023-04-20 05:26:39] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-04-20 05:26:39] INFO root fetch - main [MainThread]: Store serial: [17781631]
