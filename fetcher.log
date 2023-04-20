@@ -6843,3 +6843,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 05:15:31] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-1.4.0.tar.gz tmp/nonebot_plugin_bilichat-1.4.1.tar.gz --markdown 20230420/n/nonebot-plugin-bilichat/1.4.0-1.4.1/diff.md --exclude *.pyd
 [2023-04-20 05:15:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
 [2023-04-20 05:15:32] INFO root fetch - main [MainThread]: Store serial: [17781557]
+[2023-04-20 05:20:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781557]
+[2023-04-20 05:20:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-20 05:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-bilichat
+[2023-04-20 05:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: StringFix
+[2023-04-20 05:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-psutil
+[2023-04-20 05:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-pipeline-package
+[2023-04-20 05:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tox-extras
+[2023-04-20 05:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sunyata
+[2023-04-20 05:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ifunnygifmaker
+[2023-04-20 05:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: budoux
+[2023-04-20 05:20:41] INFO root fetch - processPackages [types-psutil]: New version: [5.9.5.9] Old Version: [5.9.5.8]
+[2023-04-20 05:20:41] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-20 05:20:41] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1] Old Version: [1.0]
+[2023-04-20 05:20:41] INFO root fetch - processPackages [StringFix]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 05:20:41] INFO root fetch - processPackages [sunyata]: New version: [0.0.36] Old Version: [0.0.29]
+[2023-04-20 05:20:41] WARNING root fetch - processPackages [ifunnygifmaker]: Skipping, unable to determine old version
+[2023-04-20 05:20:41] INFO root fetch - main [MainThread]: End processing [ifunnygifmaker] error
+[2023-04-20 05:20:41] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-04-20 05:20:41] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-1.4.0.tar.gz tmp/nonebot_plugin_bilichat-1.4.1.tar.gz --markdown 20230420/n/nonebot-plugin-bilichat/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-04-20 05:20:41] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 05:20:41] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.0.tar.gz tmp/my-pipeline-package-1.1.tar.gz --markdown 20230420/m/my-pipeline-package/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-20 05:20:41] WARNING root fetch - processPackages [tox-extras]: Skipping, unable to determine old version
+[2023-04-20 05:20:41] INFO root fetch - main [MainThread]: End processing [tox-extras] error
+[2023-04-20 05:20:41] INFO root fetch - processPackages [budoux]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-20 05:20:41] INFO root fetch - processPackages [sunyata]: executing diffoscope
+[2023-04-20 05:20:41] INFO root fetch - processPackages [sunyata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunyata-0.0.29.tar.gz tmp/sunyata-0.0.36.tar.gz --markdown 20230420/s/sunyata/0.0.29-0.0.36/diff.md --exclude *.pyd
+[2023-04-20 05:20:41] INFO root fetch - processPackages [types-psutil]: Downloading https://files.pythonhosted.org/packages/80/5a/9c74621dac0e8576522348dac6d61a43913103caff81521ffa70d1310482/types-psutil-5.9.5.8.tar.gz
+[2023-04-20 05:20:41] INFO root fetch - processPackages [StringFix]: Downloading https://files.pythonhosted.org/packages/2d/c7/6b31e70e37b9969c1fbdbbf0b95097cb4a06e87c976922d2deee3d60c058/StringFix-0.1.1.tar.gz
+[2023-04-20 05:20:41] INFO root fetch - processPackages [budoux]: Downloading https://files.pythonhosted.org/packages/2f/56/6dd83a7101bbf60d1856d1cdf3c76c2069ca0b92a76517c4a578e4749325/budoux-0.5.0.tar.gz
+[2023-04-20 05:20:41] INFO root fetch - processPackages [StringFix]: executing diffoscope
+[2023-04-20 05:20:41] INFO root fetch - processPackages [StringFix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StringFix-0.1.0.tar.gz tmp/StringFix-0.1.1.tar.gz --markdown 20230420/S/StringFix/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 05:20:41] INFO root fetch - processPackages [types-psutil]: Downloading https://files.pythonhosted.org/packages/48/17/84ab868524425e5f0553f1916898b2a5ec0bf8d3c330d854eb5fabd35aec/types-psutil-5.9.5.9.tar.gz
+[2023-04-20 05:20:41] INFO root fetch - processPackages [budoux]: Downloading https://files.pythonhosted.org/packages/05/cf/b7624e6e4a875c90d3a78190ce79307bf5471c591223d4b62a128b6793bc/budoux-0.5.1.tar.gz
+[2023-04-20 05:20:41] INFO root fetch - processPackages [types-psutil]: executing diffoscope
+[2023-04-20 05:20:41] INFO root fetch - processPackages [types-psutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-psutil-5.9.5.8.tar.gz tmp/types-psutil-5.9.5.9.tar.gz --markdown 20230420/t/types-psutil/5.9.5.8-5.9.5.9/diff.md --exclude *.pyd
+[2023-04-20 05:20:41] INFO root fetch - processPackages [budoux]: executing diffoscope
+[2023-04-20 05:20:41] INFO root fetch - processPackages [budoux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budoux-0.5.0.tar.gz tmp/budoux-0.5.1.tar.gz --markdown 20230420/b/budoux/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-20 05:20:42] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 05:20:42] INFO root fetch - main [MainThread]: End processing [sunyata]: success
+[2023-04-20 05:20:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-04-20 05:20:42] INFO root fetch - main [MainThread]: End processing [StringFix]: success
+[2023-04-20 05:20:42] INFO root fetch - main [MainThread]: End processing [types-psutil]: success
+[2023-04-20 05:20:43] INFO root fetch - main [MainThread]: End processing [budoux]: success
+[2023-04-20 05:20:43] INFO root fetch - main [MainThread]: Store serial: [17781590]
