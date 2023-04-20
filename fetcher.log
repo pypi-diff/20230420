@@ -17492,3 +17492,148 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 
 [2023-04-20 15:32:48] INFO root fetch - main [MainThread]: End processing [optimeed] error
 [2023-04-20 15:32:48] INFO root fetch - main [MainThread]: Store serial: [17787533]
+[2023-04-20 15:37:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17787533]
+[2023-04-20 15:37:57] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-20 15:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-postgres-extra
+[2023-04-20 15:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zpretty
+[2023-04-20 15:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: locuaz
+[2023-04-20 15:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygad
+[2023-04-20 15:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hive-maia
+[2023-04-20 15:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansys-sphinx-theme
+[2023-04-20 15:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tinybird-cli
+[2023-04-20 15:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graphql-service-framework
+[2023-04-20 15:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phys2cvr
+[2023-04-20 15:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: solo-epd-loader
+[2023-04-20 15:37:57] INFO root fetch - processPackages [hive-maia]: New version: [1.1.2rc2] Old Version: [1.1.2rc1]
+[2023-04-20 15:37:57] INFO root fetch - processPackages [locuaz]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-20 15:37:57] INFO root fetch - processPackages [django-postgres-extra]: New version: [2.0a9] Old Version: [2.0a7]
+[2023-04-20 15:37:57] INFO root fetch - processPackages [phys2cvr]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-20 15:37:57] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-04-20 15:37:57] INFO root fetch - processPackages [zpretty]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-04-20 15:37:57] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 15:37:57] INFO root fetch - processPackages [solo-epd-loader]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-20 15:37:57] INFO root fetch - processPackages [ansys-sphinx-theme]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-20 15:37:57] INFO root fetch - processPackages [pygad]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-20 15:37:57] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-04-20 15:37:57] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230420/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-04-20 15:37:57] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-04-20 15:37:57] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.0.8.tar.gz tmp/graphql_service_framework-1.0.9.tar.gz --markdown 20230420/g/graphql-service-framework/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 15:37:57] INFO root fetch - processPackages [locuaz]: Downloading https://files.pythonhosted.org/packages/9c/14/9c5d124d82e6ab7a3deae0c75bb3507dc32183542fb972b4b28a32f532ca/locuaz-0.2.0.tar.gz
+[2023-04-20 15:37:57] INFO root fetch - processPackages [django-postgres-extra]: Downloading https://files.pythonhosted.org/packages/dc/19/2d69c3b8d4d9cf07e3a33b100276766d5d5270e6a720e544f9787e85a3ee/django-postgres-extra-2.0a7.tar.gz
+[2023-04-20 15:37:58] INFO root fetch - processPackages [zpretty]: Downloading https://files.pythonhosted.org/packages/99/21/17c6872b7aab38fc71d6dd22af5ea3fc85b259676cc49fdb09f197f6efcd/zpretty-3.0.3.tar.gz
+[2023-04-20 15:37:58] INFO root fetch - processPackages [pygad]: Downloading https://files.pythonhosted.org/packages/a0/99/c7f4c8867b56203eef20f05a95559851ec203b9d340b8c1bd8e4a96287e3/pygad-3.0.0.tar.gz
+[2023-04-20 15:37:58] INFO root fetch - processPackages [ansys-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/b3/ce/31429023ff690682f1b2b50be0d7e008407ffd9350e7922c25c7438ff8ae/ansys-sphinx-theme-0.9.7.tar.gz
+[2023-04-20 15:37:58] INFO root fetch - processPackages [hive-maia]: Downloading https://files.pythonhosted.org/packages/93/72/082e19bc400bdf882e3d2e490f413f095d9ae729c31efc08c79131c6a573/hive-maia-1.1.2rc2.tar.gz
+[2023-04-20 15:37:58] INFO root fetch - processPackages [phys2cvr]: Downloading https://files.pythonhosted.org/packages/0a/59/6a3e29d2a133536d86ea73f7f80dce43ce8df41d1d7de80d32657a753735/phys2cvr-0.8.0.tar.gz
+[2023-04-20 15:37:58] INFO root fetch - processPackages [solo-epd-loader]: Downloading https://files.pythonhosted.org/packages/59/d0/a1253218823ca3232666ebe22216e24e458bc40d0cfcee8fdf70ecc50a88/solo_epd_loader-0.2.1.tar.gz
+[2023-04-20 15:37:58] INFO root fetch - processPackages [hive-maia]: executing diffoscope
+[2023-04-20 15:37:58] INFO root fetch - processPackages [hive-maia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hive-maia-1.1.2rc1.tar.gz tmp/hive-maia-1.1.2rc2.tar.gz --markdown 20230420/h/hive-maia/1.1.2rc1-1.1.2rc2/diff.md --exclude *.pyd
+[2023-04-20 15:37:58] INFO root fetch - processPackages [zpretty]: Downloading https://files.pythonhosted.org/packages/94/39/081b6879c777ba67dc16e0f5e0f960ff60e0cd07c7234e46aa4b7f63cc94/zpretty-3.0.4.tar.gz
+[2023-04-20 15:37:58] INFO root fetch - processPackages [pygad]: Downloading https://files.pythonhosted.org/packages/6b/f6/2f8a90f2d12b07bd46d01593ccd3446e01d325a3420ec4e4a2897971c54a/pygad-3.0.1.tar.gz
+[2023-04-20 15:37:58] INFO root fetch - processPackages [ansys-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/ff/ed/eaba1d94eb6e4d850323103f8bcfc9d37f4b4ca7bc8061fe45c76ddf50a3/ansys-sphinx-theme-0.9.8.tar.gz
+[2023-04-20 15:37:58] INFO root fetch - processPackages [locuaz]: Downloading https://files.pythonhosted.org/packages/47/90/9d6c54dd96609bb7c14bf79c1028c9edc79e6d48488b2cce49f0e952eb15/locuaz-0.2.1.tar.gz
+[2023-04-20 15:37:58] INFO root fetch - processPackages [phys2cvr]: Downloading https://files.pythonhosted.org/packages/cc/c4/c7fc1fddcdf7e782b08593f33a302ea13b5b8b63a5fd8992d645205ee061/phys2cvr-0.9.0.tar.gz
+[2023-04-20 15:37:58] INFO root fetch - processPackages [zpretty]: executing diffoscope
+[2023-04-20 15:37:58] INFO root fetch - processPackages [zpretty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zpretty-3.0.3.tar.gz tmp/zpretty-3.0.4.tar.gz --markdown 20230420/z/zpretty/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-04-20 15:37:58] INFO root fetch - processPackages [pygad]: executing diffoscope
+[2023-04-20 15:37:58] INFO root fetch - processPackages [pygad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygad-3.0.0.tar.gz tmp/pygad-3.0.1.tar.gz --markdown 20230420/p/pygad/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-20 15:37:58] INFO root fetch - processPackages [solo-epd-loader]: executing diffoscope
+[2023-04-20 15:37:58] INFO root fetch - processPackages [solo-epd-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solo_epd_loader-0.2.0.tar.gz tmp/solo_epd_loader-0.2.1.tar.gz --markdown 20230420/s/solo-epd-loader/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-20 15:37:58] INFO root fetch - processPackages [locuaz]: executing diffoscope
+[2023-04-20 15:37:58] INFO root fetch - processPackages [locuaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locuaz-0.2.0.tar.gz tmp/locuaz-0.2.1.tar.gz --markdown 20230420/l/locuaz/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-20 15:37:58] INFO root fetch - processPackages [ansys-sphinx-theme]: executing diffoscope
+[2023-04-20 15:37:58] INFO root fetch - processPackages [ansys-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-sphinx-theme-0.9.7.tar.gz tmp/ansys-sphinx-theme-0.9.8.tar.gz --markdown 20230420/a/ansys-sphinx-theme/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-20 15:37:58] INFO root fetch - processPackages [phys2cvr]: executing diffoscope
+[2023-04-20 15:37:58] INFO root fetch - processPackages [phys2cvr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phys2cvr-0.8.0.tar.gz tmp/phys2cvr-0.9.0.tar.gz --markdown 20230420/p/phys2cvr/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 15:37:58] INFO root fetch - processPackages [django-postgres-extra]: Downloading https://files.pythonhosted.org/packages/fa/f5/15a2c2c268e6c324f50acc8e4a698629223050cdcdd46ed2abd0a715f530/django-postgres-extra-2.0a9.tar.gz
+[2023-04-20 15:37:58] INFO root fetch - processPackages [django-postgres-extra]: executing diffoscope
+[2023-04-20 15:37:58] INFO root fetch - processPackages [django-postgres-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-postgres-extra-2.0a7.tar.gz tmp/django-postgres-extra-2.0a9.tar.gz --markdown 20230420/d/django-postgres-extra/2.0a7-2.0a9/diff.md --exclude *.pyd
+[2023-04-20 15:37:59] INFO root fetch - processPackages [graphql-service-framework]: Start processing: prowler-cloud
+[2023-04-20 15:37:59] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-04-20 15:37:59] INFO root fetch - processPackages [prowler-cloud]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-04-20 15:37:59] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/ae/a4/8c81889dd504623b05b2e53e9019f0a4235039753f617b708874663dfd34/prowler_cloud-3.3.4.tar.gz
+[2023-04-20 15:37:59] INFO root fetch - processPackages [hive-maia]: Start processing: minet
+[2023-04-20 15:37:59] INFO root fetch - main [MainThread]: End processing [hive-maia]: success
+[2023-04-20 15:37:59] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-04-20 15:38:00] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-04-20 15:38:00] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230420/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-04-20 15:38:00] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/66/c3/f6a79c2aa59c67a35b51f5ec341b8cef822b2bbd7f98c7e2a30a132c9838/prowler_cloud-3.4.0.tar.gz
+[2023-04-20 15:38:00] INFO root fetch - processPackages [pygad]: Start processing: phys2cvr
+[2023-04-20 15:38:00] INFO root fetch - main [MainThread]: End processing [pygad]: success
+[2023-04-20 15:38:00] INFO root fetch - processPackages [phys2cvr]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-20 15:38:00] INFO root fetch - processPackages [phys2cvr]: executing diffoscope
+[2023-04-20 15:38:00] INFO root fetch - processPackages [phys2cvr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phys2cvr-0.8.0.tar.gz tmp/phys2cvr-0.9.0.tar.gz --markdown 20230420/p/phys2cvr/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 15:38:00] INFO root fetch - processPackages [ansys-sphinx-theme]: Start processing: phys2cvr
+[2023-04-20 15:38:00] INFO root fetch - main [MainThread]: End processing [ansys-sphinx-theme]: success
+[2023-04-20 15:38:00] INFO root fetch - processPackages [phys2cvr]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-20 15:38:00] INFO root fetch - processPackages [solo-epd-loader]: Start processing: phys2cvr
+[2023-04-20 15:38:00] INFO root fetch - main [MainThread]: End processing [solo-epd-loader]: success
+[2023-04-20 15:38:00] INFO root fetch - processPackages [phys2cvr]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-20 15:38:00] INFO root fetch - processPackages [tinybird-cli]: Start processing: caesar-rock
+[2023-04-20 15:38:00] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-04-20 15:38:00] INFO root fetch - processPackages [zpretty]: Start processing: odoo-addon-ddmrp-warning
+[2023-04-20 15:38:00] INFO root fetch - main [MainThread]: End processing [zpretty]: success
+[2023-04-20 15:38:00] INFO root fetch - processPackages [phys2cvr]: executing diffoscope
+[2023-04-20 15:38:00] INFO root fetch - processPackages [phys2cvr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phys2cvr-0.8.0.tar.gz tmp/phys2cvr-0.9.0.tar.gz --markdown 20230420/p/phys2cvr/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 15:38:00] INFO root fetch - processPackages [caesar-rock]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 15:38:00] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2023-04-20 15:38:00] INFO root fetch - processPackages [prowler-cloud]: executing diffoscope
+[2023-04-20 15:38:00] INFO root fetch - processPackages [phys2cvr]: executing diffoscope
+[2023-04-20 15:38:00] INFO root fetch - processPackages [prowler-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler_cloud-3.3.4.tar.gz tmp/prowler_cloud-3.4.0.tar.gz --markdown 20230420/p/prowler-cloud/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-04-20 15:38:00] INFO root fetch - processPackages [phys2cvr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phys2cvr-0.8.0.tar.gz tmp/phys2cvr-0.9.0.tar.gz --markdown 20230420/p/phys2cvr/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 15:38:00] INFO root fetch - processPackages [phys2cvr]: Start processing: vcchat
+[2023-04-20 15:38:00] INFO root fetch - main [MainThread]: End processing [phys2cvr]: success
+[2023-04-20 15:38:00] WARNING root fetch - processPackages [vcchat]: Skipping, unable to determine old version
+[2023-04-20 15:38:00] INFO root fetch - processPackages [vcchat]: Start processing: odoo-addon-ddmrp
+[2023-04-20 15:38:00] INFO root fetch - main [MainThread]: End processing [vcchat] error
+[2023-04-20 15:38:00] INFO root fetch - processPackages [caesar-rock]: Downloading https://files.pythonhosted.org/packages/9c/84/377ef5a18db06b2814898a99529442937502e50727a1074af369947cfe80/caesar-rock-0.0.9.tar.gz
+[2023-04-20 15:38:00] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/7d/07/fd397b19cf7c2ffad0a5235d25b48e9602ef29adff3f4378325fea2b821b/odoo_addon_ddmrp_warning-15.0.1.0.0.2-py3-none-any.whl
+[2023-04-20 15:38:00] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [15.0.1.3.3] Old Version: [15.0.1.3.2]
+[2023-04-20 15:38:00] INFO root fetch - processPackages [caesar-rock]: executing diffoscope
+[2023-04-20 15:38:00] INFO root fetch - processPackages [caesar-rock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caesar-rock-0.0.8.tar.gz tmp/caesar-rock-0.0.9.tar.gz --markdown 20230420/c/caesar-rock/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 15:38:00] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/f0/e2/2cf12c3cea8ee1dd7a2703569ae777d361effc63461596923a2c6ed82317/odoo_addon_ddmrp-15.0.1.3.2-py3-none-any.whl
+[2023-04-20 15:38:00] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/e0/9d/6c0a814e37bcb714e3bcb62d895aaa1701e60db5be5686f67fde31fa7d35/odoo_addon_ddmrp_warning-15.0.1.0.1-py3-none-any.whl
+[2023-04-20 15:38:01] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: executing diffoscope
+[2023-04-20 15:38:01] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_warning-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_warning-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-ddmrp-warning/15.0.1.0.0.2-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-04-20 15:38:01] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/43/e5/882d908723b5baf2edd0a888c193b811bb1ee33638907aa0ea30149ae7f0/odoo_addon_ddmrp-15.0.1.3.3-py3-none-any.whl
+[2023-04-20 15:38:01] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2023-04-20 15:38:01] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-15.0.1.3.2-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-15.0.1.3.3-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-ddmrp/15.0.1.3.2-15.0.1.3.3/diff.md --exclude *.pyd
+[2023-04-20 15:38:01] INFO root fetch - processPackages [django-postgres-extra]: Start processing: loter
+[2023-04-20 15:38:01] INFO root fetch - main [MainThread]: End processing [django-postgres-extra]: success
+[2023-04-20 15:38:01] INFO root fetch - processPackages [loter]: New version: [1.0.1] Old Version: [1.0]
+[2023-04-20 15:38:01] INFO root fetch - processPackages [phys2cvr]: Start processing: SIOTCommon
+[2023-04-20 15:38:01] INFO root fetch - main [MainThread]: End processing [phys2cvr]: success
+[2023-04-20 15:38:01] INFO root fetch - processPackages [SIOTCommon]: New version: [0.0.9.6] Old Version: [0.0.9.5]
+[2023-04-20 15:38:01] INFO root fetch - processPackages [loter]: Downloading https://files.pythonhosted.org/packages/f1/0b/0a7dead16330d6f44943a57e4e1fb2916bf214c2f3ddd4feadb4c515659d/loter-1.0.tar.gz
+[2023-04-20 15:38:01] INFO root fetch - processPackages [locuaz]: Start processing: l9format
+[2023-04-20 15:38:01] INFO root fetch - main [MainThread]: End processing [locuaz]: success
+[2023-04-20 15:38:01] INFO root fetch - processPackages [l9format]: New version: [1.3.1.post1] Old Version: [1.3.1.post0]
+[2023-04-20 15:38:02] INFO root fetch - processPackages [l9format]: executing diffoscope
+[2023-04-20 15:38:02] INFO root fetch - processPackages [l9format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l9format-1.3.1.post0.tar.gz tmp/l9format-1.3.1.post1.tar.gz --markdown 20230420/l/l9format/1.3.1.post0-1.3.1.post1/diff.md --exclude *.pyd
+[2023-04-20 15:38:02] INFO root fetch - processPackages [SIOTCommon]: Downloading https://files.pythonhosted.org/packages/62/d6/7212772a1d515a64a3a5e7ab08a6d8ee80e3014eb3e3ab05639504865079/SIOTCommon-0.0.9.6.tar.gz
+[2023-04-20 15:38:02] INFO root fetch - processPackages [loter]: Downloading https://files.pythonhosted.org/packages/32/fc/e17a168e6580142fa37df0b80e603820b32477d2b1170dc1dc335e3adab6/loter-1.0.1.tar.gz
+[2023-04-20 15:38:02] INFO root fetch - processPackages [caesar-rock]: Start processing: molecule-plugins
+[2023-04-20 15:38:02] INFO root fetch - main [MainThread]: End processing [caesar-rock]: success
+[2023-04-20 15:38:02] INFO root fetch - processPackages [molecule-plugins]: New version: [23.4.0] Old Version: [23.0.0]
+[2023-04-20 15:38:02] INFO root fetch - processPackages [SIOTCommon]: executing diffoscope
+[2023-04-20 15:38:02] INFO root fetch - processPackages [SIOTCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SIOTCommon-0.0.9.5.tar.gz tmp/SIOTCommon-0.0.9.6.tar.gz --markdown 20230420/S/SIOTCommon/0.0.9.5-0.0.9.6/diff.md --exclude *.pyd
+[2023-04-20 15:38:02] INFO root fetch - processPackages [loter]: executing diffoscope
+[2023-04-20 15:38:02] INFO root fetch - processPackages [loter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loter-1.0.tar.gz tmp/loter-1.0.1.tar.gz --markdown 20230420/l/loter/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-20 15:38:02] INFO root fetch - processPackages [molecule-plugins]: Downloading https://files.pythonhosted.org/packages/bd/ed/55ff0a18a270e74acda00bfebedad5eb6c710d95e95c06fe7e3ba76dc42e/molecule-plugins-23.0.0.tar.gz
+[2023-04-20 15:38:02] INFO root fetch - processPackages [phys2cvr]: Start processing: just-update-arch
+[2023-04-20 15:38:02] INFO root fetch - main [MainThread]: End processing [phys2cvr]: success
+[2023-04-20 15:38:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-warning]: success
+[2023-04-20 15:38:02] WARNING root fetch - processPackages [just-update-arch]: Skipping, unable to determine old version
+[2023-04-20 15:38:02] INFO root fetch - main [MainThread]: End processing [just-update-arch] error
+[2023-04-20 15:38:02] INFO root fetch - main [MainThread]: End processing [phys2cvr]: success
+[2023-04-20 15:38:02] INFO root fetch - processPackages [molecule-plugins]: Downloading https://files.pythonhosted.org/packages/f8/7b/72d6915e48a9c5a674c2e3b74e5a61fc8ca3e1cafd0b09e7ffda8ac29b55/molecule-plugins-23.4.0.tar.gz
+[2023-04-20 15:38:03] INFO root fetch - processPackages [molecule-plugins]: executing diffoscope
+[2023-04-20 15:38:03] INFO root fetch - processPackages [molecule-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-plugins-23.0.0.tar.gz tmp/molecule-plugins-23.4.0.tar.gz --markdown 20230420/m/molecule-plugins/23.0.0-23.4.0/diff.md --exclude *.pyd
+[2023-04-20 15:38:03] INFO root fetch - main [MainThread]: End processing [l9format]: success
+[2023-04-20 15:38:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2023-04-20 15:38:03] INFO root fetch - main [MainThread]: End processing [SIOTCommon]: success
+[2023-04-20 15:38:03] INFO root fetch - main [MainThread]: End processing [loter]: success
+[2023-04-20 15:38:04] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-04-20 15:38:05] INFO root fetch - main [MainThread]: End processing [molecule-plugins]: success
+[2023-04-20 15:38:26] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
+[2023-04-20 15:38:26] INFO root fetch - main [MainThread]: Store serial: [17787598]
