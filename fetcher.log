@@ -7271,3 +7271,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 05:53:57] INFO root fetch - main [MainThread]: End processing [django-perm-trans]: success
 [2023-04-20 05:53:58] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
 [2023-04-20 05:53:58] INFO root fetch - main [MainThread]: Store serial: [17781827]
+[2023-04-20 05:59:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781827]
+[2023-04-20 05:59:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-20 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remindmail
+[2023-04-20 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: compress-python
+[2023-04-20 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avsos
+[2023-04-20 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: intecomm-form-validators
+[2023-04-20 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: byzerllm
+[2023-04-20 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libdeeplake
+[2023-04-20 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: my-pipeline-package
+[2023-04-20 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-amqp-open20191212
+[2023-04-20 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: habu-python-api
+[2023-04-20 05:59:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastHDMI
+[2023-04-20 05:59:07] INFO root fetch - processPackages [avsos]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-20 05:59:07] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 05:59:07] WARNING root fetch - processPackages [byzerllm]: Skipping, unable to determine old version
+[2023-04-20 05:59:07] INFO root fetch - main [MainThread]: End processing [byzerllm] error
+[2023-04-20 05:59:07] WARNING root fetch - processPackages [compress-python]: Skipping, unable to determine old version
+[2023-04-20 05:59:07] INFO root fetch - main [MainThread]: End processing [compress-python] error
+[2023-04-20 05:59:07] INFO root fetch - processPackages [remindmail]: New version: [2023.4.2.2] Old Version: [2023.4.2.1]
+[2023-04-20 05:59:07] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-20 05:59:07] INFO root fetch - processPackages [habu-python-api]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-20 05:59:07] INFO root fetch - processPackages [libdeeplake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 05:59:07] INFO root fetch - processPackages [fastHDMI]: New version: [1.23.2] Old Version: [1.23.1]
+[2023-04-20 05:59:07] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-04-20 05:59:07] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.4.2.1.tar.gz tmp/remindmail-2023.4.2.2.tar.gz --markdown 20230420/r/remindmail/2023.4.2.1-2023.4.2.2/diff.md --exclude *.pyd
+[2023-04-20 05:59:07] INFO root fetch - processPackages [alibabacloud-amqp-open20191212]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-20 05:59:07] INFO root fetch - processPackages [fastHDMI]: executing diffoscope
+[2023-04-20 05:59:07] INFO root fetch - processPackages [fastHDMI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastHDMI-1.23.1.tar.gz tmp/fastHDMI-1.23.2.tar.gz --markdown 20230420/f/fastHDMI/1.23.1-1.23.2/diff.md --exclude *.pyd
+[2023-04-20 05:59:07] INFO root fetch - processPackages [avsos]: Downloading https://files.pythonhosted.org/packages/62/22/7e0f95785b4950b3556a0ba449776f4b9351abf373a5e26f72be067aa4b3/avsos-0.0.5.tar.gz
+[2023-04-20 05:59:07] INFO root fetch - processPackages [habu-python-api]: Downloading https://files.pythonhosted.org/packages/37/2c/eebe30021d1d8b22be9b4648355f206aa91548408658e63f5a12705fdd70/habu-python-api-2.0.1.tar.gz
+[2023-04-20 05:59:07] INFO root fetch - processPackages [libdeeplake]: Downloading https://files.pythonhosted.org/packages/90/d1/8cba2118c890778e1a4faa696a73b8e9aafdf7592d045c088c972941ad5f/libdeeplake-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-20 05:59:07] INFO root fetch - processPackages [my-pipeline-package]: Downloading https://files.pythonhosted.org/packages/a2/57/97d9f9c76815b4be61821102a8136c29d6c7a83e3565b1d3c190f89b10d1/my-pipeline-package-1.1.4.tar.gz
+[2023-04-20 05:59:07] WARNING root fetch - processPackages [libdeeplake]: Skipping package: exceeds size limit 20849540>=10485760
+[2023-04-20 05:59:07] INFO root fetch - main [MainThread]: End processing [libdeeplake] error
+[2023-04-20 05:59:07] INFO root fetch - processPackages [alibabacloud-amqp-open20191212]: Downloading https://files.pythonhosted.org/packages/7f/f5/a9057bef6c3316861f875c286c74d94cf00321073de4d146d4c88f7f2265/alibabacloud_amqp-open20191212-1.0.2.tar.gz
+[2023-04-20 05:59:07] INFO root fetch - processPackages [avsos]: executing diffoscope
+[2023-04-20 05:59:07] INFO root fetch - processPackages [avsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avsos-0.0.4.tar.gz tmp/avsos-0.0.5.tar.gz --markdown 20230420/a/avsos/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 05:59:07] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 05:59:07] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.3.tar.gz tmp/my-pipeline-package-1.1.4.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-20 05:59:07] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-04-20 05:59:07] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230420/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 05:59:07] INFO root fetch - processPackages [habu-python-api]: Downloading https://files.pythonhosted.org/packages/cb/31/26d8d43ea48be0fdedcb34f96118a292c57ae766ad28bf9bcf384b3a2cd4/habu-python-api-2.0.2.tar.gz
+[2023-04-20 05:59:07] INFO root fetch - processPackages [habu-python-api]: executing diffoscope
+[2023-04-20 05:59:07] INFO root fetch - processPackages [alibabacloud-amqp-open20191212]: Downloading https://files.pythonhosted.org/packages/19/8b/9432b252a6e8121333630500cd89efe8c74ba59ea7c187498fe1039c8674/alibabacloud_amqp-open20191212-1.0.3.tar.gz
+[2023-04-20 05:59:07] INFO root fetch - processPackages [habu-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habu-python-api-2.0.1.tar.gz tmp/habu-python-api-2.0.2.tar.gz --markdown 20230420/h/habu-python-api/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-20 05:59:07] INFO root fetch - processPackages [alibabacloud-amqp-open20191212]: executing diffoscope
+[2023-04-20 05:59:07] INFO root fetch - processPackages [alibabacloud-amqp-open20191212]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_amqp-open20191212-1.0.2.tar.gz tmp/alibabacloud_amqp-open20191212-1.0.3.tar.gz --markdown 20230420/a/alibabacloud-amqp-open20191212/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-20 05:59:08] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 05:59:08] INFO root fetch - main [MainThread]: End processing [avsos]: success
+[2023-04-20 05:59:08] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-04-20 05:59:08] INFO root fetch - main [MainThread]: End processing [habu-python-api]: success
+[2023-04-20 05:59:09] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-04-20 05:59:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-amqp-open20191212]: success
+[2023-04-20 05:59:10] INFO root fetch - main [MainThread]: End processing [fastHDMI]: success
+[2023-04-20 05:59:10] INFO root fetch - main [MainThread]: Store serial: [17781874]
