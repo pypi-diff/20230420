@@ -9692,3 +9692,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 09:28:07] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
 [2023-04-20 09:28:12] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
 [2023-04-20 09:28:12] INFO root fetch - main [MainThread]: Store serial: [17783274]
+[2023-04-20 09:33:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783274]
+[2023-04-20 09:33:28] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-20 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-sgis
+[2023-04-20 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nifcloud
+[2023-04-20 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eQTac
+[2023-04-20 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: claws
+[2023-04-20 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twilio
+[2023-04-20 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: charsi
+[2023-04-20 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exampleData
+[2023-04-20 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hiddifypanel
+[2023-04-20 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-serve
+[2023-04-20 09:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: myUniquePythonPackageName
+[2023-04-20 09:33:28] INFO root fetch - processPackages [eQTac]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-20 09:33:28] INFO root fetch - processPackages [ssb-sgis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 09:33:28] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.101]
+[2023-04-20 09:33:28] INFO root fetch - processPackages [charsi]: New version: [2.0.0] Old Version: [1.3.0]
+[2023-04-20 09:33:28] WARNING root fetch - processPackages [exampleData]: Skipping, unable to determine old version
+[2023-04-20 09:33:28] INFO root fetch - processPackages [claws]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 09:33:28] INFO root fetch - processPackages [exampleData]: Start processing: invenio-records-marc21
+[2023-04-20 09:33:28] INFO root fetch - processPackages [nifcloud]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-04-20 09:33:28] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev14]
+[2023-04-20 09:33:28] INFO root fetch - main [MainThread]: End processing [exampleData] error
+[2023-04-20 09:33:28] INFO root fetch - processPackages [twilio]: New version: [8.1.0] Old Version: [8.0.0rc1]
+[2023-04-20 09:33:28] INFO root fetch - processPackages [hiddifypanel]: New version: [4.1.0] Old Version: [4.0.5]
+[2023-04-20 09:33:28] INFO root fetch - processPackages [invenio-records-marc21]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-20 09:33:28] INFO root fetch - processPackages [claws]: executing diffoscope
+[2023-04-20 09:33:28] INFO root fetch - processPackages [claws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claws-0.0.8.tar.gz tmp/claws-0.0.9.tar.gz --markdown 20230420/c/claws/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 09:33:28] INFO root fetch - processPackages [myUniquePythonPackageName]: Downloading https://files.pythonhosted.org/packages/bd/8d/4fcd4c0cc9e7cac5954fdf6fdab06311245d37c89b7d2fc50114e3efbd9c/myUniquePythonPackageName-5.5.101.tar.gz
+[2023-04-20 09:33:28] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/78/9f/bc277d3d6f19d1038c7be58fcef801fc89fd2e76ee76ad689a1723240595/langchain-serve-0.0.9.dev14.tar.gz
+[2023-04-20 09:33:28] INFO root fetch - processPackages [eQTac]: Downloading https://files.pythonhosted.org/packages/1a/19/33f949cba3acc0d76599dc9385a71fa693a0e4ddaf53647588face5fcf32/eQTac-1.0.8.tar.gz
+[2023-04-20 09:33:28] INFO root fetch - processPackages [nifcloud]: Downloading https://files.pythonhosted.org/packages/fb/b1/b2c771eb23d5d1df7a89c02fb42891435e9f75d9dd75ffa39eec76690651/nifcloud-1.5.0.tar.gz
+[2023-04-20 09:33:28] INFO root fetch - processPackages [twilio]: Downloading https://files.pythonhosted.org/packages/1f/c5/f60ed1c74cb2bb1e29fe26766e083a6dd99730ac411deaff10563e3743f4/twilio-8.0.0rc1.tar.gz
+[2023-04-20 09:33:28] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/d3/de/e5871bfe0ad3f9466973c1508b131b64a299d3159b52b7bd3baae9527150/hiddifypanel-4.0.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-20 09:33:28] INFO root fetch - processPackages [eQTac]: executing diffoscope
+[2023-04-20 09:33:28] INFO root fetch - processPackages [eQTac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eQTac-1.0.7.tar.gz tmp/eQTac-1.0.8.tar.gz --markdown 20230420/e/eQTac/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-20 09:33:28] INFO root fetch - processPackages [invenio-records-marc21]: Downloading https://files.pythonhosted.org/packages/1f/09/a285658f14729733deae81c360a900fca1cf163577ed13be75db16ec2eca/invenio-records-marc21-0.9.1.tar.gz
+[2023-04-20 09:33:28] INFO root fetch - processPackages [charsi]: Downloading https://files.pythonhosted.org/packages/7d/4c/ca662128844f9b2e3b0de0f5f739b9af51c6d5ce76acde6ffd1761ab522f/charsi-2.0.0.tar.gz
+[2023-04-20 09:33:28] INFO root fetch - processPackages [charsi]: executing diffoscope
+[2023-04-20 09:33:28] INFO root fetch - processPackages [charsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charsi-1.3.0.tar.gz tmp/charsi-2.0.0.tar.gz --markdown 20230420/c/charsi/1.3.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-20 09:33:28] INFO root fetch - processPackages [ssb-sgis]: executing diffoscope
+[2023-04-20 09:33:28] INFO root fetch - processPackages [ssb-sgis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_sgis-0.1.8.tar.gz tmp/ssb_sgis-0.1.9.tar.gz --markdown 20230420/s/ssb-sgis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 09:33:28] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-20 09:33:28] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev14.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230420/l/langchain-serve/0.0.9.dev14-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-20 09:33:28] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-04-20 09:33:28] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.101.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230420/m/myUniquePythonPackageName/5.5.101-7.10.7/diff.md --exclude *.pyd
+[2023-04-20 09:33:28] INFO root fetch - processPackages [nifcloud]: Downloading https://files.pythonhosted.org/packages/52/93/008fcdfe78ca4031286acc1b0e5a33e169a47b48a5eb13c51ea7efc2c9d7/nifcloud-1.6.0.tar.gz
+[2023-04-20 09:33:28] INFO root fetch - processPackages [twilio]: Downloading https://files.pythonhosted.org/packages/7d/96/21192c1e035869a53a909bf6f7b78d0664c9680cfe5be2bb8e965c7e664c/twilio-8.1.0.tar.gz
+[2023-04-20 09:33:28] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/16/d1/663d4e4c562c6d7616f035bcd9eb7b72a49fa2348c3aa60e44828325861b/hiddifypanel-4.1.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-20 09:33:28] INFO root fetch - processPackages [nifcloud]: executing diffoscope
+[2023-04-20 09:33:28] INFO root fetch - processPackages [nifcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifcloud-1.5.0.tar.gz tmp/nifcloud-1.6.0.tar.gz --markdown 20230420/n/nifcloud/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-04-20 09:33:28] INFO root fetch - processPackages [twilio]: executing diffoscope
+[2023-04-20 09:33:28] INFO root fetch - processPackages [twilio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twilio-8.0.0rc1.tar.gz tmp/twilio-8.1.0.tar.gz --markdown 20230420/t/twilio/8.0.0rc1-8.1.0/diff.md --exclude *.pyd
+[2023-04-20 09:33:29] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-20 09:33:29] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.5-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230420/h/hiddifypanel/4.0.5-4.1.0/diff.md --exclude *.pyd
+[2023-04-20 09:33:29] INFO root fetch - processPackages [invenio-records-marc21]: Downloading https://files.pythonhosted.org/packages/87/4d/265e3ab47550d183abe236faa375e5556c99bf64372d3d6dca2ce6f03e60/invenio-records-marc21-0.9.2.tar.gz
+[2023-04-20 09:33:29] INFO root fetch - processPackages [invenio-records-marc21]: executing diffoscope
+[2023-04-20 09:33:29] INFO root fetch - processPackages [invenio-records-marc21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-marc21-0.9.1.tar.gz tmp/invenio-records-marc21-0.9.2.tar.gz --markdown 20230420/i/invenio-records-marc21/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-20 09:33:29] INFO root fetch - processPackages [eQTac]: Start processing: VisionFive.gpio
+[2023-04-20 09:33:29] INFO root fetch - main [MainThread]: End processing [eQTac]: success
+[2023-04-20 09:33:30] INFO root fetch - processPackages [VisionFive.gpio]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-04-20 09:33:30] INFO root fetch - processPackages [claws]: Start processing: hiddifypanel
+[2023-04-20 09:33:30] INFO root fetch - main [MainThread]: End processing [claws]: success
+[2023-04-20 09:33:30] INFO root fetch - processPackages [hiddifypanel]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-04-20 09:33:30] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/f4/1f/45e1923be5ba6c44b69d93bdaee58eb750619fd1eab76c7f52112260490e/VisionFive.gpio-1.2.7.tar.gz
+[2023-04-20 09:33:30] INFO root fetch - main [MainThread]: End processing [charsi]: success
+[2023-04-20 09:33:30] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/8f/e3/dadc0c0a48d4e025eee142f5f8ab21f0fbaaf329b0e186d668bb079873bd/hiddifypanel-4.1.1-cp38-cp38-manylinux2014_aarch64.whl
+[2023-04-20 09:33:30] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-04-20 09:33:30] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/eb/08/d7a111300538371b689eed736ccd9fd7ce129b55c7dc212be0a849658762/VisionFive.gpio-1.2.8.tar.gz
+[2023-04-20 09:33:30] INFO root fetch - processPackages [VisionFive.gpio]: executing diffoscope
+[2023-04-20 09:33:30] INFO root fetch - processPackages [VisionFive.gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionFive.gpio-1.2.7.tar.gz tmp/VisionFive.gpio-1.2.8.tar.gz --markdown 20230420/V/VisionFive.gpio/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-04-20 09:33:31] INFO root fetch - main [MainThread]: End processing [ssb-sgis]: success
+[2023-04-20 09:33:31] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-20 09:33:31] INFO root fetch - main [MainThread]: End processing [VisionFive.gpio]: success
+[2023-04-20 09:33:32] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-20 09:33:32] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.1.1-cp38-cp38-manylinux2014_aarch64.whl.zip --markdown 20230420/h/hiddifypanel/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-04-20 09:33:33] INFO root fetch - main [MainThread]: End processing [invenio-records-marc21]: success
+[2023-04-20 09:33:33] INFO root fetch - main [MainThread]: End processing [nifcloud]: success
+[2023-04-20 09:33:47] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-20 09:33:47] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-20 09:33:48] INFO root fetch - main [MainThread]: End processing [twilio]: success
+[2023-04-20 09:33:48] INFO root fetch - main [MainThread]: Store serial: [17783317]
