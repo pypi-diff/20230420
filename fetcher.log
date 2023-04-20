@@ -14477,3 +14477,98 @@ EOFError: EOF read where object expected
 [2023-04-20 12:42:58] INFO root fetch - main [MainThread]: End processing [pylipd]: success
 [2023-04-20 12:43:00] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2023-04-20 12:43:00] INFO root fetch - main [MainThread]: Store serial: [17785797]
+[2023-04-20 12:48:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17785797]
+[2023-04-20 12:48:10] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-20 12:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sitcom
+[2023-04-20 12:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdkit
+[2023-04-20 12:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coalestr
+[2023-04-20 12:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shieldapi
+[2023-04-20 12:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-mails
+[2023-04-20 12:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sine-wave-package
+[2023-04-20 12:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: notifications-api-common
+[2023-04-20 12:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stubgenj
+[2023-04-20 12:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ducc0
+[2023-04-20 12:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ibm-eventnotifications
+[2023-04-20 12:48:10] INFO root fetch - processPackages [coalestr]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-04-20 12:48:10] INFO root fetch - processPackages [django-mails]: New version: [2.6] Old Version: [2.5]
+[2023-04-20 12:48:10] WARNING root fetch - processPackages [sitcom]: Skipping, unable to determine old version
+[2023-04-20 12:48:10] INFO root fetch - processPackages [sine-wave-package]: New version: [0.3] Old Version: [0.2]
+[2023-04-20 12:48:10] INFO root fetch - processPackages [sitcom]: Start processing: sine-wave-package
+[2023-04-20 12:48:10] INFO root fetch - main [MainThread]: End processing [sitcom] error
+[2023-04-20 12:48:10] WARNING root fetch - processPackages [shieldapi]: Skipping, unable to determine old version
+[2023-04-20 12:48:10] INFO root fetch - processPackages [sdkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 12:48:10] INFO root fetch - processPackages [shieldapi]: Start processing: swiftgalaxy
+[2023-04-20 12:48:10] INFO root fetch - main [MainThread]: End processing [shieldapi] error
+[2023-04-20 12:48:11] INFO root fetch - processPackages [notifications-api-common]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-20 12:48:11] INFO root fetch - processPackages [ibm-eventnotifications]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 12:48:11] INFO root fetch - processPackages [sine-wave-package]: New version: [0.3] Old Version: [0.2]
+[2023-04-20 12:48:11] INFO root fetch - processPackages [swiftgalaxy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-20 12:48:11] INFO root fetch - processPackages [stubgenj]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 12:48:11] INFO root fetch - processPackages [ducc0]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-20 12:48:11] ERROR root fetch - processPackages [sine-wave-package]: Unable to fetch info: No such project/version 'sine-wave-package' 0.2
+[2023-04-20 12:48:11] INFO root fetch - processPackages [sine-wave-package]: Start processing: qodex-moxa-il1214
+[2023-04-20 12:48:11] ERROR root fetch - processPackages [sine-wave-package]: Unable to fetch info: No such project/version 'sine-wave-package' 0.2
+[2023-04-20 12:48:11] INFO root fetch - main [MainThread]: End processing [sine-wave-package] error
+[2023-04-20 12:48:11] INFO root fetch - processPackages [sine-wave-package]: Start processing: funcs
+[2023-04-20 12:48:11] INFO root fetch - main [MainThread]: End processing [sine-wave-package] error
+[2023-04-20 12:48:11] INFO root fetch - processPackages [qodex-moxa-il1214]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-04-20 12:48:11] INFO root fetch - processPackages [funcs]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-04-20 12:48:11] INFO root fetch - processPackages [django-mails]: Downloading https://files.pythonhosted.org/packages/0f/f0/5ba13c136236c04a57ad5c7a6ce0d44e7df975b29df405967a4005b9ac48/django-mails-2.6.tar.gz
+[2023-04-20 12:48:11] INFO root fetch - processPackages [stubgenj]: Downloading https://files.pythonhosted.org/packages/d9/3c/bf603ec59511a1e865715edbafd8e8ffeb7f2fefb97580702d6c771003ed/stubgenj-0.2.8.tar.gz
+[2023-04-20 12:48:11] INFO root fetch - processPackages [ibm-eventnotifications]: Downloading https://files.pythonhosted.org/packages/d9/f8/5fc4e57a224a8d4b968e3474331e64b98625669f495ceb40928b15f9740c/ibm-eventnotifications-0.1.8.tar.gz
+[2023-04-20 12:48:11] INFO root fetch - processPackages [notifications-api-common]: Downloading https://files.pythonhosted.org/packages/a1/69/174de938bfa06ffbec0d28809da639daee155b9ec1e84ffc2aadc6423d6b/notifications-api-common-0.2.1.tar.gz
+[2023-04-20 12:48:11] INFO root fetch - processPackages [swiftgalaxy]: Downloading https://files.pythonhosted.org/packages/d2/b6/3bfe501dd3f8bc51d3084f4f66e26fed7d80906bb76d703017e8d9a1a8ed/swiftgalaxy-1.0.1.tar.gz
+[2023-04-20 12:48:11] INFO root fetch - processPackages [ducc0]: Downloading https://files.pythonhosted.org/packages/62/27/b8acc8d604ef360d46999487bc751a76a2592ad2c94e739a2e6b86f2ad75/ducc0-0.8.0.tar.gz
+[2023-04-20 12:48:11] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-04-20 12:48:11] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.8.tar.gz tmp/sdkit-1.0.9.tar.gz --markdown 20230420/s/sdkit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 12:48:11] INFO root fetch - processPackages [funcs]: Downloading https://files.pythonhosted.org/packages/37/4f/149f4837573f6ad89bac963d53473f1238722edf57ad057b68a2c22342ac/funcs-0.2.4.tar.gz
+[2023-04-20 12:48:11] INFO root fetch - processPackages [coalestr]: executing diffoscope
+[2023-04-20 12:48:11] INFO root fetch - processPackages [coalestr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coalestr-0.2.7.tar.gz tmp/coalestr-0.2.9.tar.gz --markdown 20230420/c/coalestr/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 12:48:11] INFO root fetch - processPackages [qodex-moxa-il1214]: Downloading https://files.pythonhosted.org/packages/2d/e7/294aa828848153539449fe1251f6236e7c8bd3e505896d1f7a8dea05ecf2/qodex_moxa_il1214-0.0.33-py3-none-any.whl
+[2023-04-20 12:48:11] INFO root fetch - processPackages [django-mails]: executing diffoscope
+[2023-04-20 12:48:11] INFO root fetch - processPackages [django-mails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mails-2.5.tar.gz tmp/django-mails-2.6.tar.gz --markdown 20230420/d/django-mails/2.5-2.6/diff.md --exclude *.pyd
+[2023-04-20 12:48:11] INFO root fetch - processPackages [swiftgalaxy]: Downloading https://files.pythonhosted.org/packages/c1/d6/95798650c236ed6e39f50db5d60cfd95bfbd3b84f3ad3383da7e38bdd899/swiftgalaxy-1.0.2.tar.gz
+[2023-04-20 12:48:11] INFO root fetch - processPackages [qodex-moxa-il1214]: executing diffoscope
+[2023-04-20 12:48:11] INFO root fetch - processPackages [qodex-moxa-il1214]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_moxa_il1214-0.0.32-py3-none-any.whl.zip tmp/qodex_moxa_il1214-0.0.33-py3-none-any.whl.zip --markdown 20230420/q/qodex-moxa-il1214/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-04-20 12:48:11] INFO root fetch - processPackages [notifications-api-common]: Downloading https://files.pythonhosted.org/packages/c2/40/d2f3649a76fd0c4d35e26b7762f861ac4d1e2d2e5e28586f87ab13e6f91a/notifications-api-common-0.2.2.tar.gz
+[2023-04-20 12:48:11] INFO root fetch - processPackages [stubgenj]: Downloading https://files.pythonhosted.org/packages/91/5a/e1bded3c0c34bd9d62b46fe83e21f5f81b33bffe78d6bb88b179dbd9711c/stubgenj-0.2.9.tar.gz
+[2023-04-20 12:48:11] INFO root fetch - processPackages [ibm-eventnotifications]: Downloading https://files.pythonhosted.org/packages/ca/15/9b53d44264dd7315793b627c4cba1b6cc85d3efda433a9ec30e3c527a06f/ibm-eventnotifications-0.1.9.tar.gz
+[2023-04-20 12:48:11] INFO root fetch - processPackages [swiftgalaxy]: executing diffoscope
+[2023-04-20 12:48:11] INFO root fetch - processPackages [swiftgalaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftgalaxy-1.0.1.tar.gz tmp/swiftgalaxy-1.0.2.tar.gz --markdown 20230420/s/swiftgalaxy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 12:48:11] INFO root fetch - processPackages [funcs]: Downloading https://files.pythonhosted.org/packages/1e/dd/b8c0f3161f4676aaf58825471b7daf22b07e02875718952d1c7e2bebc5c4/funcs-0.3.0.tar.gz
+[2023-04-20 12:48:11] INFO root fetch - processPackages [ducc0]: Downloading https://files.pythonhosted.org/packages/41/a6/de4f236b4fcf91fca99f8d49baaca07723fec29b22c1307271b0b72ab5c4/ducc0-0.9.0.tar.gz
+[2023-04-20 12:48:11] INFO root fetch - processPackages [ibm-eventnotifications]: executing diffoscope
+[2023-04-20 12:48:11] INFO root fetch - processPackages [ibm-eventnotifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-eventnotifications-0.1.8.tar.gz tmp/ibm-eventnotifications-0.1.9.tar.gz --markdown 20230420/i/ibm-eventnotifications/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 12:48:11] INFO root fetch - processPackages [notifications-api-common]: executing diffoscope
+[2023-04-20 12:48:11] INFO root fetch - processPackages [notifications-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notifications-api-common-0.2.1.tar.gz tmp/notifications-api-common-0.2.2.tar.gz --markdown 20230420/n/notifications-api-common/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-20 12:48:11] INFO root fetch - processPackages [stubgenj]: executing diffoscope
+[2023-04-20 12:48:11] INFO root fetch - processPackages [stubgenj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stubgenj-0.2.8.tar.gz tmp/stubgenj-0.2.9.tar.gz --markdown 20230420/s/stubgenj/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 12:48:11] INFO root fetch - processPackages [funcs]: executing diffoscope
+[2023-04-20 12:48:11] INFO root fetch - processPackages [funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs-0.2.4.tar.gz tmp/funcs-0.3.0.tar.gz --markdown 20230420/f/funcs/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 12:48:11] INFO root fetch - processPackages [ducc0]: executing diffoscope
+[2023-04-20 12:48:11] INFO root fetch - processPackages [ducc0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ducc0-0.8.0.tar.gz tmp/ducc0-0.9.0.tar.gz --markdown 20230420/d/ducc0/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 12:48:12] INFO root fetch - processPackages [qodex-moxa-il1214]: Start processing: fluss
+[2023-04-20 12:48:12] INFO root fetch - main [MainThread]: End processing [qodex-moxa-il1214]: success
+[2023-04-20 12:48:13] INFO root fetch - processPackages [fluss]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 12:48:13] INFO root fetch - processPackages [swiftgalaxy]: Start processing: rekuest
+[2023-04-20 12:48:13] INFO root fetch - main [MainThread]: End processing [swiftgalaxy]: success
+[2023-04-20 12:48:13] INFO root fetch - main [MainThread]: End processing [django-mails]: success
+[2023-04-20 12:48:13] INFO root fetch - main [MainThread]: End processing [coalestr]: success
+[2023-04-20 12:48:13] INFO root fetch - processPackages [rekuest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 12:48:13] INFO root fetch - processPackages [fluss]: Downloading https://files.pythonhosted.org/packages/53/b7/8ff92a5a6685a4072ae111d8bec915e15a5682020fcc403fa91a69346a35/fluss-0.1.8.tar.gz
+[2023-04-20 12:48:13] INFO root fetch - main [MainThread]: End processing [ibm-eventnotifications]: success
+[2023-04-20 12:48:13] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/48/f2/3190b6c553e57d0d7cdd24d76862ef45faae7ac9eff40cae2c066106ab77/rekuest-0.1.8.tar.gz
+[2023-04-20 12:48:13] INFO root fetch - processPackages [fluss]: Downloading https://files.pythonhosted.org/packages/50/76/9edfc881baab8d439ab2edc2727312771bb676cf387e48ce1a149177f1f6/fluss-0.1.9.tar.gz
+[2023-04-20 12:48:13] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-04-20 12:48:13] INFO root fetch - processPackages [fluss]: executing diffoscope
+[2023-04-20 12:48:13] INFO root fetch - processPackages [fluss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluss-0.1.8.tar.gz tmp/fluss-0.1.9.tar.gz --markdown 20230420/f/fluss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 12:48:13] INFO root fetch - main [MainThread]: End processing [funcs]: success
+[2023-04-20 12:48:13] INFO root fetch - processPackages [rekuest]: Downloading https://files.pythonhosted.org/packages/c7/6e/bcea729c864b4bbd4c9c26534b40f4ebed9f00eb63aeb606692eb0667517/rekuest-0.1.9.tar.gz
+[2023-04-20 12:48:13] INFO root fetch - main [MainThread]: End processing [notifications-api-common]: success
+[2023-04-20 12:48:13] INFO root fetch - main [MainThread]: End processing [stubgenj]: success
+[2023-04-20 12:48:14] INFO root fetch - processPackages [rekuest]: executing diffoscope
+[2023-04-20 12:48:14] INFO root fetch - processPackages [rekuest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rekuest-0.1.8.tar.gz tmp/rekuest-0.1.9.tar.gz --markdown 20230420/r/rekuest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 12:48:14] INFO root fetch - main [MainThread]: End processing [fluss]: success
+[2023-04-20 12:48:15] INFO root fetch - main [MainThread]: End processing [rekuest]: success
+[2023-04-20 12:48:16] INFO root fetch - main [MainThread]: End processing [ducc0]: success
+[2023-04-20 12:48:16] INFO root fetch - main [MainThread]: Store serial: [17785869]
