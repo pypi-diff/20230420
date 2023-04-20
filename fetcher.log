@@ -9530,3 +9530,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 09:12:20] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2023-04-20 09:12:20] INFO root fetch - main [MainThread]: End processing [dissect.hypervisor]: success
 [2023-04-20 09:12:20] INFO root fetch - main [MainThread]: Store serial: [17783204]
+[2023-04-20 09:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783204]
+[2023-04-20 09:17:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-20 09:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cohere
+[2023-04-20 09:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-20 09:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: piknik
+[2023-04-20 09:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdf-tocgen
+[2023-04-20 09:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: postpruner
+[2023-04-20 09:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: algokit-utils
+[2023-04-20 09:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fau-tools
+[2023-04-20 09:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-mapper
+[2023-04-20 09:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exasol-toolbox
+[2023-04-20 09:17:28] INFO root fetch - processPackages [exasol-toolbox]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-20 09:17:28] INFO root fetch - processPackages [fau-tools]: New version: [1.4.3.1] Old Version: [1.4.3]
+[2023-04-20 09:17:28] INFO root fetch - processPackages [cohere]: New version: [4.2.0] Old Version: [4.1.7]
+[2023-04-20 09:17:28] INFO root fetch - processPackages [pdf-tocgen]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-20 09:17:28] INFO root fetch - processPackages [algokit-utils]: New version: [1.0.4b1] Old Version: [1.0.3b2]
+[2023-04-20 09:17:28] INFO root fetch - processPackages [django-mapper]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-04-20 09:17:28] INFO root fetch - processPackages [piknik]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-20 09:17:28] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-20 09:17:29] INFO root fetch - processPackages [postpruner]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-20 09:17:29] INFO root fetch - processPackages [exasol-toolbox]: Downloading https://files.pythonhosted.org/packages/ea/f9/b1f540ecf18189379352fd9ad509af05393a6d06b497ddf83edfc1cd051e/exasol_toolbox-0.3.0.tar.gz
+[2023-04-20 09:17:29] INFO root fetch - processPackages [pdf-tocgen]: Downloading https://files.pythonhosted.org/packages/a8/bb/dfd948d0f735682cf5df3f3dafca21ed8196ec618e53f7fdef7a47cc9eaf/pdf_tocgen-1.3.2.tar.gz
+[2023-04-20 09:17:29] INFO root fetch - processPackages [piknik]: Downloading https://files.pythonhosted.org/packages/24/db/a426b4cecb2e5b03d372da9481a9a1d6c09e4b8ae3ed02288cee2a9dcc11/piknik-0.3.8.tar.gz
+[2023-04-20 09:17:29] INFO root fetch - processPackages [django-mapper]: Downloading https://files.pythonhosted.org/packages/06/a8/6809b814a3c9059f96a452feef71f6da426e15f18692de11ee159bce35e4/django-mapper-1.1.6.tar.gz
+[2023-04-20 09:17:29] INFO root fetch - processPackages [fau-tools]: Downloading https://files.pythonhosted.org/packages/5f/8b/5c25395663566431407ccb9e6f5f5f1b4ab552de7d8d7b00a7e9c1deb119/fau_tools-1.4.3.1.tar.gz
+[2023-04-20 09:17:29] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/ca/72/199c43ecde7451c860c80349ad935650f9e97ccb27a6bdedc19784b0a410/algokit_utils-1.0.4b1-py3-none-any.whl
+[2023-04-20 09:17:29] INFO root fetch - processPackages [postpruner]: Downloading https://files.pythonhosted.org/packages/04/f1/64264e0bc56bb43ce60f0a94553ad48509a703c354f407b9b9f0603d7dc3/postpruner-1.1.4.tar.gz
+[2023-04-20 09:17:29] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/e8/03/b4c5cc9139fccf4d7fea6d39ae5412cc53ce89a0d25effc8aa9e8a8804d5/cohere-4.2.0.tar.gz
+[2023-04-20 09:17:29] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-20 09:17:29] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230420/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-20 09:17:29] INFO root fetch - processPackages [pdf-tocgen]: executing diffoscope
+[2023-04-20 09:17:29] INFO root fetch - processPackages [pdf-tocgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf_tocgen-1.3.1.tar.gz tmp/pdf_tocgen-1.3.2.tar.gz --markdown 20230420/p/pdf-tocgen/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-20 09:17:29] INFO root fetch - processPackages [fau-tools]: executing diffoscope
+[2023-04-20 09:17:29] INFO root fetch - processPackages [fau-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fau_tools-1.4.3.tar.gz tmp/fau_tools-1.4.3.1.tar.gz --markdown 20230420/f/fau-tools/1.4.3-1.4.3.1/diff.md --exclude *.pyd
+[2023-04-20 09:17:29] INFO root fetch - processPackages [piknik]: executing diffoscope
+[2023-04-20 09:17:29] INFO root fetch - processPackages [piknik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piknik-0.3.7.tar.gz tmp/piknik-0.3.8.tar.gz --markdown 20230420/p/piknik/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-20 09:17:29] INFO root fetch - processPackages [postpruner]: executing diffoscope
+[2023-04-20 09:17:29] INFO root fetch - processPackages [postpruner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postpruner-1.1.3.tar.gz tmp/postpruner-1.1.4.tar.gz --markdown 20230420/p/postpruner/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-20 09:17:29] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-04-20 09:17:29] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.0.3b2-py3-none-any.whl.zip tmp/algokit_utils-1.0.4b1-py3-none-any.whl.zip --markdown 20230420/a/algokit-utils/1.0.3b2-1.0.4b1/diff.md --exclude *.pyd
+[2023-04-20 09:17:29] INFO root fetch - processPackages [exasol-toolbox]: Downloading https://files.pythonhosted.org/packages/ee/ba/32dcf23c8935b70d7b1a03bab6e7bd5a2b2ffdce8156dbb6ac7e2b75b924/exasol_toolbox-0.4.0.tar.gz
+[2023-04-20 09:17:29] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2023-04-20 09:17:29] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-4.1.7.tar.gz tmp/cohere-4.2.0.tar.gz --markdown 20230420/c/cohere/4.1.7-4.2.0/diff.md --exclude *.pyd
+[2023-04-20 09:17:29] INFO root fetch - processPackages [django-mapper]: Downloading https://files.pythonhosted.org/packages/5b/f0/ec54f6bbb6876722d4b5932994e72eb47abfe9d34ae5476342bc7699c973/django-mapper-1.1.7.tar.gz
+[2023-04-20 09:17:29] INFO root fetch - processPackages [exasol-toolbox]: executing diffoscope
+[2023-04-20 09:17:29] INFO root fetch - processPackages [exasol-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exasol_toolbox-0.3.0.tar.gz tmp/exasol_toolbox-0.4.0.tar.gz --markdown 20230420/e/exasol-toolbox/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-20 09:17:29] INFO root fetch - processPackages [django-mapper]: executing diffoscope
+[2023-04-20 09:17:29] INFO root fetch - processPackages [django-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mapper-1.1.6.tar.gz tmp/django-mapper-1.1.7.tar.gz --markdown 20230420/d/django-mapper/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-04-20 09:17:30] INFO root fetch - main [MainThread]: End processing [fau-tools]: success
+[2023-04-20 09:17:30] INFO root fetch - main [MainThread]: End processing [postpruner]: success
+[2023-04-20 09:17:31] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-20 09:17:31] INFO root fetch - main [MainThread]: End processing [django-mapper]: success
+[2023-04-20 09:17:31] INFO root fetch - main [MainThread]: End processing [piknik]: success
+[2023-04-20 09:17:31] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-04-20 09:17:31] INFO root fetch - main [MainThread]: End processing [exasol-toolbox]: success
+[2023-04-20 09:17:31] INFO root fetch - main [MainThread]: End processing [pdf-tocgen]: success
+[2023-04-20 09:17:31] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2023-04-20 09:17:31] INFO root fetch - main [MainThread]: Store serial: [17783229]
