@@ -6695,3 +6695,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 04:59:57] INFO root fetch - main [MainThread]: End processing [msgspec]: success
 [2023-04-20 04:59:57] INFO root fetch - main [MainThread]: End processing [thu-learn-downloader]: success
 [2023-04-20 04:59:57] INFO root fetch - main [MainThread]: Store serial: [17781459]
+[2023-04-20 05:05:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781459]
+[2023-04-20 05:05:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-20 05:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-account-invoicing
+[2023-04-20 05:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lqwtest2
+[2023-04-20 05:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fau-tools
+[2023-04-20 05:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zhuque-dataloader
+[2023-04-20 05:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duckdb
+[2023-04-20 05:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jarvis-ui
+[2023-04-20 05:05:06] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: New version: [16.0.20230419.0] Old Version: [16.0.20230323.0]
+[2023-04-20 05:05:06] INFO root fetch - processPackages [duckdb]: New version: [0.7.2.dev2144] Old Version: [0.7.2.dev1901]
+[2023-04-20 05:05:06] WARNING root fetch - processPackages [lqwtest2]: Skipping, unable to determine old version
+[2023-04-20 05:05:06] INFO root fetch - main [MainThread]: End processing [lqwtest2] error
+[2023-04-20 05:05:06] INFO root fetch - processPackages [zhuque-dataloader]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-20 05:05:06] INFO root fetch - processPackages [fau-tools]: New version: [1.4.3] Old Version: [1.4.2.post2]
+[2023-04-20 05:05:06] INFO root fetch - processPackages [jarvis-ui]: New version: [0.8] Old Version: [0.7]
+[2023-04-20 05:05:06] INFO root fetch - processPackages [jarvis-ui]: Downloading https://files.pythonhosted.org/packages/6c/98/abb03b2fe6582fcdad62386eb2ab9677a5497e401844b084b653e0d7d98d/jarvis_ui-0.7-py3-none-any.whl
+[2023-04-20 05:05:06] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/16/89/01272f3679b009b324f1efd040a8b07b4d1226c387d623ae0cc05df92233/duckdb-0.7.2.dev1901-cp36-cp36m-macosx_10_9_x86_64.whl
+[2023-04-20 05:05:06] INFO root fetch - processPackages [zhuque-dataloader]: Downloading https://files.pythonhosted.org/packages/bf/2e/ac32bed6a7b003dbf37ed4e210e908e52805f5228fb5834d6b097e5d5160/zhuque-dataloader-0.0.7.tar.gz
+[2023-04-20 05:05:06] INFO root fetch - processPackages [fau-tools]: Downloading https://files.pythonhosted.org/packages/2f/74/f8e84cf05112f78a311576572bc700e1726aa1d8df912f21581ffd5f8916/Fau_tools-1.4.2-2.tar.gz
+[2023-04-20 05:05:06] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/7d/1c/52dddf20ff531d3ee9edbd31a2face26df7d1506161854dad67edf652e9c/odoo_addons_oca_account_invoicing-16.0.20230419.0-py3-none-any.whl
+[2023-04-20 05:05:06] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14277571>=10485760
+[2023-04-20 05:05:06] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-04-20 05:05:07] INFO root fetch - processPackages [zhuque-dataloader]: executing diffoscope
+[2023-04-20 05:05:07] INFO root fetch - processPackages [zhuque-dataloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhuque-dataloader-0.0.6.tar.gz tmp/zhuque-dataloader-0.0.7.tar.gz --markdown 20230420/z/zhuque-dataloader/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-20 05:05:07] INFO root fetch - processPackages [jarvis-ui]: Downloading https://files.pythonhosted.org/packages/52/7a/6e347cf4a4512dc5c9f720ae5979b47f3d484e1fcf9359c54ea0930fbd1b/jarvis_ui-0.8-py3-none-any.whl
+[2023-04-20 05:05:07] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: executing diffoscope
+[2023-04-20 05:05:07] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoicing-16.0.20230323.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoicing-16.0.20230419.0-py3-none-any.whl.zip --markdown 20230420/o/odoo-addons-oca-account-invoicing/16.0.20230323.0-16.0.20230419.0/diff.md --exclude *.pyd
+[2023-04-20 05:05:07] INFO root fetch - processPackages [fau-tools]: Downloading https://files.pythonhosted.org/packages/d7/34/ef18fbb2ba5dfb00173a9b27887603a2d8325f3cc0a5045a05699b6361c5/fau_tools-1.4.3.tar.gz
+[2023-04-20 05:05:07] INFO root fetch - processPackages [jarvis-ui]: executing diffoscope
+[2023-04-20 05:05:07] INFO root fetch - processPackages [jarvis-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ui-0.7-py3-none-any.whl.zip tmp/jarvis_ui-0.8-py3-none-any.whl.zip --markdown 20230420/j/jarvis-ui/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-20 05:05:07] INFO root fetch - processPackages [fau-tools]: executing diffoscope
+[2023-04-20 05:05:07] INFO root fetch - processPackages [fau-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fau_tools-1.4.2-2.tar.gz tmp/fau_tools-1.4.3.tar.gz --markdown 20230420/f/fau-tools/1.4.2.post2-1.4.3/diff.md --exclude *.pyd
+[2023-04-20 05:05:07] INFO root fetch - main [MainThread]: End processing [zhuque-dataloader]: success
+[2023-04-20 05:05:08] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoicing]: success
+[2023-04-20 05:05:08] INFO root fetch - main [MainThread]: End processing [jarvis-ui]: success
+[2023-04-20 05:05:08] INFO root fetch - main [MainThread]: End processing [fau-tools]: success
+[2023-04-20 05:05:08] INFO root fetch - main [MainThread]: Store serial: [17781485]
