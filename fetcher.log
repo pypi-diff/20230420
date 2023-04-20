@@ -14180,3 +14180,87 @@ EOFError: EOF read where object expected
 [2023-04-20 12:26:59] INFO root fetch - main [MainThread]: End processing [jpeglib]: success
 [2023-04-20 12:27:16] INFO root fetch - main [MainThread]: End processing [jupyterhub]: success
 [2023-04-20 12:27:16] INFO root fetch - main [MainThread]: Store serial: [17785582]
+[2023-04-20 12:32:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17785582]
+[2023-04-20 12:32:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: preprocessing-pgp
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codebuild-ci
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m-abac-anhnt
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: macrometa-source-bigquery
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fold-core
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-bing-chat
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ncbimetadata
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phyper
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: starbug2
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bovine
+[2023-04-20 12:32:26] WARNING root fetch - processPackages [codebuild-ci]: Skipping, unable to determine old version
+[2023-04-20 12:32:26] INFO root fetch - processPackages [codebuild-ci]: Start processing: dxnesici
+[2023-04-20 12:32:26] INFO root fetch - main [MainThread]: End processing [codebuild-ci] error
+[2023-04-20 12:32:26] INFO root fetch - processPackages [m-abac-anhnt]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-20 12:32:26] INFO root fetch - processPackages [macrometa-source-bigquery]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 12:32:26] INFO root fetch - processPackages [starbug2]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-20 12:32:26] INFO root fetch - processPackages [fold-core]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 12:32:26] INFO root fetch - processPackages [bovine]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ncbimetadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 12:32:26] INFO root fetch - processPackages [dxnesici]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-20 12:32:26] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post6.dev7] Old Version: [0.2.9.post5.dev7]
+[2023-04-20 12:32:26] INFO root fetch - processPackages [phyper]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-20 12:32:26] INFO root fetch - processPackages [nonebot-plugin-bing-chat]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-20 12:32:26] INFO root fetch - processPackages [dxnesici]: Downloading https://files.pythonhosted.org/packages/f7/3d/cbdac726d73e9c7037463e71e9209db76451c79200c4ccb13650264a1f20/dxnesici-1.0.0.tar.gz
+[2023-04-20 12:32:26] INFO root fetch - processPackages [starbug2]: Downloading https://files.pythonhosted.org/packages/30/54/b3f1fe7ed4b5c0024af38887084b6e2ed00fbec33af623c89fc947a80855/starbug2-0.3.6.tar.gz
+[2023-04-20 12:32:26] INFO root fetch - processPackages [fold-core]: Downloading https://files.pythonhosted.org/packages/01/3f/dd642ae440a2ad1e0aa9cf0de4c851d283d581316a80041258de3a02cd98/fold_core-0.1.1.tar.gz
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ncbimetadata]: Downloading https://files.pythonhosted.org/packages/51/3e/6593516af1c04244e5986370fa980590f949f4ca09ad28917cfa85d5015e/ncbimetadata-0.0.9.tar.gz
+[2023-04-20 12:32:26] INFO root fetch - processPackages [phyper]: Downloading https://files.pythonhosted.org/packages/4d/b3/a2d2e041e94d471f20bc325b95b583daec09302c9d1123f0fbaf93bb9c59/phyper-1.1.1-py3-none-any.whl
+[2023-04-20 12:32:26] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/63/a1/2d1ef049ecefd45af1e80c75527bfeeb37c19d23eb15fe4fa161b0575d68/preprocessing-pgp-0.2.9.post5.dev7.tar.gz
+[2023-04-20 12:32:26] INFO root fetch - processPackages [m-abac-anhnt]: Downloading https://files.pythonhosted.org/packages/20/82/ce22169b028d75271aac4cef911c24f3a57a641dc238ac9737d0733fb141/m-abac-anhnt-1.0.4.tar.gz
+[2023-04-20 12:32:26] INFO root fetch - processPackages [fold-core]: executing diffoscope
+[2023-04-20 12:32:26] INFO root fetch - processPackages [fold-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fold_core-0.1.0.tar.gz tmp/fold_core-0.1.1.tar.gz --markdown 20230420/f/fold-core/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 12:32:26] INFO root fetch - processPackages [bovine]: Downloading https://files.pythonhosted.org/packages/2a/b9/9f5f0cef8a719732c439ea6daf5e1d626ab83647863a7ea4180dc6440edc/bovine-0.1.2.tar.gz
+[2023-04-20 12:32:26] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857779>=10485760
+[2023-04-20 12:32:26] INFO root fetch - processPackages [preprocessing-pgp]: Start processing: sqlstrings
+[2023-04-20 12:32:26] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ncbimetadata]: executing diffoscope
+[2023-04-20 12:32:26] INFO root fetch - processPackages [ncbimetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbimetadata-0.0.8.tar.gz tmp/ncbimetadata-0.0.9.tar.gz --markdown 20230420/n/ncbimetadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 12:32:26] INFO root fetch - processPackages [phyper]: executing diffoscope
+[2023-04-20 12:32:26] INFO root fetch - processPackages [phyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phyper-1.1.0-py3-none-any.whl.zip tmp/phyper-1.1.1-py3-none-any.whl.zip --markdown 20230420/p/phyper/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-20 12:32:26] INFO root fetch - processPackages [macrometa-source-bigquery]: executing diffoscope
+[2023-04-20 12:32:26] INFO root fetch - processPackages [macrometa-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-bigquery-0.0.8.tar.gz tmp/macrometa-source-bigquery-0.0.9.tar.gz --markdown 20230420/m/macrometa-source-bigquery/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 12:32:26] INFO root fetch - processPackages [nonebot-plugin-bing-chat]: executing diffoscope
+[2023-04-20 12:32:26] INFO root fetch - processPackages [nonebot-plugin-bing-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-bing-chat-0.7.8.tar.gz tmp/nonebot-plugin-bing-chat-0.7.9.tar.gz --markdown 20230420/n/nonebot-plugin-bing-chat/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-20 12:32:26] INFO root fetch - processPackages [sqlstrings]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-20 12:32:26] INFO root fetch - processPackages [starbug2]: Downloading https://files.pythonhosted.org/packages/e2/0a/1e8b201a28992ee43d5a953d3182175250d468b3cc98fa57381ccb8a4a48/starbug2-0.3.7.tar.gz
+[2023-04-20 12:32:26] INFO root fetch - processPackages [m-abac-anhnt]: executing diffoscope
+[2023-04-20 12:32:26] INFO root fetch - processPackages [m-abac-anhnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-anhnt-1.0.3.tar.gz tmp/m-abac-anhnt-1.0.4.tar.gz --markdown 20230420/m/m-abac-anhnt/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-20 12:32:27] INFO root fetch - processPackages [dxnesici]: Downloading https://files.pythonhosted.org/packages/6c/54/5b663a30adb4ba8d0cc5360e3c74ed45c103e926534e2204921408b23392/dxnesici-1.0.1.tar.gz
+[2023-04-20 12:32:27] INFO root fetch - processPackages [bovine]: executing diffoscope
+[2023-04-20 12:32:27] INFO root fetch - processPackages [bovine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bovine-0.1.1.tar.gz tmp/bovine-0.1.2.tar.gz --markdown 20230420/b/bovine/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-20 12:32:27] INFO root fetch - processPackages [sqlstrings]: Downloading https://files.pythonhosted.org/packages/27/d8/89d31d8cd8cbe7a91fa3ae9cf8503dad3574080e9bc18850604887f6602b/sqlstrings-0.1.0.tar.gz
+[2023-04-20 12:32:27] INFO root fetch - processPackages [starbug2]: executing diffoscope
+[2023-04-20 12:32:27] INFO root fetch - processPackages [starbug2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starbug2-0.3.6.tar.gz tmp/starbug2-0.3.7.tar.gz --markdown 20230420/s/starbug2/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-20 12:32:27] INFO root fetch - processPackages [dxnesici]: executing diffoscope
+[2023-04-20 12:32:27] INFO root fetch - processPackages [dxnesici]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxnesici-1.0.0.tar.gz tmp/dxnesici-1.0.1.tar.gz --markdown 20230420/d/dxnesici/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-20 12:32:27] INFO root fetch - processPackages [sqlstrings]: executing diffoscope
+[2023-04-20 12:32:27] INFO root fetch - processPackages [sqlstrings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlstrings-0.0.9.tar.gz tmp/sqlstrings-0.1.0.tar.gz --markdown 20230420/s/sqlstrings/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-20 12:32:28] INFO root fetch - processPackages [ncbimetadata]: Start processing: iqm-client
+[2023-04-20 12:32:28] INFO root fetch - main [MainThread]: End processing [ncbimetadata]: success
+[2023-04-20 12:32:28] INFO root fetch - processPackages [iqm-client]: New version: [9.8] Old Version: [9.7]
+[2023-04-20 12:32:28] INFO root fetch - processPackages [nonebot-plugin-bing-chat]: Start processing: pychunkbuffers
+[2023-04-20 12:32:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bing-chat]: success
+[2023-04-20 12:32:28] WARNING root fetch - processPackages [pychunkbuffers]: Skipping, unable to determine old version
+[2023-04-20 12:32:28] INFO root fetch - processPackages [pychunkbuffers]: Start processing: trigger-count
+[2023-04-20 12:32:28] INFO root fetch - main [MainThread]: End processing [pychunkbuffers] error
+[2023-04-20 12:32:28] INFO root fetch - processPackages [trigger-count]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-20 12:32:28] INFO root fetch - main [MainThread]: End processing [phyper]: success
+[2023-04-20 12:32:28] INFO root fetch - main [MainThread]: End processing [m-abac-anhnt]: success
+[2023-04-20 12:32:28] INFO root fetch - main [MainThread]: End processing [fold-core]: success
+[2023-04-20 12:32:28] INFO root fetch - processPackages [trigger-count]: executing diffoscope
+[2023-04-20 12:32:28] INFO root fetch - processPackages [trigger-count]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trigger_count-0.1.6.tar.gz tmp/trigger_count-0.1.7.tar.gz --markdown 20230420/t/trigger-count/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-20 12:32:28] INFO root fetch - main [MainThread]: End processing [macrometa-source-bigquery]: success
+[2023-04-20 12:32:28] INFO root fetch - processPackages [iqm-client]: executing diffoscope
+[2023-04-20 12:32:28] INFO root fetch - processPackages [iqm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqm-client-9.7.tar.gz tmp/iqm-client-9.8.tar.gz --markdown 20230420/i/iqm-client/9.7-9.8/diff.md --exclude *.pyd
+[2023-04-20 12:32:28] INFO root fetch - main [MainThread]: End processing [sqlstrings]: success
+[2023-04-20 12:32:28] INFO root fetch - main [MainThread]: End processing [dxnesici]: success
+[2023-04-20 12:32:29] INFO root fetch - main [MainThread]: End processing [starbug2]: success
+[2023-04-20 12:32:29] INFO root fetch - main [MainThread]: End processing [bovine]: success
+[2023-04-20 12:32:29] INFO root fetch - main [MainThread]: End processing [trigger-count]: success
+[2023-04-20 12:32:30] INFO root fetch - main [MainThread]: End processing [iqm-client]: success
+[2023-04-20 12:32:30] INFO root fetch - main [MainThread]: Store serial: [17785649]
