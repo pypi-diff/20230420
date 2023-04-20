@@ -14264,3 +14264,129 @@ EOFError: EOF read where object expected
 [2023-04-20 12:32:29] INFO root fetch - main [MainThread]: End processing [trigger-count]: success
 [2023-04-20 12:32:30] INFO root fetch - main [MainThread]: End processing [iqm-client]: success
 [2023-04-20 12:32:30] INFO root fetch - main [MainThread]: Store serial: [17785649]
+[2023-04-20 12:37:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17785649]
+[2023-04-20 12:37:39] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-20 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boutpp-nightly
+[2023-04-20 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clannotation
+[2023-04-20 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wicked-expressions
+[2023-04-20 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qcc-sign
+[2023-04-20 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RIFT
+[2023-04-20 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datayoga-core
+[2023-04-20 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NorconsultPiPythonDevelop
+[2023-04-20 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datayoga
+[2023-04-20 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: codebuild-ci
+[2023-04-20 12:37:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mobspy
+[2023-04-20 12:37:39] INFO root fetch - processPackages [clannotation]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 12:37:39] INFO root fetch - processPackages [wicked-expressions]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-04-20 12:37:39] WARNING root fetch - processPackages [qcc-sign]: Skipping, unable to determine old version
+[2023-04-20 12:37:39] INFO root fetch - processPackages [qcc-sign]: Start processing: autofaker
+[2023-04-20 12:37:39] INFO root fetch - main [MainThread]: End processing [qcc-sign] error
+[2023-04-20 12:37:39] INFO root fetch - processPackages [mobspy]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-20 12:37:39] INFO root fetch - processPackages [NorconsultPiPythonDevelop]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-04-20 12:37:39] INFO root fetch - processPackages [codebuild-ci]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-20 12:37:39] INFO root fetch - processPackages [boutpp-nightly]: New version: [5.1.0.dev85] Old Version: [5.1.0.dev78]
+[2023-04-20 12:37:39] INFO root fetch - processPackages [RIFT]: New version: [0.0.15.8rc9] Old Version: [0.0.15.8rc7]
+[2023-04-20 12:37:39] INFO root fetch - processPackages [autofaker]: New version: [1.0.14] Old Version: [1.0.12]
+[2023-04-20 12:37:39] INFO root fetch - processPackages [datayoga-core]: New version: [1.9.0] Old Version: [1.81.0]
+[2023-04-20 12:37:39] INFO root fetch - processPackages [datayoga]: New version: [1.9.0] Old Version: [1.81.0]
+[2023-04-20 12:37:39] INFO root fetch - processPackages [boutpp-nightly]: Downloading https://files.pythonhosted.org/packages/f7/24/da3bf6b52afe0b0d220889327b8406b9fa5c3226589eddd26fc9590b1844/boutpp-nightly-5.1.0.dev78.tar.gz
+[2023-04-20 12:37:39] WARNING root fetch - processPackages [boutpp-nightly]: Skipping package: exceeds size limit 18054878>=10485760
+[2023-04-20 12:37:39] INFO root fetch - processPackages [boutpp-nightly]: Start processing: boutpp-nightly
+[2023-04-20 12:37:39] INFO root fetch - main [MainThread]: End processing [boutpp-nightly] error
+[2023-04-20 12:37:39] INFO root fetch - processPackages [clannotation]: Downloading https://files.pythonhosted.org/packages/70/ad/13fbdd68146e719c16708cbaf1a85ba9e2202d2495c540bb1470b3f8f6bb/clannotation-0.0.1.tar.gz
+[2023-04-20 12:37:39] INFO root fetch - processPackages [codebuild-ci]: Downloading https://files.pythonhosted.org/packages/53/39/a179cbbd712c39101f6479e130784f58a9e431c3202fdb8eeed56f14915e/codebuild_ci-0.1.0.tar.gz
+[2023-04-20 12:37:39] INFO root fetch - processPackages [boutpp-nightly]: New version: [5.1.0.dev92] Old Version: [5.1.0.dev85]
+[2023-04-20 12:37:39] INFO root fetch - processPackages [datayoga]: Downloading https://files.pythonhosted.org/packages/1b/b0/3c2ae1011bfa357ad08682ff96bf0359bc7e76fe58ad535e375cb25a900c/datayoga-1.81.0.tar.gz
+[2023-04-20 12:37:39] INFO root fetch - processPackages [datayoga-core]: Downloading https://files.pythonhosted.org/packages/87/13/7354783d1c2f97d358d1b7f07a2ee6d38b8e6b6b542be292f70839ff0b5e/datayoga_core-1.81.0.tar.gz
+[2023-04-20 12:37:39] INFO root fetch - processPackages [wicked-expressions]: Downloading https://files.pythonhosted.org/packages/c0/9e/7853fe83a807c45a6e8c64e147eea5cedd1a1b20840d1e5cacd877e7657b/wicked_expressions-0.4.4.tar.gz
+[2023-04-20 12:37:39] INFO root fetch - processPackages [mobspy]: Downloading https://files.pythonhosted.org/packages/ea/fc/389bb58d5e87294ec724c28456a3b9be8d59b375f90494797fec4422e4a9/mobspy-2.0.2.tar.gz
+[2023-04-20 12:37:39] INFO root fetch - processPackages [NorconsultPiPythonDevelop]: Downloading https://files.pythonhosted.org/packages/64/e7/aed021b119ae3600e5ed64ce2efbde591219d05112f0167a86c06fa3e7b8/NorconsultPiPythonDevelop-1.0.9-py3-none-any.whl
+[2023-04-20 12:37:39] INFO root fetch - processPackages [autofaker]: Downloading https://files.pythonhosted.org/packages/25/4f/bce7247914fcbe004a68ee590fc9000b46fb36928420cf754f8280073d36/autofaker-1.0.12.tar.gz
+[2023-04-20 12:37:39] INFO root fetch - processPackages [boutpp-nightly]: Downloading https://files.pythonhosted.org/packages/73/a9/9cc7953b7296dc2186e264110eb99289b322a6fe1bd580d96fbab537b32e/boutpp-nightly-5.1.0.dev85.tar.gz
+[2023-04-20 12:37:39] INFO root fetch - processPackages [RIFT]: Downloading https://files.pythonhosted.org/packages/69/18/86670e626c86d62cd95a6c51d963e54f59ba3cc207b7b54e83542ede13fa/RIFT-0.0.15.8rc9.tar.gz
+[2023-04-20 12:37:39] WARNING root fetch - processPackages [boutpp-nightly]: Skipping package: exceeds size limit 18056684>=10485760
+[2023-04-20 12:37:39] INFO root fetch - processPackages [boutpp-nightly]: Start processing: robotframework-robocop
+[2023-04-20 12:37:39] INFO root fetch - main [MainThread]: End processing [boutpp-nightly] error
+[2023-04-20 12:37:39] INFO root fetch - processPackages [mobspy]: executing diffoscope
+[2023-04-20 12:37:39] INFO root fetch - processPackages [mobspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobspy-2.0.1.tar.gz tmp/mobspy-2.0.2.tar.gz --markdown 20230420/m/mobspy/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-20 12:37:39] INFO root fetch - processPackages [robotframework-robocop]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-04-20 12:37:39] INFO root fetch - processPackages [wicked-expressions]: Downloading https://files.pythonhosted.org/packages/54/c0/796f92a3405ddeeb9714f3f0ca18d18e0ba33320d427b1ff41295a8bf392/wicked_expressions-0.5.0.tar.gz
+[2023-04-20 12:37:39] INFO root fetch - processPackages [clannotation]: Downloading https://files.pythonhosted.org/packages/c2/a6/71a99551ae24d3969101ddb576331904749dd3a3438151a4ab7811ad5585/clannotation-0.0.2.tar.gz
+[2023-04-20 12:37:39] INFO root fetch - processPackages [codebuild-ci]: Downloading https://files.pythonhosted.org/packages/b8/aa/cccd1395f8647dda6c1059ab457e57b6c10a40c288d84ce2508842f3d7e4/codebuild_ci-0.2.0.tar.gz
+[2023-04-20 12:37:39] INFO root fetch - processPackages [autofaker]: Downloading https://files.pythonhosted.org/packages/bd/6a/5f88e28b4668c5516c238281f78f1f682d26297c1ff4db9b1d13e1069ad8/autofaker-1.0.14.tar.gz
+[2023-04-20 12:37:39] INFO root fetch - processPackages [datayoga]: Downloading https://files.pythonhosted.org/packages/2d/37/01977557580693bc06b316a396f1b34bdd6f8352df2bf0db283690e2292b/datayoga-1.9.0.tar.gz
+[2023-04-20 12:37:40] INFO root fetch - processPackages [NorconsultPiPythonDevelop]: Downloading https://files.pythonhosted.org/packages/62/8a/f7a7eb884e668591dbb8998e6a2e503dce6f60ec2da1b2479b19f4d400a6/NorconsultPiPythonDevelop-1.1.0-py3-none-any.whl
+[2023-04-20 12:37:40] INFO root fetch - processPackages [RIFT]: executing diffoscope
+[2023-04-20 12:37:40] INFO root fetch - processPackages [RIFT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RIFT-0.0.15.8rc7.tar.gz tmp/RIFT-0.0.15.8rc9.tar.gz --markdown 20230420/R/RIFT/0.0.15.8rc7-0.0.15.8rc9/diff.md --exclude *.pyd
+[2023-04-20 12:37:40] INFO root fetch - processPackages [datayoga-core]: Downloading https://files.pythonhosted.org/packages/c4/c3/5f207c438bbc89672565e2c01d8d647056616369d2a41dec1dde69c7068a/datayoga_core-1.9.0.tar.gz
+[2023-04-20 12:37:40] INFO root fetch - processPackages [wicked-expressions]: executing diffoscope
+[2023-04-20 12:37:40] INFO root fetch - processPackages [wicked-expressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wicked_expressions-0.4.4.tar.gz tmp/wicked_expressions-0.5.0.tar.gz --markdown 20230420/w/wicked-expressions/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-04-20 12:37:40] INFO root fetch - processPackages [clannotation]: executing diffoscope
+[2023-04-20 12:37:40] INFO root fetch - processPackages [clannotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clannotation-0.0.1.tar.gz tmp/clannotation-0.0.2.tar.gz --markdown 20230420/c/clannotation/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 12:37:40] INFO root fetch - processPackages [codebuild-ci]: executing diffoscope
+[2023-04-20 12:37:40] INFO root fetch - processPackages [codebuild-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codebuild_ci-0.1.0.tar.gz tmp/codebuild_ci-0.2.0.tar.gz --markdown 20230420/c/codebuild-ci/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 12:37:40] INFO root fetch - processPackages [autofaker]: executing diffoscope
+[2023-04-20 12:37:40] INFO root fetch - processPackages [autofaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofaker-1.0.12.tar.gz tmp/autofaker-1.0.14.tar.gz --markdown 20230420/a/autofaker/1.0.12-1.0.14/diff.md --exclude *.pyd
+[2023-04-20 12:37:40] INFO root fetch - processPackages [NorconsultPiPythonDevelop]: executing diffoscope
+[2023-04-20 12:37:40] INFO root fetch - processPackages [NorconsultPiPythonDevelop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NorconsultPiPythonDevelop-1.0.9-py3-none-any.whl.zip tmp/NorconsultPiPythonDevelop-1.1.0-py3-none-any.whl.zip --markdown 20230420/N/NorconsultPiPythonDevelop/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-04-20 12:37:40] INFO root fetch - processPackages [robotframework-robocop]: Downloading https://files.pythonhosted.org/packages/f7/19/5781f3369e7fec113e717062d7113acc86b1c161b7b673be0741fed09dc1/robotframework-robocop-3.1.1.tar.gz
+[2023-04-20 12:37:40] INFO root fetch - processPackages [datayoga]: executing diffoscope
+[2023-04-20 12:37:40] INFO root fetch - processPackages [datayoga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datayoga-1.81.0.tar.gz tmp/datayoga-1.9.0.tar.gz --markdown 20230420/d/datayoga/1.81.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 12:37:40] INFO root fetch - processPackages [robotframework-robocop]: executing diffoscope
+[2023-04-20 12:37:40] INFO root fetch - processPackages [robotframework-robocop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-robocop-3.1.0.tar.gz tmp/robotframework-robocop-3.1.1.tar.gz --markdown 20230420/r/robotframework-robocop/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-04-20 12:37:40] INFO root fetch - processPackages [datayoga-core]: executing diffoscope
+[2023-04-20 12:37:40] INFO root fetch - processPackages [datayoga-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datayoga_core-1.81.0.tar.gz tmp/datayoga_core-1.9.0.tar.gz --markdown 20230420/d/datayoga-core/1.81.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 12:37:41] INFO root fetch - processPackages [codebuild-ci]: Start processing: opencage
+[2023-04-20 12:37:41] INFO root fetch - main [MainThread]: End processing [codebuild-ci]: success
+[2023-04-20 12:37:41] INFO root fetch - processPackages [opencage]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-04-20 12:37:41] INFO root fetch - processPackages [NorconsultPiPythonDevelop]: Start processing: odoo-addon-ddmrp-history
+[2023-04-20 12:37:41] INFO root fetch - main [MainThread]: End processing [NorconsultPiPythonDevelop]: success
+[2023-04-20 12:37:41] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: New version: [15.0.1.0.2] Old Version: [15.0.1.0.1]
+[2023-04-20 12:37:41] INFO root fetch - processPackages [opencage]: Downloading https://files.pythonhosted.org/packages/9f/13/52582c31e9f35085452b7eab8ab7f759b5efda956158d1888d57400f91cd/opencage-2.1.0.tar.gz
+[2023-04-20 12:37:41] INFO root fetch - processPackages [wicked-expressions]: Start processing: unicodeitplus
+[2023-04-20 12:37:41] INFO root fetch - main [MainThread]: End processing [wicked-expressions]: success
+[2023-04-20 12:37:41] INFO root fetch - processPackages [unicodeitplus]: New version: [0.1.0rc6] Old Version: [0.1.0rc3]
+[2023-04-20 12:37:41] INFO root fetch - processPackages [autofaker]: Start processing: hyfi
+[2023-04-20 12:37:41] INFO root fetch - main [MainThread]: End processing [autofaker]: success
+[2023-04-20 12:37:41] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/7f/3c/11c61fa6783734f76712901f7f74b7c3cfcd5e23066b89c9162b381cb149/odoo_addon_ddmrp_history-15.0.1.0.1-py3-none-any.whl
+[2023-04-20 12:37:41] INFO root fetch - processPackages [hyfi]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-20 12:37:41] INFO root fetch - processPackages [datayoga]: Start processing: dune-harmonizer
+[2023-04-20 12:37:41] INFO root fetch - main [MainThread]: End processing [datayoga]: success
+[2023-04-20 12:37:41] INFO root fetch - processPackages [clannotation]: Start processing: python-whitebit-sdk
+[2023-04-20 12:37:41] INFO root fetch - main [MainThread]: End processing [clannotation]: success
+[2023-04-20 12:37:41] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-20 12:37:41] WARNING root fetch - processPackages [python-whitebit-sdk]: Skipping, unable to determine old version
+[2023-04-20 12:37:41] INFO root fetch - processPackages [python-whitebit-sdk]: Start processing: ombot-utils
+[2023-04-20 12:37:41] INFO root fetch - main [MainThread]: End processing [python-whitebit-sdk] error
+[2023-04-20 12:37:41] WARNING root fetch - processPackages [ombot-utils]: Skipping, unable to determine old version
+[2023-04-20 12:37:41] INFO root fetch - processPackages [ombot-utils]: Start processing: digocli
+[2023-04-20 12:37:41] INFO root fetch - main [MainThread]: End processing [ombot-utils] error
+[2023-04-20 12:37:41] INFO root fetch - processPackages [unicodeitplus]: Downloading https://files.pythonhosted.org/packages/42/b5/7dfe2a04125b888af82919eb04e4978b8682e6e61a8011f86131b765f5c4/unicodeitplus-0.1.0rc3.tar.gz
+[2023-04-20 12:37:41] WARNING root fetch - processPackages [digocli]: Skipping, unable to determine old version
+[2023-04-20 12:37:41] INFO root fetch - main [MainThread]: End processing [digocli] error
+[2023-04-20 12:37:41] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/11/b1/4449ff3bf9044764e339706e9c047501ad620bb6a53a7360d6cfefa552bc/hyfi-0.2.4.tar.gz
+[2023-04-20 12:37:42] INFO root fetch - processPackages [opencage]: Downloading https://files.pythonhosted.org/packages/49/fb/2c9a1c04226e6fdc98aa06e9304f2e4173d006d3f1d73729747256a2efb3/opencage-2.1.1.tar.gz
+[2023-04-20 12:37:42] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/36/c5/90d597c27101aa0b18908e891d106d6e9b08e2aa88a0a82f9ee53de842ff/odoo_addon_ddmrp_history-15.0.1.0.2-py3-none-any.whl
+[2023-04-20 12:37:42] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/80/56/0ef30ca2c365bbac80561c94b421ac7a8ecc301fa7bb4f7536579f096e58/dune_harmonizer-0.4.0.tar.gz
+[2023-04-20 12:37:42] INFO root fetch - processPackages [opencage]: executing diffoscope
+[2023-04-20 12:37:42] INFO root fetch - processPackages [opencage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencage-2.1.0.tar.gz tmp/opencage-2.1.1.tar.gz --markdown 20230420/o/opencage/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-20 12:37:42] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/50/83/8ebc0cdda5d280cb41096a3b871849279c60aebc333c1383b5bf12573dca/hyfi-0.2.5.tar.gz
+[2023-04-20 12:37:42] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: executing diffoscope
+[2023-04-20 12:37:42] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_history-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_history-15.0.1.0.2-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-ddmrp-history/15.0.1.0.1-15.0.1.0.2/diff.md --exclude *.pyd
+[2023-04-20 12:37:42] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-04-20 12:37:42] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.3.0.tar.gz tmp/dune_harmonizer-0.4.0.tar.gz --markdown 20230420/d/dune-harmonizer/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-20 12:37:42] INFO root fetch - processPackages [unicodeitplus]: Downloading https://files.pythonhosted.org/packages/47/47/a3a4ff0016c329ac7b36a2b5a182001e228e1c25b9750641ee3e7b92bc01/unicodeitplus-0.1.0rc6.tar.gz
+[2023-04-20 12:37:42] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-04-20 12:37:42] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.2.4.tar.gz tmp/hyfi-0.2.5.tar.gz --markdown 20230420/h/hyfi/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-20 12:37:42] INFO root fetch - processPackages [unicodeitplus]: executing diffoscope
+[2023-04-20 12:37:42] INFO root fetch - processPackages [unicodeitplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicodeitplus-0.1.0rc3.tar.gz tmp/unicodeitplus-0.1.0rc6.tar.gz --markdown 20230420/u/unicodeitplus/0.1.0rc3-0.1.0rc6/diff.md --exclude *.pyd
+[2023-04-20 12:37:42] INFO root fetch - main [MainThread]: End processing [mobspy]: success
+[2023-04-20 12:37:43] INFO root fetch - main [MainThread]: End processing [robotframework-robocop]: success
+[2023-04-20 12:37:43] INFO root fetch - main [MainThread]: End processing [datayoga-core]: success
+[2023-04-20 12:37:43] INFO root fetch - main [MainThread]: End processing [opencage]: success
+[2023-04-20 12:37:43] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-04-20 12:37:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-history]: success
+[2023-04-20 12:37:43] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-04-20 12:37:44] INFO root fetch - main [MainThread]: End processing [unicodeitplus]: success
+[2023-04-20 12:37:45] INFO root fetch - main [MainThread]: End processing [RIFT]: success
+[2023-04-20 12:37:45] INFO root fetch - main [MainThread]: Store serial: [17785729]
