@@ -6024,3 +6024,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 03:56:00] INFO root fetch - main [MainThread]: End processing [trailwatch]: success
 [2023-04-20 03:56:01] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
 [2023-04-20 03:56:01] INFO root fetch - main [MainThread]: Store serial: [17781040]
+[2023-04-20 04:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781040]
+[2023-04-20 04:01:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-20 04:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl
+[2023-04-20 04:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otoole
+[2023-04-20 04:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dqrobotics
+[2023-04-20 04:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-appointment
+[2023-04-20 04:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-dx-review
+[2023-04-20 04:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mekartify
+[2023-04-20 04:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mythic-container
+[2023-04-20 04:01:09] INFO root fetch - processPackages [bigdl]: New version: [2.3.0b20230420] Old Version: [2.3.0b20230418]
+[2023-04-20 04:01:09] INFO root fetch - processPackages [mythic-container]: New version: [0.2.0rc9] Old Version: [0.2.0rc8]
+[2023-04-20 04:01:09] INFO root fetch - processPackages [otoole]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-20 04:01:09] WARNING root fetch - processPackages [mekartify]: Skipping, unable to determine old version
+[2023-04-20 04:01:09] INFO root fetch - main [MainThread]: End processing [mekartify] error
+[2023-04-20 04:01:09] INFO root fetch - processPackages [edc-dx-review]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 04:01:09] INFO root fetch - processPackages [edc-appointment]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-20 04:01:09] INFO root fetch - processPackages [dqrobotics]: New version: [23.4.0a4] Old Version: [23.4.0a3]
+[2023-04-20 04:01:10] INFO root fetch - processPackages [edc-dx-review]: executing diffoscope
+[2023-04-20 04:01:10] INFO root fetch - processPackages [edc-dx-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_dx_review-0.1.8-py3-none-any.whl.zip tmp/edc-dx-review-0.1.9.tar.gz --markdown 20230420/e/edc-dx-review/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 04:01:10] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/65/f6/f1d64f7b271eb470129fb815b0c0f2933efa233d3bd2970228fcba3ad4cc/mythic_container-0.2.0rc8.tar.gz
+[2023-04-20 04:01:10] INFO root fetch - processPackages [dqrobotics]: Downloading https://files.pythonhosted.org/packages/3e/15/d9685c20c7adee196713bb424409d0f73bc4e161adfdeecf02aafdbea317/dqrobotics-23.4.0a3-cp39-cp39-win_amd64.whl
+[2023-04-20 04:01:10] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/d8/88/da93cb674282911abc8b965ce09d5093c140637623108328c4c2786e7921/bigdl-2.3.0b20230420-py3-none-manylinux1_x86_64.whl
+[2023-04-20 04:01:10] INFO root fetch - processPackages [otoole]: Downloading https://files.pythonhosted.org/packages/00/69/13d8f352a8d15b839628a208f7e7b83842e743b1e0d2da8d38046bfeb01c/otoole-1.0.0.tar.gz
+[2023-04-20 04:01:10] INFO root fetch - processPackages [edc-appointment]: executing diffoscope
+[2023-04-20 04:01:10] INFO root fetch - processPackages [edc-appointment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_appointment-0.3.8-py3-none-any.whl.zip tmp/edc_appointment-0.3.9-py3-none-any.whl.zip --markdown 20230420/e/edc-appointment/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-20 04:01:10] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-04-20 04:01:10] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.3.0b20230418-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.3.0b20230420-py3-none-manylinux1_x86_64.whl.zip --markdown 20230420/b/bigdl/2.3.0b20230418-2.3.0b20230420/diff.md --exclude *.pyd
+[2023-04-20 04:01:10] INFO root fetch - processPackages [dqrobotics]: Downloading https://files.pythonhosted.org/packages/48/70/3af2e278b793e44fdb275410586bc4fac9b1869283b0cdfed5275664d359/dqrobotics-23.4.0a4-cp38-cp38-macosx_13_0_arm64.whl
+[2023-04-20 04:01:10] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/28/7f/259e0a4de4cda5ffb27d71a7f1779831112d43816fd0648971b8e3d16dab/mythic_container-0.2.0rc9.tar.gz
+[2023-04-20 04:01:10] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2023-04-20 04:01:10] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.2.0rc8.tar.gz tmp/mythic_container-0.2.0rc9.tar.gz --markdown 20230420/m/mythic-container/0.2.0rc8-0.2.0rc9/diff.md --exclude *.pyd
+[2023-04-20 04:01:10] INFO root fetch - processPackages [otoole]: Downloading https://files.pythonhosted.org/packages/7a/30/33f1d43e8aba0bfe71ad3cba0543440870cacf0b9803c0f0551d7ae6d305/otoole-1.0.1.tar.gz
+[2023-04-20 04:01:10] INFO root fetch - processPackages [dqrobotics]: executing diffoscope
+[2023-04-20 04:01:10] INFO root fetch - processPackages [dqrobotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqrobotics-23.4.0a3-cp39-cp39-win_amd64.whl.zip tmp/dqrobotics-23.4.0a4-cp38-cp38-macosx_13_0_arm64.whl.zip --markdown 20230420/d/dqrobotics/23.4.0a3-23.4.0a4/diff.md --exclude *.pyd
+[2023-04-20 04:01:10] INFO root fetch - processPackages [otoole]: executing diffoscope
+[2023-04-20 04:01:10] INFO root fetch - processPackages [otoole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoole-1.0.0.tar.gz tmp/otoole-1.0.1.tar.gz --markdown 20230420/o/otoole/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-20 04:01:11] INFO root fetch - main [MainThread]: End processing [edc-dx-review]: success
+[2023-04-20 04:01:11] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-04-20 04:01:11] INFO root fetch - main [MainThread]: End processing [edc-appointment]: success
+[2023-04-20 04:01:11] INFO root fetch - main [MainThread]: End processing [dqrobotics]: success
+[2023-04-20 04:01:12] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2023-04-20 04:01:12] INFO root fetch - main [MainThread]: End processing [otoole]: success
+[2023-04-20 04:01:12] INFO root fetch - main [MainThread]: Store serial: [17781066]
