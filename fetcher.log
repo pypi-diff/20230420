@@ -6204,3 +6204,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 04:12:22] INFO root fetch - main [MainThread]: End processing [gpt2ppl-zh]: success
 [2023-04-20 04:12:34] INFO root fetch - main [MainThread]: End processing [ac-websocket-server]: success
 [2023-04-20 04:12:34] INFO root fetch - main [MainThread]: Store serial: [17781169]
+[2023-04-20 04:17:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781169]
+[2023-04-20 04:17:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-20 04:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scimap
+[2023-04-20 04:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowflake-ice-pick
+[2023-04-20 04:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odroid-wiringpi
+[2023-04-20 04:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: influential
+[2023-04-20 04:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-gpt-plugin-template
+[2023-04-20 04:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylovelace.kernel
+[2023-04-20 04:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: higlass-python
+[2023-04-20 04:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simple-flask-restful
+[2023-04-20 04:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bsl-appcli
+[2023-04-20 04:17:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tags-generator
+[2023-04-20 04:17:43] INFO root fetch - processPackages [scimap]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-04-20 04:17:43] INFO root fetch - processPackages [pylovelace.kernel]: New version: [2023.1.5] Old Version: [2023.1.4]
+[2023-04-20 04:17:43] INFO root fetch - processPackages [auto-gpt-plugin-template]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 04:17:43] INFO root fetch - processPackages [snowflake-ice-pick]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-20 04:17:43] INFO root fetch - processPackages [odroid-wiringpi]: New version: [3.8] Old Version: [3.7]
+[2023-04-20 04:17:43] INFO root fetch - processPackages [influential]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 04:17:43] INFO root fetch - processPackages [higlass-python]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-04-20 04:17:43] INFO root fetch - processPackages [bsl-appcli]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-20 04:17:43] INFO root fetch - processPackages [simple-flask-restful]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-20 04:17:43] WARNING root fetch - processPackages [tags-generator]: Skipping, unable to determine old version
+[2023-04-20 04:17:43] INFO root fetch - processPackages [tags-generator]: Start processing: neon-speech
+[2023-04-20 04:17:43] INFO root fetch - main [MainThread]: End processing [tags-generator] error
+[2023-04-20 04:17:43] INFO root fetch - processPackages [neon-speech]: New version: [3.2.2a5] Old Version: [3.2.2a4]
+[2023-04-20 04:17:43] INFO root fetch - processPackages [auto-gpt-plugin-template]: Downloading https://files.pythonhosted.org/packages/96/05/39cb407ff9560290f9079b96f4465bfc17d76d025356b9b0f7fb9602e53b/auto_gpt_plugin_template-0.0.1.tar.gz
+[2023-04-20 04:17:43] INFO root fetch - processPackages [snowflake-ice-pick]: Downloading https://files.pythonhosted.org/packages/59/02/c782cbb3bc3d6cf50e10b46e122f6e4c871a7aba312f1b277b72a44698ef/snowflake_ice_pick-0.0.1.tar.gz
+[2023-04-20 04:17:43] INFO root fetch - processPackages [pylovelace.kernel]: Downloading https://files.pythonhosted.org/packages/9b/f4/1cd6a7663f897e0d6fb2efeb419779d5d8409905d2a67970a1e9f8e9fdf9/pylovelace.kernel-2023.1.5-cp312-none-any.whl
+[2023-04-20 04:17:43] INFO root fetch - processPackages [influential]: Downloading https://files.pythonhosted.org/packages/2c/a0/1f2675da6517e6196d2b487aeb20917900897d357f2f9852897bc78c4e4e/influential-0.0.1.tar.gz
+[2023-04-20 04:17:43] INFO root fetch - processPackages [odroid-wiringpi]: Downloading https://files.pythonhosted.org/packages/4b/60/6e13fa275810dc1f2f74acc802c3f1eb435b34fe38154e35474579f313a5/odroid_wiringpi-3.7.tar.gz
+[2023-04-20 04:17:43] INFO root fetch - processPackages [higlass-python]: Downloading https://files.pythonhosted.org/packages/42/de/d98aab415fab2f8ddc504da6b71184490665bc3969a1c6c94fe0db7e0ef7/higlass_python-1.0.0rc1.tar.gz
+[2023-04-20 04:17:43] INFO root fetch - processPackages [bsl-appcli]: executing diffoscope
+[2023-04-20 04:17:43] INFO root fetch - processPackages [bsl-appcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsl-appcli-1.4.0.tar.gz tmp/bsl-appcli-1.5.0.tar.gz --markdown 20230420/b/bsl-appcli/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-20 04:17:43] INFO root fetch - processPackages [neon-speech]: executing diffoscope
+[2023-04-20 04:17:43] INFO root fetch - processPackages [neon-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_speech-3.2.2a4-py3-none-any.whl.zip tmp/neon_speech-3.2.2a5-py3-none-any.whl.zip --markdown 20230420/n/neon-speech/3.2.2a4-3.2.2a5/diff.md --exclude *.pyd
+[2023-04-20 04:17:43] INFO root fetch - processPackages [scimap]: Downloading https://files.pythonhosted.org/packages/45/7b/792c7d868d130a66d4100546727a05e6ff4d753d40c6d1d05a6852ca890b/scimap-1.0.0.tar.gz
+[2023-04-20 04:17:43] INFO root fetch - processPackages [pylovelace.kernel]: executing diffoscope
+[2023-04-20 04:17:43] INFO root fetch - processPackages [pylovelace.kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylovelace.kernel-2023.1.4-cp312-none-any.whl.zip tmp/pylovelace.kernel-2023.1.5-cp312-none-any.whl.zip --markdown 20230420/p/pylovelace.kernel/2023.1.4-2023.1.5/diff.md --exclude *.pyd
+[2023-04-20 04:17:43] INFO root fetch - processPackages [auto-gpt-plugin-template]: Downloading https://files.pythonhosted.org/packages/69/27/fb25917fb6192338842c9b163c868998fffb3934f6e2b8401670f9e04f39/auto_gpt_plugin_template-0.0.2.tar.gz
+[2023-04-20 04:17:43] INFO root fetch - processPackages [simple-flask-restful]: Downloading https://files.pythonhosted.org/packages/a2/1f/acd809406b29c7cea4d5c77bd7e9e725611da40faa965d1176001a93e7d6/simple_flask_restful-0.3.0.tar.gz
+[2023-04-20 04:17:44] INFO root fetch - processPackages [influential]: Downloading https://files.pythonhosted.org/packages/92/48/a775a386d86b3ce071437fdc8b941f7aa84a4a3070740c648ab01f7f5927/influential-0.0.2.tar.gz
+[2023-04-20 04:17:44] INFO root fetch - processPackages [snowflake-ice-pick]: Downloading https://files.pythonhosted.org/packages/da/33/71530adee84049f7536d9f1ae464ca381bd37e493d6f24b7d24e9ef32a96/snowflake_ice_pick-0.0.3.tar.gz
+[2023-04-20 04:17:44] INFO root fetch - processPackages [auto-gpt-plugin-template]: executing diffoscope
+[2023-04-20 04:17:44] INFO root fetch - processPackages [auto-gpt-plugin-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_gpt_plugin_template-0.0.1.tar.gz tmp/auto_gpt_plugin_template-0.0.2.tar.gz --markdown 20230420/a/auto-gpt-plugin-template/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 04:17:44] INFO root fetch - processPackages [simple-flask-restful]: executing diffoscope
+[2023-04-20 04:17:44] INFO root fetch - processPackages [simple-flask-restful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_flask_restful-0.2.0.tar.gz tmp/simple_flask_restful-0.3.0.tar.gz --markdown 20230420/s/simple-flask-restful/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 04:17:44] INFO root fetch - processPackages [influential]: executing diffoscope
+[2023-04-20 04:17:44] INFO root fetch - processPackages [influential]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influential-0.0.1.tar.gz tmp/influential-0.0.2.tar.gz --markdown 20230420/i/influential/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 04:17:44] INFO root fetch - processPackages [snowflake-ice-pick]: executing diffoscope
+[2023-04-20 04:17:44] INFO root fetch - processPackages [snowflake-ice-pick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_ice_pick-0.0.1.tar.gz tmp/snowflake_ice_pick-0.0.3.tar.gz --markdown 20230420/s/snowflake-ice-pick/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 04:17:44] INFO root fetch - processPackages [scimap]: executing diffoscope
+[2023-04-20 04:17:44] INFO root fetch - processPackages [scimap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scimap-0.9.9.tar.gz tmp/scimap-1.0.0.tar.gz --markdown 20230420/s/scimap/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-20 04:17:44] INFO root fetch - processPackages [odroid-wiringpi]: Downloading https://files.pythonhosted.org/packages/54/28/3fd4b96f475f4f81d454bdda83cefd8709e295c23c38cfda7771ba61a54a/odroid_wiringpi-3.8.tar.gz
+[2023-04-20 04:17:44] INFO root fetch - processPackages [higlass-python]: Downloading https://files.pythonhosted.org/packages/07/ba/490abb4dbb79f78c7fd5728d59650cc1b3c7753c9c839de4801c594d1892/higlass_python-1.0.0rc2.tar.gz
+[2023-04-20 04:17:44] INFO root fetch - processPackages [higlass-python]: executing diffoscope
+[2023-04-20 04:17:44] INFO root fetch - processPackages [higlass-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/higlass_python-1.0.0rc1.tar.gz tmp/higlass_python-1.0.0rc2.tar.gz --markdown 20230420/h/higlass-python/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-04-20 04:17:44] INFO root fetch - processPackages [odroid-wiringpi]: executing diffoscope
+[2023-04-20 04:17:44] INFO root fetch - processPackages [odroid-wiringpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odroid_wiringpi-3.7.tar.gz tmp/odroid_wiringpi-3.8.tar.gz --markdown 20230420/o/odroid-wiringpi/3.7-3.8/diff.md --exclude *.pyd
+[2023-04-20 04:17:45] INFO root fetch - processPackages [neon-speech]: Start processing: deampy
+[2023-04-20 04:17:45] INFO root fetch - main [MainThread]: End processing [neon-speech]: success
+[2023-04-20 04:17:45] INFO root fetch - main [MainThread]: End processing [pylovelace.kernel]: success
+[2023-04-20 04:17:45] INFO root fetch - processPackages [deampy]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-20 04:17:45] INFO root fetch - main [MainThread]: End processing [auto-gpt-plugin-template]: success
+[2023-04-20 04:17:45] INFO root fetch - main [MainThread]: End processing [simple-flask-restful]: success
+[2023-04-20 04:17:45] INFO root fetch - processPackages [deampy]: Downloading https://files.pythonhosted.org/packages/dc/ee/a5cc04ca67378048c1bb4869098f115283a6fc5e5e796433d8c05a5e79cb/deampy-1.3.2.tar.gz
+[2023-04-20 04:17:45] INFO root fetch - main [MainThread]: End processing [bsl-appcli]: success
+[2023-04-20 04:17:45] INFO root fetch - main [MainThread]: End processing [influential]: success
+[2023-04-20 04:17:45] INFO root fetch - processPackages [deampy]: executing diffoscope
+[2023-04-20 04:17:45] INFO root fetch - processPackages [deampy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deampy-1.3.1.tar.gz tmp/deampy-1.3.2.tar.gz --markdown 20230420/d/deampy/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-20 04:17:45] INFO root fetch - main [MainThread]: End processing [snowflake-ice-pick]: success
+[2023-04-20 04:17:46] INFO root fetch - main [MainThread]: End processing [higlass-python]: success
+[2023-04-20 04:17:46] INFO root fetch - main [MainThread]: End processing [odroid-wiringpi]: success
+[2023-04-20 04:17:47] INFO root fetch - main [MainThread]: End processing [deampy]: success
+[2023-04-20 04:17:48] INFO root fetch - main [MainThread]: End processing [scimap]: success
+[2023-04-20 04:17:48] INFO root fetch - main [MainThread]: Store serial: [17781208]
