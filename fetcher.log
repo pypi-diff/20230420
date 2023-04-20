@@ -9190,3 +9190,135 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 08:50:59] INFO root fetch - main [MainThread]: End processing [python-keycloak-async]: success
 [2023-04-20 08:51:00] INFO root fetch - main [MainThread]: End processing [img2table]: success
 [2023-04-20 08:51:00] INFO root fetch - main [MainThread]: Store serial: [17783033]
+[2023-04-20 08:56:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783033]
+[2023-04-20 08:56:09] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-20 08:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-sale-restricted-qty
+[2023-04-20 08:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snps
+[2023-04-20 08:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickmpc
+[2023-04-20 08:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mixturemapping
+[2023-04-20 08:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-company-currency
+[2023-04-20 08:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-exception
+[2023-04-20 08:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SpiNNMachine
+[2023-04-20 08:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SpiNNMan
+[2023-04-20 08:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SpiNNaker-PACMAN
+[2023-04-20 08:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SpiNNaker-DataSpecification
+[2023-04-20 08:56:09] INFO root fetch - processPackages [odoo14-addon-sale-restricted-qty]: New version: [14.0.1.1.2.dev2] Old Version: [14.0.1.1.2.dev1]
+[2023-04-20 08:56:09] INFO root fetch - processPackages [mixturemapping]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-20 08:56:09] INFO root fetch - processPackages [SpiNNMachine]: New version: [3.0.0] Old Version: [2016.001]
+[2023-04-20 08:56:09] INFO root fetch - processPackages [SpiNNMan]: New version: [3.0.0] Old Version: [2016.001]
+[2023-04-20 08:56:09] INFO root fetch - processPackages [SpiNNaker-PACMAN]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-20 08:56:09] INFO root fetch - processPackages [quickmpc]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-20 08:56:09] INFO root fetch - processPackages [odoo-addon-sale-exception]: New version: [16.0.1.0.1.7] Old Version: [16.0.1.0.1.5]
+[2023-04-20 08:56:09] INFO root fetch - processPackages [odoo-addon-sale-company-currency]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-04-20 08:56:09] INFO root fetch - processPackages [SpiNNaker-DataSpecification]: New version: [3.0.0] Old Version: [2016.001]
+[2023-04-20 08:56:09] INFO root fetch - processPackages [snps]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNMan]: Downloading https://files.pythonhosted.org/packages/d9/01/80e4aa2d6cc27e1ed7d786602debba0e16ddeb263c855e868ecb32d7a62c/SpiNNMan-2016.001.zip
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNMachine]: Downloading https://files.pythonhosted.org/packages/dc/19/f75a7d8aecbdc3195225873467e04cceeddee799bf55f35fee163175d675/SpiNNMachine-2016.001.zip
+[2023-04-20 08:56:10] INFO root fetch - processPackages [mixturemapping]: Downloading https://files.pythonhosted.org/packages/8f/92/9a7429dba878167ee7546402a20ac17a42f6137f53b7293ac11a525578c8/mixturemapping-0.3.2-py39-none-any.whl
+[2023-04-20 08:56:10] INFO root fetch - processPackages [odoo14-addon-sale-restricted-qty]: Downloading https://files.pythonhosted.org/packages/87/4f/ba96fb5757ab166a1309b03e0d4b275bf6522513fabc89cc98114c931e34/odoo14_addon_sale_restricted_qty-14.0.1.1.2.dev1-py3-none-any.whl
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNaker-PACMAN]: Downloading https://files.pythonhosted.org/packages/ef/b5/b503fa9d3865403c4e40725346fe94950399635947b30b7a6f543d1a5469/SpiNNaker_PACMAN-3.0.0.zip
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNaker-DataSpecification]: Downloading https://files.pythonhosted.org/packages/c6/e9/cf1cf04e1d2dcbf04b9e74e56c32326766062762317fafddece559f481cf/SpiNNaker_DataSpecification-2016.001.zip
+[2023-04-20 08:56:10] INFO root fetch - processPackages [odoo-addon-sale-exception]: Downloading https://files.pythonhosted.org/packages/c5/90/902400b4bbe18dba0f9454f75e99a2c863fd3abaef25d4269af7e958cba5/odoo_addon_sale_exception-16.0.1.0.1.5-py3-none-any.whl
+[2023-04-20 08:56:10] INFO root fetch - processPackages [snps]: Downloading https://files.pythonhosted.org/packages/fb/a0/59420aa21c5b567f5ce9094bbd7813bb0ae02b461589eb19344cc403c9cf/snps-2.7.1.tar.gz
+[2023-04-20 08:56:10] INFO root fetch - processPackages [odoo-addon-sale-company-currency]: Downloading https://files.pythonhosted.org/packages/01/e8/42092dcc90f3a89ffc360987bcf55771ed780cfae8514be676ab6688f1c0/odoo_addon_sale_company_currency-16.0.1.0.0.3-py3-none-any.whl
+[2023-04-20 08:56:10] INFO root fetch - processPackages [mixturemapping]: executing diffoscope
+[2023-04-20 08:56:10] INFO root fetch - processPackages [mixturemapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixturemapping-0.3.1-py39-none-any.whl.zip tmp/mixturemapping-0.3.2-py39-none-any.whl.zip --markdown 20230420/m/mixturemapping/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-20 08:56:10] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/21/f0/931ba28f0bb2a10dba0144982221abc7f89329004e2f920e7773e6e31248/quickmpc-0.3.5.tar.gz
+[2023-04-20 08:56:10] INFO root fetch - processPackages [quickmpc]: executing diffoscope
+[2023-04-20 08:56:10] INFO root fetch - processPackages [quickmpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickmpc-0.3.4.tar.gz tmp/quickmpc-0.3.5.tar.gz --markdown 20230420/q/quickmpc/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-20 08:56:10] INFO root fetch - processPackages [odoo-addon-sale-company-currency]: Downloading https://files.pythonhosted.org/packages/2c/1c/5f0bc785999e68dfaea63b20eba217da7ceacc2079d32248c5a330e1b7b8/odoo_addon_sale_company_currency-16.0.1.0.0.4-py3-none-any.whl
+[2023-04-20 08:56:10] INFO root fetch - processPackages [odoo-addon-sale-exception]: Downloading https://files.pythonhosted.org/packages/cf/82/1f87e3d6963451861cdc9ee09d76cc14e998e75499338847975a536a7e97/odoo_addon_sale_exception-16.0.1.0.1.7-py3-none-any.whl
+[2023-04-20 08:56:10] INFO root fetch - processPackages [odoo-addon-sale-company-currency]: executing diffoscope
+[2023-04-20 08:56:10] INFO root fetch - processPackages [odoo-addon-sale-company-currency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_company_currency-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_company_currency-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-sale-company-currency/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-04-20 08:56:10] INFO root fetch - processPackages [odoo14-addon-sale-restricted-qty]: Downloading https://files.pythonhosted.org/packages/53/ff/af6712af2641e022d3606ee12a6efe67db524549b0ef4933176aa4b67456/odoo14_addon_sale_restricted_qty-14.0.1.1.2.dev2-py3-none-any.whl
+[2023-04-20 08:56:10] INFO root fetch - processPackages [odoo-addon-sale-exception]: executing diffoscope
+[2023-04-20 08:56:10] INFO root fetch - processPackages [odoo-addon-sale-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_exception-16.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_sale_exception-16.0.1.0.1.7-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-sale-exception/16.0.1.0.1.5-16.0.1.0.1.7/diff.md --exclude *.pyd
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNMachine]: Downloading https://files.pythonhosted.org/packages/2c/db/8ffd4e79c5e8b34a02af10dba648a15e35945256f6c500c27416d7486602/SpiNNMachine-3.0.0.zip
+[2023-04-20 08:56:10] INFO root fetch - processPackages [snps]: Downloading https://files.pythonhosted.org/packages/d8/8b/5fbb581adfeb5b97d7871291751b390be983e1eb685c97c2ee17dc9efeab/snps-2.7.2.tar.gz
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNMan]: Downloading https://files.pythonhosted.org/packages/fb/b1/b65deb49f73e94689da3824c6cb241a0b0a03264883404505b64d5927fd4/SpiNNMan-3.0.0.zip
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNaker-PACMAN]: Downloading https://files.pythonhosted.org/packages/e4/5b/efa91aa8cdee4fca32b79a73a79e2232f6926a4c579243ee2242b0592028/SpiNNaker_PACMAN-3.0.1.zip
+[2023-04-20 08:56:10] INFO root fetch - processPackages [snps]: executing diffoscope
+[2023-04-20 08:56:10] INFO root fetch - processPackages [snps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snps-2.7.1.tar.gz tmp/snps-2.7.2.tar.gz --markdown 20230420/s/snps/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNaker-DataSpecification]: Downloading https://files.pythonhosted.org/packages/00/cf/8241c4d669cd91ad129145ebb12a7a2145b593ce3c1aee0c60327568c247/SpiNNaker_DataSpecification-3.0.0.zip
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNMachine]: executing diffoscope
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNMachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNMachine-2016.001.zip tmp/SpiNNMachine-3.0.0.zip --markdown 20230420/S/SpiNNMachine/2016.001-3.0.0/diff.md --exclude *.pyd
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNMan]: executing diffoscope
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNMan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNMan-2016.001.zip tmp/SpiNNMan-3.0.0.zip --markdown 20230420/S/SpiNNMan/2016.001-3.0.0/diff.md --exclude *.pyd
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNaker-PACMAN]: executing diffoscope
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNaker-PACMAN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNaker_PACMAN-3.0.0.zip tmp/SpiNNaker_PACMAN-3.0.1.zip --markdown 20230420/S/SpiNNaker-PACMAN/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-20 08:56:10] INFO root fetch - processPackages [odoo14-addon-sale-restricted-qty]: executing diffoscope
+[2023-04-20 08:56:10] INFO root fetch - processPackages [odoo14-addon-sale-restricted-qty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_restricted_qty-14.0.1.1.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_sale_restricted_qty-14.0.1.1.2.dev2-py3-none-any.whl.zip --markdown 20230420/o/odoo14-addon-sale-restricted-qty/14.0.1.1.2.dev1-14.0.1.1.2.dev2/diff.md --exclude *.pyd
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNaker-DataSpecification]: executing diffoscope
+[2023-04-20 08:56:10] INFO root fetch - processPackages [SpiNNaker-DataSpecification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNaker_DataSpecification-2016.001.zip tmp/SpiNNaker_DataSpecification-3.0.0.zip --markdown 20230420/S/SpiNNaker-DataSpecification/2016.001-3.0.0/diff.md --exclude *.pyd
+[2023-04-20 08:56:12] INFO root fetch - processPackages [quickmpc]: Start processing: odoo-addons-oca-sale-workflow
+[2023-04-20 08:56:12] INFO root fetch - main [MainThread]: End processing [quickmpc]: success
+[2023-04-20 08:56:12] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230419.1] Old Version: [16.0.20230412.0]
+[2023-04-20 08:56:12] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/a6/86/9900063de6a7ddc780d1ab20633ad7d03b1fa395e760f585e2a855497d08/odoo_addons_oca_sale_workflow-16.0.20230412.0-py3-none-any.whl
+[2023-04-20 08:56:12] INFO root fetch - processPackages [odoo-addon-sale-company-currency]: Start processing: spalloc
+[2023-04-20 08:56:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-company-currency]: success
+[2023-04-20 08:56:12] INFO root fetch - processPackages [spalloc]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-20 08:56:12] INFO root fetch - processPackages [SpiNNMachine]: Start processing: spalloc-server
+[2023-04-20 08:56:12] INFO root fetch - main [MainThread]: End processing [SpiNNMachine]: success
+[2023-04-20 08:56:12] INFO root fetch - processPackages [spalloc-server]: New version: [1!7.0.0a4] Old Version: [0.5.2]
+[2023-04-20 08:56:12] INFO root fetch - processPackages [odoo14-addon-sale-restricted-qty]: Start processing: SpiNNFrontEndCommon
+[2023-04-20 08:56:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-restricted-qty]: success
+[2023-04-20 08:56:12] INFO root fetch - processPackages [spalloc]: Downloading https://files.pythonhosted.org/packages/31/c5/a5e08f8e6efe33b6536e408197bb4cc9d9b018b47884997a3c8cc3d2755b/spalloc-2.0.0.tar.gz
+[2023-04-20 08:56:12] INFO root fetch - processPackages [SpiNNFrontEndCommon]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-20 08:56:12] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/6f/31/92a50d12a56d80939a92e21aab969e9fd91bb2c68a6c9595332c57d71b49/odoo_addons_oca_sale_workflow-16.0.20230419.1-py3-none-any.whl
+[2023-04-20 08:56:12] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-04-20 08:56:12] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230412.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230419.1-py3-none-any.whl.zip --markdown 20230420/o/odoo-addons-oca-sale-workflow/16.0.20230412.0-16.0.20230419.1/diff.md --exclude *.pyd
+[2023-04-20 08:56:12] INFO root fetch - processPackages [spalloc-server]: Downloading https://files.pythonhosted.org/packages/49/ec/2217ced900fcd89c1abc68c84be3bc3dfa5be35a15809bdbb78c23222f05/spalloc_server-0.5.2.tar.gz
+[2023-04-20 08:56:12] INFO root fetch - processPackages [odoo-addon-sale-exception]: Start processing: SpiNNakerTestBase
+[2023-04-20 08:56:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-exception]: success
+[2023-04-20 08:56:12] WARNING root fetch - processPackages [SpiNNakerTestBase]: Skipping, unable to determine old version
+[2023-04-20 08:56:12] INFO root fetch - processPackages [SpiNNakerTestBase]: Start processing: SpiNNakerGraphFrontEnd
+[2023-04-20 08:56:12] INFO root fetch - main [MainThread]: End processing [SpiNNakerTestBase] error
+[2023-04-20 08:56:12] INFO root fetch - processPackages [SpiNNaker-DataSpecification]: Start processing: sPyNNaker
+[2023-04-20 08:56:12] INFO root fetch - main [MainThread]: End processing [SpiNNaker-DataSpecification]: success
+[2023-04-20 08:56:12] INFO root fetch - processPackages [SpiNNakerGraphFrontEnd]: New version: [3.0.0] Old Version: [2016.001]
+[2023-04-20 08:56:12] INFO root fetch - processPackages [sPyNNaker]: New version: [3.0.0] Old Version: [2016.001.001]
+[2023-04-20 08:56:12] INFO root fetch - processPackages [SpiNNFrontEndCommon]: Downloading https://files.pythonhosted.org/packages/f5/0a/d37b1995c85d05d3ab3fea1d3487a12f020a36fff44fd189d709b144bcc9/SpiNNFrontEndCommon-3.0.0.zip
+[2023-04-20 08:56:12] INFO root fetch - processPackages [spalloc-server]: Downloading https://files.pythonhosted.org/packages/82/49/9681fdc10123d24b4a641725674c40c85b2c8f9f665b2f7b38f8f9c9e354/spalloc_server-1!7.0.0a4.tar.gz
+[2023-04-20 08:56:12] INFO root fetch - processPackages [spalloc]: Downloading https://files.pythonhosted.org/packages/2d/cc/c536dcce7c2c1b03753d88e705881079dffff0f172d43852e7a0f8831101/spalloc-2.0.1.tar.gz
+[2023-04-20 08:56:12] INFO root fetch - processPackages [SpiNNakerGraphFrontEnd]: Downloading https://files.pythonhosted.org/packages/d0/53/83b4318f37a7742352895ff678a5388bad7502d2affae084e9a05ff91481/SpiNNakerGraphFrontEnd-2016.001.zip
+[2023-04-20 08:56:12] INFO root fetch - processPackages [sPyNNaker]: Downloading https://files.pythonhosted.org/packages/b8/53/f012a6567804accdc25e7c8a71718056baa55008b2b2a4b6c86f051d1c99/sPyNNaker-2016.001.001.zip
+[2023-04-20 08:56:12] INFO root fetch - processPackages [spalloc-server]: executing diffoscope
+[2023-04-20 08:56:12] INFO root fetch - processPackages [spalloc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spalloc_server-0.5.2.tar.gz tmp/spalloc_server-1!7.0.0a4.tar.gz --markdown 20230420/s/spalloc-server/0.5.2-1!7.0.0a4/diff.md --exclude *.pyd
+[2023-04-20 08:56:12] INFO root fetch - processPackages [spalloc]: executing diffoscope
+[2023-04-20 08:56:12] INFO root fetch - processPackages [spalloc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spalloc-2.0.0.tar.gz tmp/spalloc-2.0.1.tar.gz --markdown 20230420/s/spalloc/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-20 08:56:13] INFO root fetch - processPackages [SpiNNFrontEndCommon]: Downloading https://files.pythonhosted.org/packages/66/45/ca5f85d3df6e6d9ae6844e512ac756e24641cd7010e46a68f135c6cce05a/SpiNNFrontEndCommon-3.0.1.tar.gz
+[2023-04-20 08:56:13] INFO root fetch - processPackages [SpiNNakerGraphFrontEnd]: Downloading https://files.pythonhosted.org/packages/1c/bb/371d8d24bde08cd2d6d3750819aa405528ce945e6d8dfaa1ed84b73496c4/SpiNNakerGraphFrontEnd-3.0.0.zip
+[2023-04-20 08:56:13] INFO root fetch - processPackages [sPyNNaker]: Downloading https://files.pythonhosted.org/packages/a9/d7/37cad4f65340cc6470a137db5de828fcaf818831099990eaacd239b55c95/sPyNNaker-3.0.0.zip
+[2023-04-20 08:56:13] INFO root fetch - processPackages [SpiNNFrontEndCommon]: executing diffoscope
+[2023-04-20 08:56:13] INFO root fetch - processPackages [SpiNNFrontEndCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNFrontEndCommon-3.0.0.zip tmp/SpiNNFrontEndCommon-3.0.1.tar.gz --markdown 20230420/S/SpiNNFrontEndCommon/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-20 08:56:13] INFO root fetch - processPackages [SpiNNakerGraphFrontEnd]: executing diffoscope
+[2023-04-20 08:56:13] INFO root fetch - processPackages [SpiNNakerGraphFrontEnd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNakerGraphFrontEnd-2016.001.zip tmp/SpiNNakerGraphFrontEnd-3.0.0.zip --markdown 20230420/S/SpiNNakerGraphFrontEnd/2016.001-3.0.0/diff.md --exclude *.pyd
+[2023-04-20 08:56:13] INFO root fetch - processPackages [SpiNNaker-PACMAN]: Start processing: bp-data-visualization
+[2023-04-20 08:56:13] INFO root fetch - main [MainThread]: End processing [SpiNNaker-PACMAN]: success
+[2023-04-20 08:56:13] INFO root fetch - processPackages [bp-data-visualization]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 08:56:13] INFO root fetch - processPackages [sPyNNaker]: executing diffoscope
+[2023-04-20 08:56:13] INFO root fetch - processPackages [sPyNNaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sPyNNaker-2016.001.001.zip tmp/sPyNNaker-3.0.0.zip --markdown 20230420/s/sPyNNaker/2016.001.001-3.0.0/diff.md --exclude *.pyd
+[2023-04-20 08:56:13] INFO root fetch - processPackages [bp-data-visualization]: Downloading https://files.pythonhosted.org/packages/d6/72/c659f9e992e0a5ea663c01d539f1224dba175502e01600f46ae7373cd807/bp-data-visualization-0.0.8.tar.gz
+[2023-04-20 08:56:13] INFO root fetch - processPackages [bp-data-visualization]: executing diffoscope
+[2023-04-20 08:56:13] INFO root fetch - processPackages [bp-data-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_visualization-0.0.7.tar.gz tmp/bp-data-visualization-0.0.8.tar.gz --markdown 20230420/b/bp-data-visualization/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 08:56:13] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Start processing: sPyNNaker-visualisers
+[2023-04-20 08:56:13] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-04-20 08:56:13] INFO root fetch - processPackages [sPyNNaker-visualisers]: New version: [1!7.0.0a4] Old Version: [1!6.0.0]
+[2023-04-20 08:56:13] INFO root fetch - processPackages [snps]: Start processing: dmcCommon
+[2023-04-20 08:56:13] INFO root fetch - main [MainThread]: End processing [snps]: success
+[2023-04-20 08:56:13] WARNING root fetch - processPackages [dmcCommon]: Skipping, unable to determine old version
+[2023-04-20 08:56:13] INFO root fetch - main [MainThread]: End processing [dmcCommon] error
+[2023-04-20 08:56:14] INFO root fetch - processPackages [sPyNNaker-visualisers]: Downloading https://files.pythonhosted.org/packages/c7/29/42e4924e4482658179126d001b32dd7997f943ba9ab694c1a15aa3dc0cff/sPyNNaker_visualisers-1!6.0.0.tar.gz
+[2023-04-20 08:56:14] INFO root fetch - processPackages [sPyNNaker-visualisers]: Downloading https://files.pythonhosted.org/packages/1a/1f/f97143b72d15c7f75193e3197c5248ff369a5d01c1b9e66d08f9812c4730/sPyNNaker_visualisers-1!7.0.0a4.tar.gz
+[2023-04-20 08:56:14] INFO root fetch - main [MainThread]: End processing [SpiNNMan]: success
+[2023-04-20 08:56:14] INFO root fetch - processPackages [sPyNNaker-visualisers]: executing diffoscope
+[2023-04-20 08:56:14] INFO root fetch - processPackages [sPyNNaker-visualisers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sPyNNaker_visualisers-1!6.0.0.tar.gz tmp/sPyNNaker_visualisers-1!7.0.0a4.tar.gz --markdown 20230420/s/sPyNNaker-visualisers/1!6.0.0-1!7.0.0a4/diff.md --exclude *.pyd
+[2023-04-20 08:56:14] INFO root fetch - main [MainThread]: End processing [SpiNNFrontEndCommon]: success
+[2023-04-20 08:56:14] INFO root fetch - main [MainThread]: End processing [SpiNNakerGraphFrontEnd]: success
+[2023-04-20 08:56:14] INFO root fetch - main [MainThread]: End processing [spalloc]: success
+[2023-04-20 08:56:15] INFO root fetch - main [MainThread]: End processing [spalloc-server]: success
+[2023-04-20 08:56:16] INFO root fetch - main [MainThread]: End processing [sPyNNaker-visualisers]: success
+[2023-04-20 08:56:16] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
+[2023-04-20 08:56:16] INFO root fetch - main [MainThread]: End processing [sPyNNaker]: success
+[2023-04-20 08:56:26] INFO root fetch - main [MainThread]: End processing [mixturemapping]: success
+[2023-04-20 08:56:26] INFO root fetch - main [MainThread]: Store serial: [17783104]
