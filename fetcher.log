@@ -22091,3 +22091,103 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 19:13:38] INFO root fetch - main [MainThread]: End processing [swsh]: success
 [2023-04-20 19:13:43] INFO root fetch - main [MainThread]: End processing [great-expectations]: success
 [2023-04-20 19:13:43] INFO root fetch - main [MainThread]: Store serial: [17790615]
+[2023-04-20 19:18:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790615]
+[2023-04-20 19:18:52] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-20 19:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2023-04-20 19:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: greynoise
+[2023-04-20 19:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pystacker
+[2023-04-20 19:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bdrc-util
+[2023-04-20 19:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amlopschat
+[2023-04-20 19:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xyz-py
+[2023-04-20 19:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prettyqt
+[2023-04-20 19:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aliendev-cdk
+[2023-04-20 19:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apinator-databricks
+[2023-04-20 19:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fores
+[2023-04-20 19:18:52] INFO root fetch - processPackages [amlopschat]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-20 19:18:52] WARNING root fetch - processPackages [fores]: Skipping, unable to determine old version
+[2023-04-20 19:18:52] INFO root fetch - processPackages [fores]: Start processing: az-basics
+[2023-04-20 19:18:52] INFO root fetch - main [MainThread]: End processing [fores] error
+[2023-04-20 19:18:52] INFO root fetch - processPackages [pystacker]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-20 19:18:52] INFO root fetch - processPackages [aliendev-cdk]: New version: [0.1.31] Old Version: [0.1.30]
+[2023-04-20 19:18:52] INFO root fetch - processPackages [xyz-py]: New version: [5.3.0] Old Version: [5.2.1]
+[2023-04-20 19:18:52] INFO root fetch - processPackages [apinator-databricks]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 19:18:52] INFO root fetch - processPackages [bdrc-util]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-20 19:18:52] INFO root fetch - processPackages [greynoise]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-20 19:18:52] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230420.17.13.769351] Old Version: [20230420.16.22.302784]
+[2023-04-20 19:18:52] INFO root fetch - processPackages [az-basics]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-04-20 19:18:52] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-20 19:18:53] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-04-20 19:18:53] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230420/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-20 19:18:53] INFO root fetch - processPackages [amlopschat]: Downloading https://files.pythonhosted.org/packages/9d/bb/9046d642fca7e3f298746a8baa8e4f9a34b43a56f4bc950b4d24cbb3aa40/amlopschat-1.0.7.tar.gz
+[2023-04-20 19:18:53] INFO root fetch - processPackages [aliendev-cdk]: Downloading https://files.pythonhosted.org/packages/ba/f1/b949924879110a5e8dd1b47cdec5bbd4799af7f03f0bd85112301a710e43/aliendev_cdk-0.1.30.tar.gz
+[2023-04-20 19:18:53] INFO root fetch - processPackages [greynoise]: Downloading https://files.pythonhosted.org/packages/b2/85/e2b23d06d8c8e6ea826d8f25bff57ca92aa3d95501d8486430a098f1acae/greynoise-2.0.0.tar.gz
+[2023-04-20 19:18:53] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/03/9d/303e95ffd582493466d53a0440dd08a618fd7bb25a858b3390ab7eda3bfd/certora-cli-alpha-master-20230420.16.22.302784.tar.gz
+[2023-04-20 19:18:53] INFO root fetch - processPackages [bdrc-util]: Downloading https://files.pythonhosted.org/packages/c6/17/2d95e611b1265b49604fccf721c7ef68b7d96cc8fb877491804dd4549168/bdrc_util-0.9.8-py3-none-any.whl
+[2023-04-20 19:18:53] INFO root fetch - processPackages [xyz-py]: Downloading https://files.pythonhosted.org/packages/7e/1f/1f046fb471170ac198d2c1139aba685f6ab7136f714cd0d6a2b7abf78735/xyz_py-5.2.1.tar.gz
+[2023-04-20 19:18:53] INFO root fetch - processPackages [pystacker]: Downloading https://files.pythonhosted.org/packages/c8/a4/07fe0d989e6d7ca8e18470a744717bf187da20bf2d01135adf03c9f8800b/pystacker-1.0.3.tar.gz
+[2023-04-20 19:18:53] INFO root fetch - processPackages [az-basics]: Downloading https://files.pythonhosted.org/packages/21/3b/6307c27a3829623134540d2605cc6bbe895dbe3a02a401345ac5c14bcaa1/az_basics-0.1.0.tar.gz
+[2023-04-20 19:18:53] INFO root fetch - processPackages [apinator-databricks]: Downloading https://files.pythonhosted.org/packages/40/e3/162143a301238e4444930b577a09d96bbc40c2186f00bc53b391150238cf/apinator-databricks-0.0.3.tar.gz
+[2023-04-20 19:18:53] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38071087>=10485760
+[2023-04-20 19:18:53] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: fastapi-ecommerce-ext
+[2023-04-20 19:18:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-20 19:18:53] INFO root fetch - processPackages [fastapi-ecommerce-ext]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-20 19:18:53] INFO root fetch - processPackages [greynoise]: Downloading https://files.pythonhosted.org/packages/5a/bb/b60b0a199d38c2fd71edb83b91fe982b9ec7535b22381012e1ee47426144/greynoise-2.0.1.tar.gz
+[2023-04-20 19:18:53] INFO root fetch - processPackages [xyz-py]: Downloading https://files.pythonhosted.org/packages/fd/4c/1acae7535ecf094e2a230a916e7b073722e2cceda9bb78799213784ddaaf/xyz_py-5.3.0.tar.gz
+[2023-04-20 19:18:53] INFO root fetch - processPackages [pystacker]: executing diffoscope
+[2023-04-20 19:18:53] INFO root fetch - processPackages [pystacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystacker-1.0.2-py3-none-any.whl.zip tmp/pystacker-1.0.3.tar.gz --markdown 20230420/p/pystacker/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-20 19:18:53] INFO root fetch - processPackages [aliendev-cdk]: Downloading https://files.pythonhosted.org/packages/1c/9e/7d793429389500ba7e213faaf0a3891cb10a1549123e3f1b101b9d4d9371/aliendev_cdk-0.1.31.tar.gz
+[2023-04-20 19:18:53] INFO root fetch - processPackages [az-basics]: executing diffoscope
+[2023-04-20 19:18:53] INFO root fetch - processPackages [az-basics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/az_basics-0.0.2.tar.gz tmp/az_basics-0.1.0.tar.gz --markdown 20230420/a/az-basics/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-04-20 19:18:53] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/f4/db/105e28c4c16814988b1664181ba41a1b907a3c6a2094085fbddd32e98443/fastapi_ecommerce_ext-0.2.7.tar.gz
+[2023-04-20 19:18:53] INFO root fetch - processPackages [amlopschat]: Downloading https://files.pythonhosted.org/packages/85/45/e9bd4eb9cc179f2c3ba95980a672a7ac5bef922ae58ad9ec9fec9a60dd45/amlopschat-1.0.8.tar.gz
+[2023-04-20 19:18:53] INFO root fetch - processPackages [bdrc-util]: Downloading https://files.pythonhosted.org/packages/f2/30/555f20c43c4014c6d40527a8a1859eb32c90d1bf2960854c743a96d03617/bdrc_util-0.9.9-py3-none-any.whl
+[2023-04-20 19:18:53] INFO root fetch - processPackages [greynoise]: executing diffoscope
+[2023-04-20 19:18:53] INFO root fetch - processPackages [greynoise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greynoise-2.0.0.tar.gz tmp/greynoise-2.0.1.tar.gz --markdown 20230420/g/greynoise/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-20 19:18:53] INFO root fetch - processPackages [xyz-py]: executing diffoscope
+[2023-04-20 19:18:53] INFO root fetch - processPackages [xyz-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_py-5.2.1.tar.gz tmp/xyz_py-5.3.0.tar.gz --markdown 20230420/x/xyz-py/5.2.1-5.3.0/diff.md --exclude *.pyd
+[2023-04-20 19:18:53] INFO root fetch - processPackages [apinator-databricks]: executing diffoscope
+[2023-04-20 19:18:53] INFO root fetch - processPackages [apinator-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apinator-databricks-0.0.2.tar.gz tmp/apinator-databricks-0.0.3.tar.gz --markdown 20230420/a/apinator-databricks/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 19:18:53] INFO root fetch - processPackages [aliendev-cdk]: executing diffoscope
+[2023-04-20 19:18:53] INFO root fetch - processPackages [aliendev-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliendev_cdk-0.1.30.tar.gz tmp/aliendev_cdk-0.1.31.tar.gz --markdown 20230420/a/aliendev-cdk/0.1.30-0.1.31/diff.md --exclude *.pyd
+[2023-04-20 19:18:53] INFO root fetch - processPackages [bdrc-util]: executing diffoscope
+[2023-04-20 19:18:53] INFO root fetch - processPackages [bdrc-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdrc_util-0.9.8-py3-none-any.whl.zip tmp/bdrc_util-0.9.9-py3-none-any.whl.zip --markdown 20230420/b/bdrc-util/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-20 19:18:53] INFO root fetch - processPackages [fastapi-ecommerce-ext]: Downloading https://files.pythonhosted.org/packages/61/d6/41ea98d4a141bb375fd591b9e200814ddae4590befd9ed398974b57ec36c/fastapi_ecommerce_ext-0.2.8.tar.gz
+[2023-04-20 19:18:53] INFO root fetch - processPackages [amlopschat]: executing diffoscope
+[2023-04-20 19:18:53] INFO root fetch - processPackages [amlopschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopschat-1.0.7.tar.gz tmp/amlopschat-1.0.8.tar.gz --markdown 20230420/a/amlopschat/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-20 19:18:54] INFO root fetch - processPackages [fastapi-ecommerce-ext]: executing diffoscope
+[2023-04-20 19:18:54] INFO root fetch - processPackages [fastapi-ecommerce-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_ecommerce_ext-0.2.7.tar.gz tmp/fastapi_ecommerce_ext-0.2.8.tar.gz --markdown 20230420/f/fastapi-ecommerce-ext/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-20 19:18:54] INFO root fetch - processPackages [pystacker]: Start processing: yotpy
+[2023-04-20 19:18:54] INFO root fetch - main [MainThread]: End processing [pystacker]: success
+[2023-04-20 19:18:54] INFO root fetch - processPackages [yotpy]: New version: [0.0.81] Old Version: [0.0.80]
+[2023-04-20 19:18:54] INFO root fetch - processPackages [az-basics]: Start processing: gitberg
+[2023-04-20 19:18:54] INFO root fetch - main [MainThread]: End processing [az-basics]: success
+[2023-04-20 19:18:54] INFO root fetch - processPackages [gitberg]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-04-20 19:18:54] INFO root fetch - processPackages [yotpy]: Downloading https://files.pythonhosted.org/packages/bb/ca/7bb4d7c1d6f2a134799c1f3182b83ec730e314ed5dae229a0423f5841ec7/yotpy-0.0.80.tar.gz
+[2023-04-20 19:18:55] INFO root fetch - processPackages [gitberg]: Downloading https://files.pythonhosted.org/packages/fd/1d/e71bac49760d6cf5584ebc804ec52f75f7e80fefb5e181f23c1308436696/gitberg-0.8.2.tar.gz
+[2023-04-20 19:18:55] INFO root fetch - processPackages [aliendev-cdk]: Start processing: ocdskit
+[2023-04-20 19:18:55] INFO root fetch - main [MainThread]: End processing [aliendev-cdk]: success
+[2023-04-20 19:18:55] INFO root fetch - processPackages [ocdskit]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-20 19:18:55] INFO root fetch - processPackages [yotpy]: Downloading https://files.pythonhosted.org/packages/0d/f3/7fde327cf0a7d22bdb553d29d5c04dd65513b2d35eebe5f5d0cbe4e0fb29/yotpy-0.0.81.tar.gz
+[2023-04-20 19:18:55] INFO root fetch - processPackages [ocdskit]: Downloading https://files.pythonhosted.org/packages/00/4c/880016d8c5399a5bf7b121758b88404642e7b2859bab63260ac2d68bad27/ocdskit-1.1.4.tar.gz
+[2023-04-20 19:18:55] INFO root fetch - processPackages [bdrc-util]: Start processing: python-flowzone-test
+[2023-04-20 19:18:55] INFO root fetch - main [MainThread]: End processing [bdrc-util]: success
+[2023-04-20 19:18:55] INFO root fetch - processPackages [yotpy]: executing diffoscope
+[2023-04-20 19:18:55] INFO root fetch - processPackages [yotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yotpy-0.0.80.tar.gz tmp/yotpy-0.0.81.tar.gz --markdown 20230420/y/yotpy/0.0.80-0.0.81/diff.md --exclude *.pyd
+[2023-04-20 19:18:55] INFO root fetch - main [MainThread]: End processing [fastapi-ecommerce-ext]: success
+[2023-04-20 19:18:55] WARNING root fetch - processPackages [python-flowzone-test]: Skipping, unable to determine old version
+[2023-04-20 19:18:55] INFO root fetch - main [MainThread]: End processing [python-flowzone-test] error
+[2023-04-20 19:18:55] INFO root fetch - main [MainThread]: End processing [apinator-databricks]: success
+[2023-04-20 19:18:55] INFO root fetch - processPackages [gitberg]: Downloading https://files.pythonhosted.org/packages/98/cd/3dbc3bf2c24a096875c9317c8b0017bb03b86899e110836a973e942181e6/gitberg-0.8.3.tar.gz
+[2023-04-20 19:18:55] INFO root fetch - main [MainThread]: End processing [greynoise]: success
+[2023-04-20 19:18:55] INFO root fetch - main [MainThread]: End processing [xyz-py]: success
+[2023-04-20 19:18:55] INFO root fetch - processPackages [ocdskit]: Downloading https://files.pythonhosted.org/packages/b0/e0/cbd3368de3fa195a524e2fe718f930172991d52759999442daf388beda20/ocdskit-1.1.5.tar.gz
+[2023-04-20 19:18:56] INFO root fetch - processPackages [gitberg]: executing diffoscope
+[2023-04-20 19:18:56] INFO root fetch - processPackages [gitberg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitberg-0.8.2.tar.gz tmp/gitberg-0.8.3.tar.gz --markdown 20230420/g/gitberg/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-04-20 19:18:56] INFO root fetch - processPackages [ocdskit]: executing diffoscope
+[2023-04-20 19:18:56] INFO root fetch - processPackages [ocdskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocdskit-1.1.4.tar.gz tmp/ocdskit-1.1.5.tar.gz --markdown 20230420/o/ocdskit/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-20 19:18:56] INFO root fetch - main [MainThread]: End processing [yotpy]: success
+[2023-04-20 19:18:58] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
+[2023-04-20 19:18:58] INFO root fetch - main [MainThread]: End processing [ocdskit]: success
+[2023-04-20 19:18:59] INFO root fetch - main [MainThread]: End processing [gitberg]: success
+[2023-04-20 19:19:03] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-04-20 19:19:03] INFO root fetch - main [MainThread]: Store serial: [17790664]
