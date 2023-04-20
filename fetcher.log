@@ -12366,3 +12366,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 11:06:28] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
 [2023-04-20 11:06:28] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkroma]: success
 [2023-04-20 11:06:28] INFO root fetch - main [MainThread]: Store serial: [17784467]
+[2023-04-20 11:11:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17784467]
+[2023-04-20 11:11:37] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-20 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KMMTR
+[2023-04-20 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etsy3py
+[2023-04-20 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: watchful
+[2023-04-20 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vtmmpy
+[2023-04-20 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ncbimetadata
+[2023-04-20 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsm-django-socialauth
+[2023-04-20 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: preprocessing-pgp
+[2023-04-20 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kcli
+[2023-04-20 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fjrpc
+[2023-04-20 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tfy-mlflow-client
+[2023-04-20 11:11:37] WARNING root fetch - processPackages [KMMTR]: Skipping, unable to determine old version
+[2023-04-20 11:11:37] INFO root fetch - processPackages [KMMTR]: Start processing: exampleData
+[2023-04-20 11:11:37] INFO root fetch - main [MainThread]: End processing [KMMTR] error
+[2023-04-20 11:11:37] INFO root fetch - processPackages [vtmmpy]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-20 11:11:37] INFO root fetch - processPackages [ncbimetadata]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-20 11:11:37] INFO root fetch - processPackages [watchful]: New version: [3.5.0] Old Version: [3.2.0]
+[2023-04-20 11:11:37] INFO root fetch - processPackages [exampleData]: New version: [3.0] Old Version: [2.0]
+[2023-04-20 11:11:37] INFO root fetch - processPackages [dsm-django-socialauth]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 11:11:37] INFO root fetch - processPackages [etsy3py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 11:11:37] INFO root fetch - processPackages [tfy-mlflow-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 11:11:37] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post5.dev7] Old Version: [0.2.9.post4.dev7]
+[2023-04-20 11:11:37] INFO root fetch - processPackages [kcli]: New version: [99.0.202304200909] Old Version: [99.0.202304191333]
+[2023-04-20 11:11:37] WARNING root fetch - processPackages [fjrpc]: Skipping, unable to determine old version
+[2023-04-20 11:11:37] INFO root fetch - processPackages [fjrpc]: Start processing: scippnexus
+[2023-04-20 11:11:37] INFO root fetch - main [MainThread]: End processing [fjrpc] error
+[2023-04-20 11:11:37] INFO root fetch - processPackages [watchful]: Downloading https://files.pythonhosted.org/packages/0b/f1/0552d9c0e54cf89f9ff95bb9ef1adec30ea6975ea15c63c5275b46a09ffa/watchful-3.2.0.tar.gz
+[2023-04-20 11:11:37] INFO root fetch - processPackages [etsy3py]: Downloading https://files.pythonhosted.org/packages/05/31/ebe5747a7ed1967ca04f30e1d659883c6cb46d29245b598b26e2363099dc/etsy3py-0.0.3.tar.gz
+[2023-04-20 11:11:37] INFO root fetch - processPackages [ncbimetadata]: Downloading https://files.pythonhosted.org/packages/f9/93/7f590db96505e0f25d996fb1f3f6b5e8866b5f41842f540c328eb133cb14/ncbimetadata-0.0.5.tar.gz
+[2023-04-20 11:11:37] INFO root fetch - processPackages [scippnexus]: New version: [23.4.0] Old Version: [23.3.0]
+[2023-04-20 11:11:37] INFO root fetch - processPackages [vtmmpy]: Downloading https://files.pythonhosted.org/packages/2e/f0/1fdce3d5e09fa18d1cd60b675a08c4f151d6e9b1ece86434e77b40668176/vtmmpy-1.0.4.tar.gz
+[2023-04-20 11:11:37] INFO root fetch - processPackages [dsm-django-socialauth]: Downloading https://files.pythonhosted.org/packages/5d/f9/9c11ab0849df799e3f45432528010233757706427e1cc81b64e02341dede/dsm-django-socialauth-1.0.8.tar.gz
+[2023-04-20 11:11:37] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/aa/57/37ef1a5b5a375a0376bd319a32e6381c804e733b091f19e14320a1e6b51b/preprocessing-pgp-0.2.9.post4.dev7.tar.gz
+[2023-04-20 11:11:37] INFO root fetch - processPackages [exampleData]: Downloading https://files.pythonhosted.org/packages/1e/87/f71949b3bd1b67a8102b81816b79782ef4df9a36c5c29e4972e7f935cee6/exampleData-3.0.tar.gz
+[2023-04-20 11:11:38] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b9/87/fc5b6d1c46616b0ae1670e2fd9b23d3cf66d4faf07451c6f3fd8f57f643c/kcli-99.0.202304200909-py3-none-any.whl
+[2023-04-20 11:11:38] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857388>=10485760
+[2023-04-20 11:11:38] INFO root fetch - processPackages [preprocessing-pgp]: Start processing: kcli
+[2023-04-20 11:11:38] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-04-20 11:11:38] INFO root fetch - processPackages [etsy3py]: executing diffoscope
+[2023-04-20 11:11:38] INFO root fetch - processPackages [etsy3py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy3py-0.0.2.tar.gz tmp/etsy3py-0.0.3.tar.gz --markdown 20230420/e/etsy3py/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 11:11:38] INFO root fetch - processPackages [ncbimetadata]: executing diffoscope
+[2023-04-20 11:11:38] INFO root fetch - processPackages [ncbimetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbimetadata-0.0.4.tar.gz tmp/ncbimetadata-0.0.5.tar.gz --markdown 20230420/n/ncbimetadata/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 11:11:38] INFO root fetch - processPackages [scippnexus]: Downloading https://files.pythonhosted.org/packages/5f/c7/11c37947d9adeb22d79b1f5eacb42fb0438e4840f6235ac3eae9fc1015a3/scippnexus-23.3.0.tar.gz
+[2023-04-20 11:11:38] INFO root fetch - processPackages [vtmmpy]: executing diffoscope
+[2023-04-20 11:11:38] INFO root fetch - processPackages [vtmmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtmmpy-1.0.3.tar.gz tmp/vtmmpy-1.0.4.tar.gz --markdown 20230420/v/vtmmpy/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-20 11:11:38] INFO root fetch - processPackages [kcli]: New version: [99.0.202304200910] Old Version: [99.0.202304200909]
+[2023-04-20 11:11:38] INFO root fetch - processPackages [exampleData]: executing diffoscope
+[2023-04-20 11:11:38] INFO root fetch - processPackages [exampleData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exampleData-2.0.tar.gz tmp/exampleData-3.0.tar.gz --markdown 20230420/e/exampleData/2.0-3.0/diff.md --exclude *.pyd
+[2023-04-20 11:11:38] INFO root fetch - processPackages [tfy-mlflow-client]: executing diffoscope
+[2023-04-20 11:11:38] INFO root fetch - processPackages [tfy-mlflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfy-mlflow-client-0.0.8.tar.gz tmp/tfy-mlflow-client-0.0.9.tar.gz --markdown 20230420/t/tfy-mlflow-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 11:11:38] INFO root fetch - processPackages [watchful]: executing diffoscope
+[2023-04-20 11:11:38] INFO root fetch - processPackages [watchful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchful-3.2.0.tar.gz tmp/watchful-3.5.0.tar.gz --markdown 20230420/w/watchful/3.2.0-3.5.0/diff.md --exclude *.pyd
+[2023-04-20 11:11:38] INFO root fetch - processPackages [dsm-django-socialauth]: Downloading https://files.pythonhosted.org/packages/8c/aa/089c42588b3e9ea87ea30dc296d13aa9df5baa5822d37bbb19fc2731df4f/dsm-django-socialauth-1.0.9.tar.gz
+[2023-04-20 11:11:38] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b9/87/fc5b6d1c46616b0ae1670e2fd9b23d3cf66d4faf07451c6f3fd8f57f643c/kcli-99.0.202304200909-py3-none-any.whl
+[2023-04-20 11:11:38] INFO root fetch - processPackages [dsm-django-socialauth]: executing diffoscope
+[2023-04-20 11:11:38] INFO root fetch - processPackages [dsm-django-socialauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsm-django-socialauth-1.0.8.tar.gz tmp/dsm-django-socialauth-1.0.9.tar.gz --markdown 20230420/d/dsm-django-socialauth/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 11:11:38] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-20 11:11:38] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304191333-py3-none-any.whl.zip tmp/kcli-99.0.202304200909-py3-none-any.whl.zip --markdown 20230420/k/kcli/99.0.202304191333-99.0.202304200909/diff.md --exclude *.pyd
+[2023-04-20 11:11:38] INFO root fetch - processPackages [scippnexus]: Downloading https://files.pythonhosted.org/packages/f3/3d/373fbef8390cae765d3bf0700257224535c7ae107d06d8e0720a71f65ef7/scippnexus-23.4.0.tar.gz
+[2023-04-20 11:11:38] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/54/21/b058c0780c0fb4780e18f4ed431b05b48d5c85649d100e7f1b7f91cab730/kcli-99.0.202304200910-py3-none-any.whl
+[2023-04-20 11:11:38] INFO root fetch - processPackages [scippnexus]: executing diffoscope
+[2023-04-20 11:11:38] INFO root fetch - processPackages [scippnexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scippnexus-23.3.0.tar.gz tmp/scippnexus-23.4.0.tar.gz --markdown 20230420/s/scippnexus/23.3.0-23.4.0/diff.md --exclude *.pyd
+[2023-04-20 11:11:39] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-20 11:11:39] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304200909-py3-none-any.whl.zip tmp/kcli-99.0.202304200910-py3-none-any.whl.zip --markdown 20230420/k/kcli/99.0.202304200909-99.0.202304200910/diff.md --exclude *.pyd
+[2023-04-20 11:11:39] INFO root fetch - processPackages [etsy3py]: Start processing: pasqal-cloud
+[2023-04-20 11:11:39] INFO root fetch - main [MainThread]: End processing [etsy3py]: success
+[2023-04-20 11:11:39] INFO root fetch - processPackages [pasqal-cloud]: New version: [0.2.2] Old Version: [0.0.2]
+[2023-04-20 11:11:39] INFO root fetch - processPackages [pasqal-cloud]: executing diffoscope
+[2023-04-20 11:11:39] INFO root fetch - processPackages [pasqal-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasqal-cloud-0.0.2.tar.gz tmp/pasqal-cloud-0.2.2.tar.gz --markdown 20230420/p/pasqal-cloud/0.0.2-0.2.2/diff.md --exclude *.pyd
+[2023-04-20 11:11:39] INFO root fetch - processPackages [exampleData]: Start processing: opentrain
+[2023-04-20 11:11:39] INFO root fetch - main [MainThread]: End processing [exampleData]: success
+[2023-04-20 11:11:39] INFO root fetch - main [MainThread]: End processing [vtmmpy]: success
+[2023-04-20 11:11:39] INFO root fetch - processPackages [opentrain]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 11:11:39] INFO root fetch - main [MainThread]: End processing [ncbimetadata]: success
+[2023-04-20 11:11:39] INFO root fetch - processPackages [opentrain]: executing diffoscope
+[2023-04-20 11:11:39] INFO root fetch - processPackages [opentrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentrain-0.0.1.tar.gz tmp/opentrain-0.0.2.tar.gz --markdown 20230420/o/opentrain/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 11:11:40] INFO root fetch - main [MainThread]: End processing [watchful]: success
+[2023-04-20 11:11:40] INFO root fetch - main [MainThread]: End processing [dsm-django-socialauth]: success
+[2023-04-20 11:11:40] INFO root fetch - main [MainThread]: End processing [opentrain]: success
+[2023-04-20 11:11:40] INFO root fetch - main [MainThread]: End processing [pasqal-cloud]: success
+[2023-04-20 11:11:42] INFO root fetch - main [MainThread]: End processing [scippnexus]: success
+[2023-04-20 11:11:43] INFO root fetch - main [MainThread]: End processing [tfy-mlflow-client]: success
+[2023-04-20 11:11:46] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-20 11:11:47] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-20 11:11:47] INFO root fetch - main [MainThread]: Store serial: [17784519]
