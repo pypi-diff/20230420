@@ -7382,3 +7382,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 06:09:34] INFO root fetch - processPackages [pipenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv-9.0.3.tar.gz tmp/pipenv-9.1.0.tar.gz --markdown 20230420/p/pipenv/9.0.3-9.1.0/diff.md --exclude *.pyd
 [2023-04-20 06:09:39] INFO root fetch - main [MainThread]: End processing [pipenv]: success
 [2023-04-20 06:09:39] INFO root fetch - main [MainThread]: Store serial: [17781916]
+[2023-04-20 06:14:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781916]
+[2023-04-20 06:14:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-20 06:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantecon-book-theme
+[2023-04-20 06:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-pipeline-package
+[2023-04-20 06:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gnnad
+[2023-04-20 06:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtproject
+[2023-04-20 06:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huble
+[2023-04-20 06:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: compress-py
+[2023-04-20 06:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: affinda
+[2023-04-20 06:14:48] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-20 06:14:48] WARNING root fetch - processPackages [compress-py]: Skipping, unable to determine old version
+[2023-04-20 06:14:48] INFO root fetch - main [MainThread]: End processing [compress-py] error
+[2023-04-20 06:14:48] INFO root fetch - processPackages [quantecon-book-theme]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-20 06:14:48] INFO root fetch - processPackages [huble]: New version: [0.2.300] Old Version: [0.2.2992]
+[2023-04-20 06:14:48] INFO root fetch - processPackages [gnnad]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 06:14:48] WARNING root fetch - processPackages [dtproject]: Skipping, unable to determine old version
+[2023-04-20 06:14:48] INFO root fetch - main [MainThread]: End processing [dtproject] error
+[2023-04-20 06:14:48] INFO root fetch - processPackages [affinda]: New version: [4.3.2] Old Version: [4.3.1]
+[2023-04-20 06:14:48] INFO root fetch - processPackages [quantecon-book-theme]: Downloading https://files.pythonhosted.org/packages/aa/19/42beef5e80944facb957f010703212ae3b9749620eabbe1f85392f3675a4/quantecon-book-theme-0.4.1.tar.gz
+[2023-04-20 06:14:48] INFO root fetch - processPackages [gnnad]: Downloading https://files.pythonhosted.org/packages/19/92/612bd884eadb274c435f54bddf1a89e5a02904bda2f8a4471623140e904d/gnnad-0.1.0.tar.gz
+[2023-04-20 06:14:48] INFO root fetch - processPackages [my-pipeline-package]: Downloading https://files.pythonhosted.org/packages/0e/28/7dcba8e15333650b8ddeefbd88dc97524dd71c54108984f9e92fef07e3c5/my-pipeline-package-1.1.6.tar.gz
+[2023-04-20 06:14:48] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/48/16/42b86f254fdc348b7f9aedfbbe5f1eb21b4395e7fcde297214ddf1e297b4/affinda-4.3.1.tar.gz
+[2023-04-20 06:14:48] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/6f/a3/3e7d6c4af38d832839ced71e9b8af56d8ab5a33f4796e2e9cb5dde43e0eb/huble-0.2.300.tar.gz
+[2023-04-20 06:14:49] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 06:14:49] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.5.tar.gz tmp/my-pipeline-package-1.1.6.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-20 06:14:49] INFO root fetch - processPackages [gnnad]: Downloading https://files.pythonhosted.org/packages/49/13/8c28d72cb2511ee4a843aade0f03f64311ac35a4cf38ad7d0989dae0a9df/gnnad-0.1.1.tar.gz
+[2023-04-20 06:14:49] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-20 06:14:49] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.2992.tar.gz tmp/huble-0.2.300.tar.gz --markdown 20230420/h/huble/0.2.2992-0.2.300/diff.md --exclude *.pyd
+[2023-04-20 06:14:49] INFO root fetch - processPackages [gnnad]: executing diffoscope
+[2023-04-20 06:14:49] INFO root fetch - processPackages [gnnad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnnad-0.1.0.tar.gz tmp/gnnad-0.1.1.tar.gz --markdown 20230420/g/gnnad/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 06:14:49] INFO root fetch - processPackages [quantecon-book-theme]: Downloading https://files.pythonhosted.org/packages/04/c2/c1abcf9546a32e3a7d8515d3f117601fbfa852f369e6ba05292145f28a40/quantecon-book-theme-0.4.2.tar.gz
+[2023-04-20 06:14:49] INFO root fetch - processPackages [affinda]: Downloading https://files.pythonhosted.org/packages/0b/71/9db4fbdeadc237a6b5caa4cb84125fbcb441ca9e90303a61731ce02b8f63/affinda-4.3.2.tar.gz
+[2023-04-20 06:14:49] INFO root fetch - processPackages [quantecon-book-theme]: executing diffoscope
+[2023-04-20 06:14:49] INFO root fetch - processPackages [quantecon-book-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantecon-book-theme-0.4.1.tar.gz tmp/quantecon-book-theme-0.4.2.tar.gz --markdown 20230420/q/quantecon-book-theme/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-20 06:14:49] INFO root fetch - processPackages [affinda]: executing diffoscope
+[2023-04-20 06:14:49] INFO root fetch - processPackages [affinda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affinda-4.3.1.tar.gz tmp/affinda-4.3.2.tar.gz --markdown 20230420/a/affinda/4.3.1-4.3.2/diff.md --exclude *.pyd
+[2023-04-20 06:14:50] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 06:14:50] INFO root fetch - main [MainThread]: End processing [gnnad]: success
+[2023-04-20 06:14:50] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-20 06:14:54] INFO root fetch - main [MainThread]: End processing [affinda]: success
+[2023-04-20 06:15:03] INFO root fetch - main [MainThread]: End processing [quantecon-book-theme]: success
+[2023-04-20 06:15:03] INFO root fetch - main [MainThread]: Store serial: [17781957]
