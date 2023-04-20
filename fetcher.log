@@ -6067,3 +6067,106 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 04:01:12] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
 [2023-04-20 04:01:12] INFO root fetch - main [MainThread]: End processing [otoole]: success
 [2023-04-20 04:01:12] INFO root fetch - main [MainThread]: Store serial: [17781066]
+[2023-04-20 04:06:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781066]
+[2023-04-20 04:06:21] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-20 04:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmd2func
+[2023-04-20 04:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-intel
+[2023-04-20 04:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anywidget
+[2023-04-20 04:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chats
+[2023-04-20 04:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dqrobotics
+[2023-04-20 04:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bingbong
+[2023-04-20 04:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rssreruns
+[2023-04-20 04:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edc-metadata
+[2023-04-20 04:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: esphome
+[2023-04-20 04:06:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: remindmail
+[2023-04-20 04:06:21] INFO root fetch - processPackages [cmd2func]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-20 04:06:21] INFO root fetch - processPackages [remindmail]: New version: [2023.4.2.2] Old Version: [2023.4.2.1]
+[2023-04-20 04:06:21] WARNING root fetch - processPackages [chats]: Skipping, unable to determine old version
+[2023-04-20 04:06:21] INFO root fetch - processPackages [anywidget]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-20 04:06:21] INFO root fetch - processPackages [chats]: Start processing: ascii-cli
+[2023-04-20 04:06:21] INFO root fetch - processPackages [bingbong]: New version: [0.1.8] Old Version: [0.1.7.1]
+[2023-04-20 04:06:21] INFO root fetch - main [MainThread]: End processing [chats] error
+[2023-04-20 04:06:21] INFO root fetch - processPackages [rssreruns]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 04:06:21] INFO root fetch - processPackages [ascii-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 04:06:21] INFO root fetch - processPackages [edc-metadata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-20 04:06:21] INFO root fetch - processPackages [esphome]: New version: [2023.4.0b4] Old Version: [2023.4.0b3]
+[2023-04-20 04:06:21] INFO root fetch - processPackages [dqrobotics]: New version: [23.4.0a5] Old Version: [23.4.0a4]
+[2023-04-20 04:06:22] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.13.0.dev20230419] Old Version: [2.13.0.dev20230418]
+[2023-04-20 04:06:22] INFO root fetch - processPackages [rssreruns]: executing diffoscope
+[2023-04-20 04:06:22] INFO root fetch - processPackages [rssreruns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssreruns-0.0.8.tar.gz tmp/rssreruns-0.0.9.tar.gz --markdown 20230420/r/rssreruns/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 04:06:22] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-04-20 04:06:22] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.4.2.1.tar.gz tmp/remindmail-2023.4.2.2.tar.gz --markdown 20230420/r/remindmail/2023.4.2.1-2023.4.2.2/diff.md --exclude *.pyd
+[2023-04-20 04:06:22] INFO root fetch - processPackages [ascii-cli]: Downloading https://files.pythonhosted.org/packages/ff/36/dc96892cf618fd1b2c7e1fa95f129c6496a5fc8996ee91173678a321303a/ascii-cli-0.0.8.tar.gz
+[2023-04-20 04:06:22] INFO root fetch - processPackages [cmd2func]: Downloading https://files.pythonhosted.org/packages/4d/aa/019c8264a54b018fe648da6fb15728a128b24673eb4cf4679251d0f7a696/cmd2func-0.1.6.tar.gz
+[2023-04-20 04:06:22] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/7f/d2/f773acb91e269f89acd9e939841f0c05e5f2782c70ebf50117318d664b49/esphome-2023.4.0b4.tar.gz
+[2023-04-20 04:06:22] INFO root fetch - processPackages [dqrobotics]: Downloading https://files.pythonhosted.org/packages/0a/5b/bd4a712f62df73e0db9713b4aec1ebd78d8fc843892dc01c8eb56418bdb1/dqrobotics-23.4.0a5-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-20 04:06:22] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/6a/65/639bc5eef12273f11cfc82bbbd203a04add64c4821f546afc472a24b6519/tf_nightly_intel-2.13.0.dev20230418-cp39-cp39-win_amd64.whl
+[2023-04-20 04:06:22] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/31/9d/7e4dc7d00a9f09501415d10d685657f87a104cade0c183eeed14910dacce/edc_metadata-0.3.8-py3-none-any.whl
+[2023-04-20 04:06:22] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 178491488>=10485760
+[2023-04-20 04:06:22] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: bsl-appcli
+[2023-04-20 04:06:22] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-04-20 04:06:22] INFO root fetch - processPackages [bsl-appcli]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-20 04:06:22] INFO root fetch - processPackages [dqrobotics]: executing diffoscope
+[2023-04-20 04:06:22] INFO root fetch - processPackages [dqrobotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqrobotics-23.4.0a4-cp38-cp38-macosx_13_0_arm64.whl.zip tmp/dqrobotics-23.4.0a5-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230420/d/dqrobotics/23.4.0a4-23.4.0a5/diff.md --exclude *.pyd
+[2023-04-20 04:06:22] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/c8/06/bccb7bb79d62587f5e2cd8baf091b596433c91113e7bfe4555decc1365de/anywidget-0.2.3.tar.gz
+[2023-04-20 04:06:22] INFO root fetch - processPackages [bingbong]: Downloading https://files.pythonhosted.org/packages/b4/bc/a3f5b69e585694bb01895ec03551f7bfc534ab6257e83358dfd49e7c260c/bingbong-0.1.8-py3-none-any.whl
+[2023-04-20 04:06:22] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-04-20 04:06:22] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.4.0b3.tar.gz tmp/esphome-2023.4.0b4.tar.gz --markdown 20230420/e/esphome/2023.4.0b3-2023.4.0b4/diff.md --exclude *.pyd
+[2023-04-20 04:06:22] INFO root fetch - processPackages [ascii-cli]: Downloading https://files.pythonhosted.org/packages/1f/b0/8e4887ebb9c75dec7a1447c521234d664e464dfe123088b9cc096c2768aa/ascii-cli-0.0.9.tar.gz
+[2023-04-20 04:06:22] INFO root fetch - processPackages [bingbong]: executing diffoscope
+[2023-04-20 04:06:22] INFO root fetch - processPackages [bingbong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingbong-0.1.7.1-py3-none-any.whl.zip tmp/bingbong-0.1.8-py3-none-any.whl.zip --markdown 20230420/b/bingbong/0.1.7.1-0.1.8/diff.md --exclude *.pyd
+[2023-04-20 04:06:22] INFO root fetch - processPackages [ascii-cli]: executing diffoscope
+[2023-04-20 04:06:22] INFO root fetch - processPackages [ascii-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascii-cli-0.0.8.tar.gz tmp/ascii-cli-0.0.9.tar.gz --markdown 20230420/a/ascii-cli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 04:06:22] INFO root fetch - processPackages [cmd2func]: Downloading https://files.pythonhosted.org/packages/d8/d2/5f07f6d74e5bc7c7efeae1e8927700cd58ed658dc219f0ab68ed19a24414/cmd2func-0.1.7.tar.gz
+[2023-04-20 04:06:22] INFO root fetch - processPackages [anywidget]: executing diffoscope
+[2023-04-20 04:06:22] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/d6/be/1e4ce3a31c5167df0f47282fd84c57678380195d4d55344eba1822313a7c/bsl-appcli-1.5.0.tar.gz
+[2023-04-20 04:06:22] INFO root fetch - processPackages [anywidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anywidget-0.2.2.tar.gz tmp/anywidget-0.2.3.tar.gz --markdown 20230420/a/anywidget/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-20 04:06:22] INFO root fetch - processPackages [cmd2func]: executing diffoscope
+[2023-04-20 04:06:22] INFO root fetch - processPackages [cmd2func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmd2func-0.1.6.tar.gz tmp/cmd2func-0.1.7.tar.gz --markdown 20230420/c/cmd2func/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-20 04:06:22] INFO root fetch - processPackages [bsl-appcli]: executing diffoscope
+[2023-04-20 04:06:22] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/fc/87/223d66df835d66d65b4b4fee1285f68343b30d95b0385ea166afd9f48874/edc_metadata-0.3.9-py3-none-any.whl
+[2023-04-20 04:06:22] INFO root fetch - processPackages [bsl-appcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsl-appcli-1.4.0.tar.gz tmp/bsl-appcli-1.5.0.tar.gz --markdown 20230420/b/bsl-appcli/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-20 04:06:22] INFO root fetch - processPackages [edc-metadata]: executing diffoscope
+[2023-04-20 04:06:22] INFO root fetch - processPackages [edc-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_metadata-0.3.8-py3-none-any.whl.zip tmp/edc_metadata-0.3.9-py3-none-any.whl.zip --markdown 20230420/e/edc-metadata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-20 04:06:23] INFO root fetch - processPackages [rssreruns]: Start processing: bsl-appcli
+[2023-04-20 04:06:23] INFO root fetch - main [MainThread]: End processing [rssreruns]: success
+[2023-04-20 04:06:23] INFO root fetch - processPackages [bsl-appcli]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-04-20 04:06:23] INFO root fetch - processPackages [remindmail]: Start processing: XMLCit
+[2023-04-20 04:06:23] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-04-20 04:06:23] ERROR root fetch - processPackages [XMLCit]: Unable to get metadata: No such project 'XMLCit'
+[2023-04-20 04:06:23] INFO root fetch - processPackages [XMLCit]: Start processing: leaguedaily
+[2023-04-20 04:06:23] INFO root fetch - main [MainThread]: End processing [XMLCit] error
+[2023-04-20 04:06:23] WARNING root fetch - processPackages [leaguedaily]: Skipping, unable to determine old version
+[2023-04-20 04:06:23] INFO root fetch - processPackages [leaguedaily]: Start processing: klu
+[2023-04-20 04:06:23] INFO root fetch - main [MainThread]: End processing [leaguedaily] error
+[2023-04-20 04:06:23] WARNING root fetch - processPackages [klu]: Skipping, unable to determine old version
+[2023-04-20 04:06:23] INFO root fetch - processPackages [klu]: Start processing: otoole
+[2023-04-20 04:06:23] INFO root fetch - main [MainThread]: End processing [klu] error
+[2023-04-20 04:06:23] INFO root fetch - processPackages [otoole]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-20 04:06:23] INFO root fetch - processPackages [bsl-appcli]: executing diffoscope
+[2023-04-20 04:06:23] INFO root fetch - processPackages [bsl-appcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsl-appcli-1.4.0.tar.gz tmp/bsl-appcli-1.5.0.tar.gz --markdown 20230420/b/bsl-appcli/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-04-20 04:06:23] INFO root fetch - processPackages [ascii-cli]: Start processing: edc-randomization
+[2023-04-20 04:06:23] INFO root fetch - main [MainThread]: End processing [ascii-cli]: success
+[2023-04-20 04:06:23] INFO root fetch - processPackages [otoole]: executing diffoscope
+[2023-04-20 04:06:23] INFO root fetch - processPackages [otoole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoole-1.0.0.tar.gz tmp/otoole-1.0.1.tar.gz --markdown 20230420/o/otoole/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-20 04:06:24] INFO root fetch - processPackages [edc-randomization]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-20 04:06:24] INFO root fetch - processPackages [cmd2func]: Start processing: blockapi
+[2023-04-20 04:06:24] INFO root fetch - main [MainThread]: End processing [cmd2func]: success
+[2023-04-20 04:06:24] INFO root fetch - processPackages [blockapi]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-20 04:06:24] INFO root fetch - processPackages [edc-randomization]: executing diffoscope
+[2023-04-20 04:06:24] INFO root fetch - processPackages [edc-randomization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_randomization-0.3.8-py3-none-any.whl.zip tmp/edc_randomization-0.3.9-py3-none-any.whl.zip --markdown 20230420/e/edc-randomization/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-20 04:06:24] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/31/4d/7d461a226992bb823af9a205b83532fd5cf942306b4ad4f220a2817a8ee4/blockapi-0.8.1.tar.gz
+[2023-04-20 04:06:24] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
+[2023-04-20 04:06:25] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/6a/ed/17b1b9e53b4a0bb6d3d31ae17aeaa73238a3bc01d6b208f6b4fb0812d638/blockapi-0.9.0.tar.gz
+[2023-04-20 04:06:25] INFO root fetch - main [MainThread]: End processing [bsl-appcli]: success
+[2023-04-20 04:06:25] INFO root fetch - processPackages [blockapi]: executing diffoscope
+[2023-04-20 04:06:25] INFO root fetch - processPackages [blockapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockapi-0.8.1.tar.gz tmp/blockapi-0.9.0.tar.gz --markdown 20230420/b/blockapi/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 04:06:25] INFO root fetch - main [MainThread]: End processing [otoole]: success
+[2023-04-20 04:06:25] INFO root fetch - main [MainThread]: End processing [bsl-appcli]: success
+[2023-04-20 04:06:25] INFO root fetch - main [MainThread]: End processing [edc-randomization]: success
+[2023-04-20 04:06:25] INFO root fetch - main [MainThread]: End processing [dqrobotics]: success
+[2023-04-20 04:06:26] INFO root fetch - main [MainThread]: End processing [blockapi]: success
+[2023-04-20 04:06:30] INFO root fetch - main [MainThread]: End processing [anywidget]: success
+[2023-04-20 04:06:32] INFO root fetch - main [MainThread]: End processing [bingbong]: success
+[2023-04-20 04:07:11] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-04-20 04:07:11] INFO root fetch - main [MainThread]: Store serial: [17781133]
