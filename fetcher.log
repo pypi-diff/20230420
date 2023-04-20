@@ -21459,3 +21459,119 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 18:36:17] INFO root fetch - main [MainThread]: End processing [anatqc]: success
 [2023-04-20 18:36:33] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
 [2023-04-20 18:36:33] INFO root fetch - main [MainThread]: Store serial: [17790155]
+[2023-04-20 18:41:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790155]
+[2023-04-20 18:41:42] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-20 18:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xnattagger
+[2023-04-20 18:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pvbm
+[2023-04-20 18:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysus
+[2023-04-20 18:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Flask-Meter
+[2023-04-20 18:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biotree-tools
+[2023-04-20 18:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invenio-communities
+[2023-04-20 18:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nlptest
+[2023-04-20 18:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: markit-tcpbroker
+[2023-04-20 18:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: click-skeleton
+[2023-04-20 18:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepview-profile
+[2023-04-20 18:41:42] INFO root fetch - processPackages [Flask-Meter]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-20 18:41:42] INFO root fetch - processPackages [biotree-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 18:41:42] WARNING root fetch - processPackages [pvbm]: Skipping, unable to determine old version
+[2023-04-20 18:41:42] INFO root fetch - processPackages [pvbm]: Start processing: determined-deploy
+[2023-04-20 18:41:42] INFO root fetch - main [MainThread]: End processing [pvbm] error
+[2023-04-20 18:41:42] INFO root fetch - processPackages [xnattagger]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-04-20 18:41:42] INFO root fetch - processPackages [nlptest]: New version: [1.0.2rc6] Old Version: [1.0.2rc5]
+[2023-04-20 18:41:42] INFO root fetch - processPackages [pysus]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-20 18:41:42] INFO root fetch - processPackages [invenio-communities]: New version: [6.3.0] Old Version: [6.2.1]
+[2023-04-20 18:41:42] INFO root fetch - processPackages [nlptest]: Downloading https://files.pythonhosted.org/packages/21/2b/c0175280f5801ae40262f2ea504e2f35c04a39abc6fcc5eb174e4ae9513a/nlptest-1.0.2rc5.tar.gz
+[2023-04-20 18:41:42] INFO root fetch - processPackages [markit-tcpbroker]: New version: [1.8.2] Old Version: [1.7]
+[2023-04-20 18:41:42] INFO root fetch - processPackages [deepview-profile]: New version: [0.12.2] Old Version: [0.12.1]
+[2023-04-20 18:41:42] INFO root fetch - processPackages [Flask-Meter]: Downloading https://files.pythonhosted.org/packages/c7/e3/47e39cccc4e87a5d162c0e6f0f9a8aa1daec44a45ee45631eaf3cd61e9d5/Flask-Meter-1.0.1.tar.gz
+[2023-04-20 18:41:42] INFO root fetch - processPackages [determined-deploy]: New version: [0.21.2rc1] Old Version: [0.21.2rc0]
+[2023-04-20 18:41:42] INFO root fetch - processPackages [click-skeleton]: New version: [0.9.1] Old Version: [0.9]
+[2023-04-20 18:41:42] INFO root fetch - processPackages [biotree-tools]: Downloading https://files.pythonhosted.org/packages/b0/06/8047e9b8eea412a8103087812316a517a114595744179a6ab7393eedb888/biotree_tools-0.0.1.tar.gz
+[2023-04-20 18:41:43] WARNING root fetch - processPackages [nlptest]: Skipping package: exceeds size limit 48517857>=10485760
+[2023-04-20 18:41:43] INFO root fetch - processPackages [nlptest]: Start processing: determined-common
+[2023-04-20 18:41:43] INFO root fetch - main [MainThread]: End processing [nlptest] error
+[2023-04-20 18:41:43] INFO root fetch - processPackages [xnattagger]: Downloading https://files.pythonhosted.org/packages/fc/71/83dc2c79d6a2b44c51d574470608f0ca16b082993a4cf728ace726a38b6c/xnattagger-0.3.0-py2.py3-none-any.whl
+[2023-04-20 18:41:43] INFO root fetch - processPackages [pysus]: Downloading https://files.pythonhosted.org/packages/48/c5/4bf14571898c100eee955c42621427335be0059e7262b006a215581af638/pysus-0.9.1.tar.gz
+[2023-04-20 18:41:43] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/ac/18/f14f35578a67eede5673de1fc1e662b321d108c70716a887ac992476a575/invenio-communities-6.2.1.tar.gz
+[2023-04-20 18:41:43] INFO root fetch - processPackages [xnattagger]: executing diffoscope
+[2023-04-20 18:41:43] INFO root fetch - processPackages [xnattagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnattagger-0.2.4-py2.py3-none-any.whl.zip tmp/xnattagger-0.3.0-py2.py3-none-any.whl.zip --markdown 20230420/x/xnattagger/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 18:41:43] INFO root fetch - processPackages [markit-tcpbroker]: Downloading https://files.pythonhosted.org/packages/bb/06/827997a71a68583e6d72326cd87b2cffa5703f6102eb732596343541e13e/markit-tcpbroker-1.7.tar.gz
+[2023-04-20 18:41:43] INFO root fetch - processPackages [deepview-profile]: Downloading https://files.pythonhosted.org/packages/20/12/48a4c2ee166e8b69cc25671c7acb7c3223b46c2a59a26c1ac35967252890/deepview-profile-0.12.1.tar.gz
+[2023-04-20 18:41:43] INFO root fetch - processPackages [determined-common]: New version: [0.21.2rc1] Old Version: [0.21.2rc0]
+[2023-04-20 18:41:43] INFO root fetch - processPackages [click-skeleton]: Downloading https://files.pythonhosted.org/packages/53/73/523ac4ac3d69bb1008b8440f6ad8e19e009270538dd9795f1fd6c0af53b1/click-skeleton-0.9.tar.gz
+[2023-04-20 18:41:43] INFO root fetch - processPackages [biotree-tools]: Downloading https://files.pythonhosted.org/packages/16/37/fac9af14a888f029e2be1c84e79c758a757caee0a8c3d8845c1634b21296/biotree_tools-0.0.2.tar.gz
+[2023-04-20 18:41:43] INFO root fetch - processPackages [determined-deploy]: Downloading https://files.pythonhosted.org/packages/fc/04/47954399c21b426f1b155432ba9ec50e8e09ed55c0abdf8040cd403b5aba/determined_deploy-0.21.2rc1-py3-none-any.whl
+[2023-04-20 18:41:43] INFO root fetch - processPackages [Flask-Meter]: Downloading https://files.pythonhosted.org/packages/45/7f/c525bd087dda0c29b83efa7e2261f94c505831b2827bcdef44ba38a0ed8c/Flask-Meter-1.0.2.tar.gz
+[2023-04-20 18:41:43] INFO root fetch - processPackages [biotree-tools]: executing diffoscope
+[2023-04-20 18:41:43] INFO root fetch - processPackages [biotree-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biotree_tools-0.0.1.tar.gz tmp/biotree_tools-0.0.2.tar.gz --markdown 20230420/b/biotree-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 18:41:43] INFO root fetch - processPackages [Flask-Meter]: executing diffoscope
+[2023-04-20 18:41:43] INFO root fetch - processPackages [Flask-Meter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-Meter-1.0.1.tar.gz tmp/Flask-Meter-1.0.2.tar.gz --markdown 20230420/F/Flask-Meter/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 18:41:43] INFO root fetch - processPackages [deepview-profile]: Downloading https://files.pythonhosted.org/packages/6d/11/dcaa34a76fe86b8b9558f128cd95ea1170370a958e8ec64192766ea38ae5/deepview-profile-0.12.2.tar.gz
+[2023-04-20 18:41:43] INFO root fetch - processPackages [pysus]: Downloading https://files.pythonhosted.org/packages/76/ac/12197334b4e68d3d9c6ef49fcfd4a2c427a1945389bc3484bc15e5ece538/pysus-0.9.2.tar.gz
+[2023-04-20 18:41:43] INFO root fetch - processPackages [invenio-communities]: Downloading https://files.pythonhosted.org/packages/0d/52/bfbfa3497d88b51e65bf8c9b3596a2c8c498f97b1e2a31f1b50c8ce7df01/invenio-communities-6.3.0.tar.gz
+[2023-04-20 18:41:43] INFO root fetch - processPackages [pysus]: executing diffoscope
+[2023-04-20 18:41:43] INFO root fetch - processPackages [pysus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysus-0.9.1.tar.gz tmp/pysus-0.9.2.tar.gz --markdown 20230420/p/pysus/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-20 18:41:43] INFO root fetch - processPackages [determined-deploy]: executing diffoscope
+[2023-04-20 18:41:43] INFO root fetch - processPackages [invenio-communities]: executing diffoscope
+[2023-04-20 18:41:43] INFO root fetch - processPackages [determined-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_deploy-0.21.2rc0-py3-none-any.whl.zip tmp/determined_deploy-0.21.2rc1-py3-none-any.whl.zip --markdown 20230420/d/determined-deploy/0.21.2rc0-0.21.2rc1/diff.md --exclude *.pyd
+[2023-04-20 18:41:43] INFO root fetch - processPackages [invenio-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-communities-6.2.1.tar.gz tmp/invenio-communities-6.3.0.tar.gz --markdown 20230420/i/invenio-communities/6.2.1-6.3.0/diff.md --exclude *.pyd
+[2023-04-20 18:41:43] INFO root fetch - processPackages [markit-tcpbroker]: Downloading https://files.pythonhosted.org/packages/c6/49/3100675a33fb6f053c7bfe26f7ca042138a1d3b37c567dc8d2ac1aa2afa7/markit-tcpbroker-1.8.2.tar.gz
+[2023-04-20 18:41:43] INFO root fetch - processPackages [deepview-profile]: executing diffoscope
+[2023-04-20 18:41:43] INFO root fetch - processPackages [deepview-profile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepview-profile-0.12.1.tar.gz tmp/deepview-profile-0.12.2.tar.gz --markdown 20230420/d/deepview-profile/0.12.1-0.12.2/diff.md --exclude *.pyd
+[2023-04-20 18:41:43] INFO root fetch - processPackages [determined-common]: Downloading https://files.pythonhosted.org/packages/62/7d/ca4413b76d1738384ac04c7080bd8df72594c59c257a1634a20751a46ed3/determined_common-0.21.2rc1-py3-none-any.whl
+[2023-04-20 18:41:43] INFO root fetch - processPackages [click-skeleton]: Downloading https://files.pythonhosted.org/packages/13/67/5dd232e08487bb692dd8322f8e7f203c568435875a41f1f63a9a610a955a/click-skeleton-0.9.1.tar.gz
+[2023-04-20 18:41:43] INFO root fetch - processPackages [markit-tcpbroker]: executing diffoscope
+[2023-04-20 18:41:43] INFO root fetch - processPackages [markit-tcpbroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markit-tcpbroker-1.7.tar.gz tmp/markit-tcpbroker-1.8.2.tar.gz --markdown 20230420/m/markit-tcpbroker/1.7-1.8.2/diff.md --exclude *.pyd
+[2023-04-20 18:41:43] INFO root fetch - processPackages [determined-common]: executing diffoscope
+[2023-04-20 18:41:43] INFO root fetch - processPackages [determined-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_common-0.21.2rc0-py3-none-any.whl.zip tmp/determined_common-0.21.2rc1-py3-none-any.whl.zip --markdown 20230420/d/determined-common/0.21.2rc0-0.21.2rc1/diff.md --exclude *.pyd
+[2023-04-20 18:41:43] INFO root fetch - processPackages [click-skeleton]: executing diffoscope
+[2023-04-20 18:41:43] INFO root fetch - processPackages [click-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click-skeleton-0.9.tar.gz tmp/click-skeleton-0.9.1.tar.gz --markdown 20230420/c/click-skeleton/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 18:41:44] INFO root fetch - processPackages [xnattagger]: Start processing: model-hub
+[2023-04-20 18:41:44] INFO root fetch - main [MainThread]: End processing [xnattagger]: success
+[2023-04-20 18:41:44] INFO root fetch - processPackages [model-hub]: New version: [0.21.2rc1] Old Version: [0.21.2rc0]
+[2023-04-20 18:41:44] INFO root fetch - processPackages [biotree-tools]: Start processing: determined-cli
+[2023-04-20 18:41:44] INFO root fetch - main [MainThread]: End processing [biotree-tools]: success
+[2023-04-20 18:41:44] INFO root fetch - processPackages [determined-cli]: New version: [0.21.2rc1] Old Version: [0.21.2rc0]
+[2023-04-20 18:41:44] INFO root fetch - processPackages [Flask-Meter]: Start processing: determined
+[2023-04-20 18:41:44] INFO root fetch - main [MainThread]: End processing [Flask-Meter]: success
+[2023-04-20 18:41:44] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/a2/ec/97ddc7abd08faa1ec40b114adad33d2e5a528f7e242c6fe911e5cc702ccc/model_hub-0.21.2rc1-py3-none-any.whl
+[2023-04-20 18:41:45] INFO root fetch - processPackages [determined-deploy]: Start processing: edgartools
+[2023-04-20 18:41:45] INFO root fetch - main [MainThread]: End processing [determined-deploy]: success
+[2023-04-20 18:41:45] INFO root fetch - processPackages [determined]: New version: [0.21.2rc1] Old Version: [0.21.2rc0]
+[2023-04-20 18:41:45] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-04-20 18:41:45] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.21.2rc0-py3-none-any.whl.zip tmp/model_hub-0.21.2rc1-py3-none-any.whl.zip --markdown 20230420/m/model-hub/0.21.2rc0-0.21.2rc1/diff.md --exclude *.pyd
+[2023-04-20 18:41:45] INFO root fetch - processPackages [determined-common]: Start processing: UniverseLists
+[2023-04-20 18:41:45] INFO root fetch - main [MainThread]: End processing [determined-common]: success
+[2023-04-20 18:41:45] INFO root fetch - processPackages [edgartools]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-20 18:41:45] INFO root fetch - processPackages [UniverseLists]: New version: [0.3] Old Version: [0.2]
+[2023-04-20 18:41:45] INFO root fetch - processPackages [edgartools]: executing diffoscope
+[2023-04-20 18:41:45] INFO root fetch - processPackages [edgartools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgartools-1.8.0.tar.gz tmp/edgartools-1.9.0.tar.gz --markdown 20230420/e/edgartools/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 18:41:45] INFO root fetch - processPackages [UniverseLists]: executing diffoscope
+[2023-04-20 18:41:45] INFO root fetch - processPackages [UniverseLists]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UniverseLists-0.2.tar.gz tmp/UniverseLists-0.3.tar.gz --markdown 20230420/U/UniverseLists/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-20 18:41:45] INFO root fetch - processPackages [determined-cli]: Downloading https://files.pythonhosted.org/packages/48/a8/697cafd40feb2e6a4dab54b730bab0637b945aef404c866fb687aa9ec0e2/determined_cli-0.21.2rc1-py3-none-any.whl
+[2023-04-20 18:41:45] INFO root fetch - processPackages [determined-cli]: executing diffoscope
+[2023-04-20 18:41:45] INFO root fetch - processPackages [determined-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined_cli-0.21.2rc0-py3-none-any.whl.zip tmp/determined_cli-0.21.2rc1-py3-none-any.whl.zip --markdown 20230420/d/determined-cli/0.21.2rc0-0.21.2rc1/diff.md --exclude *.pyd
+[2023-04-20 18:41:45] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/2f/70/d2125b935669c54a21518cdba7c28773db64b98a407bfa21dfbbb47fb884/determined-0.21.2rc1-py3-none-any.whl
+[2023-04-20 18:41:45] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-04-20 18:41:45] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.21.2rc0-py3-none-any.whl.zip tmp/determined-0.21.2rc1-py3-none-any.whl.zip --markdown 20230420/d/determined/0.21.2rc0-0.21.2rc1/diff.md --exclude *.pyd
+[2023-04-20 18:41:45] INFO root fetch - processPackages [click-skeleton]: Start processing: django-pfx
+[2023-04-20 18:41:45] INFO root fetch - main [MainThread]: End processing [click-skeleton]: success
+[2023-04-20 18:41:45] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-04-20 18:41:45] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-04-20 18:41:45] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230420/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-04-20 18:41:45] INFO root fetch - processPackages [markit-tcpbroker]: Start processing: abacusai
+[2023-04-20 18:41:45] INFO root fetch - main [MainThread]: End processing [markit-tcpbroker]: success
+[2023-04-20 18:41:45] INFO root fetch - processPackages [abacusai]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-20 18:41:45] INFO root fetch - processPackages [abacusai]: executing diffoscope
+[2023-04-20 18:41:45] INFO root fetch - processPackages [abacusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abacusai-0.9.1.tar.gz tmp/abacusai-0.9.2.tar.gz --markdown 20230420/a/abacusai/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-20 18:41:46] INFO root fetch - main [MainThread]: End processing [deepview-profile]: success
+[2023-04-20 18:41:46] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-04-20 18:41:46] INFO root fetch - main [MainThread]: End processing [UniverseLists]: success
+[2023-04-20 18:41:46] INFO root fetch - main [MainThread]: End processing [determined-cli]: success
+[2023-04-20 18:41:47] INFO root fetch - main [MainThread]: End processing [abacusai]: success
+[2023-04-20 18:41:47] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-04-20 18:41:48] INFO root fetch - main [MainThread]: End processing [edgartools]: success
+[2023-04-20 18:41:48] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-04-20 18:41:49] INFO root fetch - main [MainThread]: End processing [pysus]: success
+[2023-04-20 18:41:56] INFO root fetch - main [MainThread]: End processing [invenio-communities]: success
+[2023-04-20 18:41:56] INFO root fetch - main [MainThread]: Store serial: [17790209]
