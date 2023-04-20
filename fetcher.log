@@ -22778,3 +22778,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 19:50:52] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
 [2023-04-20 19:51:06] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-04-20 19:51:06] INFO root fetch - main [MainThread]: Store serial: [17790973]
+[2023-04-20 19:56:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790973]
+[2023-04-20 19:56:16] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erddapy
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ucx-py-cu11
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cuml-cu11
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cugraph-cu11
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wox
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cudf-cu11
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dask-cudf-cu11
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decodanda
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DairyBrainUtils
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crc-event-schemas
+[2023-04-20 19:56:16] INFO root fetch - processPackages [dask-cudf-cu11]: New version: [23.4.0.1681364034] Old Version: [23.4.0]
+[2023-04-20 19:56:16] INFO root fetch - processPackages [erddapy]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ucx-py-cu11]: New version: [0.31.0.1681362077] Old Version: [0.31.0]
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cugraph-cu11]: New version: [23.4.0.1681369743] Old Version: [23.4.0]
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cudf-cu11]: New version: [23.4.0.1681363056] Old Version: [23.4.0]
+[2023-04-20 19:56:16] INFO root fetch - processPackages [crc-event-schemas]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cuml-cu11]: New version: [23.4.0.1681368248] Old Version: [23.4.0]
+[2023-04-20 19:56:16] WARNING root fetch - processPackages [wox]: Skipping, unable to determine old version
+[2023-04-20 19:56:16] INFO root fetch - processPackages [DairyBrainUtils]: New version: [0.3.7] Old Version: [0.3.3]
+[2023-04-20 19:56:16] INFO root fetch - processPackages [wox]: Start processing: asu
+[2023-04-20 19:56:16] INFO root fetch - main [MainThread]: End processing [wox] error
+[2023-04-20 19:56:16] INFO root fetch - processPackages [decodanda]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-20 19:56:16] INFO root fetch - processPackages [asu]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-20 19:56:16] INFO root fetch - processPackages [dask-cudf-cu11]: Downloading https://files.pythonhosted.org/packages/02/bb/c4c221c57d54421d8607fcbc0fe0afcc5dbf9b3ed21cb5fd7151002e50da/dask_cudf_cu11-23.4.0.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ucx-py-cu11]: Downloading https://files.pythonhosted.org/packages/75/8a/3a50193226363e9aabf20469d79e5f212ac5d23cab284e3b14ddedb712e2/ucx_py_cu11-0.31.0.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cugraph-cu11]: Downloading https://files.pythonhosted.org/packages/94/e4/76e6768dfd0bd07c27a1f6e441a4526bc0b3a38a8e893daca2b37b92413e/cugraph_cu11-23.4.0.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cudf-cu11]: Downloading https://files.pythonhosted.org/packages/a5/66/049909add470b34ee7d962d97682626a66be1976bb36f599c80310b9b7d5/cudf_cu11-23.4.0.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cuml-cu11]: Downloading https://files.pythonhosted.org/packages/8c/76/6ee7fdb742f20f98a1235f554d41493932ac0a361652b9095e6f999bcd56/cuml_cu11-23.4.0.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [crc-event-schemas]: Downloading https://files.pythonhosted.org/packages/4a/db/0d75681cabe1482f863c354194134542cc825ac0d429735c2777b3f6bb11/crc-event-schemas-0.1.0.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [DairyBrainUtils]: Downloading https://files.pythonhosted.org/packages/47/35/eba8b120a667e3d8a797ea0bb9b532d472d453a7ecbb49d2f95c8efed078/DairyBrainUtils-0.3.3.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [erddapy]: Downloading https://files.pythonhosted.org/packages/9b/61/26133b283d9187561276a9da795e7465b0f839fa87b4c560372463de71a0/erddapy-2.0.1.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [decodanda]: Downloading https://files.pythonhosted.org/packages/51/54/0fce0c1554fabf836bd8f63be22ad0f4d9ce98a830d7c7acb9785d37a272/decodanda-0.6.3.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [erddapy]: executing diffoscope
+[2023-04-20 19:56:16] INFO root fetch - processPackages [erddapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erddapy-2.0.0.tar.gz tmp/erddapy-2.0.1.tar.gz --markdown 20230420/e/erddapy/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-20 19:56:16] INFO root fetch - processPackages [dask-cudf-cu11]: Downloading https://files.pythonhosted.org/packages/bd/f0/8dda062ca2ff2259d20527609966e0ee45b4490d8d7468c9f8ba474c4a4c/dask_cudf_cu11-23.4.0.1681364034.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [DairyBrainUtils]: Downloading https://files.pythonhosted.org/packages/63/77/9034a4ffa4eb576b5fbd1d93475b94d10c2a39e08c0b2846a1966e3b12ce/DairyBrainUtils-0.3.7.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cuml-cu11]: Downloading https://files.pythonhosted.org/packages/eb/b0/7fd9cac5e6c2a848625b5d9e7a0dd6b43ef801c6a46f3b0e1382f2dec26e/cuml_cu11-23.4.0.1681368248.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cugraph-cu11]: Downloading https://files.pythonhosted.org/packages/43/49/e8fdb353a4585cf534056520ba5fedeaaa727830ef38d668781a5075497d/cugraph_cu11-23.4.0.1681369743.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [asu]: executing diffoscope
+[2023-04-20 19:56:16] INFO root fetch - processPackages [asu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asu-0.7.8.tar.gz tmp/asu-0.7.9.tar.gz --markdown 20230420/a/asu/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ucx-py-cu11]: Downloading https://files.pythonhosted.org/packages/5c/bd/8410f3c96c7034b4381e10c42da6dde1e8430b0e1ea5ba9b983eee707076/ucx_py_cu11-0.31.0.1681362077.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cudf-cu11]: Downloading https://files.pythonhosted.org/packages/a2/ab/96f500b0fe53ddc3a8d7cd5094d715eee15c2b8d4a6129e8cf43b126eb3b/cudf_cu11-23.4.0.1681363056.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [crc-event-schemas]: Downloading https://files.pythonhosted.org/packages/ed/47/8bc258a0b7b035aa7f583547798cb4470e63225bee7b7693fa864a276af5/crc-event-schemas-0.1.1.tar.gz
+[2023-04-20 19:56:16] INFO root fetch - processPackages [decodanda]: executing diffoscope
+[2023-04-20 19:56:16] INFO root fetch - processPackages [decodanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decodanda-0.6.2.tar.gz tmp/decodanda-0.6.3.tar.gz --markdown 20230420/d/decodanda/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cuml-cu11]: executing diffoscope
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cuml-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuml_cu11-23.4.0.tar.gz tmp/cuml_cu11-23.4.0.1681368248.tar.gz --markdown 20230420/c/cuml-cu11/23.4.0-23.4.0.1681368248/diff.md --exclude *.pyd
+[2023-04-20 19:56:16] INFO root fetch - processPackages [dask-cudf-cu11]: executing diffoscope
+[2023-04-20 19:56:16] INFO root fetch - processPackages [dask-cudf-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask_cudf_cu11-23.4.0.tar.gz tmp/dask_cudf_cu11-23.4.0.1681364034.tar.gz --markdown 20230420/d/dask-cudf-cu11/23.4.0-23.4.0.1681364034/diff.md --exclude *.pyd
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cugraph-cu11]: executing diffoscope
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cugraph-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cugraph_cu11-23.4.0.tar.gz tmp/cugraph_cu11-23.4.0.1681369743.tar.gz --markdown 20230420/c/cugraph-cu11/23.4.0-23.4.0.1681369743/diff.md --exclude *.pyd
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ucx-py-cu11]: executing diffoscope
+[2023-04-20 19:56:16] INFO root fetch - processPackages [ucx-py-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucx_py_cu11-0.31.0.tar.gz tmp/ucx_py_cu11-0.31.0.1681362077.tar.gz --markdown 20230420/u/ucx-py-cu11/0.31.0-0.31.0.1681362077/diff.md --exclude *.pyd
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cudf-cu11]: executing diffoscope
+[2023-04-20 19:56:16] INFO root fetch - processPackages [cudf-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudf_cu11-23.4.0.tar.gz tmp/cudf_cu11-23.4.0.1681363056.tar.gz --markdown 20230420/c/cudf-cu11/23.4.0-23.4.0.1681363056/diff.md --exclude *.pyd
+[2023-04-20 19:56:16] INFO root fetch - processPackages [DairyBrainUtils]: executing diffoscope
+[2023-04-20 19:56:16] INFO root fetch - processPackages [DairyBrainUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DairyBrainUtils-0.3.3.tar.gz tmp/DairyBrainUtils-0.3.7.tar.gz --markdown 20230420/D/DairyBrainUtils/0.3.3-0.3.7/diff.md --exclude *.pyd
+[2023-04-20 19:56:16] INFO root fetch - processPackages [crc-event-schemas]: executing diffoscope
+[2023-04-20 19:56:16] INFO root fetch - processPackages [crc-event-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crc-event-schemas-0.1.0.tar.gz tmp/crc-event-schemas-0.1.1.tar.gz --markdown 20230420/c/crc-event-schemas/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 19:56:18] INFO root fetch - main [MainThread]: End processing [cugraph-cu11]: success
+[2023-04-20 19:56:18] INFO root fetch - main [MainThread]: End processing [erddapy]: success
+[2023-04-20 19:56:18] INFO root fetch - main [MainThread]: End processing [dask-cudf-cu11]: success
+[2023-04-20 19:56:18] INFO root fetch - main [MainThread]: End processing [cudf-cu11]: success
+[2023-04-20 19:56:18] INFO root fetch - main [MainThread]: End processing [cuml-cu11]: success
+[2023-04-20 19:56:18] INFO root fetch - main [MainThread]: End processing [ucx-py-cu11]: success
+[2023-04-20 19:56:18] INFO root fetch - main [MainThread]: End processing [DairyBrainUtils]: success
+[2023-04-20 19:56:18] INFO root fetch - main [MainThread]: End processing [decodanda]: success
+[2023-04-20 19:56:18] INFO root fetch - main [MainThread]: End processing [crc-event-schemas]: success
+[2023-04-20 19:56:19] INFO root fetch - main [MainThread]: End processing [asu]: success
+[2023-04-20 19:56:19] INFO root fetch - main [MainThread]: Store serial: [17791008]
