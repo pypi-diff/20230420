@@ -12452,3 +12452,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 11:11:46] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-20 11:11:47] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-20 11:11:47] INFO root fetch - main [MainThread]: Store serial: [17784519]
+[2023-04-20 11:16:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17784519]
+[2023-04-20 11:16:56] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ayugespidertools
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hpcflow-new2
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jina
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weather-command
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyroFork-dev
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rest-framework-redesign
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysiml
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PrSpiders
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-async-langchain
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: empiric-network
+[2023-04-20 11:16:56] INFO root fetch - processPackages [weather-command]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-04-20 11:16:56] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ayugespidertools]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 11:16:56] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.1.6.dev202304200912] Old Version: [2.1.6.dev202304200900]
+[2023-04-20 11:16:56] INFO root fetch - processPackages [pysiml]: New version: [0.2.8.dev202304200913] Old Version: [0.2.8.dev202304041500]
+[2023-04-20 11:16:56] INFO root fetch - processPackages [rest-framework-redesign]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-20 11:16:56] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-20 11:16:56] WARNING root fetch - processPackages [fastapi-async-langchain]: Skipping, unable to determine old version
+[2023-04-20 11:16:56] INFO root fetch - processPackages [fastapi-async-langchain]: Start processing: exampleData
+[2023-04-20 11:16:56] INFO root fetch - main [MainThread]: End processing [fastapi-async-langchain] error
+[2023-04-20 11:16:56] INFO root fetch - processPackages [empiric-network]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-20 11:16:56] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-04-20 11:16:56] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230420/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-04-20 11:16:56] INFO root fetch - processPackages [PrSpiders]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-20 11:16:56] INFO root fetch - processPackages [exampleData]: New version: [4.0] Old Version: [3.0]
+[2023-04-20 11:16:56] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-20 11:16:56] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230420/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-20 11:16:56] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/25/c3/69a726f425511ee92a3a153098be5cb3756c1ec492329c092d5db3804f75/pysiml-0.2.8.dev202304041500-py3-none-any.whl
+[2023-04-20 11:16:56] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/55/d7/773d7481798e586d02806ceaa043c26a09085881576b2220ae11b3bb5ea7/PyroFork-dev-2.1.6.dev202304200912.tar.gz
+[2023-04-20 11:16:56] INFO root fetch - processPackages [empiric-network]: Downloading https://files.pythonhosted.org/packages/78/3e/b2a63edbc4f80bcc3bd6a5b6ebe9043650e52fe350bc7d8aaebc6e3a36de/empiric_network-1.4.8.tar.gz
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ayugespidertools]: Downloading https://files.pythonhosted.org/packages/ac/55/6138ab1f2ba2b9197471e5faee87e2a47f3481dcab83d0a9c66942694fea/ayugespidertools-1.1.9.tar.gz
+[2023-04-20 11:16:56] INFO root fetch - processPackages [exampleData]: Downloading https://files.pythonhosted.org/packages/b6/12/87d10a81ae0ed17f2c824dca5a892a263899b0ff5184d17f6b3f0d0167d8/exampleData-4.0.tar.gz
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ayugespidertools]: executing diffoscope
+[2023-04-20 11:16:56] INFO root fetch - processPackages [ayugespidertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayugespidertools-1.1.8.tar.gz tmp/ayugespidertools-1.1.9.tar.gz --markdown 20230420/a/ayugespidertools/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 11:16:56] INFO root fetch - processPackages [exampleData]: executing diffoscope
+[2023-04-20 11:16:56] INFO root fetch - processPackages [exampleData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exampleData-3.0.tar.gz tmp/exampleData-4.0.tar.gz --markdown 20230420/e/exampleData/3.0-4.0/diff.md --exclude *.pyd
+[2023-04-20 11:16:56] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/6c/0b/cd54add38076a4e93a8f0f66ed734b0a4c87ac42ac27e3429c640b65d16b/PrSpiders-0.4.1.tar.gz
+[2023-04-20 11:16:56] INFO root fetch - processPackages [weather-command]: Downloading https://files.pythonhosted.org/packages/c0/2c/77e9f8eead5d60a7e5fa6861b6d18021751e6b4337f02b63e097e7612892/weather_command-6.1.0.tar.gz
+[2023-04-20 11:16:56] INFO root fetch - processPackages [weather-command]: executing diffoscope
+[2023-04-20 11:16:56] INFO root fetch - processPackages [weather-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weather_command-6.0.0.tar.gz tmp/weather_command-6.1.0.tar.gz --markdown 20230420/w/weather-command/6.0.0-6.1.0/diff.md --exclude *.pyd
+[2023-04-20 11:16:56] INFO root fetch - processPackages [rest-framework-redesign]: Downloading https://files.pythonhosted.org/packages/47/24/11fac34b0df37ab9bb48557b8623802b26e1b9e237f8c983c652cb0064c9/rest_framework_redesign-0.1.6.tar.gz
+[2023-04-20 11:16:57] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/24/f6/fdc2212417294ea8693d8f2d6b7dc8385a0b492d2ba0c850ecf9fed88e7f/pysiml-0.2.8.dev202304200913-py3-none-any.whl
+[2023-04-20 11:16:57] INFO root fetch - processPackages [rest-framework-redesign]: executing diffoscope
+[2023-04-20 11:16:57] INFO root fetch - processPackages [rest-framework-redesign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_framework_redesign-0.1.5.tar.gz tmp/rest_framework_redesign-0.1.6.tar.gz --markdown 20230420/r/rest-framework-redesign/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-20 11:16:57] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-04-20 11:16:57] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.4.0.tar.gz tmp/PrSpiders-0.4.1.tar.gz --markdown 20230420/P/PrSpiders/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-20 11:16:57] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-04-20 11:16:57] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.1.6.dev202304200900.tar.gz tmp/PyroFork-dev-2.1.6.dev202304200912.tar.gz --markdown 20230420/P/PyroFork-dev/2.1.6.dev202304200900-2.1.6.dev202304200912/diff.md --exclude *.pyd
+[2023-04-20 11:16:57] INFO root fetch - processPackages [pysiml]: executing diffoscope
+[2023-04-20 11:16:57] INFO root fetch - processPackages [pysiml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysiml-0.2.8.dev202304041500-py3-none-any.whl.zip tmp/pysiml-0.2.8.dev202304200913-py3-none-any.whl.zip --markdown 20230420/p/pysiml/0.2.8.dev202304041500-0.2.8.dev202304200913/diff.md --exclude *.pyd
+[2023-04-20 11:16:57] INFO root fetch - processPackages [empiric-network]: Downloading https://files.pythonhosted.org/packages/d2/c5/fd2b506492f014e30164d69c6cf7e8e68d9a4edd99ea99db1613eed9fdc2/empiric_network-1.4.9.tar.gz
+[2023-04-20 11:16:57] INFO root fetch - processPackages [empiric-network]: executing diffoscope
+[2023-04-20 11:16:57] INFO root fetch - processPackages [empiric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empiric_network-1.4.8.tar.gz tmp/empiric_network-1.4.9.tar.gz --markdown 20230420/e/empiric-network/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-20 11:16:58] INFO root fetch - processPackages [exampleData]: Start processing: cijoe-pkg-linux
+[2023-04-20 11:16:58] INFO root fetch - main [MainThread]: End processing [exampleData]: success
+[2023-04-20 11:16:58] INFO root fetch - processPackages [cijoe-pkg-linux]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-20 11:16:58] INFO root fetch - processPackages [cijoe-pkg-linux]: executing diffoscope
+[2023-04-20 11:16:58] INFO root fetch - processPackages [cijoe-pkg-linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cijoe-pkg-linux-0.9.7.tar.gz tmp/cijoe-pkg-linux-0.9.8.tar.gz --markdown 20230420/c/cijoe-pkg-linux/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-20 11:16:58] INFO root fetch - processPackages [weather-command]: Start processing: bridgecrew
+[2023-04-20 11:16:58] INFO root fetch - main [MainThread]: End processing [weather-command]: success
+[2023-04-20 11:16:58] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-20 11:16:58] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-20 11:16:58] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230420/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-20 11:16:58] INFO root fetch - processPackages [PrSpiders]: Start processing: jschon
+[2023-04-20 11:16:58] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-04-20 11:16:58] INFO root fetch - processPackages [jschon]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-04-20 11:16:58] INFO root fetch - processPackages [ayugespidertools]: Start processing: tbp-nightly
+[2023-04-20 11:16:58] INFO root fetch - main [MainThread]: End processing [ayugespidertools]: success
+[2023-04-20 11:16:58] INFO root fetch - processPackages [jschon]: Downloading https://files.pythonhosted.org/packages/ee/c8/e336da90ee8867022e8af1fa821dd6d4bebb817f8050f7a6f07ea7c2da5d/jschon-0.8.5.tar.gz
+[2023-04-20 11:16:58] INFO root fetch - processPackages [rest-framework-redesign]: Start processing: cgl-py
+[2023-04-20 11:16:58] INFO root fetch - main [MainThread]: End processing [rest-framework-redesign]: success
+[2023-04-20 11:16:58] INFO root fetch - processPackages [cgl-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 11:16:59] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-04-20 11:16:59] INFO root fetch - processPackages [empiric-network]: Start processing: vessl
+[2023-04-20 11:16:59] INFO root fetch - main [MainThread]: End processing [empiric-network]: success
+[2023-04-20 11:16:59] INFO root fetch - processPackages [cgl-py]: executing diffoscope
+[2023-04-20 11:16:59] INFO root fetch - processPackages [cgl-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgl-py-0.0.8.tar.gz tmp/cgl-py-0.0.9.tar.gz --markdown 20230420/c/cgl-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 11:16:59] INFO root fetch - processPackages [pysiml]: Start processing: wizata-dsapi
+[2023-04-20 11:16:59] INFO root fetch - main [MainThread]: End processing [pysiml]: success
+[2023-04-20 11:16:59] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 11:16:59] INFO root fetch - processPackages [vessl]: New version: [0.1.90] Old Version: [0.1.9]
+[2023-04-20 11:16:59] INFO root fetch - processPackages [jschon]: Downloading https://files.pythonhosted.org/packages/3c/f7/89f69eb1d2d3b37c435f8e1a2b0ff7439e16bd487ae32c5ff526006b0647/jschon-0.9.0.tar.gz
+[2023-04-20 11:16:59] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-04-20 11:16:59] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230420/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 11:16:59] INFO root fetch - processPackages [jschon]: executing diffoscope
+[2023-04-20 11:16:59] INFO root fetch - processPackages [jschon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jschon-0.8.5.tar.gz tmp/jschon-0.9.0.tar.gz --markdown 20230420/j/jschon/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 11:16:59] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-04-20 11:16:59] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230420/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-04-20 11:16:59] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/41/20/462817da27dc4ec9fd244d6edb42cfa7a2f961b5caf133d0a88003824519/vessl-0.1.9.tar.gz
+[2023-04-20 11:16:59] INFO root fetch - main [MainThread]: End processing [cijoe-pkg-linux]: success
+[2023-04-20 11:16:59] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/9e/9b/a12be040eeda94eae0112074a1a0f91568684cf387c86b0ac4c7d6702d61/vessl-0.1.90.tar.gz
+[2023-04-20 11:16:59] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-04-20 11:16:59] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-20 11:16:59] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-04-20 11:16:59] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.9.tar.gz tmp/vessl-0.1.90.tar.gz --markdown 20230420/v/vessl/0.1.9-0.1.90/diff.md --exclude *.pyd
+[2023-04-20 11:17:00] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-04-20 11:17:00] INFO root fetch - main [MainThread]: End processing [jschon]: success
+[2023-04-20 11:17:01] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-20 11:17:02] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-04-20 11:17:03] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-04-20 11:17:05] INFO root fetch - main [MainThread]: End processing [cgl-py]: success
+[2023-04-20 11:17:09] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-04-20 11:17:09] INFO root fetch - main [MainThread]: Store serial: [17784599]
