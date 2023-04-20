@@ -5858,3 +5858,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 03:40:02] INFO root fetch - main [MainThread]: End processing [emdfile]: success
 [2023-04-20 03:40:19] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2023-04-20 03:40:19] INFO root fetch - main [MainThread]: Store serial: [17780942]
+[2023-04-20 03:45:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17780942]
+[2023-04-20 03:45:28] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-20 03:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-sphinx
+[2023-04-20 03:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proactive
+[2023-04-20 03:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cbra
+[2023-04-20 03:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: XMLCit
+[2023-04-20 03:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-django
+[2023-04-20 03:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proactive-jupyter-kernel
+[2023-04-20 03:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hotbox
+[2023-04-20 03:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-apl
+[2023-04-20 03:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-xdu-support
+[2023-04-20 03:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cavasspy
+[2023-04-20 03:45:28] WARNING root fetch - processPackages [XMLCit]: Skipping, unable to determine old version
+[2023-04-20 03:45:28] INFO root fetch - processPackages [XMLCit]: Start processing: mythril
+[2023-04-20 03:45:28] INFO root fetch - main [MainThread]: End processing [XMLCit] error
+[2023-04-20 03:45:28] INFO root fetch - processPackages [hotbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 03:45:28] INFO root fetch - processPackages [cavasspy]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-20 03:45:28] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a90]
+[2023-04-20 03:45:28] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-04-20 03:45:28] INFO root fetch - processPackages [nonebot-plugin-xdu-support]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-20 03:45:28] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.724] Old Version: [0.0.723]
+[2023-04-20 03:45:28] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-04-20 03:45:28] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-20 03:45:28] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-20 03:45:28] INFO root fetch - processPackages [nonebot-plugin-xdu-support]: Downloading https://files.pythonhosted.org/packages/ff/8b/0baf5f636889991fcf61dc8ff6f4bcca33b24494895917e78475f95da9d0/nonebot_plugin_xdu_support-0.5.8-py3-none-any.whl
+[2023-04-20 03:45:28] INFO root fetch - processPackages [mythril]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-20 03:45:28] INFO root fetch - processPackages [cavasspy]: executing diffoscope
+[2023-04-20 03:45:28] INFO root fetch - processPackages [cavasspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cavasspy-1.1.2.tar.gz tmp/cavasspy-1.1.3.tar.gz --markdown 20230420/c/cavasspy/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-20 03:45:28] WARNING root fetch - processPackages [nonebot-plugin-xdu-support]: Skipping package: exceeds size limit 13723815>=10485760
+[2023-04-20 03:45:28] INFO root fetch - processPackages [nonebot-plugin-xdu-support]: Start processing: ascii-cli
+[2023-04-20 03:45:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-xdu-support] error
+[2023-04-20 03:45:28] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-04-20 03:45:28] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230420/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-04-20 03:45:28] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-20 03:45:28] INFO root fetch - processPackages [ascii-cli]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-20 03:45:28] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230420/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-20 03:45:28] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/b3/34/a8b46126b1b40bd10fd750eed3598325fd9760a99fc3e719e0e561252b48/cbra-2.0.0a90.tar.gz
+[2023-04-20 03:45:28] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-04-20 03:45:28] INFO root fetch - processPackages [hotbox]: Downloading https://files.pythonhosted.org/packages/bc/bd/ba2f8994446a8e86458c66c5b618b6096951a13228371314de100a0d9a63/hotbox-0.0.8.tar.gz
+[2023-04-20 03:45:28] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/bc/e1/2e636cb5c0017bf9d7332a91cda948ec7d6d73324f4371b136a2e671efa8/nbdev-apl-0.0.724.tar.gz
+[2023-04-20 03:45:28] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-04-20 03:45:28] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-04-20 03:45:28] INFO root fetch - processPackages [mythril]: Downloading https://files.pythonhosted.org/packages/15/a9/a568ae41cab2a712424cc756b15f056beb54efe3738fc0bee7797245e3c5/mythril-0.9.1.tar.gz
+[2023-04-20 03:45:29] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-04-20 03:45:29] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.723.tar.gz tmp/nbdev-apl-0.0.724.tar.gz --markdown 20230420/n/nbdev-apl/0.0.723-0.0.724/diff.md --exclude *.pyd
+[2023-04-20 03:45:29] INFO root fetch - processPackages [ascii-cli]: executing diffoscope
+[2023-04-20 03:45:29] INFO root fetch - processPackages [ascii-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascii-cli-0.0.6.tar.gz tmp/ascii-cli-0.0.7.tar.gz --markdown 20230420/a/ascii-cli/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-20 03:45:29] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-20 03:45:29] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230420/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-20 03:45:29] INFO root fetch - processPackages [hotbox]: Downloading https://files.pythonhosted.org/packages/59/15/3b73e9614ba377c60f5a7e76fc196687ac82ac09ca8c3909a099ea4a0bf8/hotbox-0.0.9.tar.gz
+[2023-04-20 03:45:29] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-04-20 03:45:29] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a90.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230420/c/cbra/2.0.0a90-3.0.0a7/diff.md --exclude *.pyd
+[2023-04-20 03:45:29] INFO root fetch - processPackages [hotbox]: executing diffoscope
+[2023-04-20 03:45:29] INFO root fetch - processPackages [hotbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotbox-0.0.8.tar.gz tmp/hotbox-0.0.9.tar.gz --markdown 20230420/h/hotbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 03:45:29] INFO root fetch - processPackages [mythril]: Downloading https://files.pythonhosted.org/packages/2a/cd/5424a7c1c9e14ffddea6dbc7772d1e867be5666e47786ea8d978e3c4bd4c/mythril-0.9.2.tar.gz
+[2023-04-20 03:45:29] INFO root fetch - processPackages [mythril]: executing diffoscope
+[2023-04-20 03:45:29] INFO root fetch - processPackages [mythril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythril-0.9.1.tar.gz tmp/mythril-0.9.2.tar.gz --markdown 20230420/m/mythril/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-20 03:45:30] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-20 03:45:30] INFO root fetch - main [MainThread]: End processing [ascii-cli]: success
+[2023-04-20 03:45:30] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-04-20 03:45:30] INFO root fetch - main [MainThread]: End processing [cavasspy]: success
+[2023-04-20 03:45:30] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-04-20 03:45:30] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-20 03:45:30] INFO root fetch - main [MainThread]: End processing [mythril]: success
+[2023-04-20 03:45:30] INFO root fetch - main [MainThread]: End processing [hotbox]: success
+[2023-04-20 03:45:36] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-04-20 03:45:36] INFO root fetch - main [MainThread]: Store serial: [17780976]
