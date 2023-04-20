@@ -9024,3 +9024,26 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 08:35:19] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.11.14.35.6.tar.gz tmp/llm4gpt-2023.4.20.14.31.20.tar.gz --markdown 20230420/l/llm4gpt/2023.4.11.14.35.6-2023.4.20.14.31.20/diff.md --exclude *.pyd
 [2023-04-20 08:35:21] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
 [2023-04-20 08:35:21] INFO root fetch - main [MainThread]: Store serial: [17782921]
+[2023-04-20 08:40:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17782921]
+[2023-04-20 08:40:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-20 08:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: experiment-results-manager
+[2023-04-20 08:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slim-compose
+[2023-04-20 08:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hrin-msb
+[2023-04-20 08:40:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kindenty-base
+[2023-04-20 08:40:30] WARNING root fetch - processPackages [experiment-results-manager]: Skipping, unable to determine old version
+[2023-04-20 08:40:30] INFO root fetch - main [MainThread]: End processing [experiment-results-manager] error
+[2023-04-20 08:40:30] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 08:40:30] INFO root fetch - processPackages [slim-compose]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-20 08:40:30] INFO root fetch - processPackages [kindenty-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 08:40:30] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-04-20 08:40:30] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230420/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 08:40:30] INFO root fetch - processPackages [slim-compose]: Downloading https://files.pythonhosted.org/packages/59/9a/b5c55d59ff45aef0ac8871d302e797bde0c36accc50da86279dfe7fed4e6/slim-compose-1.0.0.tar.gz
+[2023-04-20 08:40:31] INFO root fetch - processPackages [slim-compose]: Downloading https://files.pythonhosted.org/packages/3c/ca/3ad1940e517bbd26c675c49c65173c3d70fe9c194186fc573ce0c9a9a3e1/slim-compose-1.0.1.tar.gz
+[2023-04-20 08:40:31] INFO root fetch - processPackages [kindenty-base]: executing diffoscope
+[2023-04-20 08:40:31] INFO root fetch - processPackages [kindenty-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kindenty_base-0.1.8.tar.gz tmp/kindenty_base-0.1.9.tar.gz --markdown 20230420/k/kindenty-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 08:40:31] INFO root fetch - processPackages [slim-compose]: executing diffoscope
+[2023-04-20 08:40:31] INFO root fetch - processPackages [slim-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slim-compose-1.0.0.tar.gz tmp/slim-compose-1.0.1.tar.gz --markdown 20230420/s/slim-compose/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-20 08:40:32] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-04-20 08:40:32] INFO root fetch - main [MainThread]: End processing [kindenty-base]: success
+[2023-04-20 08:40:32] INFO root fetch - main [MainThread]: End processing [slim-compose]: success
+[2023-04-20 08:40:32] INFO root fetch - main [MainThread]: Store serial: [17782942]
