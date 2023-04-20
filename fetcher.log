@@ -15461,3 +15461,69 @@ EOFError: EOF read where object expected
 [2023-04-20 13:39:21] INFO root fetch - main [MainThread]: End processing [browserstack-sdk]: success
 [2023-04-20 13:39:28] INFO root fetch - main [MainThread]: End processing [cirrocumulus]: success
 [2023-04-20 13:39:28] INFO root fetch - main [MainThread]: Store serial: [17786456]
+[2023-04-20 13:44:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17786456]
+[2023-04-20 13:44:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-20 13:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsml4s8e
+[2023-04-20 13:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-oai-pmh-harvester
+[2023-04-20 13:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-serve
+[2023-04-20 13:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-partner-invoicing-mode-at-shipping
+[2023-04-20 13:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thronescli
+[2023-04-20 13:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlstrings
+[2023-04-20 13:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: invenio-records-lom
+[2023-04-20 13:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysurfline
+[2023-04-20 13:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycognaize
+[2023-04-20 13:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: QuNet
+[2023-04-20 13:44:38] INFO root fetch - processPackages [thronescli]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-04-20 13:44:38] INFO root fetch - processPackages [dsml4s8e]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-20 13:44:38] INFO root fetch - processPackages [sqlstrings]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-20 13:44:38] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: New version: [4.0.7] Old Version: [4.0.6]
+[2023-04-20 13:44:38] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-04-20 13:44:38] WARNING root fetch - processPackages [QuNet]: Skipping, unable to determine old version
+[2023-04-20 13:44:38] INFO root fetch - processPackages [QuNet]: Start processing: dop-integration-libs
+[2023-04-20 13:44:38] INFO root fetch - processPackages [pycognaize]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-20 13:44:38] INFO root fetch - main [MainThread]: End processing [QuNet] error
+[2023-04-20 13:44:38] INFO root fetch - processPackages [invenio-records-lom]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-04-20 13:44:38] WARNING root fetch - processPackages [odoo-addon-partner-invoicing-mode-at-shipping]: Skipping, unable to determine old version
+[2023-04-20 13:44:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-invoicing-mode-at-shipping] error
+[2023-04-20 13:44:38] INFO root fetch - processPackages [pysurfline]: New version: [0.0.4.1] Old Version: [0.0.4]
+[2023-04-20 13:44:38] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 13:44:38] INFO root fetch - processPackages [thronescli]: Downloading https://files.pythonhosted.org/packages/b2/12/dcf70723a06be5b4c17561c5939c5b9be19bddad70f0ff291192973428d6/thronescli-2.6.0-py3-none-any.whl
+[2023-04-20 13:44:38] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-04-20 13:44:38] INFO root fetch - processPackages [dsml4s8e]: Downloading https://files.pythonhosted.org/packages/75/bd/40257f39a69a42260b371d1ad2d14406ebbfac97a3945694d37f6e3c3bc3/dsml4s8e-0.1.3.tar.gz
+[2023-04-20 13:44:38] INFO root fetch - processPackages [pysurfline]: Downloading https://files.pythonhosted.org/packages/7b/ac/66a34e75dfdf1cb44b9375132c9cee912d9c894e0c99554fa237f1e3dc41/pysurfline-0.0.4.1.tar.gz
+[2023-04-20 13:44:38] INFO root fetch - processPackages [sqlstrings]: Downloading https://files.pythonhosted.org/packages/8f/7c/9b9b00f185f3bf2fafcd9d88d1b5ef6a7249c8260ef9bcb8bc93909c659a/sqlstrings-0.1.4.tar.gz
+[2023-04-20 13:44:38] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/da/4f/7c89d06d44f9f2d0d9c0221b107d31f7aea70cc37d309b20ede459673a6a/pycognaize-1.3.8.tar.gz
+[2023-04-20 13:44:38] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/5c/1e/d860870a728b6141b71371ee55c6343cba67f6f659d39f417f8bf95e63ff/invenio-records-lom-0.7.2.tar.gz
+[2023-04-20 13:44:38] INFO root fetch - processPackages [pysurfline]: executing diffoscope
+[2023-04-20 13:44:38] INFO root fetch - processPackages [pysurfline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysurfline-0.0.4.tar.gz tmp/pysurfline-0.0.4.1.tar.gz --markdown 20230420/p/pysurfline/0.0.4-0.0.4.1/diff.md --exclude *.pyd
+[2023-04-20 13:44:38] INFO root fetch - processPackages [sqlstrings]: executing diffoscope
+[2023-04-20 13:44:38] INFO root fetch - processPackages [sqlstrings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlstrings-0.1.3.tar.gz tmp/sqlstrings-0.1.4.tar.gz --markdown 20230420/s/sqlstrings/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-20 13:44:38] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-20 13:44:38] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.0.tar.gz tmp/dop_integration_libs-0.1.1.tar.gz --markdown 20230420/d/dop-integration-libs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 13:44:38] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: Downloading https://files.pythonhosted.org/packages/8c/29/da14249081ccdc669c9e1c8f4a86c692ff40830ec32f4e1c9379c0f7a7b2/oarepo-oai-pmh-harvester-4.0.7.tar.gz
+[2023-04-20 13:44:38] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: executing diffoscope
+[2023-04-20 13:44:38] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-oai-pmh-harvester-4.0.6.tar.gz tmp/oarepo-oai-pmh-harvester-4.0.7.tar.gz --markdown 20230420/o/oarepo-oai-pmh-harvester/4.0.6-4.0.7/diff.md --exclude *.pyd
+[2023-04-20 13:44:38] INFO root fetch - processPackages [thronescli]: Downloading https://files.pythonhosted.org/packages/5e/6c/a3b780232af8fc3b9838422620de27559d66dae8dbbadee9117c5af27033/thronescli-2.6.1-py3-none-any.whl
+[2023-04-20 13:44:38] INFO root fetch - processPackages [thronescli]: executing diffoscope
+[2023-04-20 13:44:38] INFO root fetch - processPackages [thronescli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thronescli-2.6.0-py3-none-any.whl.zip tmp/thronescli-2.6.1-py3-none-any.whl.zip --markdown 20230420/t/thronescli/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-04-20 13:44:38] INFO root fetch - processPackages [dsml4s8e]: Downloading https://files.pythonhosted.org/packages/d5/e5/5442a77ac05e22d2e696cbf823ac41e250223d8289411451649d5870ff64/dsml4s8e-0.1.4.tar.gz
+[2023-04-20 13:44:39] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-20 13:44:39] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230420/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-20 13:44:39] INFO root fetch - processPackages [dsml4s8e]: executing diffoscope
+[2023-04-20 13:44:39] INFO root fetch - processPackages [dsml4s8e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsml4s8e-0.1.3.tar.gz tmp/dsml4s8e-0.1.4.tar.gz --markdown 20230420/d/dsml4s8e/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-20 13:44:39] INFO root fetch - processPackages [invenio-records-lom]: Downloading https://files.pythonhosted.org/packages/1d/99/837eb011be1e061eb8db0c07008d450a35cc7ecb69ca0f40ecd78b2b5e44/invenio-records-lom-0.8.0.tar.gz
+[2023-04-20 13:44:39] INFO root fetch - processPackages [invenio-records-lom]: executing diffoscope
+[2023-04-20 13:44:39] INFO root fetch - processPackages [invenio-records-lom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-lom-0.7.2.tar.gz tmp/invenio-records-lom-0.8.0.tar.gz --markdown 20230420/i/invenio-records-lom/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-04-20 13:44:39] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/39/c6/575c1b460acfb68c92a3c38fa0258ea202eeec58600589362f7296032e62/pycognaize-1.3.9.tar.gz
+[2023-04-20 13:44:39] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2023-04-20 13:44:39] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.3.8.tar.gz tmp/pycognaize-1.3.9.tar.gz --markdown 20230420/p/pycognaize/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-20 13:44:40] INFO root fetch - main [MainThread]: End processing [sqlstrings]: success
+[2023-04-20 13:44:40] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-20 13:44:40] INFO root fetch - main [MainThread]: End processing [pysurfline]: success
+[2023-04-20 13:44:40] INFO root fetch - main [MainThread]: End processing [thronescli]: success
+[2023-04-20 13:44:40] INFO root fetch - main [MainThread]: End processing [dsml4s8e]: success
+[2023-04-20 13:44:40] INFO root fetch - main [MainThread]: End processing [oarepo-oai-pmh-harvester]: success
+[2023-04-20 13:44:41] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-20 13:44:42] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2023-04-20 13:44:43] INFO root fetch - main [MainThread]: End processing [invenio-records-lom]: success
+[2023-04-20 13:44:43] INFO root fetch - main [MainThread]: Store serial: [17786489]
