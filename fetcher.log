@@ -9968,3 +9968,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 09:49:35] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-04-20 09:49:41] INFO root fetch - main [MainThread]: End processing [scipion-em-emantomo]: success
 [2023-04-20 09:49:41] INFO root fetch - main [MainThread]: Store serial: [17783422]
+[2023-04-20 09:54:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783422]
+[2023-04-20 09:54:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-20 09:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nton
+[2023-04-20 09:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-cpu
+[2023-04-20 09:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: postfix-logsums
+[2023-04-20 09:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ascii-cli
+[2023-04-20 09:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pasqal-cloud
+[2023-04-20 09:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wizata-dsapi
+[2023-04-20 09:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robusta-cli
+[2023-04-20 09:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-web-notify
+[2023-04-20 09:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ansible-later
+[2023-04-20 09:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-web
+[2023-04-20 09:54:50] INFO root fetch - processPackages [postfix-logsums]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-20 09:54:50] INFO root fetch - processPackages [nton]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-20 09:54:50] WARNING root fetch - processPackages [pasqal-cloud]: Skipping, unable to determine old version
+[2023-04-20 09:54:50] INFO root fetch - processPackages [pasqal-cloud]: Start processing: django-mails
+[2023-04-20 09:54:50] INFO root fetch - main [MainThread]: End processing [pasqal-cloud] error
+[2023-04-20 09:54:50] INFO root fetch - processPackages [odoo-addons-oca-web]: New version: [16.0.20230419.0] Old Version: [16.0.20230405.0]
+[2023-04-20 09:54:50] INFO root fetch - processPackages [ascii-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 09:54:50] INFO root fetch - processPackages [odoo-addon-web-notify]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-04-20 09:54:50] INFO root fetch - processPackages [ansible-later]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-04-20 09:54:50] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 09:54:50] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-04-20 09:54:50] INFO root fetch - processPackages [django-mails]: New version: [2.5] Old Version: [2.4]
+[2023-04-20 09:54:50] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.13.0.dev20230420] Old Version: [2.13.0.dev20230419]
+[2023-04-20 09:54:50] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-04-20 09:54:50] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230420/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 09:54:51] INFO root fetch - processPackages [postfix-logsums]: Downloading https://files.pythonhosted.org/packages/a1/f1/05169ae4199ee26a275b18d5d445f1ceacbd1eaee342d4ec89960ccffe2a/postfix_logsums-0.9.1.tar.gz
+[2023-04-20 09:54:51] INFO root fetch - processPackages [ascii-cli]: Downloading https://files.pythonhosted.org/packages/c0/c0/c36d06c1063b18299883e5b3eca98b6972cfba8a0310281ae80fb1ef22a3/ascii-cli-0.1.1.tar.gz
+[2023-04-20 09:54:51] INFO root fetch - processPackages [odoo-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/65/1c/f1461c03e5a7420ef149678adb4deddb99c557f1dd6f61359a46a1ffae79/odoo_addon_web_notify-16.0.1.0.0.5-py3-none-any.whl
+[2023-04-20 09:54:51] INFO root fetch - processPackages [ansible-later]: Downloading https://files.pythonhosted.org/packages/eb/31/7a3008a1cb206328cfdf89d4a573237614b4bf11d76e9a0e0af9e8872c9d/ansible_later-3.2.2.tar.gz
+[2023-04-20 09:54:51] INFO root fetch - processPackages [django-mails]: Downloading https://files.pythonhosted.org/packages/0d/8a/6435b82c139bd1114cf4e6ef201075d3bc5607a12942abba125a52df5882/django-mails-2.4.tar.gz
+[2023-04-20 09:54:51] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/d3/5b/c0a92e1045764e48262e6142d7a9e1ef7db1b7ab085c6f67655e61e99f79/odoo_addons_oca_web-16.0.20230405.0-py3-none-any.whl
+[2023-04-20 09:54:51] INFO root fetch - processPackages [nton]: Downloading https://files.pythonhosted.org/packages/40/cb/1f62099bcd85715fedfbb7e0c83059edda2aea4c81984a132192b9ab6e76/nton-1.2.2.tar.gz
+[2023-04-20 09:54:51] INFO root fetch - processPackages [ascii-cli]: executing diffoscope
+[2023-04-20 09:54:51] INFO root fetch - processPackages [ascii-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascii-cli-0.1.0.tar.gz tmp/ascii-cli-0.1.1.tar.gz --markdown 20230420/a/ascii-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 09:54:51] INFO root fetch - processPackages [postfix-logsums]: executing diffoscope
+[2023-04-20 09:54:51] INFO root fetch - processPackages [postfix-logsums]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postfix_logsums-0.9.0.tar.gz tmp/postfix_logsums-0.9.1.tar.gz --markdown 20230420/p/postfix-logsums/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 09:54:51] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2023-04-20 09:54:51] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20230420/r/robusta-cli/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-04-20 09:54:51] INFO root fetch - processPackages [odoo-addon-web-notify]: executing diffoscope
+[2023-04-20 09:54:51] INFO root fetch - processPackages [odoo-addon-web-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_notify-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_web_notify-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-web-notify/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-04-20 09:54:51] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/37/48/d8fb6067faa9ba0ebf0492c39ffb3e246306084ed25bc93d43a6a8ccde3e/tf_nightly_cpu-2.13.0.dev20230420-cp39-cp39-win_amd64.whl
+[2023-04-20 09:54:51] INFO root fetch - processPackages [ansible-later]: Downloading https://files.pythonhosted.org/packages/44/6a/06c0ad27e999a7f2cd21f0775c504483d6574161bbe3624733732c116b60/ansible_later-3.2.3.tar.gz
+[2023-04-20 09:54:51] INFO root fetch - processPackages [django-mails]: Downloading https://files.pythonhosted.org/packages/b5/8d/ad5e099809c26861c03edf47c96a1a299ed9ac61ff1843244a479fe5f5ab/django-mails-2.5.tar.gz
+[2023-04-20 09:54:51] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/95/de/9769d3bf4584092ce2ead0cd2571f78eaade5c62ecdf740a5fd53f8c8f77/odoo_addons_oca_web-16.0.20230419.0-py3-none-any.whl
+[2023-04-20 09:54:51] INFO root fetch - processPackages [nton]: executing diffoscope
+[2023-04-20 09:54:51] INFO root fetch - processPackages [nton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nton-1.2.1.tar.gz tmp/nton-1.2.2.tar.gz --markdown 20230420/n/nton/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-20 09:54:51] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-04-20 09:54:51] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.13.0.dev20230419-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.13.0.dev20230420-cp39-cp39-win_amd64.whl.zip --markdown 20230420/t/tf-nightly-cpu/2.13.0.dev20230419-2.13.0.dev20230420/diff.md --exclude *.pyd
+[2023-04-20 09:54:51] INFO root fetch - processPackages [django-mails]: executing diffoscope
+[2023-04-20 09:54:51] INFO root fetch - processPackages [django-mails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mails-2.4.tar.gz tmp/django-mails-2.5.tar.gz --markdown 20230420/d/django-mails/2.4-2.5/diff.md --exclude *.pyd
+[2023-04-20 09:54:51] INFO root fetch - processPackages [odoo-addons-oca-web]: executing diffoscope
+[2023-04-20 09:54:51] INFO root fetch - processPackages [odoo-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_web-16.0.20230405.0-py3-none-any.whl.zip tmp/odoo_addons_oca_web-16.0.20230419.0-py3-none-any.whl.zip --markdown 20230420/o/odoo-addons-oca-web/16.0.20230405.0-16.0.20230419.0/diff.md --exclude *.pyd
+[2023-04-20 09:54:51] INFO root fetch - processPackages [ansible-later]: executing diffoscope
+[2023-04-20 09:54:51] INFO root fetch - processPackages [ansible-later]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible_later-3.2.2.tar.gz tmp/ansible_later-3.2.3.tar.gz --markdown 20230420/a/ansible-later/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-04-20 09:54:52] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-04-20 09:54:52] INFO root fetch - main [MainThread]: End processing [ascii-cli]: success
+[2023-04-20 09:54:52] INFO root fetch - main [MainThread]: End processing [postfix-logsums]: success
+[2023-04-20 09:54:52] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-web]: success
+[2023-04-20 09:54:53] INFO root fetch - main [MainThread]: End processing [django-mails]: success
+[2023-04-20 09:54:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-notify]: success
+[2023-04-20 09:54:53] INFO root fetch - main [MainThread]: End processing [nton]: success
+[2023-04-20 09:54:53] INFO root fetch - main [MainThread]: End processing [ansible-later]: success
+[2023-04-20 09:54:56] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2023-04-20 09:55:05] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-04-20 09:55:05] INFO root fetch - main [MainThread]: Store serial: [17783457]
