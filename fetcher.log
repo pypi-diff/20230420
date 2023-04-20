@@ -13108,3 +13108,135 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 11:44:05] INFO root fetch - main [MainThread]: End processing [pygame-texteditor]: success
 [2023-04-20 11:44:05] INFO root fetch - main [MainThread]: End processing [mmc-export]: success
 [2023-04-20 11:44:05] INFO root fetch - main [MainThread]: Store serial: [17784938]
+[2023-04-20 11:49:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17784938]
+[2023-04-20 11:49:14] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-20 11:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dclpy
+[2023-04-20 11:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmctl
+[2023-04-20 11:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-mid
+[2023-04-20 11:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatbi
+[2023-04-20 11:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ephysiopy
+[2023-04-20 11:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytictacbot
+[2023-04-20 11:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shapash
+[2023-04-20 11:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crunch-cli
+[2023-04-20 11:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qunetsim
+[2023-04-20 11:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-mpserverless20190615-py2
+[2023-04-20 11:49:14] INFO root fetch - processPackages [tmctl]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-20 11:49:14] INFO root fetch - processPackages [dclpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 11:49:14] WARNING root fetch - processPackages [chatbi]: Skipping, unable to determine old version
+[2023-04-20 11:49:14] INFO root fetch - processPackages [chatbi]: Start processing: bp-data-fabric
+[2023-04-20 11:49:14] INFO root fetch - processPackages [shapash]: New version: [2.3.2] Old Version: [2.3.0]
+[2023-04-20 11:49:14] INFO root fetch - main [MainThread]: End processing [chatbi] error
+[2023-04-20 11:49:14] INFO root fetch - processPackages [crunch-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-20 11:49:14] WARNING root fetch - processPackages [python-mid]: Skipping, unable to determine old version
+[2023-04-20 11:49:14] INFO root fetch - processPackages [alibabacloud-mpserverless20190615-py2]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-20 11:49:14] INFO root fetch - processPackages [pytictacbot]: New version: [1.4] Old Version: [1.3]
+[2023-04-20 11:49:14] INFO root fetch - processPackages [python-mid]: Start processing: gmail-scanner
+[2023-04-20 11:49:14] INFO root fetch - main [MainThread]: End processing [python-mid] error
+[2023-04-20 11:49:14] INFO root fetch - processPackages [qunetsim]: New version: [0.1.3] Old Version: [0.1.2.post3]
+[2023-04-20 11:49:14] INFO root fetch - processPackages [ephysiopy]: New version: [1.8.99] Old Version: [1.8.98]
+[2023-04-20 11:49:14] INFO root fetch - processPackages [bp-data-fabric]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-20 11:49:14] INFO root fetch - processPackages [gmail-scanner]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-20 11:49:14] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-04-20 11:49:14] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-0.8.1.tar.gz tmp/crunch-cli-0.9.0.tar.gz --markdown 20230420/c/crunch-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 11:49:14] INFO root fetch - processPackages [tmctl]: Downloading https://files.pythonhosted.org/packages/f4/e3/dac77b07fdb99acbf21e98471b5a02ec1594cd3818e6ad74b36d14a9028f/tmctl-0.1.0.tar.gz
+[2023-04-20 11:49:14] INFO root fetch - processPackages [dclpy]: Downloading https://files.pythonhosted.org/packages/49/d5/e7b931c7ce8add16264dcaeb07e332fec1e816c01c1448340bc2a6c28cd0/dclpy-0.0.2.tar.gz
+[2023-04-20 11:49:14] INFO root fetch - processPackages [alibabacloud-mpserverless20190615-py2]: Downloading https://files.pythonhosted.org/packages/c9/a9/274c327067ebcdff6d6e0b15f14dcd78396c36947343b76b612242a7b9d3/alibabacloud_mpserverless20190615_py2-1.0.7.tar.gz
+[2023-04-20 11:49:15] INFO root fetch - processPackages [shapash]: Downloading https://files.pythonhosted.org/packages/d0/32/7258852e772286c39e9f610833f869a5a1acafe457fffff834a9048dea12/shapash-2.3.0.tar.gz
+[2023-04-20 11:49:15] INFO root fetch - processPackages [pytictacbot]: Downloading https://files.pythonhosted.org/packages/46/83/28895a9c856a96b12ba516ee312f991d56cf81a08bf0587497ffd96cea22/pytictacbot-1.4.tar.gz
+[2023-04-20 11:49:15] INFO root fetch - processPackages [qunetsim]: Downloading https://files.pythonhosted.org/packages/79/05/6ddf0430a858cd5aa8df59411c7303a3b257aa5c61a39b3e4bf017018f34/qunetsim-0.1.2.post3.tar.gz
+[2023-04-20 11:49:15] INFO root fetch - processPackages [gmail-scanner]: Downloading https://files.pythonhosted.org/packages/cb/5e/d30a44e2cd5d92bab27592adbd4c2e9a3675d5f5b7004b0f7d7f4b5eb98e/gmail_scanner-1.0.6.tar.gz
+[2023-04-20 11:49:15] INFO root fetch - processPackages [bp-data-fabric]: Downloading https://files.pythonhosted.org/packages/b1/20/e9a052e67b68269201429ef63d1b87aaa40554a27492b9bbb37a1251f96b/bp_data_fabric-0.0.7.tar.gz
+[2023-04-20 11:49:15] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/30/f0/2376a3978d852a23aed60bbfa501862a4ccf87bcd7c02626d945665a5c1c/ephysiopy-1.8.99.tar.gz
+[2023-04-20 11:49:15] INFO root fetch - processPackages [tmctl]: Downloading https://files.pythonhosted.org/packages/78/8a/e8d03daf01d4e5c8973fb366de70c80b64f52b177dbd7e72bb35849577f6/tmctl-0.2.0.tar.gz
+[2023-04-20 11:49:15] INFO root fetch - processPackages [gmail-scanner]: executing diffoscope
+[2023-04-20 11:49:15] INFO root fetch - processPackages [gmail-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmail_scanner-1.0.5.tar.gz tmp/gmail_scanner-1.0.6.tar.gz --markdown 20230420/g/gmail-scanner/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-20 11:49:15] INFO root fetch - processPackages [dclpy]: Downloading https://files.pythonhosted.org/packages/a2/b8/a9e8e000ef0ff41bb8b15200178cb0b01b0b6302e3df48ead53c7cdfefb1/dclpy-0.0.3-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-20 11:49:15] INFO root fetch - processPackages [pytictacbot]: executing diffoscope
+[2023-04-20 11:49:15] INFO root fetch - processPackages [pytictacbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytictacbot-1.3.tar.gz tmp/pytictacbot-1.4.tar.gz --markdown 20230420/p/pytictacbot/1.3-1.4/diff.md --exclude *.pyd
+[2023-04-20 11:49:15] INFO root fetch - processPackages [alibabacloud-mpserverless20190615-py2]: Downloading https://files.pythonhosted.org/packages/a7/fc/5378d16af8b2bc9dceb48cbe6dd55303327e37c92dd35a31dfab6edf943e/alibabacloud_mpserverless20190615_py2-1.0.8.tar.gz
+[2023-04-20 11:49:15] INFO root fetch - processPackages [bp-data-fabric]: executing diffoscope
+[2023-04-20 11:49:15] INFO root fetch - processPackages [bp-data-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_fabric-0.0.6.tar.gz tmp/bp_data_fabric-0.0.7.tar.gz --markdown 20230420/b/bp-data-fabric/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-20 11:49:15] INFO root fetch - processPackages [qunetsim]: Downloading https://files.pythonhosted.org/packages/67/18/63adbaa2fc9777e5ab9be32fb2a6eb5727143dd9ba818d51d6eec242fe6d/qunetsim-0.1.3.tar.gz
+[2023-04-20 11:49:15] INFO root fetch - processPackages [tmctl]: executing diffoscope
+[2023-04-20 11:49:15] INFO root fetch - processPackages [tmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmctl-0.1.0.tar.gz tmp/tmctl-0.2.0.tar.gz --markdown 20230420/t/tmctl/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 11:49:15] INFO root fetch - processPackages [ephysiopy]: executing diffoscope
+[2023-04-20 11:49:15] INFO root fetch - processPackages [ephysiopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysiopy-1.8.98.tar.gz tmp/ephysiopy-1.8.99.tar.gz --markdown 20230420/e/ephysiopy/1.8.98-1.8.99/diff.md --exclude *.pyd
+[2023-04-20 11:49:15] INFO root fetch - processPackages [shapash]: Downloading https://files.pythonhosted.org/packages/9b/f0/6a638eb01670477ef85038500791ba23fdc9742b856fa79a182ebb2ae8e2/shapash-2.3.2.tar.gz
+[2023-04-20 11:49:15] INFO root fetch - processPackages [dclpy]: executing diffoscope
+[2023-04-20 11:49:15] INFO root fetch - processPackages [dclpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dclpy-0.0.2.tar.gz tmp/dclpy-0.0.3-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230420/d/dclpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 11:49:15] INFO root fetch - processPackages [alibabacloud-mpserverless20190615-py2]: executing diffoscope
+[2023-04-20 11:49:15] INFO root fetch - processPackages [alibabacloud-mpserverless20190615-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mpserverless20190615_py2-1.0.7.tar.gz tmp/alibabacloud_mpserverless20190615_py2-1.0.8.tar.gz --markdown 20230420/a/alibabacloud-mpserverless20190615-py2/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-20 11:49:15] INFO root fetch - processPackages [qunetsim]: executing diffoscope
+[2023-04-20 11:49:15] INFO root fetch - processPackages [qunetsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qunetsim-0.1.2.post3.tar.gz tmp/qunetsim-0.1.3.tar.gz --markdown 20230420/q/qunetsim/0.1.2.post3-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 11:49:15] INFO root fetch - processPackages [shapash]: executing diffoscope
+[2023-04-20 11:49:15] INFO root fetch - processPackages [shapash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapash-2.3.0.tar.gz tmp/shapash-2.3.2.tar.gz --markdown 20230420/s/shapash/2.3.0-2.3.2/diff.md --exclude *.pyd
+[2023-04-20 11:49:16] INFO root fetch - processPackages [crunch-cli]: Start processing: llm4gpt
+[2023-04-20 11:49:16] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-04-20 11:49:16] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.20.17.47.53] Old Version: [2023.4.20.17.30.9]
+[2023-04-20 11:49:16] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/ab/9e/7a43df98afec9cdad6f8f702352823a8ada035842683cd28181b4a1fd8d8/llm4gpt-2023.4.20.17.47.53.tar.gz
+[2023-04-20 11:49:16] INFO root fetch - processPackages [gmail-scanner]: Start processing: epluspy
+[2023-04-20 11:49:16] INFO root fetch - main [MainThread]: End processing [gmail-scanner]: success
+[2023-04-20 11:49:16] WARNING root fetch - processPackages [epluspy]: Skipping, unable to determine old version
+[2023-04-20 11:49:16] INFO root fetch - processPackages [epluspy]: Start processing: yarrowformat
+[2023-04-20 11:49:16] INFO root fetch - main [MainThread]: End processing [epluspy] error
+[2023-04-20 11:49:16] INFO root fetch - processPackages [yarrowformat]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-04-20 11:49:16] INFO root fetch - processPackages [bp-data-fabric]: Start processing: alibabacloud-mpserverless20190615
+[2023-04-20 11:49:16] INFO root fetch - main [MainThread]: End processing [bp-data-fabric]: success
+[2023-04-20 11:49:16] INFO root fetch - processPackages [alibabacloud-mpserverless20190615]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-20 11:49:16] INFO root fetch - processPackages [tmctl]: Start processing: cloudpss
+[2023-04-20 11:49:16] INFO root fetch - main [MainThread]: End processing [tmctl]: success
+[2023-04-20 11:49:16] INFO root fetch - processPackages [cloudpss]: New version: [3.2.0a2] Old Version: [3.2.0a1]
+[2023-04-20 11:49:17] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-20 11:49:17] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.20.17.30.9.tar.gz tmp/llm4gpt-2023.4.20.17.47.53.tar.gz --markdown 20230420/l/llm4gpt/2023.4.20.17.30.9-2023.4.20.17.47.53/diff.md --exclude *.pyd
+[2023-04-20 11:49:17] INFO root fetch - processPackages [yarrowformat]: Downloading https://files.pythonhosted.org/packages/98/b5/9c5b8c1b7e5bf91adc145059b18e11d5a91f25efd86658ed28030ee5466f/yarrowformat-1.1.2.tar.gz
+[2023-04-20 11:49:17] INFO root fetch - processPackages [alibabacloud-mpserverless20190615]: Downloading https://files.pythonhosted.org/packages/16/43/044a4d90ce9615b02119087ed9a876ec9150242b5095009dc1b522d94699/alibabacloud_mpserverless20190615-1.0.7.tar.gz
+[2023-04-20 11:49:17] INFO root fetch - processPackages [dclpy]: Start processing: taichu-serve
+[2023-04-20 11:49:17] INFO root fetch - main [MainThread]: End processing [dclpy]: success
+[2023-04-20 11:49:17] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [2.0.16]
+[2023-04-20 11:49:17] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/06/24/552bc63d66d84c64a063680a3c1727a134dd850f5baefcabc8b0d003396b/cloudpss-3.2.0a1.tar.gz
+[2023-04-20 11:49:17] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/81/8c/161448354bb28323dc97ac2681df20b1b9a7fed8d0c00bd58fc45dc03264/taichu-serve-2.0.16.tar.gz
+[2023-04-20 11:49:17] INFO root fetch - processPackages [ephysiopy]: Start processing: libdeeplake
+[2023-04-20 11:49:17] INFO root fetch - main [MainThread]: End processing [ephysiopy]: success
+[2023-04-20 11:49:17] INFO root fetch - processPackages [libdeeplake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 11:49:17] INFO root fetch - processPackages [alibabacloud-mpserverless20190615-py2]: Start processing: mkdocs-yaml-schema-plugin
+[2023-04-20 11:49:17] INFO root fetch - main [MainThread]: End processing [alibabacloud-mpserverless20190615-py2]: success
+[2023-04-20 11:49:17] INFO root fetch - processPackages [qunetsim]: Start processing: p-template-res
+[2023-04-20 11:49:17] INFO root fetch - main [MainThread]: End processing [qunetsim]: success
+[2023-04-20 11:49:17] INFO root fetch - processPackages [yarrowformat]: Downloading https://files.pythonhosted.org/packages/1b/a8/317b89a09bedf4e65fb711d53eaed96748734646bc77d1969a601a17b18d/yarrowformat-1.2.0.tar.gz
+[2023-04-20 11:49:17] INFO root fetch - processPackages [libdeeplake]: Downloading https://files.pythonhosted.org/packages/90/d1/8cba2118c890778e1a4faa696a73b8e9aafdf7592d045c088c972941ad5f/libdeeplake-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-20 11:49:17] INFO root fetch - processPackages [alibabacloud-mpserverless20190615]: Downloading https://files.pythonhosted.org/packages/72/f7/7f294817531b33a1aee25003c33f32f4cb644f61322cf958842ad5664936/alibabacloud_mpserverless20190615-1.0.8.tar.gz
+[2023-04-20 11:49:17] WARNING root fetch - processPackages [libdeeplake]: Skipping package: exceeds size limit 20849540>=10485760
+[2023-04-20 11:49:17] INFO root fetch - processPackages [libdeeplake]: Start processing: nwebclient
+[2023-04-20 11:49:17] INFO root fetch - main [MainThread]: End processing [libdeeplake] error
+[2023-04-20 11:49:17] INFO root fetch - processPackages [nwebclient]: New version: [1.0.71] Old Version: [1.0.70]
+[2023-04-20 11:49:17] INFO root fetch - processPackages [p-template-res]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 11:49:17] INFO root fetch - processPackages [mkdocs-yaml-schema-plugin]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-04-20 11:49:17] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-04-20 11:49:17] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.16.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230420/t/taichu-serve/2.0.16-2.0.9/diff.md --exclude *.pyd
+[2023-04-20 11:49:17] INFO root fetch - processPackages [yarrowformat]: executing diffoscope
+[2023-04-20 11:49:17] INFO root fetch - processPackages [yarrowformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yarrowformat-1.1.2.tar.gz tmp/yarrowformat-1.2.0.tar.gz --markdown 20230420/y/yarrowformat/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-04-20 11:49:17] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/d4/62/6fdc296728e9dbacd42b2b9936ef21cc09b12d2915d01265d884f4b78863/cloudpss-3.2.0a2.tar.gz
+[2023-04-20 11:49:17] INFO root fetch - processPackages [alibabacloud-mpserverless20190615]: executing diffoscope
+[2023-04-20 11:49:17] INFO root fetch - processPackages [alibabacloud-mpserverless20190615]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mpserverless20190615-1.0.7.tar.gz tmp/alibabacloud_mpserverless20190615-1.0.8.tar.gz --markdown 20230420/a/alibabacloud-mpserverless20190615/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-20 11:49:17] INFO root fetch - processPackages [mkdocs-yaml-schema-plugin]: Downloading https://files.pythonhosted.org/packages/94/65/b0f682e07bb3f921ff030a290e772eb9f931cd038d7533edb7370a757892/mkdocs-yaml-schema-plugin-0.1.3.tar.gz
+[2023-04-20 11:49:17] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/c0/e1/94acc42d8680266feebf09949d75dd55b31d09d5f5328b02e3b56b2a9d0b/nwebclient-1.0.71.tar.gz
+[2023-04-20 11:49:17] INFO root fetch - processPackages [cloudpss]: executing diffoscope
+[2023-04-20 11:49:17] INFO root fetch - processPackages [cloudpss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-3.2.0a1.tar.gz tmp/cloudpss-3.2.0a2.tar.gz --markdown 20230420/c/cloudpss/3.2.0a1-3.2.0a2/diff.md --exclude *.pyd
+[2023-04-20 11:49:17] INFO root fetch - main [MainThread]: End processing [shapash]: success
+[2023-04-20 11:49:17] INFO root fetch - processPackages [p-template-res]: executing diffoscope
+[2023-04-20 11:49:17] INFO root fetch - processPackages [p-template-res]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-res-0.1.8.tar.gz tmp/p-template-res-0.1.9.tar.gz --markdown 20230420/p/p-template-res/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 11:49:17] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-04-20 11:49:17] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.70.tar.gz tmp/nwebclient-1.0.71.tar.gz --markdown 20230420/n/nwebclient/1.0.70-1.0.71/diff.md --exclude *.pyd
+[2023-04-20 11:49:18] INFO root fetch - processPackages [mkdocs-yaml-schema-plugin]: Downloading https://files.pythonhosted.org/packages/78/da/8419759a2781ce8d1314fb0c2b6b747182531a702cb37ae1fc7bc6bb2328/mkdocs-yaml-schema-plugin-0.2.0.tar.gz
+[2023-04-20 11:49:18] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-20 11:49:18] INFO root fetch - processPackages [mkdocs-yaml-schema-plugin]: executing diffoscope
+[2023-04-20 11:49:18] INFO root fetch - processPackages [mkdocs-yaml-schema-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-yaml-schema-plugin-0.1.3.tar.gz tmp/mkdocs-yaml-schema-plugin-0.2.0.tar.gz --markdown 20230420/m/mkdocs-yaml-schema-plugin/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 11:49:19] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
+[2023-04-20 11:49:19] INFO root fetch - main [MainThread]: End processing [p-template-res]: success
+[2023-04-20 11:49:19] INFO root fetch - main [MainThread]: End processing [yarrowformat]: success
+[2023-04-20 11:49:19] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-04-20 11:49:19] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-04-20 11:49:19] INFO root fetch - main [MainThread]: End processing [pytictacbot]: success
+[2023-04-20 11:49:20] INFO root fetch - main [MainThread]: End processing [mkdocs-yaml-schema-plugin]: success
+[2023-04-20 11:49:20] INFO root fetch - main [MainThread]: End processing [alibabacloud-mpserverless20190615]: success
+[2023-04-20 11:49:20] INFO root fetch - main [MainThread]: Store serial: [17785025]
