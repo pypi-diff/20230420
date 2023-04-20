@@ -7751,3 +7751,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 06:51:40] INFO root fetch - main [MainThread]: End processing [huble]: success
 [2023-04-20 06:51:40] INFO root fetch - main [MainThread]: End processing [caesar-rock]: success
 [2023-04-20 06:51:40] INFO root fetch - main [MainThread]: Store serial: [17782133]
+[2023-04-20 06:56:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17782133]
+[2023-04-20 06:56:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-20 06:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proteinTools
+[2023-04-20 06:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caesar-rock
+[2023-04-20 06:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: generand
+[2023-04-20 06:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-mgmt-cosmosdb
+[2023-04-20 06:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-mgmt-iothub
+[2023-04-20 06:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo11-addon-l10n-it-account-balance-report
+[2023-04-20 06:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-mgmt-confidentialledger
+[2023-04-20 06:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azure-mgmt-containerinstance
+[2023-04-20 06:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: azure-mgmt-security
+[2023-04-20 06:56:48] INFO root fetch - processPackages [generand]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 06:56:48] INFO root fetch - processPackages [azure-mgmt-containerinstance]: New version: [9.2.0] Old Version: [9.1.0]
+[2023-04-20 06:56:48] INFO root fetch - processPackages [odoo11-addon-l10n-it-account-balance-report]: New version: [11.0.1.0.0.99.dev52] Old Version: [11.0.1.0.0.99.dev51]
+[2023-04-20 06:56:48] INFO root fetch - processPackages [caesar-rock]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-20 06:56:48] INFO root fetch - processPackages [azure-mgmt-security]: New version: [5.0.0] Old Version: [4.0.0b2]
+[2023-04-20 06:56:48] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: New version: [9.1.0b2] Old Version: [9.1.0b1]
+[2023-04-20 06:56:48] INFO root fetch - processPackages [proteinTools]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-20 06:56:48] INFO root fetch - processPackages [azure-mgmt-confidentialledger]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-04-20 06:56:48] INFO root fetch - processPackages [azure-mgmt-iothub]: New version: [2.4.0b1] Old Version: [2.4.0]
+[2023-04-20 06:56:48] INFO root fetch - processPackages [generand]: Downloading https://files.pythonhosted.org/packages/88/00/685cf9f0622d1cfc9d44a0e175b01fd9518acf5d7c11a1a9838a5499dddc/generand-0.0.1.tar.gz
+[2023-04-20 06:56:48] INFO root fetch - processPackages [azure-mgmt-iothub]: Downloading https://files.pythonhosted.org/packages/8d/65/ea40e550598d9281e8fbc2e4ef2dcd82197b625564557949600214a62cc9/azure-mgmt-iothub-2.4.0.zip
+[2023-04-20 06:56:48] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/78/da/aec63428fe471a3c605509c45a83745fffbd29fa9f970ff8691e5912ea5b/proteinTools-1.1.8.tar.gz
+[2023-04-20 06:56:48] INFO root fetch - processPackages [azure-mgmt-confidentialledger]: Downloading https://files.pythonhosted.org/packages/3b/cc/e0c26cfadf80ca0ba45a1a62d73d0418713beac0c6a7a9e25b5bf1217924/azure-mgmt-confidentialledger-2.0.0b1.zip
+[2023-04-20 06:56:48] INFO root fetch - processPackages [azure-mgmt-containerinstance]: Downloading https://files.pythonhosted.org/packages/3b/bc/21b2b701389e8e59aaa9f08c12ed2b6cead9a3a5ad0ef6cf07aed58a5557/azure-mgmt-containerinstance-9.1.0.zip
+[2023-04-20 06:56:48] INFO root fetch - processPackages [odoo11-addon-l10n-it-account-balance-report]: Downloading https://files.pythonhosted.org/packages/02/19/d8e8a58ab3ebe39773a419be46b0b061317d68b94b2673b6acb411de4a39/odoo11_addon_l10n_it_account_balance_report-11.0.1.0.0.99.dev51-py2.py3-none-any.whl
+[2023-04-20 06:56:48] INFO root fetch - processPackages [azure-mgmt-security]: Downloading https://files.pythonhosted.org/packages/c3/df/8cdeae72d14d57ee617c7e5bdae45111e29947f50b9b4b2ebbaf4252daed/azure-mgmt-security-4.0.0b2.zip
+[2023-04-20 06:56:48] INFO root fetch - processPackages [caesar-rock]: Downloading https://files.pythonhosted.org/packages/8f/c0/7d10e08ea6585f4d156d10801b1848960023619db7ccce6beaa1b2b4a56b/caesar-rock-0.0.6.tar.gz
+[2023-04-20 06:56:48] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: Downloading https://files.pythonhosted.org/packages/c4/d4/525046180389360ec5cafed419f9c74d6f09ba677e1510357d43fce45b87/azure-mgmt-cosmosdb-9.1.0b1.zip
+[2023-04-20 06:56:48] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-04-20 06:56:48] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.1.7.tar.gz tmp/proteinTools-1.1.8.tar.gz --markdown 20230420/p/proteinTools/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-20 06:56:48] INFO root fetch - processPackages [caesar-rock]: executing diffoscope
+[2023-04-20 06:56:48] INFO root fetch - processPackages [caesar-rock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caesar-rock-0.0.5.tar.gz tmp/caesar-rock-0.0.6.tar.gz --markdown 20230420/c/caesar-rock/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-20 06:56:48] INFO root fetch - processPackages [odoo11-addon-l10n-it-account-balance-report]: Downloading https://files.pythonhosted.org/packages/c0/6d/c79357c6699ad16900ff7e73879028ab51de044bb2bd7f695828ff185d99/odoo11_addon_l10n_it_account_balance_report-11.0.1.0.0.99.dev52-py2.py3-none-any.whl
+[2023-04-20 06:56:49] INFO root fetch - processPackages [generand]: Downloading https://files.pythonhosted.org/packages/63/43/be8f4aa07a35e0447056df5dc7786123d68fc6a4038b844738ee085c8c92/generand-0.0.2.tar.gz
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: Downloading https://files.pythonhosted.org/packages/0d/3e/d70b409e5af0bd1c3939d64c3711cb3ce8e4505b69e21e0a274b9c316b7b/azure-mgmt-cosmosdb-9.1.0b2.zip
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-confidentialledger]: Downloading https://files.pythonhosted.org/packages/9e/4c/ad5c8e85f877f9e3a1e9e8b5e838a897141af01e21594c7aafab7579a577/azure-mgmt-confidentialledger-2.0.0b2.zip
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-iothub]: Downloading https://files.pythonhosted.org/packages/de/61/169b2c6debcd9f1ba18ccf0257f067d2e275e71740459c2573bc4470dfd1/azure-mgmt-iothub-2.4.0b1.zip
+[2023-04-20 06:56:49] INFO root fetch - processPackages [odoo11-addon-l10n-it-account-balance-report]: executing diffoscope
+[2023-04-20 06:56:49] INFO root fetch - processPackages [odoo11-addon-l10n-it-account-balance-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_it_account_balance_report-11.0.1.0.0.99.dev51-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_it_account_balance_report-11.0.1.0.0.99.dev52-py2.py3-none-any.whl.zip --markdown 20230420/o/odoo11-addon-l10n-it-account-balance-report/11.0.1.0.0.99.dev51-11.0.1.0.0.99.dev52/diff.md --exclude *.pyd
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-containerinstance]: Downloading https://files.pythonhosted.org/packages/6c/43/cb35cb355f23129a413901cc8fe749418b206bf6075750b95483982cf8d0/azure-mgmt-containerinstance-9.2.0.zip
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-security]: Downloading https://files.pythonhosted.org/packages/ee/ba/a3ac088d30e0179df32e0a4981e670e96138b6141d4be821ccfd9ea5951b/azure-mgmt-security-5.0.0.zip
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-confidentialledger]: executing diffoscope
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-confidentialledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-confidentialledger-2.0.0b1.zip tmp/azure-mgmt-confidentialledger-2.0.0b2.zip --markdown 20230420/a/azure-mgmt-confidentialledger/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: executing diffoscope
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-cosmosdb-9.1.0b1.zip tmp/azure-mgmt-cosmosdb-9.1.0b2.zip --markdown 20230420/a/azure-mgmt-cosmosdb/9.1.0b1-9.1.0b2/diff.md --exclude *.pyd
+[2023-04-20 06:56:49] INFO root fetch - processPackages [generand]: executing diffoscope
+[2023-04-20 06:56:49] INFO root fetch - processPackages [generand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generand-0.0.1.tar.gz tmp/generand-0.0.2.tar.gz --markdown 20230420/g/generand/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-security]: executing diffoscope
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-security-4.0.0b2.zip tmp/azure-mgmt-security-5.0.0.zip --markdown 20230420/a/azure-mgmt-security/4.0.0b2-5.0.0/diff.md --exclude *.pyd
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-containerinstance]: executing diffoscope
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-containerinstance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-containerinstance-9.1.0.zip tmp/azure-mgmt-containerinstance-9.2.0.zip --markdown 20230420/a/azure-mgmt-containerinstance/9.1.0-9.2.0/diff.md --exclude *.pyd
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-iothub]: executing diffoscope
+[2023-04-20 06:56:49] INFO root fetch - processPackages [azure-mgmt-iothub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-iothub-2.4.0.zip tmp/azure-mgmt-iothub-2.4.0b1.zip --markdown 20230420/a/azure-mgmt-iothub/2.4.0-2.4.0b1/diff.md --exclude *.pyd
+[2023-04-20 06:56:49] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-04-20 06:56:50] INFO root fetch - main [MainThread]: End processing [caesar-rock]: success
+[2023-04-20 06:56:50] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-it-account-balance-report]: success
+[2023-04-20 06:56:50] INFO root fetch - main [MainThread]: End processing [azure-mgmt-confidentialledger]: success
+[2023-04-20 06:56:51] INFO root fetch - main [MainThread]: End processing [azure-mgmt-containerinstance]: success
+[2023-04-20 06:56:54] INFO root fetch - main [MainThread]: End processing [azure-mgmt-cosmosdb]: success
+[2023-04-20 06:56:59] INFO root fetch - main [MainThread]: End processing [azure-mgmt-iothub]: success
+[2023-04-20 06:57:00] INFO root fetch - main [MainThread]: End processing [azure-mgmt-security]: success
+[2023-04-20 06:57:06] INFO root fetch - main [MainThread]: End processing [generand]: success
+[2023-04-20 06:57:06] INFO root fetch - main [MainThread]: Store serial: [17782163]
