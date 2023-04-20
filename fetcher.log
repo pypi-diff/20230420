@@ -22651,3 +22651,130 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 19:45:35] INFO root fetch - main [MainThread]: End processing [satcfdi]: success
 [2023-04-20 19:45:36] INFO root fetch - main [MainThread]: End processing [ethraid]: success
 [2023-04-20 19:45:36] INFO root fetch - main [MainThread]: Store serial: [17790899]
+[2023-04-20 19:50:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790899]
+[2023-04-20 19:50:45] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-20 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyanzo
+[2023-04-20 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mercoa
+[2023-04-20 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: generand
+[2023-04-20 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PlexTraktSync
+[2023-04-20 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solarwinds-apm
+[2023-04-20 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jakteristics
+[2023-04-20 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alice-and-bobbb
+[2023-04-20 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yotpy
+[2023-04-20 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: KiMoPack
+[2023-04-20 19:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-ionq
+[2023-04-20 19:50:45] INFO root fetch - processPackages [solarwinds-apm]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-20 19:50:45] INFO root fetch - processPackages [generand]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-20 19:50:45] INFO root fetch - processPackages [mercoa]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-20 19:50:45] INFO root fetch - processPackages [pyanzo]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-04-20 19:50:45] ERROR root fetch - processPackages [alice-and-bobbb]: Unable to get metadata: No such project 'alice-and-bobbb'
+[2023-04-20 19:50:45] INFO root fetch - processPackages [alice-and-bobbb]: Start processing: cirq-rigetti
+[2023-04-20 19:50:45] INFO root fetch - processPackages [yotpy]: New version: [0.0.83] Old Version: [0.0.82]
+[2023-04-20 19:50:45] INFO root fetch - main [MainThread]: End processing [alice-and-bobbb] error
+[2023-04-20 19:50:45] INFO root fetch - processPackages [KiMoPack]: New version: [7.0.4] Old Version: [7.0.2]
+[2023-04-20 19:50:45] INFO root fetch - processPackages [jakteristics]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-20 19:50:45] INFO root fetch - processPackages [PlexTraktSync]: New version: [0.26.2] Old Version: [0.26.1]
+[2023-04-20 19:50:45] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-20 19:50:45] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-20 19:50:45] INFO root fetch - processPackages [solarwinds-apm]: Downloading https://files.pythonhosted.org/packages/8b/f2/b9bd933a9c71f95af81d359b5e2dcbdb8a76b5539b69ac061eead49e67cd/solarwinds_apm-0.8.3.tar.gz
+[2023-04-20 19:50:45] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/73/e3/0757d3e87219362ce4f8123b06874143d55f7ed8b25fcf5063f27d71e5dd/mercoa-0.0.5.tar.gz
+[2023-04-20 19:50:45] INFO root fetch - processPackages [generand]: Downloading https://files.pythonhosted.org/packages/aa/28/f8715ab82e76fefa6cb2fd4ef578cf1fe65619f0b9e50513c3a588f89c90/generand-0.0.4.tar.gz
+[2023-04-20 19:50:45] INFO root fetch - processPackages [jakteristics]: Downloading https://files.pythonhosted.org/packages/70/a1/aab82a000da377b37ee5861d993100f3a92216dece10e56a69d848cff4c8/jakteristics-0.5.1.tar.gz
+[2023-04-20 19:50:46] INFO root fetch - processPackages [yotpy]: Downloading https://files.pythonhosted.org/packages/32/f3/c9f81402803980dcaf4c6befd35566772a7e16f3606cbf283f9deead7fdd/yotpy-0.0.83.tar.gz
+[2023-04-20 19:50:46] WARNING root fetch - processPackages [solarwinds-apm]: Skipping package: exceeds size limit 25160000>=10485760
+[2023-04-20 19:50:46] INFO root fetch - processPackages [solarwinds-apm]: Start processing: amlopschat
+[2023-04-20 19:50:46] INFO root fetch - main [MainThread]: End processing [solarwinds-apm] error
+[2023-04-20 19:50:46] INFO root fetch - processPackages [yotpy]: executing diffoscope
+[2023-04-20 19:50:46] INFO root fetch - processPackages [yotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yotpy-0.0.82.tar.gz tmp/yotpy-0.0.83.tar.gz --markdown 20230420/y/yotpy/0.0.82-0.0.83/diff.md --exclude *.pyd
+[2023-04-20 19:50:46] INFO root fetch - processPackages [KiMoPack]: Downloading https://files.pythonhosted.org/packages/2a/c0/1c565738acdb57df08bbc88e8558bd0068d82cc15506a8e3155a2e71dbac/KiMoPack-7.0.4-py3-none-any.whl
+[2023-04-20 19:50:46] INFO root fetch - processPackages [pyanzo]: Downloading https://files.pythonhosted.org/packages/22/0e/9152eb79d06810fb5cb3636fc1575e5c7c2cc1873cbe6f078061152ae9e6/pyanzo-3.3.9.tar.gz
+[2023-04-20 19:50:46] INFO root fetch - processPackages [amlopschat]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 19:50:46] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/6b/b8/4379f707c44066a50a389fc612709d80ffc3f4d95ddcdc0a6e73588416e0/PlexTraktSync-0.26.2.tar.gz
+[2023-04-20 19:50:46] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/29/93/ea047b13a28e1804cb053f2ba32f46dd3d23357c2e1592c78c40f84ccf80/cirq_ionq-1.2.0.dev20230420174839-py3-none-any.whl
+[2023-04-20 19:50:46] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/19/0f/2ccefa70127aeb8d197cf4dcd4d91d9750f19fc213297e598bfe7c3b6b0a/cirq_rigetti-1.2.0.dev20230420174839-py3-none-any.whl
+[2023-04-20 19:50:46] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/18/3b/b92d089103fdf29600924b85407d309ec0e164391584233a1f2c3aa2a410/mercoa-0.0.6.tar.gz
+[2023-04-20 19:50:46] INFO root fetch - processPackages [KiMoPack]: executing diffoscope
+[2023-04-20 19:50:46] INFO root fetch - processPackages [KiMoPack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KiMoPack-7.0.2.tar.gz tmp/KiMoPack-7.0.4-py3-none-any.whl.zip --markdown 20230420/K/KiMoPack/7.0.2-7.0.4/diff.md --exclude *.pyd
+[2023-04-20 19:50:46] INFO root fetch - processPackages [generand]: Downloading https://files.pythonhosted.org/packages/15/50/1fffc0f50ca6c85b83861ad0117bddb9420ddc6d24486867d62e6815f379/generand-0.0.5.tar.gz
+[2023-04-20 19:50:46] INFO root fetch - processPackages [jakteristics]: Downloading https://files.pythonhosted.org/packages/01/db/948e2d0b0c7682c659e65a260c5254f8cf54b33ba6d767483415a27b84a4/jakteristics-0.6.0.tar.gz
+[2023-04-20 19:50:46] INFO root fetch - processPackages [pyanzo]: executing diffoscope
+[2023-04-20 19:50:46] INFO root fetch - processPackages [pyanzo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanzo-3.3.8.tar.gz tmp/pyanzo-3.3.9.tar.gz --markdown 20230420/p/pyanzo/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-04-20 19:50:46] INFO root fetch - processPackages [PlexTraktSync]: executing diffoscope
+[2023-04-20 19:50:46] INFO root fetch - processPackages [PlexTraktSync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlexTraktSync-0.26.1.tar.gz tmp/PlexTraktSync-0.26.2.tar.gz --markdown 20230420/P/PlexTraktSync/0.26.1-0.26.2/diff.md --exclude *.pyd
+[2023-04-20 19:50:46] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-04-20 19:50:46] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230420/c/cirq-ionq/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-20 19:50:46] INFO root fetch - processPackages [mercoa]: executing diffoscope
+[2023-04-20 19:50:46] INFO root fetch - processPackages [mercoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercoa-0.0.5.tar.gz tmp/mercoa-0.0.6.tar.gz --markdown 20230420/m/mercoa/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-20 19:50:46] INFO root fetch - processPackages [generand]: executing diffoscope
+[2023-04-20 19:50:46] INFO root fetch - processPackages [generand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generand-0.0.4.tar.gz tmp/generand-0.0.5.tar.gz --markdown 20230420/g/generand/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 19:50:46] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-04-20 19:50:46] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230420/c/cirq-rigetti/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-20 19:50:46] INFO root fetch - processPackages [amlopschat]: Downloading https://files.pythonhosted.org/packages/cc/a9/bdc293eefa1cd0d9096314380d7a577d5c07bdedb1c79f7f3ffc16449ae3/amlopschat-1.0.9.tar.gz
+[2023-04-20 19:50:46] INFO root fetch - processPackages [jakteristics]: executing diffoscope
+[2023-04-20 19:50:46] INFO root fetch - processPackages [jakteristics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jakteristics-0.5.1.tar.gz tmp/jakteristics-0.6.0.tar.gz --markdown 20230420/j/jakteristics/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-04-20 19:50:46] INFO root fetch - processPackages [amlopschat]: executing diffoscope
+[2023-04-20 19:50:46] INFO root fetch - processPackages [amlopschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopschat-1.0.8.tar.gz tmp/amlopschat-1.0.9.tar.gz --markdown 20230420/a/amlopschat/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 19:50:47] INFO root fetch - processPackages [yotpy]: Start processing: cirq-web
+[2023-04-20 19:50:47] INFO root fetch - main [MainThread]: End processing [yotpy]: success
+[2023-04-20 19:50:47] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-20 19:50:47] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/19/cd/6b30c251b88f20a9c5a38d8ffbf61e77dd2110f857dd8a7fbb2bd8d0eb70/cirq_web-1.2.0.dev20230420174839-py3-none-any.whl
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230420/c/cirq-web/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-20 19:50:48] INFO root fetch - processPackages [generand]: Start processing: cirq-google
+[2023-04-20 19:50:48] INFO root fetch - main [MainThread]: End processing [generand]: success
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq-ionq]: Start processing: cirq
+[2023-04-20 19:50:48] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq-rigetti]: Start processing: cirq-core
+[2023-04-20 19:50:48] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/ad/ce/12feb4455e5e53c2018d67e67b84dc8f66032ab39c6e0763bad35255ae7a/cirq_google-1.2.0.dev20230420174839-py3-none-any.whl
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/27/e1/bdb32e52cbf2db90c9e76ff6a7f80a9e440c45073a9afd1eb8123ac1ee7d/cirq-1.2.0.dev20230420174839-py3-none-any.whl
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230420/c/cirq-google/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/33/37/b381321b0950873d7b7e8a194ac45e50e199f9ca736b3ecbc74a91b18b70/cirq_core-1.2.0.dev20230420174839-py3-none-any.whl
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230420/c/cirq/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-04-20 19:50:48] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230420/c/cirq-core/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-20 19:50:49] INFO root fetch - processPackages [PlexTraktSync]: Start processing: cirq-aqt
+[2023-04-20 19:50:49] INFO root fetch - main [MainThread]: End processing [PlexTraktSync]: success
+[2023-04-20 19:50:49] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-20 19:50:49] INFO root fetch - processPackages [pyanzo]: Start processing: cirq-pasqal
+[2023-04-20 19:50:49] INFO root fetch - main [MainThread]: End processing [pyanzo]: success
+[2023-04-20 19:50:49] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230420174839] Old Version: [1.2.0.dev20230419170228]
+[2023-04-20 19:50:49] INFO root fetch - processPackages [mercoa]: Start processing: bbctestingcock
+[2023-04-20 19:50:49] INFO root fetch - main [MainThread]: End processing [mercoa]: success
+[2023-04-20 19:50:49] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/37/ed/d51e512f585fa59a12a49576222aa661b99e7a9a1ddc8529913dcc707cad/cirq_aqt-1.2.0.dev20230420174839-py3-none-any.whl
+[2023-04-20 19:50:49] INFO root fetch - processPackages [bbctestingcock]: New version: [0.2] Old Version: [0.1]
+[2023-04-20 19:50:49] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/04/5e/be29d458e6982fa3fcf4c5f4d4d4088c1d3e0276ef08821c38433429123e/cirq_pasqal-1.2.0.dev20230420174839-py3-none-any.whl
+[2023-04-20 19:50:49] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-04-20 19:50:49] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230420/c/cirq-aqt/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-20 19:50:49] INFO root fetch - processPackages [cirq-web]: Start processing: ZiTokenizer
+[2023-04-20 19:50:49] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-04-20 19:50:49] INFO root fetch - processPackages [bbctestingcock]: executing diffoscope
+[2023-04-20 19:50:49] INFO root fetch - processPackages [bbctestingcock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbctestingcock-0.1.tar.gz tmp/bbctestingcock-0.2.tar.gz --markdown 20230420/b/bbctestingcock/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-20 19:50:49] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-04-20 19:50:49] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230419170228-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230420174839-py3-none-any.whl.zip --markdown 20230420/c/cirq-pasqal/1.2.0.dev20230419170228-1.2.0.dev20230420174839/diff.md --exclude *.pyd
+[2023-04-20 19:50:49] INFO root fetch - processPackages [ZiTokenizer]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 19:50:49] INFO root fetch - processPackages [jakteristics]: Start processing: nonebot-plugin-rename
+[2023-04-20 19:50:49] INFO root fetch - main [MainThread]: End processing [jakteristics]: success
+[2023-04-20 19:50:49] INFO root fetch - processPackages [nonebot-plugin-rename]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-04-20 19:50:50] INFO root fetch - processPackages [ZiTokenizer]: Downloading https://files.pythonhosted.org/packages/f0/2f/a9e8010fcdc9750c5b3b346638ef1cf01fc9e7c297d7c45e95677fc5dac6/ZiTokenizer-0.0.7.tar.gz
+[2023-04-20 19:50:50] INFO root fetch - processPackages [nonebot-plugin-rename]: executing diffoscope
+[2023-04-20 19:50:50] INFO root fetch - processPackages [nonebot-plugin-rename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_rename-1.0.0.tar.gz tmp/nonebot_plugin_rename-1.0.2.tar.gz --markdown 20230420/n/nonebot-plugin-rename/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 19:50:50] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-04-20 19:50:50] INFO root fetch - processPackages [ZiTokenizer]: Downloading https://files.pythonhosted.org/packages/48/f4/715a0232d01d4dddbe69da973313fcd34b71be165eee14624fb69c62bb2d/ZiTokenizer-0.0.8.tar.gz
+[2023-04-20 19:50:50] INFO root fetch - processPackages [ZiTokenizer]: executing diffoscope
+[2023-04-20 19:50:50] INFO root fetch - processPackages [ZiTokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ZiTokenizer-0.0.7.tar.gz tmp/ZiTokenizer-0.0.8.tar.gz --markdown 20230420/Z/ZiTokenizer/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 19:50:50] INFO root fetch - main [MainThread]: End processing [KiMoPack]: success
+[2023-04-20 19:50:51] INFO root fetch - main [MainThread]: End processing [bbctestingcock]: success
+[2023-04-20 19:50:51] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-04-20 19:50:51] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-04-20 19:50:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rename]: success
+[2023-04-20 19:50:51] INFO root fetch - main [MainThread]: End processing [ZiTokenizer]: success
+[2023-04-20 19:50:51] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
+[2023-04-20 19:50:52] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-04-20 19:51:06] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-04-20 19:51:06] INFO root fetch - main [MainThread]: Store serial: [17790973]
