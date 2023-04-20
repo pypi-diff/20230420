@@ -16247,3 +16247,55 @@ EOFError: EOF read where object expected
 [2023-04-20 14:32:23] INFO root fetch - main [MainThread]: End processing [napari-sam]: success
 [2023-04-20 14:32:24] INFO root fetch - main [MainThread]: End processing [recfast4py]: success
 [2023-04-20 14:32:24] INFO root fetch - main [MainThread]: Store serial: [17786925]
+[2023-04-20 14:37:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17786925]
+[2023-04-20 14:37:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-20 14:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: translate-shell
+[2023-04-20 14:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-socio-grpc
+[2023-04-20 14:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exam-angel
+[2023-04-20 14:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-pipeline-package
+[2023-04-20 14:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dop-integration-libs
+[2023-04-20 14:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inventree
+[2023-04-20 14:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kooplearn
+[2023-04-20 14:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: th2-grpc-lw-data-provider
+[2023-04-20 14:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: QuNet
+[2023-04-20 14:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uniprot-id-mapper
+[2023-04-20 14:37:33] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 14:37:33] INFO root fetch - processPackages [translate-shell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 14:37:33] WARNING root fetch - processPackages [QuNet]: Skipping, unable to determine old version
+[2023-04-20 14:37:33] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-20 14:37:33] INFO root fetch - processPackages [kooplearn]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 14:37:33] INFO root fetch - main [MainThread]: End processing [QuNet] error
+[2023-04-20 14:37:34] WARNING root fetch - processPackages [exam-angel]: Skipping, unable to determine old version
+[2023-04-20 14:37:34] INFO root fetch - processPackages [inventree]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-20 14:37:34] INFO root fetch - main [MainThread]: End processing [exam-angel] error
+[2023-04-20 14:37:34] WARNING root fetch - processPackages [uniprot-id-mapper]: Skipping, unable to determine old version
+[2023-04-20 14:37:34] INFO root fetch - main [MainThread]: End processing [uniprot-id-mapper] error
+[2023-04-20 14:37:34] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4754238535]
+[2023-04-20 14:37:34] INFO root fetch - processPackages [django-socio-grpc]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-04-20 14:37:34] INFO root fetch - processPackages [kooplearn]: executing diffoscope
+[2023-04-20 14:37:34] INFO root fetch - processPackages [kooplearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kooplearn-0.1.8.tar.gz tmp/kooplearn-0.1.9.tar.gz --markdown 20230420/k/kooplearn/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 14:37:34] INFO root fetch - processPackages [dop-integration-libs]: Downloading https://files.pythonhosted.org/packages/38/f1/bc23be91e084aa547e8c34ae1a7861c50b6e729c3885a6de0dd44e75ec72/dop_integration_libs-0.1.8.tar.gz
+[2023-04-20 14:37:34] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-20 14:37:34] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4754238535.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230420/t/th2-grpc-lw-data-provider/2.0.0.dev4754238535-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-20 14:37:34] INFO root fetch - processPackages [my-pipeline-package]: Downloading https://files.pythonhosted.org/packages/2e/87/2491ae87d3792d4a221e14609266c23d168027404cf052e752001ff4fdca/my-pipeline-package-1.1.8.tar.gz
+[2023-04-20 14:37:34] INFO root fetch - processPackages [translate-shell]: Downloading https://files.pythonhosted.org/packages/aa/ed/e25a7c89f8e66c89b4f998bd2f4280d8a427b319670e155b018f04adf8d8/translate-shell-0.0.8.tar.gz
+[2023-04-20 14:37:34] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 14:37:34] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.7.tar.gz tmp/my-pipeline-package-1.1.8.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-20 14:37:34] INFO root fetch - processPackages [inventree]: executing diffoscope
+[2023-04-20 14:37:34] INFO root fetch - processPackages [inventree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventree-0.9.1.tar.gz tmp/inventree-0.9.2.tar.gz --markdown 20230420/i/inventree/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-20 14:37:34] INFO root fetch - processPackages [django-socio-grpc]: executing diffoscope
+[2023-04-20 14:37:34] INFO root fetch - processPackages [django-socio-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-socio-grpc-0.8.9.tar.gz tmp/django-socio-grpc-0.9.0.tar.gz --markdown 20230420/d/django-socio-grpc/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 14:37:34] INFO root fetch - processPackages [dop-integration-libs]: Downloading https://files.pythonhosted.org/packages/e7/f0/39af1af4e964476dc9c3ae6c1ab240702fef5edc6306252ed5b3a40574c7/dop_integration_libs-0.1.9.tar.gz
+[2023-04-20 14:37:34] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-20 14:37:34] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230420/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 14:37:35] INFO root fetch - processPackages [translate-shell]: Downloading https://files.pythonhosted.org/packages/10/53/d1b2622fd5860f8b6f36dbdd934c30d2e357cd577f74de20d18e020079f4/translate-shell-0.0.9.tar.gz
+[2023-04-20 14:37:35] INFO root fetch - main [MainThread]: End processing [kooplearn]: success
+[2023-04-20 14:37:35] INFO root fetch - processPackages [translate-shell]: executing diffoscope
+[2023-04-20 14:37:35] INFO root fetch - processPackages [translate-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translate-shell-0.0.8.tar.gz tmp/translate-shell-0.0.9.tar.gz --markdown 20230420/t/translate-shell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 14:37:35] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-20 14:37:35] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 14:37:35] INFO root fetch - main [MainThread]: End processing [inventree]: success
+[2023-04-20 14:37:35] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-20 14:37:38] INFO root fetch - main [MainThread]: End processing [translate-shell]: success
+[2023-04-20 14:37:48] INFO root fetch - main [MainThread]: End processing [django-socio-grpc]: success
+[2023-04-20 14:37:48] INFO root fetch - main [MainThread]: Store serial: [17786956]
