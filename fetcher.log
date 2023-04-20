@@ -10720,3 +10720,113 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 10:32:47] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
 [2023-04-20 10:32:58] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-04-20 10:32:58] INFO root fetch - main [MainThread]: Store serial: [17783821]
+[2023-04-20 10:38:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783821]
+[2023-04-20 10:38:08] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbsqlclone
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ma-nish
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-common-task-system
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oida
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyspreadsheet
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-mgmt-imagebuilder
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-mgmt-applicationinsights
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rsatoolbox
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: samna
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zerocs
+[2023-04-20 10:38:08] INFO root fetch - processPackages [dbsqlclone]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 10:38:08] INFO root fetch - processPackages [django-common-task-system]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ma-nish]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-20 10:38:08] INFO root fetch - processPackages [oida]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-20 10:38:08] INFO root fetch - processPackages [azure-mgmt-applicationinsights]: New version: [4.0.0b1] Old Version: [4.0.0]
+[2023-04-20 10:38:08] INFO root fetch - processPackages [azure-mgmt-imagebuilder]: New version: [1.2.0b1] Old Version: [1.2.0]
+[2023-04-20 10:38:08] INFO root fetch - processPackages [pyspreadsheet]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 10:38:08] WARNING root fetch - processPackages [zerocs]: Skipping, unable to determine old version
+[2023-04-20 10:38:08] INFO root fetch - processPackages [zerocs]: Start processing: python-selenium-ctrl-package
+[2023-04-20 10:38:08] INFO root fetch - main [MainThread]: End processing [zerocs] error
+[2023-04-20 10:38:08] INFO root fetch - processPackages [rsatoolbox]: New version: [0.1.3.dev4] Old Version: [0.1.3.dev37]
+[2023-04-20 10:38:08] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-04-20 10:38:08] INFO root fetch - processPackages [python-selenium-ctrl-package]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-04-20 10:38:08] INFO root fetch - processPackages [dbsqlclone]: executing diffoscope
+[2023-04-20 10:38:08] INFO root fetch - processPackages [dbsqlclone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbsqlclone-0.1.8-py3-none-any.whl.zip tmp/dbsqlclone-0.1.9-py3-none-any.whl.zip --markdown 20230420/d/dbsqlclone/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ma-nish]: Downloading https://files.pythonhosted.org/packages/be/f7/34c3a8169f83b826cc8103a55ffcebeb703350c9bd41f8b63ebe44649d21/ma-nish-0.8.0.tar.gz
+[2023-04-20 10:38:08] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-04-20 10:38:08] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230420/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-04-20 10:38:08] INFO root fetch - processPackages [azure-mgmt-applicationinsights]: Downloading https://files.pythonhosted.org/packages/89/37/65811225c0611bedc784f8fd954eeb5a0e4cf58dc9f46860b33444391589/azure-mgmt-applicationinsights-4.0.0.zip
+[2023-04-20 10:38:08] INFO root fetch - processPackages [rsatoolbox]: Downloading https://files.pythonhosted.org/packages/1b/80/a8da4efab28a70d695499b1212016f23fedfff98a34e890f7743cf44ae1c/rsatoolbox-0.1.3.dev37.tar.gz
+[2023-04-20 10:38:08] INFO root fetch - processPackages [azure-mgmt-imagebuilder]: Downloading https://files.pythonhosted.org/packages/6a/c9/dc0a9f1631cf3e62be90acc3cd6311faa08904d58136f1bdd5847802bb66/azure-mgmt-imagebuilder-1.2.0.zip
+[2023-04-20 10:38:08] INFO root fetch - processPackages [pyspreadsheet]: Downloading https://files.pythonhosted.org/packages/3a/96/b536f96bf4fda60e24babcf85b865ab365afc23f291a13084f00dc883702/pyspreadsheet-0.2.8.tar.gz
+[2023-04-20 10:38:08] INFO root fetch - processPackages [oida]: Downloading https://files.pythonhosted.org/packages/50/58/0d3cd8592acd3d0c42904352b1a5eb9101bf1399d63f77a36d662e41297a/oida-0.1.4.tar.gz
+[2023-04-20 10:38:08] INFO root fetch - processPackages [django-common-task-system]: Downloading https://files.pythonhosted.org/packages/ce/32/df34b973f70b0c9f0c8356d689685c60752ce11bf4e6ce68f060f5402f20/django-common-task-system-1.2.0.tar.gz
+[2023-04-20 10:38:08] INFO root fetch - processPackages [python-selenium-ctrl-package]: Downloading https://files.pythonhosted.org/packages/22/7d/555a299c2e626ad56efb059baaba3fd316091909662e7a5e2a38e6d34794/python_selenium_ctrl_package-0.0.97.tar.gz
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ma-nish]: Downloading https://files.pythonhosted.org/packages/bd/ad/68d3fb53f252c048e19c24c341a42d6b1bac6f8c8781edac2a0e447c651d/ma-nish-0.9.0.tar.gz
+[2023-04-20 10:38:08] INFO root fetch - processPackages [python-selenium-ctrl-package]: executing diffoscope
+[2023-04-20 10:38:08] INFO root fetch - processPackages [python-selenium-ctrl-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_selenium_ctrl_package-0.0.96.tar.gz tmp/python_selenium_ctrl_package-0.0.97.tar.gz --markdown 20230420/p/python-selenium-ctrl-package/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-04-20 10:38:08] INFO root fetch - processPackages [azure-mgmt-applicationinsights]: Downloading https://files.pythonhosted.org/packages/5f/46/5ef8ab1c00e6056c0e834ebb0b1c2a591d74e31c11a5bdc15978e09ec81f/azure-mgmt-applicationinsights-4.0.0b1.zip
+[2023-04-20 10:38:08] INFO root fetch - processPackages [django-common-task-system]: executing diffoscope
+[2023-04-20 10:38:08] INFO root fetch - processPackages [django-common-task-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-common-task-system-1.1.9.tar.gz tmp/django-common-task-system-1.2.0.tar.gz --markdown 20230420/d/django-common-task-system/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-04-20 10:38:08] INFO root fetch - processPackages [pyspreadsheet]: Downloading https://files.pythonhosted.org/packages/94/54/bb304fd7205eb3de57bdd273ff9d5a715f4641fba20bf345f17a5f1d8d68/pyspreadsheet-0.2.9.tar.gz
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ma-nish]: executing diffoscope
+[2023-04-20 10:38:08] INFO root fetch - processPackages [ma-nish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ma-nish-0.8.0.tar.gz tmp/ma-nish-0.9.0.tar.gz --markdown 20230420/m/ma-nish/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 10:38:08] INFO root fetch - processPackages [rsatoolbox]: Downloading https://files.pythonhosted.org/packages/33/8f/157a8754039c7e77ca16cdf3256fde25b7cf2a42f1a7f9c64269236e96db/rsatoolbox-0.1.3.dev4.tar.gz
+[2023-04-20 10:38:08] INFO root fetch - processPackages [azure-mgmt-imagebuilder]: Downloading https://files.pythonhosted.org/packages/f7/a0/cf7c51c49df885830df7b94cc60d1a7c181a93f6d39833f1a145b816b2d0/azure-mgmt-imagebuilder-1.2.0b1.zip
+[2023-04-20 10:38:08] INFO root fetch - processPackages [oida]: Downloading https://files.pythonhosted.org/packages/4e/ec/2117892fa32cba41f1f97f1174a6dd2be07c5e1a3beab2f36028b92a24ec/oida-0.1.5.tar.gz
+[2023-04-20 10:38:08] INFO root fetch - processPackages [azure-mgmt-applicationinsights]: executing diffoscope
+[2023-04-20 10:38:08] INFO root fetch - processPackages [azure-mgmt-applicationinsights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-applicationinsights-4.0.0.zip tmp/azure-mgmt-applicationinsights-4.0.0b1.zip --markdown 20230420/a/azure-mgmt-applicationinsights/4.0.0-4.0.0b1/diff.md --exclude *.pyd
+[2023-04-20 10:38:08] INFO root fetch - processPackages [pyspreadsheet]: executing diffoscope
+[2023-04-20 10:38:08] INFO root fetch - processPackages [pyspreadsheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspreadsheet-0.2.8.tar.gz tmp/pyspreadsheet-0.2.9.tar.gz --markdown 20230420/p/pyspreadsheet/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 10:38:08] INFO root fetch - processPackages [oida]: executing diffoscope
+[2023-04-20 10:38:08] INFO root fetch - processPackages [oida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oida-0.1.4.tar.gz tmp/oida-0.1.5.tar.gz --markdown 20230420/o/oida/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-20 10:38:08] INFO root fetch - processPackages [azure-mgmt-imagebuilder]: executing diffoscope
+[2023-04-20 10:38:08] INFO root fetch - processPackages [azure-mgmt-imagebuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-imagebuilder-1.2.0.zip tmp/azure-mgmt-imagebuilder-1.2.0b1.zip --markdown 20230420/a/azure-mgmt-imagebuilder/1.2.0-1.2.0b1/diff.md --exclude *.pyd
+[2023-04-20 10:38:08] INFO root fetch - processPackages [rsatoolbox]: executing diffoscope
+[2023-04-20 10:38:08] INFO root fetch - processPackages [rsatoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsatoolbox-0.1.3.dev37.tar.gz tmp/rsatoolbox-0.1.3.dev4.tar.gz --markdown 20230420/r/rsatoolbox/0.1.3.dev37-0.1.3.dev4/diff.md --exclude *.pyd
+[2023-04-20 10:38:09] INFO root fetch - processPackages [samna]: Start processing: Geode-Explicit
+[2023-04-20 10:38:09] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-04-20 10:38:09] INFO root fetch - processPackages [Geode-Explicit]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-20 10:38:09] INFO root fetch - processPackages [dbsqlclone]: Start processing: ec2-demo
+[2023-04-20 10:38:09] INFO root fetch - main [MainThread]: End processing [dbsqlclone]: success
+[2023-04-20 10:38:09] INFO root fetch - processPackages [ec2-demo]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-20 10:38:09] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/fa/14/d0ad47b1ad29aafa3f56c2a03b72877ca4f8f50979e8a535ecb25bed8103/Geode_Explicit-3.0.0-cp39-cp39-win_amd64.whl
+[2023-04-20 10:38:09] INFO root fetch - processPackages [ec2-demo]: Downloading https://files.pythonhosted.org/packages/df/11/97fef9eb4897be027baec10775934b43b045bbc1a456190d7deec8e6da32/ec2-demo-0.1.6.tar.gz
+[2023-04-20 10:38:10] INFO root fetch - processPackages [ec2-demo]: executing diffoscope
+[2023-04-20 10:38:10] INFO root fetch - processPackages [ec2-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec2-demo-0.1.5.tar.gz tmp/ec2-demo-0.1.6.tar.gz --markdown 20230420/e/ec2-demo/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-20 10:38:10] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/5e/5d/5dcf1aa2bfbe652f78c01f035f57d879ec96e406e4841a76dffb8429df62/Geode_Explicit-3.0.1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-20 10:38:10] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2023-04-20 10:38:10] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-3.0.0-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-3.0.1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230420/G/Geode-Explicit/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-20 10:38:10] INFO root fetch - processPackages [pyspreadsheet]: Start processing: pygoogalytics
+[2023-04-20 10:38:10] INFO root fetch - main [MainThread]: End processing [pyspreadsheet]: success
+[2023-04-20 10:38:10] INFO root fetch - processPackages [pygoogalytics]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-04-20 10:38:10] INFO root fetch - processPackages [ma-nish]: Start processing: hiddifypanel
+[2023-04-20 10:38:10] INFO root fetch - main [MainThread]: End processing [ma-nish]: success
+[2023-04-20 10:38:10] INFO root fetch - processPackages [oida]: Start processing: longsight
+[2023-04-20 10:38:10] INFO root fetch - main [MainThread]: End processing [oida]: success
+[2023-04-20 10:38:10] INFO root fetch - processPackages [hiddifypanel]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-04-20 10:38:10] INFO root fetch - processPackages [pygoogalytics]: Downloading https://files.pythonhosted.org/packages/bb/a1/1e566b2d33e884257d5833dbfd1077064ad74184163aaa2b44ba7cf8f94f/pygoogalytics-0.2.8.tar.gz
+[2023-04-20 10:38:10] INFO root fetch - processPackages [longsight]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-20 10:38:10] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/fd/0a/2454ecc341c39b7bb7b7d559e315d9cee1a4c976b820a98cb8197b712c8b/hiddifypanel-4.1.1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-20 10:38:10] INFO root fetch - processPackages [longsight]: Downloading https://files.pythonhosted.org/packages/2f/27/3a3bee1b7d2a7719be8508e933e1b4206f2f429c05d690a21a1173e16967/longsight-1.0.3.tar.gz
+[2023-04-20 10:38:10] INFO root fetch - processPackages [pygoogalytics]: Downloading https://files.pythonhosted.org/packages/58/94/0d130796ddc5cdc33006725344f1e68ba26dcbc5828182383b156108aa22/pygoogalytics-0.3.0.tar.gz
+[2023-04-20 10:38:10] INFO root fetch - processPackages [pygoogalytics]: executing diffoscope
+[2023-04-20 10:38:10] INFO root fetch - processPackages [pygoogalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygoogalytics-0.2.8.tar.gz tmp/pygoogalytics-0.3.0.tar.gz --markdown 20230420/p/pygoogalytics/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 10:38:11] INFO root fetch - processPackages [azure-mgmt-imagebuilder]: Start processing: ats-case
+[2023-04-20 10:38:11] INFO root fetch - main [MainThread]: End processing [azure-mgmt-imagebuilder]: success
+[2023-04-20 10:38:11] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/b3/a5/b5492633d11220386928ddf29b000c0c3f7ac6cc8faee18d6228c23ac357/hiddifypanel-4.1.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-20 10:38:11] INFO root fetch - processPackages [longsight]: Downloading https://files.pythonhosted.org/packages/81/bd/bdf527ba55b311407be5857f39a2452717e5868007ab823673fc7af8cbf2/longsight-1.0.4.tar.gz
+[2023-04-20 10:38:11] INFO root fetch - processPackages [ats-case]: New version: [0.5.0] Old Version: [0.4.6]
+[2023-04-20 10:38:11] INFO root fetch - main [MainThread]: End processing [rsatoolbox]: success
+[2023-04-20 10:38:11] INFO root fetch - processPackages [longsight]: executing diffoscope
+[2023-04-20 10:38:11] INFO root fetch - processPackages [longsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longsight-1.0.3.tar.gz tmp/longsight-1.0.4.tar.gz --markdown 20230420/l/longsight/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-20 10:38:11] INFO root fetch - main [MainThread]: End processing [ec2-demo]: success
+[2023-04-20 10:38:11] INFO root fetch - main [MainThread]: End processing [python-selenium-ctrl-package]: success
+[2023-04-20 10:38:11] INFO root fetch - main [MainThread]: End processing [django-common-task-system]: success
+[2023-04-20 10:38:11] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/8f/b3/8f4dd5e4a9067638ac4ae2e752f02eef6e9ba6cba4024fb65eb697a58ed7/ats_case-0.5.0.tar.gz
+[2023-04-20 10:38:11] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2023-04-20 10:38:11] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-04-20 10:38:11] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.4.6.tar.gz tmp/ats_case-0.5.0.tar.gz --markdown 20230420/a/ats-case/0.4.6-0.5.0/diff.md --exclude *.pyd
+[2023-04-20 10:38:12] INFO root fetch - main [MainThread]: End processing [pygoogalytics]: success
+[2023-04-20 10:38:12] INFO root fetch - main [MainThread]: End processing [longsight]: success
+[2023-04-20 10:38:12] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-04-20 10:38:13] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-20 10:38:13] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.1.2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230420/h/hiddifypanel/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-04-20 10:38:14] INFO root fetch - main [MainThread]: End processing [azure-mgmt-applicationinsights]: success
+[2023-04-20 10:38:30] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-20 10:38:30] INFO root fetch - main [MainThread]: Store serial: [17783893]
