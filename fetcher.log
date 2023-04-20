@@ -6279,3 +6279,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 04:17:47] INFO root fetch - main [MainThread]: End processing [deampy]: success
 [2023-04-20 04:17:48] INFO root fetch - main [MainThread]: End processing [scimap]: success
 [2023-04-20 04:17:48] INFO root fetch - main [MainThread]: Store serial: [17781208]
+[2023-04-20 04:22:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781208]
+[2023-04-20 04:22:57] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-20 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dqrobotics
+[2023-04-20 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickSvg
+[2023-04-20 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: piperider
+[2023-04-20 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gama-config
+[2023-04-20 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gama-cli
+[2023-04-20 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-registration
+[2023-04-20 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-singleton
+[2023-04-20 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Cope
+[2023-04-20 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Cope
+[2023-04-20 04:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Cope
+[2023-04-20 04:22:57] INFO root fetch - processPackages [gama-config]: New version: [1.9.0] Old Version: [1.10.3]
+[2023-04-20 04:22:57] INFO root fetch - processPackages [quickSvg]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-20 04:22:57] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-04-20 04:22:57] INFO root fetch - processPackages [abstract-singleton]: New version: [1.0.1] Old Version: [1.0]
+[2023-04-20 04:22:57] INFO root fetch - processPackages [gama-cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-20 04:22:57] INFO root fetch - processPackages [edc-registration]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-20 04:22:57] INFO root fetch - processPackages [dqrobotics]: New version: [23.4.0a6] Old Version: [23.4.0a5]
+[2023-04-20 04:22:57] INFO root fetch - processPackages [Cope]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-20 04:22:57] INFO root fetch - processPackages [Cope]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-20 04:22:57] INFO root fetch - processPackages [Cope]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-20 04:22:57] INFO root fetch - processPackages [gama-cli]: executing diffoscope
+[2023-04-20 04:22:57] INFO root fetch - processPackages [gama-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_cli-1.8.0.tar.gz tmp/gama_cli-1.9.0.tar.gz --markdown 20230420/g/gama-cli/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 04:22:57] INFO root fetch - processPackages [gama-config]: Downloading https://files.pythonhosted.org/packages/b4/01/76ff45f6f17583361577837beccc13bbd1864d6f8a4f45c0faf9dfe4b3b1/gama_config-1.10.3.tar.gz
+[2023-04-20 04:22:58] INFO root fetch - processPackages [quickSvg]: Downloading https://files.pythonhosted.org/packages/b1/87/facf805f9ff9db0412ddc0167e4d645fb8a670739c8fa67519be3756409e/quickSvg-0.1.6.tar.gz
+[2023-04-20 04:22:58] INFO root fetch - processPackages [abstract-singleton]: Downloading https://files.pythonhosted.org/packages/74/5c/1f24ce2fcf0b8351bb0ad1bf114a035b2f3f6fb8c9c909a2c9866904d1af/abstract_singleton-1.0.tar.gz
+[2023-04-20 04:22:58] INFO root fetch - processPackages [edc-registration]: Downloading https://files.pythonhosted.org/packages/dc/88/0563544c9dceea4ec160655dc4f86b36d97def66763381459106a45d1df7/edc_registration-0.3.8-py3-none-any.whl
+[2023-04-20 04:22:58] INFO root fetch - processPackages [dqrobotics]: Downloading https://files.pythonhosted.org/packages/cb/e9/a1cdbfe0f9875a9382b54a4f1783e75e86122a7a5523a60c01e992f74f7f/dqrobotics-23.4.0a5-cp39-cp39-win_amd64.whl
+[2023-04-20 04:22:58] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-04-20 04:22:58] INFO root fetch - processPackages [Cope]: Downloading https://files.pythonhosted.org/packages/7e/a3/5642dde65b5b532777413b7f14854be693b417a8428c8e3bef9a09248ed6/Cope-1.2.0.tar.gz
+[2023-04-20 04:22:58] INFO root fetch - processPackages [Cope]: Downloading https://files.pythonhosted.org/packages/7e/a3/5642dde65b5b532777413b7f14854be693b417a8428c8e3bef9a09248ed6/Cope-1.2.0.tar.gz
+[2023-04-20 04:22:58] INFO root fetch - processPackages [Cope]: Downloading https://files.pythonhosted.org/packages/7e/a3/5642dde65b5b532777413b7f14854be693b417a8428c8e3bef9a09248ed6/Cope-1.2.0.tar.gz
+[2023-04-20 04:22:58] INFO root fetch - processPackages [gama-config]: executing diffoscope
+[2023-04-20 04:22:58] INFO root fetch - processPackages [gama-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_config-1.10.3.tar.gz tmp/gama_config-1.9.0.tar.gz --markdown 20230420/g/gama-config/1.10.3-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 04:22:58] INFO root fetch - processPackages [quickSvg]: Downloading https://files.pythonhosted.org/packages/6e/f7/88a9f1da45491c6222d548cd8cbf071863873023fbcc61f7497e0cc509cf/quickSvg-0.1.7.tar.gz
+[2023-04-20 04:22:58] INFO root fetch - processPackages [abstract-singleton]: Downloading https://files.pythonhosted.org/packages/78/8e/b15f21da973bd2d81731a8a12f0b112d1514801efdc40a0db2999d6e9cf7/abstract_singleton-1.0.1.tar.gz
+[2023-04-20 04:22:58] INFO root fetch - processPackages [Cope]: Downloading https://files.pythonhosted.org/packages/41/af/dfd12f22b373bc1562158f6a297c1886213f3c4981bad3582a17363bfb8a/Cope-1.2.1.tar.gz
+[2023-04-20 04:22:58] INFO root fetch - processPackages [Cope]: Downloading https://files.pythonhosted.org/packages/41/af/dfd12f22b373bc1562158f6a297c1886213f3c4981bad3582a17363bfb8a/Cope-1.2.1.tar.gz
+[2023-04-20 04:22:58] INFO root fetch - processPackages [Cope]: Downloading https://files.pythonhosted.org/packages/41/af/dfd12f22b373bc1562158f6a297c1886213f3c4981bad3582a17363bfb8a/Cope-1.2.1.tar.gz
+[2023-04-20 04:22:58] INFO root fetch - processPackages [quickSvg]: executing diffoscope
+[2023-04-20 04:22:58] INFO root fetch - processPackages [quickSvg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickSvg-0.1.6.tar.gz tmp/quickSvg-0.1.7.tar.gz --markdown 20230420/q/quickSvg/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-20 04:22:58] INFO root fetch - processPackages [dqrobotics]: Downloading https://files.pythonhosted.org/packages/2e/15/e5a9dc7d18c5efcb32a8a663e6c5a940e079c7f1b6631dd47684b366af7d/dqrobotics-23.4.0a6-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-20 04:22:58] INFO root fetch - processPackages [abstract-singleton]: executing diffoscope
+[2023-04-20 04:22:58] INFO root fetch - processPackages [abstract-singleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_singleton-1.0.tar.gz tmp/abstract_singleton-1.0.1.tar.gz --markdown 20230420/a/abstract-singleton/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-20 04:22:58] INFO root fetch - processPackages [Cope]: executing diffoscope
+[2023-04-20 04:22:58] INFO root fetch - processPackages [Cope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cope-1.2.0.tar.gz tmp/Cope-1.2.1.tar.gz --markdown 20230420/C/Cope/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-20 04:22:58] INFO root fetch - processPackages [Cope]: executing diffoscope
+[2023-04-20 04:22:58] INFO root fetch - processPackages [Cope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cope-1.2.0.tar.gz tmp/Cope-1.2.1.tar.gz --markdown 20230420/C/Cope/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-20 04:22:58] INFO root fetch - processPackages [Cope]: executing diffoscope
+[2023-04-20 04:22:58] INFO root fetch - processPackages [Cope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cope-1.2.0.tar.gz tmp/Cope-1.2.1.tar.gz --markdown 20230420/C/Cope/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-20 04:22:58] INFO root fetch - processPackages [dqrobotics]: executing diffoscope
+[2023-04-20 04:22:58] INFO root fetch - processPackages [dqrobotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqrobotics-23.4.0a5-cp39-cp39-win_amd64.whl.zip tmp/dqrobotics-23.4.0a6-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230420/d/dqrobotics/23.4.0a5-23.4.0a6/diff.md --exclude *.pyd
+[2023-04-20 04:22:58] INFO root fetch - processPackages [edc-registration]: Downloading https://files.pythonhosted.org/packages/fb/5b/04bae10091aa445dc667581a412c97ff2eb399920d3964339af6f312a8ef/edc_registration-0.3.9-py3-none-any.whl
+[2023-04-20 04:22:59] INFO root fetch - processPackages [edc-registration]: executing diffoscope
+[2023-04-20 04:22:59] INFO root fetch - processPackages [edc-registration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_registration-0.3.8-py3-none-any.whl.zip tmp/edc_registration-0.3.9-py3-none-any.whl.zip --markdown 20230420/e/edc-registration/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-20 04:22:59] INFO root fetch - processPackages [gama-cli]: Start processing: lumeny
+[2023-04-20 04:22:59] INFO root fetch - main [MainThread]: End processing [gama-cli]: success
+[2023-04-20 04:22:59] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-04-20 04:22:59] INFO root fetch - processPackages [lumeny]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-04-20 04:22:59] INFO root fetch - processPackages [gama-config]: Start processing: pylovelace
+[2023-04-20 04:22:59] INFO root fetch - main [MainThread]: End processing [gama-config]: success
+[2023-04-20 04:22:59] INFO root fetch - processPackages [pylovelace]: New version: [2023.1.5] Old Version: [2023.1.4]
+[2023-04-20 04:22:59] INFO root fetch - processPackages [lumeny]: Downloading https://files.pythonhosted.org/packages/cd/e4/5fd0601e4563093f924dac855134f3a9eed8862caf8fed8fa9db7259c5fc/lumeny-0.2.0.tar.gz
+[2023-04-20 04:22:59] INFO root fetch - processPackages [quickSvg]: Start processing: lsms
+[2023-04-20 04:22:59] INFO root fetch - main [MainThread]: End processing [quickSvg]: success
+[2023-04-20 04:22:59] INFO root fetch - processPackages [abstract-singleton]: Start processing: BioSeqTools
+[2023-04-20 04:22:59] INFO root fetch - main [MainThread]: End processing [abstract-singleton]: success
+[2023-04-20 04:22:59] INFO root fetch - processPackages [lsms]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-20 04:22:59] INFO root fetch - processPackages [BioSeqTools]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-20 04:22:59] INFO root fetch - processPackages [pylovelace]: Downloading https://files.pythonhosted.org/packages/8f/fd/6e5415e77a2d957fafc79f0d8bb1c75ea510a0b0e876900fe9cf68db393c/pylovelace-2023.1.5-py3-none-any.whl
+[2023-04-20 04:22:59] INFO root fetch - processPackages [lumeny]: executing diffoscope
+[2023-04-20 04:22:59] INFO root fetch - processPackages [lumeny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumeny-0.1.2.tar.gz tmp/lumeny-0.2.0.tar.gz --markdown 20230420/l/lumeny/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 04:23:00] INFO root fetch - processPackages [BioSeqTools]: Downloading https://files.pythonhosted.org/packages/2f/47/1b6f04ff4bff4f9306d7fd9f191221eefcd0e2f12213564ac3554005801e/BioSeqTools-0.2.0.tar.gz
+[2023-04-20 04:23:00] INFO root fetch - processPackages [lsms]: Downloading https://files.pythonhosted.org/packages/9e/33/444d5e4fdf9d3166e0c590191e7dfed619ddffee564e9ab0f7c8d011e420/lsms-0.4.3-py2.py3-none-any.whl
+[2023-04-20 04:23:00] INFO root fetch - main [MainThread]: End processing [Cope]: success
+[2023-04-20 04:23:00] INFO root fetch - processPackages [pylovelace]: executing diffoscope
+[2023-04-20 04:23:00] INFO root fetch - processPackages [pylovelace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylovelace-2023.1.4-py3-none-any.whl.zip tmp/pylovelace-2023.1.5-py3-none-any.whl.zip --markdown 20230420/p/pylovelace/2023.1.4-2023.1.5/diff.md --exclude *.pyd
+[2023-04-20 04:23:00] INFO root fetch - processPackages [BioSeqTools]: Downloading https://files.pythonhosted.org/packages/5b/c9/add53a42a32d0584b562b5a600fe04b16ecb769f57a316fe13b5318333bd/BioSeqTools-0.3.0.tar.gz
+[2023-04-20 04:23:00] INFO root fetch - processPackages [lsms]: Downloading https://files.pythonhosted.org/packages/a5/b1/4e02522af09bd7ebb50a7a81e4876d0e2f84e83afd289fac5f9f24d33d30/lsms-0.4.4-py2.py3-none-any.whl
+[2023-04-20 04:23:00] INFO root fetch - main [MainThread]: End processing [edc-registration]: success
+[2023-04-20 04:23:00] INFO root fetch - processPackages [BioSeqTools]: executing diffoscope
+[2023-04-20 04:23:00] INFO root fetch - processPackages [BioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSeqTools-0.2.0.tar.gz tmp/BioSeqTools-0.3.0.tar.gz --markdown 20230420/B/BioSeqTools/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 04:23:00] INFO root fetch - main [MainThread]: End processing [Cope]: success
+[2023-04-20 04:23:00] INFO root fetch - processPackages [lsms]: executing diffoscope
+[2023-04-20 04:23:00] INFO root fetch - processPackages [lsms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsms-0.4.3-py2.py3-none-any.whl.zip tmp/lsms-0.4.4-py2.py3-none-any.whl.zip --markdown 20230420/l/lsms/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-20 04:23:00] INFO root fetch - main [MainThread]: End processing [dqrobotics]: success
+[2023-04-20 04:23:00] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-04-20 04:23:00] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230420/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-04-20 04:23:00] INFO root fetch - main [MainThread]: End processing [Cope]: success
+[2023-04-20 04:23:01] INFO root fetch - main [MainThread]: End processing [lumeny]: success
+[2023-04-20 04:23:01] INFO root fetch - main [MainThread]: End processing [pylovelace]: success
+[2023-04-20 04:23:01] INFO root fetch - main [MainThread]: End processing [lsms]: success
+[2023-04-20 04:23:01] INFO root fetch - main [MainThread]: End processing [BioSeqTools]: success
+[2023-04-20 04:23:06] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-04-20 04:23:06] INFO root fetch - main [MainThread]: Store serial: [17781263]
