@@ -14989,3 +14989,108 @@ EOFError: EOF read where object expected
 [2023-04-20 13:14:34] INFO root fetch - main [MainThread]: End processing [superannotate]: success
 [2023-04-20 13:14:37] INFO root fetch - main [MainThread]: End processing [soakdb3]: success
 [2023-04-20 13:14:37] INFO root fetch - main [MainThread]: Store serial: [17786180]
+[2023-04-20 13:19:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17786180]
+[2023-04-20 13:19:53] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-20 13:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oebuild
+[2023-04-20 13:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nlptest
+[2023-04-20 13:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oidc-client
+[2023-04-20 13:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digimat.bac0
+[2023-04-20 13:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-fulcrum
+[2023-04-20 13:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphkit-learn
+[2023-04-20 13:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qontract-reconcile
+[2023-04-20 13:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ditlep
+[2023-04-20 13:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: myUniquePythonPackageName
+[2023-04-20 13:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: captcha-py
+[2023-04-20 13:19:53] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 13:19:53] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 13:19:53] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.106]
+[2023-04-20 13:19:53] INFO root fetch - processPackages [graphkit-learn]: New version: [0.2b3] Old Version: [0.2b2]
+[2023-04-20 13:19:53] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-20 13:19:53] WARNING root fetch - processPackages [captcha-py]: Skipping, unable to determine old version
+[2023-04-20 13:19:53] INFO root fetch - processPackages [captcha-py]: Start processing: spikeometric
+[2023-04-20 13:19:53] INFO root fetch - main [MainThread]: End processing [captcha-py] error
+[2023-04-20 13:19:53] WARNING root fetch - processPackages [dbt-fulcrum]: Skipping, unable to determine old version
+[2023-04-20 13:19:53] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-04-20 13:19:53] INFO root fetch - processPackages [ditlep]: New version: [1.2] Old Version: [1.1]
+[2023-04-20 13:19:53] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-04-20 13:19:53] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-20 13:19:53] INFO root fetch - processPackages [dbt-fulcrum]: Start processing: caso
+[2023-04-20 13:19:53] INFO root fetch - main [MainThread]: End processing [dbt-fulcrum] error
+[2023-04-20 13:19:53] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230420/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 13:19:53] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.106.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230420/m/myUniquePythonPackageName/5.5.106-7.10.7/diff.md --exclude *.pyd
+[2023-04-20 13:19:53] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230420/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-20 13:19:53] INFO root fetch - processPackages [oidc-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 13:19:53] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2023-04-20 13:19:53] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20230420/o/oebuild/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 13:19:53] INFO root fetch - processPackages [nlptest]: New version: [1.0.2rc4] Old Version: [1.0.2rc3]
+[2023-04-20 13:19:53] INFO root fetch - processPackages [graphkit-learn]: executing diffoscope
+[2023-04-20 13:19:53] INFO root fetch - processPackages [graphkit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphkit-learn-0.2b2.tar.gz tmp/graphkit-learn-0.2b3.tar.gz --markdown 20230420/g/graphkit-learn/0.2b2-0.2b3/diff.md --exclude *.pyd
+[2023-04-20 13:19:53] INFO root fetch - processPackages [spikeometric]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-20 13:19:53] INFO root fetch - processPackages [caso]: New version: [4.1.1.0rc1] Old Version: [4.1.1]
+[2023-04-20 13:19:53] INFO root fetch - processPackages [ditlep]: Downloading https://files.pythonhosted.org/packages/4b/cd/88a6df77165799eeb0519135d861801dd9c028d95726229b764761b79c28/ditlep-1.1.tar.gz
+[2023-04-20 13:19:53] INFO root fetch - processPackages [oidc-client]: Downloading https://files.pythonhosted.org/packages/a3/88/0dfede6e80c7925879d2b33d6fd7148440951a6f6dc83c4278db90b73cd1/oidc-client-0.1.2.tar.gz
+[2023-04-20 13:19:53] INFO root fetch - processPackages [nlptest]: Downloading https://files.pythonhosted.org/packages/01/6f/814f797c4c6e266d266a9ae4e8f14b73007bf7c59fcf1d678ca8eb6186d6/nlptest-1.0.2rc3.tar.gz
+[2023-04-20 13:19:53] INFO root fetch - processPackages [caso]: Downloading https://files.pythonhosted.org/packages/7b/02/ffd945550f8749ab29dcd402313f4c92d215604cdc2c0df8c2236b736ef4/caso-4.1.1.tar.gz
+[2023-04-20 13:19:53] INFO root fetch - processPackages [spikeometric]: Downloading https://files.pythonhosted.org/packages/9a/1a/1e32bfafadcfa3e63d58f00d02637fc358f25173c86d98b6d9251321f018/spikeometric-1.0.0.tar.gz
+[2023-04-20 13:19:53] WARNING root fetch - processPackages [nlptest]: Skipping package: exceeds size limit 48517936>=10485760
+[2023-04-20 13:19:53] INFO root fetch - processPackages [nlptest]: Start processing: preprocessing-pgp
+[2023-04-20 13:19:53] INFO root fetch - main [MainThread]: End processing [nlptest] error
+[2023-04-20 13:19:53] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post6.dev7] Old Version: [0.2.9.post5.dev7]
+[2023-04-20 13:19:53] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/63/a1/2d1ef049ecefd45af1e80c75527bfeeb37c19d23eb15fe4fa161b0575d68/preprocessing-pgp-0.2.9.post5.dev7.tar.gz
+[2023-04-20 13:19:53] INFO root fetch - processPackages [ditlep]: Downloading https://files.pythonhosted.org/packages/29/af/c110924b1d302304a508668f14099a636dc7d35c2c1fda6d432afb1e3b93/ditlep-1.2.tar.gz
+[2023-04-20 13:19:54] INFO root fetch - processPackages [oidc-client]: Downloading https://files.pythonhosted.org/packages/a7/b4/3deb3537ab62396cf7631778bda3f01767f463036af2e58125f592b36edc/oidc_client-0.1.3.tar.gz
+[2023-04-20 13:19:54] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857779>=10485760
+[2023-04-20 13:19:54] INFO root fetch - processPackages [preprocessing-pgp]: Start processing: checkov
+[2023-04-20 13:19:54] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-04-20 13:19:54] INFO root fetch - processPackages [spikeometric]: Downloading https://files.pythonhosted.org/packages/e4/3d/0ab7c961914a0b827a25c6b3cf38acd8b4bd80a5ab9ab4907f4f04c334fd/spikeometric-1.0.1.tar.gz
+[2023-04-20 13:19:54] INFO root fetch - processPackages [caso]: Downloading https://files.pythonhosted.org/packages/23/1f/9cb7ea5e811af3a1c9fe8c919560d22674f2e0284eea7126b876ca839ab4/caso-4.1.1.0rc1.tar.gz
+[2023-04-20 13:19:54] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-20 13:19:54] INFO root fetch - processPackages [ditlep]: executing diffoscope
+[2023-04-20 13:19:54] INFO root fetch - processPackages [ditlep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ditlep-1.1.tar.gz tmp/ditlep-1.2.tar.gz --markdown 20230420/d/ditlep/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-20 13:19:54] INFO root fetch - processPackages [oidc-client]: executing diffoscope
+[2023-04-20 13:19:54] INFO root fetch - processPackages [oidc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc-client-0.1.2.tar.gz tmp/oidc_client-0.1.3.tar.gz --markdown 20230420/o/oidc-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 13:19:54] INFO root fetch - processPackages [spikeometric]: executing diffoscope
+[2023-04-20 13:19:54] INFO root fetch - processPackages [spikeometric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spikeometric-1.0.0.tar.gz tmp/spikeometric-1.0.1.tar.gz --markdown 20230420/s/spikeometric/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-20 13:19:54] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-20 13:19:54] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230420/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-20 13:19:54] INFO root fetch - processPackages [caso]: executing diffoscope
+[2023-04-20 13:19:54] INFO root fetch - processPackages [caso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caso-4.1.1.tar.gz tmp/caso-4.1.1.0rc1.tar.gz --markdown 20230420/c/caso/4.1.1-4.1.1.0rc1/diff.md --exclude *.pyd
+[2023-04-20 13:19:54] INFO root fetch - processPackages [myUniquePythonPackageName]: Start processing: llm4gpt
+[2023-04-20 13:19:54] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-04-20 13:19:54] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.20.18.21.56] Old Version: [2023.4.20.18.20.32]
+[2023-04-20 13:19:55] INFO root fetch - processPackages [digimat.bac0]: Start processing: tb-nightly
+[2023-04-20 13:19:55] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-04-20 13:19:55] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-20 13:19:55] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.20.18.20.32.tar.gz tmp/llm4gpt-2023.4.20.18.21.56.tar.gz --markdown 20230420/l/llm4gpt/2023.4.20.18.20.32-2023.4.20.18.21.56/diff.md --exclude *.pyd
+[2023-04-20 13:19:55] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-04-20 13:19:55] INFO root fetch - processPackages [oebuild]: Start processing: ditlep
+[2023-04-20 13:19:55] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2023-04-20 13:19:55] INFO root fetch - processPackages [ditlep]: New version: [1.2] Old Version: [1.1]
+[2023-04-20 13:19:55] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-04-20 13:19:55] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230420/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-04-20 13:19:55] INFO root fetch - processPackages [ditlep]: executing diffoscope
+[2023-04-20 13:19:55] INFO root fetch - processPackages [ditlep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ditlep-1.1.tar.gz tmp/ditlep-1.2.tar.gz --markdown 20230420/d/ditlep/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-20 13:19:55] INFO root fetch - processPackages [ditlep]: Start processing: invenio-rdm-records
+[2023-04-20 13:19:55] INFO root fetch - main [MainThread]: End processing [ditlep]: success
+[2023-04-20 13:19:55] INFO root fetch - processPackages [invenio-rdm-records]: New version: [3.0.0] Old Version: [2.9.0]
+[2023-04-20 13:19:55] INFO root fetch - processPackages [spikeometric]: Start processing: gwosc
+[2023-04-20 13:19:55] INFO root fetch - main [MainThread]: End processing [spikeometric]: success
+[2023-04-20 13:19:55] INFO root fetch - processPackages [gwosc]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-20 13:19:55] INFO root fetch - main [MainThread]: End processing [oidc-client]: success
+[2023-04-20 13:19:56] INFO root fetch - processPackages [gwosc]: Downloading https://files.pythonhosted.org/packages/b6/b4/aa80325300c3ea99c0362630e8a252d208feb61f8894a3bb2a21cbcbd661/gwosc-0.7.0.tar.gz
+[2023-04-20 13:19:56] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/58/c3/7d4d8a7be245bd4dafb10467b80ce4f8c95b6217a411cd7740d0d7ea7eea/invenio-rdm-records-3.0.0.tar.gz
+[2023-04-20 13:19:56] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-20 13:19:56] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-04-20 13:19:56] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-2.9.0.tar.gz tmp/invenio-rdm-records-3.0.0.tar.gz --markdown 20230420/i/invenio-rdm-records/2.9.0-3.0.0/diff.md --exclude *.pyd
+[2023-04-20 13:19:56] INFO root fetch - processPackages [gwosc]: Downloading https://files.pythonhosted.org/packages/a7/d1/82de4365b8d18abfb4930d6d5aa772e3c2375b44c44598aaac4150e1dc8a/gwosc-0.7.1.tar.gz
+[2023-04-20 13:19:56] INFO root fetch - processPackages [gwosc]: executing diffoscope
+[2023-04-20 13:19:56] INFO root fetch - processPackages [gwosc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwosc-0.7.0.tar.gz tmp/gwosc-0.7.1.tar.gz --markdown 20230420/g/gwosc/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-20 13:19:56] INFO root fetch - main [MainThread]: End processing [ditlep]: success
+[2023-04-20 13:19:57] INFO root fetch - main [MainThread]: End processing [graphkit-learn]: success
+[2023-04-20 13:19:57] INFO root fetch - main [MainThread]: End processing [caso]: success
+[2023-04-20 13:19:58] INFO root fetch - main [MainThread]: End processing [gwosc]: success
+[2023-04-20 13:19:58] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-04-20 13:19:59] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-20 13:20:04] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-04-20 13:20:34] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-20 13:20:34] INFO root fetch - main [MainThread]: Store serial: [17786233]
