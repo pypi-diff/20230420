@@ -9047,3 +9047,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 08:40:32] INFO root fetch - main [MainThread]: End processing [kindenty-base]: success
 [2023-04-20 08:40:32] INFO root fetch - main [MainThread]: End processing [slim-compose]: success
 [2023-04-20 08:40:32] INFO root fetch - main [MainThread]: Store serial: [17782942]
+[2023-04-20 08:45:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17782942]
+[2023-04-20 08:45:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-20 08:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyLegendBS
+[2023-04-20 08:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipymock
+[2023-04-20 08:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rssfixer
+[2023-04-20 08:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: piknik
+[2023-04-20 08:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cognite-sdk
+[2023-04-20 08:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-order-report-product-image
+[2023-04-20 08:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SpiNNUtilities
+[2023-04-20 08:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo8-addon-sale-properties-easy-creation
+[2023-04-20 08:45:42] INFO root fetch - processPackages [pyLegendBS]: New version: [0.6] Old Version: [0.5]
+[2023-04-20 08:45:42] INFO root fetch - processPackages [rssfixer]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-20 08:45:42] INFO root fetch - processPackages [ipymock]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-20 08:45:42] INFO root fetch - processPackages [piknik]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-20 08:45:42] INFO root fetch - processPackages [odoo-addon-sale-order-report-product-image]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-04-20 08:45:42] INFO root fetch - processPackages [SpiNNUtilities]: New version: [4.0.0a1] Old Version: [1!7.0.0a4]
+[2023-04-20 08:45:42] INFO root fetch - processPackages [cognite-sdk]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-04-20 08:45:42] INFO root fetch - processPackages [odoo8-addon-sale-properties-easy-creation]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev34]
+[2023-04-20 08:45:42] INFO root fetch - processPackages [pyLegendBS]: Downloading https://files.pythonhosted.org/packages/bc/b2/b97c95efef5fc60577b553032a1cabbf104125d7e9178ad720747d814c19/pyLegendBS-0.5.tar.gz
+[2023-04-20 08:45:42] INFO root fetch - processPackages [ipymock]: Downloading https://files.pythonhosted.org/packages/d4/35/d9762e66795196fc8e3297b55150d1e212f057f4c9f9a2ecf7121a0376ff/ipymock-0.0.7.tar.gz
+[2023-04-20 08:45:42] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/97/0c/d22d098bdd1d90f9956c1b14839a7d17287921547ea66908f0d6f92d4591/cognite_sdk-6.0.0.tar.gz
+[2023-04-20 08:45:42] INFO root fetch - processPackages [SpiNNUtilities]: Downloading https://files.pythonhosted.org/packages/bb/61/6a1cfd7f63765c8569e1ca349e2c63477de6b70b94488491eb3239b12fd6/SpiNNUtilities-1!7.0.0a4.tar.gz
+[2023-04-20 08:45:42] INFO root fetch - processPackages [rssfixer]: Downloading https://files.pythonhosted.org/packages/fb/64/6efbe797c3d358724b8db42226cfe1a9ab769b32c08275e63167fb559eff/rssfixer-0.0.5.tar.gz
+[2023-04-20 08:45:42] INFO root fetch - processPackages [piknik]: Downloading https://files.pythonhosted.org/packages/26/5b/2e5f2ba5dc7b300aa86dbc9e037ade7673042d3cafad946ef4ad839da1d4/piknik-0.3.4.tar.gz
+[2023-04-20 08:45:42] INFO root fetch - processPackages [odoo8-addon-sale-properties-easy-creation]: Downloading https://files.pythonhosted.org/packages/c9/e5/61a063de6361e34f72e32e7f1d81c4a75fbd10b6eaf8f885833cad49b0e0/odoo8_addon_sale_properties_easy_creation-8.0.1.0.0.99.dev34-py2-none-any.whl
+[2023-04-20 08:45:42] INFO root fetch - processPackages [ipymock]: executing diffoscope
+[2023-04-20 08:45:42] INFO root fetch - processPackages [ipymock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymock-0.0.6.tar.gz tmp/ipymock-0.0.7.tar.gz --markdown 20230420/i/ipymock/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-20 08:45:43] INFO root fetch - processPackages [piknik]: executing diffoscope
+[2023-04-20 08:45:43] INFO root fetch - processPackages [piknik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piknik-0.3.3.tar.gz tmp/piknik-0.3.4.tar.gz --markdown 20230420/p/piknik/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-20 08:45:43] INFO root fetch - processPackages [rssfixer]: executing diffoscope
+[2023-04-20 08:45:43] INFO root fetch - processPackages [rssfixer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssfixer-0.0.4.tar.gz tmp/rssfixer-0.0.5.tar.gz --markdown 20230420/r/rssfixer/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 08:45:43] INFO root fetch - processPackages [odoo-addon-sale-order-report-product-image]: Downloading https://files.pythonhosted.org/packages/0e/7e/a54768b9289b9308b9e7c415d74f661d9dadbda30bc0a1c1691e15c04207/odoo_addon_sale_order_report_product_image-16.0.1.0.0.4-py3-none-any.whl
+[2023-04-20 08:45:43] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/b5/55/acf5c54613e2d4f617762287d99fea6d37186b8a73383a2589b48a281bd2/cognite_sdk-6.0.1.tar.gz
+[2023-04-20 08:45:43] INFO root fetch - processPackages [pyLegendBS]: Downloading https://files.pythonhosted.org/packages/84/54/32e127a788c7eb6b35da3f3df962f5aaa2c99b710bdff54b77776b2f884e/pyLegendBS-0.6.tar.gz
+[2023-04-20 08:45:43] INFO root fetch - processPackages [SpiNNUtilities]: Downloading https://files.pythonhosted.org/packages/ad/3a/99841349fcff38e96ccf35090b29e17c2f74ebfb37306456c4dc978fc4b9/SpiNNUtilities-4.0.0a1.tar.gz
+[2023-04-20 08:45:43] INFO root fetch - processPackages [odoo-addon-sale-order-report-product-image]: executing diffoscope
+[2023-04-20 08:45:43] INFO root fetch - processPackages [odoo-addon-sale-order-report-product-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_report_product_image-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_order_report_product_image-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-sale-order-report-product-image/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-04-20 08:45:43] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-04-20 08:45:43] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.0.0.tar.gz tmp/cognite_sdk-6.0.1.tar.gz --markdown 20230420/c/cognite-sdk/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-04-20 08:45:43] INFO root fetch - processPackages [odoo8-addon-sale-properties-easy-creation]: Downloading https://files.pythonhosted.org/packages/9b/da/fb4e44e56f56e394ab621552f9d08bb46ce5a7ccaddf1540ae1d12b175be/odoo8_addon_sale_properties_easy_creation-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-04-20 08:45:43] INFO root fetch - processPackages [pyLegendBS]: executing diffoscope
+[2023-04-20 08:45:43] INFO root fetch - processPackages [pyLegendBS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyLegendBS-0.5.tar.gz tmp/pyLegendBS-0.6.tar.gz --markdown 20230420/p/pyLegendBS/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-20 08:45:43] INFO root fetch - processPackages [SpiNNUtilities]: executing diffoscope
+[2023-04-20 08:45:43] INFO root fetch - processPackages [SpiNNUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNUtilities-1!7.0.0a4.tar.gz tmp/SpiNNUtilities-4.0.0a1.tar.gz --markdown 20230420/S/SpiNNUtilities/1!7.0.0a4-4.0.0a1/diff.md --exclude *.pyd
+[2023-04-20 08:45:43] INFO root fetch - processPackages [odoo8-addon-sale-properties-easy-creation]: executing diffoscope
+[2023-04-20 08:45:43] INFO root fetch - processPackages [odoo8-addon-sale-properties-easy-creation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_properties_easy_creation-8.0.1.0.0.99.dev34-py2-none-any.whl.zip tmp/odoo8_addon_sale_properties_easy_creation-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230420/o/odoo8-addon-sale-properties-easy-creation/8.0.1.0.0.99.dev34-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-04-20 08:45:44] INFO root fetch - main [MainThread]: End processing [ipymock]: success
+[2023-04-20 08:45:44] INFO root fetch - main [MainThread]: End processing [rssfixer]: success
+[2023-04-20 08:45:44] INFO root fetch - main [MainThread]: End processing [piknik]: success
+[2023-04-20 08:45:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-report-product-image]: success
+[2023-04-20 08:45:44] INFO root fetch - main [MainThread]: End processing [pyLegendBS]: success
+[2023-04-20 08:45:45] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-04-20 08:45:45] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-properties-easy-creation]: success
+[2023-04-20 08:45:45] INFO root fetch - main [MainThread]: End processing [SpiNNUtilities]: success
+[2023-04-20 08:45:46] INFO root fetch - main [MainThread]: Store serial: [17782964]
