@@ -20573,3 +20573,124 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 17:50:30] INFO root fetch - main [MainThread]: End processing [invenio-vocabularies]: success
 [2023-04-20 17:50:35] INFO root fetch - main [MainThread]: End processing [generand]: success
 [2023-04-20 17:50:35] INFO root fetch - main [MainThread]: Store serial: [17789576]
+[2023-04-20 17:55:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17789576]
+[2023-04-20 17:55:45] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-20 17:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-access-sdk
+[2023-04-20 17:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quocs-lib
+[2023-04-20 17:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: universe-list.py
+[2023-04-20 17:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mindee
+[2023-04-20 17:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: topologicpy
+[2023-04-20 17:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mercury
+[2023-04-20 17:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: st-ant-menu
+[2023-04-20 17:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysisl
+[2023-04-20 17:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jet-bridge-base
+[2023-04-20 17:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openchord
+[2023-04-20 17:55:45] INFO root fetch - processPackages [topologicpy]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-20 17:55:45] INFO root fetch - processPackages [quocs-lib]: New version: [0.0a19] Old Version: [0.0a18]
+[2023-04-20 17:55:45] INFO root fetch - processPackages [mindee]: New version: [3.7.1] Old Version: [3.7.0]
+[2023-04-20 17:55:45] WARNING root fetch - processPackages [openchord]: Skipping, unable to determine old version
+[2023-04-20 17:55:45] INFO root fetch - processPackages [openchord]: Start processing: jet-bridge
+[2023-04-20 17:55:45] INFO root fetch - processPackages [mercury]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-04-20 17:55:45] INFO root fetch - main [MainThread]: End processing [openchord] error
+[2023-04-20 17:55:45] WARNING root fetch - processPackages [universe-list.py]: Skipping, unable to determine old version
+[2023-04-20 17:55:45] INFO root fetch - processPackages [st-ant-menu]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-20 17:55:45] INFO root fetch - processPackages [pysisl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 17:55:45] INFO root fetch - processPackages [universe-list.py]: Start processing: jet-django
+[2023-04-20 17:55:45] INFO root fetch - main [MainThread]: End processing [universe-list.py] error
+[2023-04-20 17:55:45] INFO root fetch - processPackages [jet-bridge-base]: New version: [1.7.9] Old Version: [1.7.5]
+[2023-04-20 17:55:45] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-04-20 17:55:45] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/40/f4/2033fbe4b457e006e37e0b28c1182d16ef8866c100cc74ca81c67af2993a/topologicpy-0.4.5.tar.gz
+[2023-04-20 17:55:45] INFO root fetch - processPackages [jet-bridge]: New version: [1.7.9] Old Version: [1.7.5]
+[2023-04-20 17:55:45] INFO root fetch - processPackages [jet-django]: New version: [1.7.9] Old Version: [1.7.5]
+[2023-04-20 17:55:45] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34019530>=10485760
+[2023-04-20 17:55:45] INFO root fetch - processPackages [topologicpy]: Start processing: devex-sdk
+[2023-04-20 17:55:45] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-04-20 17:55:45] INFO root fetch - processPackages [quocs-lib]: Downloading https://files.pythonhosted.org/packages/5c/69/7298ee486600ac58ae05c86f77bcd20896b96f36163925002143b27e7a09/quocs-lib-0.0a18.tar.gz
+[2023-04-20 17:55:45] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/58/c7/014332e8bc05200fdd8349664acd559d73e3598ad8577cd512036eeecab2/st_ant_menu-0.0.6-py3-none-any.whl
+[2023-04-20 17:55:45] INFO root fetch - processPackages [mercury]: Downloading https://files.pythonhosted.org/packages/0d/a3/baff8c0afc7f11051fe9ca6bec3ada62bc0f5eaed723a442def6c8aff530/mercury-2.2.1.tar.gz
+[2023-04-20 17:55:45] INFO root fetch - processPackages [jet-bridge-base]: Downloading https://files.pythonhosted.org/packages/6a/6f/050b6c68483efe4b9313afaba0dfc180a77b6e249f84cbcc1bbe01627b57/jet-bridge-base-1.7.5.tar.gz
+[2023-04-20 17:55:45] INFO root fetch - processPackages [pysisl]: Downloading https://files.pythonhosted.org/packages/77/16/999d28e004471389837fe65bd83df68fa5d8d3ecd5f3cab0231f1640cece/pysisl-0.0.8.tar.gz
+[2023-04-20 17:55:45] INFO root fetch - processPackages [jet-django]: Downloading https://files.pythonhosted.org/packages/00/b5/509ab1f4ae5bcb5ffc1b2403b51288e330bc9a9a3517eb810fd16fd76f6f/jet-django-1.7.5.tar.gz
+[2023-04-20 17:55:45] INFO root fetch - processPackages [jet-bridge]: Downloading https://files.pythonhosted.org/packages/77/ec/984e729b116b97310eaf4ce632a9b6b30e461b346e2c7f78d38fb48abf7c/jet-bridge-1.7.5.tar.gz
+[2023-04-20 17:55:46] INFO root fetch - processPackages [mindee]: Downloading https://files.pythonhosted.org/packages/b4/ce/da3ebe847bf32c9bf8703a62cab5ecb6606ddd4d7b75761074fb48763e54/mindee-3.7.1.tar.gz
+[2023-04-20 17:55:46] INFO root fetch - processPackages [devex-sdk]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-04-20 17:55:46] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-04-20 17:55:46] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230420/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-04-20 17:55:46] INFO root fetch - processPackages [quocs-lib]: Downloading https://files.pythonhosted.org/packages/0c/af/f937dba452943759d4af4f33e8ca6345a5f357d492efb355ef7c06bccb12/quocs-lib-0.0a19.tar.gz
+[2023-04-20 17:55:46] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/fc/c2/4dd2a13d9c1fa0c2d9c40d23a63842e9c3c0febf1e7c072575a5f648569b/st_ant_menu-0.0.7-py3-none-any.whl
+[2023-04-20 17:55:46] INFO root fetch - processPackages [devex-sdk]: Downloading https://files.pythonhosted.org/packages/7e/0a/341d8315aa654a28b5892e49eaea602a9b6eb3d48e8e6d686001cad27c39/devex_sdk-0.1.0.tar.gz
+[2023-04-20 17:55:46] INFO root fetch - processPackages [jet-bridge-base]: Downloading https://files.pythonhosted.org/packages/95/e2/605beb8cd0fb1a160ddc0bd28151cc8d3510e8df5db0f63089d6b59777ef/jet-bridge-base-1.7.9.tar.gz
+[2023-04-20 17:55:46] INFO root fetch - processPackages [mercury]: Downloading https://files.pythonhosted.org/packages/b1/69/c93c482317ae52dc53e719b339c421ada70d32ed24733d3954016054b6b1/mercury-2.2.2.tar.gz
+[2023-04-20 17:55:46] INFO root fetch - processPackages [mindee]: executing diffoscope
+[2023-04-20 17:55:46] INFO root fetch - processPackages [mindee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindee-3.7.0.tar.gz tmp/mindee-3.7.1.tar.gz --markdown 20230420/m/mindee/3.7.0-3.7.1/diff.md --exclude *.pyd
+[2023-04-20 17:55:46] INFO root fetch - processPackages [jet-bridge]: Downloading https://files.pythonhosted.org/packages/5b/4b/714381e9d087c652b9bb8f031fe2214d3ccd553cfbdeb98ff62bdbc8735d/jet-bridge-1.7.9.tar.gz
+[2023-04-20 17:55:46] INFO root fetch - processPackages [pysisl]: Downloading https://files.pythonhosted.org/packages/02/d1/0ce337ef8a1e87453dcca855ff6f477c0d6d7c3a95740bf35a0e1511d35b/pysisl-0.0.9.tar.gz
+[2023-04-20 17:55:46] INFO root fetch - processPackages [jet-django]: Downloading https://files.pythonhosted.org/packages/62/88/814c0029b2e35f343f1f1e3ed6a963523255a4cb150364247feeb6cf892c/jet-django-1.7.9.tar.gz
+[2023-04-20 17:55:46] INFO root fetch - processPackages [quocs-lib]: executing diffoscope
+[2023-04-20 17:55:46] INFO root fetch - processPackages [jet-bridge]: executing diffoscope
+[2023-04-20 17:55:46] INFO root fetch - processPackages [quocs-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quocs-lib-0.0a18.tar.gz tmp/quocs-lib-0.0a19.tar.gz --markdown 20230420/q/quocs-lib/0.0a18-0.0a19/diff.md --exclude *.pyd
+[2023-04-20 17:55:46] INFO root fetch - processPackages [jet-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-bridge-1.7.5.tar.gz tmp/jet-bridge-1.7.9.tar.gz --markdown 20230420/j/jet-bridge/1.7.5-1.7.9/diff.md --exclude *.pyd
+[2023-04-20 17:55:46] INFO root fetch - processPackages [devex-sdk]: Downloading https://files.pythonhosted.org/packages/03/2b/e2af8031032da16c840463f695d86e2d2a005cd9b096e0a905d8210620e6/devex_sdk-1.0.0.tar.gz
+[2023-04-20 17:55:46] INFO root fetch - processPackages [jet-bridge-base]: executing diffoscope
+[2023-04-20 17:55:46] INFO root fetch - processPackages [jet-bridge-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-bridge-base-1.7.5.tar.gz tmp/jet-bridge-base-1.7.9.tar.gz --markdown 20230420/j/jet-bridge-base/1.7.5-1.7.9/diff.md --exclude *.pyd
+[2023-04-20 17:55:46] INFO root fetch - processPackages [jet-django]: executing diffoscope
+[2023-04-20 17:55:46] INFO root fetch - processPackages [jet-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-django-1.7.5.tar.gz tmp/jet-django-1.7.9.tar.gz --markdown 20230420/j/jet-django/1.7.5-1.7.9/diff.md --exclude *.pyd
+[2023-04-20 17:55:46] INFO root fetch - processPackages [pysisl]: executing diffoscope
+[2023-04-20 17:55:46] INFO root fetch - processPackages [pysisl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysisl-0.0.8.tar.gz tmp/pysisl-0.0.9.tar.gz --markdown 20230420/p/pysisl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 17:55:46] INFO root fetch - processPackages [devex-sdk]: executing diffoscope
+[2023-04-20 17:55:46] INFO root fetch - processPackages [devex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devex_sdk-0.1.0.tar.gz tmp/devex_sdk-1.0.0.tar.gz --markdown 20230420/d/devex-sdk/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-20 17:55:46] INFO root fetch - processPackages [mercury]: executing diffoscope
+[2023-04-20 17:55:46] INFO root fetch - processPackages [mercury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-2.2.1.tar.gz tmp/mercury-2.2.2.tar.gz --markdown 20230420/m/mercury/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-04-20 17:55:47] INFO root fetch - processPackages [st-ant-menu]: executing diffoscope
+[2023-04-20 17:55:47] INFO root fetch - processPackages [st-ant-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_ant_menu-0.0.6-py3-none-any.whl.zip tmp/st_ant_menu-0.0.7-py3-none-any.whl.zip --markdown 20230420/s/st-ant-menu/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-20 17:55:48] INFO root fetch - processPackages [jet-django]: Start processing: curse-api
+[2023-04-20 17:55:48] INFO root fetch - main [MainThread]: End processing [jet-django]: success
+[2023-04-20 17:55:48] INFO root fetch - processPackages [curse-api]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-04-20 17:55:48] INFO root fetch - processPackages [pysisl]: Start processing: fhempy
+[2023-04-20 17:55:48] INFO root fetch - main [MainThread]: End processing [pysisl]: success
+[2023-04-20 17:55:48] INFO root fetch - processPackages [mindee]: Start processing: bigraph-viz
+[2023-04-20 17:55:48] INFO root fetch - main [MainThread]: End processing [mindee]: success
+[2023-04-20 17:55:48] INFO root fetch - processPackages [fhempy]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-20 17:55:48] INFO root fetch - processPackages [curse-api]: Downloading https://files.pythonhosted.org/packages/cc/cf/ff24437fe5f26d1969495032c58dcb42e10ee6cbbdce04ea52fe996a8181/curse_api-3.1.1.tar.gz
+[2023-04-20 17:55:48] INFO root fetch - processPackages [devex-sdk]: Start processing: racetrackgym
+[2023-04-20 17:55:48] INFO root fetch - main [MainThread]: End processing [devex-sdk]: success
+[2023-04-20 17:55:48] INFO root fetch - processPackages [racetrackgym]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-20 17:55:48] INFO root fetch - processPackages [finbourne-access-sdk]: Start processing: sentenai
+[2023-04-20 17:55:48] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-04-20 17:55:48] INFO root fetch - processPackages [curse-api]: Downloading https://files.pythonhosted.org/packages/b5/28/b3977019b204f6923c2000be377cc864a1e99bc81306d94b306f019f056b/curse_api-3.1.2.tar.gz
+[2023-04-20 17:55:48] INFO root fetch - processPackages [bigraph-viz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 17:55:48] INFO root fetch - processPackages [sentenai]: New version: [1.6.4.3] Old Version: [1.6.4.2]
+[2023-04-20 17:55:48] INFO root fetch - processPackages [racetrackgym]: Downloading https://files.pythonhosted.org/packages/3c/94/012cb9503a130e40abbf02bebbeee0c35485b15186dcd72bd12e16a691eb/racetrackgym-0.2.3.tar.gz
+[2023-04-20 17:55:48] INFO root fetch - processPackages [fhempy]: executing diffoscope
+[2023-04-20 17:55:48] INFO root fetch - processPackages [fhempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fhempy-0.1.98.tar.gz tmp/fhempy-0.1.99.tar.gz --markdown 20230420/f/fhempy/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-20 17:55:48] INFO root fetch - processPackages [curse-api]: executing diffoscope
+[2023-04-20 17:55:48] INFO root fetch - processPackages [curse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curse_api-3.1.1.tar.gz tmp/curse_api-3.1.2.tar.gz --markdown 20230420/c/curse-api/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-04-20 17:55:48] INFO root fetch - processPackages [bigraph-viz]: Downloading https://files.pythonhosted.org/packages/cd/4a/596b6733502cbc0ee6b22baa45635393188e01b18b5c832576f84190b6db/bigraph-viz-0.0.8.tar.gz
+[2023-04-20 17:55:48] INFO root fetch - processPackages [sentenai]: Downloading https://files.pythonhosted.org/packages/00/c4/ed68ea1f5e1568cd74be613061092892e10fee7cda3c4e73e81a07feea83/sentenai-1.6.4.2.tar.gz
+[2023-04-20 17:55:49] INFO root fetch - processPackages [racetrackgym]: Downloading https://files.pythonhosted.org/packages/4a/a2/3f51f95a66093316df35d0b296fe72dacb6292631146256067e6503febee/racetrackgym-0.2.4.tar.gz
+[2023-04-20 17:55:49] INFO root fetch - processPackages [racetrackgym]: executing diffoscope
+[2023-04-20 17:55:49] INFO root fetch - processPackages [racetrackgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racetrackgym-0.2.3.tar.gz tmp/racetrackgym-0.2.4.tar.gz --markdown 20230420/r/racetrackgym/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-20 17:55:49] INFO root fetch - processPackages [jet-bridge]: Start processing: hcai-nova-server-nightly
+[2023-04-20 17:55:49] INFO root fetch - main [MainThread]: End processing [jet-bridge]: success
+[2023-04-20 17:55:49] INFO root fetch - processPackages [bigraph-viz]: Downloading https://files.pythonhosted.org/packages/d7/b1/89b66d4b66f8baf361b72d00f97edabc6f1501e765bf8b68bf615de142d7/bigraph-viz-0.0.9.tar.gz
+[2023-04-20 17:55:49] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.3.dev202304201528] Old Version: [0.1.3.dev202304201527]
+[2023-04-20 17:55:49] INFO root fetch - processPackages [sentenai]: Downloading https://files.pythonhosted.org/packages/ae/bc/ec7d089ac9ad858057ad448de8fd6fa04a0e6e7597cc6e305b4c3c0f35e3/sentenai-1.6.4.3.tar.gz
+[2023-04-20 17:55:49] INFO root fetch - processPackages [bigraph-viz]: executing diffoscope
+[2023-04-20 17:55:49] INFO root fetch - processPackages [bigraph-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigraph-viz-0.0.8.tar.gz tmp/bigraph-viz-0.0.9.tar.gz --markdown 20230420/b/bigraph-viz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 17:55:49] INFO root fetch - main [MainThread]: End processing [st-ant-menu]: success
+[2023-04-20 17:55:49] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/f9/78/92f68c52f524604fc8175c175e9e1ae3b2784ab53551165e32e4c168cce0/hcai-nova-server-nightly-0.1.3.dev202304201527.tar.gz
+[2023-04-20 17:55:49] INFO root fetch - processPackages [sentenai]: executing diffoscope
+[2023-04-20 17:55:49] INFO root fetch - processPackages [sentenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentenai-1.6.4.2.tar.gz tmp/sentenai-1.6.4.3.tar.gz --markdown 20230420/s/sentenai/1.6.4.2-1.6.4.3/diff.md --exclude *.pyd
+[2023-04-20 17:55:49] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/cf/c0/9a9bcb4389c165b1e44de06640ea623f6291c2c765fe14660cf0659112bf/hcai-nova-server-nightly-0.1.3.dev202304201528.tar.gz
+[2023-04-20 17:55:50] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-04-20 17:55:50] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.3.dev202304201527.tar.gz tmp/hcai-nova-server-nightly-0.1.3.dev202304201528.tar.gz --markdown 20230420/h/hcai-nova-server-nightly/0.1.3.dev202304201527-0.1.3.dev202304201528/diff.md --exclude *.pyd
+[2023-04-20 17:55:50] INFO root fetch - main [MainThread]: End processing [curse-api]: success
+[2023-04-20 17:55:50] INFO root fetch - main [MainThread]: End processing [quocs-lib]: success
+[2023-04-20 17:55:50] INFO root fetch - main [MainThread]: End processing [bigraph-viz]: success
+[2023-04-20 17:55:50] INFO root fetch - main [MainThread]: End processing [sentenai]: success
+[2023-04-20 17:55:51] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-04-20 17:55:51] INFO root fetch - main [MainThread]: End processing [jet-bridge-base]: success
+[2023-04-20 17:55:52] INFO root fetch - main [MainThread]: End processing [racetrackgym]: success
+[2023-04-20 17:55:53] INFO root fetch - main [MainThread]: End processing [fhempy]: success
+[2023-04-20 17:58:09] INFO root fetch - main [MainThread]: End processing [mercury]: success
+[2023-04-20 17:58:09] INFO root fetch - main [MainThread]: Store serial: [17789628]
