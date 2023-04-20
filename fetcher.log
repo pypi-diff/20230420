@@ -21388,3 +21388,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 18:31:04] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
 [2023-04-20 18:31:05] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-04-20 18:31:05] INFO root fetch - main [MainThread]: Store serial: [17790109]
+[2023-04-20 18:36:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790109]
+[2023-04-20 18:36:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-20 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mayalabs
+[2023-04-20 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pvbm
+[2023-04-20 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biotree-tools
+[2023-04-20 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easytypes
+[2023-04-20 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anatqc
+[2023-04-20 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lohrasb
+[2023-04-20 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdpp-bhi
+[2023-04-20 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neon-skill-device-controls
+[2023-04-20 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyter-ai-magics
+[2023-04-20 18:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupyter-ai
+[2023-04-20 18:36:14] ERROR root fetch - processPackages [pvbm]: Unable to get metadata: No such project 'pvbm'
+[2023-04-20 18:36:14] INFO root fetch - processPackages [pvbm]: Start processing: intel-cloud-data-connector
+[2023-04-20 18:36:14] WARNING root fetch - processPackages [biotree-tools]: Skipping, unable to determine old version
+[2023-04-20 18:36:14] INFO root fetch - processPackages [mayalabs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 18:36:14] INFO root fetch - main [MainThread]: End processing [pvbm] error
+[2023-04-20 18:36:14] INFO root fetch - processPackages [biotree-tools]: Start processing: pvbm
+[2023-04-20 18:36:14] INFO root fetch - processPackages [anatqc]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-04-20 18:36:14] INFO root fetch - processPackages [easytypes]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-04-20 18:36:14] INFO root fetch - main [MainThread]: End processing [biotree-tools] error
+[2023-04-20 18:36:14] INFO root fetch - processPackages [jupyter-ai-magics]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-20 18:36:14] INFO root fetch - processPackages [jupyter-ai]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-20 18:36:14] INFO root fetch - processPackages [pdpp-bhi]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-20 18:36:14] INFO root fetch - processPackages [neon-skill-device-controls]: New version: [0.2.1a1] Old Version: [0.2.1a0]
+[2023-04-20 18:36:14] WARNING root fetch - processPackages [intel-cloud-data-connector]: Skipping, unable to determine old version
+[2023-04-20 18:36:14] INFO root fetch - processPackages [lohrasb]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-04-20 18:36:14] ERROR root fetch - processPackages [pvbm]: Unable to get metadata: No such project 'pvbm'
+[2023-04-20 18:36:14] INFO root fetch - processPackages [intel-cloud-data-connector]: Start processing: textTableImproved
+[2023-04-20 18:36:14] INFO root fetch - main [MainThread]: End processing [intel-cloud-data-connector] error
+[2023-04-20 18:36:14] INFO root fetch - main [MainThread]: End processing [pvbm] error
+[2023-04-20 18:36:14] WARNING root fetch - processPackages [textTableImproved]: Skipping, unable to determine old version
+[2023-04-20 18:36:14] INFO root fetch - main [MainThread]: End processing [textTableImproved] error
+[2023-04-20 18:36:14] INFO root fetch - processPackages [easytypes]: Downloading https://files.pythonhosted.org/packages/44/f4/971b3a9f3f45c8c46995e610000dcf4f1371058efbc8f9359f158fce5ad8/easytypes-0.5.5.tar.gz
+[2023-04-20 18:36:14] INFO root fetch - processPackages [pdpp-bhi]: Downloading https://files.pythonhosted.org/packages/6b/9e/81cf5847c94de0181a855f7b000ab0cdb81b9a1a064545a6627488f85883/pdpp-bhi-0.0.6.tar.gz
+[2023-04-20 18:36:14] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/ff/86/005fc11efdaca18c4c727f8237ff37e48d448b0cea18e0efdf47deb0476d/jupyter_ai_magics-0.5.0.tar.gz
+[2023-04-20 18:36:14] INFO root fetch - processPackages [neon-skill-device-controls]: Downloading https://files.pythonhosted.org/packages/d1/c3/ff10104f28772a0eb4c08afb7d5a300c52903e08484f0165b0319a585ec5/neon_skill_device_controls-0.2.1a0-py3-none-any.whl
+[2023-04-20 18:36:14] INFO root fetch - processPackages [anatqc]: Downloading https://files.pythonhosted.org/packages/d3/81/c12e6d6016896cb6084c55191146a37cad5b900d1a6419ce2e62208cf3d1/anatqc-0.5.4-py2.py3-none-any.whl
+[2023-04-20 18:36:14] INFO root fetch - processPackages [lohrasb]: Downloading https://files.pythonhosted.org/packages/ee/54/47d6c85ad0f1f0e0b8075a988aa179011607883a7a1bb6738555ecb58613/lohrasb-3.1.0.tar.gz
+[2023-04-20 18:36:14] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/7e/a4/cedba108efaa7995938810ebc56d4d3bc8f39a5788db23444dc1f7d72644/jupyter_ai-0.5.0.tar.gz
+[2023-04-20 18:36:14] INFO root fetch - processPackages [mayalabs]: Downloading https://files.pythonhosted.org/packages/c6/6d/c76f21fe31f759f34e421cbd007862effb332b414f3df81cad5773115f2c/mayalabs-0.0.9.tar.gz
+[2023-04-20 18:36:14] INFO root fetch - processPackages [easytypes]: executing diffoscope
+[2023-04-20 18:36:14] INFO root fetch - processPackages [easytypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytypes-0.5.4.tar.gz tmp/easytypes-0.5.5.tar.gz --markdown 20230420/e/easytypes/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-04-20 18:36:14] INFO root fetch - processPackages [pdpp-bhi]: executing diffoscope
+[2023-04-20 18:36:14] INFO root fetch - processPackages [pdpp-bhi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdpp-bhi-0.0.5.tar.gz tmp/pdpp-bhi-0.0.6.tar.gz --markdown 20230420/p/pdpp-bhi/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-20 18:36:14] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/15/05/60cade222cd47c361ddac433f296eb1c326e5212fdfba32e7c9d50f7b5f5/jupyter_ai_magics-0.6.0.tar.gz
+[2023-04-20 18:36:15] INFO root fetch - processPackages [neon-skill-device-controls]: Downloading https://files.pythonhosted.org/packages/ea/ff/1e29ef535b00892a958231b7bc4d1798533215c181e4483fe07c26465d8b/neon_skill_device_controls-0.2.1a1-py3-none-any.whl
+[2023-04-20 18:36:15] INFO root fetch - processPackages [mayalabs]: executing diffoscope
+[2023-04-20 18:36:15] INFO root fetch - processPackages [mayalabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayalabs-0.0.8.tar.gz tmp/mayalabs-0.0.9.tar.gz --markdown 20230420/m/mayalabs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 18:36:15] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/eb/4d/fab27fa99708b1ed0707601656e27e01f7308c4042eb911681aeee3988dd/jupyter_ai-0.6.0.tar.gz
+[2023-04-20 18:36:15] INFO root fetch - processPackages [jupyter-ai-magics]: executing diffoscope
+[2023-04-20 18:36:15] INFO root fetch - processPackages [jupyter-ai-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai_magics-0.5.0.tar.gz tmp/jupyter_ai_magics-0.6.0.tar.gz --markdown 20230420/j/jupyter-ai-magics/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-20 18:36:15] INFO root fetch - processPackages [lohrasb]: Downloading https://files.pythonhosted.org/packages/d5/f5/aa6c5ba7ecacaec939a568eb1710d2c758bce7d2ea5cbf851abec35ad163/lohrasb-3.2.0.tar.gz
+[2023-04-20 18:36:15] INFO root fetch - processPackages [neon-skill-device-controls]: executing diffoscope
+[2023-04-20 18:36:15] INFO root fetch - processPackages [neon-skill-device-controls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_device_controls-0.2.1a0-py3-none-any.whl.zip tmp/neon_skill_device_controls-0.2.1a1-py3-none-any.whl.zip --markdown 20230420/n/neon-skill-device-controls/0.2.1a0-0.2.1a1/diff.md --exclude *.pyd
+[2023-04-20 18:36:15] INFO root fetch - processPackages [anatqc]: Downloading https://files.pythonhosted.org/packages/c8/2c/844a5360e1fb5398577ff11c740e254b378b568050ed689bbe9c88188afc/anatqc-0.5.5-py2.py3-none-any.whl
+[2023-04-20 18:36:15] INFO root fetch - processPackages [jupyter-ai]: executing diffoscope
+[2023-04-20 18:36:15] INFO root fetch - processPackages [jupyter-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai-0.5.0.tar.gz tmp/jupyter_ai-0.6.0.tar.gz --markdown 20230420/j/jupyter-ai/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-20 18:36:15] INFO root fetch - processPackages [lohrasb]: executing diffoscope
+[2023-04-20 18:36:15] INFO root fetch - processPackages [lohrasb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lohrasb-3.1.0.tar.gz tmp/lohrasb-3.2.0.tar.gz --markdown 20230420/l/lohrasb/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-04-20 18:36:15] INFO root fetch - processPackages [anatqc]: executing diffoscope
+[2023-04-20 18:36:15] INFO root fetch - processPackages [anatqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anatqc-0.5.4-py2.py3-none-any.whl.zip tmp/anatqc-0.5.5-py2.py3-none-any.whl.zip --markdown 20230420/a/anatqc/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-04-20 18:36:16] INFO root fetch - main [MainThread]: End processing [easytypes]: success
+[2023-04-20 18:36:16] INFO root fetch - main [MainThread]: End processing [pdpp-bhi]: success
+[2023-04-20 18:36:16] INFO root fetch - main [MainThread]: End processing [jupyter-ai-magics]: success
+[2023-04-20 18:36:16] INFO root fetch - main [MainThread]: End processing [mayalabs]: success
+[2023-04-20 18:36:16] INFO root fetch - main [MainThread]: End processing [neon-skill-device-controls]: success
+[2023-04-20 18:36:17] INFO root fetch - main [MainThread]: End processing [lohrasb]: success
+[2023-04-20 18:36:17] INFO root fetch - main [MainThread]: End processing [anatqc]: success
+[2023-04-20 18:36:33] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
+[2023-04-20 18:36:33] INFO root fetch - main [MainThread]: Store serial: [17790155]
