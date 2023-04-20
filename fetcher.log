@@ -18361,3 +18361,109 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 16:16:47] INFO root fetch - main [MainThread]: End processing [leakix]: success
 [2023-04-20 16:17:01] INFO root fetch - main [MainThread]: End processing [rots-py]: success
 [2023-04-20 16:17:01] INFO root fetch - main [MainThread]: Store serial: [17788158]
+[2023-04-20 16:22:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17788158]
+[2023-04-20 16:22:11] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-20 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: element-array-ephys
+[2023-04-20 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphkit-learn
+[2023-04-20 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: origen-ai-ecl
+[2023-04-20 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geosdemo
+[2023-04-20 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coretex
+[2023-04-20 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gradio-tools
+[2023-04-20 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudstructs
+[2023-04-20 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leaguedaily
+[2023-04-20 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djk-bootstrap4
+[2023-04-20 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: newsdash
+[2023-04-20 16:22:11] INFO root fetch - processPackages [geosdemo]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-20 16:22:11] INFO root fetch - processPackages [origen-ai-ecl]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-04-20 16:22:11] INFO root fetch - processPackages [graphkit-learn]: New version: [0.2b3] Old Version: [0.2b2]
+[2023-04-20 16:22:11] INFO root fetch - processPackages [element-array-ephys]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-20 16:22:11] INFO root fetch - processPackages [coretex]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 16:22:11] WARNING root fetch - processPackages [leaguedaily]: Skipping, unable to determine old version
+[2023-04-20 16:22:11] INFO root fetch - processPackages [leaguedaily]: Start processing: questdb-connect
+[2023-04-20 16:22:11] INFO root fetch - main [MainThread]: End processing [leaguedaily] error
+[2023-04-20 16:22:11] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-04-20 16:22:11] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-0.0.8.tar.gz tmp/coretex-0.0.9.tar.gz --markdown 20230420/c/coretex/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 16:22:11] INFO root fetch - processPackages [gradio-tools]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-20 16:22:11] INFO root fetch - processPackages [djk-bootstrap4]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-20 16:22:11] INFO root fetch - processPackages [newsdash]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 16:22:11] INFO root fetch - processPackages [cloudstructs]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-20 16:22:11] WARNING root fetch - processPackages [questdb-connect]: Skipping, unable to determine old version
+[2023-04-20 16:22:11] INFO root fetch - processPackages [questdb-connect]: Start processing: ephysiopy
+[2023-04-20 16:22:11] INFO root fetch - main [MainThread]: End processing [questdb-connect] error
+[2023-04-20 16:22:11] INFO root fetch - processPackages [ephysiopy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-20 16:22:11] INFO root fetch - processPackages [origen-ai-ecl]: Downloading https://files.pythonhosted.org/packages/11/a2/46f254e284b4ddd4e287d9c6f4b3fc1d94382110efcb63a2a82bded02973/origen_ai_ecl-0.1.6.tar.gz
+[2023-04-20 16:22:11] INFO root fetch - processPackages [geosdemo]: Downloading https://files.pythonhosted.org/packages/15/83/bb69211fbadf28801257ec844b5c8e8598f9b7357485fdaaa88345c40872/geosdemo-0.0.1.tar.gz
+[2023-04-20 16:22:11] INFO root fetch - processPackages [ephysiopy]: executing diffoscope
+[2023-04-20 16:22:11] INFO root fetch - processPackages [ephysiopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysiopy-1.9.0.tar.gz tmp/ephysiopy-1.9.1.tar.gz --markdown 20230420/e/ephysiopy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-20 16:22:11] INFO root fetch - processPackages [newsdash]: Downloading https://files.pythonhosted.org/packages/e4/0e/f252b14004e202cb89e43ad7388095d4f2b432c8b85f6ca62b5a0a570441/newsdash-0.1.0.tar.gz
+[2023-04-20 16:22:11] INFO root fetch - processPackages [gradio-tools]: Downloading https://files.pythonhosted.org/packages/79/7f/f1712205510f2ba1d8812d8076000aa2839f8022295ef1cb76c51432a8ad/gradio_tools-0.0.4.tar.gz
+[2023-04-20 16:22:11] INFO root fetch - processPackages [djk-bootstrap4]: Downloading https://files.pythonhosted.org/packages/1f/cd/bd681c13c9963f051d955a41708df1fe346d072a9cd2ba8f0fa19fdcc125/djk-bootstrap4-2.1.0.tar.gz
+[2023-04-20 16:22:11] INFO root fetch - processPackages [cloudstructs]: Downloading https://files.pythonhosted.org/packages/e2/78/71de45ff9aa5a8f1f1b8ed324ce4504f192f8de394d3c628525f5d1f888a/cloudstructs-0.6.8.tar.gz
+[2023-04-20 16:22:11] INFO root fetch - processPackages [graphkit-learn]: executing diffoscope
+[2023-04-20 16:22:11] INFO root fetch - processPackages [graphkit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphkit-learn-0.2b2.tar.gz tmp/graphkit-learn-0.2b3.tar.gz --markdown 20230420/g/graphkit-learn/0.2b2-0.2b3/diff.md --exclude *.pyd
+[2023-04-20 16:22:11] INFO root fetch - processPackages [origen-ai-ecl]: Downloading https://files.pythonhosted.org/packages/32/3b/28616c04092eae84b0fe79b9b3f8aac268e92d8abe4b991362ed7d8526dd/origen_ai_ecl-0.2.0.tar.gz
+[2023-04-20 16:22:11] INFO root fetch - processPackages [geosdemo]: Downloading https://files.pythonhosted.org/packages/6b/74/708bfcb7f74deffabf6e4314d4e5508a5658b4e9e6a4eea7b578891da522/geosdemo-0.1.0.tar.gz
+[2023-04-20 16:22:11] INFO root fetch - processPackages [element-array-ephys]: Downloading https://files.pythonhosted.org/packages/09/7a/5920342a4b47875471c37b388f91ba97281dd9720be255d4add20e49273a/element-array-ephys-0.2.7.tar.gz
+[2023-04-20 16:22:11] INFO root fetch - processPackages [gradio-tools]: Downloading https://files.pythonhosted.org/packages/d5/d6/70fc51b3f0f2bf535e41345383791a6020e3b9317692730da1ef5784f9a1/gradio_tools-0.0.5.tar.gz
+[2023-04-20 16:22:11] INFO root fetch - processPackages [newsdash]: Downloading https://files.pythonhosted.org/packages/62/97/2bf11fd3f074c9c6d15a3893408a89dc81ad9d807310d5553c2421243a2f/newsdash-0.1.1.tar.gz
+[2023-04-20 16:22:11] INFO root fetch - processPackages [origen-ai-ecl]: executing diffoscope
+[2023-04-20 16:22:11] INFO root fetch - processPackages [origen-ai-ecl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/origen_ai_ecl-0.1.6.tar.gz tmp/origen_ai_ecl-0.2.0.tar.gz --markdown 20230420/o/origen-ai-ecl/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 16:22:11] INFO root fetch - processPackages [geosdemo]: executing diffoscope
+[2023-04-20 16:22:11] INFO root fetch - processPackages [geosdemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geosdemo-0.0.1.tar.gz tmp/geosdemo-0.1.0.tar.gz --markdown 20230420/g/geosdemo/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-20 16:22:11] INFO root fetch - processPackages [element-array-ephys]: executing diffoscope
+[2023-04-20 16:22:11] INFO root fetch - processPackages [element-array-ephys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element-array-ephys-0.2.6.tar.gz tmp/element-array-ephys-0.2.7.tar.gz --markdown 20230420/e/element-array-ephys/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-20 16:22:11] INFO root fetch - processPackages [newsdash]: executing diffoscope
+[2023-04-20 16:22:11] INFO root fetch - processPackages [newsdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newsdash-0.1.0.tar.gz tmp/newsdash-0.1.1.tar.gz --markdown 20230420/n/newsdash/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 16:22:12] INFO root fetch - processPackages [djk-bootstrap4]: Downloading https://files.pythonhosted.org/packages/0c/c6/cca2515e3324d98f4aad3bdca97af7f46ba8463ca1a90ce13cdf51e8ad89/djk_bootstrap4-2.2.0-py2.py3-none-any.whl
+[2023-04-20 16:22:12] INFO root fetch - processPackages [cloudstructs]: Downloading https://files.pythonhosted.org/packages/3a/59/0b763f27e6baa4f63f45fded3a4b9812a6b7f46c9c6ae023c795a6d640fd/cloudstructs-0.6.9.tar.gz
+[2023-04-20 16:22:12] INFO root fetch - processPackages [djk-bootstrap4]: executing diffoscope
+[2023-04-20 16:22:12] INFO root fetch - processPackages [djk-bootstrap4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djk-bootstrap4-2.1.0.tar.gz tmp/djk_bootstrap4-2.2.0-py2.py3-none-any.whl.zip --markdown 20230420/d/djk-bootstrap4/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-20 16:22:12] INFO root fetch - processPackages [cloudstructs]: executing diffoscope
+[2023-04-20 16:22:12] INFO root fetch - processPackages [cloudstructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudstructs-0.6.8.tar.gz tmp/cloudstructs-0.6.9.tar.gz --markdown 20230420/c/cloudstructs/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-20 16:22:12] INFO root fetch - processPackages [ephysiopy]: Start processing: visokio-omniprint
+[2023-04-20 16:22:12] INFO root fetch - main [MainThread]: End processing [ephysiopy]: success
+[2023-04-20 16:22:12] INFO root fetch - processPackages [visokio-omniprint]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-20 16:22:12] INFO root fetch - processPackages [coretex]: Start processing: finmetry
+[2023-04-20 16:22:12] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-04-20 16:22:12] INFO root fetch - processPackages [visokio-omniprint]: executing diffoscope
+[2023-04-20 16:22:12] INFO root fetch - processPackages [visokio-omniprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visokio_omniprint-1.0.0.tar.gz tmp/visokio_omniprint-1.0.1.tar.gz --markdown 20230420/v/visokio-omniprint/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-20 16:22:13] INFO root fetch - processPackages [finmetry]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-20 16:22:13] INFO root fetch - processPackages [gradio-tools]: executing diffoscope
+[2023-04-20 16:22:13] INFO root fetch - processPackages [gradio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_tools-0.0.4.tar.gz tmp/gradio_tools-0.0.5.tar.gz --markdown 20230420/g/gradio-tools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 16:22:13] INFO root fetch - processPackages [geosdemo]: Start processing: unicodeitplus
+[2023-04-20 16:22:13] INFO root fetch - main [MainThread]: End processing [geosdemo]: success
+[2023-04-20 16:22:13] INFO root fetch - processPackages [unicodeitplus]: New version: [0.1.0rc6] Old Version: [0.1.0rc3]
+[2023-04-20 16:22:13] INFO root fetch - processPackages [finmetry]: Downloading https://files.pythonhosted.org/packages/86/46/b416181bbfb43a80b4865804cbe589be71410211e82f7f4a119a6ac20f13/finmetry-0.1.3.tar.gz
+[2023-04-20 16:22:13] INFO root fetch - processPackages [unicodeitplus]: executing diffoscope
+[2023-04-20 16:22:13] INFO root fetch - processPackages [unicodeitplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicodeitplus-0.1.0rc3.tar.gz tmp/unicodeitplus-0.1.0rc6.tar.gz --markdown 20230420/u/unicodeitplus/0.1.0rc3-0.1.0rc6/diff.md --exclude *.pyd
+[2023-04-20 16:22:13] INFO root fetch - processPackages [newsdash]: Start processing: remove-print-statements
+[2023-04-20 16:22:13] INFO root fetch - main [MainThread]: End processing [newsdash]: success
+[2023-04-20 16:22:13] INFO root fetch - processPackages [finmetry]: Downloading https://files.pythonhosted.org/packages/d2/62/03629a8839bc1d6e9b7ea0cca6797d12e062bb28b7bf0435bf1dc8a48688/finmetry-0.1.4.tar.gz
+[2023-04-20 16:22:13] INFO root fetch - processPackages [remove-print-statements]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-20 16:22:13] INFO root fetch - processPackages [finmetry]: executing diffoscope
+[2023-04-20 16:22:13] INFO root fetch - processPackages [finmetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finmetry-0.1.3.tar.gz tmp/finmetry-0.1.4.tar.gz --markdown 20230420/f/finmetry/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-20 16:22:13] INFO root fetch - processPackages [element-array-ephys]: Start processing: cppython-core
+[2023-04-20 16:22:13] INFO root fetch - main [MainThread]: End processing [element-array-ephys]: success
+[2023-04-20 16:22:13] INFO root fetch - processPackages [djk-bootstrap4]: Start processing: sqlite-ml
+[2023-04-20 16:22:13] INFO root fetch - main [MainThread]: End processing [djk-bootstrap4]: success
+[2023-04-20 16:22:13] INFO root fetch - processPackages [remove-print-statements]: Downloading https://files.pythonhosted.org/packages/1a/21/04b59430d649c360adb4cc411dc3f2a0559300275af6028fb5eb1ffc2781/remove_print_statements-0.5.0.tar.gz
+[2023-04-20 16:22:13] WARNING root fetch - processPackages [sqlite-ml]: Skipping, unable to determine old version
+[2023-04-20 16:22:13] INFO root fetch - main [MainThread]: End processing [sqlite-ml] error
+[2023-04-20 16:22:13] INFO root fetch - processPackages [cppython-core]: New version: [0.6.1.dev9] Old Version: [0.6.1.dev7]
+[2023-04-20 16:22:13] INFO root fetch - processPackages [cppython-core]: Downloading https://files.pythonhosted.org/packages/04/48/a15b1c2ffd2627de8b27d6ee718eaaff0ea19bb21e8cf577a8b7f9ddd207/cppython-core-0.6.1.dev7.tar.gz
+[2023-04-20 16:22:14] INFO root fetch - processPackages [remove-print-statements]: Downloading https://files.pythonhosted.org/packages/d7/e8/ad312382baa8effb3b93c3d514a8db08d484a754ded1ffb505f4cfc0b0b4/remove_print_statements-0.5.1.tar.gz
+[2023-04-20 16:22:14] INFO root fetch - main [MainThread]: End processing [visokio-omniprint]: success
+[2023-04-20 16:22:14] INFO root fetch - processPackages [remove-print-statements]: executing diffoscope
+[2023-04-20 16:22:14] INFO root fetch - processPackages [remove-print-statements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remove_print_statements-0.5.0.tar.gz tmp/remove_print_statements-0.5.1.tar.gz --markdown 20230420/r/remove-print-statements/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-20 16:22:14] INFO root fetch - processPackages [cppython-core]: Downloading https://files.pythonhosted.org/packages/2c/30/d3dfc3c84283d381ae73e9935fd3cf8eab1824805986be1e011f6f514766/cppython-core-0.6.1.dev9.tar.gz
+[2023-04-20 16:22:14] INFO root fetch - processPackages [cppython-core]: executing diffoscope
+[2023-04-20 16:22:14] INFO root fetch - processPackages [cppython-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cppython-core-0.6.1.dev7.tar.gz tmp/cppython-core-0.6.1.dev9.tar.gz --markdown 20230420/c/cppython-core/0.6.1.dev7-0.6.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 16:22:14] INFO root fetch - main [MainThread]: End processing [finmetry]: success
+[2023-04-20 16:22:14] INFO root fetch - main [MainThread]: End processing [graphkit-learn]: success
+[2023-04-20 16:22:15] INFO root fetch - main [MainThread]: End processing [remove-print-statements]: success
+[2023-04-20 16:22:15] INFO root fetch - main [MainThread]: End processing [cppython-core]: success
+[2023-04-20 16:22:15] INFO root fetch - main [MainThread]: End processing [unicodeitplus]: success
+[2023-04-20 16:22:15] INFO root fetch - main [MainThread]: End processing [gradio-tools]: success
+[2023-04-20 16:22:16] INFO root fetch - main [MainThread]: End processing [cloudstructs]: success
+[2023-04-20 16:22:18] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
+[2023-04-20 16:22:18] INFO root fetch - main [MainThread]: Store serial: [17788212]
