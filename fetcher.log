@@ -22191,3 +22191,88 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 19:18:59] INFO root fetch - main [MainThread]: End processing [gitberg]: success
 [2023-04-20 19:19:03] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-04-20 19:19:03] INFO root fetch - main [MainThread]: Store serial: [17790664]
+[2023-04-20 19:24:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790664]
+[2023-04-20 19:24:13] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bittensor
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiogram-ext
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ColabGeek
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apinator-databricks
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmlt-core
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tap-exact
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: griptape
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: locusdb
+[2023-04-20 19:24:13] INFO root fetch - processPackages [bittensor]: New version: [4.0.0] Old Version: [3.7.0]
+[2023-04-20 19:24:13] WARNING root fetch - processPackages [locusdb]: Skipping, unable to determine old version
+[2023-04-20 19:24:13] INFO root fetch - processPackages [locusdb]: Start processing: voip-utils
+[2023-04-20 19:24:13] INFO root fetch - main [MainThread]: End processing [locusdb] error
+[2023-04-20 19:24:13] INFO root fetch - processPackages [apinator-databricks]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-20 19:24:13] INFO root fetch - processPackages [aiogram-ext]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 19:24:13] INFO root fetch - processPackages [griptape]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ColabGeek]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-20 19:24:13] INFO root fetch - processPackages [tap-exact]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-04-20 19:24:13] INFO root fetch - processPackages [tmlt-core]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-20 19:24:13] INFO root fetch - processPackages [voip-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 19:24:13] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-20 19:24:13] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-20 19:24:13] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/88/d1/46e94497f22d0ca2d45d6f194fe06b4de0be7b1a98b342e6a012acd0f016/tap_exact-0.3.0.tar.gz
+[2023-04-20 19:24:13] INFO root fetch - processPackages [voip-utils]: Downloading https://files.pythonhosted.org/packages/dd/a3/d94f1b53ada606373a13cd4e4c3f6ead9fd0c738935813948121c00c2a80/voip-utils-0.0.2.tar.gz
+[2023-04-20 19:24:13] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/37/34/95f9c1b10ff6d981f9db8d60f08f59167782fed9691375b1b64e4fa7dfb9/griptape-0.2.0.tar.gz
+[2023-04-20 19:24:13] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/8e/ee/ce618416b3e2a62987c0626307be5d69ae8d541daf6d4aac9bda882a672f/bittensor-3.7.0.tar.gz
+[2023-04-20 19:24:13] INFO root fetch - processPackages [apinator-databricks]: Downloading https://files.pythonhosted.org/packages/1b/e5/0b556d2436430a7f91c80105824c279c067d910cfe50c9d4d9ea84cceebe/apinator-databricks-0.0.4.tar.gz
+[2023-04-20 19:24:13] INFO root fetch - processPackages [aiogram-ext]: Downloading https://files.pythonhosted.org/packages/4e/85/8babcfc03d48fb06058f02717feb2d5c9af7978240ee1c8b233ee2124c60/aiogram-ext-0.1.1.tar.gz
+[2023-04-20 19:24:13] INFO root fetch - processPackages [tmlt-core]: Downloading https://files.pythonhosted.org/packages/db/91/0907ae419697c9a5b8dea33411f69b063a37d5def17cd6e1db18fe6a753f/tmlt_core-0.9.1.tar.gz
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ColabGeek]: Downloading https://files.pythonhosted.org/packages/f3/5b/c65fa446b02f7d48cd37d8493091b11daedf856777e522ca8300808661a5/ColabGeek-1.1.2.tar.gz
+[2023-04-20 19:24:13] INFO root fetch - processPackages [tap-exact]: executing diffoscope
+[2023-04-20 19:24:13] INFO root fetch - processPackages [tap-exact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_exact-0.2.3.tar.gz tmp/tap_exact-0.3.0.tar.gz --markdown 20230420/t/tap-exact/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 19:24:13] INFO root fetch - processPackages [apinator-databricks]: executing diffoscope
+[2023-04-20 19:24:13] INFO root fetch - processPackages [apinator-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apinator-databricks-0.0.3.tar.gz tmp/apinator-databricks-0.0.4.tar.gz --markdown 20230420/a/apinator-databricks/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-20 19:24:13] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-20 19:24:13] INFO root fetch - processPackages [voip-utils]: Downloading https://files.pythonhosted.org/packages/e4/46/8ef860c39e1d57a363ea87154e0b0d0b0f273f25667e18066e178524e06c/voip-utils-0.0.3.tar.gz
+[2023-04-20 19:24:13] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230420/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-20 19:24:13] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-20 19:24:13] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230420/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-20 19:24:13] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-20 19:24:13] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.1.0.tar.gz tmp/aiogram-ext-0.1.1.tar.gz --markdown 20230420/a/aiogram-ext/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ColabGeek]: executing diffoscope
+[2023-04-20 19:24:13] INFO root fetch - processPackages [ColabGeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ColabGeek-1.1.1.tar.gz tmp/ColabGeek-1.1.2.tar.gz --markdown 20230420/C/ColabGeek/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-20 19:24:13] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/5a/79/5b26384a1abb8e3c420016c3d1e6d1dfae5f140617bc87a1c72a261d698d/griptape-0.3.0.tar.gz
+[2023-04-20 19:24:13] INFO root fetch - processPackages [tmlt-core]: executing diffoscope
+[2023-04-20 19:24:13] INFO root fetch - processPackages [tmlt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmlt_core-0.9.0.tar.gz tmp/tmlt_core-0.9.1.tar.gz --markdown 20230420/t/tmlt-core/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 19:24:13] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/1d/4a/4a5fc39d65040be4aacdf76df5ed8c728d7a3ac17bf99c02193561cfed66/bittensor-4.0.0.tar.gz
+[2023-04-20 19:24:13] INFO root fetch - processPackages [voip-utils]: executing diffoscope
+[2023-04-20 19:24:13] INFO root fetch - processPackages [voip-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voip-utils-0.0.2.tar.gz tmp/voip-utils-0.0.3.tar.gz --markdown 20230420/v/voip-utils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 19:24:14] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-04-20 19:24:14] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.2.0.tar.gz tmp/griptape-0.3.0.tar.gz --markdown 20230420/g/griptape/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 19:24:14] INFO root fetch - processPackages [bittensor]: executing diffoscope
+[2023-04-20 19:24:14] INFO root fetch - processPackages [bittensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittensor-3.7.0.tar.gz tmp/bittensor-4.0.0.tar.gz --markdown 20230420/b/bittensor/3.7.0-4.0.0/diff.md --exclude *.pyd
+[2023-04-20 19:24:15] INFO root fetch - processPackages [tap-exact]: Start processing: dequeai
+[2023-04-20 19:24:15] INFO root fetch - main [MainThread]: End processing [tap-exact]: success
+[2023-04-20 19:24:15] INFO root fetch - processPackages [dequeai]: New version: [0.720] Old Version: [0.718]
+[2023-04-20 19:24:15] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/cb/d9/e9af46617bb5f22c3740df86f9632c431b9ea9fb8a0c5c7fbde81e76a95f/dequeai-0.720.tar.gz
+[2023-04-20 19:24:15] INFO root fetch - processPackages [spanishconjugator]: Start processing: FunctionStoredController
+[2023-04-20 19:24:15] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-20 19:24:15] INFO root fetch - processPackages [apinator-databricks]: Start processing: proteinTools
+[2023-04-20 19:24:15] INFO root fetch - main [MainThread]: End processing [apinator-databricks]: success
+[2023-04-20 19:24:15] INFO root fetch - processPackages [proteinTools]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-04-20 19:24:15] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-04-20 19:24:15] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.718.tar.gz tmp/dequeai-0.720.tar.gz --markdown 20230420/d/dequeai/0.718-0.720/diff.md --exclude *.pyd
+[2023-04-20 19:24:15] INFO root fetch - processPackages [FunctionStoredController]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 19:24:15] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-20 19:24:15] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-04-20 19:24:15] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.2.5.tar.gz tmp/proteinTools-1.2.6.tar.gz --markdown 20230420/p/proteinTools/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-04-20 19:24:15] INFO root fetch - main [MainThread]: End processing [ColabGeek]: success
+[2023-04-20 19:24:15] INFO root fetch - processPackages [FunctionStoredController]: Downloading https://files.pythonhosted.org/packages/48/28/cfb9e3ce9c0ccc9887fcfb1e7e83eab421dbed4985673c0e97d985ee1b74/FunctionStoredController-0.0.7.tar.gz
+[2023-04-20 19:24:15] INFO root fetch - main [MainThread]: End processing [voip-utils]: success
+[2023-04-20 19:24:15] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-20 19:24:16] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-04-20 19:24:16] INFO root fetch - processPackages [FunctionStoredController]: Downloading https://files.pythonhosted.org/packages/ac/ed/c49da33c01e7c999aee09bc9d604b5c25b2d2379e49b013605821b15ae14/FunctionStoredController-0.0.8.tar.gz
+[2023-04-20 19:24:16] INFO root fetch - processPackages [FunctionStoredController]: executing diffoscope
+[2023-04-20 19:24:16] INFO root fetch - processPackages [FunctionStoredController]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FunctionStoredController-0.0.7.tar.gz tmp/FunctionStoredController-0.0.8.tar.gz --markdown 20230420/F/FunctionStoredController/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 19:24:16] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-04-20 19:24:17] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-04-20 19:24:17] INFO root fetch - main [MainThread]: End processing [FunctionStoredController]: success
+[2023-04-20 19:24:19] INFO root fetch - main [MainThread]: End processing [bittensor]: success
+[2023-04-20 19:24:29] INFO root fetch - main [MainThread]: End processing [tmlt-core]: success
+[2023-04-20 19:24:29] INFO root fetch - main [MainThread]: Store serial: [17790710]
