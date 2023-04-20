@@ -17921,3 +17921,66 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 15:49:31] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2023-04-20 15:49:40] INFO root fetch - main [MainThread]: End processing [mainnet]: success
 [2023-04-20 15:49:40] INFO root fetch - main [MainThread]: Store serial: [17787775]
+[2023-04-20 15:54:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17787775]
+[2023-04-20 15:54:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-20 15:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: firepup650
+[2023-04-20 15:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deterrers-api
+[2023-04-20 15:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CLIbrary
+[2023-04-20 15:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dune-harmonizer
+[2023-04-20 15:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adhoconda
+[2023-04-20 15:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drf-kit
+[2023-04-20 15:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cairo-nile
+[2023-04-20 15:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assisted-service-client
+[2023-04-20 15:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dls-utilpack
+[2023-04-20 15:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pelican-redirect-url
+[2023-04-20 15:54:49] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-20 15:54:49] WARNING root fetch - processPackages [adhoconda]: Skipping, unable to determine old version
+[2023-04-20 15:54:49] INFO root fetch - processPackages [adhoconda]: Start processing: alacorder
+[2023-04-20 15:54:49] INFO root fetch - main [MainThread]: End processing [adhoconda] error
+[2023-04-20 15:54:49] WARNING root fetch - processPackages [firepup650]: Skipping, unable to determine old version
+[2023-04-20 15:54:49] INFO root fetch - processPackages [firepup650]: Start processing: fazy
+[2023-04-20 15:54:49] INFO root fetch - main [MainThread]: End processing [firepup650] error
+[2023-04-20 15:54:49] INFO root fetch - processPackages [dls-utilpack]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-04-20 15:54:49] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-04-20 15:54:49] INFO root fetch - processPackages [alacorder]: New version: [79.5.5] Old Version: [79.5.4]
+[2023-04-20 15:54:49] INFO root fetch - processPackages [drf-kit]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-04-20 15:54:49] INFO root fetch - processPackages [deterrers-api]: New version: [0.4] Old Version: [0.3]
+[2023-04-20 15:54:49] INFO root fetch - processPackages [CLIbrary]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-04-20 15:54:49] WARNING root fetch - processPackages [pelican-redirect-url]: Skipping, unable to determine old version
+[2023-04-20 15:54:49] INFO root fetch - main [MainThread]: End processing [pelican-redirect-url] error
+[2023-04-20 15:54:49] INFO root fetch - processPackages [cairo-nile]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-20 15:54:49] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-04-20 15:54:49] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.3.0.tar.gz tmp/dune_harmonizer-0.4.0.tar.gz --markdown 20230420/d/dune-harmonizer/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-20 15:54:49] INFO root fetch - processPackages [fazy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 15:54:49] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-04-20 15:54:49] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230420/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-04-20 15:54:49] INFO root fetch - processPackages [dls-utilpack]: executing diffoscope
+[2023-04-20 15:54:49] INFO root fetch - processPackages [dls-utilpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-utilpack-1.0.2.tar.gz tmp/dls-utilpack-1.1.0.tar.gz --markdown 20230420/d/dls-utilpack/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-04-20 15:54:49] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-20 15:54:49] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.5.4.tar.gz tmp/alacorder-79.5.5.tar.gz --markdown 20230420/a/alacorder/79.5.4-79.5.5/diff.md --exclude *.pyd
+[2023-04-20 15:54:49] INFO root fetch - processPackages [cairo-nile]: Downloading https://files.pythonhosted.org/packages/52/a4/90c8c450d106dc600e0647da2a0e1d8c0b325650deba772b71443febc5df/cairo-nile-0.9.0.tar.gz
+[2023-04-20 15:54:49] INFO root fetch - processPackages [fazy]: Downloading https://files.pythonhosted.org/packages/2a/8d/c1d74b465e683492cd18eb764547d774724d934577a7d32dd43830cea4e8/fazy-0.0.1-py3-none-any.whl
+[2023-04-20 15:54:49] INFO root fetch - processPackages [CLIbrary]: Downloading https://files.pythonhosted.org/packages/0d/a2/2c65488d6c2e7fb088f2cf018684a492193129cf63fb046c81837bc40356/clibrary-1.7.1.tar.gz
+[2023-04-20 15:54:49] INFO root fetch - processPackages [deterrers-api]: Downloading https://files.pythonhosted.org/packages/8d/a9/3dcbd461b946fc34ff5fa01dbf9ea86f429f09809bb3d8f6fd573bc50025/deterrers-api-0.4.tar.gz
+[2023-04-20 15:54:49] INFO root fetch - processPackages [drf-kit]: executing diffoscope
+[2023-04-20 15:54:49] INFO root fetch - processPackages [drf-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-kit-1.8.7.tar.gz tmp/drf-kit-1.9.0.tar.gz --markdown 20230420/d/drf-kit/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 15:54:49] INFO root fetch - processPackages [fazy]: Downloading https://files.pythonhosted.org/packages/5c/29/2e8608c5400a09a5296793fa82e98e226ec00444e04916b2c05e20eaefbf/fazy-0.0.2.tar.gz
+[2023-04-20 15:54:49] INFO root fetch - processPackages [deterrers-api]: executing diffoscope
+[2023-04-20 15:54:49] INFO root fetch - processPackages [deterrers-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deterrers-api-0.3.tar.gz tmp/deterrers-api-0.4.tar.gz --markdown 20230420/d/deterrers-api/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-20 15:54:49] INFO root fetch - processPackages [cairo-nile]: Downloading https://files.pythonhosted.org/packages/a9/f7/007546ebf0e51b3f4fadf20000e5de6233c73222d7e55c8a039870e0cb97/cairo-nile-0.9.1.tar.gz
+[2023-04-20 15:54:49] INFO root fetch - processPackages [CLIbrary]: executing diffoscope
+[2023-04-20 15:54:49] INFO root fetch - processPackages [CLIbrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clibrary-1.7.0.tar.gz tmp/clibrary-1.7.1.tar.gz --markdown 20230420/C/CLIbrary/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-04-20 15:54:50] INFO root fetch - processPackages [cairo-nile]: executing diffoscope
+[2023-04-20 15:54:50] INFO root fetch - processPackages [cairo-nile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cairo-nile-0.9.0.tar.gz tmp/cairo-nile-0.9.1.tar.gz --markdown 20230420/c/cairo-nile/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 15:54:50] INFO root fetch - processPackages [fazy]: executing diffoscope
+[2023-04-20 15:54:50] INFO root fetch - processPackages [fazy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fazy-0.0.1-py3-none-any.whl.zip tmp/fazy-0.0.2.tar.gz --markdown 20230420/f/fazy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 15:54:50] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-04-20 15:54:51] INFO root fetch - main [MainThread]: End processing [drf-kit]: success
+[2023-04-20 15:54:51] INFO root fetch - main [MainThread]: End processing [deterrers-api]: success
+[2023-04-20 15:54:51] INFO root fetch - main [MainThread]: End processing [CLIbrary]: success
+[2023-04-20 15:54:51] INFO root fetch - main [MainThread]: End processing [fazy]: success
+[2023-04-20 15:54:51] INFO root fetch - main [MainThread]: End processing [cairo-nile]: success
+[2023-04-20 15:54:52] INFO root fetch - main [MainThread]: End processing [dls-utilpack]: success
+[2023-04-20 15:54:53] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-04-20 15:54:59] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-20 15:54:59] INFO root fetch - main [MainThread]: Store serial: [17787832]
