@@ -18254,3 +18254,110 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 16:11:18] INFO root fetch - main [MainThread]: End processing [pharmpy-core]: success
 [2023-04-20 16:11:27] INFO root fetch - main [MainThread]: End processing [aspeak]: success
 [2023-04-20 16:11:27] INFO root fetch - main [MainThread]: Store serial: [17788093]
+[2023-04-20 16:16:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17788093]
+[2023-04-20 16:16:43] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-20 16:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: causalnex
+[2023-04-20 16:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: batch-ingestion-client-py
+[2023-04-20 16:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weni-rp-apps
+[2023-04-20 16:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: music-assistant
+[2023-04-20 16:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bayanpy
+[2023-04-20 16:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-scw-instance
+[2023-04-20 16:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: np-stream
+[2023-04-20 16:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qoqo-mock
+[2023-04-20 16:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cpppackage
+[2023-04-20 16:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: megadata
+[2023-04-20 16:16:43] INFO root fetch - processPackages [causalnex]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-20 16:16:43] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.0a4] Old Version: [2.4.0a3]
+[2023-04-20 16:16:43] INFO root fetch - processPackages [causalnex]: executing diffoscope
+[2023-04-20 16:16:43] INFO root fetch - processPackages [causalnex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causalnex-0.9.1.tar.gz tmp/causalnex-0.9.2.tar.gz --markdown 20230420/c/causalnex/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-20 16:16:43] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-04-20 16:16:43] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.0a3.tar.gz tmp/weni_rp_apps-2.4.0a4.tar.gz --markdown 20230420/w/weni-rp-apps/2.4.0a3-2.4.0a4/diff.md --exclude *.pyd
+[2023-04-20 16:16:43] INFO root fetch - processPackages [batch-ingestion-client-py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-20 16:16:43] INFO root fetch - processPackages [megadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 16:16:43] INFO root fetch - processPackages [bayanpy]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-04-20 16:16:43] WARNING root fetch - processPackages [np-stream]: Skipping, unable to determine old version
+[2023-04-20 16:16:43] INFO root fetch - processPackages [xia-scw-instance]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 16:16:43] INFO root fetch - processPackages [qoqo-mock]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-04-20 16:16:43] INFO root fetch - processPackages [np-stream]: Start processing: megadata
+[2023-04-20 16:16:43] INFO root fetch - main [MainThread]: End processing [np-stream] error
+[2023-04-20 16:16:43] WARNING root fetch - processPackages [cpppackage]: Skipping, unable to determine old version
+[2023-04-20 16:16:43] INFO root fetch - processPackages [cpppackage]: Start processing: aws-cdk.asset-node-proxy-agent-v5
+[2023-04-20 16:16:43] INFO root fetch - main [MainThread]: End processing [cpppackage] error
+[2023-04-20 16:16:43] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-04-20 16:16:43] INFO root fetch - processPackages [megadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 16:16:43] INFO root fetch - processPackages [batch-ingestion-client-py]: Downloading https://files.pythonhosted.org/packages/55/61/547a26055ee7ee4c77067ec445bc2e8976a0df0cfc3a8914f615c9b3b0f4/batch_ingestion_client_py-1.0.1.tar.gz
+[2023-04-20 16:16:43] INFO root fetch - processPackages [xia-scw-instance]: Downloading https://files.pythonhosted.org/packages/43/14/de6e44ba69c564c9b985acf7b7becb933492cab3b2b710f40773a30d53e2/xia_scw_instance-0.0.2-cp39-none-win_amd64.whl
+[2023-04-20 16:16:43] INFO root fetch - processPackages [qoqo-mock]: Downloading https://files.pythonhosted.org/packages/16/01/3f8e5538a0af7285f2b854c2de478c24c2a46caf69aa51a45c3f8e62b4fd/qoqo_mock-0.5.3.tar.gz
+[2023-04-20 16:16:43] INFO root fetch - processPackages [bayanpy]: Downloading https://files.pythonhosted.org/packages/fc/2c/d3bfba9aca8575d2acaa590e29c67747ae1e87d87a6d0ba9b02899c27b8a/bayanpy-0.6.3.tar.gz
+[2023-04-20 16:16:43] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-04-20 16:16:43] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-04-20 16:16:43] INFO root fetch - processPackages [music-assistant]: Start processing: batch-ingestion-client-py
+[2023-04-20 16:16:43] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-04-20 16:16:43] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-20 16:16:43] INFO root fetch - processPackages [batch-ingestion-client-py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-20 16:16:44] INFO root fetch - processPackages [bayanpy]: Downloading https://files.pythonhosted.org/packages/75/6c/2dfc6de76ce483e0e6ef834c509b3b0211842d2fa6093a7ff5279e9300b3/bayanpy-0.6.4.tar.gz
+[2023-04-20 16:16:44] INFO root fetch - processPackages [megadata]: executing diffoscope
+[2023-04-20 16:16:44] INFO root fetch - processPackages [megadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadata-0.0.8.tar.gz tmp/megadata-0.0.9.tar.gz --markdown 20230420/m/megadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 16:16:44] INFO root fetch - processPackages [megadata]: executing diffoscope
+[2023-04-20 16:16:44] INFO root fetch - processPackages [megadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadata-0.0.8.tar.gz tmp/megadata-0.0.9.tar.gz --markdown 20230420/m/megadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 16:16:44] INFO root fetch - processPackages [batch-ingestion-client-py]: Downloading https://files.pythonhosted.org/packages/58/ab/2adf797658566e0b854e40f4e33a6e56c6be3f983dcc33cb652ce36a0a16/batch_ingestion_client_py-1.0.2.tar.gz
+[2023-04-20 16:16:44] INFO root fetch - processPackages [batch-ingestion-client-py]: Downloading https://files.pythonhosted.org/packages/58/ab/2adf797658566e0b854e40f4e33a6e56c6be3f983dcc33cb652ce36a0a16/batch_ingestion_client_py-1.0.2.tar.gz
+[2023-04-20 16:16:44] INFO root fetch - processPackages [xia-scw-instance]: Downloading https://files.pythonhosted.org/packages/f7/8f/caf07dfb18cdd0fa0a1667795a1280d3997de53219e6e2f553754731b2e6/xia_scw_instance-0.0.3-cp39-none-win_amd64.whl
+[2023-04-20 16:16:44] INFO root fetch - processPackages [qoqo-mock]: Downloading https://files.pythonhosted.org/packages/df/e0/1442cbe7c58b836af992000aa94e3b656abe647c054601730cf4259182fc/qoqo_mock-0.5.4.tar.gz
+[2023-04-20 16:16:44] INFO root fetch - processPackages [bayanpy]: executing diffoscope
+[2023-04-20 16:16:44] INFO root fetch - processPackages [bayanpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayanpy-0.6.3.tar.gz tmp/bayanpy-0.6.4.tar.gz --markdown 20230420/b/bayanpy/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-04-20 16:16:44] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: executing diffoscope
+[2023-04-20 16:16:44] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.asset-node-proxy-agent-v5-2.0.98.tar.gz tmp/aws-cdk.asset-node-proxy-agent-v5-2.0.99.tar.gz --markdown 20230420/a/aws-cdk.asset-node-proxy-agent-v5/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-20 16:16:44] INFO root fetch - processPackages [batch-ingestion-client-py]: executing diffoscope
+[2023-04-20 16:16:44] INFO root fetch - processPackages [batch-ingestion-client-py]: executing diffoscope
+[2023-04-20 16:16:44] INFO root fetch - processPackages [batch-ingestion-client-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batch_ingestion_client_py-1.0.1.tar.gz tmp/batch_ingestion_client_py-1.0.2.tar.gz --markdown 20230420/b/batch-ingestion-client-py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 16:16:44] INFO root fetch - processPackages [batch-ingestion-client-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batch_ingestion_client_py-1.0.1.tar.gz tmp/batch_ingestion_client_py-1.0.2.tar.gz --markdown 20230420/b/batch-ingestion-client-py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 16:16:44] INFO root fetch - processPackages [qoqo-mock]: executing diffoscope
+[2023-04-20 16:16:44] INFO root fetch - processPackages [qoqo-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_mock-0.5.3.tar.gz tmp/qoqo_mock-0.5.4.tar.gz --markdown 20230420/q/qoqo-mock/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-04-20 16:16:44] INFO root fetch - processPackages [xia-scw-instance]: executing diffoscope
+[2023-04-20 16:16:44] INFO root fetch - processPackages [xia-scw-instance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_instance-0.0.2-cp39-none-win_amd64.whl.zip tmp/xia_scw_instance-0.0.3-cp39-none-win_amd64.whl.zip --markdown 20230420/x/xia-scw-instance/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 16:16:45] INFO root fetch - processPackages [causalnex]: Start processing: redis-purse
+[2023-04-20 16:16:45] INFO root fetch - main [MainThread]: End processing [causalnex]: success
+[2023-04-20 16:16:45] INFO root fetch - processPackages [megadata]: Start processing: rots-py
+[2023-04-20 16:16:45] INFO root fetch - main [MainThread]: End processing [megadata]: success
+[2023-04-20 16:16:45] INFO root fetch - processPackages [redis-purse]: New version: [1.0.0] Old Version: [0.25.0]
+[2023-04-20 16:16:45] INFO root fetch - processPackages [rots-py]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-04-20 16:16:45] INFO root fetch - processPackages [redis-purse]: Downloading https://files.pythonhosted.org/packages/0e/6f/59cec25c1f0f5d063bdfa5dbdfcd4d654becb36fd185c0e9b21e7ef33ea7/redis-purse-0.25.0.tar.gz
+[2023-04-20 16:16:45] INFO root fetch - processPackages [megadata]: Start processing: edwh
+[2023-04-20 16:16:45] INFO root fetch - main [MainThread]: End processing [megadata]: success
+[2023-04-20 16:16:45] INFO root fetch - processPackages [rots-py]: Downloading https://files.pythonhosted.org/packages/20/47/29d82c528ae08669be9ef7dad4f6aa922df0eedfc709f1178c097ae64c5e/rots-py-1.0.0.tar.gz
+[2023-04-20 16:16:45] INFO root fetch - processPackages [edwh]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-04-20 16:16:45] INFO root fetch - processPackages [weni-rp-apps]: Start processing: caesar-rock
+[2023-04-20 16:16:45] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-04-20 16:16:45] INFO root fetch - processPackages [redis-purse]: Downloading https://files.pythonhosted.org/packages/ad/eb/7fbe9e6dab6d1b5c8c49f4334da5c03fd03bcb773532c4d24460f022dfa2/redis_purse-1.0.0.tar.gz
+[2023-04-20 16:16:45] INFO root fetch - processPackages [caesar-rock]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 16:16:45] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: Start processing: leakix
+[2023-04-20 16:16:45] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-node-proxy-agent-v5]: success
+[2023-04-20 16:16:46] INFO root fetch - processPackages [caesar-rock]: executing diffoscope
+[2023-04-20 16:16:46] INFO root fetch - processPackages [caesar-rock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caesar-rock-0.0.8.tar.gz tmp/caesar-rock-0.0.9.tar.gz --markdown 20230420/c/caesar-rock/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 16:16:46] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/36/a1/5856621cb744016283b58414b870d77522549a955163b19eac27391da3f2/edwh-0.6.4.tar.gz
+[2023-04-20 16:16:46] INFO root fetch - processPackages [batch-ingestion-client-py]: Start processing: odoo-addon-product-uom-updatable
+[2023-04-20 16:16:46] INFO root fetch - main [MainThread]: End processing [batch-ingestion-client-py]: success
+[2023-04-20 16:16:46] INFO root fetch - processPackages [rots-py]: Downloading https://files.pythonhosted.org/packages/04/e5/fdab94c3324c0e50dccaf699e0ba5ed6cc6eaa5a0aaa2be3a2cddd6cbb7a/rots-py-1.0.2.tar.gz
+[2023-04-20 16:16:46] INFO root fetch - processPackages [leakix]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-20 16:16:46] INFO root fetch - processPackages [redis-purse]: executing diffoscope
+[2023-04-20 16:16:46] INFO root fetch - processPackages [redis-purse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-purse-0.25.0.tar.gz tmp/redis_purse-1.0.0.tar.gz --markdown 20230420/r/redis-purse/0.25.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-20 16:16:46] INFO root fetch - main [MainThread]: End processing [bayanpy]: success
+[2023-04-20 16:16:46] WARNING root fetch - processPackages [odoo-addon-product-uom-updatable]: Skipping, unable to determine old version
+[2023-04-20 16:16:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-uom-updatable] error
+[2023-04-20 16:16:46] INFO root fetch - processPackages [rots-py]: executing diffoscope
+[2023-04-20 16:16:46] INFO root fetch - processPackages [rots-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rots-py-1.0.0.tar.gz tmp/rots-py-1.0.2.tar.gz --markdown 20230420/r/rots-py/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 16:16:46] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 77904647>=10485760
+[2023-04-20 16:16:46] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-04-20 16:16:46] INFO root fetch - processPackages [leakix]: Downloading https://files.pythonhosted.org/packages/15/c6/a873be1af1f543aa4227e6ff110babc30393edf68954a4b9c0dfeafbbb01/leakix-0.1.5.tar.gz
+[2023-04-20 16:16:46] INFO root fetch - main [MainThread]: End processing [batch-ingestion-client-py]: success
+[2023-04-20 16:16:46] INFO root fetch - main [MainThread]: End processing [xia-scw-instance]: success
+[2023-04-20 16:16:46] INFO root fetch - main [MainThread]: End processing [qoqo-mock]: success
+[2023-04-20 16:16:46] INFO root fetch - processPackages [leakix]: Downloading https://files.pythonhosted.org/packages/4c/e1/2547b32128e93e7582e518e2fab4e7473e3d5ae450982f3693178b820035/leakix-0.1.6.tar.gz
+[2023-04-20 16:16:46] INFO root fetch - processPackages [leakix]: executing diffoscope
+[2023-04-20 16:16:46] INFO root fetch - processPackages [leakix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leakix-0.1.5.tar.gz tmp/leakix-0.1.6.tar.gz --markdown 20230420/l/leakix/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-20 16:16:47] INFO root fetch - main [MainThread]: End processing [redis-purse]: success
+[2023-04-20 16:16:47] INFO root fetch - main [MainThread]: End processing [caesar-rock]: success
+[2023-04-20 16:16:47] INFO root fetch - main [MainThread]: End processing [leakix]: success
+[2023-04-20 16:17:01] INFO root fetch - main [MainThread]: End processing [rots-py]: success
+[2023-04-20 16:17:01] INFO root fetch - main [MainThread]: Store serial: [17788158]
