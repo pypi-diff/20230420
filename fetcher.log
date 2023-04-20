@@ -14572,3 +14572,133 @@ EOFError: EOF read where object expected
 [2023-04-20 12:48:15] INFO root fetch - main [MainThread]: End processing [rekuest]: success
 [2023-04-20 12:48:16] INFO root fetch - main [MainThread]: End processing [ducc0]: success
 [2023-04-20 12:48:16] INFO root fetch - main [MainThread]: Store serial: [17785869]
+[2023-04-20 12:53:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17785869]
+[2023-04-20 12:53:25] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-20 12:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fakts
+[2023-04-20 12:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-mrp-flattened-bom-xlsx-labour-cost
+[2023-04-20 12:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: herre
+[2023-04-20 12:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fluss
+[2023-04-20 12:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mikro
+[2023-04-20 12:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unlok
+[2023-04-20 12:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fold-core
+[2023-04-20 12:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xklb
+[2023-04-20 12:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plix-kws
+[2023-04-20 12:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arkitekt
+[2023-04-20 12:53:25] WARNING root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-labour-cost]: Skipping, unable to determine old version
+[2023-04-20 12:53:25] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx-labour-cost]: Start processing: python-whitebit-sdk
+[2023-04-20 12:53:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-flattened-bom-xlsx-labour-cost] error
+[2023-04-20 12:53:25] INFO root fetch - processPackages [unlok]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 12:53:25] INFO root fetch - processPackages [fluss]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 12:53:25] INFO root fetch - processPackages [fold-core]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-20 12:53:25] WARNING root fetch - processPackages [plix-kws]: Skipping, unable to determine old version
+[2023-04-20 12:53:25] INFO root fetch - processPackages [fakts]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-20 12:53:25] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-20 12:53:25] INFO root fetch - processPackages [plix-kws]: Start processing: quarchpy
+[2023-04-20 12:53:25] INFO root fetch - main [MainThread]: End processing [plix-kws] error
+[2023-04-20 12:53:25] INFO root fetch - processPackages [herre]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-20 12:53:25] INFO root fetch - processPackages [python-whitebit-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-20 12:53:25] INFO root fetch - processPackages [xklb]: New version: [1.25.1] Old Version: [1.24.9]
+[2023-04-20 12:53:25] INFO root fetch - processPackages [quarchpy]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2023-04-20 12:53:25] INFO root fetch - processPackages [arkitekt]: New version: [0.4.9] Old Version: [0.4.83]
+[2023-04-20 12:53:25] INFO root fetch - processPackages [quarchpy]: Downloading https://files.pythonhosted.org/packages/4c/58/57c71932b71449bc466e74bd8478a30bedf723227a6aa33c2934896c2345/quarchpy-2.1.9.dev2-py2.py3-none-any.whl
+[2023-04-20 12:53:25] WARNING root fetch - processPackages [quarchpy]: Skipping package: exceeds size limit 34469980>=10485760
+[2023-04-20 12:53:25] INFO root fetch - processPackages [quarchpy]: Start processing: PyQt5-sip
+[2023-04-20 12:53:25] INFO root fetch - main [MainThread]: End processing [quarchpy] error
+[2023-04-20 12:53:25] INFO root fetch - processPackages [python-whitebit-sdk]: Downloading https://files.pythonhosted.org/packages/c6/88/9e06b0f54e465ebbbaf6d6790d4073a5e52aaa8b6102f76b5c0c4fdea2de/python-whitebit-sdk-1.0.1.tar.gz
+[2023-04-20 12:53:26] INFO root fetch - processPackages [fold-core]: Downloading https://files.pythonhosted.org/packages/c4/f4/dd8aa8993323bd5bdee4214058956b10446f10a93f3e355c1fe78cc624bc/fold_core-0.1.2.tar.gz
+[2023-04-20 12:53:26] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/80/ee/42d9cedff7c06689e73c1c31b2c3f99b85ece3b3e9f8d9b1e9ba14b97c6b/arkitekt-0.4.83.tar.gz
+[2023-04-20 12:53:26] INFO root fetch - processPackages [herre]: Downloading https://files.pythonhosted.org/packages/1a/f0/614035b9abe8f3c2e2c0e2d460cea1e0418a77254cf0ad04ac338b4c099a/herre-0.3.8.tar.gz
+[2023-04-20 12:53:26] INFO root fetch - processPackages [PyQt5-sip]: New version: [4.19.19] Old Version: [4.19.18]
+[2023-04-20 12:53:26] INFO root fetch - processPackages [fakts]: Downloading https://files.pythonhosted.org/packages/5a/a4/14cb2968fbacda9dd314323bde31ae7a791c382b650b9b24910dd76ba6a4/fakts-0.3.8.tar.gz
+[2023-04-20 12:53:26] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/9b/f1/d9de5072479348bbef599c2692b91f9511e50852a18cc46269fc0e5aad78/xklb-1.24.9.tar.gz
+[2023-04-20 12:53:26] INFO root fetch - processPackages [fold-core]: executing diffoscope
+[2023-04-20 12:53:26] INFO root fetch - processPackages [fold-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fold_core-0.1.1.tar.gz tmp/fold_core-0.1.2.tar.gz --markdown 20230420/f/fold-core/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-20 12:53:26] INFO root fetch - processPackages [fluss]: executing diffoscope
+[2023-04-20 12:53:26] INFO root fetch - processPackages [fluss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluss-0.1.8.tar.gz tmp/fluss-0.1.9.tar.gz --markdown 20230420/f/fluss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 12:53:26] INFO root fetch - processPackages [PyQt5-sip]: Downloading https://files.pythonhosted.org/packages/cf/c8/1e9eda4ba09a84fc528d4c87001de2d7a8cbbe04c2a834af3eb81a0ecd88/PyQt5_sip-4.19.18-cp37-none-win_amd64.whl
+[2023-04-20 12:53:26] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-04-20 12:53:26] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230420/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-20 12:53:26] INFO root fetch - processPackages [unlok]: executing diffoscope
+[2023-04-20 12:53:26] INFO root fetch - processPackages [unlok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unlok-0.1.8.tar.gz tmp/unlok-0.1.9.tar.gz --markdown 20230420/u/unlok/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 12:53:26] INFO root fetch - processPackages [python-whitebit-sdk]: Downloading https://files.pythonhosted.org/packages/b5/b1/a61b8ce77d555a7ce809d8d28a6a6ce382bbf29c134707f2a9a51636d830/python-whitebit-sdk-1.0.2.tar.gz
+[2023-04-20 12:53:26] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/23/2a/351ae798afad5d17cba27953f0bad9f299ebfd78114521aad01ef0d4c78e/xklb-1.25.1.tar.gz
+[2023-04-20 12:53:26] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-04-20 12:53:26] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.83.tar.gz tmp/arkitekt-0.4.9.tar.gz --markdown 20230420/a/arkitekt/0.4.83-0.4.9/diff.md --exclude *.pyd
+[2023-04-20 12:53:26] INFO root fetch - processPackages [fakts]: Downloading https://files.pythonhosted.org/packages/9e/32/d9aa913287bae00909a2329df410f1d75b0f8e71b8e77faa8960ee123f85/fakts-0.3.9.tar.gz
+[2023-04-20 12:53:26] INFO root fetch - processPackages [python-whitebit-sdk]: executing diffoscope
+[2023-04-20 12:53:26] INFO root fetch - processPackages [python-whitebit-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-whitebit-sdk-1.0.1.tar.gz tmp/python-whitebit-sdk-1.0.2.tar.gz --markdown 20230420/p/python-whitebit-sdk/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 12:53:26] INFO root fetch - processPackages [herre]: Downloading https://files.pythonhosted.org/packages/ad/3b/cc609ef17a70e1020a31355e1955623f121da1caa3ab50af521161885c6b/herre-0.3.9.tar.gz
+[2023-04-20 12:53:26] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-04-20 12:53:26] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.24.9.tar.gz tmp/xklb-1.25.1.tar.gz --markdown 20230420/x/xklb/1.24.9-1.25.1/diff.md --exclude *.pyd
+[2023-04-20 12:53:26] INFO root fetch - processPackages [PyQt5-sip]: Downloading https://files.pythonhosted.org/packages/9b/ca/f61051460610126dc89b354345c8319183cae938ed87b51ba03ba03f2a1e/PyQt5_sip-4.19.19-cp38-none-win_amd64.whl
+[2023-04-20 12:53:26] INFO root fetch - processPackages [herre]: executing diffoscope
+[2023-04-20 12:53:26] INFO root fetch - processPackages [herre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herre-0.3.8.tar.gz tmp/herre-0.3.9.tar.gz --markdown 20230420/h/herre/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-20 12:53:26] INFO root fetch - processPackages [PyQt5-sip]: executing diffoscope
+[2023-04-20 12:53:26] INFO root fetch - processPackages [PyQt5-sip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt5_sip-4.19.18-cp37-none-win_amd64.whl.zip tmp/PyQt5_sip-4.19.19-cp38-none-win_amd64.whl.zip --markdown 20230420/P/PyQt5-sip/4.19.18-4.19.19/diff.md --exclude *.pyd
+[2023-04-20 12:53:26] INFO root fetch - processPackages [fakts]: executing diffoscope
+[2023-04-20 12:53:26] INFO root fetch - processPackages [fakts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakts-0.3.8.tar.gz tmp/fakts-0.3.9.tar.gz --markdown 20230420/f/fakts/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-20 12:53:27] INFO root fetch - processPackages [unlok]: Start processing: caesar-rock
+[2023-04-20 12:53:27] INFO root fetch - main [MainThread]: End processing [unlok]: success
+[2023-04-20 12:53:27] INFO root fetch - processPackages [caesar-rock]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 12:53:27] INFO root fetch - processPackages [fluss]: Start processing: hyfi
+[2023-04-20 12:53:27] INFO root fetch - main [MainThread]: End processing [fluss]: success
+[2023-04-20 12:53:27] INFO root fetch - processPackages [hyfi]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-20 12:53:27] INFO root fetch - processPackages [caesar-rock]: Downloading https://files.pythonhosted.org/packages/94/19/6a789485ff54dd11e764cbb95cc9f19cc0c9d393a1a8c1b632d11424c4ea/caesar-rock-0.0.8.tar.gz
+[2023-04-20 12:53:28] INFO root fetch - processPackages [PyQt5-sip]: Start processing: matflow-new
+[2023-04-20 12:53:28] INFO root fetch - main [MainThread]: End processing [PyQt5-sip]: success
+[2023-04-20 12:53:28] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-04-20 12:53:28] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/75/63/f791c8497b91b3cfbc0c3b0ec0321c7dbd11c2d0545ced9c61166d2db5ab/hyfi-0.2.6.tar.gz
+[2023-04-20 12:53:28] INFO root fetch - processPackages [python-whitebit-sdk]: Start processing: iqrfpy
+[2023-04-20 12:53:28] INFO root fetch - main [MainThread]: End processing [python-whitebit-sdk]: success
+[2023-04-20 12:53:28] INFO root fetch - processPackages [caesar-rock]: executing diffoscope
+[2023-04-20 12:53:28] INFO root fetch - processPackages [caesar-rock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caesar-rock-0.0.7.tar.gz tmp/caesar-rock-0.0.8.tar.gz --markdown 20230420/c/caesar-rock/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 12:53:28] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 12:53:28] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-04-20 12:53:28] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230420/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-04-20 12:53:28] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-04-20 12:53:28] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230420/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 12:53:28] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-04-20 12:53:28] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.2.5.tar.gz tmp/hyfi-0.2.6.tar.gz --markdown 20230420/h/hyfi/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-20 12:53:28] INFO root fetch - processPackages [xklb]: Start processing: PyQt6-sip
+[2023-04-20 12:53:28] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-04-20 12:53:28] INFO root fetch - processPackages [fakts]: Start processing: openapiart
+[2023-04-20 12:53:28] INFO root fetch - main [MainThread]: End processing [fakts]: success
+[2023-04-20 12:53:28] INFO root fetch - processPackages [openapiart]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 12:53:28] INFO root fetch - processPackages [herre]: Start processing: embykeeper
+[2023-04-20 12:53:28] INFO root fetch - main [MainThread]: End processing [herre]: success
+[2023-04-20 12:53:28] INFO root fetch - processPackages [PyQt6-sip]: New version: [13.5.1] Old Version: [13.5.0]
+[2023-04-20 12:53:28] INFO root fetch - processPackages [openapiart]: executing diffoscope
+[2023-04-20 12:53:28] INFO root fetch - processPackages [openapiart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapiart-0.2.8.tar.gz tmp/openapiart-0.2.9.tar.gz --markdown 20230420/o/openapiart/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 12:53:28] INFO root fetch - processPackages [embykeeper]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-04-20 12:53:28] INFO root fetch - processPackages [PyQt6-sip]: Downloading https://files.pythonhosted.org/packages/23/fd/530e274c4d7d39645478156063de266d7d3c1fb70ba9f38372a75094ed51/PyQt6_sip-13.5.0.tar.gz
+[2023-04-20 12:53:28] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/0e/86/2823b11bd37cf854aad7a82a8681bdcf08e707c9c3bff7c1bfe5bce11bae/embykeeper-2.0.7.tar.gz
+[2023-04-20 12:53:28] INFO root fetch - processPackages [PyQt6-sip]: Downloading https://files.pythonhosted.org/packages/2b/b4/87241bb21832cda1061805492ca2a5fd9d18969ea72277bb9fde94228962/PyQt6_sip-13.5.1.tar.gz
+[2023-04-20 12:53:29] INFO root fetch - processPackages [fold-core]: Start processing: py-latent-profiles
+[2023-04-20 12:53:29] INFO root fetch - main [MainThread]: End processing [fold-core]: success
+[2023-04-20 12:53:29] INFO root fetch - processPackages [PyQt6-sip]: executing diffoscope
+[2023-04-20 12:53:29] INFO root fetch - processPackages [PyQt6-sip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_sip-13.5.0.tar.gz tmp/PyQt6_sip-13.5.1.tar.gz --markdown 20230420/P/PyQt6-sip/13.5.0-13.5.1/diff.md --exclude *.pyd
+[2023-04-20 12:53:29] WARNING root fetch - processPackages [py-latent-profiles]: Skipping, unable to determine old version
+[2023-04-20 12:53:29] INFO root fetch - processPackages [py-latent-profiles]: Start processing: sip
+[2023-04-20 12:53:29] INFO root fetch - main [MainThread]: End processing [py-latent-profiles] error
+[2023-04-20 12:53:29] INFO root fetch - processPackages [mikro]: Start processing: odoo12-addon-product-contract-date-end-unrequired
+[2023-04-20 12:53:29] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-04-20 12:53:29] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/70/5d/fe9b1da841352dfe2a2a5967a0112cfc426b4bcc28b2e31246efa0132133/embykeeper-2.0.8.tar.gz
+[2023-04-20 12:53:29] WARNING root fetch - processPackages [odoo12-addon-product-contract-date-end-unrequired]: Skipping, unable to determine old version
+[2023-04-20 12:53:29] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-contract-date-end-unrequired] error
+[2023-04-20 12:53:29] INFO root fetch - processPackages [sip]: New version: [6.7.9] Old Version: [6.7.8]
+[2023-04-20 12:53:29] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2023-04-20 12:53:29] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-2.0.7.tar.gz tmp/embykeeper-2.0.8.tar.gz --markdown 20230420/e/embykeeper/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-04-20 12:53:29] INFO root fetch - processPackages [sip]: Downloading https://files.pythonhosted.org/packages/c7/09/68bfefcdc48875e66aabafc946620483d0cd93aba52dde37d2059e5bf927/sip-6.7.8.tar.gz
+[2023-04-20 12:53:29] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-04-20 12:53:29] INFO root fetch - main [MainThread]: End processing [caesar-rock]: success
+[2023-04-20 12:53:29] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-04-20 12:53:29] INFO root fetch - processPackages [sip]: Downloading https://files.pythonhosted.org/packages/9d/ac/372a76dacf61912c7f833229a27ad19040617d35363bfe6000e033c9a960/sip-6.7.9-cp37-abi3-win32.whl
+[2023-04-20 12:53:30] INFO root fetch - processPackages [sip]: executing diffoscope
+[2023-04-20 12:53:30] INFO root fetch - processPackages [sip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sip-6.7.8.tar.gz tmp/sip-6.7.9-cp37-abi3-win32.whl.zip --markdown 20230420/s/sip/6.7.8-6.7.9/diff.md --exclude *.pyd
+[2023-04-20 12:53:30] INFO root fetch - main [MainThread]: End processing [openapiart]: success
+[2023-04-20 12:53:30] INFO root fetch - main [MainThread]: End processing [PyQt6-sip]: success
+[2023-04-20 12:53:30] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-04-20 12:53:30] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2023-04-20 12:53:31] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-04-20 12:53:31] INFO root fetch - main [MainThread]: End processing [sip]: success
+[2023-04-20 12:53:31] INFO root fetch - main [MainThread]: Store serial: [17785972]
