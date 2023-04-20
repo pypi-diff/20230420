@@ -5741,3 +5741,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 03:29:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2023-04-20 03:29:38] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
 [2023-04-20 03:29:38] INFO root fetch - main [MainThread]: Store serial: [17780681]
+[2023-04-20 03:34:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17780681]
+[2023-04-20 03:34:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyasn1-modules
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nano-qmflows
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-wget
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robodyno
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylovelace
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Generic-Util
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-starter
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-stdlib
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qabot
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ytdl-sub
+[2023-04-20 03:34:47] INFO root fetch - processPackages [nano-qmflows]: New version: [0.14.0] Old Version: [0.13.4]
+[2023-04-20 03:34:47] INFO root fetch - processPackages [pyasn1-modules]: New version: [0.3.0rc1] Old Version: [0.3.0]
+[2023-04-20 03:34:47] INFO root fetch - processPackages [pylovelace]: New version: [2023.1.4] Old Version: [2023.1.3]
+[2023-04-20 03:34:47] INFO root fetch - processPackages [robodyno]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ml-starter]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-04-20 03:34:47] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-20 03:34:47] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-20 03:34:47] INFO root fetch - processPackages [qabot]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-20 03:34:47] WARNING root fetch - processPackages [Generic-Util]: Skipping, unable to determine old version
+[2023-04-20 03:34:47] INFO root fetch - processPackages [Generic-Util]: Start processing: nbdev-numpy
+[2023-04-20 03:34:47] INFO root fetch - main [MainThread]: End processing [Generic-Util] error
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.0.19.tar.gz tmp/ml-starter-0.0.20.tar.gz --markdown 20230420/m/ml-starter/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-04-20 03:34:47] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.4.5.post1] Old Version: [2023.4.5]
+[2023-04-20 03:34:47] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-04-20 03:34:47] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230420/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-20 03:34:47] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-20 03:34:48] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-04-20 03:34:48] INFO root fetch - processPackages [pyasn1-modules]: Downloading https://files.pythonhosted.org/packages/3b/e4/7dec823b1b5603c5b3c51e942d5d9e65efd6ff946e713a325ed4146d070f/pyasn1_modules-0.3.0.tar.gz
+[2023-04-20 03:34:48] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230420/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-20 03:34:48] INFO root fetch - processPackages [robodyno]: Downloading https://files.pythonhosted.org/packages/99/17/d87b36ce7dad516872104f8fe6000e8d105e179c2972ae32546d43e97f50/robodyno-1.5.1.tar.gz
+[2023-04-20 03:34:48] INFO root fetch - processPackages [nano-qmflows]: Downloading https://files.pythonhosted.org/packages/fa/81/cd1d1b309bc4ea0a3196f49e2844626c030e0d3e19600ebc10a9ad8e44b2/nano-qmflows-0.13.4.tar.gz
+[2023-04-20 03:34:48] INFO root fetch - processPackages [qabot]: Downloading https://files.pythonhosted.org/packages/1b/8e/a91a011d36926a0a582f7ee719626d98bb8532cd88d236fe2193359ea6b5/qabot-0.3.3.tar.gz
+[2023-04-20 03:34:48] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-04-20 03:34:48] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230420/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-20 03:34:48] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/ab/2e/f8372791054502cce18c8431b37614a57f3ba01837fb8bff7d72ecf27597/ytdl-sub-2023.4.5.tar.gz
+[2023-04-20 03:34:48] INFO root fetch - processPackages [pylovelace]: Downloading https://files.pythonhosted.org/packages/d4/ac/78314b0557fdf51684ed82720a57378dea1cab9a46540f91f9ba7e3d5661/pylovelace-2023.1.4-py3-none-any.whl
+[2023-04-20 03:34:48] INFO root fetch - processPackages [pylovelace]: executing diffoscope
+[2023-04-20 03:34:48] ERROR root fetch - processPackages [pyasn1-modules]: Unable to fetch info: No such project/version 'pyasn1-modules' 0.3.0rc1
+[2023-04-20 03:34:48] INFO root fetch - processPackages [pylovelace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylovelace-2023.1.3-py3-none-any.whl.zip tmp/pylovelace-2023.1.4-py3-none-any.whl.zip --markdown 20230420/p/pylovelace/2023.1.3-2023.1.4/diff.md --exclude *.pyd
+[2023-04-20 03:34:48] INFO root fetch - main [MainThread]: End processing [pyasn1-modules] error
+[2023-04-20 03:34:48] INFO root fetch - processPackages [robodyno]: Downloading https://files.pythonhosted.org/packages/02/9a/9af90ae5ebf04ba58173b455516be6cf15a27d70e1bb9b7b857850d73f7a/robodyno-1.5.2.tar.gz
+[2023-04-20 03:34:48] INFO root fetch - processPackages [nano-qmflows]: Downloading https://files.pythonhosted.org/packages/15/b2/00f9f6b53361ef81a273a10b7d466d9ef163f8b3b591daeda0ab76b7f1b4/nano-qmflows-0.14.0.tar.gz
+[2023-04-20 03:34:48] INFO root fetch - processPackages [qabot]: Downloading https://files.pythonhosted.org/packages/ed/79/4d442a4f8d43d1dcd81821e02df504cb30096d3fe3077ec5cb24b9a5666b/qabot-0.3.4.tar.gz
+[2023-04-20 03:34:48] INFO root fetch - processPackages [robodyno]: executing diffoscope
+[2023-04-20 03:34:48] INFO root fetch - processPackages [robodyno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robodyno-1.5.1.tar.gz tmp/robodyno-1.5.2.tar.gz --markdown 20230420/r/robodyno/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-04-20 03:34:48] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/6c/28/d4bc8b2551b15b7674c691960d1f97dc4617496e0befdf57360738deaf9a/ytdl-sub-2023.4.5.post1.tar.gz
+[2023-04-20 03:34:48] INFO root fetch - processPackages [nano-qmflows]: executing diffoscope
+[2023-04-20 03:34:48] INFO root fetch - processPackages [nano-qmflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nano-qmflows-0.13.4.tar.gz tmp/nano-qmflows-0.14.0.tar.gz --markdown 20230420/n/nano-qmflows/0.13.4-0.14.0/diff.md --exclude *.pyd
+[2023-04-20 03:34:48] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-04-20 03:34:48] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.4.5.tar.gz tmp/ytdl-sub-2023.4.5.post1.tar.gz --markdown 20230420/y/ytdl-sub/2023.4.5-2023.4.5.post1/diff.md --exclude *.pyd
+[2023-04-20 03:34:48] INFO root fetch - processPackages [qabot]: executing diffoscope
+[2023-04-20 03:34:48] INFO root fetch - processPackages [qabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qabot-0.3.3.tar.gz tmp/qabot-0.3.4.tar.gz --markdown 20230420/q/qabot/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-20 03:34:49] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-04-20 03:34:49] INFO root fetch - main [MainThread]: End processing [pylovelace]: success
+[2023-04-20 03:34:49] INFO root fetch - main [MainThread]: End processing [robodyno]: success
+[2023-04-20 03:34:49] INFO root fetch - main [MainThread]: End processing [qabot]: success
+[2023-04-20 03:34:50] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-04-20 03:34:50] INFO root fetch - main [MainThread]: End processing [nano-qmflows]: success
+[2023-04-20 03:34:51] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-04-20 03:34:51] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-04-20 03:34:51] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-04-20 03:34:51] INFO root fetch - main [MainThread]: Store serial: [17780875]
