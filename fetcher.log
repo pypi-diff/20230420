@@ -10917,3 +10917,123 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 10:43:48] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-04-20 10:43:52] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-04-20 10:43:52] INFO root fetch - main [MainThread]: Store serial: [17783939]
+[2023-04-20 10:48:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783939]
+[2023-04-20 10:49:01] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-20 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygitguardian
+[2023-04-20 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-judge
+[2023-04-20 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: convalidatorx
+[2023-04-20 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfp-nightly
+[2023-04-20 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: concrete-ml
+[2023-04-20 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jina
+[2023-04-20 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotframework-openapi-libcore
+[2023-04-20 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sag-py-fastapi-health
+[2023-04-20 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exampleData
+[2023-04-20 10:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: griffon
+[2023-04-20 10:49:01] INFO root fetch - processPackages [concrete-ml]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-20 10:49:01] INFO root fetch - processPackages [pygitguardian]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-04-20 10:49:01] INFO root fetch - processPackages [convalidatorx]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 10:49:01] INFO root fetch - processPackages [exampleData]: New version: [2.0] Old Version: [1.0]
+[2023-04-20 10:49:01] INFO root fetch - processPackages [robotframework-openapi-libcore]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-04-20 10:49:01] INFO root fetch - processPackages [sag-py-fastapi-health]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 10:49:01] INFO root fetch - processPackages [griffon]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 10:49:01] INFO root fetch - processPackages [jupyterlab-judge]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-20 10:49:01] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-04-20 10:49:01] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-20 10:49:01] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-04-20 10:49:01] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230420/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-04-20 10:49:01] INFO root fetch - processPackages [exampleData]: Downloading https://files.pythonhosted.org/packages/38/77/6e08b883623999bc12087cf449f33484c25b924911cfa21d3bb90b06fc4b/exampleData-1.0.tar.gz
+[2023-04-20 10:49:01] INFO root fetch - processPackages [convalidatorx]: Downloading https://files.pythonhosted.org/packages/80/a3/cfa33566851e64fe40e46ae8c9683a9734db717146edb3fb6c16dfbccb52/convalidatorx-0.1.2.tar.gz
+[2023-04-20 10:49:01] INFO root fetch - processPackages [sag-py-fastapi-health]: Downloading https://files.pythonhosted.org/packages/11/18/546b398bf5b6980e9e4deeb8ba07ea886fd1198bda36a597ba1575698b7a/sag-py-fastapi-health-0.1.0.tar.gz
+[2023-04-20 10:49:01] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-20 10:49:01] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230420/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-20 10:49:01] INFO root fetch - processPackages [robotframework-openapi-libcore]: Downloading https://files.pythonhosted.org/packages/80/36/5bf1a1564c9140b600118c25ab1ce975ff865a03829cbc574bebf9f65711/robotframework_openapi_libcore-1.8.5.tar.gz
+[2023-04-20 10:49:01] INFO root fetch - processPackages [concrete-ml]: Downloading https://files.pythonhosted.org/packages/20/e0/2f2ee93ec1a9a9c4d9647df5b5b0bbf7cc1351592a3aaa5c057fd2e74edc/concrete_ml-1.0.0-py3-none-any.whl
+[2023-04-20 10:49:01] INFO root fetch - processPackages [pygitguardian]: Downloading https://files.pythonhosted.org/packages/f2/8e/b863938d32d45d66afbe3ad07723692d87e58186f1bb1880a95ceb691930/pygitguardian-1.5.1.tar.gz
+[2023-04-20 10:49:01] INFO root fetch - processPackages [jupyterlab-judge]: Downloading https://files.pythonhosted.org/packages/cc/b5/f0fcd6336e96735c65dcf9c545bd76e326a17699f73d140be997b32e15ad/jupyterlab_judge-0.9.1.tar.gz
+[2023-04-20 10:49:01] INFO root fetch - processPackages [robotframework-openapi-libcore]: executing diffoscope
+[2023-04-20 10:49:01] INFO root fetch - processPackages [robotframework-openapi-libcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_openapi_libcore-1.8.4.tar.gz tmp/robotframework_openapi_libcore-1.8.5.tar.gz --markdown 20230420/r/robotframework-openapi-libcore/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-04-20 10:49:01] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-04-20 10:49:01] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.1.8.tar.gz tmp/griffon-0.1.9.tar.gz --markdown 20230420/g/griffon/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 10:49:01] INFO root fetch - processPackages [sag-py-fastapi-health]: Downloading https://files.pythonhosted.org/packages/71/4b/a861f9374ff2444b39e1c23c1d68275d860e2c7093f836adc30008aeb3c2/sag-py-fastapi-health-0.1.1.tar.gz
+[2023-04-20 10:49:01] INFO root fetch - processPackages [concrete-ml]: Downloading https://files.pythonhosted.org/packages/e8/32/86f027eb8756a507747b837a57869f29480467d08aff9cb6cd27d44f0fa5/concrete_ml-1.0.1-py3-none-any.whl
+[2023-04-20 10:49:01] INFO root fetch - processPackages [pygitguardian]: Downloading https://files.pythonhosted.org/packages/8b/25/f8e1487820fe5db4dc1f3b7e7d21d74778978fb98499b34ff7b4aba38ebc/pygitguardian-1.6.0.tar.gz
+[2023-04-20 10:49:01] INFO root fetch - processPackages [exampleData]: Downloading https://files.pythonhosted.org/packages/50/c6/cc809375ac95aba07a1bb96d9f2ad88b3c08832b1f7b6a9692753e683eb3/exampleData-2.0.tar.gz
+[2023-04-20 10:49:01] INFO root fetch - processPackages [convalidatorx]: Downloading https://files.pythonhosted.org/packages/55/13/7a7f3ccc06ec7b66acc080c5ef6650709fccb6c0d00c183a6a502f96c585/convalidatorx-0.1.3.win-amd64.zip
+[2023-04-20 10:49:02] INFO root fetch - processPackages [sag-py-fastapi-health]: executing diffoscope
+[2023-04-20 10:49:02] INFO root fetch - processPackages [sag-py-fastapi-health]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-fastapi-health-0.1.0.tar.gz tmp/sag-py-fastapi-health-0.1.1.tar.gz --markdown 20230420/s/sag-py-fastapi-health/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 10:49:02] INFO root fetch - processPackages [jupyterlab-judge]: Downloading https://files.pythonhosted.org/packages/cd/3d/639d2adfc4e63763f68f4bc6a22447b13f08976341b367a603ce50bb8569/jupyterlab_judge-0.9.2.tar.gz
+[2023-04-20 10:49:02] INFO root fetch - processPackages [concrete-ml]: executing diffoscope
+[2023-04-20 10:49:02] INFO root fetch - processPackages [concrete-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concrete_ml-1.0.0-py3-none-any.whl.zip tmp/concrete_ml-1.0.1-py3-none-any.whl.zip --markdown 20230420/c/concrete-ml/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-20 10:49:02] INFO root fetch - processPackages [pygitguardian]: executing diffoscope
+[2023-04-20 10:49:02] INFO root fetch - processPackages [pygitguardian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygitguardian-1.5.1.tar.gz tmp/pygitguardian-1.6.0.tar.gz --markdown 20230420/p/pygitguardian/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-04-20 10:49:02] INFO root fetch - processPackages [exampleData]: executing diffoscope
+[2023-04-20 10:49:02] INFO root fetch - processPackages [exampleData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exampleData-1.0.tar.gz tmp/exampleData-2.0.tar.gz --markdown 20230420/e/exampleData/1.0-2.0/diff.md --exclude *.pyd
+[2023-04-20 10:49:02] INFO root fetch - processPackages [convalidatorx]: executing diffoscope
+[2023-04-20 10:49:02] INFO root fetch - processPackages [convalidatorx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convalidatorx-0.1.2.tar.gz tmp/convalidatorx-0.1.3.win-amd64.zip --markdown 20230420/c/convalidatorx/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 10:49:02] INFO root fetch - processPackages [jupyterlab-judge]: executing diffoscope
+[2023-04-20 10:49:02] INFO root fetch - processPackages [jupyterlab-judge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_judge-0.9.1.tar.gz tmp/jupyterlab_judge-0.9.2.tar.gz --markdown 20230420/j/jupyterlab-judge/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-20 10:49:03] INFO root fetch - processPackages [robotframework-openapi-libcore]: Start processing: nbox
+[2023-04-20 10:49:03] INFO root fetch - main [MainThread]: End processing [robotframework-openapi-libcore]: success
+[2023-04-20 10:49:03] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-04-20 10:49:03] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-04-20 10:49:03] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230420/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-04-20 10:49:03] INFO root fetch - processPackages [griffon]: Start processing: syncany
+[2023-04-20 10:49:03] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-04-20 10:49:03] INFO root fetch - processPackages [syncany]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-20 10:49:03] INFO root fetch - processPackages [convalidatorx]: Start processing: vnpy-binance-pro
+[2023-04-20 10:49:03] INFO root fetch - main [MainThread]: End processing [convalidatorx]: success
+[2023-04-20 10:49:03] INFO root fetch - processPackages [vnpy-binance-pro]: New version: [2023.4.20.1] Old Version: [2023.4.14.1]
+[2023-04-20 10:49:03] INFO root fetch - processPackages [pygitguardian]: Start processing: neuro-connector-api
+[2023-04-20 10:49:03] INFO root fetch - main [MainThread]: End processing [pygitguardian]: success
+[2023-04-20 10:49:03] INFO root fetch - processPackages [neuro-connector-api]: New version: [2.0.3b0] Old Version: [2.0.2b0]
+[2023-04-20 10:49:03] INFO root fetch - processPackages [exampleData]: Start processing: trailblazer
+[2023-04-20 10:49:03] INFO root fetch - main [MainThread]: End processing [exampleData]: success
+[2023-04-20 10:49:03] INFO root fetch - processPackages [syncany]: Downloading https://files.pythonhosted.org/packages/c9/b7/575adf180e36dbe1bc8ff786db8d16836474545eb72f465f8663e54e431e/syncany-0.2.5.tar.gz
+[2023-04-20 10:49:03] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-04-20 10:49:03] INFO root fetch - processPackages [neuro-connector-api]: Downloading https://files.pythonhosted.org/packages/5b/b3/3fbbe58c0ff08c77fb314ce755011f8dd78f13221735f0f45845bf29cdfd/neuro-connector-api-2.0.3b0.tar.gz
+[2023-04-20 10:49:03] INFO root fetch - processPackages [sag-py-fastapi-health]: Start processing: syncanysql
+[2023-04-20 10:49:03] INFO root fetch - main [MainThread]: End processing [sag-py-fastapi-health]: success
+[2023-04-20 10:49:03] INFO root fetch - processPackages [syncanysql]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 10:49:03] INFO root fetch - processPackages [vnpy-binance-pro]: Downloading https://files.pythonhosted.org/packages/5d/a1/43a51cf6911021b7d29562500b6060267a193c88471b8bcf5e158f385701/vnpy_binance_pro-2023.4.20.1.tar.gz
+[2023-04-20 10:49:04] INFO root fetch - processPackages [syncany]: executing diffoscope
+[2023-04-20 10:49:04] INFO root fetch - processPackages [syncany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncany-0.2.4.tar.gz tmp/syncany-0.2.5.tar.gz --markdown 20230420/s/syncany/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-20 10:49:04] INFO root fetch - processPackages [neuro-connector-api]: executing diffoscope
+[2023-04-20 10:49:04] INFO root fetch - processPackages [neuro-connector-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuro-connector-api-2.0.2b0.tar.gz tmp/neuro-connector-api-2.0.3b0.tar.gz --markdown 20230420/n/neuro-connector-api/2.0.2b0-2.0.3b0/diff.md --exclude *.pyd
+[2023-04-20 10:49:04] INFO root fetch - processPackages [vnpy-binance-pro]: executing diffoscope
+[2023-04-20 10:49:04] INFO root fetch - processPackages [vnpy-binance-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_binance_pro-2023.4.14.1.tar.gz tmp/vnpy_binance_pro-2023.4.20.1.tar.gz --markdown 20230420/v/vnpy-binance-pro/2023.4.14.1-2023.4.20.1/diff.md --exclude *.pyd
+[2023-04-20 10:49:04] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-04-20 10:49:04] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230420/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-04-20 10:49:04] INFO root fetch - processPackages [syncanysql]: Downloading https://files.pythonhosted.org/packages/36/90/2d402df9b244598fa9a76ffefa0ccd7de5218c9159c02b8efbfbf7e79e4c/syncanysql-0.0.8.tar.gz
+[2023-04-20 10:49:04] INFO root fetch - processPackages [syncanysql]: executing diffoscope
+[2023-04-20 10:49:04] INFO root fetch - processPackages [syncanysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncanysql-0.0.7.tar.gz tmp/syncanysql-0.0.8.tar.gz --markdown 20230420/s/syncanysql/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 10:49:04] INFO root fetch - processPackages [jina]: Start processing: pulumiverse-time
+[2023-04-20 10:49:04] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-20 10:49:04] INFO root fetch - processPackages [pulumiverse-time]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 10:49:04] INFO root fetch - processPackages [concrete-ml]: Start processing: alibabacloud-ga20191120-py2
+[2023-04-20 10:49:04] INFO root fetch - main [MainThread]: End processing [concrete-ml]: success
+[2023-04-20 10:49:04] INFO root fetch - processPackages [pulumiverse-time]: Downloading https://files.pythonhosted.org/packages/18/61/c457cd1f563572f538c8c4a9e2744f720cdab4545467425be66e294954b2/pulumiverse_time-0.0.8.tar.gz
+[2023-04-20 10:49:04] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 10:49:05] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: Downloading https://files.pythonhosted.org/packages/72/46/c2303876e79df424073fd0f2e7c72664bed0078f1525665b04c7f59492aa/alibabacloud_ga20191120_py2-1.0.8.tar.gz
+[2023-04-20 10:49:05] INFO root fetch - processPackages [pulumiverse-time]: Downloading https://files.pythonhosted.org/packages/34/1b/e623130faef3da6d98491bee4bbde2172504ef15b62945474b3c39896e97/pulumiverse_time-0.0.9.tar.gz
+[2023-04-20 10:49:05] INFO root fetch - processPackages [jupyterlab-judge]: Start processing: avsos
+[2023-04-20 10:49:05] INFO root fetch - main [MainThread]: End processing [jupyterlab-judge]: success
+[2023-04-20 10:49:05] INFO root fetch - processPackages [avsos]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-20 10:49:05] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: Downloading https://files.pythonhosted.org/packages/09/5c/e16eed3c82d30ce459f4788f5d900eb4fbba8cdf7e084ce198b7ff57c9dd/alibabacloud_ga20191120_py2-1.0.9.tar.gz
+[2023-04-20 10:49:05] INFO root fetch - main [MainThread]: End processing [neuro-connector-api]: success
+[2023-04-20 10:49:05] INFO root fetch - processPackages [pulumiverse-time]: executing diffoscope
+[2023-04-20 10:49:05] INFO root fetch - processPackages [pulumiverse-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_time-0.0.8.tar.gz tmp/pulumiverse_time-0.0.9.tar.gz --markdown 20230420/p/pulumiverse-time/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 10:49:05] INFO root fetch - main [MainThread]: End processing [vnpy-binance-pro]: success
+[2023-04-20 10:49:05] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: executing diffoscope
+[2023-04-20 10:49:05] INFO root fetch - processPackages [alibabacloud-ga20191120-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ga20191120_py2-1.0.8.tar.gz tmp/alibabacloud_ga20191120_py2-1.0.9.tar.gz --markdown 20230420/a/alibabacloud-ga20191120-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 10:49:05] INFO root fetch - processPackages [avsos]: Downloading https://files.pythonhosted.org/packages/ad/14/1fc8123b43db3815c0f4331b4c38d7e6044ccd35166def197021fcfea35f/avsos-0.0.7.tar.gz
+[2023-04-20 10:49:05] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-04-20 10:49:05] INFO root fetch - processPackages [avsos]: executing diffoscope
+[2023-04-20 10:49:05] INFO root fetch - processPackages [avsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avsos-0.0.6.tar.gz tmp/avsos-0.0.7.tar.gz --markdown 20230420/a/avsos/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-20 10:49:05] INFO root fetch - main [MainThread]: End processing [syncany]: success
+[2023-04-20 10:49:06] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-04-20 10:49:06] INFO root fetch - main [MainThread]: End processing [syncanysql]: success
+[2023-04-20 10:49:06] INFO root fetch - main [MainThread]: End processing [pulumiverse-time]: success
+[2023-04-20 10:49:07] INFO root fetch - main [MainThread]: End processing [avsos]: success
+[2023-04-20 10:49:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-ga20191120-py2]: success
+[2023-04-20 10:49:15] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-04-20 10:49:15] INFO root fetch - main [MainThread]: Store serial: [17783996]
