@@ -14792,3 +14792,35 @@ EOFError: EOF read where object expected
 [2023-04-20 12:58:43] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
 [2023-04-20 12:58:57] INFO root fetch - main [MainThread]: End processing [pynamodb-utils]: success
 [2023-04-20 12:58:57] INFO root fetch - main [MainThread]: Store serial: [17786032]
+[2023-04-20 13:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17786032]
+[2023-04-20 13:04:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-20 13:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2023-04-20 13:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aclib.pip
+[2023-04-20 13:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrfc
+[2023-04-20 13:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: KiMoPack
+[2023-04-20 13:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dckit
+[2023-04-20 13:04:06] WARNING root fetch - processPackages [aclib.pip]: Skipping, unable to determine old version
+[2023-04-20 13:04:06] INFO root fetch - main [MainThread]: End processing [aclib.pip] error
+[2023-04-20 13:04:06] INFO root fetch - processPackages [pyrfc]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-04-20 13:04:06] INFO root fetch - processPackages [KiMoPack]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-04-20 13:04:06] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.843267135.dev9402] Old Version: [0.2.838980405.dev9257]
+[2023-04-20 13:04:06] INFO root fetch - processPackages [dckit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-20 13:04:06] INFO root fetch - processPackages [KiMoPack]: Downloading https://files.pythonhosted.org/packages/2e/ba/67ae160adba38b6b2d3df0d204301fe12abf3f1bf64dacdefead88337def/KiMoPack-7.0.0.tar.gz
+[2023-04-20 13:04:06] INFO root fetch - processPackages [pyrfc]: Downloading https://files.pythonhosted.org/packages/cc/05/480fbe92c525e9988695e78e038aeaf654c1b1139cc349b0027dfb9b7f02/pyrfc-2.8.1-cp39-cp39-macosx_13_0_arm64.whl
+[2023-04-20 13:04:06] INFO root fetch - processPackages [dckit]: Downloading https://files.pythonhosted.org/packages/3a/a9/9306233b5dc9268631a2ef58bf17ab264396521ee9c504bfbefbd09d39d0/dckit-0.9.0.tar.gz
+[2023-04-20 13:04:06] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/dd/ad/86534761df4daca0767da11b17f4d6dfa53b86ea2bba34b3cf21b9f4f3ab/quickstart-vdk-0.2.843267135.dev9402.tar.gz
+[2023-04-20 13:04:06] INFO root fetch - processPackages [pyrfc]: executing diffoscope
+[2023-04-20 13:04:06] INFO root fetch - processPackages [pyrfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrfc-2.8.0.tar.gz tmp/pyrfc-2.8.1-cp39-cp39-macosx_13_0_arm64.whl.zip --markdown 20230420/p/pyrfc/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-04-20 13:04:06] INFO root fetch - processPackages [KiMoPack]: Downloading https://files.pythonhosted.org/packages/51/43/cec42115aefd24e05b40e89f0ed3968745ac2d5692890bd77517dc53436a/KiMoPack-7.0.1.tar.gz
+[2023-04-20 13:04:06] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-04-20 13:04:06] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.838980405.dev9257.tar.gz tmp/quickstart-vdk-0.2.843267135.dev9402.tar.gz --markdown 20230420/q/quickstart-vdk/0.2.838980405.dev9257-0.2.843267135.dev9402/diff.md --exclude *.pyd
+[2023-04-20 13:04:07] INFO root fetch - processPackages [KiMoPack]: executing diffoscope
+[2023-04-20 13:04:07] INFO root fetch - processPackages [KiMoPack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KiMoPack-7.0.0.tar.gz tmp/KiMoPack-7.0.1.tar.gz --markdown 20230420/K/KiMoPack/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-04-20 13:04:07] INFO root fetch - processPackages [dckit]: Downloading https://files.pythonhosted.org/packages/c6/12/217a7d8086b011629ad3ab395d37d556e7aade8d4d93f1b7c4dcdf1ad59c/dckit-0.9.1.tar.gz
+[2023-04-20 13:04:07] INFO root fetch - processPackages [dckit]: executing diffoscope
+[2023-04-20 13:04:07] INFO root fetch - processPackages [dckit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dckit-0.9.0.tar.gz tmp/dckit-0.9.1.tar.gz --markdown 20230420/d/dckit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 13:04:07] INFO root fetch - main [MainThread]: End processing [pyrfc]: success
+[2023-04-20 13:04:07] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-04-20 13:04:08] INFO root fetch - main [MainThread]: End processing [dckit]: success
+[2023-04-20 13:04:08] INFO root fetch - main [MainThread]: End processing [KiMoPack]: success
+[2023-04-20 13:04:08] INFO root fetch - main [MainThread]: Store serial: [17786064]
