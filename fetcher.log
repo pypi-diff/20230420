@@ -13687,3 +13687,151 @@ EOFError: EOF read where object expected
 [2023-04-20 12:05:26] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-20 12:05:29] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
 [2023-04-20 12:05:29] INFO root fetch - main [MainThread]: Store serial: [17785303]
+[2023-04-20 12:10:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17785303]
+[2023-04-20 12:10:39] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-20 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genomenotebook
+[2023-04-20 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: m-abac-anhnt
+[2023-04-20 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb
+[2023-04-20 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-client
+[2023-04-20 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-dataset
+[2023-04-20 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-models
+[2023-04-20 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-protos
+[2023-04-20 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: judo
+[2023-04-20 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-sdk
+[2023-04-20 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-utils
+[2023-04-20 12:10:39] INFO root fetch - processPackages [genomenotebook]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb]: New version: [2.7.0.post197] Old Version: [2.7.0.post196]
+[2023-04-20 12:10:39] INFO root fetch - processPackages [m-abac-anhnt]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-20 12:10:39] INFO root fetch - processPackages [judo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-client]: New version: [2.7.0.post197] Old Version: [2.7.0.post196]
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.7.0.post197] Old Version: [2.7.0.post196]
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-models]: New version: [2.7.0.post197] Old Version: [2.7.0.post196]
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.7.0.post197] Old Version: [2.7.0.post196]
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.7.0.post197] Old Version: [2.7.0.post196]
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.7.0.post197] Old Version: [2.7.0.post196]
+[2023-04-20 12:10:39] INFO root fetch - processPackages [m-abac-anhnt]: Downloading https://files.pythonhosted.org/packages/ae/df/4acc2b433e2cfc144c6bb45978c4b3d6210f7e2ccde9dec7a9d754ad4493/m-abac-anhnt-1.0.2.tar.gz
+[2023-04-20 12:10:39] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/23/05/ba8318827daa7257c09d016affbaf6633a1d4f1f97b4c45bd8003e04104e/genomenotebook-0.4.0.tar.gz
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/07/bb/6a303c78da8968d2a13f961facf7cdfa5dbb86f6f781959b10c121d1c428/nucliadb_client-2.7.0.post197-py3-none-any.whl
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/7f/2a/77ee6f4134159de11a4c2500de6302508d5ef968f555371beb870678889e/nucliadb_sdk-2.7.0.post197-py3-none-any.whl
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/59/e1/6349f8720b22faafc5e55c0dffbc4e6a48d3b198c79314860669d1564ae9/nucliadb_dataset-2.7.0.post197-py3-none-any.whl
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/5d/19/6e49fd3b84878c4c16f0b74d0cc5e641929e376e7f9c8dc282543fb1640a/nucliadb_models-2.7.0.post197-py3-none-any.whl
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/da/ea/01462e4bda974a17d9afecf7323419cc51bf286382b30813d5cc27b3cc42/nucliadb_utils-2.7.0.post197-py3-none-any.whl
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/ab/92/cbf7320df02bb5e18ddc6cd186b82d00832c214b93f4118dcdc8df378f0e/nucliadb_protos-2.7.0.post197-py3-none-any.whl
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/e3/0c/edca1b4eed462f2a59a83dbae78a6af5ebdaff8fa523882e663dd7fc3a49/nucliadb-2.7.0.post197-py3-none-any.whl
+[2023-04-20 12:10:39] WARNING root fetch - processPackages [genomenotebook]: Skipping package: exceeds size limit 18870868>=10485760
+[2023-04-20 12:10:39] INFO root fetch - processPackages [genomenotebook]: Start processing: tags-generator
+[2023-04-20 12:10:39] INFO root fetch - main [MainThread]: End processing [genomenotebook] error
+[2023-04-20 12:10:39] INFO root fetch - processPackages [tags-generator]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.7.0.post196-py3-none-any.whl.zip tmp/nucliadb_client-2.7.0.post197-py3-none-any.whl.zip --markdown 20230420/n/nucliadb-client/2.7.0.post196-2.7.0.post197/diff.md --exclude *.pyd
+[2023-04-20 12:10:39] INFO root fetch - processPackages [judo]: executing diffoscope
+[2023-04-20 12:10:39] INFO root fetch - processPackages [judo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/judo-0.0.8.tar.gz tmp/judo-0.0.9.tar.gz --markdown 20230420/j/judo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.7.0.post196-py3-none-any.whl.zip tmp/nucliadb_utils-2.7.0.post197-py3-none-any.whl.zip --markdown 20230420/n/nucliadb-utils/2.7.0.post196-2.7.0.post197/diff.md --exclude *.pyd
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.7.0.post196-py3-none-any.whl.zip tmp/nucliadb_protos-2.7.0.post197-py3-none-any.whl.zip --markdown 20230420/n/nucliadb-protos/2.7.0.post196-2.7.0.post197/diff.md --exclude *.pyd
+[2023-04-20 12:10:39] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-04-20 12:10:40] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.7.0.post196-py3-none-any.whl.zip tmp/nucliadb_dataset-2.7.0.post197-py3-none-any.whl.zip --markdown 20230420/n/nucliadb-dataset/2.7.0.post196-2.7.0.post197/diff.md --exclude *.pyd
+[2023-04-20 12:10:40] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-04-20 12:10:40] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.7.0.post196-py3-none-any.whl.zip tmp/nucliadb_models-2.7.0.post197-py3-none-any.whl.zip --markdown 20230420/n/nucliadb-models/2.7.0.post196-2.7.0.post197/diff.md --exclude *.pyd
+[2023-04-20 12:10:40] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-04-20 12:10:40] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.7.0.post196-py3-none-any.whl.zip tmp/nucliadb_sdk-2.7.0.post197-py3-none-any.whl.zip --markdown 20230420/n/nucliadb-sdk/2.7.0.post196-2.7.0.post197/diff.md --exclude *.pyd
+[2023-04-20 12:10:40] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-04-20 12:10:40] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.7.0.post196-py3-none-any.whl.zip tmp/nucliadb-2.7.0.post197-py3-none-any.whl.zip --markdown 20230420/n/nucliadb/2.7.0.post196-2.7.0.post197/diff.md --exclude *.pyd
+[2023-04-20 12:10:40] INFO root fetch - processPackages [m-abac-anhnt]: Downloading https://files.pythonhosted.org/packages/6e/8e/8ee411eb93674131579f7301d4c50443d5b9daff18cc21be059a6023affb/m-abac-anhnt-1.0.3.tar.gz
+[2023-04-20 12:10:40] INFO root fetch - processPackages [tags-generator]: Downloading https://files.pythonhosted.org/packages/f9/60/46089dd504bea3adb942f4e3fd543d772b0e559180f66391e5b53bf1fdf7/tags-generator-0.4.0.tar.gz
+[2023-04-20 12:10:40] INFO root fetch - processPackages [m-abac-anhnt]: executing diffoscope
+[2023-04-20 12:10:40] INFO root fetch - processPackages [m-abac-anhnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-anhnt-1.0.2.tar.gz tmp/m-abac-anhnt-1.0.3.tar.gz --markdown 20230420/m/m-abac-anhnt/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-20 12:10:40] INFO root fetch - processPackages [tags-generator]: executing diffoscope
+[2023-04-20 12:10:40] INFO root fetch - processPackages [tags-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tags-generator-0.3.0.tar.gz tmp/tags-generator-0.4.0.tar.gz --markdown 20230420/t/tags-generator/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-20 12:10:41] INFO root fetch - processPackages [nucliadb-client]: Start processing: hyfi-template
+[2023-04-20 12:10:41] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-04-20 12:10:41] INFO root fetch - processPackages [hyfi-template]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 12:10:41] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: eis1600
+[2023-04-20 12:10:41] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-04-20 12:10:41] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: cardsort
+[2023-04-20 12:10:41] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-04-20 12:10:41] INFO root fetch - processPackages [eis1600]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-04-20 12:10:41] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/24/75/608c3d47342292cfaa8a633081db3571382988d0833cf211ba80b28887cd/hyfi_template-0.1.3.tar.gz
+[2023-04-20 12:10:41] INFO root fetch - processPackages [cardsort]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-04-20 12:10:41] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/95/b0/6bfa2dfc9e95958736044f5c2f4fd6277e8cf0b8721450ee7a0357b93a00/eis1600-0.8.4.tar.gz
+[2023-04-20 12:10:42] INFO root fetch - processPackages [tags-generator]: Start processing: python-whitebit-sdk
+[2023-04-20 12:10:42] INFO root fetch - main [MainThread]: End processing [tags-generator]: success
+[2023-04-20 12:10:42] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-04-20 12:10:42] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.1.2.tar.gz tmp/hyfi_template-0.1.3.tar.gz --markdown 20230420/h/hyfi-template/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 12:10:42] WARNING root fetch - processPackages [python-whitebit-sdk]: Skipping, unable to determine old version
+[2023-04-20 12:10:42] INFO root fetch - processPackages [python-whitebit-sdk]: Start processing: hive-maia
+[2023-04-20 12:10:42] INFO root fetch - main [MainThread]: End processing [python-whitebit-sdk] error
+[2023-04-20 12:10:42] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/f3/d6/e46692e4f0f0c722e8f30aace8a562f62c0732b10f8a9096933fef2baa4c/cardsort-0.1.2.tar.gz
+[2023-04-20 12:10:42] INFO root fetch - processPackages [hive-maia]: New version: [1.1.2rc1] Old Version: [1.1.2rc0]
+[2023-04-20 12:10:42] INFO root fetch - processPackages [nucliadb-protos]: Start processing: digital-experiments
+[2023-04-20 12:10:42] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-04-20 12:10:42] INFO root fetch - processPackages [digital-experiments]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-20 12:10:42] INFO root fetch - processPackages [judo]: Start processing: odoo14-addon-hr-timesheet-activity-begin-end
+[2023-04-20 12:10:42] INFO root fetch - main [MainThread]: End processing [judo]: success
+[2023-04-20 12:10:42] INFO root fetch - processPackages [m-abac-anhnt]: Start processing: jinja2-arrow
+[2023-04-20 12:10:42] INFO root fetch - main [MainThread]: End processing [m-abac-anhnt]: success
+[2023-04-20 12:10:42] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-activity-begin-end]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1.dev9]
+[2023-04-20 12:10:42] INFO root fetch - processPackages [nucliadb-models]: Start processing: blueapi
+[2023-04-20 12:10:42] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-04-20 12:10:42] INFO root fetch - processPackages [jinja2-arrow]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-20 12:10:42] INFO root fetch - processPackages [blueapi]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-20 12:10:42] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/5a/9a/a90e9373dd60a91540b69e37720b7d629ac615c9734c76ee7f9624d9cab2/cardsort-0.2.0.tar.gz
+[2023-04-20 12:10:42] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/d8/b5/7710784f709495de98200d041a5e58a302a23ba89141adf836872e8f8d5d/eis1600-0.8.5.tar.gz
+[2023-04-20 12:10:42] INFO root fetch - processPackages [nucliadb-utils]: Start processing: jinja2-inflection
+[2023-04-20 12:10:42] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-04-20 12:10:42] INFO root fetch - processPackages [jinja2-inflection]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-20 12:10:42] INFO root fetch - processPackages [digital-experiments]: Downloading https://files.pythonhosted.org/packages/56/8a/fa5c911947321c5ff43fc381b7f1a10a791d3a0712e93f4826ebe0e1f7c7/digital-experiments-1.0.5.tar.gz
+[2023-04-20 12:10:42] INFO root fetch - processPackages [hive-maia]: Downloading https://files.pythonhosted.org/packages/8d/70/dec80445484974b92ba8a7891a983b144a20d7fd1e3770b7497a6b0a6ac1/hive-maia-1.1.2rc1.tar.gz
+[2023-04-20 12:10:42] INFO root fetch - processPackages [blueapi]: Downloading https://files.pythonhosted.org/packages/7f/15/5088317fde6d7769c35ad43ca45cdb8d5a1ec1693c2d01bcec2a0d7a225b/blueapi-0.1.0.tar.gz
+[2023-04-20 12:10:42] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-04-20 12:10:42] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.1.2.tar.gz tmp/cardsort-0.2.0.tar.gz --markdown 20230420/c/cardsort/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 12:10:42] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2023-04-20 12:10:42] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-0.8.4.tar.gz tmp/eis1600-0.8.5.tar.gz --markdown 20230420/e/eis1600/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-04-20 12:10:42] INFO root fetch - processPackages [jinja2-arrow]: Downloading https://files.pythonhosted.org/packages/0f/18/f4acbafd0cd14188692c3b654f7470c80dd2876dc2782619f6fdb55845e4/jinja2-arrow-0.1.2.tar.gz
+[2023-04-20 12:10:42] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-activity-begin-end]: Downloading https://files.pythonhosted.org/packages/b8/80/7a731fcade578d6486e250f4e9b8f94acb0b33228b64230090c4c73435ab/odoo14_addon_hr_timesheet_activity_begin_end-14.0.1.0.2-py3-none-any.whl
+[2023-04-20 12:10:42] INFO root fetch - processPackages [digital-experiments]: Downloading https://files.pythonhosted.org/packages/07/08/65d468bd5e8b5b4d820c881d1eee12e909e06b32ffd08653dccd08192647/digital-experiments-1.0.6.tar.gz
+[2023-04-20 12:10:42] INFO root fetch - processPackages [jinja2-inflection]: Downloading https://files.pythonhosted.org/packages/26/93/cbe3dcd4f4022c813a99d7eb2142ed9d40be60c967e2d801c28425fe196f/jinja2_inflection-0.1.2.tar.gz
+[2023-04-20 12:10:42] INFO root fetch - processPackages [hive-maia]: executing diffoscope
+[2023-04-20 12:10:42] INFO root fetch - processPackages [hive-maia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hive-maia-1.1.2rc0.tar.gz tmp/hive-maia-1.1.2rc1.tar.gz --markdown 20230420/h/hive-maia/1.1.2rc0-1.1.2rc1/diff.md --exclude *.pyd
+[2023-04-20 12:10:42] INFO root fetch - processPackages [jinja2-arrow]: executing diffoscope
+[2023-04-20 12:10:42] INFO root fetch - processPackages [jinja2-arrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2-arrow-0.1.1.tar.gz tmp/jinja2-arrow-0.1.2.tar.gz --markdown 20230420/j/jinja2-arrow/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-20 12:10:42] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-activity-begin-end]: executing diffoscope
+[2023-04-20 12:10:42] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-activity-begin-end]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_activity_begin_end-14.0.1.0.1.dev9-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_activity_begin_end-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230420/o/odoo14-addon-hr-timesheet-activity-begin-end/14.0.1.0.1.dev9-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-04-20 12:10:42] INFO root fetch - processPackages [blueapi]: Downloading https://files.pythonhosted.org/packages/1e/8c/ac5ca3167a13d0d0e7637a0dde6939bb9c04840898ff591e3e6d7b2d0a99/blueapi-0.2.0.tar.gz
+[2023-04-20 12:10:42] INFO root fetch - processPackages [digital-experiments]: executing diffoscope
+[2023-04-20 12:10:42] INFO root fetch - processPackages [digital-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital-experiments-1.0.5.tar.gz tmp/digital-experiments-1.0.6.tar.gz --markdown 20230420/d/digital-experiments/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-20 12:10:42] INFO root fetch - processPackages [jinja2-inflection]: executing diffoscope
+[2023-04-20 12:10:42] INFO root fetch - processPackages [jinja2-inflection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2_inflection-0.1.1.tar.gz tmp/jinja2_inflection-0.1.2.tar.gz --markdown 20230420/j/jinja2-inflection/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-20 12:10:42] INFO root fetch - processPackages [blueapi]: executing diffoscope
+[2023-04-20 12:10:42] INFO root fetch - processPackages [blueapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueapi-0.1.0.tar.gz tmp/blueapi-0.2.0.tar.gz --markdown 20230420/b/blueapi/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 12:10:43] INFO root fetch - processPackages [hyfi-template]: Start processing: python-whitebit-sdk
+[2023-04-20 12:10:43] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-04-20 12:10:43] INFO root fetch - processPackages [python-whitebit-sdk]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-04-20 12:10:43] INFO root fetch - processPackages [cardsort]: Start processing: qodex-moxa-il1214
+[2023-04-20 12:10:43] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-04-20 12:10:43] INFO root fetch - processPackages [qodex-moxa-il1214]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 12:10:43] INFO root fetch - processPackages [qodex-moxa-il1214]: executing diffoscope
+[2023-04-20 12:10:43] INFO root fetch - processPackages [qodex-moxa-il1214]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_moxa_il1214-0.0.1-py3-none-any.whl.zip tmp/qodex_moxa_il1214-0.0.2-py3-none-any.whl.zip --markdown 20230420/q/qodex-moxa-il1214/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 12:10:44] INFO root fetch - processPackages [python-whitebit-sdk]: Downloading https://files.pythonhosted.org/packages/a1/55/35267498ac03f0a330ccaf58fd59f6c385b234ca2b7c4cc34f7d96db6e3b/python-whitebit-sdk-0.0.0.tar.gz
+[2023-04-20 12:10:44] INFO root fetch - processPackages [jinja2-arrow]: Start processing: ansys-platform-instancemanagement
+[2023-04-20 12:10:44] INFO root fetch - main [MainThread]: End processing [jinja2-arrow]: success
+[2023-04-20 12:10:44] INFO root fetch - processPackages [python-whitebit-sdk]: Downloading https://files.pythonhosted.org/packages/26/96/b693b538641e90cababb81950f8f30edaa729708642de19b62c5354ae231/python-whitebit-sdk-1.0.0.tar.gz
+[2023-04-20 12:10:44] INFO root fetch - processPackages [ansys-platform-instancemanagement]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-04-20 12:10:44] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2023-04-20 12:10:44] INFO root fetch - main [MainThread]: End processing [jinja2-inflection]: success
+[2023-04-20 12:10:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-activity-begin-end]: success
+[2023-04-20 12:10:44] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-04-20 12:10:44] INFO root fetch - processPackages [python-whitebit-sdk]: executing diffoscope
+[2023-04-20 12:10:44] INFO root fetch - processPackages [python-whitebit-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-whitebit-sdk-0.0.0.tar.gz tmp/python-whitebit-sdk-1.0.0.tar.gz --markdown 20230420/p/python-whitebit-sdk/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-20 12:10:44] INFO root fetch - processPackages [ansys-platform-instancemanagement]: Downloading https://files.pythonhosted.org/packages/af/eb/c0b1b627cb387514266ba09e32bf87038df9231db2f6324525325c2f42cc/ansys-platform-instancemanagement-1.0.3.tar.gz
+[2023-04-20 12:10:44] INFO root fetch - main [MainThread]: End processing [digital-experiments]: success
+[2023-04-20 12:10:44] INFO root fetch - processPackages [ansys-platform-instancemanagement]: Downloading https://files.pythonhosted.org/packages/2c/19/d2b34401dfc3615372610f9385b44e78e8992334b24f44fbe4d2dcad5d39/ansys-platform-instancemanagement-1.1.0.tar.gz
+[2023-04-20 12:10:44] INFO root fetch - main [MainThread]: End processing [blueapi]: success
+[2023-04-20 12:10:45] INFO root fetch - main [MainThread]: End processing [qodex-moxa-il1214]: success
+[2023-04-20 12:10:45] INFO root fetch - processPackages [ansys-platform-instancemanagement]: executing diffoscope
+[2023-04-20 12:10:45] INFO root fetch - processPackages [ansys-platform-instancemanagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-platform-instancemanagement-1.0.3.tar.gz tmp/ansys-platform-instancemanagement-1.1.0.tar.gz --markdown 20230420/a/ansys-platform-instancemanagement/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-04-20 12:10:45] INFO root fetch - main [MainThread]: End processing [hive-maia]: success
+[2023-04-20 12:10:46] INFO root fetch - main [MainThread]: End processing [ansys-platform-instancemanagement]: success
+[2023-04-20 12:10:58] INFO root fetch - main [MainThread]: End processing [python-whitebit-sdk]: success
+[2023-04-20 12:10:58] INFO root fetch - main [MainThread]: Store serial: [17785378]
