@@ -18833,3 +18833,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 16:33:03] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
 [2023-04-20 16:33:05] INFO root fetch - main [MainThread]: End processing [djk-bootstrap5]: success
 [2023-04-20 16:33:05] INFO root fetch - main [MainThread]: Store serial: [17788436]
+[2023-04-20 16:38:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17788436]
+[2023-04-20 16:38:14] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-20 16:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bayanpy
+[2023-04-20 16:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylibcugraph-cu11
+[2023-04-20 16:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fabric-cf
+[2023-04-20 16:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: leaguedaily
+[2023-04-20 16:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Nimbus-Splash
+[2023-04-20 16:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duckietown-shell
+[2023-04-20 16:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oarepo-model-builder-requests
+[2023-04-20 16:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scipion-em-tomo
+[2023-04-20 16:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python3-commons
+[2023-04-20 16:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datadiligence
+[2023-04-20 16:38:14] INFO root fetch - processPackages [Nimbus-Splash]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-20 16:38:14] INFO root fetch - processPackages [bayanpy]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-04-20 16:38:14] INFO root fetch - processPackages [pylibcugraph-cu11]: New version: [23.4.0.1681368249] Old Version: [23.4.0]
+[2023-04-20 16:38:14] INFO root fetch - processPackages [leaguedaily]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-20 16:38:14] INFO root fetch - processPackages [oarepo-model-builder-requests]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-04-20 16:38:14] INFO root fetch - processPackages [scipion-em-tomo]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-04-20 16:38:14] INFO root fetch - processPackages [duckietown-shell]: New version: [5.5.1] Old Version: [5.5.0]
+[2023-04-20 16:38:14] INFO root fetch - processPackages [fabric-cf]: New version: [1.5.0b2] Old Version: [1.5.0b1]
+[2023-04-20 16:38:14] INFO root fetch - processPackages [python3-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 16:38:14] WARNING root fetch - processPackages [datadiligence]: Skipping, unable to determine old version
+[2023-04-20 16:38:14] INFO root fetch - processPackages [datadiligence]: Start processing: halo-reader
+[2023-04-20 16:38:14] INFO root fetch - main [MainThread]: End processing [datadiligence] error
+[2023-04-20 16:38:14] INFO root fetch - processPackages [halo-reader]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-20 16:38:14] INFO root fetch - processPackages [Nimbus-Splash]: executing diffoscope
+[2023-04-20 16:38:14] INFO root fetch - processPackages [Nimbus-Splash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nimbus Splash-0.9.2.tar.gz tmp/Nimbus Splash-0.9.3.tar.gz --markdown 20230420/N/Nimbus-Splash/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-20 16:38:14] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-04-20 16:38:14] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.0.8.tar.gz tmp/python3-commons-0.0.9.tar.gz --markdown 20230420/p/python3-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 16:38:14] INFO root fetch - processPackages [leaguedaily]: Downloading https://files.pythonhosted.org/packages/05/a8/04a13e17724bab06ea1021c3057d2773dde03690b5906eb2d8f8be38a4ef/leaguedaily-0.2.0.tar.gz
+[2023-04-20 16:38:14] INFO root fetch - processPackages [pylibcugraph-cu11]: Downloading https://files.pythonhosted.org/packages/9b/70/91b42084a77bd4e1e4e997195c32bd858513dc412c3fe7a26fa0321eea94/pylibcugraph_cu11-23.4.0.tar.gz
+[2023-04-20 16:38:14] INFO root fetch - processPackages [scipion-em-tomo]: Downloading https://files.pythonhosted.org/packages/2b/d0/ff2c8658221f1f87df302baa72d614194552e6dc59e17c688de1185c6a34/scipion-em-tomo-3.1.5.tar.gz
+[2023-04-20 16:38:14] INFO root fetch - processPackages [duckietown-shell]: Downloading https://files.pythonhosted.org/packages/65/ae/5165b29f1ae3505b2bab0a3b3a891d70801175a4d4bdd7bd701d701d62f2/duckietown-shell-5.5.1.tar.gz
+[2023-04-20 16:38:14] INFO root fetch - processPackages [oarepo-model-builder-requests]: Downloading https://files.pythonhosted.org/packages/b8/7c/1e78f3fa863611672f55a1e3eee2a854412f6442e51cf8ad278c3b11f8c4/oarepo-model-builder-requests-3.1.1.tar.gz
+[2023-04-20 16:38:14] INFO root fetch - processPackages [bayanpy]: Downloading https://files.pythonhosted.org/packages/12/f2/6be00176761b7809afe68acb7ab701b16a96301c502b58065c9d3179b44d/bayanpy-0.6.5.tar.gz
+[2023-04-20 16:38:14] INFO root fetch - processPackages [halo-reader]: Downloading https://files.pythonhosted.org/packages/06/ee/602fcc340507df18c240ab969b9a69f4a15a683ce88b2521d9b8f955770f/halo-reader-0.0.9.tar.gz
+[2023-04-20 16:38:14] INFO root fetch - processPackages [duckietown-shell]: executing diffoscope
+[2023-04-20 16:38:14] INFO root fetch - processPackages [duckietown-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckietown-shell-5.5.0.tar.gz tmp/duckietown-shell-5.5.1.tar.gz --markdown 20230420/d/duckietown-shell/5.5.0-5.5.1/diff.md --exclude *.pyd
+[2023-04-20 16:38:14] INFO root fetch - processPackages [bayanpy]: executing diffoscope
+[2023-04-20 16:38:14] INFO root fetch - processPackages [bayanpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayanpy-0.6.4.tar.gz tmp/bayanpy-0.6.5.tar.gz --markdown 20230420/b/bayanpy/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-04-20 16:38:14] INFO root fetch - processPackages [fabric-cf]: Downloading https://files.pythonhosted.org/packages/f6/db/b7c69904ab790c3ff7e9698a731d2ec2c1de4760d37334fccaebc93830f6/fabric_cf-1.5.0b1.tar.gz
+[2023-04-20 16:38:15] INFO root fetch - processPackages [leaguedaily]: Downloading https://files.pythonhosted.org/packages/7a/31/9d9fc0405ce05afb3e56f69a5c6bafd1cbab5f61424a1d4c0efdff6cc261/leaguedaily-0.2.1.tar.gz
+[2023-04-20 16:38:15] INFO root fetch - processPackages [oarepo-model-builder-requests]: Downloading https://files.pythonhosted.org/packages/1f/3a/99e6088f416b37f2a7f3ff8c82bb66321e45706e5d5e8fb75761307e7de2/oarepo-model-builder-requests-3.1.2.tar.gz
+[2023-04-20 16:38:15] INFO root fetch - processPackages [pylibcugraph-cu11]: Downloading https://files.pythonhosted.org/packages/54/73/41d5a3107e5ebeb57e000eab404748ef1c48df0c4bcf259bddfb4d818845/pylibcugraph_cu11-23.4.0.1681368249.tar.gz
+[2023-04-20 16:38:15] INFO root fetch - processPackages [leaguedaily]: executing diffoscope
+[2023-04-20 16:38:15] INFO root fetch - processPackages [leaguedaily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leaguedaily-0.2.0.tar.gz tmp/leaguedaily-0.2.1.tar.gz --markdown 20230420/l/leaguedaily/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-20 16:38:15] INFO root fetch - processPackages [halo-reader]: Downloading https://files.pythonhosted.org/packages/d8/c8/256015dc44e86f4279f1b7bf856d2baae0bbaa3ae2da9b06b6d57e72bf2b/halo-reader-0.1.0.tar.gz
+[2023-04-20 16:38:15] INFO root fetch - processPackages [scipion-em-tomo]: Downloading https://files.pythonhosted.org/packages/80/8f/8bfa3300950a13f7fffa00515f2d83d164cee07eef31e10b4e849388a2f1/scipion-em-tomo-3.1.6.tar.gz
+[2023-04-20 16:38:15] INFO root fetch - processPackages [pylibcugraph-cu11]: executing diffoscope
+[2023-04-20 16:38:15] INFO root fetch - processPackages [pylibcugraph-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibcugraph_cu11-23.4.0.tar.gz tmp/pylibcugraph_cu11-23.4.0.1681368249.tar.gz --markdown 20230420/p/pylibcugraph-cu11/23.4.0-23.4.0.1681368249/diff.md --exclude *.pyd
+[2023-04-20 16:38:15] INFO root fetch - processPackages [oarepo-model-builder-requests]: executing diffoscope
+[2023-04-20 16:38:15] INFO root fetch - processPackages [oarepo-model-builder-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-requests-3.1.1.tar.gz tmp/oarepo-model-builder-requests-3.1.2.tar.gz --markdown 20230420/o/oarepo-model-builder-requests/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-04-20 16:38:15] INFO root fetch - processPackages [scipion-em-tomo]: executing diffoscope
+[2023-04-20 16:38:15] INFO root fetch - processPackages [halo-reader]: executing diffoscope
+[2023-04-20 16:38:15] INFO root fetch - processPackages [halo-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halo-reader-0.0.9.tar.gz tmp/halo-reader-0.1.0.tar.gz --markdown 20230420/h/halo-reader/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-20 16:38:15] INFO root fetch - processPackages [scipion-em-tomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-tomo-3.1.5.tar.gz tmp/scipion-em-tomo-3.1.6.tar.gz --markdown 20230420/s/scipion-em-tomo/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-04-20 16:38:15] INFO root fetch - processPackages [fabric-cf]: Downloading https://files.pythonhosted.org/packages/95/47/83c46ec0144b993f86004d85e62454b5013c828ec9420faaf0e09270edb8/fabric_cf-1.5.0b2.tar.gz
+[2023-04-20 16:38:15] INFO root fetch - processPackages [fabric-cf]: executing diffoscope
+[2023-04-20 16:38:15] INFO root fetch - processPackages [fabric-cf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric_cf-1.5.0b1.tar.gz tmp/fabric_cf-1.5.0b2.tar.gz --markdown 20230420/f/fabric-cf/1.5.0b1-1.5.0b2/diff.md --exclude *.pyd
+[2023-04-20 16:38:16] INFO root fetch - processPackages [python3-commons]: Start processing: aloso
+[2023-04-20 16:38:16] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-04-20 16:38:16] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 16:38:16] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-04-20 16:38:16] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230420/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 16:38:16] INFO root fetch - processPackages [Nimbus-Splash]: Start processing: poocr
+[2023-04-20 16:38:16] INFO root fetch - main [MainThread]: End processing [Nimbus-Splash]: success
+[2023-04-20 16:38:16] INFO root fetch - processPackages [poocr]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 16:38:16] INFO root fetch - processPackages [bayanpy]: Start processing: opendatacrawler
+[2023-04-20 16:38:16] INFO root fetch - main [MainThread]: End processing [bayanpy]: success
+[2023-04-20 16:38:16] WARNING root fetch - processPackages [opendatacrawler]: Skipping, unable to determine old version
+[2023-04-20 16:38:16] INFO root fetch - processPackages [opendatacrawler]: Start processing: arfpy
+[2023-04-20 16:38:16] INFO root fetch - main [MainThread]: End processing [opendatacrawler] error
+[2023-04-20 16:38:16] INFO root fetch - processPackages [poocr]: Downloading https://files.pythonhosted.org/packages/11/9f/d24857fcd7af92966e98c70c298cb2e2243d066ecd15f04c9fa2fa56b665/poocr-0.0.8.tar.gz
+[2023-04-20 16:38:16] WARNING root fetch - processPackages [arfpy]: Skipping, unable to determine old version
+[2023-04-20 16:38:16] INFO root fetch - processPackages [arfpy]: Start processing: cybrid-api-organization-python
+[2023-04-20 16:38:16] INFO root fetch - main [MainThread]: End processing [arfpy] error
+[2023-04-20 16:38:16] INFO root fetch - processPackages [poocr]: executing diffoscope
+[2023-04-20 16:38:16] INFO root fetch - processPackages [poocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poocr-0.0.7.tar.gz tmp/poocr-0.0.8.tar.gz --markdown 20230420/p/poocr/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 16:38:16] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-20 16:38:16] INFO root fetch - main [MainThread]: End processing [duckietown-shell]: success
+[2023-04-20 16:38:16] INFO root fetch - main [MainThread]: End processing [pylibcugraph-cu11]: success
+[2023-04-20 16:38:16] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-requests]: success
+[2023-04-20 16:38:16] INFO root fetch - main [MainThread]: End processing [leaguedaily]: success
+[2023-04-20 16:38:16] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-04-20 16:38:16] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230420/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-20 16:38:17] INFO root fetch - main [MainThread]: End processing [scipion-em-tomo]: success
+[2023-04-20 16:38:17] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-04-20 16:38:17] INFO root fetch - main [MainThread]: End processing [poocr]: success
+[2023-04-20 16:38:18] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-04-20 16:38:19] INFO root fetch - main [MainThread]: End processing [halo-reader]: success
+[2023-04-20 16:38:23] INFO root fetch - main [MainThread]: End processing [fabric-cf]: success
+[2023-04-20 16:38:23] INFO root fetch - main [MainThread]: Store serial: [17788489]
