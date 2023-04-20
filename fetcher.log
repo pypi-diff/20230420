@@ -8831,3 +8831,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 08:19:07] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-04-20 08:19:08] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
 [2023-04-20 08:19:08] INFO root fetch - main [MainThread]: Store serial: [17782799]
+[2023-04-20 08:24:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17782799]
+[2023-04-20 08:24:17] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-20 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zoho-analytics-connector
+[2023-04-20 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seislib
+[2023-04-20 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twitch-stream.py
+[2023-04-20 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2023-04-20 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gptloop
+[2023-04-20 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zope.security
+[2023-04-20 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccDemo
+[2023-04-20 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zimran-events
+[2023-04-20 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bridgecrew
+[2023-04-20 08:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LesionMap
+[2023-04-20 08:24:18] INFO root fetch - processPackages [zoho-analytics-connector]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-20 08:24:18] INFO root fetch - processPackages [zimran-events]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-20 08:24:18] INFO root fetch - processPackages [zope.security]: New version: [6.2a1.dev0] Old Version: [6.1]
+[2023-04-20 08:24:18] WARNING root fetch - processPackages [gptloop]: Skipping, unable to determine old version
+[2023-04-20 08:24:18] WARNING root fetch - processPackages [ccDemo]: Skipping, unable to determine old version
+[2023-04-20 08:24:18] INFO root fetch - processPackages [twitch-stream.py]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-20 08:24:18] INFO root fetch - processPackages [gptloop]: Start processing: pylance
+[2023-04-20 08:24:18] INFO root fetch - processPackages [ccDemo]: Start processing: eodhd
+[2023-04-20 08:24:18] INFO root fetch - main [MainThread]: End processing [gptloop] error
+[2023-04-20 08:24:18] INFO root fetch - processPackages [seislib]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-20 08:24:18] INFO root fetch - main [MainThread]: End processing [ccDemo] error
+[2023-04-20 08:24:18] WARNING root fetch - processPackages [LesionMap]: Skipping, unable to determine old version
+[2023-04-20 08:24:18] INFO root fetch - processPackages [LesionMap]: Start processing: odoo14-addon-project-scrum
+[2023-04-20 08:24:18] INFO root fetch - main [MainThread]: End processing [LesionMap] error
+[2023-04-20 08:24:18] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230420] Old Version: [1.5.3.dev20230419]
+[2023-04-20 08:24:18] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-20 08:24:18] INFO root fetch - processPackages [eodhd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 08:24:18] INFO root fetch - processPackages [odoo14-addon-project-scrum]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-04-20 08:24:18] INFO root fetch - processPackages [pylance]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-20 08:24:18] INFO root fetch - processPackages [twitch-stream.py]: Downloading https://files.pythonhosted.org/packages/a3/48/889c962c411891c7af26474a23076bbdba9002b1f8f161fd2208083856d5/twitch-stream.py-1.1.1.tar.gz
+[2023-04-20 08:24:18] INFO root fetch - processPackages [zimran-events]: Downloading https://files.pythonhosted.org/packages/a1/ff/2120df41920f5895e6bfcf7ea818f3164f4ddf8b5004cc98416ef34084a1/zimran-events-0.2.5.tar.gz
+[2023-04-20 08:24:18] INFO root fetch - processPackages [zope.security]: Downloading https://files.pythonhosted.org/packages/b5/c9/8f4d997d11047d10709f6352d48b7dfc82d4f39352523d9e80fd13a77981/zope.security-6.1.tar.gz
+[2023-04-20 08:24:18] INFO root fetch - processPackages [seislib]: Downloading https://files.pythonhosted.org/packages/fa/db/7cd5468132f947ba6fbc576ac83465af1395fdf81126672172a2e8a884f6/seislib-0.6.8.tar.gz
+[2023-04-20 08:24:18] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/6b/a8/f815d6d0508c5f846e77a607973b290124b9418d56ce464af6fa6ef5e614/eodhd-1.0.8.tar.gz
+[2023-04-20 08:24:18] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/1c/ac/1de9b6e4e3a38ef751b15de2a9d9590ced46a3482ee476f8264110b0c37f/pylance-0.4.2-cp38-abi3-win_amd64.whl
+[2023-04-20 08:24:18] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/21/d1/d0e6b5fa34c63fec6f4b031a141cb0c25402163d6331f25f4340e243add6/pretext-1.5.3.dev20230420.tar.gz
+[2023-04-20 08:24:18] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Downloading https://files.pythonhosted.org/packages/b9/dc/63f8367ebefe40a901574746e2b0688d6004203e10453272a876b55baa90/odoo14_addon_project_scrum-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-04-20 08:24:18] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 18828095>=10485760
+[2023-04-20 08:24:18] INFO root fetch - processPackages [pylance]: Start processing: crem
+[2023-04-20 08:24:18] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2023-04-20 08:24:18] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-20 08:24:18] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230420/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-20 08:24:18] INFO root fetch - processPackages [zimran-events]: executing diffoscope
+[2023-04-20 08:24:18] INFO root fetch - processPackages [zimran-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimran-events-0.2.4.tar.gz tmp/zimran-events-0.2.5.tar.gz --markdown 20230420/z/zimran-events/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-20 08:24:18] INFO root fetch - processPackages [zoho-analytics-connector]: Downloading https://files.pythonhosted.org/packages/09/ac/88943d2b7c0f319189c26c74d6f7b3a0757cf98b3a9f2260cf0a2f3605e8/zoho_analytics_connector-1.4.2.tar.gz
+[2023-04-20 08:24:18] INFO root fetch - processPackages [crem]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 08:24:18] INFO root fetch - processPackages [twitch-stream.py]: Downloading https://files.pythonhosted.org/packages/cd/bf/b6b56f8e572899b7abcb097edc63d67d11187d01f5cb3097b4cf49abbd03/twitch-stream.py-1.1.2.tar.gz
+[2023-04-20 08:24:18] INFO root fetch - processPackages [zoho-analytics-connector]: executing diffoscope
+[2023-04-20 08:24:18] INFO root fetch - processPackages [zoho-analytics-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoho_analytics_connector-1.4.1.tar.gz tmp/zoho_analytics_connector-1.4.2.tar.gz --markdown 20230420/z/zoho-analytics-connector/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-20 08:24:18] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Downloading https://files.pythonhosted.org/packages/f6/fb/9d2304aec76a914fbaebfc595a0cc31fa2e13884f8aa14119f06f242b37d/odoo14_addon_project_scrum-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-04-20 08:24:18] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/74/15/a49024eba8d8741c93edcc8aff70b92effd14ab5c445a7bdbde0c59dcd89/eodhd-1.0.9.tar.gz
+[2023-04-20 08:24:18] INFO root fetch - processPackages [zope.security]: Downloading https://files.pythonhosted.org/packages/af/8a/de398c12d7e0301c02695990f12ca9bd72e85f88b063bfd7a36dca6addb8/zope.security-6.2a1.dev0.tar.gz
+[2023-04-20 08:24:18] INFO root fetch - processPackages [crem]: Downloading https://files.pythonhosted.org/packages/c7/d4/89a146b92157cbf7569c8a939e01ad870d7505c9c12901c9f901b8089544/crem-0.2.8.tar.gz
+[2023-04-20 08:24:18] INFO root fetch - processPackages [eodhd]: executing diffoscope
+[2023-04-20 08:24:18] INFO root fetch - processPackages [eodhd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodhd-1.0.8.tar.gz tmp/eodhd-1.0.9.tar.gz --markdown 20230420/e/eodhd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 08:24:18] INFO root fetch - processPackages [twitch-stream.py]: executing diffoscope
+[2023-04-20 08:24:18] INFO root fetch - processPackages [twitch-stream.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitch-stream.py-1.1.1.tar.gz tmp/twitch-stream.py-1.1.2.tar.gz --markdown 20230420/t/twitch-stream.py/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-20 08:24:19] INFO root fetch - processPackages [odoo14-addon-project-scrum]: executing diffoscope
+[2023-04-20 08:24:19] INFO root fetch - processPackages [odoo14-addon-project-scrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230420/o/odoo14-addon-project-scrum/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 08:24:19] INFO root fetch - processPackages [zope.security]: executing diffoscope
+[2023-04-20 08:24:19] INFO root fetch - processPackages [zope.security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.security-6.1.tar.gz tmp/zope.security-6.2a1.dev0.tar.gz --markdown 20230420/z/zope.security/6.1-6.2a1.dev0/diff.md --exclude *.pyd
+[2023-04-20 08:24:19] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-04-20 08:24:19] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230419.tar.gz tmp/pretext-1.5.3.dev20230420.tar.gz --markdown 20230420/p/pretext/1.5.3.dev20230419-1.5.3.dev20230420/diff.md --exclude *.pyd
+[2023-04-20 08:24:19] INFO root fetch - processPackages [seislib]: Downloading https://files.pythonhosted.org/packages/6e/89/88649e946b7aaa8994cb16d24ac91ff50b3c51bf3ee343461e805667cfa6/seislib-0.6.9.tar.gz
+[2023-04-20 08:24:19] INFO root fetch - processPackages [crem]: Downloading https://files.pythonhosted.org/packages/c6/33/c596dd9f6502baa690b6903b6835c10caef68d3c2172dd0d50e14cd6a46a/crem-0.2.9.tar.gz
+[2023-04-20 08:24:19] INFO root fetch - processPackages [seislib]: executing diffoscope
+[2023-04-20 08:24:19] INFO root fetch - processPackages [seislib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seislib-0.6.8.tar.gz tmp/seislib-0.6.9.tar.gz --markdown 20230420/s/seislib/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-20 08:24:19] INFO root fetch - processPackages [crem]: executing diffoscope
+[2023-04-20 08:24:19] INFO root fetch - processPackages [crem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crem-0.2.8.tar.gz tmp/crem-0.2.9.tar.gz --markdown 20230420/c/crem/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 08:24:19] INFO root fetch - processPackages [bridgecrew]: Start processing: dfeed
+[2023-04-20 08:24:19] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-20 08:24:19] INFO root fetch - processPackages [dfeed]: New version: [0.0b1] Old Version: [0.0.5]
+[2023-04-20 08:24:20] INFO root fetch - processPackages [zimran-events]: Start processing: fake-bpy-module-latest
+[2023-04-20 08:24:20] INFO root fetch - main [MainThread]: End processing [zimran-events]: success
+[2023-04-20 08:24:20] INFO root fetch - main [MainThread]: End processing [eodhd]: success
+[2023-04-20 08:24:20] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230419] Old Version: [20230418]
+[2023-04-20 08:24:20] INFO root fetch - processPackages [dfeed]: Downloading https://files.pythonhosted.org/packages/9f/3b/084b28f00ea691434a8dfcd61cdbd2a6af7e4105c5a448e238eb0f1e8388/dfeed-0.0b1.tar.gz
+[2023-04-20 08:24:20] INFO root fetch - main [MainThread]: End processing [twitch-stream.py]: success
+[2023-04-20 08:24:20] INFO root fetch - processPackages [dfeed]: executing diffoscope
+[2023-04-20 08:24:20] INFO root fetch - processPackages [dfeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfeed-0.0.5.tar.gz tmp/dfeed-0.0b1.tar.gz --markdown 20230420/d/dfeed/0.0.5-0.0b1/diff.md --exclude *.pyd
+[2023-04-20 08:24:20] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-04-20 08:24:20] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230418.tar.gz tmp/fake-bpy-module-latest-20230419.tar.gz --markdown 20230420/f/fake-bpy-module-latest/20230418-20230419/diff.md --exclude *.pyd
+[2023-04-20 08:24:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-scrum]: success
+[2023-04-20 08:24:20] INFO root fetch - main [MainThread]: End processing [crem]: success
+[2023-04-20 08:24:21] INFO root fetch - main [MainThread]: End processing [zope.security]: success
+[2023-04-20 08:24:21] INFO root fetch - main [MainThread]: End processing [zoho-analytics-connector]: success
+[2023-04-20 08:24:21] INFO root fetch - main [MainThread]: End processing [dfeed]: success
+[2023-04-20 08:24:23] INFO root fetch - main [MainThread]: End processing [seislib]: success
+[2023-04-20 08:24:24] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-04-20 08:24:26] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-04-20 08:24:26] INFO root fetch - main [MainThread]: Store serial: [17782861]
