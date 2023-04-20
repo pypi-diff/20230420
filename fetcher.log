@@ -19574,3 +19574,143 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 17:10:49] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
 [2023-04-20 17:10:53] INFO root fetch - main [MainThread]: End processing [tnnt-templates]: success
 [2023-04-20 17:10:53] INFO root fetch - main [MainThread]: Store serial: [17788903]
+[2023-04-20 17:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17788903]
+[2023-04-20 17:16:02] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-20 17:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amlopschat
+[2023-04-20 17:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MotorDeCalidad
+[2023-04-20 17:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funcx
+[2023-04-20 17:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modin
+[2023-04-20 17:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynih
+[2023-04-20 17:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opendatacrawler
+[2023-04-20 17:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plotgen
+[2023-04-20 17:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deso
+[2023-04-20 17:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dockertown
+[2023-04-20 17:16:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pythoncryptlibaryV2
+[2023-04-20 17:16:03] INFO root fetch - processPackages [amlopschat]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-20 17:16:03] INFO root fetch - processPackages [modin]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-20 17:16:03] INFO root fetch - processPackages [pynih]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-20 17:16:03] INFO root fetch - processPackages [opendatacrawler]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-20 17:16:03] INFO root fetch - processPackages [dockertown]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-20 17:16:03] WARNING root fetch - processPackages [pythoncryptlibaryV2]: Skipping, unable to determine old version
+[2023-04-20 17:16:03] INFO root fetch - processPackages [pythoncryptlibaryV2]: Start processing: scNodes
+[2023-04-20 17:16:03] INFO root fetch - main [MainThread]: End processing [pythoncryptlibaryV2] error
+[2023-04-20 17:16:03] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-20 17:16:03] INFO root fetch - processPackages [funcx]: New version: [2.0.1a4] Old Version: [2.0.1a3]
+[2023-04-20 17:16:03] INFO root fetch - processPackages [plotgen]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-20 17:16:03] INFO root fetch - processPackages [deso]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-20 17:16:03] INFO root fetch - processPackages [scNodes]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-20 17:16:03] INFO root fetch - processPackages [scNodes]: Downloading https://files.pythonhosted.org/packages/69/e1/11bc08806de1ca29404ff31b52f4a23ef08afb5ec0fc3df113dd9466ab61/scNodes-1.1.7.tar.gz
+[2023-04-20 17:16:03] INFO root fetch - processPackages [amlopschat]: Downloading https://files.pythonhosted.org/packages/15/a7/df5bb2ec6b3e10484b0dc6abb0706ada166e9fc1da9a691f0a46561f7bb9/amlopschat-1.0.3.tar.gz
+[2023-04-20 17:16:03] INFO root fetch - processPackages [opendatacrawler]: Downloading https://files.pythonhosted.org/packages/7d/ff/08af56c740b10e714d5b3272972aba1404195c0c3d63a1024bc8da163383/opendatacrawler-1.0.3.tar.gz
+[2023-04-20 17:16:03] INFO root fetch - processPackages [pynih]: Downloading https://files.pythonhosted.org/packages/d6/ae/1830389f1fb6b50750430beedd762ae956918a687260bc746373bc7ae689/pynih-0.1.2.tar.gz
+[2023-04-20 17:16:03] INFO root fetch - processPackages [dockertown]: Downloading https://files.pythonhosted.org/packages/d7/44/35cae9c0fa5deb83c8a535443103fafe27d39447d8c4f0ee0522872561e0/dockertown-0.2.1.tar.gz
+[2023-04-20 17:16:03] INFO root fetch - processPackages [modin]: Downloading https://files.pythonhosted.org/packages/3c/46/8fe316b681c9807549983d54af91c865572e32f7d6c9d97a0af6f613402f/modin-0.9.0.tar.gz
+[2023-04-20 17:16:03] INFO root fetch - processPackages [deso]: Downloading https://files.pythonhosted.org/packages/55/5e/750ee21082ff1d2303fe4c6e94c158ea82d97ec95fc22654abde35fb4f49/deso-2.2.8.tar.gz
+[2023-04-20 17:16:03] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/4c/c4/fb5bdc04b969003fedaefe52d15e208e5d2407bae330e82a9032c634f153/plotgen-0.7.8-py3-none-any.whl
+[2023-04-20 17:16:03] WARNING root fetch - processPackages [scNodes]: Skipping package: exceeds size limit 12072774>=10485760
+[2023-04-20 17:16:03] INFO root fetch - processPackages [scNodes]: Start processing: coiled
+[2023-04-20 17:16:03] INFO root fetch - main [MainThread]: End processing [scNodes] error
+[2023-04-20 17:16:03] INFO root fetch - processPackages [amlopschat]: executing diffoscope
+[2023-04-20 17:16:03] INFO root fetch - processPackages [amlopschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopschat-1.0.2.tar.gz tmp/amlopschat-1.0.3.tar.gz --markdown 20230420/a/amlopschat/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-20 17:16:03] INFO root fetch - processPackages [pynih]: executing diffoscope
+[2023-04-20 17:16:03] INFO root fetch - processPackages [pynih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynih-0.1.1.tar.gz tmp/pynih-0.1.2.tar.gz --markdown 20230420/p/pynih/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-20 17:16:03] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-20 17:16:03] INFO root fetch - processPackages [dockertown]: executing diffoscope
+[2023-04-20 17:16:03] INFO root fetch - processPackages [dockertown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockertown-0.2.0.tar.gz tmp/dockertown-0.2.1.tar.gz --markdown 20230420/d/dockertown/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-20 17:16:03] INFO root fetch - processPackages [funcx]: Downloading https://files.pythonhosted.org/packages/95/83/b35a3709934709c2f1972e0da45f34dcefb2cb45ebde682cd9c1c4091e84/funcx-2.0.1a4.tar.gz
+[2023-04-20 17:16:03] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-20 17:16:03] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230420/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-20 17:16:03] INFO root fetch - processPackages [funcx]: executing diffoscope
+[2023-04-20 17:16:03] INFO root fetch - processPackages [funcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcx-2.0.1a3.tar.gz tmp/funcx-2.0.1a4.tar.gz --markdown 20230420/f/funcx/2.0.1a3-2.0.1a4/diff.md --exclude *.pyd
+[2023-04-20 17:16:03] INFO root fetch - processPackages [opendatacrawler]: Downloading https://files.pythonhosted.org/packages/1e/d2/d0014b8c509f6f1fc00bf13c9712deace7ab511be81da72fe6f39d203911/opendatacrawler-1.0.4.tar.gz
+[2023-04-20 17:16:03] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-04-20 17:16:03] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230420/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-20 17:16:03] INFO root fetch - processPackages [deso]: Downloading https://files.pythonhosted.org/packages/fb/04/e84da2c0c8a3b28de68e0a2e8ca16b4e7b7dc9056273f5eb2aea37330534/deso-2.2.9.tar.gz
+[2023-04-20 17:16:03] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/42/d3/78eb95701ab8df9403a40f8a5ae33247ac4e872ca786b0ddb86e840b69b4/plotgen-0.7.9-py3-none-any.whl
+[2023-04-20 17:16:03] INFO root fetch - processPackages [opendatacrawler]: executing diffoscope
+[2023-04-20 17:16:03] INFO root fetch - processPackages [opendatacrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendatacrawler-1.0.3.tar.gz tmp/opendatacrawler-1.0.4.tar.gz --markdown 20230420/o/opendatacrawler/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-20 17:16:03] INFO root fetch - processPackages [deso]: executing diffoscope
+[2023-04-20 17:16:03] INFO root fetch - processPackages [deso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deso-2.2.8.tar.gz tmp/deso-2.2.9.tar.gz --markdown 20230420/d/deso/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-04-20 17:16:03] INFO root fetch - processPackages [plotgen]: executing diffoscope
+[2023-04-20 17:16:03] INFO root fetch - processPackages [plotgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotgen-0.7.8-py3-none-any.whl.zip tmp/plotgen-0.7.9-py3-none-any.whl.zip --markdown 20230420/p/plotgen/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-20 17:16:04] INFO root fetch - processPackages [modin]: Downloading https://files.pythonhosted.org/packages/c4/de/b6befe4f022553b09be9c92bf88128b2e391c580fe7ca4876acb77aec416/modin-0.9.1.tar.gz
+[2023-04-20 17:16:04] INFO root fetch - processPackages [modin]: executing diffoscope
+[2023-04-20 17:16:04] INFO root fetch - processPackages [modin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modin-0.9.0.tar.gz tmp/modin-0.9.1.tar.gz --markdown 20230420/m/modin/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 17:16:04] INFO root fetch - processPackages [pynih]: Start processing: duckietown-shell
+[2023-04-20 17:16:04] INFO root fetch - main [MainThread]: End processing [pynih]: success
+[2023-04-20 17:16:04] INFO root fetch - processPackages [duckietown-shell]: New version: [5.5.3] Old Version: [5.5.2]
+[2023-04-20 17:16:04] INFO root fetch - processPackages [amlopschat]: Start processing: django-pfx
+[2023-04-20 17:16:04] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
+[2023-04-20 17:16:04] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-04-20 17:16:05] INFO root fetch - processPackages [duckietown-shell]: Downloading https://files.pythonhosted.org/packages/09/83/4f30000fad88bd95a78c10247d5cd54c6105698a08088a2f13fbc09c2088/duckietown-shell-5.5.3.tar.gz
+[2023-04-20 17:16:05] INFO root fetch - processPackages [funcx]: Start processing: graphql-api
+[2023-04-20 17:16:05] INFO root fetch - main [MainThread]: End processing [funcx]: success
+[2023-04-20 17:16:05] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a1/0d/f18110bf781805e992d1694bccb5f9c8fba9b93b4dbb99cd63864546a630/django-pfx-1.2.dev6.tar.gz
+[2023-04-20 17:16:05] INFO root fetch - processPackages [graphql-api]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-20 17:16:05] INFO root fetch - processPackages [duckietown-shell]: executing diffoscope
+[2023-04-20 17:16:05] INFO root fetch - processPackages [duckietown-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckietown-shell-5.5.2.tar.gz tmp/duckietown-shell-5.5.3.tar.gz --markdown 20230420/d/duckietown-shell/5.5.2-5.5.3/diff.md --exclude *.pyd
+[2023-04-20 17:16:05] INFO root fetch - processPackages [graphql-api]: executing diffoscope
+[2023-04-20 17:16:05] INFO root fetch - processPackages [graphql-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql-api-1.2.8.tar.gz tmp/graphql-api-1.2.9.tar.gz --markdown 20230420/g/graphql-api/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-20 17:16:05] INFO root fetch - processPackages [MotorDeCalidad]: Start processing: sentry-redis-tools
+[2023-04-20 17:16:05] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-04-20 17:16:05] INFO root fetch - processPackages [dockertown]: Start processing: datasette-ml
+[2023-04-20 17:16:05] INFO root fetch - main [MainThread]: End processing [dockertown]: success
+[2023-04-20 17:16:05] INFO root fetch - processPackages [sentry-redis-tools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-20 17:16:05] INFO root fetch - processPackages [plotgen]: Start processing: proteinTools
+[2023-04-20 17:16:05] INFO root fetch - main [MainThread]: End processing [plotgen]: success
+[2023-04-20 17:16:05] INFO root fetch - processPackages [proteinTools]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-20 17:16:05] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/a8/a1/beee13dd42732e6b09a9fa98a5127296a4eb74cba08e3bdc0c5376e914db/django-pfx-1.2.dev8.tar.gz
+[2023-04-20 17:16:05] INFO root fetch - processPackages [datasette-ml]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 17:16:05] INFO root fetch - processPackages [opendatacrawler]: Start processing: OpenGeode-Geosciences
+[2023-04-20 17:16:05] INFO root fetch - main [MainThread]: End processing [opendatacrawler]: success
+[2023-04-20 17:16:05] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-04-20 17:16:05] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.2.3.tar.gz tmp/proteinTools-1.2.4.tar.gz --markdown 20230420/p/proteinTools/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-20 17:16:05] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.0.4] Old Version: [7.0.3]
+[2023-04-20 17:16:05] INFO root fetch - processPackages [datasette-ml]: Downloading https://files.pythonhosted.org/packages/00/8e/13e2d28c2675a53db61463fb9304347b153c465d191268f3eae80debe426/datasette_ml-0.1.0.tar.gz
+[2023-04-20 17:16:05] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-04-20 17:16:05] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230420/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-04-20 17:16:05] INFO root fetch - processPackages [sentry-redis-tools]: Downloading https://files.pythonhosted.org/packages/82/40/e98edc90edf605c24b135d328c2118a55db749f94c97290f4e82c6007ffc/sentry-redis-tools-0.1.4.tar.gz
+[2023-04-20 17:16:05] INFO root fetch - processPackages [sentry-redis-tools]: executing diffoscope
+[2023-04-20 17:16:05] INFO root fetch - processPackages [sentry-redis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-redis-tools-0.1.3.tar.gz tmp/sentry-redis-tools-0.1.4.tar.gz --markdown 20230420/s/sentry-redis-tools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-20 17:16:05] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/1c/1f/bed5d468ed1adb17466df2324e517613e31ff86479b241c9eef00f6b9ba5/OpenGeode_Geosciences-7.0.3-cp39-cp39-win_amd64.whl
+[2023-04-20 17:16:06] INFO root fetch - processPackages [datasette-ml]: Downloading https://files.pythonhosted.org/packages/22/9b/a34a468ff277d9153449d72e6f51b9f42fa318f5aa39f0287fa38f26123b/datasette_ml-0.1.1.tar.gz
+[2023-04-20 17:16:06] INFO root fetch - processPackages [datasette-ml]: executing diffoscope
+[2023-04-20 17:16:06] INFO root fetch - processPackages [datasette-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_ml-0.1.0.tar.gz tmp/datasette_ml-0.1.1.tar.gz --markdown 20230420/d/datasette-ml/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 17:16:06] INFO root fetch - processPackages [deso]: Start processing: lsptrain
+[2023-04-20 17:16:06] INFO root fetch - main [MainThread]: End processing [deso]: success
+[2023-04-20 17:16:06] INFO root fetch - processPackages [lsptrain]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 17:16:06] INFO root fetch - processPackages [lsptrain]: executing diffoscope
+[2023-04-20 17:16:06] INFO root fetch - processPackages [lsptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsptrain-0.0.2.tar.gz tmp/lsptrain-0.0.3.tar.gz --markdown 20230420/l/lsptrain/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 17:16:06] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/22/b5/de99154df46daa3d01fa37387bb99daaaac3123f79d7d596f4aa9084d994/OpenGeode_Geosciences-7.0.4-cp38-cp38-manylinux2014_x86_64.whl
+[2023-04-20 17:16:06] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2023-04-20 17:16:06] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.0.3-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.0.4-cp38-cp38-manylinux2014_x86_64.whl.zip --markdown 20230420/O/OpenGeode-Geosciences/7.0.3-7.0.4/diff.md --exclude *.pyd
+[2023-04-20 17:16:06] INFO root fetch - processPackages [duckietown-shell]: Start processing: my-pipeline-package
+[2023-04-20 17:16:06] INFO root fetch - main [MainThread]: End processing [duckietown-shell]: success
+[2023-04-20 17:16:06] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 17:16:06] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 17:16:06] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.8.tar.gz tmp/my-pipeline-package-1.1.9.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 17:16:06] INFO root fetch - processPackages [graphql-api]: Start processing: phast
+[2023-04-20 17:16:06] INFO root fetch - main [MainThread]: End processing [graphql-api]: success
+[2023-04-20 17:16:06] INFO root fetch - processPackages [phast]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 17:16:06] INFO root fetch - processPackages [proteinTools]: Start processing: xdot-rs
+[2023-04-20 17:16:06] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-04-20 17:16:07] INFO root fetch - processPackages [phast]: Downloading https://files.pythonhosted.org/packages/ec/95/63282224c05e669f22bb3791588e6c566e7805ad540066145bee0463a6ea/phast-0.1.0.tar.gz
+[2023-04-20 17:16:07] INFO root fetch - processPackages [xdot-rs]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-20 17:16:07] INFO root fetch - main [MainThread]: End processing [sentry-redis-tools]: success
+[2023-04-20 17:16:07] INFO root fetch - processPackages [xdot-rs]: Downloading https://files.pythonhosted.org/packages/aa/f8/bd637ab306c500def640d1130d6cfcd4386e94961ccf3620ef6a482d968b/xdot_rs-0.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-20 17:16:07] INFO root fetch - processPackages [phast]: Downloading https://files.pythonhosted.org/packages/7c/1b/656e93e2b29a4c0d8a795b5cadfc53f27847e148ed32c8418155cd1f904a/phast-0.1.1.tar.gz
+[2023-04-20 17:16:07] INFO root fetch - processPackages [phast]: executing diffoscope
+[2023-04-20 17:16:07] INFO root fetch - processPackages [phast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phast-0.1.0.tar.gz tmp/phast-0.1.1.tar.gz --markdown 20230420/p/phast/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 17:16:07] INFO root fetch - main [MainThread]: End processing [lsptrain]: success
+[2023-04-20 17:16:07] INFO root fetch - processPackages [xdot-rs]: Downloading https://files.pythonhosted.org/packages/90/9b/884954c9423880d4b2ba9082a3f1d99874961cc1717875d3b85ad96a6ec1/xdot_rs-0.2.2-cp38-cp38-manylinux_2_34_x86_64.whl
+[2023-04-20 17:16:07] INFO root fetch - main [MainThread]: End processing [datasette-ml]: success
+[2023-04-20 17:16:07] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2023-04-20 17:16:07] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-20 17:16:08] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 17:16:08] INFO root fetch - processPackages [xdot-rs]: executing diffoscope
+[2023-04-20 17:16:08] INFO root fetch - processPackages [xdot-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdot_rs-0.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/xdot_rs-0.2.2-cp38-cp38-manylinux_2_34_x86_64.whl.zip --markdown 20230420/x/xdot-rs/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-20 17:16:08] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-04-20 17:16:08] INFO root fetch - main [MainThread]: End processing [phast]: success
+[2023-04-20 17:16:12] INFO root fetch - main [MainThread]: End processing [modin]: success
+[2023-04-20 17:16:22] INFO root fetch - main [MainThread]: End processing [xdot-rs]: success
+[2023-04-20 17:16:22] INFO root fetch - main [MainThread]: Store serial: [17788970]
