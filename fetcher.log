@@ -16433,3 +16433,99 @@ EOFError: EOF read where object expected
 [2023-04-20 14:43:04] INFO root fetch - main [MainThread]: End processing [snappi]: success
 [2023-04-20 14:43:04] INFO root fetch - main [MainThread]: End processing [GlobalPayments.Api]: success
 [2023-04-20 14:43:04] INFO root fetch - main [MainThread]: Store serial: [17787030]
+[2023-04-20 14:48:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17787030]
+[2023-04-20 14:48:13] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-20 14:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fiduswriter-gitrepo-export
+[2023-04-20 14:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oslili
+[2023-04-20 14:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb
+[2023-04-20 14:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-client
+[2023-04-20 14:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-dataset
+[2023-04-20 14:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-models
+[2023-04-20 14:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-protos
+[2023-04-20 14:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-sdk
+[2023-04-20 14:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-utils
+[2023-04-20 14:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shafara-tool-kit
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb]: New version: [2.7.0.post200] Old Version: [2.7.0.post199]
+[2023-04-20 14:48:13] INFO root fetch - processPackages [fiduswriter-gitrepo-export]: New version: [3.11.4] Old Version: [3.11.3]
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-client]: New version: [2.7.0.post200] Old Version: [2.7.0.post199]
+[2023-04-20 14:48:13] INFO root fetch - processPackages [shafara-tool-kit]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 14:48:13] WARNING root fetch - processPackages [oslili]: Skipping, unable to determine old version
+[2023-04-20 14:48:13] INFO root fetch - processPackages [oslili]: Start processing: lift.bot
+[2023-04-20 14:48:13] INFO root fetch - main [MainThread]: End processing [oslili] error
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.7.0.post200] Old Version: [2.7.0.post199]
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.7.0.post200] Old Version: [2.7.0.post199]
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-models]: New version: [2.7.0.post200] Old Version: [2.7.0.post199]
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.7.0.post200] Old Version: [2.7.0.post199]
+[2023-04-20 14:48:13] INFO root fetch - processPackages [lift.bot]: New version: [15.3.5] Old Version: [15.2.7]
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.7.0.post200] Old Version: [2.7.0.post199]
+[2023-04-20 14:48:13] INFO root fetch - processPackages [shafara-tool-kit]: Downloading https://files.pythonhosted.org/packages/c8/79/fec826a79c4b47cc3b895e0228eaf79ad7c028a4294024155c5a36dc9268/shafara_tool_kit-0.1.0.tar.gz
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/e8/54/d89945236c194218eff926cb72508cc308bb8a14e6c1c938cfbf6fdbfa10/nucliadb-2.7.0.post200-py3-none-any.whl
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/e9/6886bf98c43d003e07be3d77469d0753cc94beb85df725f4126177abdd02/nucliadb_dataset-2.7.0.post200-py3-none-any.whl
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/c7/ce/1ad86effb435e632a181ea98a0206a10ad7d17329fb89c43fda6858588b3/nucliadb_client-2.7.0.post200-py3-none-any.whl
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/23/c3/60ee080ab43ca6495c4bb3e547bf68935a82daeb4e92115a5e54295c35c6/nucliadb_models-2.7.0.post200-py3-none-any.whl
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/42/30/c641f0d69653900d356be57556ef2a767adbf339294732a0961d7b5c829c/nucliadb_protos-2.7.0.post200-py3-none-any.whl
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/5b/7f/cf6787f501b30b5937ab1756085f7f4889066ef988ab60db2cccf639948a/nucliadb_sdk-2.7.0.post200-py3-none-any.whl
+[2023-04-20 14:48:13] INFO root fetch - processPackages [lift.bot]: Downloading https://files.pythonhosted.org/packages/0b/d7/c95852513ed6590830270c23c4217f430ab00c38b9ae83abe83defff175a/lift.bot-15.2.7.tar.gz
+[2023-04-20 14:48:13] INFO root fetch - processPackages [fiduswriter-gitrepo-export]: Downloading https://files.pythonhosted.org/packages/8e/1b/0b646b7c5d02eb15a68c182d5f4830b011cd71dbbab6988d6d6d82c392d7/fiduswriter-gitrepo-export-3.11.4.tar.gz
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/f9/4b/8cfc5ef31a7488a19e473d6f1b9931defc5a1d6d80d25f72e03cecd7caf8/nucliadb_utils-2.7.0.post200-py3-none-any.whl
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.7.0.post199-py3-none-any.whl.zip tmp/nucliadb_client-2.7.0.post200-py3-none-any.whl.zip --markdown 20230420/n/nucliadb-client/2.7.0.post199-2.7.0.post200/diff.md --exclude *.pyd
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.7.0.post199-py3-none-any.whl.zip tmp/nucliadb_dataset-2.7.0.post200-py3-none-any.whl.zip --markdown 20230420/n/nucliadb-dataset/2.7.0.post199-2.7.0.post200/diff.md --exclude *.pyd
+[2023-04-20 14:48:13] INFO root fetch - processPackages [shafara-tool-kit]: Downloading https://files.pythonhosted.org/packages/56/a7/b4e6ce20680c8ec546eea3f1e97d5f3b8c2f992f4f5eb694d5de31e05d65/shafara_tool_kit-0.1.1.tar.gz
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.7.0.post199-py3-none-any.whl.zip tmp/nucliadb_sdk-2.7.0.post200-py3-none-any.whl.zip --markdown 20230420/n/nucliadb-sdk/2.7.0.post199-2.7.0.post200/diff.md --exclude *.pyd
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-04-20 14:48:13] INFO root fetch - processPackages [fiduswriter-gitrepo-export]: executing diffoscope
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.7.0.post199-py3-none-any.whl.zip tmp/nucliadb_models-2.7.0.post200-py3-none-any.whl.zip --markdown 20230420/n/nucliadb-models/2.7.0.post199-2.7.0.post200/diff.md --exclude *.pyd
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-04-20 14:48:13] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.7.0.post199-py3-none-any.whl.zip tmp/nucliadb_protos-2.7.0.post200-py3-none-any.whl.zip --markdown 20230420/n/nucliadb-protos/2.7.0.post199-2.7.0.post200/diff.md --exclude *.pyd
+[2023-04-20 14:48:13] INFO root fetch - processPackages [fiduswriter-gitrepo-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiduswriter-gitrepo-export-3.11.3.tar.gz tmp/fiduswriter-gitrepo-export-3.11.4.tar.gz --markdown 20230420/f/fiduswriter-gitrepo-export/3.11.3-3.11.4/diff.md --exclude *.pyd
+[2023-04-20 14:48:14] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-04-20 14:48:14] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.7.0.post199-py3-none-any.whl.zip tmp/nucliadb-2.7.0.post200-py3-none-any.whl.zip --markdown 20230420/n/nucliadb/2.7.0.post199-2.7.0.post200/diff.md --exclude *.pyd
+[2023-04-20 14:48:14] INFO root fetch - processPackages [lift.bot]: Downloading https://files.pythonhosted.org/packages/9d/65/25a3b6e573fbd4b44ed05ab7e93979dc76c5f181491c29eee1fc1f303448/lift.bot-15.3.5.tar.gz
+[2023-04-20 14:48:14] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-04-20 14:48:14] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.7.0.post199-py3-none-any.whl.zip tmp/nucliadb_utils-2.7.0.post200-py3-none-any.whl.zip --markdown 20230420/n/nucliadb-utils/2.7.0.post199-2.7.0.post200/diff.md --exclude *.pyd
+[2023-04-20 14:48:14] INFO root fetch - processPackages [shafara-tool-kit]: executing diffoscope
+[2023-04-20 14:48:14] INFO root fetch - processPackages [shafara-tool-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shafara_tool_kit-0.1.0.tar.gz tmp/shafara_tool_kit-0.1.1.tar.gz --markdown 20230420/s/shafara-tool-kit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 14:48:14] INFO root fetch - processPackages [lift.bot]: executing diffoscope
+[2023-04-20 14:48:14] INFO root fetch - processPackages [lift.bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lift.bot-15.2.7.tar.gz tmp/lift.bot-15.3.5.tar.gz --markdown 20230420/l/lift.bot/15.2.7-15.3.5/diff.md --exclude *.pyd
+[2023-04-20 14:48:15] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: pygus
+[2023-04-20 14:48:15] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-04-20 14:48:15] INFO root fetch - processPackages [pygus]: New version: [1.0] Old Version: [0.1.9]
+[2023-04-20 14:48:15] INFO root fetch - processPackages [nucliadb-client]: Start processing: oslili-cli
+[2023-04-20 14:48:15] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-04-20 14:48:15] WARNING root fetch - processPackages [oslili-cli]: Skipping, unable to determine old version
+[2023-04-20 14:48:15] INFO root fetch - processPackages [oslili-cli]: Start processing: niet
+[2023-04-20 14:48:15] INFO root fetch - main [MainThread]: End processing [oslili-cli] error
+[2023-04-20 14:48:15] INFO root fetch - processPackages [niet]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-04-20 14:48:15] INFO root fetch - processPackages [pygus]: Downloading https://files.pythonhosted.org/packages/9a/a2/292495016a14fd2a80a19ba371773aa3a9cdc145e3e2b5e76308ecde2188/pygus-0.1.9.tar.gz
+[2023-04-20 14:48:15] INFO root fetch - processPackages [nucliadb-protos]: Start processing: QuNet
+[2023-04-20 14:48:15] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-04-20 14:48:15] INFO root fetch - processPackages [QuNet]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 14:48:15] INFO root fetch - processPackages [nucliadb-models]: Start processing: fiduswriter-books
+[2023-04-20 14:48:15] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-04-20 14:48:15] INFO root fetch - main [MainThread]: End processing [shafara-tool-kit]: success
+[2023-04-20 14:48:15] INFO root fetch - processPackages [pygus]: Downloading https://files.pythonhosted.org/packages/32/e4/7b197ebe659103cab84d30fbd34884e2b8376e66c133b5f6317e23a237d5/pygus-1.0.tar.gz
+[2023-04-20 14:48:15] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-04-20 14:48:16] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/fd/b6/b24543f765e6e9c40a07fd38af2fcf51589a05e09f5dbb73aff800333dfb/QuNet-0.0.1-py3-none-any.whl
+[2023-04-20 14:48:16] INFO root fetch - processPackages [fiduswriter-books]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-04-20 14:48:16] INFO root fetch - processPackages [niet]: Downloading https://files.pythonhosted.org/packages/aa/3e/8ebdb6318452400b64d7cfa1ded6de3d71fc479db7cc74aa72483e08e63e/niet-3.1.0.tar.gz
+[2023-04-20 14:48:16] INFO root fetch - processPackages [pygus]: executing diffoscope
+[2023-04-20 14:48:16] INFO root fetch - processPackages [pygus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygus-0.1.9.tar.gz tmp/pygus-1.0.tar.gz --markdown 20230420/p/pygus/0.1.9-1.0/diff.md --exclude *.pyd
+[2023-04-20 14:48:16] INFO root fetch - main [MainThread]: End processing [lift.bot]: success
+[2023-04-20 14:48:16] INFO root fetch - processPackages [niet]: executing diffoscope
+[2023-04-20 14:48:16] INFO root fetch - processPackages [niet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niet-3.0.0.tar.gz tmp/niet-3.1.0.tar.gz --markdown 20230420/n/niet/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-04-20 14:48:16] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-04-20 14:48:16] INFO root fetch - main [MainThread]: End processing [fiduswriter-gitrepo-export]: success
+[2023-04-20 14:48:16] INFO root fetch - processPackages [fiduswriter-books]: executing diffoscope
+[2023-04-20 14:48:16] INFO root fetch - processPackages [fiduswriter-books]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiduswriter-books-3.9.4.tar.gz tmp/fiduswriter-books-3.9.5.tar.gz --markdown 20230420/f/fiduswriter-books/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-04-20 14:48:16] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/b3/de/8b81cd1772ebefad24a6ad7d9b9512e0c2a1ec3a3a557b1da7703fd4ea61/QuNet-0.0.2-py3-none-any.whl
+[2023-04-20 14:48:16] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-04-20 14:48:16] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.1-py3-none-any.whl.zip tmp/QuNet-0.0.2-py3-none-any.whl.zip --markdown 20230420/Q/QuNet/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 14:48:17] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-04-20 14:48:17] INFO root fetch - main [MainThread]: End processing [niet]: success
+[2023-04-20 14:48:18] INFO root fetch - main [MainThread]: End processing [fiduswriter-books]: success
+[2023-04-20 14:48:20] INFO root fetch - main [MainThread]: End processing [pygus]: success
+[2023-04-20 14:48:30] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-04-20 14:48:30] INFO root fetch - main [MainThread]: Store serial: [17787073]
