@@ -18150,3 +18150,107 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 16:05:50] INFO root fetch - main [MainThread]: End processing [c4m-flexcell]: success
 [2023-04-20 16:05:50] INFO root fetch - main [MainThread]: End processing [bicm]: success
 [2023-04-20 16:05:50] INFO root fetch - main [MainThread]: Store serial: [17787975]
+[2023-04-20 16:10:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17787975]
+[2023-04-20 16:10:59] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-20 16:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyveb
+[2023-04-20 16:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dalle2-pytorch
+[2023-04-20 16:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyshv
+[2023-04-20 16:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yroom
+[2023-04-20 16:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aspeak
+[2023-04-20 16:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pharmpy-core
+[2023-04-20 16:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-service-client
+[2023-04-20 16:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-service-server
+[2023-04-20 16:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-ui
+[2023-04-20 16:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-v4-service
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-20 16:10:59] INFO root fetch - processPackages [pharmpy-core]: New version: [0.93.1] Old Version: [0.93.0]
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-20 16:10:59] INFO root fetch - processPackages [dalle2-pytorch]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-04-20 16:10:59] INFO root fetch - processPackages [pyveb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 16:10:59] WARNING root fetch - processPackages [pyshv]: Skipping, unable to determine old version
+[2023-04-20 16:10:59] INFO root fetch - processPackages [pyshv]: Start processing: assemblyline
+[2023-04-20 16:10:59] INFO root fetch - main [MainThread]: End processing [pyshv] error
+[2023-04-20 16:10:59] INFO root fetch - processPackages [aspeak]: New version: [5.0.1a2] Old Version: [5.0.0]
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230420/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 16:10:59] INFO root fetch - processPackages [yroom]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 16:10:59] INFO root fetch - processPackages [pharmpy-core]: executing diffoscope
+[2023-04-20 16:10:59] INFO root fetch - processPackages [pharmpy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharmpy-core-0.93.0.tar.gz tmp/pharmpy-core-0.93.1.tar.gz --markdown 20230420/p/pharmpy-core/0.93.0-0.93.1/diff.md --exclude *.pyd
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230420/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230420/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230420/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-04-20 16:10:59] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230420/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 16:10:59] INFO root fetch - processPackages [pyveb]: Downloading https://files.pythonhosted.org/packages/31/53/d0dee2a1c9519b1039d766d51f473ea566de2d0c1eae2a596c6c33b32fd0/pyveb-0.2.8.tar.gz
+[2023-04-20 16:10:59] INFO root fetch - processPackages [dalle2-pytorch]: Downloading https://files.pythonhosted.org/packages/c6/5d/90daf4f8dfb24076900284751b1a79e074ec3210c410b7b1f160fdd17c98/dalle2-pytorch-1.8.4.tar.gz
+[2023-04-20 16:10:59] INFO root fetch - processPackages [yroom]: Downloading https://files.pythonhosted.org/packages/76/91/9a5d854373b20d3036946eab1715165af80bf9513a2fadf124bc32bc80da/yroom-0.0.2.tar.gz
+[2023-04-20 16:10:59] INFO root fetch - processPackages [aspeak]: Downloading https://files.pythonhosted.org/packages/7b/17/1b7d24ae15c2b5af26f74db203237ac270cb969ec2fb147cb91436c2deb5/aspeak-5.0.1a2-cp39-none-win_amd64.whl
+[2023-04-20 16:10:59] INFO root fetch - processPackages [yroom]: Downloading https://files.pythonhosted.org/packages/88/bb/3fb6d42cb42b7c8a3f223efe047ed99b20ee406c3567d21b120644e7d5cf/yroom-0.0.3.tar.gz
+[2023-04-20 16:10:59] INFO root fetch - processPackages [pyveb]: Downloading https://files.pythonhosted.org/packages/dc/17/d67a53eaaf71aba7ee0c68ae51fd4338d20d6979b5cf8e8c74c5c886429e/pyveb-0.2.9.tar.gz
+[2023-04-20 16:11:00] INFO root fetch - processPackages [yroom]: executing diffoscope
+[2023-04-20 16:11:00] INFO root fetch - processPackages [yroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yroom-0.0.2.tar.gz tmp/yroom-0.0.3.tar.gz --markdown 20230420/y/yroom/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 16:11:00] INFO root fetch - processPackages [pyveb]: executing diffoscope
+[2023-04-20 16:11:00] INFO root fetch - processPackages [pyveb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyveb-0.2.8.tar.gz tmp/pyveb-0.2.9.tar.gz --markdown 20230420/p/pyveb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 16:11:00] INFO root fetch - processPackages [aspeak]: executing diffoscope
+[2023-04-20 16:11:00] INFO root fetch - processPackages [aspeak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspeak-5.0.0-cp39-none-win_amd64.whl.zip tmp/aspeak-5.0.1a2-cp39-none-win_amd64.whl.zip --markdown 20230420/a/aspeak/5.0.0-5.0.1a2/diff.md --exclude *.pyd
+[2023-04-20 16:11:00] INFO root fetch - processPackages [dalle2-pytorch]: Downloading https://files.pythonhosted.org/packages/e6/7b/991302a1f9d68a2e03592615022397dc41f8d7cf11248ff571bd2b5ef04b/dalle2-pytorch-1.9.0.tar.gz
+[2023-04-20 16:11:00] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: drakaina
+[2023-04-20 16:11:00] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-04-20 16:11:00] INFO root fetch - processPackages [dalle2-pytorch]: executing diffoscope
+[2023-04-20 16:11:00] INFO root fetch - processPackages [dalle2-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalle2-pytorch-1.8.4.tar.gz tmp/dalle2-pytorch-1.9.0.tar.gz --markdown 20230420/d/dalle2-pytorch/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 16:11:01] INFO root fetch - processPackages [drakaina]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-20 16:11:01] INFO root fetch - processPackages [drakaina]: Downloading https://files.pythonhosted.org/packages/f4/ca/3cc6042f48cae17c85ba4083029853ca888686fa5364a5f6e66272456b29/drakaina-0.6.8.tar.gz
+[2023-04-20 16:11:01] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: assemblyline-core
+[2023-04-20 16:11:01] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-04-20 16:11:01] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-20 16:11:01] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-04-20 16:11:01] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230420/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 16:11:01] INFO root fetch - processPackages [drakaina]: Downloading https://files.pythonhosted.org/packages/dc/be/73b9c560a13548239b1d8a826a1601ab35aee9b96499342c04057f9bec66/drakaina-0.6.9.tar.gz
+[2023-04-20 16:11:01] INFO root fetch - processPackages [assemblyline-ui]: Start processing: gregory-online
+[2023-04-20 16:11:01] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-04-20 16:11:01] INFO root fetch - processPackages [drakaina]: executing diffoscope
+[2023-04-20 16:11:01] INFO root fetch - processPackages [drakaina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drakaina-0.6.8.tar.gz tmp/drakaina-0.6.9.tar.gz --markdown 20230420/d/drakaina/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-20 16:11:01] INFO root fetch - processPackages [yroom]: Start processing: Mongeasy
+[2023-04-20 16:11:01] INFO root fetch - main [MainThread]: End processing [yroom]: success
+[2023-04-20 16:11:01] INFO root fetch - processPackages [Mongeasy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-20 16:11:01] WARNING root fetch - processPackages [gregory-online]: Skipping, unable to determine old version
+[2023-04-20 16:11:01] INFO root fetch - processPackages [gregory-online]: Start processing: bwc-bsconf
+[2023-04-20 16:11:01] INFO root fetch - main [MainThread]: End processing [gregory-online] error
+[2023-04-20 16:11:01] INFO root fetch - processPackages [Mongeasy]: executing diffoscope
+[2023-04-20 16:11:01] INFO root fetch - processPackages [Mongeasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mongeasy-0.1.5.tar.gz tmp/Mongeasy-0.1.6.tar.gz --markdown 20230420/M/Mongeasy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-20 16:11:01] INFO root fetch - processPackages [pyveb]: Start processing: whey-pth
+[2023-04-20 16:11:01] INFO root fetch - main [MainThread]: End processing [pyveb]: success
+[2023-04-20 16:11:01] INFO root fetch - processPackages [bwc-bsconf]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 16:11:01] INFO root fetch - processPackages [whey-pth]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-20 16:11:02] INFO root fetch - processPackages [bwc-bsconf]: Downloading https://files.pythonhosted.org/packages/31/f5/b05d490f674456590c2a2d6fc8c813107e5da2c5b01a99b2755265042da4/bwc-bsconf-0.1.0.tar.gz
+[2023-04-20 16:11:02] INFO root fetch - processPackages [whey-pth]: Downloading https://files.pythonhosted.org/packages/43/d7/ce788122c84ab0cfb2033b9192286722de62980efca1e981359fe8231610/whey-pth-0.0.4.tar.gz
+[2023-04-20 16:11:02] INFO root fetch - processPackages [bwc-bsconf]: Downloading https://files.pythonhosted.org/packages/08/90/40bd2a64779bec8e791e56aba33ad2424b18b1c729d0c623c04253f1a88a/bwc-bsconf-0.1.1.tar.gz
+[2023-04-20 16:11:02] INFO root fetch - processPackages [bwc-bsconf]: executing diffoscope
+[2023-04-20 16:11:02] INFO root fetch - processPackages [bwc-bsconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwc-bsconf-0.1.0.tar.gz tmp/bwc-bsconf-0.1.1.tar.gz --markdown 20230420/b/bwc-bsconf/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 16:11:02] INFO root fetch - processPackages [whey-pth]: Downloading https://files.pythonhosted.org/packages/9c/89/5ce287081192f50e0bc7f40bb54c655b1ee6c840ce2d5cadf832814589fe/whey-pth-0.0.5.tar.gz
+[2023-04-20 16:11:02] INFO root fetch - processPackages [assemblyline]: Start processing: causalnex
+[2023-04-20 16:11:02] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-04-20 16:11:02] INFO root fetch - processPackages [whey-pth]: executing diffoscope
+[2023-04-20 16:11:02] INFO root fetch - processPackages [whey-pth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whey-pth-0.0.4.tar.gz tmp/whey-pth-0.0.5.tar.gz --markdown 20230420/w/whey-pth/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 16:11:02] INFO root fetch - processPackages [causalnex]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-20 16:11:02] INFO root fetch - main [MainThread]: End processing [dalle2-pytorch]: success
+[2023-04-20 16:11:02] INFO root fetch - processPackages [causalnex]: Downloading https://files.pythonhosted.org/packages/af/29/c9f0345945febc1540ff287ac0ffdce55feac41a0d04da0b9c756c0ee56f/causalnex-0.9.1.tar.gz
+[2023-04-20 16:11:02] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-04-20 16:11:03] INFO root fetch - main [MainThread]: End processing [Mongeasy]: success
+[2023-04-20 16:11:03] INFO root fetch - processPackages [causalnex]: Downloading https://files.pythonhosted.org/packages/2f/87/e50fd1bc85c356bc258bbcd0878df5f9b3c3fa00fefe4bdaf53800f36274/causalnex-0.9.2.tar.gz
+[2023-04-20 16:11:03] INFO root fetch - main [MainThread]: End processing [drakaina]: success
+[2023-04-20 16:11:03] INFO root fetch - processPackages [causalnex]: executing diffoscope
+[2023-04-20 16:11:03] INFO root fetch - processPackages [causalnex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causalnex-0.9.1.tar.gz tmp/causalnex-0.9.2.tar.gz --markdown 20230420/c/causalnex/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-20 16:11:03] INFO root fetch - main [MainThread]: End processing [bwc-bsconf]: success
+[2023-04-20 16:11:03] INFO root fetch - main [MainThread]: End processing [whey-pth]: success
+[2023-04-20 16:11:04] INFO root fetch - main [MainThread]: End processing [causalnex]: success
+[2023-04-20 16:11:04] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-04-20 16:11:18] INFO root fetch - main [MainThread]: End processing [pharmpy-core]: success
+[2023-04-20 16:11:27] INFO root fetch - main [MainThread]: End processing [aspeak]: success
+[2023-04-20 16:11:27] INFO root fetch - main [MainThread]: Store serial: [17788093]
