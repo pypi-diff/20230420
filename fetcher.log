@@ -8100,3 +8100,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 07:21:00] INFO root fetch - processPackages [oxalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxalis-0.5.1.tar.gz tmp/oxalis-0.5.2.tar.gz --markdown 20230420/o/oxalis/0.5.1-0.5.2/diff.md --exclude *.pyd
 [2023-04-20 07:21:02] INFO root fetch - main [MainThread]: End processing [oxalis]: success
 [2023-04-20 07:21:02] INFO root fetch - main [MainThread]: Store serial: [17782335]
+[2023-04-20 07:26:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17782335]
+[2023-04-20 07:26:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-20 07:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cwsearch-utils
+[2023-04-20 07:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: general-calculator-zsd
+[2023-04-20 07:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bbai
+[2023-04-20 07:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mtnet
+[2023-04-20 07:26:10] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 07:26:10] INFO root fetch - processPackages [general-calculator-zsd]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-20 07:26:10] INFO root fetch - processPackages [bbai]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-20 07:26:10] WARNING root fetch - processPackages [mtnet]: Skipping, unable to determine old version
+[2023-04-20 07:26:10] INFO root fetch - main [MainThread]: End processing [mtnet] error
+[2023-04-20 07:26:10] INFO root fetch - processPackages [general-calculator-zsd]: Downloading https://files.pythonhosted.org/packages/71/29/5acaf74e14cb038c3f951958f6661e7b6ae465c0b07ed13c84183abe6362/general_calculator_zsd-1.1.4.tar.gz
+[2023-04-20 07:26:11] INFO root fetch - processPackages [cwsearch-utils]: Downloading https://files.pythonhosted.org/packages/05/1a/f47c6297c519e44b98abd002fb268d6ca714741bd948a13bd77290fa22f8/cwsearch_utils-0.1.9-py3-none-any.whl
+[2023-04-20 07:26:11] INFO root fetch - processPackages [bbai]: Downloading https://files.pythonhosted.org/packages/22/da/1a0b13cc0f26377dba871f7e036d2055400052e2140661c5881c44e8e622/bbai-1.3.1-py3-none-manylinux1_x86_64.whl
+[2023-04-20 07:26:11] WARNING root fetch - processPackages [bbai]: Skipping package: exceeds size limit 18805158>=10485760
+[2023-04-20 07:26:11] INFO root fetch - main [MainThread]: End processing [bbai] error
+[2023-04-20 07:26:11] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-04-20 07:26:11] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230420/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 07:26:11] INFO root fetch - processPackages [general-calculator-zsd]: Downloading https://files.pythonhosted.org/packages/8b/06/df6145c406f34e0e329c1710f58aeb31273be31507c1cc3a5b405ebdc5c9/general_calculator_zsd-1.1.5.tar.gz
+[2023-04-20 07:26:11] INFO root fetch - processPackages [general-calculator-zsd]: executing diffoscope
+[2023-04-20 07:26:11] INFO root fetch - processPackages [general-calculator-zsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_calculator_zsd-1.1.4.tar.gz tmp/general_calculator_zsd-1.1.5.tar.gz --markdown 20230420/g/general-calculator-zsd/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-20 07:26:12] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-04-20 07:26:12] INFO root fetch - main [MainThread]: End processing [general-calculator-zsd]: success
+[2023-04-20 07:26:12] INFO root fetch - main [MainThread]: Store serial: [17782352]
