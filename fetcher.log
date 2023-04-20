@@ -13494,3 +13494,196 @@ EOFError: EOF read where object expected
 [2023-04-20 11:59:48] INFO root fetch - main [MainThread]: End processing [openapiart]: success
 [2023-04-20 12:00:01] INFO root fetch - main [MainThread]: End processing [aprilbox]: success
 [2023-04-20 12:00:01] INFO root fetch - main [MainThread]: Store serial: [17785146]
+[2023-04-20 12:05:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17785146]
+[2023-04-20 12:05:11] INFO root fetch - main [MainThread]: Found 41 changed packages
+[2023-04-20 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aprilbox
+[2023-04-20 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: addr-match
+[2023-04-20 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: address-corrector
+[2023-04-20 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2023-04-20 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: address-ner
+[2023-04-20 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: address-parsing-tool
+[2023-04-20 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lsst-utils
+[2023-04-20 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsst-ctrl-bps-parsl
+[2023-04-20 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aibox-core
+[2023-04-20 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aibox-ops
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [addr-match]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [addr-match]: Start processing: qunetsim
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [addr-match] error
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [address-ner]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [address-ner]: Start processing: lsst-ctrl-bps-panda
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [aprilbox]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [address-corrector]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [address-ner] error
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [address-parsing-tool]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [aprilbox]: Start processing: aip-hera
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [aibox-core]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [address-corrector]: Start processing: lsst-resources
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [aprilbox] error
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [aibox-ops]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [address-parsing-tool]: Start processing: aip-infer-utils
+[2023-04-20 12:05:12] INFO root fetch - processPackages [aibox-core]: Start processing: astro-metadata-translator
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [address-corrector] error
+[2023-04-20 12:05:12] INFO root fetch - processPackages [aibox-ops]: Start processing: aip-kafka-worker
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [address-parsing-tool] error
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [aibox-core] error
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [aibox-ops] error
+[2023-04-20 12:05:12] INFO root fetch - processPackages [qunetsim]: New version: [0.1.3.post1] Old Version: [0.1.3]
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [aip-hera]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-resources]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-20 12:05:12] INFO root fetch - processPackages [aip-hera]: Start processing: aip-oneservice
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [aip-hera] error
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [aip-infer-utils]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [aip-infer-utils]: Start processing: albprov
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [aip-kafka-worker]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [aip-infer-utils] error
+[2023-04-20 12:05:12] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-20 12:05:12] INFO root fetch - processPackages [cg]: New version: [29.0.3] Old Version: [29.0.2]
+[2023-04-20 12:05:12] INFO root fetch - processPackages [aip-kafka-worker]: Start processing: albprov-test
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [aip-kafka-worker] error
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [albprov]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [albprov]: Start processing: apcc-pytest-html
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [albprov] error
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [aip-oneservice]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [aip-oneservice]: Start processing: apcc-qa-mock-server
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [aip-oneservice] error
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [albprov-test]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [albprov-test]: Start processing: api-model-test
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [albprov-test] error
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [apcc-pytest-html]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [apcc-pytest-html]: Start processing: lsst-daf-relation
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [apcc-pytest-html] error
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [apcc-qa-mock-server]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [apcc-qa-mock-server]: Start processing: api-module-test
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [apcc-qa-mock-server] error
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [api-model-test]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [api-model-test]: Start processing: sosse
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [api-model-test] error
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-daf-relation]: New version: [1.0.0a20230500] Old Version: [1.0.0a20230400]
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [sosse]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [sosse]: Start processing: apolloconf
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [sosse] error
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [api-module-test]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [api-module-test]: Start processing: dg-itest
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [api-module-test] error
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [apolloconf]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [apolloconf]: Start processing: az-server-list
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [apolloconf] error
+[2023-04-20 12:05:12] INFO root fetch - processPackages [dg-itest]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [az-server-list]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [az-server-list]: Start processing: banking-ci
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [az-server-list] error
+[2023-04-20 12:05:12] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/88/0f/ddf4d690ba71629b94ef331c1dcf381615f5fa0220cfb725331d64d70fe9/astro-metadata-translator-26.0.0a20230400.tar.gz
+[2023-04-20 12:05:12] WARNING root fetch - processPackages [banking-ci]: Skipping, unable to determine old version
+[2023-04-20 12:05:12] INFO root fetch - processPackages [banking-ci]: Start processing: lsst-ctrl-mpexec
+[2023-04-20 12:05:12] INFO root fetch - main [MainThread]: End processing [banking-ci] error
+[2023-04-20 12:05:12] INFO root fetch - processPackages [qunetsim]: Downloading https://files.pythonhosted.org/packages/2e/77/31079e8fbed081ae53f05c5de93b2a838360d9a0e0e10373bc6a336bc15d/qunetsim-0.1.3.post1.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/95/d2/5d16674a9fbd9d5c6dd08502fdaf2392373a5ee644f82312b6433f0688b3/lsst-utils-26.0.0a20230400.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/52/45/0dcc92ba8f25516fe59b89e0b4b6425fc82775a8f89d22382ac6ff4365d5/lsst-resources-26.0.0a20230400.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/a0/22/0b893c9cd95d92d19da99d597013f1dd89c378a4a37bd4122e57406ac7c5/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/35/8c/c122879a959643f033a579ff1b13d2b33ec6c21551ffa1629264c6d3561a/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b1/bc/f1b6a855249f7307912d08d48708b9ddd1c76ce5adb66337be48eae4c4ab/cg-29.0.3.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [dg-itest]: Downloading https://files.pythonhosted.org/packages/1e/ad/45f417eac8fa3d903df93e3194799078be30fcfe50acb4fae825c3b00317/dg_itest-0.0.1-py3-none-any.whl
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/cf/ba/39bf44ae9e7557239b4e75ccc2395eff1e08c3015340be39cd798f07fb37/lsst-daf-relation-1.0.0a20230400.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [qunetsim]: executing diffoscope
+[2023-04-20 12:05:12] INFO root fetch - processPackages [qunetsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qunetsim-0.1.3.tar.gz tmp/qunetsim-0.1.3.post1.tar.gz --markdown 20230420/q/qunetsim/0.1.3-0.1.3.post1/diff.md --exclude *.pyd
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/7d/95/1fd49d0ac8149861738d465629d14648e00335b6f27b60edea825d22869f/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/68/73/220eb613172bcce921a4d51c76efc50a37bcd1469c86a7fdd5726300f75b/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/f6/a2/6962018c4d5dc18839328422a99767c526540467659fab3d4282192e3763/astro-metadata-translator-26.0.0a20230500.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/a1/31/225778e738d8196a59aa0442a433f627643f68797e49472ba8e7b8594e59/lsst-resources-26.0.0a20230500.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/72/74/81575ebd50afb9ebc10787897207947703ae9d32205910da14de85cdef05/lsst-utils-26.0.0a20230500.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [dg-itest]: Downloading https://files.pythonhosted.org/packages/b4/c9/4c24e617f1e351bb4ce469dc48365e97d87a5077c994ee413a6cb68161b6/dg-itest-0.0.2.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/73/d7/e06e478c242de09a2c5605a32a3c6bc7f4a1e1aca5c81495250b2cc49b28/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-resources]: executing diffoscope
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-resources-26.0.0a20230400.tar.gz tmp/lsst-resources-26.0.0a20230500.tar.gz --markdown 20230420/l/lsst-resources/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: executing diffoscope
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz --markdown 20230420/l/lsst-ctrl-bps-panda/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/5e/5f/8e71741c69e90c32fd13e64e116dae04c056109846e98b96beed49ce1d01/lsst-daf-relation-1.0.0a20230500.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230420/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz --markdown 20230420/l/lsst-ctrl-bps-parsl/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-20 12:05:12] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-04-20 12:05:12] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230420/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-1.0.0a20230400.tar.gz tmp/lsst-daf-relation-1.0.0a20230500.tar.gz --markdown 20230420/l/lsst-daf-relation/1.0.0a20230400-1.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-20 12:05:12] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/61/b7/81e5f821fadf907a5b8aba51baef7441e1a4b2d1899448ea4c15512f8b33/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz
+[2023-04-20 12:05:12] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-20 12:05:12] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.0.2.tar.gz tmp/cg-29.0.3.tar.gz --markdown 20230420/c/cg/29.0.2-29.0.3/diff.md --exclude *.pyd
+[2023-04-20 12:05:13] INFO root fetch - processPackages [dg-itest]: executing diffoscope
+[2023-04-20 12:05:13] INFO root fetch - processPackages [dg-itest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg_itest-0.0.1-py3-none-any.whl.zip tmp/dg-itest-0.0.2.tar.gz --markdown 20230420/d/dg-itest/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 12:05:13] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2023-04-20 12:05:13] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz --markdown 20230420/l/lsst-ctrl-mpexec/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-20 12:05:14] INFO root fetch - processPackages [qunetsim]: Start processing: odoo14-addon-sale-promotion-discount-in-field
+[2023-04-20 12:05:14] INFO root fetch - main [MainThread]: End processing [qunetsim]: success
+[2023-04-20 12:05:14] INFO root fetch - processPackages [odoo14-addon-sale-promotion-discount-in-field]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-04-20 12:05:14] INFO root fetch - processPackages [odoo14-addon-sale-promotion-discount-in-field]: Downloading https://files.pythonhosted.org/packages/34/ec/5c357a0275d9ae1c99194389d468972a89e8da2269d6f34a491271ffcc44/odoo14_addon_sale_promotion_discount_in_field-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-04-20 12:05:14] INFO root fetch - processPackages [dg-itest]: Start processing: lsst-ctrl-bps
+[2023-04-20 12:05:14] INFO root fetch - main [MainThread]: End processing [dg-itest]: success
+[2023-04-20 12:05:14] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-20 12:05:14] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Start processing: lsst-pipe-base
+[2023-04-20 12:05:14] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-panda]: success
+[2023-04-20 12:05:14] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-20 12:05:14] INFO root fetch - processPackages [lsst-resources]: Start processing: sag-py-logging-logstash
+[2023-04-20 12:05:14] INFO root fetch - main [MainThread]: End processing [lsst-resources]: success
+[2023-04-20 12:05:14] INFO root fetch - processPackages [sag-py-logging-logstash]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-04-20 12:05:14] INFO root fetch - processPackages [astro-metadata-translator]: Start processing: odoo14-addon-dms
+[2023-04-20 12:05:14] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-04-20 12:05:14] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/3f/25/dd5788122d831e91f7a5b6df98e8e2d65df587d64b2a7e8e703b9f85d293/lsst-ctrl-bps-26.0.0a20230400.tar.gz
+[2023-04-20 12:05:14] INFO root fetch - processPackages [odoo14-addon-dms]: New version: [14.0.4.6.1.dev1] Old Version: [14.0.4.6.1]
+[2023-04-20 12:05:14] INFO root fetch - processPackages [lsst-utils]: Start processing: snappi
+[2023-04-20 12:05:14] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-04-20 12:05:14] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Start processing: gmail-scanner
+[2023-04-20 12:05:14] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2023-04-20 12:05:14] INFO root fetch - processPackages [snappi]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-20 12:05:14] INFO root fetch - processPackages [gmail-scanner]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-20 12:05:14] INFO root fetch - processPackages [lsst-daf-relation]: Start processing: didicli
+[2023-04-20 12:05:14] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2023-04-20 12:05:14] WARNING root fetch - processPackages [didicli]: Skipping, unable to determine old version
+[2023-04-20 12:05:14] INFO root fetch - processPackages [didicli]: Start processing: asi4py
+[2023-04-20 12:05:14] INFO root fetch - main [MainThread]: End processing [didicli] error
+[2023-04-20 12:05:14] INFO root fetch - processPackages [sag-py-logging-logstash]: Downloading https://files.pythonhosted.org/packages/97/4b/052ac9b54976993699f93902d4be1caf9b82628717868169c720d597315e/sag-py-logging-logstash-2.3.5.tar.gz
+[2023-04-20 12:05:14] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/4a/2a/d7e53c7284052c1d3edb447a5c44734c2eb2276c39ac6857f02d9a0e77d3/lsst-pipe-base-26.0.0a20230400.tar.gz
+[2023-04-20 12:05:14] INFO root fetch - processPackages [odoo14-addon-dms]: Downloading https://files.pythonhosted.org/packages/98/99/1b2b39462549000507d46970643384ca057bd44935b9260e74adcf6563c0/odoo14_addon_dms-14.0.4.6.1-py3-none-any.whl
+[2023-04-20 12:05:15] INFO root fetch - processPackages [snappi]: executing diffoscope
+[2023-04-20 12:05:15] INFO root fetch - processPackages [snappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snappi-0.9.7.tar.gz tmp/snappi-0.9.8.tar.gz --markdown 20230420/s/snappi/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-20 12:05:15] INFO root fetch - processPackages [asi4py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 12:05:15] INFO root fetch - processPackages [gmail-scanner]: Downloading https://files.pythonhosted.org/packages/27/17/bacdc95a61d54325539d95540ce5bedf71dcee6b5c2ecdf50a63bb28c304/gmail_scanner-1.0.7.tar.gz
+[2023-04-20 12:05:15] WARNING root fetch - processPackages [odoo14-addon-dms]: Skipping package: exceeds size limit 15630705>=10485760
+[2023-04-20 12:05:15] INFO root fetch - processPackages [odoo14-addon-dms]: Start processing: aheadworks-deploy-manager
+[2023-04-20 12:05:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-dms] error
+[2023-04-20 12:05:15] INFO root fetch - processPackages [odoo14-addon-sale-promotion-discount-in-field]: Downloading https://files.pythonhosted.org/packages/dc/ec/ba684b53a490ae779fcd02539fe48d2845e229acd60c450763fdbd97c9ef/odoo14_addon_sale_promotion_discount_in_field-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-04-20 12:05:15] INFO root fetch - processPackages [sag-py-logging-logstash]: Downloading https://files.pythonhosted.org/packages/21/b2/f363e8a19a828de4f17c0dd801f7d2e1b94e3395d267760a0eddd1c9a047/sag-py-logging-logstash-2.3.6.tar.gz
+[2023-04-20 12:05:15] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/74/ca/f9dbc4fb6958267f1ee9ce347a76bcb3d1dcb671ceaf427711055ab6c67c/lsst-ctrl-bps-26.0.0a20230500.tar.gz
+[2023-04-20 12:05:15] INFO root fetch - processPackages [gmail-scanner]: executing diffoscope
+[2023-04-20 12:05:15] INFO root fetch - processPackages [gmail-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmail_scanner-1.0.6.tar.gz tmp/gmail_scanner-1.0.7.tar.gz --markdown 20230420/g/gmail-scanner/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-20 12:05:15] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-20 12:05:15] INFO root fetch - processPackages [odoo14-addon-sale-promotion-discount-in-field]: executing diffoscope
+[2023-04-20 12:05:15] INFO root fetch - processPackages [odoo14-addon-sale-promotion-discount-in-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_promotion_discount_in_field-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_sale_promotion_discount_in_field-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230420/o/odoo14-addon-sale-promotion-discount-in-field/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-04-20 12:05:15] INFO root fetch - processPackages [sag-py-logging-logstash]: executing diffoscope
+[2023-04-20 12:05:15] INFO root fetch - processPackages [sag-py-logging-logstash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-logging-logstash-2.3.5.tar.gz tmp/sag-py-logging-logstash-2.3.6.tar.gz --markdown 20230420/s/sag-py-logging-logstash/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-04-20 12:05:15] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/43/b8/e01f76a3da14b328fd43a97c36653216b676c2f3b0fd8c71e30d4ff1132e/lsst-pipe-base-26.0.0a20230500.tar.gz
+[2023-04-20 12:05:15] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2023-04-20 12:05:15] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz --markdown 20230420/l/lsst-ctrl-bps/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-20 12:05:15] INFO root fetch - processPackages [asi4py]: executing diffoscope
+[2023-04-20 12:05:15] INFO root fetch - processPackages [asi4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asi4py-0.0.8.tar.gz tmp/asi4py-0.0.9.tar.gz --markdown 20230420/a/asi4py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 12:05:15] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/a8/12/71f81e88013c286d993248a3e8753667bc491c5fb22fa884278b068c5303/aheadworks_deploy_manager-1.4.8.tar.gz
+[2023-04-20 12:05:15] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2023-04-20 12:05:15] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.0.0a20230400.tar.gz tmp/lsst-pipe-base-26.0.0a20230500.tar.gz --markdown 20230420/l/lsst-pipe-base/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-20 12:05:16] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/b8/01/5da57b9f1dbd79a13b113866cf9afb24012c894a5971947bf7d29ae2ad18/aheadworks_deploy_manager-1.4.9.tar.gz
+[2023-04-20 12:05:16] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2023-04-20 12:05:16] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-04-20 12:05:16] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230420/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-20 12:05:16] INFO root fetch - main [MainThread]: End processing [gmail-scanner]: success
+[2023-04-20 12:05:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-promotion-discount-in-field]: success
+[2023-04-20 12:05:16] INFO root fetch - main [MainThread]: End processing [sag-py-logging-logstash]: success
+[2023-04-20 12:05:16] INFO root fetch - main [MainThread]: End processing [asi4py]: success
+[2023-04-20 12:05:17] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2023-04-20 12:05:17] INFO root fetch - main [MainThread]: End processing [snappi]: success
+[2023-04-20 12:05:17] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-04-20 12:05:26] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-20 12:05:29] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2023-04-20 12:05:29] INFO root fetch - main [MainThread]: Store serial: [17785303]
