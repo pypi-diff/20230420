@@ -21924,3 +21924,102 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 19:03:11] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
 [2023-04-20 19:03:12] INFO root fetch - main [MainThread]: End processing [pydantic]: success
 [2023-04-20 19:03:12] INFO root fetch - main [MainThread]: Store serial: [17790521]
+[2023-04-20 19:08:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790521]
+[2023-04-20 19:08:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-20 19:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openchord
+[2023-04-20 19:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netrics-measurements
+[2023-04-20 19:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valmi-connector-lib
+[2023-04-20 19:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boldqc
+[2023-04-20 19:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apinator
+[2023-04-20 19:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: module-qc-analysis-tools
+[2023-04-20 19:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pywdgen
+[2023-04-20 19:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apinator-databricks
+[2023-04-20 19:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: htbulma
+[2023-04-20 19:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiogram-ext
+[2023-04-20 19:08:23] INFO root fetch - processPackages [boldqc]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-20 19:08:23] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 19:08:23] INFO root fetch - processPackages [apinator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-20 19:08:23] INFO root fetch - processPackages [module-qc-analysis-tools]: New version: [1.3.1rc1] Old Version: [1.3.0]
+[2023-04-20 19:08:23] INFO root fetch - processPackages [netrics-measurements]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-04-20 19:08:23] INFO root fetch - processPackages [apinator-databricks]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 19:08:23] INFO root fetch - processPackages [openchord]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 19:08:23] INFO root fetch - processPackages [aiogram-ext]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 19:08:23] WARNING root fetch - processPackages [pywdgen]: Skipping, unable to determine old version
+[2023-04-20 19:08:23] INFO root fetch - processPackages [pywdgen]: Start processing: leechcorepyc
+[2023-04-20 19:08:23] INFO root fetch - main [MainThread]: End processing [pywdgen] error
+[2023-04-20 19:08:23] INFO root fetch - processPackages [htbulma]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-20 19:08:23] INFO root fetch - processPackages [leechcorepyc]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-04-20 19:08:23] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-04-20 19:08:23] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230420/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 19:08:23] INFO root fetch - processPackages [boldqc]: Downloading https://files.pythonhosted.org/packages/7e/b8/ee427f86bb2acf96d30e117e179544277768f3910b230cc7a8cced915cb6/boldqc-0.1.1-py2.py3-none-any.whl
+[2023-04-20 19:08:23] INFO root fetch - processPackages [module-qc-analysis-tools]: Downloading https://files.pythonhosted.org/packages/e9/cb/edbbd87d8d5da2ec50629c740e4bbde137344fa65076ef126e07c50a5253/module_qc_analysis_tools-1.3.0.tar.gz
+[2023-04-20 19:08:23] INFO root fetch - processPackages [apinator]: Downloading https://files.pythonhosted.org/packages/13/ca/bd23e6088795d02f3518ca80e2ebfdefe2faf0e56b5ff4784bb1674bb33f/apinator-0.0.4.tar.gz
+[2023-04-20 19:08:23] INFO root fetch - processPackages [apinator-databricks]: Downloading https://files.pythonhosted.org/packages/33/ca/eb394b238dac06cda2c1b7c8311cc064b23c95cc088f6b74665bf05a6010/apinator-databricks-0.0.1.tar.gz
+[2023-04-20 19:08:23] INFO root fetch - processPackages [netrics-measurements]: Downloading https://files.pythonhosted.org/packages/15/c4/266a2bbf6e2b9f2de6caf0bcb464234ce6d1627f8fb96b53cba1498dde8f/netrics_measurements-0.0.1rc8.tar.gz
+[2023-04-20 19:08:23] INFO root fetch - processPackages [leechcorepyc]: Downloading https://files.pythonhosted.org/packages/54/9e/10b361cfa728f728beecfacdc1e4fc2ca0462f56c8e73fd7e8738f5c8f36/leechcorepyc-2.8.0.tar.gz
+[2023-04-20 19:08:23] INFO root fetch - processPackages [openchord]: Downloading https://files.pythonhosted.org/packages/a2/eb/ed6764de87dccb6952ce73c1dfe578cd8282e60d8e87f5d3da827bfffe28/openchord-0.1.3.tar.gz
+[2023-04-20 19:08:23] INFO root fetch - processPackages [apinator]: executing diffoscope
+[2023-04-20 19:08:23] INFO root fetch - processPackages [apinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apinator-0.0.3.tar.gz tmp/apinator-0.0.4.tar.gz --markdown 20230420/a/apinator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-20 19:08:23] INFO root fetch - processPackages [htbulma]: Downloading https://files.pythonhosted.org/packages/59/8f/3124328a95b47ce1752f9e279156efd71b9e4ef0b5fbef82225de60f3ad8/htbulma-0.9.6.tar.gz
+[2023-04-20 19:08:23] INFO root fetch - processPackages [openchord]: executing diffoscope
+[2023-04-20 19:08:23] INFO root fetch - processPackages [openchord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openchord-0.1.2.tar.gz tmp/openchord-0.1.3.tar.gz --markdown 20230420/o/openchord/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 19:08:23] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-20 19:08:23] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.0.8.tar.gz tmp/aiogram-ext-0.0.9.tar.gz --markdown 20230420/a/aiogram-ext/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 19:08:23] INFO root fetch - processPackages [boldqc]: Downloading https://files.pythonhosted.org/packages/58/ee/7a9f1dd03e5e53244ce684e0a50e664995a518d10f90d43d8d44794126b4/boldqc-0.2.0-py2.py3-none-any.whl
+[2023-04-20 19:08:23] INFO root fetch - processPackages [htbulma]: executing diffoscope
+[2023-04-20 19:08:23] INFO root fetch - processPackages [htbulma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htbulma-0.9.5.tar.gz tmp/htbulma-0.9.6.tar.gz --markdown 20230420/h/htbulma/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-20 19:08:23] INFO root fetch - processPackages [apinator-databricks]: Downloading https://files.pythonhosted.org/packages/a1/e7/aa7578d7b0ca06e99a18eb270c700a04d51bd05daa8943503531acd276f3/apinator-databricks-0.0.2.tar.gz
+[2023-04-20 19:08:23] INFO root fetch - processPackages [netrics-measurements]: Downloading https://files.pythonhosted.org/packages/d4/3a/7d1fecfbb85e23cb614adb275c0f7a127ee6f995e56720f2c5ab1fba8d85/netrics_measurements-0.0.1rc9.tar.gz
+[2023-04-20 19:08:23] INFO root fetch - processPackages [module-qc-analysis-tools]: Downloading https://files.pythonhosted.org/packages/a4/41/b0356575e80a63486adc3c388370a6a5ff620ab3749fafb7f17763ad9910/module_qc_analysis_tools-1.3.1rc1.tar.gz
+[2023-04-20 19:08:23] INFO root fetch - processPackages [boldqc]: executing diffoscope
+[2023-04-20 19:08:23] INFO root fetch - processPackages [boldqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boldqc-0.1.1-py2.py3-none-any.whl.zip tmp/boldqc-0.2.0-py2.py3-none-any.whl.zip --markdown 20230420/b/boldqc/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 19:08:23] INFO root fetch - processPackages [netrics-measurements]: executing diffoscope
+[2023-04-20 19:08:23] INFO root fetch - processPackages [netrics-measurements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netrics_measurements-0.0.1rc8.tar.gz tmp/netrics_measurements-0.0.1rc9.tar.gz --markdown 20230420/n/netrics-measurements/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-04-20 19:08:23] INFO root fetch - processPackages [apinator-databricks]: executing diffoscope
+[2023-04-20 19:08:23] INFO root fetch - processPackages [apinator-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apinator-databricks-0.0.1.tar.gz tmp/apinator-databricks-0.0.2.tar.gz --markdown 20230420/a/apinator-databricks/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 19:08:23] INFO root fetch - processPackages [module-qc-analysis-tools]: executing diffoscope
+[2023-04-20 19:08:23] INFO root fetch - processPackages [module-qc-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_qc_analysis_tools-1.3.0.tar.gz tmp/module_qc_analysis_tools-1.3.1rc1.tar.gz --markdown 20230420/m/module-qc-analysis-tools/1.3.0-1.3.1rc1/diff.md --exclude *.pyd
+[2023-04-20 19:08:24] INFO root fetch - processPackages [leechcorepyc]: Downloading https://files.pythonhosted.org/packages/e6/52/24292fbdc9d104ec939737b4a4b656fcc87a4a658d6cf8281f31a4ae82e8/leechcorepyc-2.8.1.tar.gz
+[2023-04-20 19:08:24] INFO root fetch - processPackages [leechcorepyc]: executing diffoscope
+[2023-04-20 19:08:24] INFO root fetch - processPackages [leechcorepyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leechcorepyc-2.8.0.tar.gz tmp/leechcorepyc-2.8.1.tar.gz --markdown 20230420/l/leechcorepyc/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-04-20 19:08:24] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: dalle2-pytorch
+[2023-04-20 19:08:24] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-04-20 19:08:25] INFO root fetch - processPackages [dalle2-pytorch]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-04-20 19:08:25] INFO root fetch - processPackages [apinator]: Start processing: yk-utils
+[2023-04-20 19:08:25] INFO root fetch - main [MainThread]: End processing [apinator]: success
+[2023-04-20 19:08:25] INFO root fetch - processPackages [yk-utils]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-04-20 19:08:25] INFO root fetch - processPackages [dalle2-pytorch]: executing diffoscope
+[2023-04-20 19:08:25] INFO root fetch - processPackages [dalle2-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalle2-pytorch-1.8.4.tar.gz tmp/dalle2-pytorch-1.9.0.tar.gz --markdown 20230420/d/dalle2-pytorch/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 19:08:25] INFO root fetch - processPackages [openchord]: Start processing: devex-sdk
+[2023-04-20 19:08:25] INFO root fetch - main [MainThread]: End processing [openchord]: success
+[2023-04-20 19:08:25] INFO root fetch - processPackages [devex-sdk]: New version: [1.0.0b1] Old Version: [0.1.0]
+[2023-04-20 19:08:25] INFO root fetch - processPackages [yk-utils]: Downloading https://files.pythonhosted.org/packages/7e/71/50c2dd172d478db99b33caa964b8d3162ef66f01e793be90bb1fe550339e/yk_utils-1.3.3.tar.gz
+[2023-04-20 19:08:25] INFO root fetch - processPackages [aiogram-ext]: Start processing: matomo
+[2023-04-20 19:08:25] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-20 19:08:25] INFO root fetch - processPackages [matomo]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-04-20 19:08:25] INFO root fetch - processPackages [devex-sdk]: Downloading https://files.pythonhosted.org/packages/b6/05/56e366210b169c15b7d9649fa07f6f50f46b553687eb729e089cbfb2f152/devex_sdk-1.0.0b1.tar.gz
+[2023-04-20 19:08:25] INFO root fetch - processPackages [yk-utils]: Downloading https://files.pythonhosted.org/packages/a3/87/ef60bb9176c050dd4f8d46aea41189dc59c774e4a8a701bd2401ce4e520a/yk_utils-1.3.4.tar.gz
+[2023-04-20 19:08:25] INFO root fetch - processPackages [matomo]: Downloading https://files.pythonhosted.org/packages/d4/25/c2ee38774a28199d41661c9d66f95312bba4b795293c11659db83cde3217/matomo-0.7.3.tar.gz
+[2023-04-20 19:08:25] INFO root fetch - processPackages [yk-utils]: executing diffoscope
+[2023-04-20 19:08:25] INFO root fetch - processPackages [yk-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yk_utils-1.3.3.tar.gz tmp/yk_utils-1.3.4.tar.gz --markdown 20230420/y/yk-utils/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-04-20 19:08:25] INFO root fetch - processPackages [devex-sdk]: executing diffoscope
+[2023-04-20 19:08:25] INFO root fetch - processPackages [devex-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devex_sdk-0.1.0.tar.gz tmp/devex_sdk-1.0.0b1.tar.gz --markdown 20230420/d/devex-sdk/0.1.0-1.0.0b1/diff.md --exclude *.pyd
+[2023-04-20 19:08:25] INFO root fetch - processPackages [apinator-databricks]: Start processing: imagen-pytorch
+[2023-04-20 19:08:25] INFO root fetch - main [MainThread]: End processing [apinator-databricks]: success
+[2023-04-20 19:08:25] INFO root fetch - processPackages [imagen-pytorch]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-04-20 19:08:25] INFO root fetch - processPackages [matomo]: Downloading https://files.pythonhosted.org/packages/b2/5a/3729be815eeb515ac1eb11f7565713c2b7e4eb98b4968b0fc025e6cd51c3/matomo-0.7.4.tar.gz
+[2023-04-20 19:08:25] INFO root fetch - processPackages [imagen-pytorch]: executing diffoscope
+[2023-04-20 19:08:25] INFO root fetch - processPackages [imagen-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imagen-pytorch-1.9.6.tar.gz tmp/imagen-pytorch-1.9.7.tar.gz --markdown 20230420/i/imagen-pytorch/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-04-20 19:08:26] INFO root fetch - processPackages [matomo]: executing diffoscope
+[2023-04-20 19:08:26] INFO root fetch - processPackages [matomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matomo-0.7.3.tar.gz tmp/matomo-0.7.4.tar.gz --markdown 20230420/m/matomo/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-04-20 19:08:26] INFO root fetch - main [MainThread]: End processing [boldqc]: success
+[2023-04-20 19:08:26] INFO root fetch - main [MainThread]: End processing [leechcorepyc]: success
+[2023-04-20 19:08:26] INFO root fetch - main [MainThread]: End processing [netrics-measurements]: success
+[2023-04-20 19:08:26] INFO root fetch - main [MainThread]: End processing [module-qc-analysis-tools]: success
+[2023-04-20 19:08:26] INFO root fetch - main [MainThread]: End processing [dalle2-pytorch]: success
+[2023-04-20 19:08:26] INFO root fetch - main [MainThread]: End processing [htbulma]: success
+[2023-04-20 19:08:27] INFO root fetch - main [MainThread]: End processing [yk-utils]: success
+[2023-04-20 19:08:27] INFO root fetch - main [MainThread]: End processing [matomo]: success
+[2023-04-20 19:08:27] INFO root fetch - main [MainThread]: End processing [imagen-pytorch]: success
+[2023-04-20 19:08:27] INFO root fetch - main [MainThread]: End processing [devex-sdk]: success
+[2023-04-20 19:08:27] INFO root fetch - main [MainThread]: Store serial: [17790575]
