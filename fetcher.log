@@ -21132,3 +21132,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 18:14:06] INFO root fetch - main [MainThread]: End processing [huble]: success
 [2023-04-20 18:14:06] INFO root fetch - main [MainThread]: End processing [crypto-cpp-py]: success
 [2023-04-20 18:14:06] INFO root fetch - main [MainThread]: Store serial: [17789930]
+[2023-04-20 18:19:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17789930]
+[2023-04-20 18:19:16] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-20 18:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huble
+[2023-04-20 18:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danielutils
+[2023-04-20 18:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UniverseLists
+[2023-04-20 18:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dumbo-esse3
+[2023-04-20 18:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mcsas3
+[2023-04-20 18:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multi-repo-automation
+[2023-04-20 18:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: demoparser2
+[2023-04-20 18:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: my-pipeline-package
+[2023-04-20 18:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-okta-client
+[2023-04-20 18:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mercury
+[2023-04-20 18:19:16] INFO root fetch - processPackages [danielutils]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-20 18:19:16] WARNING root fetch - processPackages [UniverseLists]: Skipping, unable to determine old version
+[2023-04-20 18:19:16] INFO root fetch - processPackages [mercury]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-04-20 18:19:16] INFO root fetch - processPackages [UniverseLists]: Start processing: pdfathom
+[2023-04-20 18:19:16] INFO root fetch - main [MainThread]: End processing [UniverseLists] error
+[2023-04-20 18:19:16] INFO root fetch - processPackages [dumbo-esse3]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-20 18:19:16] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 18:19:16] INFO root fetch - processPackages [pdfathom]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 18:19:16] INFO root fetch - processPackages [dumbo-esse3]: executing diffoscope
+[2023-04-20 18:19:16] INFO root fetch - processPackages [dumbo-esse3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumbo_esse3-0.4.0.tar.gz tmp/dumbo_esse3-0.4.1.tar.gz --markdown 20230420/d/dumbo-esse3/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-20 18:19:16] INFO root fetch - processPackages [multi-repo-automation]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-20 18:19:16] INFO root fetch - processPackages [danielutils]: executing diffoscope
+[2023-04-20 18:19:16] INFO root fetch - processPackages [danielutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danielutils-0.8.1.tar.gz tmp/danielutils-0.8.2.tar.gz --markdown 20230420/d/danielutils/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-20 18:19:16] INFO root fetch - processPackages [mercury]: executing diffoscope
+[2023-04-20 18:19:16] WARNING root fetch - processPackages [mcsas3]: Skipping, unable to determine old version
+[2023-04-20 18:19:16] INFO root fetch - processPackages [mercury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-2.2.2.tar.gz tmp/mercury-2.2.3.tar.gz --markdown 20230420/m/mercury/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-04-20 18:19:16] INFO root fetch - processPackages [demoparser2]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-04-20 18:19:16] INFO root fetch - main [MainThread]: End processing [mcsas3] error
+[2023-04-20 18:19:16] INFO root fetch - processPackages [django-okta-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-20 18:19:16] INFO root fetch - processPackages [huble]: New version: [0.2.308] Old Version: [0.2.307]
+[2023-04-20 18:19:16] INFO root fetch - processPackages [pdfathom]: executing diffoscope
+[2023-04-20 18:19:16] INFO root fetch - processPackages [pdfathom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfathom-0.1.0.tar.gz tmp/pdfathom-0.1.1.tar.gz --markdown 20230420/p/pdfathom/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 18:19:16] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 18:19:16] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.8.tar.gz tmp/my-pipeline-package-1.1.9.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 18:19:16] INFO root fetch - processPackages [multi-repo-automation]: Downloading https://files.pythonhosted.org/packages/7f/8b/4e9b8cc58de4b982529b9c24f7156f9fb6f73e55ccc43f6e7c5febf96b61/multi_repo_automation-0.2.0.tar.gz
+[2023-04-20 18:19:17] INFO root fetch - processPackages [django-okta-client]: Downloading https://files.pythonhosted.org/packages/e6/e2/4a4b2de3328fe9b802a838cd8c6b8ef31b0be960f3dd0e01666882493f24/django-okta-client-0.1.7.tar.gz
+[2023-04-20 18:19:17] INFO root fetch - processPackages [demoparser2]: Downloading https://files.pythonhosted.org/packages/24/8b/d4dd62c19bf14afd1469f5db7f99defee72d37c6632fa767f1beaaae1c7c/demoparser2-0.0.3-cp39-none-win_amd64.whl
+[2023-04-20 18:19:17] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/20/c6/5fcaf38fd1e1c7a97e47771f16e1ab95180cef33c765c2947e85d4e683e4/huble-0.2.308.tar.gz
+[2023-04-20 18:19:17] INFO root fetch - processPackages [django-okta-client]: Downloading https://files.pythonhosted.org/packages/39/ca/df05fa6b542bfc0be6123db198810463d0bab1efdfbdfc446b9785c4fbf8/django-okta-client-0.1.8.tar.gz
+[2023-04-20 18:19:17] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-20 18:19:17] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.307.tar.gz tmp/huble-0.2.308.tar.gz --markdown 20230420/h/huble/0.2.307-0.2.308/diff.md --exclude *.pyd
+[2023-04-20 18:19:17] INFO root fetch - processPackages [multi-repo-automation]: Downloading https://files.pythonhosted.org/packages/96/f5/a0c034d446ca62ce281de506d4b7676a7d467268c843a20864f719442e78/multi_repo_automation-0.3.0.tar.gz
+[2023-04-20 18:19:17] INFO root fetch - processPackages [django-okta-client]: executing diffoscope
+[2023-04-20 18:19:17] INFO root fetch - processPackages [django-okta-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-okta-client-0.1.7.tar.gz tmp/django-okta-client-0.1.8.tar.gz --markdown 20230420/d/django-okta-client/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-20 18:19:17] INFO root fetch - processPackages [multi-repo-automation]: executing diffoscope
+[2023-04-20 18:19:17] INFO root fetch - processPackages [multi-repo-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_repo_automation-0.2.0.tar.gz tmp/multi_repo_automation-0.3.0.tar.gz --markdown 20230420/m/multi-repo-automation/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 18:19:17] INFO root fetch - processPackages [demoparser2]: Downloading https://files.pythonhosted.org/packages/48/95/e67f07099b8225a395278adb0c62ba55e876d447dc98b1004967242f3b4d/demoparser2-0.0.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-20 18:19:17] INFO root fetch - main [MainThread]: End processing [dumbo-esse3]: success
+[2023-04-20 18:19:18] INFO root fetch - processPackages [demoparser2]: executing diffoscope
+[2023-04-20 18:19:18] INFO root fetch - processPackages [demoparser2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demoparser2-0.0.3-cp39-none-win_amd64.whl.zip tmp/demoparser2-0.0.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230420/d/demoparser2/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 18:19:18] INFO root fetch - main [MainThread]: End processing [pdfathom]: success
+[2023-04-20 18:19:18] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 18:19:18] INFO root fetch - main [MainThread]: End processing [django-okta-client]: success
+[2023-04-20 18:19:18] INFO root fetch - main [MainThread]: End processing [danielutils]: success
+[2023-04-20 18:19:18] INFO root fetch - main [MainThread]: End processing [multi-repo-automation]: success
+[2023-04-20 18:19:19] INFO root fetch - main [MainThread]: End processing [demoparser2]: success
+[2023-04-20 18:19:19] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-20 18:19:21] INFO root fetch - main [MainThread]: End processing [mercury]: success
+[2023-04-20 18:19:21] INFO root fetch - main [MainThread]: Store serial: [17789968]
