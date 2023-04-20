@@ -5925,3 +5925,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 03:45:30] INFO root fetch - main [MainThread]: End processing [hotbox]: success
 [2023-04-20 03:45:36] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-04-20 03:45:36] INFO root fetch - main [MainThread]: Store serial: [17780976]
+[2023-04-20 03:50:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17780976]
+[2023-04-20 03:50:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-20 03:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-adverse-event
+[2023-04-20 03:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ytdl-sub
+[2023-04-20 03:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HLR
+[2023-04-20 03:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylovelace.kernel
+[2023-04-20 03:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatml
+[2023-04-20 03:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dmklr
+[2023-04-20 03:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-speech
+[2023-04-20 03:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-dllib
+[2023-04-20 03:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Simba-UW-tf-dev
+[2023-04-20 03:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gamdl
+[2023-04-20 03:50:44] INFO root fetch - processPackages [edc-adverse-event]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-20 03:50:44] INFO root fetch - processPackages [pylovelace.kernel]: New version: [2023.1.4] Old Version: [2023.1.3]
+[2023-04-20 03:50:44] INFO root fetch - processPackages [HLR]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-20 03:50:44] WARNING root fetch - processPackages [chatml]: Skipping, unable to determine old version
+[2023-04-20 03:50:44] INFO root fetch - main [MainThread]: End processing [chatml] error
+[2023-04-20 03:50:44] WARNING root fetch - processPackages [dmklr]: Skipping, unable to determine old version
+[2023-04-20 03:50:44] INFO root fetch - main [MainThread]: End processing [dmklr] error
+[2023-04-20 03:50:44] INFO root fetch - processPackages [neon-speech]: New version: [3.2.2a5] Old Version: [3.2.2a4]
+[2023-04-20 03:50:44] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.3.0b20230420] Old Version: [2.3.0b20230419]
+[2023-04-20 03:50:44] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.4.5.post1] Old Version: [2023.4.5]
+[2023-04-20 03:50:44] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.56.9] Old Version: [1.56.8]
+[2023-04-20 03:50:44] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-04-20 03:50:44] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.4.5.tar.gz tmp/ytdl-sub-2023.4.5.post1.tar.gz --markdown 20230420/y/ytdl-sub/2023.4.5-2023.4.5.post1/diff.md --exclude *.pyd
+[2023-04-20 03:50:45] INFO root fetch - processPackages [gamdl]: New version: [1.9] Old Version: [1.8]
+[2023-04-20 03:50:45] INFO root fetch - processPackages [HLR]: Downloading https://files.pythonhosted.org/packages/c2/81/9c78e7bedd76ef5884009ebb0dc06c785b8e0cb6e7de9f5652a3b20189c9/HLR-0.1.4.tar.gz
+[2023-04-20 03:50:45] INFO root fetch - processPackages [pylovelace.kernel]: Downloading https://files.pythonhosted.org/packages/fc/4c/26c2df7f9f017c7445f627fc4092bca9c27c68a0d86dde963949159dea95/pylovelace.kernel-2023.1.4-cp312-none-any.whl
+[2023-04-20 03:50:45] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/0a/3a/1051665e7ed465430ac5501af095c83321a3b33a8d2db5986c7df83651e0/neon_speech-3.2.2a5-py3-none-any.whl
+[2023-04-20 03:50:45] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/aa/cc/60c44545ab1f1682384ca1da00d121b07fcba05a12b0d6021ae317e693d9/edc_adverse_event-0.3.8-py3-none-any.whl
+[2023-04-20 03:50:45] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/fb/fe/44c3cbd95739ee36c0740168fa998cce39e2bc9f2deb4b547e0c8ad6cb53/bigdl_dllib-2.3.0b20230419-py3-none-manylinux1_x86_64.whl
+[2023-04-20 03:50:45] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/fd/52/d9e5f61d97d34199023a201caa4524a671ae07bde5f3a6c9387cc650d7a3/Simba-UW-tf-dev-1.56.9.tar.gz
+[2023-04-20 03:50:45] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/d2/f6/a1b4b159ccca67e775cbc8859836cf4fafa3d858e3085fdb9ea377e8d2d9/gamdl-1.8.tar.gz
+[2023-04-20 03:50:45] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53682164>=10485760
+[2023-04-20 03:50:45] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-04-20 03:50:45] INFO root fetch - processPackages [neon-speech]: executing diffoscope
+[2023-04-20 03:50:45] INFO root fetch - processPackages [neon-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_speech-3.2.2a4-py3-none-any.whl.zip tmp/neon_speech-3.2.2a5-py3-none-any.whl.zip --markdown 20230420/n/neon-speech/3.2.2a4-3.2.2a5/diff.md --exclude *.pyd
+[2023-04-20 03:50:45] INFO root fetch - processPackages [pylovelace.kernel]: executing diffoscope
+[2023-04-20 03:50:45] INFO root fetch - processPackages [pylovelace.kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylovelace.kernel-2023.1.3-cp312-none-any.whl.zip tmp/pylovelace.kernel-2023.1.4-cp312-none-any.whl.zip --markdown 20230420/p/pylovelace.kernel/2023.1.3-2023.1.4/diff.md --exclude *.pyd
+[2023-04-20 03:50:45] INFO root fetch - processPackages [HLR]: Downloading https://files.pythonhosted.org/packages/83/38/c49ad66c6a7a928647b15555132ac4bcb6de9abb27607fc2270b16ed81e2/HLR-0.1.5.tar.gz
+[2023-04-20 03:50:45] INFO root fetch - processPackages [gamdl]: Downloading https://files.pythonhosted.org/packages/77/15/05181bb8a80299f84b161d2aec514624cd5b6187e74bab875ba49b6660b8/gamdl-1.9.tar.gz
+[2023-04-20 03:50:45] INFO root fetch - processPackages [HLR]: executing diffoscope
+[2023-04-20 03:50:45] INFO root fetch - processPackages [HLR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HLR-0.1.4.tar.gz tmp/HLR-0.1.5.tar.gz --markdown 20230420/H/HLR/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-20 03:50:45] INFO root fetch - processPackages [gamdl]: executing diffoscope
+[2023-04-20 03:50:45] INFO root fetch - processPackages [gamdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamdl-1.8.tar.gz tmp/gamdl-1.9.tar.gz --markdown 20230420/g/gamdl/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-20 03:50:45] INFO root fetch - processPackages [edc-adverse-event]: Downloading https://files.pythonhosted.org/packages/04/f0/b9f2b8c39c677c51359e09b0e2a6ec34dde4a98ad9ed7c6bb6f8cea26097/edc_adverse_event-0.3.9-py3-none-any.whl
+[2023-04-20 03:50:45] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-04-20 03:50:45] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.56.8.tar.gz tmp/Simba-UW-tf-dev-1.56.9.tar.gz --markdown 20230420/S/Simba-UW-tf-dev/1.56.8-1.56.9/diff.md --exclude *.pyd
+[2023-04-20 03:50:46] INFO root fetch - main [MainThread]: End processing [pylovelace.kernel]: success
+[2023-04-20 03:50:46] INFO root fetch - main [MainThread]: End processing [neon-speech]: success
+[2023-04-20 03:50:46] INFO root fetch - processPackages [edc-adverse-event]: executing diffoscope
+[2023-04-20 03:50:46] INFO root fetch - processPackages [edc-adverse-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_adverse_event-0.3.8-py3-none-any.whl.zip tmp/edc_adverse_event-0.3.9-py3-none-any.whl.zip --markdown 20230420/e/edc-adverse-event/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-20 03:50:46] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-04-20 03:50:46] INFO root fetch - main [MainThread]: End processing [gamdl]: success
+[2023-04-20 03:50:46] INFO root fetch - main [MainThread]: End processing [HLR]: success
+[2023-04-20 03:50:48] INFO root fetch - main [MainThread]: End processing [edc-adverse-event]: success
+[2023-04-20 03:50:49] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-04-20 03:50:49] INFO root fetch - main [MainThread]: Store serial: [17781010]
