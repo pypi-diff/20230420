@@ -20858,3 +20858,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 18:03:30] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-04-20 18:03:30] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-04-20 18:03:30] INFO root fetch - main [MainThread]: Store serial: [17789714]
+[2023-04-20 18:08:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17789714]
+[2023-04-20 18:08:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-20 18:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vmware-aria-operations-integration-sdk
+[2023-04-20 18:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdfathom
+[2023-04-20 18:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsonschema2md2
+[2023-04-20 18:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: txtinstruct
+[2023-04-20 18:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opvious
+[2023-04-20 18:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: com.castsoftware.uc.oneclick
+[2023-04-20 18:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: soil
+[2023-04-20 18:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenio-requests
+[2023-04-20 18:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cfscanner
+[2023-04-20 18:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pd-db-wrangler
+[2023-04-20 18:08:41] INFO root fetch - processPackages [pdfathom]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 18:08:41] INFO root fetch - processPackages [soil]: New version: [1.0.0rc1] Old Version: [0.9.7]
+[2023-04-20 18:08:41] WARNING root fetch - processPackages [txtinstruct]: Skipping, unable to determine old version
+[2023-04-20 18:08:41] INFO root fetch - processPackages [txtinstruct]: Start processing: notification-service-nightly
+[2023-04-20 18:08:41] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk]: New version: [0.5.0rc3] Old Version: [0.5.0rc2]
+[2023-04-20 18:08:41] INFO root fetch - main [MainThread]: End processing [txtinstruct] error
+[2023-04-20 18:08:41] INFO root fetch - processPackages [pd-db-wrangler]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-20 18:08:41] INFO root fetch - processPackages [jsonschema2md2]: New version: [0.8.0] Old Version: [0.6.0]
+[2023-04-20 18:08:41] INFO root fetch - processPackages [cfscanner]: New version: [1.3.12] Old Version: [1.3.11]
+[2023-04-20 18:08:41] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: New version: [0.2.2.1] Old Version: [0.2.2]
+[2023-04-20 18:08:41] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-20 18:08:41] INFO root fetch - processPackages [invenio-requests]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-20 18:08:41] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-20 18:08:41] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-04-20 18:08:41] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.4.8.tar.gz tmp/notification_service_nightly-2023.4.9.tar.gz --markdown 20230420/n/notification-service-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-20 18:08:41] INFO root fetch - processPackages [pdfathom]: Downloading https://files.pythonhosted.org/packages/2e/d0/59476e63a51a7fb24e29c8fafa6fa4a4996567fdeafb67e42a5edab42ae6/pdfathom-0.1.0.tar.gz
+[2023-04-20 18:08:41] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/cb/27/b4ec5cc89aa21edfec2404f96ae3d2eb1ba89e20cadd9e95a6b6cc79c3d3/com.castsoftware.uc.oneclick-0.2.2.tar.gz
+[2023-04-20 18:08:41] INFO root fetch - processPackages [soil]: Downloading https://files.pythonhosted.org/packages/ff/8e/9553f3ad229899563b653a44573ec08ab9f98a3acd8538a6dfb193d51c0e/soil-0.9.7.tar.gz
+[2023-04-20 18:08:41] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2023-04-20 18:08:41] INFO root fetch - processPackages [jsonschema2md2]: Downloading https://files.pythonhosted.org/packages/49/9b/e6d70442c0eab1fe3ebd59213b8ac7dcb92ad861433a84aa32d436d99175/jsonschema2md2-0.6.0.tar.gz
+[2023-04-20 18:08:41] INFO root fetch - processPackages [invenio-requests]: Downloading https://files.pythonhosted.org/packages/00/43/b37cb21fe4e2707a4bbd60e5bf1196ed74c224fba74dbda907cb2979dd74/invenio-requests-2.0.0.tar.gz
+[2023-04-20 18:08:41] INFO root fetch - processPackages [pd-db-wrangler]: executing diffoscope
+[2023-04-20 18:08:41] INFO root fetch - processPackages [pd-db-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pd_db_wrangler-0.8.0.tar.gz tmp/pd_db_wrangler-0.9.0.tar.gz --markdown 20230420/p/pd-db-wrangler/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 18:08:41] INFO root fetch - processPackages [cfscanner]: Downloading https://files.pythonhosted.org/packages/88/72/bac3a6b7a6489d768324aff0e0e572b92d7629e58b5bf17a89d519aea43e/cfscanner-1.3.12.tar.gz
+[2023-04-20 18:08:41] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk]: executing diffoscope
+[2023-04-20 18:08:41] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmware_aria_operations_integration_sdk-0.5.0rc2.tar.gz tmp/vmware_aria_operations_integration_sdk-0.5.0rc3.tar.gz --markdown 20230420/v/vmware-aria-operations-integration-sdk/0.5.0rc2-0.5.0rc3/diff.md --exclude *.pyd
+[2023-04-20 18:08:41] INFO root fetch - processPackages [pdfathom]: Downloading https://files.pythonhosted.org/packages/e2/b2/5914de58df9b519056320184026c87f314b87fa1422da17075e59dbe3379/pdfathom-0.1.1.tar.gz
+[2023-04-20 18:08:41] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2023-04-20 18:08:41] INFO root fetch - processPackages [invenio-requests]: Downloading https://files.pythonhosted.org/packages/4a/ae/862c7b4089e7a66a3f8c6c98f7cd9f9e1548a3afba9733174f86c152f4f2/invenio-requests-2.1.0.tar.gz
+[2023-04-20 18:08:41] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: Downloading https://files.pythonhosted.org/packages/69/2c/b8cb5d50b458942469da2b40c250650ba4fa26847c958c6c3bf800373d03/com.castsoftware.uc.oneclick-0.2.2.1.tar.gz
+[2023-04-20 18:08:41] WARNING root fetch - processPackages [cfscanner]: Skipping package: exceeds size limit 12838890>=10485760
+[2023-04-20 18:08:41] INFO root fetch - processPackages [cfscanner]: Start processing: jadecobra
+[2023-04-20 18:08:41] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-04-20 18:08:41] INFO root fetch - processPackages [jsonschema2md2]: Downloading https://files.pythonhosted.org/packages/a8/e3/4b4106c3b4cd3992d5e99731c9922d0417897b27f2a981474bfb4ad3b14d/jsonschema2md2-0.8.0.tar.gz
+[2023-04-20 18:08:41] INFO root fetch - processPackages [soil]: Downloading https://files.pythonhosted.org/packages/36/49/e0e650c2e6377f51a73b8840ffde9fd8d0ba32c1c2fd8226706b8453ff1f/soil-1.0.0rc1.tar.gz
+[2023-04-20 18:08:41] INFO root fetch - processPackages [jadecobra]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-20 18:08:41] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2023-04-20 18:08:41] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20230420/o/opvious/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-20 18:08:41] INFO root fetch - processPackages [pdfathom]: executing diffoscope
+[2023-04-20 18:08:41] INFO root fetch - processPackages [pdfathom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfathom-0.1.0.tar.gz tmp/pdfathom-0.1.1.tar.gz --markdown 20230420/p/pdfathom/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 18:08:41] INFO root fetch - processPackages [jadecobra]: executing diffoscope
+[2023-04-20 18:08:41] INFO root fetch - processPackages [jadecobra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jadecobra-0.3.6.tar.gz tmp/jadecobra-0.3.7.tar.gz --markdown 20230420/j/jadecobra/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-20 18:08:41] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: executing diffoscope
+[2023-04-20 18:08:41] INFO root fetch - processPackages [com.castsoftware.uc.oneclick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.castsoftware.uc.oneclick-0.2.2.tar.gz tmp/com.castsoftware.uc.oneclick-0.2.2.1.tar.gz --markdown 20230420/c/com.castsoftware.uc.oneclick/0.2.2-0.2.2.1/diff.md --exclude *.pyd
+[2023-04-20 18:08:41] INFO root fetch - processPackages [jsonschema2md2]: executing diffoscope
+[2023-04-20 18:08:41] INFO root fetch - processPackages [jsonschema2md2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema2md2-0.6.0.tar.gz tmp/jsonschema2md2-0.8.0.tar.gz --markdown 20230420/j/jsonschema2md2/0.6.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-20 18:08:41] INFO root fetch - processPackages [invenio-requests]: executing diffoscope
+[2023-04-20 18:08:41] INFO root fetch - processPackages [invenio-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-requests-2.0.0.tar.gz tmp/invenio-requests-2.1.0.tar.gz --markdown 20230420/i/invenio-requests/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-20 18:08:42] INFO root fetch - processPackages [pd-db-wrangler]: Start processing: ai-flow-nightly
+[2023-04-20 18:08:42] INFO root fetch - main [MainThread]: End processing [pd-db-wrangler]: success
+[2023-04-20 18:08:42] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-20 18:08:42] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-04-20 18:08:42] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.4.8.tar.gz tmp/ai_flow_nightly-2023.4.9.tar.gz --markdown 20230420/a/ai-flow-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-20 18:08:42] INFO root fetch - processPackages [soil]: executing diffoscope
+[2023-04-20 18:08:42] INFO root fetch - processPackages [soil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-0.9.7.tar.gz tmp/soil-1.0.0rc1.tar.gz --markdown 20230420/s/soil/0.9.7-1.0.0rc1/diff.md --exclude *.pyd
+[2023-04-20 18:08:43] INFO root fetch - processPackages [pdfathom]: Start processing: ut-date
+[2023-04-20 18:08:43] INFO root fetch - main [MainThread]: End processing [pdfathom]: success
+[2023-04-20 18:08:43] INFO root fetch - processPackages [ut-date]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-20 18:08:43] INFO root fetch - main [MainThread]: End processing [jadecobra]: success
+[2023-04-20 18:08:43] INFO root fetch - main [MainThread]: End processing [com.castsoftware.uc.oneclick]: success
+[2023-04-20 18:08:43] INFO root fetch - processPackages [ut-date]: Downloading https://files.pythonhosted.org/packages/0e/35/f5d0c104f2c79b54238ac8b2454f67aa7dc0d7331f5a254be658a7460aca/ut-date-1.1.0.tar.gz
+[2023-04-20 18:08:43] INFO root fetch - main [MainThread]: End processing [jsonschema2md2]: success
+[2023-04-20 18:08:43] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2023-04-20 18:08:43] WARNING root fetch - processPackages [ut-date]: Skipping package: exceeds size limit 12703356>=10485760
+[2023-04-20 18:08:43] INFO root fetch - main [MainThread]: End processing [ut-date] error
+[2023-04-20 18:08:43] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-04-20 18:08:44] INFO root fetch - main [MainThread]: End processing [vmware-aria-operations-integration-sdk]: success
+[2023-04-20 18:08:44] INFO root fetch - main [MainThread]: End processing [soil]: success
+[2023-04-20 18:08:45] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-04-20 18:08:48] INFO root fetch - main [MainThread]: End processing [invenio-requests]: success
+[2023-04-20 18:08:48] INFO root fetch - main [MainThread]: Store serial: [17789762]
