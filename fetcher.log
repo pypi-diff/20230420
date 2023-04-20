@@ -17173,3 +17173,167 @@ EOFError: EOF read where object expected
 [2023-04-20 15:21:20] ERROR root fetch - processPackages [cfscanner]: Timeout during execution of pkgdiff
 [2023-04-20 15:21:20] INFO root fetch - main [MainThread]: End processing [cfscanner] error
 [2023-04-20 15:21:20] INFO root fetch - main [MainThread]: Store serial: [17787403]
+[2023-04-20 15:26:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17787403]
+[2023-04-20 15:26:30] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-04-20 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AIBoost
+[2023-04-20 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crunch-cli
+[2023-04-20 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: signalsnap
+[2023-04-20 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphkit-learn
+[2023-04-20 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-pipeline-package
+[2023-04-20 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Nimbus-Splash
+[2023-04-20 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PDKMaster
+[2023-04-20 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-service-client
+[2023-04-20 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-service-server
+[2023-04-20 15:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-ui
+[2023-04-20 15:26:30] INFO root fetch - processPackages [crunch-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-20 15:26:30] INFO root fetch - processPackages [signalsnap]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-20 15:26:30] INFO root fetch - processPackages [graphkit-learn]: New version: [0.2b3] Old Version: [0.2b2]
+[2023-04-20 15:26:30] INFO root fetch - processPackages [AIBoost]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-04-20 15:26:30] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 15:26:30] INFO root fetch - processPackages [Nimbus-Splash]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-20 15:26:30] INFO root fetch - processPackages [PDKMaster]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-20 15:26:30] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-20 15:26:30] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-20 15:26:30] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-20 15:26:30] INFO root fetch - processPackages [AIBoost]: Downloading https://files.pythonhosted.org/packages/bf/03/7e7b82c0cb6a8b87663e1954d2937c44fdd857a752454a3db47f245c19cb/AIBoost-0.0.0-cp310-cp310-manylinux1_x86_64.whl
+[2023-04-20 15:26:30] INFO root fetch - processPackages [signalsnap]: Downloading https://files.pythonhosted.org/packages/5e/4d/b62bff4052bb4c4d4aa6501c493375a05d4f36f05d1242fad9ef4f560845/signalsnap-0.1.6.tar.gz
+[2023-04-20 15:26:30] INFO root fetch - processPackages [PDKMaster]: Downloading https://files.pythonhosted.org/packages/4a/b1/47a22e51667f713d4d59a77a7d562d9383fde03ebca8d9e441b18adf462d/PDKMaster-0.9.0.tar.gz
+[2023-04-20 15:26:30] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-04-20 15:26:30] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-0.8.1.tar.gz tmp/crunch-cli-0.9.0.tar.gz --markdown 20230420/c/crunch-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 15:26:30] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-04-20 15:26:30] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230420/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 15:26:31] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 15:26:31] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.8.tar.gz tmp/my-pipeline-package-1.1.9.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 15:26:31] WARNING root fetch - processPackages [signalsnap]: Skipping package: exceeds size limit 26593230>=10485760
+[2023-04-20 15:26:31] INFO root fetch - processPackages [signalsnap]: Start processing: assemblyline-v4-service
+[2023-04-20 15:26:31] INFO root fetch - main [MainThread]: End processing [signalsnap] error
+[2023-04-20 15:26:31] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-20 15:26:31] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-04-20 15:26:31] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230420/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 15:26:31] INFO root fetch - processPackages [Nimbus-Splash]: executing diffoscope
+[2023-04-20 15:26:31] INFO root fetch - processPackages [Nimbus-Splash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nimbus Splash-0.9.2.tar.gz tmp/Nimbus Splash-0.9.3.tar.gz --markdown 20230420/N/Nimbus-Splash/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-20 15:26:31] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-04-20 15:26:31] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230420/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 15:26:31] INFO root fetch - processPackages [graphkit-learn]: executing diffoscope
+[2023-04-20 15:26:31] INFO root fetch - processPackages [graphkit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphkit-learn-0.2b2.tar.gz tmp/graphkit-learn-0.2b3.tar.gz --markdown 20230420/g/graphkit-learn/0.2b2-0.2b3/diff.md --exclude *.pyd
+[2023-04-20 15:26:31] INFO root fetch - processPackages [AIBoost]: Downloading https://files.pythonhosted.org/packages/61/af/627c9a1c0a5da93ee53d6d2f35b0fa79a4178979ea5930ba8c416e7bc368/AIBoost-0.0.1-cp310-cp310-manylinux1_x86_64.whl
+[2023-04-20 15:26:31] INFO root fetch - processPackages [PDKMaster]: Downloading https://files.pythonhosted.org/packages/24/e0/8598489850f804a403c9b7deadca78b9eec1624767b7e6a03bd745daf3f3/PDKMaster-0.9.1.tar.gz
+[2023-04-20 15:26:31] INFO root fetch - processPackages [AIBoost]: executing diffoscope
+[2023-04-20 15:26:31] INFO root fetch - processPackages [AIBoost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIBoost-0.0.0-cp310-cp310-manylinux1_x86_64.whl.zip tmp/AIBoost-0.0.1-cp310-cp310-manylinux1_x86_64.whl.zip --markdown 20230420/A/AIBoost/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-04-20 15:26:31] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-04-20 15:26:31] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230420/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 15:26:31] INFO root fetch - processPackages [PDKMaster]: executing diffoscope
+[2023-04-20 15:26:31] INFO root fetch - processPackages [PDKMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PDKMaster-0.9.0.tar.gz tmp/PDKMaster-0.9.1.tar.gz --markdown 20230420/P/PDKMaster/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 15:26:32] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: assemblyline
+[2023-04-20 15:26:32] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-04-20 15:26:32] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-20 15:26:32] INFO root fetch - processPackages [my-pipeline-package]: Start processing: cloud-governance
+[2023-04-20 15:26:32] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 15:26:32] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.90] Old Version: [1.1.9]
+[2023-04-20 15:26:32] INFO root fetch - processPackages [crunch-cli]: Start processing: assemblyline-core
+[2023-04-20 15:26:32] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-04-20 15:26:32] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-04-20 15:26:32] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: docx-word-instance-generator
+[2023-04-20 15:26:32] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-04-20 15:26:32] INFO root fetch - processPackages [docx-word-instance-generator]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-20 15:26:32] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-04-20 15:26:32] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230420/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 15:26:32] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/0a/53/f794dc83bdce13071f862dbaf0ff3fdfbc237c3968e25dd131f517b9b3c1/cloud-governance-1.1.90.tar.gz
+[2023-04-20 15:26:32] INFO root fetch - processPackages [Nimbus-Splash]: Start processing: ixcom
+[2023-04-20 15:26:32] INFO root fetch - main [MainThread]: End processing [Nimbus-Splash]: success
+[2023-04-20 15:26:32] INFO root fetch - processPackages [ixcom]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-20 15:26:33] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-04-20 15:26:33] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230420/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 15:26:33] INFO root fetch - processPackages [assemblyline-ui]: Start processing: Nimbus-Splash
+[2023-04-20 15:26:33] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-04-20 15:26:33] INFO root fetch - processPackages [Nimbus-Splash]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-20 15:26:33] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-04-20 15:26:33] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.9.tar.gz tmp/cloud-governance-1.1.90.tar.gz --markdown 20230420/c/cloud-governance/1.1.9-1.1.90/diff.md --exclude *.pyd
+[2023-04-20 15:26:33] INFO root fetch - processPackages [docx-word-instance-generator]: executing diffoscope
+[2023-04-20 15:26:33] INFO root fetch - processPackages [docx-word-instance-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docx_word_instance_generator-0.7.0-py3-none-any.whl.zip tmp/docx_word_instance_generator-0.8.0-py3-none-any.whl.zip --markdown 20230420/d/docx-word-instance-generator/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-20 15:26:33] INFO root fetch - processPackages [ixcom]: Downloading https://files.pythonhosted.org/packages/af/10/e466604a6d5b5873c25c55fbbc7a5ef1e8caee22132bcf36f23284853898/ixcom-1.2.0.tar.gz
+[2023-04-20 15:26:33] INFO root fetch - processPackages [Nimbus-Splash]: executing diffoscope
+[2023-04-20 15:26:33] INFO root fetch - processPackages [Nimbus-Splash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nimbus Splash-0.9.2.tar.gz tmp/Nimbus Splash-0.9.3.tar.gz --markdown 20230420/N/Nimbus-Splash/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-20 15:26:33] INFO root fetch - processPackages [ixcom]: Downloading https://files.pythonhosted.org/packages/36/7a/03b562122745b4521f41b7f0eb2ced3db6678e6b26be29babc7ed8ba36e6/ixcom-1.3.0.tar.gz
+[2023-04-20 15:26:33] INFO root fetch - processPackages [graphkit-learn]: Start processing: msaexp
+[2023-04-20 15:26:33] INFO root fetch - main [MainThread]: End processing [graphkit-learn]: success
+[2023-04-20 15:26:33] INFO root fetch - processPackages [msaexp]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-20 15:26:33] INFO root fetch - processPackages [ixcom]: executing diffoscope
+[2023-04-20 15:26:33] INFO root fetch - processPackages [ixcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixcom-1.2.0.tar.gz tmp/ixcom-1.3.0.tar.gz --markdown 20230420/i/ixcom/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-20 15:26:33] INFO root fetch - processPackages [msaexp]: Downloading https://files.pythonhosted.org/packages/18/13/73c4dcd24985f5084ba6d1c6671a57a1eae492e5653b5c91b4eaa9f85f9f/msaexp-0.6.8.tar.gz
+[2023-04-20 15:26:34] INFO root fetch - processPackages [PDKMaster]: Start processing: cogsgpt
+[2023-04-20 15:26:34] INFO root fetch - main [MainThread]: End processing [PDKMaster]: success
+[2023-04-20 15:26:34] WARNING root fetch - processPackages [msaexp]: Skipping package: exceeds size limit 15645231>=10485760
+[2023-04-20 15:26:34] INFO root fetch - processPackages [msaexp]: Start processing: fbgemm-gpu-nightly
+[2023-04-20 15:26:34] INFO root fetch - main [MainThread]: End processing [msaexp] error
+[2023-04-20 15:26:34] INFO root fetch - processPackages [cogsgpt]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-20 15:26:34] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-20 15:26:34] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/91/d7/37b19c2c14c34663f10ad284c315d7cdad71cbf7995d5e3bd737507ac655/fbgemm_gpu_nightly-2023.4.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-20 15:26:34] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 205605176>=10485760
+[2023-04-20 15:26:34] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: nlp-pipeline
+[2023-04-20 15:26:34] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-04-20 15:26:34] INFO root fetch - processPackages [nlp-pipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 15:26:34] INFO root fetch - processPackages [cogsgpt]: Downloading https://files.pythonhosted.org/packages/9e/27/c0592a01c74801688a536198feab68ca9c8587bcc5ed89e5558831973772/cogsgpt-0.0.3.tar.gz
+[2023-04-20 15:26:34] INFO root fetch - processPackages [nlp-pipeline]: Downloading https://files.pythonhosted.org/packages/6d/68/f423cb7b4c6c7b84145cef4b2d5e75f6ace46e0c9c03a55b21276f0233b4/nlp_pipeline-0.0.8.tar.gz
+[2023-04-20 15:26:34] INFO root fetch - processPackages [docx-word-instance-generator]: Start processing: kcli
+[2023-04-20 15:26:34] INFO root fetch - main [MainThread]: End processing [docx-word-instance-generator]: success
+[2023-04-20 15:26:34] INFO root fetch - processPackages [kcli]: New version: [99.0.202304201323] Old Version: [99.0.202304200910]
+[2023-04-20 15:26:34] INFO root fetch - processPackages [cogsgpt]: executing diffoscope
+[2023-04-20 15:26:34] INFO root fetch - processPackages [cogsgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogsgpt-0.0.1.tar.gz tmp/cogsgpt-0.0.3.tar.gz --markdown 20230420/c/cogsgpt/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 15:26:34] INFO root fetch - processPackages [AIBoost]: Start processing: my-pipeline-package
+[2023-04-20 15:26:34] INFO root fetch - main [MainThread]: End processing [AIBoost]: success
+[2023-04-20 15:26:34] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 15:26:34] INFO root fetch - processPackages [Nimbus-Splash]: Start processing: riot
+[2023-04-20 15:26:34] INFO root fetch - main [MainThread]: End processing [Nimbus-Splash]: success
+[2023-04-20 15:26:34] INFO root fetch - processPackages [riot]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-20 15:26:34] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c0/b3/3ccf11ac08ad87b9be2c7d78cc12c6eb47b6592ee9f9cb38ea5404862096/kcli-99.0.202304201323-py3-none-any.whl
+[2023-04-20 15:26:34] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 15:26:34] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.8.tar.gz tmp/my-pipeline-package-1.1.9.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 15:26:34] INFO root fetch - processPackages [nlp-pipeline]: Downloading https://files.pythonhosted.org/packages/28/b8/2312ab3f5ddcbd5f394f72746eb42cb63db9ffbe24458ac13b4c189c4d94/nlp_pipeline-0.0.9.tar.gz
+[2023-04-20 15:26:34] INFO root fetch - processPackages [nlp-pipeline]: executing diffoscope
+[2023-04-20 15:26:34] INFO root fetch - processPackages [nlp-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_pipeline-0.0.8.tar.gz tmp/nlp_pipeline-0.0.9.tar.gz --markdown 20230420/n/nlp-pipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 15:26:34] INFO root fetch - processPackages [riot]: Downloading https://files.pythonhosted.org/packages/5f/4a/bfb3f6c5bb1abb836a5a43bad66951c7046fd0409025bfeb1ac2523531b1/riot-0.8.1.tar.gz
+[2023-04-20 15:26:34] INFO root fetch - processPackages [ixcom]: Start processing: lightly
+[2023-04-20 15:26:34] INFO root fetch - main [MainThread]: End processing [ixcom]: success
+[2023-04-20 15:26:34] INFO root fetch - processPackages [lightly]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-20 15:26:35] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-20 15:26:35] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304200910-py3-none-any.whl.zip tmp/kcli-99.0.202304201323-py3-none-any.whl.zip --markdown 20230420/k/kcli/99.0.202304200910-99.0.202304201323/diff.md --exclude *.pyd
+[2023-04-20 15:26:35] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: draj-auth-module
+[2023-04-20 15:26:35] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-04-20 15:26:35] WARNING root fetch - processPackages [draj-auth-module]: Skipping, unable to determine old version
+[2023-04-20 15:26:35] INFO root fetch - processPackages [draj-auth-module]: Start processing: msaexp
+[2023-04-20 15:26:35] INFO root fetch - main [MainThread]: End processing [draj-auth-module] error
+[2023-04-20 15:26:35] INFO root fetch - processPackages [msaexp]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-20 15:26:35] INFO root fetch - processPackages [msaexp]: Downloading https://files.pythonhosted.org/packages/18/13/73c4dcd24985f5084ba6d1c6671a57a1eae492e5653b5c91b4eaa9f85f9f/msaexp-0.6.8.tar.gz
+[2023-04-20 15:26:35] WARNING root fetch - processPackages [msaexp]: Skipping package: exceeds size limit 15645231>=10485760
+[2023-04-20 15:26:35] INFO root fetch - processPackages [msaexp]: Start processing: nso-oc
+[2023-04-20 15:26:35] INFO root fetch - main [MainThread]: End processing [msaexp] error
+[2023-04-20 15:26:35] INFO root fetch - processPackages [nso-oc]: New version: [2.46.0] Old Version: [2.45.0]
+[2023-04-20 15:26:35] INFO root fetch - processPackages [riot]: Downloading https://files.pythonhosted.org/packages/1f/ec/17d10691f5cae1494580c084b56fe19ff17c20b238a4263e1f7faf198121/riot-0.9.0.tar.gz
+[2023-04-20 15:26:35] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/5e/9b/c885ceabb01c4fecf95ab09000484a0c908b6e502b27fb2e115cfd7e2fb1/lightly-1.4.1.tar.gz
+[2023-04-20 15:26:35] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/79/bf/6b41b037d0ed7cbe09927efbaa15e44b4dfba1908a08842ae816692f9f4a/nso-oc-2.46.0.tar.gz
+[2023-04-20 15:26:35] INFO root fetch - processPackages [cogsgpt]: Start processing: prowler
+[2023-04-20 15:26:35] INFO root fetch - main [MainThread]: End processing [cogsgpt]: success
+[2023-04-20 15:26:35] INFO root fetch - processPackages [nso-oc]: executing diffoscope
+[2023-04-20 15:26:35] INFO root fetch - processPackages [nso-oc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nso-oc-2.45.0.tar.gz tmp/nso-oc-2.46.0.tar.gz --markdown 20230420/n/nso-oc/2.45.0-2.46.0/diff.md --exclude *.pyd
+[2023-04-20 15:26:35] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 15:26:35] INFO root fetch - processPackages [lightly]: Downloading https://files.pythonhosted.org/packages/2b/5e/4345be906fd1461aef43b9365823ade33dbf00d3b28f52fde87ee32a0469/lightly-1.4.2.tar.gz
+[2023-04-20 15:26:35] INFO root fetch - processPackages [prowler]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-04-20 15:26:36] INFO root fetch - processPackages [riot]: executing diffoscope
+[2023-04-20 15:26:36] INFO root fetch - processPackages [riot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riot-0.8.1.tar.gz tmp/riot-0.9.0.tar.gz --markdown 20230420/r/riot/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 15:26:36] INFO root fetch - main [MainThread]: End processing [nlp-pipeline]: success
+[2023-04-20 15:26:36] INFO root fetch - processPackages [lightly]: executing diffoscope
+[2023-04-20 15:26:36] INFO root fetch - processPackages [lightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightly-1.4.1.tar.gz tmp/lightly-1.4.2.tar.gz --markdown 20230420/l/lightly/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-20 15:26:36] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/8c/60/fd15bc500fd135229cdd5af7dfe04448370f61ea491583977350c1d7991d/prowler-3.3.4.tar.gz
+[2023-04-20 15:26:36] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-04-20 15:26:36] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/88/43/2fdad40fe533eed761bcb88d23bc2725a2d71d899873ac759cb6785b41c8/prowler-3.4.0.tar.gz
+[2023-04-20 15:26:36] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-04-20 15:26:36] INFO root fetch - processPackages [prowler]: executing diffoscope
+[2023-04-20 15:26:36] INFO root fetch - processPackages [prowler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler-3.3.4.tar.gz tmp/prowler-3.4.0.tar.gz --markdown 20230420/p/prowler/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-04-20 15:26:37] INFO root fetch - main [MainThread]: End processing [nso-oc]: success
+[2023-04-20 15:26:37] INFO root fetch - main [MainThread]: End processing [riot]: success
+[2023-04-20 15:26:38] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-04-20 15:26:40] INFO root fetch - main [MainThread]: End processing [lightly]: success
+[2023-04-20 15:26:42] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-20 15:27:00] INFO root fetch - main [MainThread]: End processing [prowler]: success
+[2023-04-20 15:27:00] INFO root fetch - main [MainThread]: Store serial: [17787484]
