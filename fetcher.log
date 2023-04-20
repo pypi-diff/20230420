@@ -23091,3 +23091,226 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 20:12:05] INFO root fetch - main [MainThread]: End processing [Pequena]: success
 [2023-04-20 20:12:05] INFO root fetch - main [MainThread]: End processing [django-silly-auth]: success
 [2023-04-20 20:12:05] INFO root fetch - main [MainThread]: Store serial: [17791160]
+[2023-04-20 20:17:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17791160]
+[2023-04-20 20:17:14] INFO root fetch - main [MainThread]: No changed packages found
+[2023-04-20 20:22:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17791161]
+[2023-04-20 20:22:20] INFO root fetch - main [MainThread]: No changed packages found
+[2023-04-20 20:27:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17791161]
+[2023-04-20 20:27:25] INFO root fetch - main [MainThread]: No changed packages found
+[2023-04-20 20:32:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17791161]
+[2023-04-20 20:32:31] INFO root fetch - main [MainThread]: No changed packages found
+[2023-04-20 20:37:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17791249]
+[2023-04-20 20:37:36] INFO root fetch - main [MainThread]: No changed packages found
+[2023-04-20 20:42:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17791249]
+[2023-04-20 20:42:42] INFO root fetch - main [MainThread]: Found 37 changed packages
+[2023-04-20 20:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdv
+[2023-04-20 20:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ConnectionHandler
+[2023-04-20 20:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libservice
+[2023-04-20 20:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tap-exact
+[2023-04-20 20:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: life4safe-commons
+[2023-04-20 20:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tendril-utils-www
+[2023-04-20 20:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: asyncsleepiq
+[2023-04-20 20:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pidgy
+[2023-04-20 20:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tttrlib
+[2023-04-20 20:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: memprocfs
+[2023-04-20 20:42:42] INFO root fetch - processPackages [libservice]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-20 20:42:42] INFO root fetch - processPackages [ConnectionHandler]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-04-20 20:42:42] INFO root fetch - processPackages [life4safe-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 20:42:42] INFO root fetch - processPackages [sdv]: New version: [1.0.1.dev0] Old Version: [1.0.1]
+[2023-04-20 20:42:42] INFO root fetch - processPackages [asyncsleepiq]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-04-20 20:42:42] INFO root fetch - processPackages [tap-exact]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-20 20:42:42] INFO root fetch - processPackages [tendril-utils-www]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-20 20:42:42] WARNING root fetch - processPackages [tttrlib]: Skipping, unable to determine old version
+[2023-04-20 20:42:42] INFO root fetch - processPackages [tttrlib]: Start processing: netbox-validity
+[2023-04-20 20:42:42] INFO root fetch - main [MainThread]: End processing [tttrlib] error
+[2023-04-20 20:42:42] INFO root fetch - processPackages [pidgy]: New version: [2023.4.20] Old Version: [2023.1.7.post1]
+[2023-04-20 20:42:42] INFO root fetch - processPackages [memprocfs]: New version: [5.5.1] Old Version: [5.5.0]
+[2023-04-20 20:42:42] INFO root fetch - processPackages [netbox-validity]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-20 20:42:42] INFO root fetch - processPackages [ConnectionHandler]: Downloading https://files.pythonhosted.org/packages/96/36/657819f7691177635deccff23900fc3b413509761e3d541f2fbd466edf02/ConnectionHandler-0.0.80.tar.gz
+[2023-04-20 20:42:42] INFO root fetch - processPackages [sdv]: Downloading https://files.pythonhosted.org/packages/48/7f/cc81dada619da54555a51c1d924b47a94edc72faaccfefbb8d27bbebff14/sdv-1.0.1-py2.py3-none-any.whl
+[2023-04-20 20:42:42] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/f2/49/1776ea342085a407780a007f0a0ca6fc94d06599bd8768e31a9f9e4a8e67/tap_exact-0.3.2.tar.gz
+[2023-04-20 20:42:42] INFO root fetch - processPackages [pidgy]: Downloading https://files.pythonhosted.org/packages/25/29/a8f241ef9ba8d219c4eb96a8a5ddae463a317ebcbaa8ff029fbdef883aef/pidgy-2023.1.7.post1.tar.gz
+[2023-04-20 20:42:42] INFO root fetch - processPackages [asyncsleepiq]: Downloading https://files.pythonhosted.org/packages/f9/32/957a4c7e1459635d744d8e3fb6c93242bc6a63497bb85a29e0a546e6d87c/asyncsleepiq-1.3.2.tar.gz
+[2023-04-20 20:42:42] INFO root fetch - processPackages [tendril-utils-www]: Downloading https://files.pythonhosted.org/packages/4c/b4/5e785f513890e40f0dbe36f0e4a4e54fb0a4e5e2e1db192ab45c4315ed2c/tendril-utils-www-0.2.2.tar.gz
+[2023-04-20 20:42:42] INFO root fetch - processPackages [netbox-validity]: Downloading https://files.pythonhosted.org/packages/15/82/65acc89eafec2dcc5d4fa4373002c75afeffed69160db1a8422b847c3540/netbox-validity-1.0.0.tar.gz
+[2023-04-20 20:42:42] INFO root fetch - processPackages [libservice]: Downloading https://files.pythonhosted.org/packages/df/fa/a0d6d94250aa5de543d6bff5a569a82e56a3df974ca03e04087eff9fbedf/libservice-0.1.7.tar.gz
+[2023-04-20 20:42:42] INFO root fetch - processPackages [memprocfs]: Downloading https://files.pythonhosted.org/packages/48/07/e82ba645aadcf464c4afb350ca5aef50cb575097957ede195e3bface7585/memprocfs-5.5.1.tar.gz
+[2023-04-20 20:42:42] INFO root fetch - processPackages [life4safe-commons]: executing diffoscope
+[2023-04-20 20:42:42] INFO root fetch - processPackages [life4safe-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/life4safe-commons-0.0.8.tar.gz tmp/life4safe-commons-0.0.9.tar.gz --markdown 20230420/l/life4safe-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 20:42:42] INFO root fetch - processPackages [tap-exact]: executing diffoscope
+[2023-04-20 20:42:42] INFO root fetch - processPackages [tap-exact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_exact-0.3.1.tar.gz tmp/tap_exact-0.3.2.tar.gz --markdown 20230420/t/tap-exact/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-20 20:42:42] INFO root fetch - processPackages [sdv]: executing diffoscope
+[2023-04-20 20:42:42] INFO root fetch - processPackages [sdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdv-1.0.1-py2.py3-none-any.whl.zip tmp/sdv-1.0.1.dev0.tar.gz --markdown 20230420/s/sdv/1.0.1-1.0.1.dev0/diff.md --exclude *.pyd
+[2023-04-20 20:42:42] INFO root fetch - processPackages [netbox-validity]: Downloading https://files.pythonhosted.org/packages/9d/a7/de68adc5933f46c151f7957638beff8faf2b96276dd26b8a7a71397b235c/netbox-validity-1.0.1.tar.gz
+[2023-04-20 20:42:42] INFO root fetch - processPackages [libservice]: executing diffoscope
+[2023-04-20 20:42:42] INFO root fetch - processPackages [libservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libservice-0.1.6.tar.gz tmp/libservice-0.1.7.tar.gz --markdown 20230420/l/libservice/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-20 20:42:42] INFO root fetch - processPackages [ConnectionHandler]: Downloading https://files.pythonhosted.org/packages/86/80/4d9a1a92bc832ae929398f039b679de93226859adb957be89eba49d42c4c/ConnectionHandler-0.0.9.tar.gz
+[2023-04-20 20:42:42] INFO root fetch - processPackages [asyncsleepiq]: Downloading https://files.pythonhosted.org/packages/55/01/6f543da84ff7ed9e82bf0e8777143c008ed2fb055da9c9d8c506293b8df8/asyncsleepiq-1.3.3.tar.gz
+[2023-04-20 20:42:42] INFO root fetch - processPackages [tendril-utils-www]: Downloading https://files.pythonhosted.org/packages/4d/ab/4f0b3609959e817d639949aac6fceb539623f88330334caeee2373ac9608/tendril-utils-www-0.2.3.tar.gz
+[2023-04-20 20:42:42] INFO root fetch - processPackages [pidgy]: Downloading https://files.pythonhosted.org/packages/b6/af/b7ad4a554d838035e66e8efb18c86b28cfd8c8b94878383220f190c2c04d/pidgy-2023.4.20.tar.gz
+[2023-04-20 20:42:43] INFO root fetch - processPackages [ConnectionHandler]: executing diffoscope
+[2023-04-20 20:42:43] INFO root fetch - processPackages [ConnectionHandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ConnectionHandler-0.0.80.tar.gz tmp/ConnectionHandler-0.0.9.tar.gz --markdown 20230420/C/ConnectionHandler/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 20:42:43] INFO root fetch - processPackages [netbox-validity]: executing diffoscope
+[2023-04-20 20:42:43] INFO root fetch - processPackages [netbox-validity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-validity-1.0.0.tar.gz tmp/netbox-validity-1.0.1.tar.gz --markdown 20230420/n/netbox-validity/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-20 20:42:43] INFO root fetch - processPackages [asyncsleepiq]: executing diffoscope
+[2023-04-20 20:42:43] INFO root fetch - processPackages [asyncsleepiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncsleepiq-1.3.2.tar.gz tmp/asyncsleepiq-1.3.3.tar.gz --markdown 20230420/a/asyncsleepiq/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-04-20 20:42:43] INFO root fetch - processPackages [tendril-utils-www]: executing diffoscope
+[2023-04-20 20:42:43] INFO root fetch - processPackages [tendril-utils-www]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-utils-www-0.2.2.tar.gz tmp/tendril-utils-www-0.2.3.tar.gz --markdown 20230420/t/tendril-utils-www/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-20 20:42:43] INFO root fetch - processPackages [pidgy]: executing diffoscope
+[2023-04-20 20:42:43] INFO root fetch - processPackages [pidgy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pidgy-2023.1.7.post1.tar.gz tmp/pidgy-2023.4.20.tar.gz --markdown 20230420/p/pidgy/2023.1.7.post1-2023.4.20/diff.md --exclude *.pyd
+[2023-04-20 20:42:43] INFO root fetch - processPackages [memprocfs]: executing diffoscope
+[2023-04-20 20:42:43] INFO root fetch - processPackages [memprocfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memprocfs-5.5.0.tar.gz tmp/memprocfs-5.5.1.tar.gz --markdown 20230420/m/memprocfs/5.5.0-5.5.1/diff.md --exclude *.pyd
+[2023-04-20 20:42:44] INFO root fetch - processPackages [life4safe-commons]: Start processing: mozanalysis
+[2023-04-20 20:42:44] INFO root fetch - main [MainThread]: End processing [life4safe-commons]: success
+[2023-04-20 20:42:44] INFO root fetch - processPackages [mozanalysis]: New version: [2023.4.2] Old Version: [2023.3.4]
+[2023-04-20 20:42:44] INFO root fetch - processPackages [tap-exact]: Start processing: fastsim
+[2023-04-20 20:42:44] INFO root fetch - main [MainThread]: End processing [tap-exact]: success
+[2023-04-20 20:42:44] INFO root fetch - processPackages [fastsim]: New version: [2.0.22] Old Version: [2.0.21]
+[2023-04-20 20:42:44] INFO root fetch - processPackages [mozanalysis]: Downloading https://files.pythonhosted.org/packages/dd/5b/846b4713fad41fad1cd86a672ca129ecd7f13b3a71cfe92e729387845994/mozanalysis-2023.3.4.tar.gz
+[2023-04-20 20:42:44] INFO root fetch - processPackages [fastsim]: Downloading https://files.pythonhosted.org/packages/ef/7a/a5f5913e37b7d9d5d8d4815605404df90c1d8d3c94ef91ad88e6972a83cf/fastsim-2.0.22.tar.gz
+[2023-04-20 20:42:44] INFO root fetch - processPackages [ConnectionHandler]: Start processing: pycryptolibV2
+[2023-04-20 20:42:44] INFO root fetch - main [MainThread]: End processing [ConnectionHandler]: success
+[2023-04-20 20:42:44] WARNING root fetch - processPackages [pycryptolibV2]: Skipping, unable to determine old version
+[2023-04-20 20:42:44] INFO root fetch - processPackages [pycryptolibV2]: Start processing: bxsolana-trader-proto
+[2023-04-20 20:42:44] INFO root fetch - main [MainThread]: End processing [pycryptolibV2] error
+[2023-04-20 20:42:44] INFO root fetch - processPackages [mozanalysis]: Downloading https://files.pythonhosted.org/packages/61/2a/ccda6c371860de4f8226f6f2710cb6d70f25af07bf1b7a41a698ee6e5b59/mozanalysis-2023.4.2.tar.gz
+[2023-04-20 20:42:44] INFO root fetch - processPackages [bxsolana-trader-proto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 20:42:44] INFO root fetch - processPackages [asyncsleepiq]: Start processing: shfy
+[2023-04-20 20:42:44] INFO root fetch - main [MainThread]: End processing [asyncsleepiq]: success
+[2023-04-20 20:42:44] WARNING root fetch - processPackages [shfy]: Skipping, unable to determine old version
+[2023-04-20 20:42:44] INFO root fetch - processPackages [shfy]: Start processing: tendril-auth
+[2023-04-20 20:42:44] INFO root fetch - main [MainThread]: End processing [shfy] error
+[2023-04-20 20:42:44] INFO root fetch - processPackages [tendril-auth]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-20 20:42:44] INFO root fetch - processPackages [libservice]: Start processing: jadecobra
+[2023-04-20 20:42:44] INFO root fetch - main [MainThread]: End processing [libservice]: success
+[2023-04-20 20:42:44] INFO root fetch - processPackages [jadecobra]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-20 20:42:44] INFO root fetch - processPackages [mozanalysis]: executing diffoscope
+[2023-04-20 20:42:44] INFO root fetch - processPackages [mozanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozanalysis-2023.3.4.tar.gz tmp/mozanalysis-2023.4.2.tar.gz --markdown 20230420/m/mozanalysis/2023.3.4-2023.4.2/diff.md --exclude *.pyd
+[2023-04-20 20:42:44] INFO root fetch - processPackages [bxsolana-trader-proto]: Downloading https://files.pythonhosted.org/packages/cc/d4/3f7c211a4ccb59865cc2c8d794c3929a7c5bb19d89429a74cc76c5c682c2/bxsolana-trader-proto-0.0.8.tar.gz
+[2023-04-20 20:42:45] INFO root fetch - processPackages [jadecobra]: executing diffoscope
+[2023-04-20 20:42:45] INFO root fetch - processPackages [jadecobra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jadecobra-0.3.6.tar.gz tmp/jadecobra-0.3.7.tar.gz --markdown 20230420/j/jadecobra/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-20 20:42:45] INFO root fetch - processPackages [tendril-utils-www]: Start processing: sparkfhirschemas
+[2023-04-20 20:42:45] INFO root fetch - main [MainThread]: End processing [tendril-utils-www]: success
+[2023-04-20 20:42:45] INFO root fetch - processPackages [sparkfhirschemas]: New version: [1.0.9] Old Version: [1.0.8a1]
+[2023-04-20 20:42:45] INFO root fetch - processPackages [tendril-auth]: Downloading https://files.pythonhosted.org/packages/b9/1c/9910a2fe3e65fe4fe2eb6f24cdd8f00986df35ef13d6ee68d9d441da1978/tendril-auth-0.3.6.tar.gz
+[2023-04-20 20:42:45] INFO root fetch - processPackages [bxsolana-trader-proto]: Downloading https://files.pythonhosted.org/packages/f1/4d/2dae934faee772dba6ffca551f80a4bf48f3e12feb404256a37b431161ac/bxsolana-trader-proto-0.0.9.tar.gz
+[2023-04-20 20:42:45] INFO root fetch - processPackages [sparkfhirschemas]: Downloading https://files.pythonhosted.org/packages/4f/93/f5920c2a3b29152e1059c5b6df027f1806960f5e2fdee3aa020bf47ce2e1/sparkfhirschemas-1.0.8a1.tar.gz
+[2023-04-20 20:42:45] INFO root fetch - processPackages [tendril-auth]: executing diffoscope
+[2023-04-20 20:42:45] INFO root fetch - processPackages [tendril-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-auth-0.3.5.tar.gz tmp/tendril-auth-0.3.6.tar.gz --markdown 20230420/t/tendril-auth/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-20 20:42:45] INFO root fetch - processPackages [pidgy]: Start processing: tendril-filestore
+[2023-04-20 20:42:45] INFO root fetch - main [MainThread]: End processing [pidgy]: success
+[2023-04-20 20:42:45] INFO root fetch - processPackages [tendril-filestore]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-04-20 20:42:45] INFO root fetch - processPackages [bxsolana-trader-proto]: executing diffoscope
+[2023-04-20 20:42:45] INFO root fetch - processPackages [bxsolana-trader-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bxsolana-trader-proto-0.0.8.tar.gz tmp/bxsolana-trader-proto-0.0.9.tar.gz --markdown 20230420/b/bxsolana-trader-proto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 20:42:45] INFO root fetch - processPackages [fastsim]: executing diffoscope
+[2023-04-20 20:42:45] INFO root fetch - processPackages [fastsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsim-2.0.21.tar.gz tmp/fastsim-2.0.22.tar.gz --markdown 20230420/f/fastsim/2.0.21-2.0.22/diff.md --exclude *.pyd
+[2023-04-20 20:42:45] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/71/53/ea1a6bcb7bf7ab6043dacbcaf07f470ca1457f4b58d345db7c39284b5a78/tendril-filestore-0.1.9.tar.gz
+[2023-04-20 20:42:45] INFO root fetch - processPackages [sdv]: Start processing: pybanyan
+[2023-04-20 20:42:45] INFO root fetch - main [MainThread]: End processing [sdv]: success
+[2023-04-20 20:42:45] INFO root fetch - processPackages [pybanyan]: New version: [0.29.2] Old Version: [0.29.1]
+[2023-04-20 20:42:45] INFO root fetch - processPackages [sparkfhirschemas]: Downloading https://files.pythonhosted.org/packages/a0/c0/53b0d62d135c32d76ac92301b4e9b4df25a8f844ed75c1d8ed3f355931b0/sparkfhirschemas-1.0.9.tar.gz
+[2023-04-20 20:42:46] INFO root fetch - processPackages [pybanyan]: Downloading https://files.pythonhosted.org/packages/2f/09/7fad3ca7a28f7468ec56133c2a844151c0d63821f3b6d18dbb56fcdf6c9e/pybanyan-0.29.2.tar.gz
+[2023-04-20 20:42:46] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/90/e9/6a4930b23fb2ca79c448f66344adc7596eda22cc867c7baab4344f1e4ce2/tendril-filestore-0.2.0.tar.gz
+[2023-04-20 20:42:46] INFO root fetch - processPackages [netbox-validity]: Start processing: pynih
+[2023-04-20 20:42:46] INFO root fetch - main [MainThread]: End processing [netbox-validity]: success
+[2023-04-20 20:42:46] INFO root fetch - processPackages [pynih]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 20:42:46] INFO root fetch - processPackages [sparkfhirschemas]: executing diffoscope
+[2023-04-20 20:42:46] INFO root fetch - processPackages [sparkfhirschemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkfhirschemas-1.0.8a1.tar.gz tmp/sparkfhirschemas-1.0.9.tar.gz --markdown 20230420/s/sparkfhirschemas/1.0.8a1-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 20:42:46] INFO root fetch - processPackages [pybanyan]: executing diffoscope
+[2023-04-20 20:42:46] INFO root fetch - processPackages [pybanyan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybanyan-0.29.1.tar.gz tmp/pybanyan-0.29.2.tar.gz --markdown 20230420/p/pybanyan/0.29.1-0.29.2/diff.md --exclude *.pyd
+[2023-04-20 20:42:46] INFO root fetch - processPackages [tendril-filestore]: executing diffoscope
+[2023-04-20 20:42:46] INFO root fetch - processPackages [tendril-filestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-filestore-0.1.9.tar.gz tmp/tendril-filestore-0.2.0.tar.gz --markdown 20230420/t/tendril-filestore/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 20:42:46] INFO root fetch - processPackages [pynih]: Downloading https://files.pythonhosted.org/packages/82/15/4603a39411f0955f7ed72966c6cd4301642c5df70bb267f6a55a1f2b2d78/pynih-0.1.3.tar.gz
+[2023-04-20 20:42:46] INFO root fetch - processPackages [pynih]: executing diffoscope
+[2023-04-20 20:42:46] INFO root fetch - processPackages [pynih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynih-0.1.2.tar.gz tmp/pynih-0.1.3.tar.gz --markdown 20230420/p/pynih/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 20:42:46] INFO root fetch - processPackages [mozanalysis]: Start processing: DairyBrainUtils
+[2023-04-20 20:42:46] INFO root fetch - main [MainThread]: End processing [mozanalysis]: success
+[2023-04-20 20:42:46] INFO root fetch - processPackages [DairyBrainUtils]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-20 20:42:46] INFO root fetch - processPackages [DairyBrainUtils]: Downloading https://files.pythonhosted.org/packages/67/3f/2b1b3d460f6a5623c8d463975fd38a7031f3a036b3e563edf0c5a4d9517a/DairyBrainUtils-0.3.8.tar.gz
+[2023-04-20 20:42:46] INFO root fetch - processPackages [jadecobra]: Start processing: dj-stripe
+[2023-04-20 20:42:46] INFO root fetch - main [MainThread]: End processing [jadecobra]: success
+[2023-04-20 20:42:46] INFO root fetch - processPackages [dj-stripe]: New version: [2.8.0a0] Old Version: [2.7.3]
+[2023-04-20 20:42:46] INFO root fetch - processPackages [tendril-auth]: Start processing: glean-sdk
+[2023-04-20 20:42:46] INFO root fetch - main [MainThread]: End processing [tendril-auth]: success
+[2023-04-20 20:42:47] INFO root fetch - processPackages [glean-sdk]: New version: [52.6.0] Old Version: [52.5.0]
+[2023-04-20 20:42:47] INFO root fetch - processPackages [DairyBrainUtils]: executing diffoscope
+[2023-04-20 20:42:47] INFO root fetch - processPackages [DairyBrainUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DairyBrainUtils-0.3.7.tar.gz tmp/DairyBrainUtils-0.3.8.tar.gz --markdown 20230420/D/DairyBrainUtils/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-20 20:42:47] INFO root fetch - processPackages [dj-stripe]: Downloading https://files.pythonhosted.org/packages/8f/30/d526b6f6410c458c85c9492af23da630dfa687cd4104572a0b4b954d6a13/dj_stripe-2.7.3.tar.gz
+[2023-04-20 20:42:47] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/21/d3/ee781e2935411781a5511fb93f3f19c4e5dadd14785a4fc9b221b27fa21c/glean-sdk-52.5.0.tar.gz
+[2023-04-20 20:42:47] INFO root fetch - processPackages [bxsolana-trader-proto]: Start processing: pdftotree-mercurial
+[2023-04-20 20:42:47] INFO root fetch - main [MainThread]: End processing [bxsolana-trader-proto]: success
+[2023-04-20 20:42:47] WARNING root fetch - processPackages [pdftotree-mercurial]: Skipping, unable to determine old version
+[2023-04-20 20:42:47] INFO root fetch - processPackages [pdftotree-mercurial]: Start processing: chilife
+[2023-04-20 20:42:47] INFO root fetch - main [MainThread]: End processing [pdftotree-mercurial] error
+[2023-04-20 20:42:47] INFO root fetch - processPackages [chilife]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-20 20:42:47] INFO root fetch - processPackages [dj-stripe]: Downloading https://files.pythonhosted.org/packages/93/6a/8c001467e7de3cdeab8b0619a2a402052ca6f64e9d8a6be2747a4bfd67ee/dj_stripe-2.8.0a0.tar.gz
+[2023-04-20 20:42:47] INFO root fetch - processPackages [chilife]: Downloading https://files.pythonhosted.org/packages/f4/d6/5717284e9355ce106eabb8a71002ef2bd83f6a7a94a25a6fdea4b143dd58/chilife-0.1.4.tar.gz
+[2023-04-20 20:42:47] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/00/9d/d0a7503fd2cc3d70c8628749933179914e84f1fbe347148f93a01ee0b7a9/glean-sdk-52.6.0.tar.gz
+[2023-04-20 20:42:47] INFO root fetch - processPackages [dj-stripe]: executing diffoscope
+[2023-04-20 20:42:47] INFO root fetch - processPackages [dj-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_stripe-2.7.3.tar.gz tmp/dj_stripe-2.8.0a0.tar.gz --markdown 20230420/d/dj-stripe/2.7.3-2.8.0a0/diff.md --exclude *.pyd
+[2023-04-20 20:42:47] INFO root fetch - processPackages [pynih]: Start processing: sekm-pump
+[2023-04-20 20:42:47] INFO root fetch - main [MainThread]: End processing [pynih]: success
+[2023-04-20 20:42:47] INFO root fetch - processPackages [glean-sdk]: executing diffoscope
+[2023-04-20 20:42:47] INFO root fetch - processPackages [glean-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glean-sdk-52.5.0.tar.gz tmp/glean-sdk-52.6.0.tar.gz --markdown 20230420/g/glean-sdk/52.5.0-52.6.0/diff.md --exclude *.pyd
+[2023-04-20 20:42:47] WARNING root fetch - processPackages [sekm-pump]: Skipping, unable to determine old version
+[2023-04-20 20:42:47] INFO root fetch - processPackages [sekm-pump]: Start processing: simdec
+[2023-04-20 20:42:47] INFO root fetch - main [MainThread]: End processing [sekm-pump] error
+[2023-04-20 20:42:48] WARNING root fetch - processPackages [simdec]: Skipping, unable to determine old version
+[2023-04-20 20:42:48] INFO root fetch - processPackages [simdec]: Start processing: guidance
+[2023-04-20 20:42:48] INFO root fetch - main [MainThread]: End processing [simdec] error
+[2023-04-20 20:42:48] WARNING root fetch - processPackages [chilife]: Skipping package: exceeds size limit 17723419>=10485760
+[2023-04-20 20:42:48] INFO root fetch - processPackages [chilife]: Start processing: clean-folder-homework-by-egor
+[2023-04-20 20:42:48] INFO root fetch - main [MainThread]: End processing [chilife] error
+[2023-04-20 20:42:48] INFO root fetch - processPackages [guidance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 20:42:48] WARNING root fetch - processPackages [clean-folder-homework-by-egor]: Skipping, unable to determine old version
+[2023-04-20 20:42:48] INFO root fetch - processPackages [clean-folder-homework-by-egor]: Start processing: lnxlink
+[2023-04-20 20:42:48] INFO root fetch - main [MainThread]: End processing [clean-folder-homework-by-egor] error
+[2023-04-20 20:42:48] INFO root fetch - processPackages [lnxlink]: New version: [2023.4.1] Old Version: [2023.4.0]
+[2023-04-20 20:42:48] INFO root fetch - processPackages [tendril-filestore]: Start processing: koku-nise
+[2023-04-20 20:42:48] INFO root fetch - main [MainThread]: End processing [tendril-filestore]: success
+[2023-04-20 20:42:48] INFO root fetch - processPackages [koku-nise]: New version: [4.2.4] Old Version: [4.2.3]
+[2023-04-20 20:42:48] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2023-04-20 20:42:48] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.0.8.tar.gz tmp/guidance-0.0.9.tar.gz --markdown 20230420/g/guidance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 20:42:48] INFO root fetch - processPackages [lnxlink]: Downloading https://files.pythonhosted.org/packages/f0/ee/512a73b778f19424286bb4e82a87c11a1eb85f1c8826171cede233c1a119/lnxlink-2023.4.0.tar.gz
+[2023-04-20 20:42:48] INFO root fetch - processPackages [pybanyan]: Start processing: robotathome
+[2023-04-20 20:42:48] INFO root fetch - main [MainThread]: End processing [pybanyan]: success
+[2023-04-20 20:42:48] INFO root fetch - processPackages [robotathome]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-20 20:42:48] INFO root fetch - processPackages [lnxlink]: Downloading https://files.pythonhosted.org/packages/3a/01/04b60cf398b0849f92ed14159f4470510e6ae0fa9c0467303686ba45358b/lnxlink-2023.4.1.tar.gz
+[2023-04-20 20:42:48] INFO root fetch - processPackages [DairyBrainUtils]: Start processing: rvid.tex-runner
+[2023-04-20 20:42:48] INFO root fetch - main [MainThread]: End processing [DairyBrainUtils]: success
+[2023-04-20 20:42:48] INFO root fetch - processPackages [koku-nise]: Downloading https://files.pythonhosted.org/packages/e4/ff/ea98cefb86aca109bea69012ccbcd3687dd5efbc17691818ebda17788de3/koku-nise-4.2.4.tar.gz
+[2023-04-20 20:42:48] INFO root fetch - processPackages [rvid.tex-runner]: New version: [0.1.1] Old Version: [0.0.2]
+[2023-04-20 20:42:48] INFO root fetch - processPackages [lnxlink]: executing diffoscope
+[2023-04-20 20:42:48] INFO root fetch - processPackages [lnxlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnxlink-2023.4.0.tar.gz tmp/lnxlink-2023.4.1.tar.gz --markdown 20230420/l/lnxlink/2023.4.0-2023.4.1/diff.md --exclude *.pyd
+[2023-04-20 20:42:48] INFO root fetch - processPackages [robotathome]: Downloading https://files.pythonhosted.org/packages/6c/fa/0f13e4e9aa39f188ceeeee2805061399a12e25a26cc6db0ac3acfc7510bd/robotathome-1.1.6.tar.gz
+[2023-04-20 20:42:48] INFO root fetch - processPackages [koku-nise]: executing diffoscope
+[2023-04-20 20:42:48] INFO root fetch - processPackages [koku-nise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koku-nise-4.2.3.tar.gz tmp/koku-nise-4.2.4.tar.gz --markdown 20230420/k/koku-nise/4.2.3-4.2.4/diff.md --exclude *.pyd
+[2023-04-20 20:42:48] INFO root fetch - processPackages [rvid.tex-runner]: Downloading https://files.pythonhosted.org/packages/b8/e9/18bca828755516d3b6b33e3f0b341416e75c6302528c2293401574de8b1b/rvid.tex_runner-0.0.2-py3-none-any.whl
+[2023-04-20 20:42:49] INFO root fetch - processPackages [robotathome]: executing diffoscope
+[2023-04-20 20:42:49] INFO root fetch - processPackages [robotathome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotathome-1.1.5.tar.gz tmp/robotathome-1.1.6.tar.gz --markdown 20230420/r/robotathome/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-20 20:42:49] INFO root fetch - processPackages [rvid.tex-runner]: Downloading https://files.pythonhosted.org/packages/3e/df/473305d5642fd8e338ed6fb8c5e85dbbe6daeccc3e1912950f6d6f7c161a/rvid.tex_runner-0.1.1-py3-none-any.whl
+[2023-04-20 20:42:49] INFO root fetch - processPackages [guidance]: Start processing: interval-sdk
+[2023-04-20 20:42:49] INFO root fetch - main [MainThread]: End processing [guidance]: success
+[2023-04-20 20:42:49] INFO root fetch - processPackages [rvid.tex-runner]: executing diffoscope
+[2023-04-20 20:42:49] INFO root fetch - processPackages [rvid.tex-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rvid.tex_runner-0.0.2-py3-none-any.whl.zip tmp/rvid.tex_runner-0.1.1-py3-none-any.whl.zip --markdown 20230420/r/rvid.tex-runner/0.0.2-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 20:42:49] INFO root fetch - processPackages [interval-sdk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-20 20:42:49] INFO root fetch - processPackages [interval-sdk]: Downloading https://files.pythonhosted.org/packages/8e/68/86b055d3ebd7ab11ce74f2cd544251b49bdb7b9d23494d6fb1eaea4469fa/interval_sdk-1.0.2.tar.gz
+[2023-04-20 20:42:49] INFO root fetch - processPackages [fastsim]: Start processing: dequeai
+[2023-04-20 20:42:49] INFO root fetch - main [MainThread]: End processing [fastsim]: success
+[2023-04-20 20:42:49] INFO root fetch - processPackages [dequeai]: New version: [0.724] Old Version: [0.722]
+[2023-04-20 20:42:49] INFO root fetch - processPackages [interval-sdk]: Downloading https://files.pythonhosted.org/packages/b5/a6/f9b04ff794746d2900c316bc2b87a7ee1d6afb374858495f88c3f9ada977/interval_sdk-1.0.3.tar.gz
+[2023-04-20 20:42:50] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-04-20 20:42:50] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.722.tar.gz tmp/dequeai-0.724.tar.gz --markdown 20230420/d/dequeai/0.722-0.724/diff.md --exclude *.pyd
+[2023-04-20 20:42:50] INFO root fetch - processPackages [interval-sdk]: executing diffoscope
+[2023-04-20 20:42:50] INFO root fetch - processPackages [interval-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interval_sdk-1.0.2.tar.gz tmp/interval_sdk-1.0.3.tar.gz --markdown 20230420/i/interval-sdk/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-20 20:42:50] INFO root fetch - main [MainThread]: End processing [rvid.tex-runner]: success
+[2023-04-20 20:42:51] INFO root fetch - main [MainThread]: End processing [koku-nise]: success
+[2023-04-20 20:42:51] INFO root fetch - main [MainThread]: End processing [lnxlink]: success
+[2023-04-20 20:42:51] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-04-20 20:42:51] INFO root fetch - main [MainThread]: End processing [dj-stripe]: success
+[2023-04-20 20:42:51] INFO root fetch - main [MainThread]: End processing [interval-sdk]: success
+[2023-04-20 20:42:52] INFO root fetch - main [MainThread]: End processing [memprocfs]: success
+[2023-04-20 20:42:53] INFO root fetch - main [MainThread]: End processing [robotathome]: success
+[2023-04-20 20:42:56] INFO root fetch - main [MainThread]: End processing [glean-sdk]: success
+[2023-04-20 20:43:15] INFO root fetch - main [MainThread]: End processing [sparkfhirschemas]: success
+[2023-04-20 20:43:15] INFO root fetch - main [MainThread]: Store serial: [17791431]
