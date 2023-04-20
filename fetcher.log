@@ -8010,3 +8010,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 07:02:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-fiscalcode]: success
 [2023-04-20 07:02:35] INFO root fetch - main [MainThread]: End processing [shiny-mdc]: success
 [2023-04-20 07:02:35] INFO root fetch - main [MainThread]: Store serial: [17782234]
+[2023-04-20 07:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17782234]
+[2023-04-20 07:07:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-20 07:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vmapper
+[2023-04-20 07:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyksuid
+[2023-04-20 07:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfoundt
+[2023-04-20 07:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tflite-runtime-nightly
+[2023-04-20 07:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multi-model-server
+[2023-04-20 07:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tflite-model-maker-nightly
+[2023-04-20 07:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: waveforms
+[2023-04-20 07:07:44] INFO root fetch - processPackages [vmapper]: New version: [0.1.0.dev202304200502] Old Version: [0.1.0.dev202304120903]
+[2023-04-20 07:07:44] WARNING root fetch - processPackages [pyfoundt]: Skipping, unable to determine old version
+[2023-04-20 07:07:44] INFO root fetch - main [MainThread]: End processing [pyfoundt] error
+[2023-04-20 07:07:44] INFO root fetch - processPackages [waveforms]: New version: [1.5.87] Old Version: [1.5.86]
+[2023-04-20 07:07:44] WARNING root fetch - processPackages [pyksuid]: Skipping, unable to determine old version
+[2023-04-20 07:07:44] INFO root fetch - main [MainThread]: End processing [pyksuid] error
+[2023-04-20 07:07:44] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230420] Old Version: [1.1.8b20230417]
+[2023-04-20 07:07:44] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202304190507] Old Version: [0.4.3.dev202304180508]
+[2023-04-20 07:07:44] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.13.0.dev20230419] Old Version: [2.13.0.dev20230415]
+[2023-04-20 07:07:44] INFO root fetch - processPackages [vmapper]: Downloading https://files.pythonhosted.org/packages/d6/06/0d6dacdfa07bc9437379d44e7b54db2869e38e2be4da31079557aaa2fa09/vmapper-0.1.0.dev202304120903-py3-none-any.whl
+[2023-04-20 07:07:44] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/16/31/74af09d5a8ce5fe6c3b2ea365d28085398b18ce7468f63d9915c279514f9/tflite-model-maker-nightly-0.4.3.dev202304190507.tar.gz
+[2023-04-20 07:07:44] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/33/bd/d58ca4c921f7ee90833e9ea2b87f6193a795f7ecf75d782f36bbf6e1523e/waveforms-1.5.87.tar.gz
+[2023-04-20 07:07:44] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/88/77/a146e3c580fb85a0d4ee534212ad1df293e5244635f9efe8fc2afbec63ae/tflite_runtime_nightly-2.13.0.dev20230415-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-20 07:07:44] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/b9/3b/574ddfa3a2d0d204047cb58fe39a342b99ae8f64a25aec5dcd939c734e4f/multi_model_server-1.1.8b20230420-py2.py3-none-any.whl
+[2023-04-20 07:07:44] INFO root fetch - processPackages [vmapper]: Downloading https://files.pythonhosted.org/packages/8a/60/99f0d49a044163002aaf9e490f8cb1fcaa5382695b6f577a0445783be87a/vmapper-0.1.0.dev202304200502-py3-none-any.whl
+[2023-04-20 07:07:45] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-04-20 07:07:45] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202304180508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202304190507.tar.gz --markdown 20230420/t/tflite-model-maker-nightly/0.4.3.dev202304180508-0.4.3.dev202304190507/diff.md --exclude *.pyd
+[2023-04-20 07:07:45] INFO root fetch - processPackages [vmapper]: executing diffoscope
+[2023-04-20 07:07:45] INFO root fetch - processPackages [vmapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmapper-0.1.0.dev202304120903-py3-none-any.whl.zip tmp/vmapper-0.1.0.dev202304200502-py3-none-any.whl.zip --markdown 20230420/v/vmapper/0.1.0.dev202304120903-0.1.0.dev202304200502/diff.md --exclude *.pyd
+[2023-04-20 07:07:45] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-04-20 07:07:45] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.5.86.tar.gz tmp/waveforms-1.5.87.tar.gz --markdown 20230420/w/waveforms/1.5.86-1.5.87/diff.md --exclude *.pyd
+[2023-04-20 07:07:45] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-04-20 07:07:45] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230417-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230420-py2.py3-none-any.whl.zip --markdown 20230420/m/multi-model-server/1.1.8b20230417-1.1.8b20230420/diff.md --exclude *.pyd
+[2023-04-20 07:07:45] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/32/29/27adfc8a2d450e92ff1a52c0df331231c850aa353726a07873543e75f199/tflite_runtime_nightly-2.13.0.dev20230419-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-20 07:07:46] INFO root fetch - main [MainThread]: End processing [vmapper]: success
+[2023-04-20 07:07:46] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-04-20 07:07:46] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.13.0.dev20230415-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.13.0.dev20230419-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230420/t/tflite-runtime-nightly/2.13.0.dev20230415-2.13.0.dev20230419/diff.md --exclude *.pyd
+[2023-04-20 07:07:47] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-04-20 07:07:48] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-04-20 07:08:22] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-04-20 07:10:35] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-04-20 07:10:35] INFO root fetch - main [MainThread]: Store serial: [17782299]
