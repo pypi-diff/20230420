@@ -6511,3 +6511,34 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 04:33:36] INFO root fetch - main [MainThread]: End processing [edc]: success
 [2023-04-20 04:33:56] INFO root fetch - main [MainThread]: End processing [Red-DiscordBot]: success
 [2023-04-20 04:33:56] INFO root fetch - main [MainThread]: Store serial: [17781333]
+[2023-04-20 04:39:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781333]
+[2023-04-20 04:39:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-20 04:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pawnlib
+[2023-04-20 04:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flarespy
+[2023-04-20 04:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pawnlib
+[2023-04-20 04:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: XMLCit
+[2023-04-20 04:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zhuque-dataloader
+[2023-04-20 04:39:05] INFO root fetch - processPackages [flarespy]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-20 04:39:05] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 04:39:05] INFO root fetch - processPackages [zhuque-dataloader]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-20 04:39:05] INFO root fetch - processPackages [XMLCit]: New version: [0.0.5] Old Version: [0.0.1]
+[2023-04-20 04:39:05] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 04:39:05] INFO root fetch - processPackages [zhuque-dataloader]: executing diffoscope
+[2023-04-20 04:39:05] INFO root fetch - processPackages [zhuque-dataloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhuque-dataloader-0.0.4.tar.gz tmp/zhuque-dataloader-0.0.5.tar.gz --markdown 20230420/z/zhuque-dataloader/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 04:39:05] INFO root fetch - processPackages [XMLCit]: Downloading https://files.pythonhosted.org/packages/87/47/fef370b4448ffacdb7ff641f35a971d1fe10a3a99e7985213f409b71af3b/xmlcit-0.0.4.tar.gz
+[2023-04-20 04:39:05] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/89/a7/031748c9bbea373f8bc542f6c3aca707e95ff11338f893f64fb45cc41de6/flarespy-0.7.3.tar.gz
+[2023-04-20 04:39:05] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-20 04:39:05] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230420/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 04:39:05] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-20 04:39:05] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-04-20 04:39:05] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230420/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 04:39:05] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.7.2.tar.gz tmp/flarespy-0.7.3.tar.gz --markdown 20230420/f/flarespy/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-20 04:39:05] INFO root fetch - processPackages [XMLCit]: Downloading https://files.pythonhosted.org/packages/e8/c1/7a89b71aae34f15cfc9c92deb4400b9fa162f5c03d7f436b2e720e011c61/xmlcit-0.0.5.tar.gz
+[2023-04-20 04:39:05] INFO root fetch - processPackages [XMLCit]: executing diffoscope
+[2023-04-20 04:39:05] INFO root fetch - processPackages [XMLCit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlcit-0.0.4.tar.gz tmp/xmlcit-0.0.5.tar.gz --markdown 20230420/X/XMLCit/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 04:39:06] INFO root fetch - main [MainThread]: End processing [zhuque-dataloader]: success
+[2023-04-20 04:39:06] INFO root fetch - main [MainThread]: End processing [XMLCit]: success
+[2023-04-20 04:39:06] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-04-20 04:39:07] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-20 04:39:07] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-20 04:39:07] INFO root fetch - main [MainThread]: Store serial: [17781343]
