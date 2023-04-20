@@ -7638,3 +7638,49 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 06:35:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-option-oca]: success
 [2023-04-20 06:35:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-iot-option-oca]: success
 [2023-04-20 06:35:53] INFO root fetch - main [MainThread]: Store serial: [17782079]
+[2023-04-20 06:40:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17782079]
+[2023-04-20 06:41:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-20 06:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfoundt
+[2023-04-20 06:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caesar-rock
+[2023-04-20 06:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huble
+[2023-04-20 06:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Scrappers
+[2023-04-20 06:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-document-page-approval
+[2023-04-20 06:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: basaran
+[2023-04-20 06:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zoish
+[2023-04-20 06:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: caesar-rock
+[2023-04-20 06:41:02] WARNING root fetch - processPackages [pyfoundt]: Skipping, unable to determine old version
+[2023-04-20 06:41:02] INFO root fetch - main [MainThread]: End processing [pyfoundt] error
+[2023-04-20 06:41:02] WARNING root fetch - processPackages [Scrappers]: Skipping, unable to determine old version
+[2023-04-20 06:41:02] INFO root fetch - main [MainThread]: End processing [Scrappers] error
+[2023-04-20 06:41:02] INFO root fetch - processPackages [basaran]: New version: [0.16.2] Old Version: [0.16.1]
+[2023-04-20 06:41:02] INFO root fetch - processPackages [caesar-rock]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 06:41:02] INFO root fetch - processPackages [odoo-addon-document-page-approval]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-04-20 06:41:02] INFO root fetch - processPackages [huble]: New version: [0.2.302] Old Version: [0.2.301]
+[2023-04-20 06:41:02] INFO root fetch - processPackages [caesar-rock]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 06:41:02] INFO root fetch - processPackages [zoish]: New version: [3.3.0] Old Version: [3.1.0]
+[2023-04-20 06:41:02] INFO root fetch - processPackages [odoo-addon-document-page-approval]: executing diffoscope
+[2023-04-20 06:41:02] INFO root fetch - processPackages [odoo-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_approval-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_document_page_approval-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-document-page-approval/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-04-20 06:41:02] INFO root fetch - processPackages [basaran]: Downloading https://files.pythonhosted.org/packages/e1/56/d6745029608d6c99bfec237967c378abc4d08adad36d497eadd7e710d77f/basaran-0.16.1.tar.gz
+[2023-04-20 06:41:02] INFO root fetch - processPackages [zoish]: Downloading https://files.pythonhosted.org/packages/6a/88/201a8139ef5d04ad7efee86c1a289df842bfaa5ec2831787382335fc281e/zoish-3.1.0.tar.gz
+[2023-04-20 06:41:02] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/1c/cd/b79085c1847feab55ff04f2a6e90608c08d1984c73893c79f594992b81eb/huble-0.2.302.tar.gz
+[2023-04-20 06:41:02] INFO root fetch - processPackages [basaran]: Downloading https://files.pythonhosted.org/packages/a8/82/62d76e948f0abc9207179c62f86c34dadb442b866b65bf4da92bb0f52291/basaran-0.16.2.tar.gz
+[2023-04-20 06:41:02] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-20 06:41:02] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.301.tar.gz tmp/huble-0.2.302.tar.gz --markdown 20230420/h/huble/0.2.301-0.2.302/diff.md --exclude *.pyd
+[2023-04-20 06:41:02] INFO root fetch - processPackages [caesar-rock]: Downloading https://files.pythonhosted.org/packages/a5/a4/1f5d34a09a578cac5754795407c88f690a90d2de6d4087809a4ec2ac61ea/caesar-rock-0.0.3.tar.gz
+[2023-04-20 06:41:02] INFO root fetch - processPackages [caesar-rock]: Downloading https://files.pythonhosted.org/packages/a5/a4/1f5d34a09a578cac5754795407c88f690a90d2de6d4087809a4ec2ac61ea/caesar-rock-0.0.3.tar.gz
+[2023-04-20 06:41:02] INFO root fetch - processPackages [basaran]: executing diffoscope
+[2023-04-20 06:41:02] INFO root fetch - processPackages [basaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basaran-0.16.1.tar.gz tmp/basaran-0.16.2.tar.gz --markdown 20230420/b/basaran/0.16.1-0.16.2/diff.md --exclude *.pyd
+[2023-04-20 06:41:02] INFO root fetch - processPackages [caesar-rock]: executing diffoscope
+[2023-04-20 06:41:02] INFO root fetch - processPackages [caesar-rock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caesar-rock-0.0.2.tar.gz tmp/caesar-rock-0.0.3.tar.gz --markdown 20230420/c/caesar-rock/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 06:41:02] INFO root fetch - processPackages [caesar-rock]: executing diffoscope
+[2023-04-20 06:41:02] INFO root fetch - processPackages [caesar-rock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caesar-rock-0.0.2.tar.gz tmp/caesar-rock-0.0.3.tar.gz --markdown 20230420/c/caesar-rock/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 06:41:02] INFO root fetch - processPackages [zoish]: Downloading https://files.pythonhosted.org/packages/b7/02/80ff37277d0f56412231c6100ea84cfe404395ea0e5afaedb1ec009a31ad/zoish-3.3.0.tar.gz
+[2023-04-20 06:41:02] INFO root fetch - processPackages [zoish]: executing diffoscope
+[2023-04-20 06:41:02] INFO root fetch - processPackages [zoish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoish-3.1.0.tar.gz tmp/zoish-3.3.0.tar.gz --markdown 20230420/z/zoish/3.1.0-3.3.0/diff.md --exclude *.pyd
+[2023-04-20 06:41:03] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-20 06:41:03] INFO root fetch - main [MainThread]: End processing [caesar-rock]: success
+[2023-04-20 06:41:03] INFO root fetch - main [MainThread]: End processing [caesar-rock]: success
+[2023-04-20 06:41:04] INFO root fetch - main [MainThread]: End processing [basaran]: success
+[2023-04-20 06:41:06] INFO root fetch - main [MainThread]: End processing [zoish]: success
+[2023-04-20 06:41:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-approval]: success
+[2023-04-20 06:41:16] INFO root fetch - main [MainThread]: Store serial: [17782101]
