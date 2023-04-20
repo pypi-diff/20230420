@@ -6768,3 +6768,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 05:10:19] INFO root fetch - main [MainThread]: End processing [edman]: success
 [2023-04-20 05:10:19] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-04-20 05:10:19] INFO root fetch - main [MainThread]: Store serial: [17781531]
+[2023-04-20 05:15:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781531]
+[2023-04-20 05:15:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-20 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gmail-scanner
+[2023-04-20 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-account-payment-partner
+[2023-04-20 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Alpha-Rabbit
+[2023-04-20 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-account-payment-partner
+[2023-04-20 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: buildlackey
+[2023-04-20 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyperfast-python-template
+[2023-04-20 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GANDLF
+[2023-04-20 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openai-promptify-py
+[2023-04-20 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ga-api-client
+[2023-04-20 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigraph-schema
+[2023-04-20 05:15:28] INFO root fetch - processPackages [odoo14-addon-account-payment-partner]: New version: [14.0.1.7.3.dev1] Old Version: [14.0.1.7.2.dev2]
+[2023-04-20 05:15:28] INFO root fetch - processPackages [odoo12-addon-account-payment-partner]: New version: [12.0.1.0.3.99.dev6] Old Version: [12.0.1.0.3.99.dev5]
+[2023-04-20 05:15:28] INFO root fetch - processPackages [gmail-scanner]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-20 05:15:28] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-04-20 05:15:28] INFO root fetch - processPackages [openai-promptify-py]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 05:15:28] INFO root fetch - processPackages [bigraph-schema]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 05:15:28] INFO root fetch - processPackages [ga-api-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 05:15:28] INFO root fetch - processPackages [buildlackey]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-20 05:15:28] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-20 05:15:28] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230420] Old Version: [0.0.16.dev20230419]
+[2023-04-20 05:15:28] INFO root fetch - processPackages [openai-promptify-py]: Downloading https://files.pythonhosted.org/packages/ff/7c/f3176870f807267399642c83b78a479c17104fcd7d9584419cfa3a035c2f/openai-promptify-py-0.0.1.tar.gz
+[2023-04-20 05:15:28] INFO root fetch - processPackages [ga-api-client]: Downloading https://files.pythonhosted.org/packages/aa/61/da83c1ee4286836f756d56914d6eabb50e1e4f3f91c6d36ef734d17d0095/ga-api-client-0.2.8.tar.gz
+[2023-04-20 05:15:28] INFO root fetch - processPackages [odoo14-addon-account-payment-partner]: Downloading https://files.pythonhosted.org/packages/a8/0d/c5b18fbbd54ae0abeae6df598b133d1e2e7961797f36243613815c87a178/odoo14_addon_account_payment_partner-14.0.1.7.2.dev2-py3-none-any.whl
+[2023-04-20 05:15:28] INFO root fetch - processPackages [buildlackey]: Downloading https://files.pythonhosted.org/packages/32/5d/4026ceb9eebb5e911e6a167aba68e79767b8ee5725c06ee2e71194ad33b1/buildlackey-0.8.1.tar.gz
+[2023-04-20 05:15:28] INFO root fetch - processPackages [bigraph-schema]: Downloading https://files.pythonhosted.org/packages/a3/7b/869a2c61c6d44547c672b05ed849560c8ba6de9400e5cfea582a945c62ad/bigraph-schema-0.0.2.tar.gz
+[2023-04-20 05:15:28] INFO root fetch - processPackages [odoo12-addon-account-payment-partner]: Downloading https://files.pythonhosted.org/packages/71/5e/4a3d2748918ef7d83f30f4289179c14a65f6fbb601880d471982913d47b9/odoo12_addon_account_payment_partner-12.0.1.0.3.99.dev5-py3-none-any.whl
+[2023-04-20 05:15:28] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/8e/1b/ee4eb60cb9817fb60990ddaf5816a6f96daf613e705c09bee66fd5441ae7/hyperfast_python_template-0.1.9.tar.gz
+[2023-04-20 05:15:28] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/d1/69/d417e59344f976fb1a4c654fa74ef9691b678a448d415b9bb27c758e9447/GANDLF-0.0.16.dev20230420.tar.gz
+[2023-04-20 05:15:28] INFO root fetch - processPackages [buildlackey]: executing diffoscope
+[2023-04-20 05:15:28] INFO root fetch - processPackages [buildlackey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildlackey-0.8.0.tar.gz tmp/buildlackey-0.8.1.tar.gz --markdown 20230420/b/buildlackey/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-20 05:15:28] INFO root fetch - processPackages [gmail-scanner]: Downloading https://files.pythonhosted.org/packages/5c/34/7049ee1d5c86b24e8c5978923615eca0ce6b6e64a48d1d6eca7c58962ef8/gmail_scanner-1.0.2.tar.gz
+[2023-04-20 05:15:28] INFO root fetch - processPackages [gmail-scanner]: executing diffoscope
+[2023-04-20 05:15:28] INFO root fetch - processPackages [gmail-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmail_scanner-1.0.1.tar.gz tmp/gmail_scanner-1.0.2.tar.gz --markdown 20230420/g/gmail-scanner/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 05:15:28] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-04-20 05:15:28] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230420/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-20 05:15:28] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-04-20 05:15:28] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230419.tar.gz tmp/GANDLF-0.0.16.dev20230420.tar.gz --markdown 20230420/G/GANDLF/0.0.16.dev20230419-0.0.16.dev20230420/diff.md --exclude *.pyd
+[2023-04-20 05:15:28] INFO root fetch - processPackages [bigraph-schema]: Downloading https://files.pythonhosted.org/packages/91/30/a9ace7b069db2358f25f7d98f6b8bfcbd13b925d77557230e14ab2d0136c/bigraph-schema-0.0.3.tar.gz
+[2023-04-20 05:15:28] INFO root fetch - processPackages [openai-promptify-py]: Downloading https://files.pythonhosted.org/packages/1f/d7/a18fc078f39ec8b8ad3e9b6e7af87d75992a44ced4244f8474a69bb720e9/openai-promptify-py-0.0.2.tar.gz
+[2023-04-20 05:15:28] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/76/1e/41ddaa47d28dff2cb77ecaf4fdcfbc126a45b628edc1da9f492fc8a71d6a/hyperfast_python_template-0.2.0.tar.gz
+[2023-04-20 05:15:28] INFO root fetch - processPackages [bigraph-schema]: executing diffoscope
+[2023-04-20 05:15:28] INFO root fetch - processPackages [bigraph-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigraph-schema-0.0.2.tar.gz tmp/bigraph-schema-0.0.3.tar.gz --markdown 20230420/b/bigraph-schema/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 05:15:28] INFO root fetch - processPackages [ga-api-client]: Downloading https://files.pythonhosted.org/packages/76/bb/94a2addc2aab4bbf37a95b7af0410acb52d36a8f3657ff6017212260fc58/ga-api-client-0.2.9.tar.gz
+[2023-04-20 05:15:28] INFO root fetch - processPackages [odoo14-addon-account-payment-partner]: Downloading https://files.pythonhosted.org/packages/3d/bd/783ed9a293ec44a3b64b77f300527664eb22f1b2eec506f989d4e5802437/odoo14_addon_account_payment_partner-14.0.1.7.3.dev1-py3-none-any.whl
+[2023-04-20 05:15:28] INFO root fetch - processPackages [openai-promptify-py]: executing diffoscope
+[2023-04-20 05:15:28] INFO root fetch - processPackages [openai-promptify-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-promptify-py-0.0.1.tar.gz tmp/openai-promptify-py-0.0.2.tar.gz --markdown 20230420/o/openai-promptify-py/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 05:15:28] INFO root fetch - processPackages [odoo12-addon-account-payment-partner]: Downloading https://files.pythonhosted.org/packages/5a/d1/13b9ed1838bceaa2568333ec17b292036db7548752a52d6e92a766252622/odoo12_addon_account_payment_partner-12.0.1.0.3.99.dev6-py3-none-any.whl
+[2023-04-20 05:15:28] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-20 05:15:28] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.1.9.tar.gz tmp/hyperfast_python_template-0.2.0.tar.gz --markdown 20230420/h/hyperfast-python-template/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 05:15:29] INFO root fetch - processPackages [ga-api-client]: executing diffoscope
+[2023-04-20 05:15:29] INFO root fetch - processPackages [ga-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ga-api-client-0.2.8.tar.gz tmp/ga-api-client-0.2.9.tar.gz --markdown 20230420/g/ga-api-client/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 05:15:29] INFO root fetch - processPackages [odoo14-addon-account-payment-partner]: executing diffoscope
+[2023-04-20 05:15:29] INFO root fetch - processPackages [odoo14-addon-account-payment-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_payment_partner-14.0.1.7.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_account_payment_partner-14.0.1.7.3.dev1-py3-none-any.whl.zip --markdown 20230420/o/odoo14-addon-account-payment-partner/14.0.1.7.2.dev2-14.0.1.7.3.dev1/diff.md --exclude *.pyd
+[2023-04-20 05:15:29] INFO root fetch - processPackages [odoo12-addon-account-payment-partner]: executing diffoscope
+[2023-04-20 05:15:29] INFO root fetch - processPackages [odoo12-addon-account-payment-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_payment_partner-12.0.1.0.3.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_account_payment_partner-12.0.1.0.3.99.dev6-py3-none-any.whl.zip --markdown 20230420/o/odoo12-addon-account-payment-partner/12.0.1.0.3.99.dev5-12.0.1.0.3.99.dev6/diff.md --exclude *.pyd
+[2023-04-20 05:15:30] INFO root fetch - processPackages [Alpha-Rabbit]: Start processing: nonebot-plugin-bilichat
+[2023-04-20 05:15:30] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-04-20 05:15:30] INFO root fetch - main [MainThread]: End processing [gmail-scanner]: success
+[2023-04-20 05:15:30] INFO root fetch - main [MainThread]: End processing [bigraph-schema]: success
+[2023-04-20 05:15:30] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-20 05:15:30] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-20 05:15:30] INFO root fetch - main [MainThread]: End processing [buildlackey]: success
+[2023-04-20 05:15:30] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/7f/98/73037004c39c8affd806101ff406a461eb794c98e9f0233e497e778c0f15/nonebot_plugin_bilichat-1.4.0.tar.gz
+[2023-04-20 05:15:30] INFO root fetch - main [MainThread]: End processing [openai-promptify-py]: success
+[2023-04-20 05:15:30] INFO root fetch - main [MainThread]: End processing [ga-api-client]: success
+[2023-04-20 05:15:30] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-payment-partner]: success
+[2023-04-20 05:15:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-partner]: success
+[2023-04-20 05:15:30] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/4c/a3/5d148948b9a3733aabea2b70e027bfc734921b0e6e70e162eb9cb6b4a7d7/nonebot_plugin_bilichat-1.4.1.tar.gz
+[2023-04-20 05:15:31] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-04-20 05:15:31] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-04-20 05:15:31] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-1.4.0.tar.gz tmp/nonebot_plugin_bilichat-1.4.1.tar.gz --markdown 20230420/n/nonebot-plugin-bilichat/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-04-20 05:15:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-04-20 05:15:32] INFO root fetch - main [MainThread]: Store serial: [17781557]
