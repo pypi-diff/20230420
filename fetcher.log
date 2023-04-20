@@ -7684,3 +7684,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 06:41:06] INFO root fetch - main [MainThread]: End processing [zoish]: success
 [2023-04-20 06:41:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-approval]: success
 [2023-04-20 06:41:16] INFO root fetch - main [MainThread]: Store serial: [17782101]
+[2023-04-20 06:46:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17782101]
+[2023-04-20 06:46:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-20 06:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huble
+[2023-04-20 06:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cozo-embedded
+[2023-04-20 06:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: troyai
+[2023-04-20 06:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biglist
+[2023-04-20 06:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cwsearch-utils
+[2023-04-20 06:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycozo
+[2023-04-20 06:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easycheck-doiteasy
+[2023-04-20 06:46:25] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-20 06:46:25] INFO root fetch - processPackages [troyai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 06:46:25] INFO root fetch - processPackages [huble]: New version: [0.2.303] Old Version: [0.2.302]
+[2023-04-20 06:46:25] INFO root fetch - processPackages [easycheck-doiteasy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-20 06:46:25] INFO root fetch - processPackages [pycozo]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-20 06:46:25] INFO root fetch - processPackages [cozo-embedded]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-20 06:46:25] INFO root fetch - processPackages [biglist]: New version: [0.8.0b1] Old Version: [0.8.0]
+[2023-04-20 06:46:25] INFO root fetch - processPackages [troyai]: Downloading https://files.pythonhosted.org/packages/88/06/f02462cb0ce41a37495d734c234d02f742b642a46d8d58e882d7aa45eaa6/troyai-0.0.1.tar.gz
+[2023-04-20 06:46:25] INFO root fetch - processPackages [biglist]: Downloading https://files.pythonhosted.org/packages/31/73/7702d38b299ae2bdbbb16eda67b915195f58e1f7420a421bebdd169fad23/biglist-0.8.0.tar.gz
+[2023-04-20 06:46:25] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/d0/76/90973a99307b0e5811bfc381d58811d3018f3b9d919f348396394223c46b/huble-0.2.303.tar.gz
+[2023-04-20 06:46:25] INFO root fetch - processPackages [pycozo]: Downloading https://files.pythonhosted.org/packages/49/94/8a9f3bc93f97d23a754096a1ecf3f0e946e5b731f1659ca5ab5400cb7328/pycozo-0.5.1.tar.gz
+[2023-04-20 06:46:25] INFO root fetch - processPackages [cwsearch-utils]: Downloading https://files.pythonhosted.org/packages/65/c9/a64d8fa6079ebae541219a0943480b41cc0d44a3d51c33ff8e4e1c1360fc/cwsearch_utils-0.1.8-py3-none-any.whl
+[2023-04-20 06:46:25] INFO root fetch - processPackages [cozo-embedded]: Downloading https://files.pythonhosted.org/packages/1a/8f/f77ee9d817c9ebc851594119559547df55b5792ded4ac87bbfec28f40aec/cozo_embedded-0.5.1-cp37-abi3-win_amd64.whl
+[2023-04-20 06:46:25] INFO root fetch - processPackages [easycheck-doiteasy]: Downloading https://files.pythonhosted.org/packages/4b/62/eca2418454fd4a482fdec03a1a02596342c0e45c6f556d760ed590a99747/easycheck_doiteasy-0.0.5.tar.gz
+[2023-04-20 06:46:25] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-04-20 06:46:25] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.7-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip --markdown 20230420/c/cwsearch-utils/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-20 06:46:25] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-20 06:46:25] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.302.tar.gz tmp/huble-0.2.303.tar.gz --markdown 20230420/h/huble/0.2.302-0.2.303/diff.md --exclude *.pyd
+[2023-04-20 06:46:25] INFO root fetch - processPackages [troyai]: Downloading https://files.pythonhosted.org/packages/0c/2d/070101eeeb6a8bd7dcb6540c04de561d88b895f67d6b0b721f726aa2ce7e/troyai-0.0.2.tar.gz
+[2023-04-20 06:46:25] INFO root fetch - processPackages [easycheck-doiteasy]: executing diffoscope
+[2023-04-20 06:46:25] INFO root fetch - processPackages [easycheck-doiteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycheck_doiteasy-0.0.4.tar.gz tmp/easycheck_doiteasy-0.0.5.tar.gz --markdown 20230420/e/easycheck-doiteasy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 06:46:25] INFO root fetch - processPackages [biglist]: executing diffoscope
+[2023-04-20 06:46:25] INFO root fetch - processPackages [biglist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biglist-0.8.0.tar.gz tmp/biglist-0.8.0b1.tar.gz --markdown 20230420/b/biglist/0.8.0-0.8.0b1/diff.md --exclude *.pyd
+[2023-04-20 06:46:26] INFO root fetch - processPackages [troyai]: executing diffoscope
+[2023-04-20 06:46:26] INFO root fetch - processPackages [troyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troyai-0.0.1.tar.gz tmp/troyai-0.0.2.tar.gz --markdown 20230420/t/troyai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 06:46:26] INFO root fetch - processPackages [pycozo]: Downloading https://files.pythonhosted.org/packages/e7/f5/b35f28282ccc0451889239d6b25f18ca7c3e2dbd8c29e6b7860059a26f16/pycozo-0.6.0.tar.gz
+[2023-04-20 06:46:26] INFO root fetch - processPackages [pycozo]: executing diffoscope
+[2023-04-20 06:46:26] INFO root fetch - processPackages [pycozo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycozo-0.5.1.tar.gz tmp/pycozo-0.6.0.tar.gz --markdown 20230420/p/pycozo/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-04-20 06:46:26] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-04-20 06:46:26] INFO root fetch - main [MainThread]: End processing [easycheck-doiteasy]: success
+[2023-04-20 06:46:27] INFO root fetch - main [MainThread]: End processing [biglist]: success
+[2023-04-20 06:46:27] INFO root fetch - main [MainThread]: End processing [pycozo]: success
+[2023-04-20 06:46:27] INFO root fetch - main [MainThread]: End processing [troyai]: success
+[2023-04-20 06:46:27] INFO root fetch - processPackages [cozo-embedded]: Downloading https://files.pythonhosted.org/packages/d3/17/6684c89d509efc6efee5107421baba32b3e2a607787124beec168524980b/cozo_embedded-0.6.0-cp37-abi3-win_amd64.whl
+[2023-04-20 06:46:27] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-20 06:46:28] INFO root fetch - processPackages [cozo-embedded]: executing diffoscope
+[2023-04-20 06:46:28] INFO root fetch - processPackages [cozo-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cozo_embedded-0.5.1-cp37-abi3-win_amd64.whl.zip tmp/cozo_embedded-0.6.0-cp37-abi3-win_amd64.whl.zip --markdown 20230420/c/cozo-embedded/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-04-20 06:46:29] INFO root fetch - main [MainThread]: End processing [cozo-embedded]: success
+[2023-04-20 06:46:29] INFO root fetch - main [MainThread]: Store serial: [17782123]
