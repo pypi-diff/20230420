@@ -20156,3 +20156,204 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 17:32:25] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-04-20 17:33:20] INFO root fetch - main [MainThread]: End processing [wasmtime]: success
 [2023-04-20 17:33:20] INFO root fetch - main [MainThread]: Store serial: [17789255]
+[2023-04-20 17:38:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17789255]
+[2023-04-20 17:38:44] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-04-20 17:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huble
+[2023-04-20 17:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opendatacrawler
+[2023-04-20 17:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: descope
+[2023-04-20 17:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nlptest
+[2023-04-20 17:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dragonfly-radiance
+[2023-04-20 17:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openlineage-airflow
+[2023-04-20 17:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openlineage-dagster
+[2023-04-20 17:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openlineage-dbt
+[2023-04-20 17:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openlineage-integration-common
+[2023-04-20 17:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openlineage-python
+[2023-04-20 17:38:44] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 17:38:44] INFO root fetch - processPackages [huble]: New version: [0.2.305] Old Version: [0.2.304]
+[2023-04-20 17:38:44] INFO root fetch - processPackages [nlptest]: New version: [1.0.2rc6] Old Version: [1.0.2rc5]
+[2023-04-20 17:38:44] INFO root fetch - processPackages [descope]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-20 17:38:44] INFO root fetch - processPackages [opendatacrawler]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-20 17:38:44] INFO root fetch - processPackages [openlineage-integration-common]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-20 17:38:44] INFO root fetch - processPackages [openlineage-dagster]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-20 17:38:44] INFO root fetch - processPackages [openlineage-dbt]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-20 17:38:44] INFO root fetch - processPackages [openlineage-python]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-20 17:38:44] INFO root fetch - processPackages [openlineage-airflow]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-20 17:38:44] INFO root fetch - processPackages [opendatacrawler]: Downloading https://files.pythonhosted.org/packages/53/1b/4715b6361d9baa0f214f67e7223df4f55397c067a6de721252a629980eba/opendatacrawler-1.0.7.tar.gz
+[2023-04-20 17:38:44] INFO root fetch - processPackages [descope]: Downloading https://files.pythonhosted.org/packages/1f/77/d80223608a20728114042953a1b8ee7e9ab1b47f193b92136ba0c558ad47/descope-1.1.0.tar.gz
+[2023-04-20 17:38:44] INFO root fetch - processPackages [nlptest]: Downloading https://files.pythonhosted.org/packages/21/2b/c0175280f5801ae40262f2ea504e2f35c04a39abc6fcc5eb174e4ae9513a/nlptest-1.0.2rc5.tar.gz
+[2023-04-20 17:38:44] INFO root fetch - processPackages [openlineage-dbt]: Downloading https://files.pythonhosted.org/packages/26/27/cc4b641d34d29e86ad58db25ce999c56af25bcb41fbd2fec3e2697af285c/openlineage-dbt-0.8.2.tar.gz
+[2023-04-20 17:38:44] INFO root fetch - processPackages [openlineage-integration-common]: Downloading https://files.pythonhosted.org/packages/e0/42/f729f76f601645e57193d6994aa8db54a5279a5e789fcfa8585b09ea1b40/openlineage-integration-common-0.8.2.tar.gz
+[2023-04-20 17:38:44] INFO root fetch - processPackages [openlineage-dagster]: Downloading https://files.pythonhosted.org/packages/13/67/488fb7516c358e4b285740fb863a79d1279d25d7244a7fe90e6963233d2b/openlineage-dagster-0.8.2.tar.gz
+[2023-04-20 17:38:44] INFO root fetch - processPackages [openlineage-airflow]: Downloading https://files.pythonhosted.org/packages/58/51/5a84326e4010eb9ee60f5b640b6c588e174ea364fa3cfe42eea82118e396/openlineage-airflow-0.8.2.tar.gz
+[2023-04-20 17:38:44] INFO root fetch - processPackages [openlineage-python]: Downloading https://files.pythonhosted.org/packages/08/53/fdaf56bed58ad60fb148f28a32df1da172c9439f400c0c4b7ac52e704b22/openlineage-python-0.8.2.tar.gz
+[2023-04-20 17:38:44] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/4a/88/c765e45f9ce4e2e0bcd95df5ac7a8f077d17065db6bba0a3fcf34c985b7d/huble-0.2.305.tar.gz
+[2023-04-20 17:38:44] WARNING root fetch - processPackages [nlptest]: Skipping package: exceeds size limit 48517857>=10485760
+[2023-04-20 17:38:44] INFO root fetch - processPackages [nlptest]: Start processing: finbourne-insights-sdk-preview
+[2023-04-20 17:38:44] INFO root fetch - main [MainThread]: End processing [nlptest] error
+[2023-04-20 17:38:44] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-04-20 17:38:44] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230420/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 17:38:44] INFO root fetch - processPackages [descope]: Downloading https://files.pythonhosted.org/packages/6a/73/dbdfa6aee4104e30b4e243c0d8435c548e86a16ea2a95154c04e9dff7fab/descope-1.1.1.tar.gz
+[2023-04-20 17:38:44] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: New version: [0.0.499] Old Version: [0.0.496]
+[2023-04-20 17:38:44] INFO root fetch - processPackages [opendatacrawler]: Downloading https://files.pythonhosted.org/packages/ce/60/471a47e1241051ae76ba6ee71af602a7e120d62f00befa114953a3163136/opendatacrawler-1.0.8.tar.gz
+[2023-04-20 17:38:44] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-20 17:38:44] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.304.tar.gz tmp/huble-0.2.305.tar.gz --markdown 20230420/h/huble/0.2.304-0.2.305/diff.md --exclude *.pyd
+[2023-04-20 17:38:44] INFO root fetch - processPackages [descope]: executing diffoscope
+[2023-04-20 17:38:44] INFO root fetch - processPackages [descope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/descope-1.1.0.tar.gz tmp/descope-1.1.1.tar.gz --markdown 20230420/d/descope/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-20 17:38:44] INFO root fetch - processPackages [opendatacrawler]: executing diffoscope
+[2023-04-20 17:38:44] INFO root fetch - processPackages [opendatacrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendatacrawler-1.0.7.tar.gz tmp/opendatacrawler-1.0.8.tar.gz --markdown 20230420/o/opendatacrawler/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-20 17:38:45] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/95/aa/b9e9dd1687b4e1a4bfc505c6492428a50b5b8f71e7c9a082c665849382ef/finbourne-insights-sdk-preview-0.0.499.tar.gz
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-integration-common]: Downloading https://files.pythonhosted.org/packages/ca/7a/0647ff9e01ce6ecdd6ea6498013c9701a74381ad8fdff70e97159d75283a/openlineage-integration-common-0.9.0.tar.gz
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-airflow]: Downloading https://files.pythonhosted.org/packages/fb/61/19a68d46754130a3be40f2dea560fa5df992a6e95e8efd602f5e96f59fef/openlineage-airflow-0.9.0.tar.gz
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-python]: Downloading https://files.pythonhosted.org/packages/cd/7a/48f3382f357e7538a2586aa82728311e2406eacf4d0a93f8113e9eada999/openlineage-python-0.9.0.tar.gz
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-dbt]: Downloading https://files.pythonhosted.org/packages/b0/8f/d5e86853bcc3cdf42b220813ce6ff098d95f6257d611c19a151e17257688/openlineage-dbt-0.9.0.tar.gz
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-dagster]: Downloading https://files.pythonhosted.org/packages/09/1d/f6da3bb3846b35fe97c0530ff4d933757b4c64053a3cc89537356ba447db/openlineage-dagster-0.9.0.tar.gz
+[2023-04-20 17:38:45] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: executing diffoscope
+[2023-04-20 17:38:45] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-insights-sdk-preview-0.0.496.tar.gz tmp/finbourne-insights-sdk-preview-0.0.499.tar.gz --markdown 20230420/f/finbourne-insights-sdk-preview/0.0.496-0.0.499/diff.md --exclude *.pyd
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-integration-common]: executing diffoscope
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-integration-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-integration-common-0.8.2.tar.gz tmp/openlineage-integration-common-0.9.0.tar.gz --markdown 20230420/o/openlineage-integration-common/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-python]: executing diffoscope
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-python-0.8.2.tar.gz tmp/openlineage-python-0.9.0.tar.gz --markdown 20230420/o/openlineage-python/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-airflow]: executing diffoscope
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-airflow-0.8.2.tar.gz tmp/openlineage-airflow-0.9.0.tar.gz --markdown 20230420/o/openlineage-airflow/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-dbt]: executing diffoscope
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-dbt-0.8.2.tar.gz tmp/openlineage-dbt-0.9.0.tar.gz --markdown 20230420/o/openlineage-dbt/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-dagster]: executing diffoscope
+[2023-04-20 17:38:45] INFO root fetch - processPackages [openlineage-dagster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage-dagster-0.8.2.tar.gz tmp/openlineage-dagster-0.9.0.tar.gz --markdown 20230420/o/openlineage-dagster/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 17:38:46] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: openlineage-sql
+[2023-04-20 17:38:46] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-04-20 17:38:46] INFO root fetch - processPackages [huble]: Start processing: my-pipeline-package
+[2023-04-20 17:38:46] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-20 17:38:46] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 17:38:46] INFO root fetch - processPackages [openlineage-sql]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-20 17:38:46] INFO root fetch - processPackages [descope]: Start processing: trove-classifiers
+[2023-04-20 17:38:46] INFO root fetch - main [MainThread]: End processing [descope]: success
+[2023-04-20 17:38:46] INFO root fetch - processPackages [opendatacrawler]: Start processing: policyengine-us
+[2023-04-20 17:38:46] INFO root fetch - main [MainThread]: End processing [opendatacrawler]: success
+[2023-04-20 17:38:46] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 17:38:46] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.8.tar.gz tmp/my-pipeline-package-1.1.9.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 17:38:46] INFO root fetch - processPackages [policyengine-us]: New version: [0.295.1] Old Version: [0.295.0]
+[2023-04-20 17:38:46] INFO root fetch - processPackages [openlineage-sql]: Downloading https://files.pythonhosted.org/packages/aa/a1/31b29e16decda21831cc5847fbfb18ad2ce154cd5480301286e7f8f24cfd/openlineage_sql-0.8.2.tar.gz
+[2023-04-20 17:38:46] INFO root fetch - processPackages [trove-classifiers]: New version: [2023.4.20] Old Version: [2023.4.18]
+[2023-04-20 17:38:46] INFO root fetch - processPackages [openlineage-integration-common]: Start processing: tf-nightly-intel
+[2023-04-20 17:38:46] INFO root fetch - main [MainThread]: End processing [openlineage-integration-common]: success
+[2023-04-20 17:38:46] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/0a/88/1842d755e44bb0a09d637855df539ecdc963efa61bd832602e266f77d3d3/policyengine-us-0.295.1.tar.gz
+[2023-04-20 17:38:46] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.13.0.dev20230419] Old Version: [2.13.0.dev20230418]
+[2023-04-20 17:38:47] INFO root fetch - processPackages [openlineage-sql]: Downloading https://files.pythonhosted.org/packages/46/a5/42019f5764d165c482529b27de537970858fa948b02049ba31b37eea5d01/openlineage_sql-0.9.0.tar.gz
+[2023-04-20 17:38:47] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/6a/65/639bc5eef12273f11cfc82bbbd203a04add64c4821f546afc472a24b6519/tf_nightly_intel-2.13.0.dev20230418-cp39-cp39-win_amd64.whl
+[2023-04-20 17:38:47] INFO root fetch - processPackages [trove-classifiers]: Downloading https://files.pythonhosted.org/packages/f1/11/510639e751169550c933c98cba5947415301879e62fde97239d94cedad8c/trove-classifiers-2023.4.20.tar.gz
+[2023-04-20 17:38:47] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 178491488>=10485760
+[2023-04-20 17:38:47] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: eptools
+[2023-04-20 17:38:47] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-04-20 17:38:47] INFO root fetch - processPackages [openlineage-dbt]: Start processing: NeuroRuler
+[2023-04-20 17:38:47] INFO root fetch - main [MainThread]: End processing [openlineage-dbt]: success
+[2023-04-20 17:38:47] INFO root fetch - processPackages [NeuroRuler]: New version: [1.7] Old Version: [0.0.1]
+[2023-04-20 17:38:47] INFO root fetch - processPackages [openlineage-sql]: executing diffoscope
+[2023-04-20 17:38:47] INFO root fetch - processPackages [openlineage-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlineage_sql-0.8.2.tar.gz tmp/openlineage_sql-0.9.0.tar.gz --markdown 20230420/o/openlineage-sql/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 17:38:47] INFO root fetch - processPackages [eptools]: New version: [8.5.5] Old Version: [8.5.4]
+[2023-04-20 17:38:47] INFO root fetch - processPackages [openlineage-python]: Start processing: dramkit
+[2023-04-20 17:38:47] INFO root fetch - main [MainThread]: End processing [openlineage-python]: success
+[2023-04-20 17:38:47] INFO root fetch - processPackages [dramkit]: New version: [0.5.31] Old Version: [0.4.4]
+[2023-04-20 17:38:47] INFO root fetch - processPackages [trove-classifiers]: executing diffoscope
+[2023-04-20 17:38:47] INFO root fetch - processPackages [trove-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trove-classifiers-2023.4.18.tar.gz tmp/trove-classifiers-2023.4.20.tar.gz --markdown 20230420/t/trove-classifiers/2023.4.18-2023.4.20/diff.md --exclude *.pyd
+[2023-04-20 17:38:47] INFO root fetch - processPackages [NeuroRuler]: executing diffoscope
+[2023-04-20 17:38:47] INFO root fetch - processPackages [NeuroRuler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroRuler-0.0.1.tar.gz tmp/NeuroRuler-1.7.tar.gz --markdown 20230420/N/NeuroRuler/0.0.1-1.7/diff.md --exclude *.pyd
+[2023-04-20 17:38:47] INFO root fetch - processPackages [openlineage-dagster]: Start processing: opendatacrawler
+[2023-04-20 17:38:47] INFO root fetch - main [MainThread]: End processing [openlineage-dagster]: success
+[2023-04-20 17:38:47] INFO root fetch - processPackages [opendatacrawler]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 17:38:47] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-04-20 17:38:47] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.295.0.tar.gz tmp/policyengine-us-0.295.1.tar.gz --markdown 20230420/p/policyengine-us/0.295.0-0.295.1/diff.md --exclude *.pyd
+[2023-04-20 17:38:47] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Start processing: lbt-dragonfly
+[2023-04-20 17:38:47] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
+[2023-04-20 17:38:47] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-04-20 17:38:47] INFO root fetch - processPackages [eptools]: Downloading https://files.pythonhosted.org/packages/b5/23/ff4185c855db3b48c48646c5fa704c15cf1a094322b75078f7e02e765fe3/eptools-8.5.5.tar.gz
+[2023-04-20 17:38:47] INFO root fetch - processPackages [opendatacrawler]: Downloading https://files.pythonhosted.org/packages/7e/8e/eb680c3c3d799f4135f66dbc92e261caa9aaa29203e110d81adec4ade744/opendatacrawler-1.0.9.tar.gz
+[2023-04-20 17:38:47] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-04-20 17:38:47] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230420/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-04-20 17:38:47] INFO root fetch - processPackages [dramkit]: Downloading https://files.pythonhosted.org/packages/3e/c7/f98c91689e9df2e5938d1e8d11e3529fcae4870b795ce3403150ac8f4720/dramkit-0.5.31.tar.gz
+[2023-04-20 17:38:47] INFO root fetch - processPackages [eptools]: executing diffoscope
+[2023-04-20 17:38:47] INFO root fetch - processPackages [eptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eptools-8.5.4.tar.gz tmp/eptools-8.5.5.tar.gz --markdown 20230420/e/eptools/8.5.4-8.5.5/diff.md --exclude *.pyd
+[2023-04-20 17:38:47] INFO root fetch - processPackages [opendatacrawler]: executing diffoscope
+[2023-04-20 17:38:47] INFO root fetch - processPackages [opendatacrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendatacrawler-1.0.8.tar.gz tmp/opendatacrawler-1.0.9.tar.gz --markdown 20230420/o/opendatacrawler/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 17:38:47] INFO root fetch - processPackages [my-pipeline-package]: Start processing: revproxy-auth
+[2023-04-20 17:38:47] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 17:38:47] INFO root fetch - processPackages [dramkit]: executing diffoscope
+[2023-04-20 17:38:47] INFO root fetch - processPackages [dramkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dramkit-0.4.4.tar.gz tmp/dramkit-0.5.31.tar.gz --markdown 20230420/d/dramkit/0.4.4-0.5.31/diff.md --exclude *.pyd
+[2023-04-20 17:38:48] INFO root fetch - processPackages [revproxy-auth]: New version: [0.0.9] Old Version: [0.0.10]
+[2023-04-20 17:38:48] INFO root fetch - processPackages [openlineage-airflow]: Start processing: gentrace-py
+[2023-04-20 17:38:48] INFO root fetch - main [MainThread]: End processing [openlineage-airflow]: success
+[2023-04-20 17:38:48] INFO root fetch - processPackages [gentrace-py]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-20 17:38:48] INFO root fetch - processPackages [revproxy-auth]: Downloading https://files.pythonhosted.org/packages/07/ff/53cfaa01757a6afc341e543d3997ea3212b7318e5f7f30b25174adb3c871/revproxy_auth-0.0.10.tar.gz
+[2023-04-20 17:38:48] INFO root fetch - processPackages [gentrace-py]: executing diffoscope
+[2023-04-20 17:38:48] INFO root fetch - processPackages [gentrace-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentrace_py-0.4.0.tar.gz tmp/gentrace_py-0.4.1.tar.gz --markdown 20230420/g/gentrace-py/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-20 17:38:48] INFO root fetch - processPackages [revproxy-auth]: Downloading https://files.pythonhosted.org/packages/87/d5/d9e4b5b66dcb12be62301b942dec857be1459e6f198456921140a0e72a2b/revproxy_auth-0.0.9.tar.gz
+[2023-04-20 17:38:48] INFO root fetch - processPackages [revproxy-auth]: executing diffoscope
+[2023-04-20 17:38:48] INFO root fetch - processPackages [revproxy-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revproxy_auth-0.0.10.tar.gz tmp/revproxy_auth-0.0.9.tar.gz --markdown 20230420/r/revproxy-auth/0.0.10-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 17:38:48] INFO root fetch - processPackages [openlineage-sql]: Start processing: mango-explorer-v4
+[2023-04-20 17:38:48] INFO root fetch - main [MainThread]: End processing [openlineage-sql]: success
+[2023-04-20 17:38:49] INFO root fetch - processPackages [mango-explorer-v4]: New version: [0.7.3] Old Version: [0.7.1]
+[2023-04-20 17:38:49] INFO root fetch - processPackages [eptools]: Start processing: openPMD-viewer
+[2023-04-20 17:38:49] INFO root fetch - main [MainThread]: End processing [eptools]: success
+[2023-04-20 17:38:49] INFO root fetch - processPackages [lbt-dragonfly]: Start processing: qwak-sdk
+[2023-04-20 17:38:49] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-04-20 17:38:49] INFO root fetch - processPackages [qwak-sdk]: New version: [0.2.24rc0] Old Version: [0.2.23rc0]
+[2023-04-20 17:38:49] INFO root fetch - processPackages [opendatacrawler]: Start processing: aws-cdk.lambda-layer-kubectl-v24
+[2023-04-20 17:38:49] INFO root fetch - main [MainThread]: End processing [opendatacrawler]: success
+[2023-04-20 17:38:49] INFO root fetch - processPackages [mango-explorer-v4]: Downloading https://files.pythonhosted.org/packages/e5/d4/7f89085a8eef78894a21c0c827fd6f2a69068aec6caedbb3787b4217e79e/mango_explorer_v4-0.7.3.tar.gz
+[2023-04-20 17:38:49] INFO root fetch - processPackages [openPMD-viewer]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-04-20 17:38:49] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-04-20 17:38:49] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.2.23rc0.tar.gz tmp/qwak_sdk-0.2.24rc0.tar.gz --markdown 20230420/q/qwak-sdk/0.2.23rc0-0.2.24rc0/diff.md --exclude *.pyd
+[2023-04-20 17:38:49] INFO root fetch - processPackages [aws-cdk.lambda-layer-kubectl-v24]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-20 17:38:49] INFO root fetch - processPackages [NeuroRuler]: Start processing: perceval-weblate
+[2023-04-20 17:38:49] INFO root fetch - main [MainThread]: End processing [NeuroRuler]: success
+[2023-04-20 17:38:49] INFO root fetch - processPackages [trove-classifiers]: Start processing: requirements-detector
+[2023-04-20 17:38:49] INFO root fetch - main [MainThread]: End processing [trove-classifiers]: success
+[2023-04-20 17:38:49] INFO root fetch - processPackages [openPMD-viewer]: Downloading https://files.pythonhosted.org/packages/fa/87/fe96714b5aa65cf9ee171424781cd713f9286cf44b71eacefc97c8092eee/openPMD-viewer-1.6.0.tar.gz
+[2023-04-20 17:38:49] INFO root fetch - processPackages [mango-explorer-v4]: executing diffoscope
+[2023-04-20 17:38:49] INFO root fetch - processPackages [mango-explorer-v4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_explorer_v4-0.7.1.tar.gz tmp/mango_explorer_v4-0.7.3.tar.gz --markdown 20230420/m/mango-explorer-v4/0.7.1-0.7.3/diff.md --exclude *.pyd
+[2023-04-20 17:38:49] INFO root fetch - processPackages [perceval-weblate]: New version: [0.2.8rc1] Old Version: [0.2.7]
+[2023-04-20 17:38:49] INFO root fetch - processPackages [requirements-detector]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-20 17:38:49] INFO root fetch - processPackages [gentrace-py]: Start processing: perceval-puppet
+[2023-04-20 17:38:49] INFO root fetch - main [MainThread]: End processing [gentrace-py]: success
+[2023-04-20 17:38:49] INFO root fetch - processPackages [aws-cdk.lambda-layer-kubectl-v24]: Downloading https://files.pythonhosted.org/packages/ba/44/5afcfe5feef2fcf876929e3f62aa23ec5afd6f1ea847bfdde639d820686f/aws-cdk.lambda-layer-kubectl-v24-2.0.98.tar.gz
+[2023-04-20 17:38:49] WARNING root fetch - processPackages [aws-cdk.lambda-layer-kubectl-v24]: Skipping package: exceeds size limit 27804216>=10485760
+[2023-04-20 17:38:49] INFO root fetch - processPackages [aws-cdk.lambda-layer-kubectl-v24]: Start processing: perceval-mozilla
+[2023-04-20 17:38:49] INFO root fetch - main [MainThread]: End processing [aws-cdk.lambda-layer-kubectl-v24] error
+[2023-04-20 17:38:49] INFO root fetch - processPackages [perceval-puppet]: New version: [0.2.8rc1] Old Version: [0.2.7]
+[2023-04-20 17:38:49] INFO root fetch - processPackages [openPMD-viewer]: Downloading https://files.pythonhosted.org/packages/30/32/d169d1b7e25d86647f86f511091d8b9add2c68bd423c1414712ea331e232/openPMD-viewer-1.7.0.tar.gz
+[2023-04-20 17:38:49] INFO root fetch - processPackages [requirements-detector]: Downloading https://files.pythonhosted.org/packages/ed/e4/7e5628f1561e5afe99c2f4ed4cd6841f22aafe3a852829a2452dce862933/requirements_detector-1.1.0.tar.gz
+[2023-04-20 17:38:49] INFO root fetch - processPackages [perceval-weblate]: Downloading https://files.pythonhosted.org/packages/15/92/0077a832d2c92ba83fc69fa9b309dfe2aed9c8e28b370ccf00363d8c2e7d/perceval_weblate-0.2.7.tar.gz
+[2023-04-20 17:38:49] INFO root fetch - processPackages [perceval-mozilla]: New version: [0.3.8rc1] Old Version: [0.3.7]
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/80/36/7529681f0c376f4db706793f6d8b9f49d2f6e6bde3660a1cb1c62018b2a3/perceval_puppet-0.2.7.tar.gz
+[2023-04-20 17:38:50] INFO root fetch - processPackages [revproxy-auth]: Start processing: perceval-opnfv
+[2023-04-20 17:38:50] INFO root fetch - main [MainThread]: End processing [revproxy-auth]: success
+[2023-04-20 17:38:50] INFO root fetch - processPackages [openPMD-viewer]: executing diffoscope
+[2023-04-20 17:38:50] INFO root fetch - processPackages [openPMD-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openPMD-viewer-1.6.0.tar.gz tmp/openPMD-viewer-1.7.0.tar.gz --markdown 20230420/o/openPMD-viewer/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-mozilla]: Downloading https://files.pythonhosted.org/packages/52/61/d069c737030718a186fadb51678547d3c5d3c1c2dd80b3278140ef49adba/perceval_mozilla-0.3.7.tar.gz
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-opnfv]: New version: [0.2.8rc1] Old Version: [0.2.7]
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-weblate]: Downloading https://files.pythonhosted.org/packages/ff/4a/e54ad1eb1c661d86364eae4b950b00c6270a9a991bd370127e7c3bf8dd33/perceval_weblate-0.2.8rc1.tar.gz
+[2023-04-20 17:38:50] INFO root fetch - processPackages [requirements-detector]: Downloading https://files.pythonhosted.org/packages/01/f2/a21946af9669fa0d21b69a5035b44de39bfc889113f579fd03004f25a414/requirements_detector-1.2.0.tar.gz
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/01/98/2bf5575ab24b08dd346609432da27e1b7d74efd943292e61ecd6b11e558d/perceval_opnfv-0.2.7.tar.gz
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/28/e4/cdd3f3dcfcec68edb234addd72e00dfccfcdfcb1b224f5d7dc6637afb687/perceval_puppet-0.2.8rc1.tar.gz
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-weblate]: executing diffoscope
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-weblate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_weblate-0.2.7.tar.gz tmp/perceval_weblate-0.2.8rc1.tar.gz --markdown 20230420/p/perceval-weblate/0.2.7-0.2.8rc1/diff.md --exclude *.pyd
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-mozilla]: Downloading https://files.pythonhosted.org/packages/d2/a2/1330eb7333f79808c797884d8a2903413864b021e7726aea821f96aac7e5/perceval_mozilla-0.3.8rc1.tar.gz
+[2023-04-20 17:38:50] INFO root fetch - processPackages [requirements-detector]: executing diffoscope
+[2023-04-20 17:38:50] INFO root fetch - processPackages [requirements-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requirements_detector-1.1.0.tar.gz tmp/requirements_detector-1.2.0.tar.gz --markdown 20230420/r/requirements-detector/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-puppet]: executing diffoscope
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_puppet-0.2.7.tar.gz tmp/perceval_puppet-0.2.8rc1.tar.gz --markdown 20230420/p/perceval-puppet/0.2.7-0.2.8rc1/diff.md --exclude *.pyd
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-mozilla]: executing diffoscope
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-mozilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_mozilla-0.3.7.tar.gz tmp/perceval_mozilla-0.3.8rc1.tar.gz --markdown 20230420/p/perceval-mozilla/0.3.7-0.3.8rc1/diff.md --exclude *.pyd
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/2b/55/037ace805ff1d21ebeb5341c08186e4405732efd89ab932f50b49ddd60a9/perceval_opnfv-0.2.8rc1.tar.gz
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-opnfv]: executing diffoscope
+[2023-04-20 17:38:50] INFO root fetch - processPackages [perceval-opnfv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_opnfv-0.2.7.tar.gz tmp/perceval_opnfv-0.2.8rc1.tar.gz --markdown 20230420/p/perceval-opnfv/0.2.7-0.2.8rc1/diff.md --exclude *.pyd
+[2023-04-20 17:38:51] INFO root fetch - main [MainThread]: End processing [openPMD-viewer]: success
+[2023-04-20 17:38:51] INFO root fetch - main [MainThread]: End processing [perceval-weblate]: success
+[2023-04-20 17:38:51] INFO root fetch - main [MainThread]: End processing [perceval-puppet]: success
+[2023-04-20 17:38:51] INFO root fetch - main [MainThread]: End processing [requirements-detector]: success
+[2023-04-20 17:38:52] INFO root fetch - main [MainThread]: End processing [perceval-opnfv]: success
+[2023-04-20 17:38:52] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-04-20 17:38:52] INFO root fetch - main [MainThread]: End processing [perceval-mozilla]: success
+[2023-04-20 17:38:52] INFO root fetch - main [MainThread]: End processing [dramkit]: success
+[2023-04-20 17:38:53] INFO root fetch - main [MainThread]: End processing [mango-explorer-v4]: success
+[2023-04-20 17:40:00] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-04-20 17:40:00] INFO root fetch - main [MainThread]: Store serial: [17789381]
