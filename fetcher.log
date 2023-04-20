@@ -7020,3 +7020,103 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 05:31:52] INFO root fetch - main [MainThread]: End processing [gaboost]: success
 [2023-04-20 05:31:52] INFO root fetch - main [MainThread]: End processing [edc]: success
 [2023-04-20 05:31:52] INFO root fetch - main [MainThread]: Store serial: [17781682]
+[2023-04-20 05:36:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781682]
+[2023-04-20 05:37:01] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-20 05:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CodeToCAD
+[2023-04-20 05:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roj
+[2023-04-20 05:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lqwtest
+[2023-04-20 05:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-mgmt-redisenterprise
+[2023-04-20 05:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-mgmt-web
+[2023-04-20 05:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-mgmt-netapp
+[2023-04-20 05:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudquicklabs1
+[2023-04-20 05:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CodeToCAD
+[2023-04-20 05:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gmail-scanner
+[2023-04-20 05:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyidevice
+[2023-04-20 05:37:01] INFO root fetch - processPackages [azure-mgmt-web]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-04-20 05:37:01] WARNING root fetch - processPackages [lqwtest]: Skipping, unable to determine old version
+[2023-04-20 05:37:01] INFO root fetch - processPackages [lqwtest]: Start processing: XMLCit
+[2023-04-20 05:37:01] INFO root fetch - main [MainThread]: End processing [lqwtest] error
+[2023-04-20 05:37:01] INFO root fetch - processPackages [azure-mgmt-redisenterprise]: New version: [2.1.0b2] Old Version: [2.1.0b1]
+[2023-04-20 05:37:01] INFO root fetch - processPackages [roj]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-20 05:37:01] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1681961608]
+[2023-04-20 05:37:01] INFO root fetch - processPackages [gmail-scanner]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-20 05:37:01] INFO root fetch - processPackages [pyidevice]: New version: [2.3.32] Old Version: [2.3.31]
+[2023-04-20 05:37:01] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1681961608]
+[2023-04-20 05:37:01] INFO root fetch - processPackages [cloudquicklabs1]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 05:37:01] INFO root fetch - processPackages [azure-mgmt-netapp]: New version: [9.0.2b1] Old Version: [9.0.1]
+[2023-04-20 05:37:01] INFO root fetch - processPackages [XMLCit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-20 05:37:01] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/59/dc/1153751e369dd994639cf0c470c27630dd4110874dbe7bd751b8b2093639/CodeToCAD-0.2.1681961608.tar.gz
+[2023-04-20 05:37:01] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/59/dc/1153751e369dd994639cf0c470c27630dd4110874dbe7bd751b8b2093639/CodeToCAD-0.2.1681961608.tar.gz
+[2023-04-20 05:37:01] INFO root fetch - processPackages [azure-mgmt-redisenterprise]: Downloading https://files.pythonhosted.org/packages/f4/dc/bfab5c8fc397236680d4c2645eef1607108acb726ce578914d15e23e58df/azure-mgmt-redisenterprise-2.1.0b1.zip
+[2023-04-20 05:37:01] INFO root fetch - processPackages [cloudquicklabs1]: Downloading https://files.pythonhosted.org/packages/ec/96/d8229c5e1c053a014cfbbefaf09e390a4dac746e79e4e8b945abf71b1fee/cloudquicklabs1-0.0.3.tar.gz
+[2023-04-20 05:37:01] INFO root fetch - processPackages [azure-mgmt-netapp]: Downloading https://files.pythonhosted.org/packages/b3/47/688c7a7d7ecea47824a3948ae89db6eb270cffbd83b0b68e6dfae2ffd5d9/azure-mgmt-netapp-9.0.1.zip
+[2023-04-20 05:37:01] INFO root fetch - processPackages [gmail-scanner]: Downloading https://files.pythonhosted.org/packages/01/52/636d82d0de3a43585f9fcb416db0a9cf855a7a4505ebcffa6b190f36cf63/gmail_scanner-1.0.3.tar.gz
+[2023-04-20 05:37:01] INFO root fetch - processPackages [roj]: Downloading https://files.pythonhosted.org/packages/76/2c/8d3545808e86a30f9a7587f248011aa6d502e3ef2dbf13d0b976bd61bbbc/roj-0.2.2.tar.gz
+[2023-04-20 05:37:01] INFO root fetch - processPackages [pyidevice]: Downloading https://files.pythonhosted.org/packages/e7/b0/19b971845540eff5f0e9c03096118d458c39afa0ea9ee25d2d35e5e01061/pyidevice-2.3.31.tar.gz
+[2023-04-20 05:37:01] INFO root fetch - processPackages [azure-mgmt-web]: Downloading https://files.pythonhosted.org/packages/49/40/8866f35ca9cacf7f9991bccb8fc470a1728d1445716f510d0031dbb3557c/azure-mgmt-web-7.0.0.zip
+[2023-04-20 05:37:01] INFO root fetch - processPackages [XMLCit]: Downloading https://files.pythonhosted.org/packages/cf/8a/44df449f84da6bc97548cfee3009dc252aaafaa4851afd1154d6700aff43/XMLCit-0.0.6.tar.gz
+[2023-04-20 05:37:01] INFO root fetch - processPackages [cloudquicklabs1]: executing diffoscope
+[2023-04-20 05:37:01] INFO root fetch - processPackages [cloudquicklabs1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudquicklabs1-0.0.2.tar.gz tmp/cloudquicklabs1-0.0.3.tar.gz --markdown 20230420/c/cloudquicklabs1/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 05:37:01] INFO root fetch - processPackages [gmail-scanner]: executing diffoscope
+[2023-04-20 05:37:01] INFO root fetch - processPackages [gmail-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmail_scanner-1.0.2.tar.gz tmp/gmail_scanner-1.0.3.tar.gz --markdown 20230420/g/gmail-scanner/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-20 05:37:01] INFO root fetch - processPackages [XMLCit]: executing diffoscope
+[2023-04-20 05:37:01] INFO root fetch - processPackages [XMLCit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlcit-0.0.5.tar.gz tmp/XMLCit-0.0.6.tar.gz --markdown 20230420/X/XMLCit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-20 05:37:01] INFO root fetch - processPackages [azure-mgmt-netapp]: Downloading https://files.pythonhosted.org/packages/8f/16/eaff19d88fbd3006915c43970ae51ec8e7621fa3d23c8734ba511006ef3a/azure-mgmt-netapp-9.0.2b1.zip
+[2023-04-20 05:37:01] INFO root fetch - processPackages [azure-mgmt-redisenterprise]: Downloading https://files.pythonhosted.org/packages/21/c2/5a5e10aed51444109253d5edfea13aed584751380549e240f323c274b822/azure-mgmt-redisenterprise-2.1.0b2.zip
+[2023-04-20 05:37:01] INFO root fetch - processPackages [roj]: Downloading https://files.pythonhosted.org/packages/20/86/d331e73d971a56394c46d7998bd2d645c0eb783fd3b9295ab8d52fb7d856/roj-0.2.3.tar.gz
+[2023-04-20 05:37:01] INFO root fetch - processPackages [pyidevice]: Downloading https://files.pythonhosted.org/packages/f8/a8/cc8d631e6eb85eb7ccdd16f1bb439deba3034aff95de4ac892e58e3e25c5/pyidevice-2.3.32.tar.gz
+[2023-04-20 05:37:01] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-04-20 05:37:01] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1681961608.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230420/C/CodeToCAD/0.2.1681961608-0.2.6/diff.md --exclude *.pyd
+[2023-04-20 05:37:01] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-04-20 05:37:01] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1681961608.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230420/C/CodeToCAD/0.2.1681961608-0.2.6/diff.md --exclude *.pyd
+[2023-04-20 05:37:01] INFO root fetch - processPackages [roj]: executing diffoscope
+[2023-04-20 05:37:01] INFO root fetch - processPackages [roj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roj-0.2.2.tar.gz tmp/roj-0.2.3.tar.gz --markdown 20230420/r/roj/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-20 05:37:02] INFO root fetch - processPackages [azure-mgmt-redisenterprise]: executing diffoscope
+[2023-04-20 05:37:02] INFO root fetch - processPackages [azure-mgmt-redisenterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-redisenterprise-2.1.0b1.zip tmp/azure-mgmt-redisenterprise-2.1.0b2.zip --markdown 20230420/a/azure-mgmt-redisenterprise/2.1.0b1-2.1.0b2/diff.md --exclude *.pyd
+[2023-04-20 05:37:02] INFO root fetch - processPackages [azure-mgmt-netapp]: executing diffoscope
+[2023-04-20 05:37:02] INFO root fetch - processPackages [azure-mgmt-netapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-netapp-9.0.1.zip tmp/azure-mgmt-netapp-9.0.2b1.zip --markdown 20230420/a/azure-mgmt-netapp/9.0.1-9.0.2b1/diff.md --exclude *.pyd
+[2023-04-20 05:37:02] INFO root fetch - processPackages [pyidevice]: executing diffoscope
+[2023-04-20 05:37:02] INFO root fetch - processPackages [pyidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyidevice-2.3.31.tar.gz tmp/pyidevice-2.3.32.tar.gz --markdown 20230420/p/pyidevice/2.3.31-2.3.32/diff.md --exclude *.pyd
+[2023-04-20 05:37:03] INFO root fetch - processPackages [azure-mgmt-web]: Downloading https://files.pythonhosted.org/packages/87/c5/1f1322cf8cbb8b05531c49877a753f9de03ed3caa84d14a3f9c1c32a50f2/azure-mgmt-web-7.1.0.zip
+[2023-04-20 05:37:03] INFO root fetch - processPackages [cloudquicklabs1]: Start processing: enterprise-platform-compute
+[2023-04-20 05:37:03] INFO root fetch - main [MainThread]: End processing [cloudquicklabs1]: success
+[2023-04-20 05:37:03] INFO root fetch - processPackages [enterprise-platform-compute]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 05:37:03] INFO root fetch - processPackages [gmail-scanner]: Start processing: slim-compose
+[2023-04-20 05:37:03] INFO root fetch - main [MainThread]: End processing [gmail-scanner]: success
+[2023-04-20 05:37:03] WARNING root fetch - processPackages [slim-compose]: Skipping, unable to determine old version
+[2023-04-20 05:37:03] INFO root fetch - processPackages [slim-compose]: Start processing: kkutils
+[2023-04-20 05:37:03] INFO root fetch - main [MainThread]: End processing [slim-compose] error
+[2023-04-20 05:37:03] INFO root fetch - processPackages [XMLCit]: Start processing: common-udfs
+[2023-04-20 05:37:03] INFO root fetch - main [MainThread]: End processing [XMLCit]: success
+[2023-04-20 05:37:03] INFO root fetch - processPackages [kkutils]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-04-20 05:37:03] WARNING root fetch - processPackages [common-udfs]: Skipping, unable to determine old version
+[2023-04-20 05:37:03] INFO root fetch - processPackages [common-udfs]: Start processing: my-pipeline-package
+[2023-04-20 05:37:03] INFO root fetch - main [MainThread]: End processing [common-udfs] error
+[2023-04-20 05:37:03] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-20 05:37:03] INFO root fetch - processPackages [enterprise-platform-compute]: Downloading https://files.pythonhosted.org/packages/28/d5/6e41ecc98b5a6c84a4b980fe3600b49ddb2420f1c58f373f2e870a8fd8e7/enterprise_platform_compute-0.0.1-py3-none-any.whl
+[2023-04-20 05:37:03] INFO root fetch - processPackages [CodeToCAD]: Start processing: calc-helper
+[2023-04-20 05:37:03] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-04-20 05:37:03] WARNING root fetch - processPackages [calc-helper]: Skipping, unable to determine old version
+[2023-04-20 05:37:03] INFO root fetch - main [MainThread]: End processing [calc-helper] error
+[2023-04-20 05:37:03] INFO root fetch - main [MainThread]: End processing [roj]: success
+[2023-04-20 05:37:03] INFO root fetch - processPackages [my-pipeline-package]: Downloading https://files.pythonhosted.org/packages/fc/39/48016a058c6d86fce9a3bc57fb4c9fd5a542b18691c41c86144b404fda05/my-pipeline-package-1.1.1.tar.gz
+[2023-04-20 05:37:03] INFO root fetch - processPackages [kkutils]: Downloading https://files.pythonhosted.org/packages/7d/2d/f8f4f3aad906eb549afac74a2375de55ca9bd4554d4c5440e1634a6c6d74/kkutils-1.6.4.tar.gz
+[2023-04-20 05:37:03] INFO root fetch - processPackages [enterprise-platform-compute]: Downloading https://files.pythonhosted.org/packages/01/15/14626866c802d55cdc449140aee3d4833dca12dd810dc04d2fdbbd9235b2/enterprise-platform-compute-0.0.2.tar.gz
+[2023-04-20 05:37:03] INFO root fetch - processPackages [kkutils]: executing diffoscope
+[2023-04-20 05:37:03] INFO root fetch - processPackages [kkutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkutils-1.6.3.tar.gz tmp/kkutils-1.6.4.tar.gz --markdown 20230420/k/kkutils/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-04-20 05:37:03] INFO root fetch - processPackages [enterprise-platform-compute]: executing diffoscope
+[2023-04-20 05:37:03] INFO root fetch - processPackages [enterprise-platform-compute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enterprise_platform_compute-0.0.1-py3-none-any.whl.zip tmp/enterprise-platform-compute-0.0.2.tar.gz --markdown 20230420/e/enterprise-platform-compute/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 05:37:03] INFO root fetch - processPackages [my-pipeline-package]: Downloading https://files.pythonhosted.org/packages/04/25/319d4469ca87baf269ac1518cf49dd5c804644368a226c7c3b7a8de0039a/my-pipeline-package-1.1.2.tar.gz
+[2023-04-20 05:37:03] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 05:37:03] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.1.tar.gz tmp/my-pipeline-package-1.1.2.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-20 05:37:03] INFO root fetch - processPackages [azure-mgmt-web]: executing diffoscope
+[2023-04-20 05:37:03] INFO root fetch - processPackages [azure-mgmt-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-web-7.0.0.zip tmp/azure-mgmt-web-7.1.0.zip --markdown 20230420/a/azure-mgmt-web/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-04-20 05:37:04] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-04-20 05:37:04] INFO root fetch - main [MainThread]: End processing [azure-mgmt-redisenterprise]: success
+[2023-04-20 05:37:04] INFO root fetch - main [MainThread]: End processing [enterprise-platform-compute]: success
+[2023-04-20 05:37:04] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 05:37:04] INFO root fetch - main [MainThread]: End processing [kkutils]: success
+[2023-04-20 05:37:05] INFO root fetch - main [MainThread]: End processing [pyidevice]: success
+[2023-04-20 05:37:16] INFO root fetch - main [MainThread]: End processing [azure-mgmt-netapp]: success
+[2023-04-20 05:37:53] INFO root fetch - main [MainThread]: End processing [azure-mgmt-web]: success
+[2023-04-20 05:37:53] INFO root fetch - main [MainThread]: Store serial: [17781735]
