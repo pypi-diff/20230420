@@ -19899,3 +19899,127 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 17:21:43] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-04-20 17:21:44] INFO root fetch - main [MainThread]: End processing [mistapi]: success
 [2023-04-20 17:21:44] INFO root fetch - main [MainThread]: Store serial: [17789084]
+[2023-04-20 17:26:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17789084]
+[2023-04-20 17:26:53] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-20 17:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: generand
+[2023-04-20 17:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lean
+[2023-04-20 17:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: instagrapi
+[2023-04-20 17:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tokmon
+[2023-04-20 17:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: honeybee-radiance
+[2023-04-20 17:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: turnip-text
+[2023-04-20 17:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: baysalt-christmas
+[2023-04-20 17:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zxkane.cdk-construct-simple-nat
+[2023-04-20 17:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proteinflow
+[2023-04-20 17:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: djangoldp-needle
+[2023-04-20 17:26:53] INFO root fetch - processPackages [generand]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 17:26:53] INFO root fetch - processPackages [tokmon]: New version: [0.1.1] Old Version: [0.1]
+[2023-04-20 17:26:53] INFO root fetch - processPackages [baysalt-christmas]: New version: [0.1.6.9] Old Version: [0.1.6.8]
+[2023-04-20 17:26:53] WARNING root fetch - processPackages [turnip-text]: Skipping, unable to determine old version
+[2023-04-20 17:26:53] INFO root fetch - processPackages [turnip-text]: Start processing: python-roborock
+[2023-04-20 17:26:53] INFO root fetch - main [MainThread]: End processing [turnip-text] error
+[2023-04-20 17:26:53] INFO root fetch - processPackages [djangoldp-needle]: New version: [0.1.9] Old Version: [0.1.83]
+[2023-04-20 17:26:53] INFO root fetch - processPackages [proteinflow]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-20 17:26:53] INFO root fetch - processPackages [lean]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-20 17:26:53] INFO root fetch - processPackages [instagrapi]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-20 17:26:53] INFO root fetch - processPackages [python-roborock]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-20 17:26:53] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-04-20 17:26:53] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-20 17:26:53] INFO root fetch - processPackages [tokmon]: Downloading https://files.pythonhosted.org/packages/d7/97/f94abe564b8d75c75faa844f2231a8f36b718132b41aee17c63bf77b4abf/tokmon-0.1.tar.gz
+[2023-04-20 17:26:53] INFO root fetch - processPackages [djangoldp-needle]: Downloading https://files.pythonhosted.org/packages/0c/20/1ac48a5c19a262dcb9187198b6b718f0ac3626922736c123a0c5021b4c18/djangoldp_needle-0.1.83.tar.gz
+[2023-04-20 17:26:53] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-04-20 17:26:53] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.6.8.tar.gz tmp/python_roborock-0.6.9.tar.gz --markdown 20230420/p/python-roborock/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-20 17:26:53] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2023-04-20 17:26:53] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20230420/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-20 17:26:53] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/8e/42/0a609d15782dbbbc9ed11adae4b6947cb95d90050b2993420f854023f40d/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz
+[2023-04-20 17:26:53] INFO root fetch - processPackages [lean]: Downloading https://files.pythonhosted.org/packages/81/84/aa7a74f65750436a15b38183f9eefe7f25e7578b5617ab6ccf158e947080/lean-1.0.98.tar.gz
+[2023-04-20 17:26:54] INFO root fetch - processPackages [generand]: Downloading https://files.pythonhosted.org/packages/25/6d/79907463f75b5429bef78705722879f5fa3ceb4d9a3087f877139c3a59d3/generand-0.0.3.tar.gz
+[2023-04-20 17:26:54] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/fc/bd/f853518424b8b910a99abca454de44fba7cf410a3d908f839c72ff78640f/baysalt_christmas-0.1.6.9.tar.gz
+[2023-04-20 17:26:54] INFO root fetch - processPackages [proteinflow]: Downloading https://files.pythonhosted.org/packages/00/6a/4b918e682cba19b7766ea76beaa05e6caf1b5834d6f52e2ef416726d78da/proteinflow-1.2.9.tar.gz
+[2023-04-20 17:26:54] INFO root fetch - processPackages [instagrapi]: executing diffoscope
+[2023-04-20 17:26:54] INFO root fetch - processPackages [instagrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagrapi-1.9.8.tar.gz tmp/instagrapi-1.9.9.tar.gz --markdown 20230420/i/instagrapi/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-20 17:26:54] INFO root fetch - processPackages [djangoldp-needle]: executing diffoscope
+[2023-04-20 17:26:54] INFO root fetch - processPackages [djangoldp-needle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_needle-0.1.83.tar.gz tmp/djangoldp_needle-0.1.9.tar.gz --markdown 20230420/d/djangoldp-needle/0.1.83-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 17:26:54] INFO root fetch - processPackages [tokmon]: Downloading https://files.pythonhosted.org/packages/33/d8/b850fad5cb03932796256f36c93f300ce7652265338cb9388fc26644e439/tokmon-0.1.1.tar.gz
+[2023-04-20 17:26:54] INFO root fetch - processPackages [generand]: executing diffoscope
+[2023-04-20 17:26:54] INFO root fetch - processPackages [generand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generand-0.0.2.tar.gz tmp/generand-0.0.3.tar.gz --markdown 20230420/g/generand/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 17:26:54] INFO root fetch - processPackages [proteinflow]: executing diffoscope
+[2023-04-20 17:26:54] INFO root fetch - processPackages [proteinflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinflow-1.2.8.tar.gz tmp/proteinflow-1.2.9.tar.gz --markdown 20230420/p/proteinflow/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-20 17:26:54] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2023-04-20 17:26:54] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-0.1.6.8.tar.gz tmp/baysalt_christmas-0.1.6.9.tar.gz --markdown 20230420/b/baysalt-christmas/0.1.6.8-0.1.6.9/diff.md --exclude *.pyd
+[2023-04-20 17:26:54] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Downloading https://files.pythonhosted.org/packages/b9/f8/6046aa2afc88718422d134f2f5818c383b5e88aa849c8a4d74a3c1bf370e/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz
+[2023-04-20 17:26:54] INFO root fetch - processPackages [tokmon]: executing diffoscope
+[2023-04-20 17:26:54] INFO root fetch - processPackages [tokmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokmon-0.1.tar.gz tmp/tokmon-0.1.1.tar.gz --markdown 20230420/t/tokmon/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 17:26:54] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: executing diffoscope
+[2023-04-20 17:26:54] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zxkane.cdk-construct-simple-nat-0.2.98.tar.gz tmp/zxkane.cdk-construct-simple-nat-0.2.99.tar.gz --markdown 20230420/z/zxkane.cdk-construct-simple-nat/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-04-20 17:26:54] INFO root fetch - processPackages [lean]: Downloading https://files.pythonhosted.org/packages/3e/2f/0bee377e322251efe06c06a9769bd227936117bc32f26bc970e1580283b2/lean-1.0.99.tar.gz
+[2023-04-20 17:26:54] INFO root fetch - processPackages [lean]: executing diffoscope
+[2023-04-20 17:26:54] INFO root fetch - processPackages [lean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lean-1.0.98.tar.gz tmp/lean-1.0.99.tar.gz --markdown 20230420/l/lean/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-20 17:26:55] INFO root fetch - processPackages [instagrapi]: Start processing: makey-cli
+[2023-04-20 17:26:55] INFO root fetch - main [MainThread]: End processing [instagrapi]: success
+[2023-04-20 17:26:55] INFO root fetch - processPackages [makey-cli]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-20 17:26:55] INFO root fetch - processPackages [python-roborock]: Start processing: graphkit-learn
+[2023-04-20 17:26:55] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-04-20 17:26:55] INFO root fetch - processPackages [graphkit-learn]: New version: [0.2b3] Old Version: [0.2b2]
+[2023-04-20 17:26:55] INFO root fetch - processPackages [makey-cli]: Downloading https://files.pythonhosted.org/packages/47/fd/18aa1fd1d61082ad8d7888373598e4768c3a92c1803dc559369934d8d919/makey-cli-1.3.1.tar.gz
+[2023-04-20 17:26:55] INFO root fetch - processPackages [zxkane.cdk-construct-simple-nat]: Start processing: sourmash
+[2023-04-20 17:26:55] INFO root fetch - main [MainThread]: End processing [zxkane.cdk-construct-simple-nat]: success
+[2023-04-20 17:26:55] INFO root fetch - processPackages [djangoldp-needle]: Start processing: volcengine
+[2023-04-20 17:26:55] INFO root fetch - main [MainThread]: End processing [djangoldp-needle]: success
+[2023-04-20 17:26:55] INFO root fetch - processPackages [sourmash]: New version: [4.8.2] Old Version: [4.8.1]
+[2023-04-20 17:26:55] INFO root fetch - processPackages [graphkit-learn]: executing diffoscope
+[2023-04-20 17:26:55] INFO root fetch - processPackages [graphkit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphkit-learn-0.2b2.tar.gz tmp/graphkit-learn-0.2b3.tar.gz --markdown 20230420/g/graphkit-learn/0.2b2-0.2b3/diff.md --exclude *.pyd
+[2023-04-20 17:26:55] INFO root fetch - processPackages [makey-cli]: executing diffoscope
+[2023-04-20 17:26:55] INFO root fetch - processPackages [makey-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makey-cli-1.3.0.tar.gz tmp/makey-cli-1.3.1.tar.gz --markdown 20230420/m/makey-cli/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-20 17:26:55] INFO root fetch - processPackages [tokmon]: Start processing: langchain-serve
+[2023-04-20 17:26:55] INFO root fetch - main [MainThread]: End processing [tokmon]: success
+[2023-04-20 17:26:55] INFO root fetch - processPackages [volcengine]: New version: [1.0.9] Old Version: [1.0.86]
+[2023-04-20 17:26:56] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-04-20 17:26:56] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-20 17:26:56] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230420/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-20 17:26:56] INFO root fetch - processPackages [sourmash]: Downloading https://files.pythonhosted.org/packages/0d/71/ef0f519f8d02ae3987d5e23775e0e637c2d600f59f1f38df3c21b2ba6a51/sourmash-4.8.1.tar.gz
+[2023-04-20 17:26:56] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/2a/68/add9bd78d5bdf51432fd637cd0af773979c5dbaa8759ca8d13e861f9e4e2/volcengine-1.0.86.tar.gz
+[2023-04-20 17:26:56] INFO root fetch - processPackages [baysalt-christmas]: Start processing: django-utilitas
+[2023-04-20 17:26:56] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2023-04-20 17:26:56] WARNING root fetch - processPackages [sourmash]: Skipping package: exceeds size limit 13263824>=10485760
+[2023-04-20 17:26:56] INFO root fetch - processPackages [sourmash]: Start processing: FreeGS
+[2023-04-20 17:26:56] INFO root fetch - main [MainThread]: End processing [sourmash] error
+[2023-04-20 17:26:56] INFO root fetch - processPackages [django-utilitas]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-20 17:26:56] INFO root fetch - processPackages [proteinflow]: Start processing: aws-cdk.asset-node-proxy-agent-v5
+[2023-04-20 17:26:56] INFO root fetch - main [MainThread]: End processing [proteinflow]: success
+[2023-04-20 17:26:56] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-20 17:26:56] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: executing diffoscope
+[2023-04-20 17:26:56] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.asset-node-proxy-agent-v5-2.0.98.tar.gz tmp/aws-cdk.asset-node-proxy-agent-v5-2.0.99.tar.gz --markdown 20230420/a/aws-cdk.asset-node-proxy-agent-v5/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-20 17:26:56] INFO root fetch - processPackages [django-utilitas]: Downloading https://files.pythonhosted.org/packages/94/ea/472b495567f22d9b2f687183cb3965b3e6c5cb2e2bb27d13e9cf9a40170d/django-utilitas-1.2.8.tar.gz
+[2023-04-20 17:26:56] INFO root fetch - processPackages [FreeGS]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-20 17:26:56] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/53/8e/c42675cf6a8cca4482d840e06c5931139c07b2745f56af9c6e07ce5b45c8/volcengine-1.0.9.tar.gz
+[2023-04-20 17:26:56] INFO root fetch - processPackages [volcengine]: executing diffoscope
+[2023-04-20 17:26:56] INFO root fetch - processPackages [volcengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-1.0.86.tar.gz tmp/volcengine-1.0.9.tar.gz --markdown 20230420/v/volcengine/1.0.86-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 17:26:56] INFO root fetch - processPackages [django-utilitas]: Downloading https://files.pythonhosted.org/packages/0c/04/bc416ccdb3e9bca7407a8a2b0010002ed73bf68a51af2459c0ab75ba19fa/django-utilitas-1.2.9.tar.gz
+[2023-04-20 17:26:56] INFO root fetch - processPackages [FreeGS]: Downloading https://files.pythonhosted.org/packages/46/9b/49de72062eb6c14838ad51465d38887bcfdb995726c176fb558e768efae7/FreeGS-0.8.0.tar.gz
+[2023-04-20 17:26:56] INFO root fetch - processPackages [django-utilitas]: executing diffoscope
+[2023-04-20 17:26:56] INFO root fetch - processPackages [django-utilitas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-utilitas-1.2.8.tar.gz tmp/django-utilitas-1.2.9.tar.gz --markdown 20230420/d/django-utilitas/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-20 17:26:57] INFO root fetch - processPackages [FreeGS]: executing diffoscope
+[2023-04-20 17:26:57] INFO root fetch - processPackages [FreeGS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeGS-0.7.0.tar.gz tmp/FreeGS-0.8.0.tar.gz --markdown 20230420/F/FreeGS/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-20 17:26:57] INFO root fetch - processPackages [lean]: Start processing: capellambse-context-diagrams
+[2023-04-20 17:26:57] INFO root fetch - main [MainThread]: End processing [lean]: success
+[2023-04-20 17:26:57] INFO root fetch - processPackages [capellambse-context-diagrams]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 17:26:57] INFO root fetch - processPackages [makey-cli]: Start processing: my-pipeline-package
+[2023-04-20 17:26:57] INFO root fetch - main [MainThread]: End processing [makey-cli]: success
+[2023-04-20 17:26:57] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 17:26:57] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/3b/41/804ad513fea74424d89581faf8848991fbeaa741a869eb71749a5062fcb3/capellambse-context-diagrams-0.2.8.tar.gz
+[2023-04-20 17:26:57] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 17:26:57] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.8.tar.gz tmp/my-pipeline-package-1.1.9.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 17:26:57] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-20 17:26:57] INFO root fetch - main [MainThread]: End processing [graphkit-learn]: success
+[2023-04-20 17:26:58] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/5f/e9/32a768c40571016e33ca421423e058e28d923820700a4e745c4546d21bdb/capellambse-context-diagrams-0.2.9.tar.gz
+[2023-04-20 17:26:58] INFO root fetch - processPackages [capellambse-context-diagrams]: executing diffoscope
+[2023-04-20 17:26:58] INFO root fetch - processPackages [capellambse-context-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-context-diagrams-0.2.8.tar.gz tmp/capellambse-context-diagrams-0.2.9.tar.gz --markdown 20230420/c/capellambse-context-diagrams/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 17:26:58] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 17:26:58] INFO root fetch - main [MainThread]: End processing [django-utilitas]: success
+[2023-04-20 17:26:58] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2023-04-20 17:26:58] INFO root fetch - main [MainThread]: End processing [FreeGS]: success
+[2023-04-20 17:27:00] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-node-proxy-agent-v5]: success
+[2023-04-20 17:27:00] INFO root fetch - main [MainThread]: End processing [capellambse-context-diagrams]: success
+[2023-04-20 17:27:02] INFO root fetch - main [MainThread]: End processing [volcengine]: success
+[2023-04-20 17:27:07] INFO root fetch - main [MainThread]: End processing [generand]: success
+[2023-04-20 17:27:07] INFO root fetch - main [MainThread]: Store serial: [17789164]
