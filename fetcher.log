@@ -22276,3 +22276,122 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 19:24:19] INFO root fetch - main [MainThread]: End processing [bittensor]: success
 [2023-04-20 19:24:29] INFO root fetch - main [MainThread]: End processing [tmlt-core]: success
 [2023-04-20 19:24:29] INFO root fetch - main [MainThread]: Store serial: [17790710]
+[2023-04-20 19:29:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790710]
+[2023-04-20 19:29:38] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proteinTools
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sunpy
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ethraid
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crosstream
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dequeai
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-dbusmock
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ord-mediascout-client
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tinymovr
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiogram-ext
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydillo
+[2023-04-20 19:29:38] INFO root fetch - processPackages [crosstream]: New version: [3.0.0] Old Version: [2.1.0]
+[2023-04-20 19:29:38] INFO root fetch - processPackages [proteinTools]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-04-20 19:29:38] INFO root fetch - processPackages [tinymovr]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ethraid]: New version: [1.0.0] Old Version: [0.1.90]
+[2023-04-20 19:29:38] INFO root fetch - processPackages [dequeai]: New version: [0.722] Old Version: [0.720]
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ord-mediascout-client]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 19:29:38] INFO root fetch - processPackages [python-dbusmock]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-20 19:29:38] INFO root fetch - processPackages [aiogram-ext]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-20 19:29:38] INFO root fetch - processPackages [pydillo]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-20 19:29:38] INFO root fetch - processPackages [sunpy]: New version: [4.1rc1] Old Version: [4.1.5]
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ethraid]: executing diffoscope
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ethraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethraid-0.1.90.tar.gz tmp/ethraid-1.0.0.tar.gz --markdown 20230420/e/ethraid/0.1.90-1.0.0/diff.md --exclude *.pyd
+[2023-04-20 19:29:38] INFO root fetch - processPackages [sunpy]: Downloading https://files.pythonhosted.org/packages/12/26/637029bcc7f19bb091101d26facbbed9aaba6b9ecae326a00fd195e45c15/sunpy-4.1.5.tar.gz
+[2023-04-20 19:29:38] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/99/b3/1cef313afbb306faebcc252e2e70e3c449fc0032896257d13ce59d2ac541/proteinTools-1.2.7.tar.gz
+[2023-04-20 19:29:38] INFO root fetch - processPackages [aiogram-ext]: Downloading https://files.pythonhosted.org/packages/79/22/a8ac48397edf07108af8da9c2f473b7f8ed472b928fe9bc5fd32733b4ede/aiogram-ext-0.1.2.tar.gz
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ord-mediascout-client]: Downloading https://files.pythonhosted.org/packages/38/95/8943f615824efb3bc871c4226980c1b63138177293f9b7c95235ab6c2c89/ord_mediascout_client-0.0.7.tar.gz
+[2023-04-20 19:29:38] INFO root fetch - processPackages [pydillo]: Downloading https://files.pythonhosted.org/packages/5a/4a/e0493de1a8d1dc3625be8bc367c5ba43d9c4f270179b2d29d539d53b58f6/pydillo-0.2.2.tar.gz
+[2023-04-20 19:29:38] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/70/d0/9c7ad861975e8ded22aa4dd86b204fc8ddc9c1c93a5cdff95fa2c0cd212b/dequeai-0.722.tar.gz
+[2023-04-20 19:29:38] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-04-20 19:29:38] INFO root fetch - processPackages [python-dbusmock]: Downloading https://files.pythonhosted.org/packages/a2/5d/0f948b52b745f25ecf818aa25a19e821f0eb9d2a7d9a1265b87dc0fd0895/python-dbusmock-0.9.1.tar.gz
+[2023-04-20 19:29:38] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.2.6.tar.gz tmp/proteinTools-1.2.7.tar.gz --markdown 20230420/p/proteinTools/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-04-20 19:29:38] WARNING root fetch - processPackages [ord-mediascout-client]: Skipping package: exceeds size limit 29369299>=10485760
+[2023-04-20 19:29:38] INFO root fetch - processPackages [ord-mediascout-client]: Start processing: my-pipeline-package
+[2023-04-20 19:29:38] INFO root fetch - main [MainThread]: End processing [ord-mediascout-client] error
+[2023-04-20 19:29:38] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-20 19:29:38] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.1.1.tar.gz tmp/aiogram-ext-0.1.2.tar.gz --markdown 20230420/a/aiogram-ext/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-20 19:29:39] INFO root fetch - processPackages [pydillo]: executing diffoscope
+[2023-04-20 19:29:39] INFO root fetch - processPackages [pydillo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydillo-0.2.1.tar.gz tmp/pydillo-0.2.2.tar.gz --markdown 20230420/p/pydillo/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-20 19:29:39] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 19:29:39] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-04-20 19:29:39] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.720.tar.gz tmp/dequeai-0.722.tar.gz --markdown 20230420/d/dequeai/0.720-0.722/diff.md --exclude *.pyd
+[2023-04-20 19:29:39] INFO root fetch - processPackages [crosstream]: Downloading https://files.pythonhosted.org/packages/e3/ab/b2f60b10d5da514f0d6415796c440877673c2460298ca91207792c80bf54/crosstream-3.0.0.tar.gz
+[2023-04-20 19:29:39] INFO root fetch - processPackages [tinymovr]: Downloading https://files.pythonhosted.org/packages/a4/d9/0780d5f01d3015bd865e1106cf211529ec699f4ed79a8d68c128a1e78673/tinymovr-1.3.1.tar.gz
+[2023-04-20 19:29:39] INFO root fetch - processPackages [crosstream]: executing diffoscope
+[2023-04-20 19:29:39] INFO root fetch - processPackages [crosstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosstream-2.1.0.tar.gz tmp/crosstream-3.0.0.tar.gz --markdown 20230420/c/crosstream/2.1.0-3.0.0/diff.md --exclude *.pyd
+[2023-04-20 19:29:39] INFO root fetch - processPackages [tinymovr]: executing diffoscope
+[2023-04-20 19:29:39] INFO root fetch - processPackages [tinymovr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinymovr-1.3.0.tar.gz tmp/tinymovr-1.3.1.tar.gz --markdown 20230420/t/tinymovr/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-20 19:29:39] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 19:29:39] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.8.tar.gz tmp/my-pipeline-package-1.1.9.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 19:29:39] INFO root fetch - processPackages [sunpy]: Downloading https://files.pythonhosted.org/packages/3e/b4/d36617114021249239037433a53f36ae743b0db538c88193285421ae6a8a/sunpy-4.1rc1.tar.gz
+[2023-04-20 19:29:39] INFO root fetch - processPackages [python-dbusmock]: Downloading https://files.pythonhosted.org/packages/03/43/0be27027ed686f003d639554f25fd84157a7bb88baa96d7381a15b78aa02/python-dbusmock-0.9.2.tar.gz
+[2023-04-20 19:29:39] INFO root fetch - processPackages [sunpy]: executing diffoscope
+[2023-04-20 19:29:39] INFO root fetch - processPackages [sunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpy-4.1.5.tar.gz tmp/sunpy-4.1rc1.tar.gz --markdown 20230420/s/sunpy/4.1.5-4.1rc1/diff.md --exclude *.pyd
+[2023-04-20 19:29:39] INFO root fetch - processPackages [python-dbusmock]: executing diffoscope
+[2023-04-20 19:29:39] INFO root fetch - processPackages [python-dbusmock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-dbusmock-0.9.1.tar.gz tmp/python-dbusmock-0.9.2.tar.gz --markdown 20230420/p/python-dbusmock/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-20 19:29:40] INFO root fetch - processPackages [aiogram-ext]: Start processing: neon-skill-alerts
+[2023-04-20 19:29:40] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-20 19:29:40] INFO root fetch - processPackages [neon-skill-alerts]: New version: [1.4.1a3] Old Version: [1.4.1a2]
+[2023-04-20 19:29:40] INFO root fetch - processPackages [pydillo]: Start processing: jupytercards
+[2023-04-20 19:29:40] INFO root fetch - main [MainThread]: End processing [pydillo]: success
+[2023-04-20 19:29:40] INFO root fetch - processPackages [jupytercards]: New version: [2.2.0] Old Version: [2.1.5]
+[2023-04-20 19:29:40] INFO root fetch - processPackages [neon-skill-alerts]: Downloading https://files.pythonhosted.org/packages/87/c0/d210de18b2305d8200748d51cfc523bb31a00701e84bc573b73d2f6cc48f/neon_skill_alerts-1.4.1a2-py3-none-any.whl
+[2023-04-20 19:29:40] INFO root fetch - processPackages [my-pipeline-package]: Start processing: zfit
+[2023-04-20 19:29:40] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 19:29:40] INFO root fetch - processPackages [zfit]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2023-04-20 19:29:40] INFO root fetch - processPackages [jupytercards]: Downloading https://files.pythonhosted.org/packages/83/c0/e29cd20534c3f8a1b9d3ed5fca952a40f6ff4136e3ae495a0a519d783a90/jupytercards-2.1.5.tar.gz
+[2023-04-20 19:29:40] INFO root fetch - processPackages [proteinTools]: Start processing: crazy-thursday
+[2023-04-20 19:29:40] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-04-20 19:29:40] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-20 19:29:40] INFO root fetch - processPackages [dequeai]: Start processing: cqlpy
+[2023-04-20 19:29:40] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-04-20 19:29:40] INFO root fetch - processPackages [cqlpy]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-20 19:29:40] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-20 19:29:40] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230420/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-20 19:29:40] INFO root fetch - processPackages [crosstream]: Start processing: np-session
+[2023-04-20 19:29:40] INFO root fetch - main [MainThread]: End processing [crosstream]: success
+[2023-04-20 19:29:40] INFO root fetch - processPackages [jupytercards]: Downloading https://files.pythonhosted.org/packages/c3/f0/b0a41fba91857aabfeea5ccb83f6ae2796dff0c737dcdd42147791c542c7/jupytercards-2.2.0.tar.gz
+[2023-04-20 19:29:40] INFO root fetch - processPackages [np-session]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-20 19:29:40] INFO root fetch - processPackages [neon-skill-alerts]: Downloading https://files.pythonhosted.org/packages/43/72/f2b29c59485c7373291622aa3eefe656f1c45cdac42c069bb985d408abee/neon_skill_alerts-1.4.1a3-py3-none-any.whl
+[2023-04-20 19:29:40] INFO root fetch - processPackages [jupytercards]: executing diffoscope
+[2023-04-20 19:29:40] INFO root fetch - processPackages [jupytercards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupytercards-2.1.5.tar.gz tmp/jupytercards-2.2.0.tar.gz --markdown 20230420/j/jupytercards/2.1.5-2.2.0/diff.md --exclude *.pyd
+[2023-04-20 19:29:41] INFO root fetch - processPackages [cqlpy]: Downloading https://files.pythonhosted.org/packages/55/db/0c98cab5b7aa6fb08b1fb592c15d9ce05ed2d3821480c5f1c212dbd0f236/cqlpy-0.1.1.tar.gz
+[2023-04-20 19:29:41] INFO root fetch - processPackages [neon-skill-alerts]: executing diffoscope
+[2023-04-20 19:29:41] INFO root fetch - processPackages [neon-skill-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_alerts-1.4.1a2-py3-none-any.whl.zip tmp/neon_skill_alerts-1.4.1a3-py3-none-any.whl.zip --markdown 20230420/n/neon-skill-alerts/1.4.1a2-1.4.1a3/diff.md --exclude *.pyd
+[2023-04-20 19:29:41] INFO root fetch - processPackages [zfit]: executing diffoscope
+[2023-04-20 19:29:41] INFO root fetch - processPackages [zfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfit-0.9.0a2.tar.gz tmp/zfit-0.9.0a3.tar.gz --markdown 20230420/z/zfit/0.9.0a2-0.9.0a3/diff.md --exclude *.pyd
+[2023-04-20 19:29:41] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/24/a6/704617f97b45b8e6e54310043185d3da40ea1b615e10c55e51784bfb5994/np-session-0.5.1.tar.gz
+[2023-04-20 19:29:41] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/4b/24/e95a3917b602b8afa2a91477671c075e67b42c13b7f86f6d7397c7c45f5d/np-session-0.5.2.tar.gz
+[2023-04-20 19:29:41] INFO root fetch - processPackages [cqlpy]: Downloading https://files.pythonhosted.org/packages/b6/7b/16793513bc83725093ef389174b454caa1a4870d64ab60374acd75643682/cqlpy-0.2.0.tar.gz
+[2023-04-20 19:29:41] INFO root fetch - processPackages [tinymovr]: Start processing: JTPackageTest
+[2023-04-20 19:29:41] INFO root fetch - main [MainThread]: End processing [tinymovr]: success
+[2023-04-20 19:29:41] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-04-20 19:29:41] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.5.1.tar.gz tmp/np-session-0.5.2.tar.gz --markdown 20230420/n/np-session/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-20 19:29:41] INFO root fetch - processPackages [cqlpy]: executing diffoscope
+[2023-04-20 19:29:41] INFO root fetch - processPackages [cqlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cqlpy-0.1.1.tar.gz tmp/cqlpy-0.2.0.tar.gz --markdown 20230420/c/cqlpy/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 19:29:41] ERROR root fetch - processPackages [JTPackageTest]: Unable to get metadata: No such project 'JTPackageTest'
+[2023-04-20 19:29:41] INFO root fetch - processPackages [JTPackageTest]: Start processing: sunpy
+[2023-04-20 19:29:41] INFO root fetch - main [MainThread]: End processing [JTPackageTest] error
+[2023-04-20 19:29:41] INFO root fetch - processPackages [sunpy]: New version: [4.1rc1] Old Version: [4.1.5]
+[2023-04-20 19:29:41] INFO root fetch - processPackages [sunpy]: executing diffoscope
+[2023-04-20 19:29:41] INFO root fetch - processPackages [sunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpy-4.1.5.tar.gz tmp/sunpy-4.1rc1.tar.gz --markdown 20230420/s/sunpy/4.1.5-4.1rc1/diff.md --exclude *.pyd
+[2023-04-20 19:29:42] INFO root fetch - processPackages [crazy-thursday]: Start processing: graphsignal
+[2023-04-20 19:29:42] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-20 19:29:42] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-20 19:29:42] INFO root fetch - main [MainThread]: End processing [python-dbusmock]: success
+[2023-04-20 19:29:42] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-04-20 19:29:42] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230420/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-20 19:29:42] INFO root fetch - main [MainThread]: End processing [jupytercards]: success
+[2023-04-20 19:29:42] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-04-20 19:29:43] INFO root fetch - main [MainThread]: End processing [neon-skill-alerts]: success
+[2023-04-20 19:29:43] INFO root fetch - main [MainThread]: End processing [cqlpy]: success
+[2023-04-20 19:29:43] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-04-20 19:29:45] INFO root fetch - main [MainThread]: End processing [ethraid]: success
+[2023-04-20 19:29:46] INFO root fetch - main [MainThread]: End processing [zfit]: success
+[2023-04-20 19:29:52] INFO root fetch - main [MainThread]: End processing [sunpy]: success
+[2023-04-20 19:29:53] INFO root fetch - main [MainThread]: End processing [sunpy]: success
+[2023-04-20 19:29:53] INFO root fetch - main [MainThread]: Store serial: [17790771]
