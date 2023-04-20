@@ -8082,3 +8082,21 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 07:15:50] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
 [2023-04-20 07:15:51] INFO root fetch - main [MainThread]: End processing [fittings]: success
 [2023-04-20 07:15:51] INFO root fetch - main [MainThread]: Store serial: [17782324]
+[2023-04-20 07:20:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17782324]
+[2023-04-20 07:21:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-20 07:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aspose-tasks
+[2023-04-20 07:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oxalis
+[2023-04-20 07:21:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vdna
+[2023-04-20 07:21:00] INFO root fetch - processPackages [aspose-tasks]: New version: [23.4.0] Old Version: [23.3.0]
+[2023-04-20 07:21:00] INFO root fetch - processPackages [oxalis]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-20 07:21:00] WARNING root fetch - processPackages [vdna]: Skipping, unable to determine old version
+[2023-04-20 07:21:00] INFO root fetch - main [MainThread]: End processing [vdna] error
+[2023-04-20 07:21:00] INFO root fetch - processPackages [aspose-tasks]: Downloading https://files.pythonhosted.org/packages/f5/9c/902253ce6afc7e1e268d4641bd4bb86fa6d7d79d2d5fd27cf47fb050ffc4/aspose_tasks-23.3.0-py3-none-win_amd64.whl
+[2023-04-20 07:21:00] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/16/07/dd2fe0f5bb196c255c9f6ea7128db501c8e20dbe9f61ba37dfaf80a5e0c7/oxalis-0.5.1.tar.gz
+[2023-04-20 07:21:00] WARNING root fetch - processPackages [aspose-tasks]: Skipping package: exceeds size limit 47901817>=10485760
+[2023-04-20 07:21:00] INFO root fetch - main [MainThread]: End processing [aspose-tasks] error
+[2023-04-20 07:21:00] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/28/0d/d7d9bf724b086c9a19d2372345c599126878efe72ba2620d8e8ac4a7d1b6/oxalis-0.5.2.tar.gz
+[2023-04-20 07:21:00] INFO root fetch - processPackages [oxalis]: executing diffoscope
+[2023-04-20 07:21:00] INFO root fetch - processPackages [oxalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxalis-0.5.1.tar.gz tmp/oxalis-0.5.2.tar.gz --markdown 20230420/o/oxalis/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-20 07:21:02] INFO root fetch - main [MainThread]: End processing [oxalis]: success
+[2023-04-20 07:21:02] INFO root fetch - main [MainThread]: Store serial: [17782335]
