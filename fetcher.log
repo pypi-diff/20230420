@@ -8984,3 +8984,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 08:29:42] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-order-approved]: success
 [2023-04-20 08:30:03] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2023-04-20 08:30:03] INFO root fetch - main [MainThread]: Store serial: [17782901]
+[2023-04-20 08:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17782901]
+[2023-04-20 08:35:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-20 08:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm4gpt
+[2023-04-20 08:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: a2
+[2023-04-20 08:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdf-tocgen
+[2023-04-20 08:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thanosql-magic
+[2023-04-20 08:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lancedb
+[2023-04-20 08:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jira-test
+[2023-04-20 08:35:13] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.20.14.31.20] Old Version: [2023.4.11.14.35.6]
+[2023-04-20 08:35:13] INFO root fetch - processPackages [lancedb]: New version: [0.1] Old Version: [0.0.4]
+[2023-04-20 08:35:13] INFO root fetch - processPackages [a2]: New version: [0.3.2] Old Version: [0.3]
+[2023-04-20 08:35:13] INFO root fetch - processPackages [pdf-tocgen]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-20 08:35:13] INFO root fetch - processPackages [thanosql-magic]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-20 08:35:13] WARNING root fetch - processPackages [jira-test]: Skipping, unable to determine old version
+[2023-04-20 08:35:13] INFO root fetch - main [MainThread]: End processing [jira-test] error
+[2023-04-20 08:35:13] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/fb/5b/0886cc2eeeaa1da3c5519bc0636c2e71f42b97dcd7ec4af0b29145369a69/llm4gpt-2023.4.11.14.35.6.tar.gz
+[2023-04-20 08:35:13] INFO root fetch - processPackages [thanosql-magic]: Downloading https://files.pythonhosted.org/packages/11/97/0c375a43c48ab59b3fa880995f8ee21c03c6bfb5e4f87c4b2eb78e3547e0/thanosql-magic-0.3.6.tar.gz
+[2023-04-20 08:35:13] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/54/f4/51540f3bfd2dce529f1fbffcfb2803ac6ae3dce92da01807eccd3cf0e41c/a2-0.3.tar.gz
+[2023-04-20 08:35:13] INFO root fetch - processPackages [pdf-tocgen]: Downloading https://files.pythonhosted.org/packages/d2/d4/4ed0face42ef0d4501f6f555c6816331760f31ad4830f6a04c2f47d656ae/pdf.tocgen-1.3.0.tar.gz
+[2023-04-20 08:35:14] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/05/7d/653e3329839ed795bbf35faac3d2c00fbd0d71915f17b76827654239a946/lancedb-0.1.tar.gz
+[2023-04-20 08:35:14] INFO root fetch - processPackages [thanosql-magic]: Downloading https://files.pythonhosted.org/packages/59/be/04834e60d325c6188f699b2f962a367eb630006b3f8307c731e4be1ce7f2/thanosql-magic-0.3.7.tar.gz
+[2023-04-20 08:35:14] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/33/ae/17e5b6886eda42b2db7a4946134db8d51dfc879716f3b470f5b4782f32d1/a2-0.3.2.tar.gz
+[2023-04-20 08:35:14] INFO root fetch - processPackages [pdf-tocgen]: Downloading https://files.pythonhosted.org/packages/2a/87/2dc313960090f6351f4599f851796604ee7dd285e1c0f85c5905cb1a333c/pdf_tocgen-1.3.1.tar.gz
+[2023-04-20 08:35:14] INFO root fetch - processPackages [thanosql-magic]: executing diffoscope
+[2023-04-20 08:35:14] INFO root fetch - processPackages [thanosql-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thanosql-magic-0.3.6.tar.gz tmp/thanosql-magic-0.3.7.tar.gz --markdown 20230420/t/thanosql-magic/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-20 08:35:14] INFO root fetch - processPackages [a2]: executing diffoscope
+[2023-04-20 08:35:14] INFO root fetch - processPackages [a2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2-0.3.tar.gz tmp/a2-0.3.2.tar.gz --markdown 20230420/a/a2/0.3-0.3.2/diff.md --exclude *.pyd
+[2023-04-20 08:35:14] INFO root fetch - processPackages [lancedb]: executing diffoscope
+[2023-04-20 08:35:14] INFO root fetch - processPackages [lancedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lancedb-0.0.4.tar.gz tmp/lancedb-0.1.tar.gz --markdown 20230420/l/lancedb/0.0.4-0.1/diff.md --exclude *.pyd
+[2023-04-20 08:35:14] INFO root fetch - processPackages [pdf-tocgen]: executing diffoscope
+[2023-04-20 08:35:14] INFO root fetch - processPackages [pdf-tocgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdf.tocgen-1.3.0.tar.gz tmp/pdf_tocgen-1.3.1.tar.gz --markdown 20230420/p/pdf-tocgen/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-20 08:35:15] INFO root fetch - main [MainThread]: End processing [thanosql-magic]: success
+[2023-04-20 08:35:15] INFO root fetch - main [MainThread]: End processing [pdf-tocgen]: success
+[2023-04-20 08:35:15] INFO root fetch - main [MainThread]: End processing [lancedb]: success
+[2023-04-20 08:35:15] INFO root fetch - main [MainThread]: End processing [a2]: success
+[2023-04-20 08:35:19] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/3b/bd/c12def353bdcddd14e0983c90a7f2f62a2acc3278c31767c9136f6923f30/llm4gpt-2023.4.20.14.31.20.tar.gz
+[2023-04-20 08:35:19] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-20 08:35:19] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.11.14.35.6.tar.gz tmp/llm4gpt-2023.4.20.14.31.20.tar.gz --markdown 20230420/l/llm4gpt/2023.4.11.14.35.6-2023.4.20.14.31.20/diff.md --exclude *.pyd
+[2023-04-20 08:35:21] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-20 08:35:21] INFO root fetch - main [MainThread]: Store serial: [17782921]
