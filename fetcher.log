@@ -17777,3 +17777,147 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 15:43:42] INFO root fetch - main [MainThread]: End processing [antspymm]: success
 [2023-04-20 15:44:05] INFO root fetch - main [MainThread]: End processing [aliyundrive-webdav]: success
 [2023-04-20 15:44:05] INFO root fetch - main [MainThread]: Store serial: [17787688]
+[2023-04-20 15:49:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17787688]
+[2023-04-20 15:49:24] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-20 15:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cleancourt
+[2023-04-20 15:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simepy
+[2023-04-20 15:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphkit-learn
+[2023-04-20 15:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: novem
+[2023-04-20 15:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-pipeline-package
+[2023-04-20 15:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-rpautom
+[2023-04-20 15:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rds-framework
+[2023-04-20 15:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oneai
+[2023-04-20 15:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drb-driver-image
+[2023-04-20 15:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chellow
+[2023-04-20 15:49:24] INFO root fetch - processPackages [cleancourt]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-20 15:49:24] INFO root fetch - processPackages [drb-driver-image]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-20 15:49:24] INFO root fetch - processPackages [simepy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-20 15:49:24] INFO root fetch - processPackages [graphkit-learn]: New version: [0.2b3] Old Version: [0.2b2]
+[2023-04-20 15:49:24] INFO root fetch - processPackages [py-rpautom]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-04-20 15:49:24] INFO root fetch - processPackages [novem]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-20 15:49:24] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 15:49:24] INFO root fetch - processPackages [oneai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-20 15:49:24] WARNING root fetch - processPackages [rds-framework]: Skipping, unable to determine old version
+[2023-04-20 15:49:24] INFO root fetch - processPackages [rds-framework]: Start processing: ipymock
+[2023-04-20 15:49:24] INFO root fetch - main [MainThread]: End processing [rds-framework] error
+[2023-04-20 15:49:24] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-04-20 15:49:24] INFO root fetch - processPackages [ipymock]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-20 15:49:24] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 15:49:24] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.8.tar.gz tmp/my-pipeline-package-1.1.9.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 15:49:24] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-04-20 15:49:24] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230420/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-04-20 15:49:24] INFO root fetch - processPackages [simepy]: Downloading https://files.pythonhosted.org/packages/c7/32/a7036e560ad6630b0e3977d1fd935812ba39b5e2bf640a5b620f07154a9f/simepy-0.2.0.tar.gz
+[2023-04-20 15:49:24] INFO root fetch - processPackages [drb-driver-image]: Downloading https://files.pythonhosted.org/packages/24/05/13cdbd1dc701c86dead62fcfd65e0f12cb2ea9c6024938fd4b90ce48412e/drb-driver-image-1.1.1.tar.gz
+[2023-04-20 15:49:24] INFO root fetch - processPackages [novem]: Downloading https://files.pythonhosted.org/packages/ba/72/e68264f8112b23336faca8f44952aacfbef87fbf1ae3a20b3f1493aae39f/novem-0.4.6.tar.gz
+[2023-04-20 15:49:24] INFO root fetch - processPackages [py-rpautom]: Downloading https://files.pythonhosted.org/packages/6e/39/46bb536db45da28d5a4efe63087cf7df066dd3b823715358df3eaff4fe72/py-rpautom-0.0.8b0.tar.gz
+[2023-04-20 15:49:24] INFO root fetch - processPackages [ipymock]: Downloading https://files.pythonhosted.org/packages/bc/59/acd5d5ed89dc1eaaa28b19f41b665c0634069771a9125b5816b25f1709ff/ipymock-0.1.2.tar.gz
+[2023-04-20 15:49:25] INFO root fetch - processPackages [graphkit-learn]: executing diffoscope
+[2023-04-20 15:49:25] INFO root fetch - processPackages [graphkit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphkit-learn-0.2b2.tar.gz tmp/graphkit-learn-0.2b3.tar.gz --markdown 20230420/g/graphkit-learn/0.2b2-0.2b3/diff.md --exclude *.pyd
+[2023-04-20 15:49:25] INFO root fetch - processPackages [cleancourt]: executing diffoscope
+[2023-04-20 15:49:25] INFO root fetch - processPackages [cleancourt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleancourt-0.7.8.tar.gz tmp/cleancourt-0.7.9.tar.gz --markdown 20230420/c/cleancourt/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-20 15:49:25] INFO root fetch - processPackages [novem]: executing diffoscope
+[2023-04-20 15:49:25] INFO root fetch - processPackages [novem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novem-0.4.5.tar.gz tmp/novem-0.4.6.tar.gz --markdown 20230420/n/novem/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-04-20 15:49:25] INFO root fetch - processPackages [oneai]: executing diffoscope
+[2023-04-20 15:49:25] INFO root fetch - processPackages [oneai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneai-0.9.8.tar.gz tmp/oneai-0.9.9.tar.gz --markdown 20230420/o/oneai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-20 15:49:25] INFO root fetch - processPackages [drb-driver-image]: Downloading https://files.pythonhosted.org/packages/61/08/28a5deb7fe6daa62136fd53266a4dc36fa73ae8a59158fe90210d126f260/drb-driver-image-1.2.0.tar.gz
+[2023-04-20 15:49:25] INFO root fetch - processPackages [simepy]: Downloading https://files.pythonhosted.org/packages/ce/fb/e15b3e184585318c7e54dfbf1e7317834f6c6c83dc24fe8d2c47d930e321/simepy-0.3.0.tar.gz
+[2023-04-20 15:49:25] INFO root fetch - processPackages [ipymock]: executing diffoscope
+[2023-04-20 15:49:25] INFO root fetch - processPackages [ipymock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymock-0.1.1.tar.gz tmp/ipymock-0.1.2.tar.gz --markdown 20230420/i/ipymock/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-20 15:49:25] INFO root fetch - processPackages [py-rpautom]: Downloading https://files.pythonhosted.org/packages/15/df/aca01fc29617ab2b4273b63a58b5cabaec5b193a2123d1bda0b5f8e7a87a/py-rpautom-0.0.9b0.tar.gz
+[2023-04-20 15:49:25] INFO root fetch - processPackages [simepy]: executing diffoscope
+[2023-04-20 15:49:25] INFO root fetch - processPackages [simepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simepy-0.2.0.tar.gz tmp/simepy-0.3.0.tar.gz --markdown 20230420/s/simepy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 15:49:25] INFO root fetch - processPackages [drb-driver-image]: executing diffoscope
+[2023-04-20 15:49:25] INFO root fetch - processPackages [drb-driver-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-image-1.1.1.tar.gz tmp/drb-driver-image-1.2.0.tar.gz --markdown 20230420/d/drb-driver-image/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-20 15:49:25] INFO root fetch - processPackages [py-rpautom]: executing diffoscope
+[2023-04-20 15:49:25] INFO root fetch - processPackages [py-rpautom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-rpautom-0.0.8b0.tar.gz tmp/py-rpautom-0.0.9b0.tar.gz --markdown 20230420/p/py-rpautom/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-04-20 15:49:26] INFO root fetch - processPackages [my-pipeline-package]: Start processing: bitio
+[2023-04-20 15:49:26] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 15:49:26] INFO root fetch - processPackages [bitio]: New version: [0.3.0] Old Version: [0.2]
+[2023-04-20 15:49:26] INFO root fetch - processPackages [bitio]: Downloading https://files.pythonhosted.org/packages/9d/e1/206fa6591bf465316849476e2628d35fddfb7b89d0cd70ea2fa90e25388f/bitio-0.2.tar.gz
+[2023-04-20 15:49:26] INFO root fetch - processPackages [bitio]: Downloading https://files.pythonhosted.org/packages/1d/27/e6c59bc77c5445e07d749bf9d17ca0e055852bb6c0d8fbaeebaf32d25840/bitio-0.3.0.tar.gz
+[2023-04-20 15:49:26] INFO root fetch - processPackages [ipymock]: Start processing: mainnet
+[2023-04-20 15:49:26] INFO root fetch - main [MainThread]: End processing [ipymock]: success
+[2023-04-20 15:49:26] INFO root fetch - processPackages [mainnet]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-20 15:49:26] INFO root fetch - processPackages [simepy]: Start processing: CosmoTech-SupplyChain
+[2023-04-20 15:49:26] INFO root fetch - main [MainThread]: End processing [simepy]: success
+[2023-04-20 15:49:26] INFO root fetch - processPackages [oneai]: Start processing: calixa-proto-py
+[2023-04-20 15:49:26] INFO root fetch - main [MainThread]: End processing [oneai]: success
+[2023-04-20 15:49:26] INFO root fetch - processPackages [bitio]: executing diffoscope
+[2023-04-20 15:49:26] INFO root fetch - processPackages [bitio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitio-0.2.tar.gz tmp/bitio-0.3.0.tar.gz --markdown 20230420/b/bitio/0.2-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 15:49:26] INFO root fetch - processPackages [CosmoTech-SupplyChain]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-04-20 15:49:26] INFO root fetch - processPackages [calixa-proto-py]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-20 15:49:26] INFO root fetch - processPackages [mainnet]: Downloading https://files.pythonhosted.org/packages/8b/e7/588ce46937042fdd2bfefa498257945e7742504642bbbea79b4aeac2467f/mainnet-1.1.4.tar.gz
+[2023-04-20 15:49:27] INFO root fetch - processPackages [calixa-proto-py]: Downloading https://files.pythonhosted.org/packages/27/dc/1cf17f2821980cbec5b9227d53697bc45bd153a9b5546f2da3895414859f/calixa-proto-py-2.0.8.tar.gz
+[2023-04-20 15:49:27] INFO root fetch - processPackages [cleancourt]: Start processing: django-postgres-extra
+[2023-04-20 15:49:27] INFO root fetch - main [MainThread]: End processing [cleancourt]: success
+[2023-04-20 15:49:27] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Downloading https://files.pythonhosted.org/packages/94/65/b341d0c489f509a7aee7f56ead3987389ebd26f260dc05145fc4140aa332/CosmoTech-SupplyChain-4.1.0.tar.gz
+[2023-04-20 15:49:27] INFO root fetch - processPackages [django-postgres-extra]: New version: [2.0a9] Old Version: [2.0a7]
+[2023-04-20 15:49:27] INFO root fetch - processPackages [django-postgres-extra]: executing diffoscope
+[2023-04-20 15:49:27] INFO root fetch - processPackages [django-postgres-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-postgres-extra-2.0a7.tar.gz tmp/django-postgres-extra-2.0a9.tar.gz --markdown 20230420/d/django-postgres-extra/2.0a7-2.0a9/diff.md --exclude *.pyd
+[2023-04-20 15:49:27] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-04-20 15:49:27] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.3.tar.gz tmp/mainnet-1.1.4.tar.gz --markdown 20230420/m/mainnet/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-20 15:49:27] INFO root fetch - processPackages [novem]: Start processing: ticgithub
+[2023-04-20 15:49:27] INFO root fetch - main [MainThread]: End processing [novem]: success
+[2023-04-20 15:49:27] INFO root fetch - processPackages [graphkit-learn]: Start processing: plumpy
+[2023-04-20 15:49:27] INFO root fetch - main [MainThread]: End processing [graphkit-learn]: success
+[2023-04-20 15:49:27] INFO root fetch - processPackages [ticgithub]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 15:49:27] INFO root fetch - processPackages [plumpy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-20 15:49:27] INFO root fetch - processPackages [drb-driver-image]: Start processing: my-pipeline-package
+[2023-04-20 15:49:27] INFO root fetch - main [MainThread]: End processing [drb-driver-image]: success
+[2023-04-20 15:49:27] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 15:49:27] INFO root fetch - processPackages [py-rpautom]: Start processing: freemocap
+[2023-04-20 15:49:27] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Downloading https://files.pythonhosted.org/packages/24/04/6e58e73a091154f1935dbdf6aa2cc651905a5bc0f128ddf615e445f49fd1/CosmoTech-SupplyChain-4.1.1.tar.gz
+[2023-04-20 15:49:27] INFO root fetch - main [MainThread]: End processing [py-rpautom]: success
+[2023-04-20 15:49:27] INFO root fetch - processPackages [freemocap]: New version: [1.0.7rc0] Old Version: [1.0.6rc0]
+[2023-04-20 15:49:27] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 15:49:27] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.8.tar.gz tmp/my-pipeline-package-1.1.9.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 15:49:27] INFO root fetch - processPackages [ticgithub]: Downloading https://files.pythonhosted.org/packages/9b/65/7709cce1e4599b54939f223acb2139a6cdebbd7c19fe448c42669421b5d8/ticgithub-0.1.0.tar.gz
+[2023-04-20 15:49:27] WARNING root fetch - processPackages [plumpy]: fallback to get urls: [0.9.0]
+[2023-04-20 15:49:27] INFO root fetch - processPackages [calixa-proto-py]: Downloading https://files.pythonhosted.org/packages/01/30/86465543b3806024012227bd625eeaee344a1d145c297042b83becfd8a64/calixa-proto-py-2.0.9.tar.gz
+[2023-04-20 15:49:27] WARNING root fetch - processPackages [plumpy]: None
+[2023-04-20 15:49:27] WARNING root fetch - processPackages [plumpy]: None
+[2023-04-20 15:49:27] WARNING root fetch - processPackages [plumpy]: unable to get url for both version [0.9.0]
+[2023-04-20 15:49:27] WARNING root fetch - processPackages [plumpy]: None
+[2023-04-20 15:49:27] INFO root fetch - processPackages [plumpy]: Start processing: swat
+[2023-04-20 15:49:27] INFO root fetch - main [MainThread]: End processing [plumpy] error
+[2023-04-20 15:49:27] INFO root fetch - processPackages [CosmoTech-SupplyChain]: executing diffoscope
+[2023-04-20 15:49:27] INFO root fetch - processPackages [CosmoTech-SupplyChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CosmoTech-SupplyChain-4.1.0.tar.gz tmp/CosmoTech-SupplyChain-4.1.1.tar.gz --markdown 20230420/C/CosmoTech-SupplyChain/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-04-20 15:49:27] INFO root fetch - processPackages [freemocap]: Downloading https://files.pythonhosted.org/packages/01/19/cc3f77243ce9a05f6b4b5cf9a8f5941c8f7a5bb60e760aa686eda7b77def/freemocap-1.0.6rc0.tar.gz
+[2023-04-20 15:49:27] INFO root fetch - processPackages [ticgithub]: Downloading https://files.pythonhosted.org/packages/b3/0f/69212b7598ae704527633188136d39ef13bae6e0474bc9e65b45c0647084/ticgithub-0.1.1.tar.gz
+[2023-04-20 15:49:27] INFO root fetch - processPackages [swat]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-04-20 15:49:27] INFO root fetch - processPackages [ticgithub]: executing diffoscope
+[2023-04-20 15:49:27] INFO root fetch - processPackages [ticgithub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ticgithub-0.1.0.tar.gz tmp/ticgithub-0.1.1.tar.gz --markdown 20230420/t/ticgithub/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 15:49:27] INFO root fetch - processPackages [calixa-proto-py]: executing diffoscope
+[2023-04-20 15:49:27] INFO root fetch - processPackages [calixa-proto-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calixa-proto-py-2.0.8.tar.gz tmp/calixa-proto-py-2.0.9.tar.gz --markdown 20230420/c/calixa-proto-py/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-20 15:49:27] INFO root fetch - processPackages [swat]: Downloading https://files.pythonhosted.org/packages/eb/e7/039048f375c03edd72a9aa135d92e45defae824f2bb2fa45de1708a0285c/swat-1.9.2-0-cp39-cp39-win_amd64.whl
+[2023-04-20 15:49:27] INFO root fetch - processPackages [freemocap]: Downloading https://files.pythonhosted.org/packages/6c/b1/9039fd3bfd23cdf4d7fe58b8b5f0f60e6422e04e1b5c90d65b9a8e2b9a26/freemocap-1.0.7rc0.tar.gz
+[2023-04-20 15:49:28] INFO root fetch - processPackages [bitio]: Start processing: freemocap
+[2023-04-20 15:49:28] INFO root fetch - main [MainThread]: End processing [bitio]: success
+[2023-04-20 15:49:28] INFO root fetch - processPackages [freemocap]: New version: [1.0.8rc0] Old Version: [1.0.7rc0]
+[2023-04-20 15:49:28] INFO root fetch - processPackages [freemocap]: Downloading https://files.pythonhosted.org/packages/6c/b1/9039fd3bfd23cdf4d7fe58b8b5f0f60e6422e04e1b5c90d65b9a8e2b9a26/freemocap-1.0.7rc0.tar.gz
+[2023-04-20 15:49:28] INFO root fetch - processPackages [freemocap]: executing diffoscope
+[2023-04-20 15:49:28] INFO root fetch - processPackages [freemocap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freemocap-1.0.6rc0.tar.gz tmp/freemocap-1.0.7rc0.tar.gz --markdown 20230420/f/freemocap/1.0.6rc0-1.0.7rc0/diff.md --exclude *.pyd
+[2023-04-20 15:49:28] INFO root fetch - processPackages [freemocap]: Downloading https://files.pythonhosted.org/packages/fb/80/2be34de8929189ff13fc67fca2ffe2dde5148c0742d765a21afed441d4d2/freemocap-1.0.8rc0.tar.gz
+[2023-04-20 15:49:28] WARNING root fetch - processPackages [swat]: Skipping package: exceeds size limit 50737360>=10485760
+[2023-04-20 15:49:28] INFO root fetch - processPackages [swat]: Start processing: mtbase
+[2023-04-20 15:49:28] INFO root fetch - main [MainThread]: End processing [swat] error
+[2023-04-20 15:49:28] INFO root fetch - processPackages [my-pipeline-package]: Start processing: dxlib
+[2023-04-20 15:49:28] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 15:49:28] INFO root fetch - processPackages [mtbase]: New version: [4.3.202304201348] Old Version: [4.3.202304200600]
+[2023-04-20 15:49:28] INFO root fetch - processPackages [freemocap]: executing diffoscope
+[2023-04-20 15:49:28] INFO root fetch - processPackages [freemocap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freemocap-1.0.7rc0.tar.gz tmp/freemocap-1.0.8rc0.tar.gz --markdown 20230420/f/freemocap/1.0.7rc0-1.0.8rc0/diff.md --exclude *.pyd
+[2023-04-20 15:49:28] WARNING root fetch - processPackages [dxlib]: Skipping, unable to determine old version
+[2023-04-20 15:49:28] INFO root fetch - main [MainThread]: End processing [dxlib] error
+[2023-04-20 15:49:28] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/6d/01/a7514d52d0085e3450c3e8321470cef3589e308324c5a854c6a364f33934/mtbase-4.3.202304201348-py3-none-any.whl
+[2023-04-20 15:49:28] INFO root fetch - processPackages [mtbase]: executing diffoscope
+[2023-04-20 15:49:28] INFO root fetch - processPackages [mtbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtbase-4.3.202304200600-py3-none-any.whl.zip tmp/mtbase-4.3.202304201348-py3-none-any.whl.zip --markdown 20230420/m/mtbase/4.3.202304200600-4.3.202304201348/diff.md --exclude *.pyd
+[2023-04-20 15:49:29] INFO root fetch - main [MainThread]: End processing [ticgithub]: success
+[2023-04-20 15:49:29] INFO root fetch - main [MainThread]: End processing [CosmoTech-SupplyChain]: success
+[2023-04-20 15:49:30] INFO root fetch - main [MainThread]: End processing [mtbase]: success
+[2023-04-20 15:49:30] INFO root fetch - main [MainThread]: End processing [freemocap]: success
+[2023-04-20 15:49:30] INFO root fetch - main [MainThread]: End processing [calixa-proto-py]: success
+[2023-04-20 15:49:30] INFO root fetch - main [MainThread]: End processing [freemocap]: success
+[2023-04-20 15:49:30] INFO root fetch - main [MainThread]: End processing [django-postgres-extra]: success
+[2023-04-20 15:49:31] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-04-20 15:49:40] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-04-20 15:49:40] INFO root fetch - main [MainThread]: Store serial: [17787775]
