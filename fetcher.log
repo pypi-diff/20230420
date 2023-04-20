@@ -16299,3 +16299,137 @@ EOFError: EOF read where object expected
 [2023-04-20 14:37:38] INFO root fetch - main [MainThread]: End processing [translate-shell]: success
 [2023-04-20 14:37:48] INFO root fetch - main [MainThread]: End processing [django-socio-grpc]: success
 [2023-04-20 14:37:48] INFO root fetch - main [MainThread]: Store serial: [17786956]
+[2023-04-20 14:42:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17786956]
+[2023-04-20 14:42:57] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-20 14:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfs-pandas
+[2023-04-20 14:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syngen
+[2023-04-20 14:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-snakemake-rule-plugin
+[2023-04-20 14:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plixswr
+[2023-04-20 14:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robusta-cli
+[2023-04-20 14:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: danbi
+[2023-04-20 14:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tradingeconomics
+[2023-04-20 14:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dop-integration-libs
+[2023-04-20 14:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensorcircuit-nightly
+[2023-04-20 14:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dmgbuild
+[2023-04-20 14:42:57] WARNING root fetch - processPackages [mkdocs-snakemake-rule-plugin]: Skipping, unable to determine old version
+[2023-04-20 14:42:57] INFO root fetch - processPackages [mkdocs-snakemake-rule-plugin]: Start processing: modal-client
+[2023-04-20 14:42:57] INFO root fetch - main [MainThread]: End processing [mkdocs-snakemake-rule-plugin] error
+[2023-04-20 14:42:57] INFO root fetch - processPackages [tfs-pandas]: New version: [3.5.3] Old Version: [3.5.2]
+[2023-04-20 14:42:57] ERROR root fetch - processPackages [plixswr]: Unable to get metadata: No such project 'plixswr'
+[2023-04-20 14:42:57] INFO root fetch - processPackages [plixswr]: Start processing: rapyuta-io-cli
+[2023-04-20 14:42:57] INFO root fetch - main [MainThread]: End processing [plixswr] error
+[2023-04-20 14:42:57] INFO root fetch - processPackages [syngen]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-04-20 14:42:57] INFO root fetch - processPackages [dmgbuild]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-04-20 14:42:57] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-04-20 14:42:57] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 14:42:57] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-04-20 14:42:57] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.8.0.dev20230419] Old Version: [0.8.0.dev20230418]
+[2023-04-20 14:42:57] INFO root fetch - processPackages [tradingeconomics]: New version: [4.2.3] Old Version: [4.2.2]
+[2023-04-20 14:42:57] INFO root fetch - processPackages [rapyuta-io-cli]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-20 14:42:58] INFO root fetch - processPackages [modal-client]: New version: [0.48.1965] Old Version: [0.48.1961]
+[2023-04-20 14:42:58] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-20 14:42:58] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230420/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 14:42:58] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-04-20 14:42:58] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2023-04-20 14:42:58] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20230420/r/robusta-cli/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-04-20 14:42:58] INFO root fetch - processPackages [dmgbuild]: Downloading https://files.pythonhosted.org/packages/29/34/fc51730eacd204348c0f0b6b6a75748b703c88c38b038baf91f0032dfecb/dmgbuild-1.6.0.tar.gz
+[2023-04-20 14:42:58] INFO root fetch - processPackages [tradingeconomics]: Downloading https://files.pythonhosted.org/packages/5c/14/36b048aedf10e02c7395721d1de3426cf333898a47a95f55faa808f40eaa/tradingeconomics-4.2.2.tar.gz
+[2023-04-20 14:42:58] INFO root fetch - processPackages [tfs-pandas]: Downloading https://files.pythonhosted.org/packages/31/39/88e5b04d8be0bafecd5a79c2e31071f6b38b36e32be534d7db59933475a6/tfs-pandas-3.5.3.tar.gz
+[2023-04-20 14:42:58] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/19/59/2318c378e8559b8b9692da082f89d0699b25d520bdc824cb8829515900a9/syngen-0.0.93.tar.gz
+[2023-04-20 14:42:58] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/07/ad/bae3f9b1fb832b2c625c72183e7092cabdb1eb61d193bc5bda85114493d2/modal_client-0.48.1965-py3-none-any.whl
+[2023-04-20 14:42:58] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/fd/17/cf72b2fc4e978d78c78e9ecfaf5b6cc481c50ea098a0c9e9631e10fa1200/tensorcircuit-nightly-0.8.0.dev20230419.tar.gz
+[2023-04-20 14:42:58] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-04-20 14:42:58] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.48.1961-py3-none-any.whl.zip tmp/modal_client-0.48.1965-py3-none-any.whl.zip --markdown 20230420/m/modal-client/0.48.1961-0.48.1965/diff.md --exclude *.pyd
+[2023-04-20 14:42:58] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-04-20 14:42:58] INFO root fetch - processPackages [tfs-pandas]: executing diffoscope
+[2023-04-20 14:42:58] INFO root fetch - processPackages [tfs-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfs-pandas-3.5.2.tar.gz tmp/tfs-pandas-3.5.3.tar.gz --markdown 20230420/t/tfs-pandas/3.5.2-3.5.3/diff.md --exclude *.pyd
+[2023-04-20 14:42:58] INFO root fetch - processPackages [rapyuta-io-cli]: Downloading https://files.pythonhosted.org/packages/9f/cd/178c1793896f33e530464a918f40e8a29f7c6d8aece78b114a8351f92bdd/rapyuta-io-cli-2.0.2.tar.gz
+[2023-04-20 14:42:58] INFO root fetch - processPackages [rapyuta-io-cli]: executing diffoscope
+[2023-04-20 14:42:58] INFO root fetch - processPackages [rapyuta-io-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapyuta-io-cli-2.0.1.tar.gz tmp/rapyuta-io-cli-2.0.2.tar.gz --markdown 20230420/r/rapyuta-io-cli/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-20 14:42:58] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-04-20 14:42:58] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.8.0.dev20230418.tar.gz tmp/tensorcircuit-nightly-0.8.0.dev20230419.tar.gz --markdown 20230420/t/tensorcircuit-nightly/0.8.0.dev20230418-0.8.0.dev20230419/diff.md --exclude *.pyd
+[2023-04-20 14:42:58] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-04-20 14:42:58] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.0.92.tar.gz tmp/syngen-0.0.93.tar.gz --markdown 20230420/s/syngen/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-04-20 14:42:58] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-04-20 14:42:58] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230420/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-04-20 14:42:58] INFO root fetch - processPackages [dmgbuild]: Downloading https://files.pythonhosted.org/packages/40/5b/cb4b6144cea4588497c57d344e818265087c7a3a440a1000cbff697e96a0/dmgbuild-1.6.1.tar.gz
+[2023-04-20 14:42:58] INFO root fetch - processPackages [tradingeconomics]: Downloading https://files.pythonhosted.org/packages/4e/f7/172ae0897bb1168018629cd8fbbc23300bd6358a532fa6d6d6496fe92434/tradingeconomics-4.2.3.tar.gz
+[2023-04-20 14:42:58] INFO root fetch - processPackages [dmgbuild]: executing diffoscope
+[2023-04-20 14:42:58] INFO root fetch - processPackages [dmgbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmgbuild-1.6.0.tar.gz tmp/dmgbuild-1.6.1.tar.gz --markdown 20230420/d/dmgbuild/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-04-20 14:42:58] INFO root fetch - processPackages [tradingeconomics]: executing diffoscope
+[2023-04-20 14:42:58] INFO root fetch - processPackages [tradingeconomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradingeconomics-4.2.2.tar.gz tmp/tradingeconomics-4.2.3.tar.gz --markdown 20230420/t/tradingeconomics/4.2.2-4.2.3/diff.md --exclude *.pyd
+[2023-04-20 14:42:59] INFO root fetch - processPackages [dop-integration-libs]: Start processing: graphql-api
+[2023-04-20 14:42:59] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-20 14:42:59] INFO root fetch - processPackages [graphql-api]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-20 14:42:59] INFO root fetch - processPackages [graphql-api]: Downloading https://files.pythonhosted.org/packages/01/27/10fd317267bf2c4c583857971a9f1bad548c85d3e4dbb8bc8addec649de5/graphql-api-1.2.8.tar.gz
+[2023-04-20 14:42:59] INFO root fetch - processPackages [tfs-pandas]: Start processing: reg-tables
+[2023-04-20 14:42:59] INFO root fetch - main [MainThread]: End processing [tfs-pandas]: success
+[2023-04-20 14:42:59] INFO root fetch - processPackages [graphql-api]: Downloading https://files.pythonhosted.org/packages/a3/ad/441dd10a03ddbaccc4b51f7956eb95f6d5d35b0c6b5448a82bb01008d919/graphql-api-1.2.9.tar.gz
+[2023-04-20 14:42:59] INFO root fetch - processPackages [reg-tables]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 14:43:00] INFO root fetch - processPackages [graphql-api]: executing diffoscope
+[2023-04-20 14:43:00] INFO root fetch - processPackages [graphql-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql-api-1.2.8.tar.gz tmp/graphql-api-1.2.9.tar.gz --markdown 20230420/g/graphql-api/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-20 14:43:00] INFO root fetch - processPackages [reg-tables]: Downloading https://files.pythonhosted.org/packages/24/67/20f4cf2980a1748da87bb06403b79de86492142fdc2bd25d52a6262dba96/reg_tables-0.1.8.tar.gz
+[2023-04-20 14:43:00] INFO root fetch - processPackages [tradingeconomics]: Start processing: docx-word-instance-generator
+[2023-04-20 14:43:00] INFO root fetch - main [MainThread]: End processing [tradingeconomics]: success
+[2023-04-20 14:43:00] INFO root fetch - processPackages [dmgbuild]: Start processing: my-pipeline-package
+[2023-04-20 14:43:00] INFO root fetch - main [MainThread]: End processing [dmgbuild]: success
+[2023-04-20 14:43:00] INFO root fetch - processPackages [reg-tables]: Downloading https://files.pythonhosted.org/packages/60/cb/8303c5aa17a1545671283f1ee1f4bef8b73de1d8178d27afa612d9ed415c/reg_tables-0.1.9.tar.gz
+[2023-04-20 14:43:00] INFO root fetch - processPackages [docx-word-instance-generator]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-20 14:43:00] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 14:43:00] INFO root fetch - processPackages [syngen]: Start processing: NewsArticlesScraper
+[2023-04-20 14:43:00] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-04-20 14:43:00] INFO root fetch - processPackages [NewsArticlesScraper]: New version: [0.2.1] Old Version: [0.2]
+[2023-04-20 14:43:00] INFO root fetch - processPackages [reg-tables]: executing diffoscope
+[2023-04-20 14:43:00] INFO root fetch - processPackages [reg-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reg_tables-0.1.8.tar.gz tmp/reg_tables-0.1.9.tar.gz --markdown 20230420/r/reg-tables/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 14:43:00] INFO root fetch - processPackages [my-pipeline-package]: Downloading https://files.pythonhosted.org/packages/99/9a/d52c7c5256876543218d991135d3907baf5443f1f6e5f2ede6646ecdfd48/my-pipeline-package-1.1.9.tar.gz
+[2023-04-20 14:43:00] INFO root fetch - processPackages [modal-client]: Start processing: clientcentral
+[2023-04-20 14:43:00] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-04-20 14:43:00] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 14:43:00] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.8.tar.gz tmp/my-pipeline-package-1.1.9.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 14:43:00] INFO root fetch - processPackages [clientcentral]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-04-20 14:43:00] INFO root fetch - processPackages [docx-word-instance-generator]: executing diffoscope
+[2023-04-20 14:43:00] INFO root fetch - processPackages [docx-word-instance-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docx_word_instance_generator-0.7.0-py3-none-any.whl.zip tmp/docx_word_instance_generator-0.8.0-py3-none-any.whl.zip --markdown 20230420/d/docx-word-instance-generator/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-20 14:43:00] INFO root fetch - processPackages [NewsArticlesScraper]: Downloading https://files.pythonhosted.org/packages/87/7b/3f8f8a1dace6232523165d25f71924087bfda847361e527c505d4c831d7a/NewsArticlesScraper-0.2.1.tar.gz
+[2023-04-20 14:43:00] INFO root fetch - processPackages [tensorcircuit-nightly]: Start processing: python-whitebit-sdk
+[2023-04-20 14:43:00] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-04-20 14:43:00] INFO root fetch - processPackages [python-whitebit-sdk]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-20 14:43:00] INFO root fetch - processPackages [clientcentral]: Downloading https://files.pythonhosted.org/packages/e8/3a/6161c3ee5ba774a6ed917195c26244555eb4cd85a5cd316cc72ba2ac6555/clientcentral-9.2.1.tar.gz
+[2023-04-20 14:43:01] INFO root fetch - processPackages [danbi]: Start processing: plix-fewshot
+[2023-04-20 14:43:01] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-04-20 14:43:01] INFO root fetch - processPackages [NewsArticlesScraper]: executing diffoscope
+[2023-04-20 14:43:01] INFO root fetch - processPackages [NewsArticlesScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewsArticlesScraper-0.2.tar.gz tmp/NewsArticlesScraper-0.2.1.tar.gz --markdown 20230420/N/NewsArticlesScraper/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-04-20 14:43:01] WARNING root fetch - processPackages [plix-fewshot]: Skipping, unable to determine old version
+[2023-04-20 14:43:01] INFO root fetch - processPackages [plix-fewshot]: Start processing: poonia
+[2023-04-20 14:43:01] INFO root fetch - main [MainThread]: End processing [plix-fewshot] error
+[2023-04-20 14:43:01] INFO root fetch - processPackages [poonia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 14:43:01] INFO root fetch - processPackages [python-whitebit-sdk]: Downloading https://files.pythonhosted.org/packages/6f/d2/68fb437b5fd00663588ca8b0095d7ebf794966ea62b3875b79be2c5bcab5/python-whitebit-sdk-1.0.4.tar.gz
+[2023-04-20 14:43:01] INFO root fetch - processPackages [clientcentral]: Downloading https://files.pythonhosted.org/packages/cc/d4/fa5275292af329686f9614dd5e0e3828b7b3235f553db35e67fd9a0bee6c/clientcentral-9.2.2.tar.gz
+[2023-04-20 14:43:01] INFO root fetch - processPackages [rapyuta-io-cli]: Start processing: snappi
+[2023-04-20 14:43:01] INFO root fetch - main [MainThread]: End processing [rapyuta-io-cli]: success
+[2023-04-20 14:43:01] INFO root fetch - processPackages [snappi]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-20 14:43:01] INFO root fetch - processPackages [robusta-cli]: Start processing: GlobalPayments.Api
+[2023-04-20 14:43:01] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2023-04-20 14:43:01] INFO root fetch - processPackages [python-whitebit-sdk]: executing diffoscope
+[2023-04-20 14:43:01] INFO root fetch - processPackages [python-whitebit-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-whitebit-sdk-1.0.3.tar.gz tmp/python-whitebit-sdk-1.0.4.tar.gz --markdown 20230420/p/python-whitebit-sdk/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-20 14:43:01] INFO root fetch - processPackages [clientcentral]: executing diffoscope
+[2023-04-20 14:43:01] INFO root fetch - processPackages [clientcentral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clientcentral-9.2.1.tar.gz tmp/clientcentral-9.2.2.tar.gz --markdown 20230420/c/clientcentral/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-04-20 14:43:01] INFO root fetch - processPackages [snappi]: executing diffoscope
+[2023-04-20 14:43:01] INFO root fetch - processPackages [snappi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snappi-0.9.7.tar.gz tmp/snappi-0.9.8.tar.gz --markdown 20230420/s/snappi/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-20 14:43:01] INFO root fetch - processPackages [GlobalPayments.Api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-20 14:43:01] INFO root fetch - processPackages [poonia]: executing diffoscope
+[2023-04-20 14:43:01] INFO root fetch - processPackages [poonia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poonia-0.1.8.tar.gz tmp/poonia-0.1.9.tar.gz --markdown 20230420/p/poonia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 14:43:01] INFO root fetch - main [MainThread]: End processing [graphql-api]: success
+[2023-04-20 14:43:01] INFO root fetch - processPackages [GlobalPayments.Api]: Downloading https://files.pythonhosted.org/packages/79/50/689a1de5b0d7a917d3e30210939adac9187dbb321193cd337f65091d2f73/GlobalPayments.Api-1.0.5.tar.gz
+[2023-04-20 14:43:01] INFO root fetch - processPackages [GlobalPayments.Api]: Downloading https://files.pythonhosted.org/packages/b5/c0/168b10490d62b92f5156540a8d9b6dbc228bbe01ba9713db486d9bb61b9c/GlobalPayments.Api-1.0.6.tar.gz
+[2023-04-20 14:43:02] INFO root fetch - processPackages [GlobalPayments.Api]: executing diffoscope
+[2023-04-20 14:43:02] INFO root fetch - processPackages [GlobalPayments.Api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GlobalPayments.Api-1.0.5.tar.gz tmp/GlobalPayments.Api-1.0.6.tar.gz --markdown 20230420/G/GlobalPayments.Api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-20 14:43:02] INFO root fetch - main [MainThread]: End processing [reg-tables]: success
+[2023-04-20 14:43:02] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 14:43:02] INFO root fetch - main [MainThread]: End processing [docx-word-instance-generator]: success
+[2023-04-20 14:43:02] INFO root fetch - main [MainThread]: End processing [NewsArticlesScraper]: success
+[2023-04-20 14:43:02] INFO root fetch - main [MainThread]: End processing [python-whitebit-sdk]: success
+[2023-04-20 14:43:02] INFO root fetch - main [MainThread]: End processing [clientcentral]: success
+[2023-04-20 14:43:03] INFO root fetch - main [MainThread]: End processing [poonia]: success
+[2023-04-20 14:43:04] INFO root fetch - main [MainThread]: End processing [snappi]: success
+[2023-04-20 14:43:04] INFO root fetch - main [MainThread]: End processing [GlobalPayments.Api]: success
+[2023-04-20 14:43:04] INFO root fetch - main [MainThread]: Store serial: [17787030]
