@@ -3780,3 +3780,20 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 03:01:06] INFO root fetch - main [MainThread]: End processing [unstructured-api-tools]: success
 [2023-04-20 03:01:07] INFO root fetch - main [MainThread]: End processing [iga]: success
 [2023-04-20 03:01:07] INFO root fetch - main [MainThread]: Store serial: [17779669]
+[2023-04-20 03:06:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17779669]
+[2023-04-20 03:06:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-04-20 03:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cctk
+[2023-04-20 03:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyempaq
+[2023-04-20 03:06:16] INFO root fetch - processPackages [cctk]: New version: [v0.1.5] Old Version: [v0.1.4]
+[2023-04-20 03:06:16] INFO root fetch - processPackages [pyempaq]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-04-20 03:06:16] INFO root fetch - processPackages [pyempaq]: Downloading https://files.pythonhosted.org/packages/2d/50/184e7799130e641a279ada89a6ddc8ae831a307f7ab9efb3545b998a798f/pyempaq-0.2.2.tar.gz
+[2023-04-20 03:06:16] INFO root fetch - processPackages [cctk]: Downloading https://files.pythonhosted.org/packages/84/06/13b9a4a05ef45d5cd9c4e9ea0f6e929330b92f806764bd52c35e721780fb/cctk-v0.1.4.tar.gz
+[2023-04-20 03:06:16] INFO root fetch - processPackages [pyempaq]: Downloading https://files.pythonhosted.org/packages/67/e1/5c5cae1322e201c927173376ef759228036382db185880924a96665af3cf/pyempaq-0.3.0.tar.gz
+[2023-04-20 03:06:16] INFO root fetch - processPackages [pyempaq]: executing diffoscope
+[2023-04-20 03:06:16] INFO root fetch - processPackages [pyempaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyempaq-0.2.2.tar.gz tmp/pyempaq-0.3.0.tar.gz --markdown 20230420/p/pyempaq/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 03:06:16] INFO root fetch - processPackages [cctk]: Downloading https://files.pythonhosted.org/packages/29/3e/bda5fa41bc6cedff330407a198803bd094dbb807617c9209b9e4aa330dd5/cctk-v0.1.5.tar.gz
+[2023-04-20 03:06:17] INFO root fetch - processPackages [cctk]: executing diffoscope
+[2023-04-20 03:06:17] INFO root fetch - processPackages [cctk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cctk-v0.1.4.tar.gz tmp/cctk-v0.1.5.tar.gz --markdown 20230420/c/cctk/v0.1.4-v0.1.5/diff.md --exclude *.pyd
+[2023-04-20 03:06:18] INFO root fetch - main [MainThread]: End processing [pyempaq]: success
+[2023-04-20 03:06:18] INFO root fetch - main [MainThread]: End processing [cctk]: success
+[2023-04-20 03:06:18] INFO root fetch - main [MainThread]: Store serial: [17779676]
