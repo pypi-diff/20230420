@@ -19094,3 +19094,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 16:48:55] INFO root fetch - main [MainThread]: End processing [lenspyx]: success
 [2023-04-20 16:48:57] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
 [2023-04-20 16:48:57] INFO root fetch - main [MainThread]: Store serial: [17788601]
+[2023-04-20 16:54:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17788601]
+[2023-04-20 16:54:07] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-20 16:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: collective.exportimport
+[2023-04-20 16:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybricksdev
+[2023-04-20 16:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: petisco
+[2023-04-20 16:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muvinai
+[2023-04-20 16:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leaguedaily
+[2023-04-20 16:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: searchkit
+[2023-04-20 16:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raft-dask-cu11
+[2023-04-20 16:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenio-vocabularies
+[2023-04-20 16:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prettypy
+[2023-04-20 16:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: setuptools
+[2023-04-20 16:54:07] INFO root fetch - processPackages [pybricksdev]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-04-20 16:54:07] INFO root fetch - processPackages [invenio-vocabularies]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-20 16:54:07] INFO root fetch - processPackages [leaguedaily]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-04-20 16:54:07] INFO root fetch - processPackages [raft-dask-cu11]: New version: [23.4.0.1681367712] Old Version: [23.4.0]
+[2023-04-20 16:54:07] INFO root fetch - processPackages [prettypy]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-20 16:54:07] INFO root fetch - processPackages [searchkit]: New version: [0.2.3] Old Version: [0.2.2.post2]
+[2023-04-20 16:54:07] INFO root fetch - processPackages [collective.exportimport]: New version: [1.8] Old Version: [1.7]
+[2023-04-20 16:54:07] INFO root fetch - processPackages [petisco]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-20 16:54:07] INFO root fetch - processPackages [muvinai]: New version: [0.2.9] Old Version: [0.2.8.dev0]
+[2023-04-20 16:54:07] INFO root fetch - processPackages [setuptools]: New version: [9.1] Old Version: [9.0.1]
+[2023-04-20 16:54:07] INFO root fetch - processPackages [pybricksdev]: executing diffoscope
+[2023-04-20 16:54:07] INFO root fetch - processPackages [pybricksdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybricksdev-1.0.0a8.tar.gz tmp/pybricksdev-1.0.0a9.tar.gz --markdown 20230420/p/pybricksdev/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-04-20 16:54:07] INFO root fetch - processPackages [raft-dask-cu11]: Downloading https://files.pythonhosted.org/packages/d8/6d/be6a197a7d31801c5fbdda2b37b0a9ca1eca0f09c9cba8079fb7e437450e/raft_dask_cu11-23.4.0.tar.gz
+[2023-04-20 16:54:07] INFO root fetch - processPackages [invenio-vocabularies]: Downloading https://files.pythonhosted.org/packages/a0/eb/6b23b8e511ba0431284ecbbcc6722b86054f734080083e0e161f6a3767b9/invenio-vocabularies-1.2.0.tar.gz
+[2023-04-20 16:54:07] INFO root fetch - processPackages [leaguedaily]: Downloading https://files.pythonhosted.org/packages/98/c8/fee0f3b67219188ff495ceed541b59c69fdfd56ec6eac085bbd50e2211f5/leaguedaily-1.0.0.tar.gz
+[2023-04-20 16:54:07] INFO root fetch - processPackages [prettypy]: Downloading https://files.pythonhosted.org/packages/78/0c/b0a6c24bf63bd11b1ac92dee739cb5939c9359c9be603ac43cb6936bc5ba/prettypy-0.2.0.tar.gz
+[2023-04-20 16:54:07] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/bb/2f/37f2d35d9f897499aabbfa46d7146105f765265b74e461f9ce0516596551/petisco-1.9.8.tar.gz
+[2023-04-20 16:54:07] INFO root fetch - processPackages [muvinai]: Downloading https://files.pythonhosted.org/packages/af/9e/2457f3c883b262802d607aa0b057621322e25445eb40cf5694f24c667be2/muvinai-0.2.8.dev0.tar.gz
+[2023-04-20 16:54:07] INFO root fetch - processPackages [collective.exportimport]: Downloading https://files.pythonhosted.org/packages/3c/63/dd441e9cbad7b8a217d29f9e94bd3d151aa4cae70641cebe5c502a161e99/collective.exportimport-1.7.tar.gz
+[2023-04-20 16:54:07] INFO root fetch - processPackages [setuptools]: Downloading https://files.pythonhosted.org/packages/16/2c/1ad571e85048c57b4e7ba2218d0fff3db0452e8bfa0c20e1543e26f85121/setuptools-9.0.1.zip
+[2023-04-20 16:54:07] INFO root fetch - processPackages [leaguedaily]: executing diffoscope
+[2023-04-20 16:54:07] INFO root fetch - processPackages [leaguedaily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leaguedaily-0.2.1.tar.gz tmp/leaguedaily-1.0.0.tar.gz --markdown 20230420/l/leaguedaily/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-20 16:54:07] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/87/fa/d84a608d9976535c1a97b5dcfcc2ad62a5665cfd1a87909172201f525b98/searchkit-0.2.3.tar.gz
+[2023-04-20 16:54:07] INFO root fetch - processPackages [raft-dask-cu11]: Downloading https://files.pythonhosted.org/packages/a3/77/029c5caedf5c79c0e0664e54f33de8f1c5a4f2605c8d7aa7ea03f7f12a02/raft_dask_cu11-23.4.0.1681367712.tar.gz
+[2023-04-20 16:54:07] INFO root fetch - processPackages [searchkit]: executing diffoscope
+[2023-04-20 16:54:07] INFO root fetch - processPackages [searchkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchkit-0.2.2.post2.tar.gz tmp/searchkit-0.2.3.tar.gz --markdown 20230420/s/searchkit/0.2.2.post2-0.2.3/diff.md --exclude *.pyd
+[2023-04-20 16:54:07] INFO root fetch - processPackages [prettypy]: Downloading https://files.pythonhosted.org/packages/cd/8e/ff8dc6584fd6506478089a0692f5063da69c7b4f6e3a2c4878693e44fb3b/prettypy-0.2.1.tar.gz
+[2023-04-20 16:54:08] INFO root fetch - processPackages [invenio-vocabularies]: Downloading https://files.pythonhosted.org/packages/49/9c/39d6a49f05c6ce650a186afae9a5a4e5a3e05ca03978dc6ae3e52ef1300e/invenio-vocabularies-1.3.0.tar.gz
+[2023-04-20 16:54:08] INFO root fetch - processPackages [prettypy]: executing diffoscope
+[2023-04-20 16:54:08] INFO root fetch - processPackages [prettypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettypy-0.2.0.tar.gz tmp/prettypy-0.2.1.tar.gz --markdown 20230420/p/prettypy/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-20 16:54:08] INFO root fetch - processPackages [raft-dask-cu11]: executing diffoscope
+[2023-04-20 16:54:08] INFO root fetch - processPackages [raft-dask-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raft_dask_cu11-23.4.0.tar.gz tmp/raft_dask_cu11-23.4.0.1681367712.tar.gz --markdown 20230420/r/raft-dask-cu11/23.4.0-23.4.0.1681367712/diff.md --exclude *.pyd
+[2023-04-20 16:54:08] INFO root fetch - processPackages [setuptools]: Downloading https://files.pythonhosted.org/packages/35/b2/626974cb6f02c4d58c33471b597f6723560f74be322857e9cd24700c3c70/setuptools-9.1.zip
+[2023-04-20 16:54:08] INFO root fetch - processPackages [invenio-vocabularies]: executing diffoscope
+[2023-04-20 16:54:08] INFO root fetch - processPackages [invenio-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-vocabularies-1.2.0.tar.gz tmp/invenio-vocabularies-1.3.0.tar.gz --markdown 20230420/i/invenio-vocabularies/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-20 16:54:08] INFO root fetch - processPackages [muvinai]: Downloading https://files.pythonhosted.org/packages/25/2b/14fa831cab12dadb200fbde21f3e8566d301f2b31da4b059a1a4ce132861/muvinai-0.2.9.tar.gz
+[2023-04-20 16:54:08] INFO root fetch - processPackages [collective.exportimport]: Downloading https://files.pythonhosted.org/packages/45/64/61a444f9a26ef741cb072b13870c0bb0afcff6b065a9756012bc6b7cdb4b/collective.exportimport-1.8.tar.gz
+[2023-04-20 16:54:08] INFO root fetch - processPackages [setuptools]: executing diffoscope
+[2023-04-20 16:54:08] INFO root fetch - processPackages [setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-9.0.1.zip tmp/setuptools-9.1.zip --markdown 20230420/s/setuptools/9.0.1-9.1/diff.md --exclude *.pyd
+[2023-04-20 16:54:08] INFO root fetch - processPackages [collective.exportimport]: executing diffoscope
+[2023-04-20 16:54:08] INFO root fetch - processPackages [collective.exportimport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.exportimport-1.7.tar.gz tmp/collective.exportimport-1.8.tar.gz --markdown 20230420/c/collective.exportimport/1.7-1.8/diff.md --exclude *.pyd
+[2023-04-20 16:54:08] INFO root fetch - processPackages [muvinai]: executing diffoscope
+[2023-04-20 16:54:08] INFO root fetch - processPackages [muvinai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muvinai-0.2.8.dev0.tar.gz tmp/muvinai-0.2.9.tar.gz --markdown 20230420/m/muvinai/0.2.8.dev0-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 16:54:08] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/89/5e/d19d08dde3196f9307b06251e80c9a77180aab7de5dc95dd95f174c26645/petisco-1.9.9.tar.gz
+[2023-04-20 16:54:08] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-04-20 16:54:08] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-1.9.8.tar.gz tmp/petisco-1.9.9.tar.gz --markdown 20230420/p/petisco/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-20 16:54:09] INFO root fetch - processPackages [pybricksdev]: Start processing: sqlite-ml
+[2023-04-20 16:54:09] INFO root fetch - main [MainThread]: End processing [pybricksdev]: success
+[2023-04-20 16:54:09] INFO root fetch - processPackages [sqlite-ml]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-04-20 16:54:09] INFO root fetch - processPackages [leaguedaily]: Start processing: openfabric-pysdk
+[2023-04-20 16:54:09] INFO root fetch - main [MainThread]: End processing [leaguedaily]: success
+[2023-04-20 16:54:09] INFO root fetch - processPackages [sqlite-ml]: Downloading https://files.pythonhosted.org/packages/aa/d2/329855c75c1e816b45b7093e0f7bca8d7b3f43ea954377b36173c2fc72bb/sqlite_ml-0.0.0.tar.gz
+[2023-04-20 16:54:09] INFO root fetch - processPackages [searchkit]: Start processing: qwak-sdk
+[2023-04-20 16:54:09] INFO root fetch - main [MainThread]: End processing [searchkit]: success
+[2023-04-20 16:54:09] INFO root fetch - processPackages [qwak-sdk]: New version: [0.2.21rc0] Old Version: [0.2.20rc0]
+[2023-04-20 16:54:09] INFO root fetch - processPackages [openfabric-pysdk]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-20 16:54:09] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-04-20 16:54:09] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.2.20rc0.tar.gz tmp/qwak_sdk-0.2.21rc0.tar.gz --markdown 20230420/q/qwak-sdk/0.2.20rc0-0.2.21rc0/diff.md --exclude *.pyd
+[2023-04-20 16:54:09] INFO root fetch - processPackages [raft-dask-cu11]: Start processing: capellambse
+[2023-04-20 16:54:09] INFO root fetch - main [MainThread]: End processing [raft-dask-cu11]: success
+[2023-04-20 16:54:09] INFO root fetch - processPackages [openfabric-pysdk]: Downloading https://files.pythonhosted.org/packages/93/fc/fd0a3a0e6f36b7f029fde477aa83c1a8db26da5202229ea26f4b01eccfc2/openfabric_pysdk-0.2.4.tar.gz
+[2023-04-20 16:54:09] INFO root fetch - processPackages [sqlite-ml]: Downloading https://files.pythonhosted.org/packages/8c/96/5db76d674d6d3f4a47858f798d66ef21dfe6bf889269daebada2f126171e/sqlite_ml-0.1.0.tar.gz
+[2023-04-20 16:54:09] INFO root fetch - main [MainThread]: End processing [prettypy]: success
+[2023-04-20 16:54:09] INFO root fetch - processPackages [sqlite-ml]: executing diffoscope
+[2023-04-20 16:54:09] INFO root fetch - processPackages [sqlite-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_ml-0.0.0.tar.gz tmp/sqlite_ml-0.1.0.tar.gz --markdown 20230420/s/sqlite-ml/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-04-20 16:54:09] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-04-20 16:54:09] INFO root fetch - processPackages [openfabric-pysdk]: Downloading https://files.pythonhosted.org/packages/05/c8/64764c8bd0f3c090bc4bf78400a5e679c290401d040ed66e12a7b7e04fb3/openfabric_pysdk-0.2.5.tar.gz
+[2023-04-20 16:54:09] INFO root fetch - main [MainThread]: End processing [muvinai]: success
+[2023-04-20 16:54:10] INFO root fetch - processPackages [openfabric-pysdk]: executing diffoscope
+[2023-04-20 16:54:10] INFO root fetch - processPackages [openfabric-pysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfabric_pysdk-0.2.4.tar.gz tmp/openfabric_pysdk-0.2.5.tar.gz --markdown 20230420/o/openfabric-pysdk/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-20 16:54:10] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-04-20 16:54:10] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230420/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-04-20 16:54:10] INFO root fetch - main [MainThread]: End processing [sqlite-ml]: success
+[2023-04-20 16:54:11] INFO root fetch - main [MainThread]: End processing [setuptools]: success
+[2023-04-20 16:54:11] INFO root fetch - main [MainThread]: End processing [openfabric-pysdk]: success
+[2023-04-20 16:54:11] INFO root fetch - main [MainThread]: End processing [invenio-vocabularies]: success
+[2023-04-20 16:54:11] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-04-20 16:54:12] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-04-20 16:54:12] INFO root fetch - main [MainThread]: End processing [collective.exportimport]: success
+[2023-04-20 16:54:17] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-04-20 16:54:17] INFO root fetch - main [MainThread]: Store serial: [17788654]
