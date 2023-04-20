@@ -8124,3 +8124,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 07:26:12] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
 [2023-04-20 07:26:12] INFO root fetch - main [MainThread]: End processing [general-calculator-zsd]: success
 [2023-04-20 07:26:12] INFO root fetch - main [MainThread]: Store serial: [17782352]
+[2023-04-20 07:31:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17782352]
+[2023-04-20 07:31:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-20 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cfscanner
+[2023-04-20 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exceptnotifier
+[2023-04-20 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snk
+[2023-04-20 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twb-project
+[2023-04-20 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lqwtest
+[2023-04-20 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo11-addon-mgmtsystem-audit
+[2023-04-20 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo11-addon-mgmtsystem-nonconformity
+[2023-04-20 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oxalis
+[2023-04-20 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crazy-thursday
+[2023-04-20 07:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mobilealerts
+[2023-04-20 07:31:21] INFO root fetch - processPackages [twb-project]: New version: [0.7.3a9] Old Version: [0.7.3a8]
+[2023-04-20 07:31:21] WARNING root fetch - processPackages [cfscanner]: Skipping, unable to determine old version
+[2023-04-20 07:31:21] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-audit]: New version: [11.0.1.0.0.99.dev5] Old Version: [11.0.1.0.0.99.dev4]
+[2023-04-20 07:31:21] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-04-20 07:31:21] INFO root fetch - processPackages [exceptnotifier]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 07:31:21] INFO root fetch - processPackages [snk]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-20 07:31:21] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-nonconformity]: New version: [11.0.1.1.2.99.dev9] Old Version: [11.0.1.1.2.99.dev78]
+[2023-04-20 07:31:21] WARNING root fetch - processPackages [lqwtest]: Skipping, unable to determine old version
+[2023-04-20 07:31:21] INFO root fetch - main [MainThread]: End processing [lqwtest] error
+[2023-04-20 07:31:21] INFO root fetch - processPackages [oxalis]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-04-20 07:31:21] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-20 07:31:21] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-04-20 07:31:21] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.7.3a8.tar.gz tmp/twb_project-0.7.3a9.tar.gz --markdown 20230420/t/twb-project/0.7.3a8-0.7.3a9/diff.md --exclude *.pyd
+[2023-04-20 07:31:21] INFO root fetch - processPackages [mobilealerts]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 07:31:21] INFO root fetch - processPackages [exceptnotifier]: executing diffoscope
+[2023-04-20 07:31:21] INFO root fetch - processPackages [exceptnotifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exceptnotifier-0.1.8.tar.gz tmp/exceptnotifier-0.1.9.tar.gz --markdown 20230420/e/exceptnotifier/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 07:31:21] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/93/13/53aa546d56b2d72768f265575eba2ed46058fb03285988a9d5f64a4f243c/odoo11_addon_mgmtsystem_nonconformity-11.0.1.1.2.99.dev78-py2.py3-none-any.whl
+[2023-04-20 07:31:21] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-20 07:31:21] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230420/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-20 07:31:21] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-audit]: Downloading https://files.pythonhosted.org/packages/89/a4/8f8e5cea6017ba60b1c170b21401d706776d29832d52cd3d8e521bf0c96c/odoo11_addon_mgmtsystem_audit-11.0.1.0.0.99.dev4-py2.py3-none-any.whl
+[2023-04-20 07:31:21] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/e6/c3/9df74076ab38d5aa4dbdcce82dd3dc38b2a212e37058ec87e77f33c3f9b8/snk-0.6.0.tar.gz
+[2023-04-20 07:31:21] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/8e/e1/787f51e7518fa19420acefa584e60d806e2d37fc94d50fb17465d5d0b801/oxalis-0.5.3.tar.gz
+[2023-04-20 07:31:21] INFO root fetch - processPackages [mobilealerts]: Downloading https://files.pythonhosted.org/packages/af/77/4c4f4fc0e72da77527da4916a04b2459525d76a36c41d1ec90c2b8c8dedc/mobilealerts-0.1.8.tar.gz
+[2023-04-20 07:31:21] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-04-20 07:31:21] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.5.0.tar.gz tmp/snk-0.6.0.tar.gz --markdown 20230420/s/snk/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-20 07:31:21] INFO root fetch - processPackages [oxalis]: executing diffoscope
+[2023-04-20 07:31:21] INFO root fetch - processPackages [oxalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxalis-0.5.2.tar.gz tmp/oxalis-0.5.3.tar.gz --markdown 20230420/o/oxalis/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-04-20 07:31:21] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-audit]: Downloading https://files.pythonhosted.org/packages/63/aa/6349a3b1d165f33956cb3403dff352310565ea7e0013b019380107523df9/odoo11_addon_mgmtsystem_audit-11.0.1.0.0.99.dev5-py2.py3-none-any.whl
+[2023-04-20 07:31:21] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-nonconformity]: executing diffoscope
+[2023-04-20 07:31:21] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-nonconformity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_mgmtsystem_nonconformity-11.0.1.1.2.99.dev78-py2.py3-none-any.whl.zip tmp/odoo11_addon_mgmtsystem_nonconformity-11.0.1.1.2.99.dev9-py2.py3-none-any.whl.zip --markdown 20230420/o/odoo11-addon-mgmtsystem-nonconformity/11.0.1.1.2.99.dev78-11.0.1.1.2.99.dev9/diff.md --exclude *.pyd
+[2023-04-20 07:31:21] INFO root fetch - processPackages [mobilealerts]: Downloading https://files.pythonhosted.org/packages/d4/a7/becb999774497527dfa62988bcab3b381ed6069fb49b97d9ffd1296b70d3/mobilealerts-0.1.9.tar.gz
+[2023-04-20 07:31:21] INFO root fetch - processPackages [mobilealerts]: executing diffoscope
+[2023-04-20 07:31:21] INFO root fetch - processPackages [mobilealerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobilealerts-0.1.8.tar.gz tmp/mobilealerts-0.1.9.tar.gz --markdown 20230420/m/mobilealerts/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 07:31:21] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-audit]: executing diffoscope
+[2023-04-20 07:31:21] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-audit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_mgmtsystem_audit-11.0.1.0.0.99.dev4-py2.py3-none-any.whl.zip tmp/odoo11_addon_mgmtsystem_audit-11.0.1.0.0.99.dev5-py2.py3-none-any.whl.zip --markdown 20230420/o/odoo11-addon-mgmtsystem-audit/11.0.1.0.0.99.dev4-11.0.1.0.0.99.dev5/diff.md --exclude *.pyd
+[2023-04-20 07:31:22] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-20 07:31:22] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-04-20 07:31:23] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-04-20 07:31:23] INFO root fetch - main [MainThread]: End processing [exceptnotifier]: success
+[2023-04-20 07:31:23] INFO root fetch - main [MainThread]: End processing [oxalis]: success
+[2023-04-20 07:31:23] INFO root fetch - main [MainThread]: End processing [mobilealerts]: success
+[2023-04-20 07:31:23] INFO root fetch - main [MainThread]: End processing [odoo11-addon-mgmtsystem-audit]: success
+[2023-04-20 07:31:23] INFO root fetch - main [MainThread]: End processing [odoo11-addon-mgmtsystem-nonconformity]: success
+[2023-04-20 07:31:23] INFO root fetch - main [MainThread]: Store serial: [17782388]
