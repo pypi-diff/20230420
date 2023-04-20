@@ -20357,3 +20357,107 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 17:38:53] INFO root fetch - main [MainThread]: End processing [mango-explorer-v4]: success
 [2023-04-20 17:40:00] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-04-20 17:40:00] INFO root fetch - main [MainThread]: Store serial: [17789381]
+[2023-04-20 17:45:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17789381]
+[2023-04-20 17:45:10] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-20 17:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homeservices
+[2023-04-20 17:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kaflow
+[2023-04-20 17:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-purchase-lot
+[2023-04-20 17:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-honeybee
+[2023-04-20 17:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odeanimate
+[2023-04-20 17:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flarespy
+[2023-04-20 17:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trailwatch
+[2023-04-20 17:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: txtai
+[2023-04-20 17:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: invenio-users-resources
+[2023-04-20 17:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: buteo
+[2023-04-20 17:45:10] INFO root fetch - processPackages [trailwatch]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-20 17:45:10] INFO root fetch - processPackages [flarespy]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-20 17:45:10] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-04-20 17:45:10] INFO root fetch - processPackages [kaflow]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-20 17:45:10] INFO root fetch - processPackages [homeservices]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-04-20 17:45:10] INFO root fetch - processPackages [odeanimate]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 17:45:10] WARNING root fetch - processPackages [odoo-addon-purchase-lot]: Skipping, unable to determine old version
+[2023-04-20 17:45:10] INFO root fetch - processPackages [odoo-addon-purchase-lot]: Start processing: seg2map
+[2023-04-20 17:45:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-lot] error
+[2023-04-20 17:45:10] INFO root fetch - processPackages [invenio-users-resources]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-20 17:45:10] INFO root fetch - processPackages [trailwatch]: executing diffoscope
+[2023-04-20 17:45:10] INFO root fetch - processPackages [trailwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailwatch-0.2.0.tar.gz tmp/trailwatch-0.3.0.tar.gz --markdown 20230420/t/trailwatch/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 17:45:10] INFO root fetch - processPackages [txtai]: New version: [5.5.0] Old Version: [5.4.0]
+[2023-04-20 17:45:10] INFO root fetch - processPackages [buteo]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-20 17:45:10] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-04-20 17:45:10] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230420/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-04-20 17:45:10] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-04-20 17:45:10] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.7.2.tar.gz tmp/flarespy-0.7.3.tar.gz --markdown 20230420/f/flarespy/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-20 17:45:10] INFO root fetch - processPackages [seg2map]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 17:45:10] INFO root fetch - processPackages [invenio-users-resources]: Downloading https://files.pythonhosted.org/packages/0a/c8/8f9cb8dd0d6192ad605ec45e8edc47a800c84be675e0182c779f5a3f22b5/invenio-users-resources-1.2.0.tar.gz
+[2023-04-20 17:45:10] INFO root fetch - processPackages [odeanimate]: Downloading https://files.pythonhosted.org/packages/92/8a/406f12f814a59247bd763d0d5da59605e675a36dda0989ebe2b7290d8536/odeanimate-0.0.7.tar.gz
+[2023-04-20 17:45:10] INFO root fetch - processPackages [homeservices]: Downloading https://files.pythonhosted.org/packages/d5/be/5abb075da6677fbf97cc9b7a392e4ae12223de6f4e84a2e74457c5a56cf8/homeservices-0.2.3.tar.gz
+[2023-04-20 17:45:10] INFO root fetch - processPackages [txtai]: Downloading https://files.pythonhosted.org/packages/e2/dd/80e6e65f489c29d592661c395ff6f70ae3e76bdc3e1678ef7967d181f954/txtai-5.4.0.tar.gz
+[2023-04-20 17:45:11] INFO root fetch - processPackages [kaflow]: Downloading https://files.pythonhosted.org/packages/be/5e/5955a9cc70d2a5a4d6511c5fb6a1122414c99a5791e6036ccd118a30c737/kaflow-0.2.1.tar.gz
+[2023-04-20 17:45:11] INFO root fetch - processPackages [buteo]: executing diffoscope
+[2023-04-20 17:45:11] INFO root fetch - processPackages [buteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buteo-0.8.8.tar.gz tmp/buteo-0.8.9.tar.gz --markdown 20230420/b/buteo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-20 17:45:11] INFO root fetch - processPackages [invenio-users-resources]: Downloading https://files.pythonhosted.org/packages/0b/91/504566afb7ec4e6cfacf93211405ae1511f754907c0581620ed114c4093f/invenio-users-resources-1.3.0.tar.gz
+[2023-04-20 17:45:11] INFO root fetch - processPackages [homeservices]: Downloading https://files.pythonhosted.org/packages/fd/85/98785ac556e541172ceb66cc22f2a840f0150ba1c8118c9cdf581198514e/homeservices-0.2.5.tar.gz
+[2023-04-20 17:45:11] INFO root fetch - processPackages [kaflow]: executing diffoscope
+[2023-04-20 17:45:11] INFO root fetch - processPackages [kaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaflow-0.2.0.tar.gz tmp/kaflow-0.2.1.tar.gz --markdown 20230420/k/kaflow/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-20 17:45:11] INFO root fetch - processPackages [txtai]: Downloading https://files.pythonhosted.org/packages/01/da/ceda2a811ed0b745b1ea3c612b8a62d190ac431d442b13f2cfc6224524a6/txtai-5.5.0.tar.gz
+[2023-04-20 17:45:11] INFO root fetch - processPackages [odeanimate]: Downloading https://files.pythonhosted.org/packages/04/bf/af2ebcc7a552b6ee37a9d852afeb6cda235fc3f4322ef161e9de2dbe8297/odeanimate-0.0.8.tar.gz
+[2023-04-20 17:45:11] INFO root fetch - processPackages [seg2map]: executing diffoscope
+[2023-04-20 17:45:11] INFO root fetch - processPackages [seg2map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seg2map-0.0.8.tar.gz tmp/seg2map-0.0.9.tar.gz --markdown 20230420/s/seg2map/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 17:45:11] INFO root fetch - processPackages [homeservices]: executing diffoscope
+[2023-04-20 17:45:11] INFO root fetch - processPackages [homeservices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeservices-0.2.3.tar.gz tmp/homeservices-0.2.5.tar.gz --markdown 20230420/h/homeservices/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-04-20 17:45:11] INFO root fetch - processPackages [invenio-users-resources]: executing diffoscope
+[2023-04-20 17:45:11] INFO root fetch - processPackages [invenio-users-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-users-resources-1.2.0.tar.gz tmp/invenio-users-resources-1.3.0.tar.gz --markdown 20230420/i/invenio-users-resources/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-20 17:45:11] INFO root fetch - processPackages [odeanimate]: executing diffoscope
+[2023-04-20 17:45:11] INFO root fetch - processPackages [odeanimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odeanimate-0.0.7.tar.gz tmp/odeanimate-0.0.8.tar.gz --markdown 20230420/o/odeanimate/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 17:45:11] INFO root fetch - processPackages [txtai]: executing diffoscope
+[2023-04-20 17:45:11] INFO root fetch - processPackages [txtai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txtai-5.4.0.tar.gz tmp/txtai-5.5.0.tar.gz --markdown 20230420/t/txtai/5.4.0-5.5.0/diff.md --exclude *.pyd
+[2023-04-20 17:45:11] INFO root fetch - processPackages [trailwatch]: Start processing: gptcache
+[2023-04-20 17:45:11] INFO root fetch - main [MainThread]: End processing [trailwatch]: success
+[2023-04-20 17:45:12] INFO root fetch - processPackages [gptcache]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 17:45:12] INFO root fetch - processPackages [lbt-honeybee]: Start processing: dadaptation
+[2023-04-20 17:45:12] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-04-20 17:45:12] INFO root fetch - processPackages [gptcache]: executing diffoscope
+[2023-04-20 17:45:12] INFO root fetch - processPackages [gptcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptcache-0.1.8.tar.gz tmp/gptcache-0.1.9.tar.gz --markdown 20230420/g/gptcache/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 17:45:12] INFO root fetch - processPackages [flarespy]: Start processing: minijinja
+[2023-04-20 17:45:12] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-04-20 17:45:12] INFO root fetch - processPackages [dadaptation]: New version: [2.0] Old Version: [1.5]
+[2023-04-20 17:45:12] INFO root fetch - processPackages [minijinja]: New version: [0.32.0] Old Version: [0.31.1]
+[2023-04-20 17:45:12] INFO root fetch - processPackages [dadaptation]: Downloading https://files.pythonhosted.org/packages/0c/23/2eca6877006e8ae42a24ca225a64d1efcc1cb0c2be5347c8676fdd06916a/dadaptation-1.5.tar.gz
+[2023-04-20 17:45:12] INFO root fetch - processPackages [minijinja]: Downloading https://files.pythonhosted.org/packages/7d/2f/ff8e81e6ef7d3172421c253369aba175b3f0759a5a975ae63bcf98ed239a/minijinja-0.31.1.tar.gz
+[2023-04-20 17:45:12] INFO root fetch - processPackages [dadaptation]: Downloading https://files.pythonhosted.org/packages/ae/ea/674a4143de5c54f409ec4ae1ee7133c2a5446b9d81c6c040c3b5514ffe64/dadaptation-2.0.tar.gz
+[2023-04-20 17:45:12] INFO root fetch - processPackages [dadaptation]: executing diffoscope
+[2023-04-20 17:45:12] INFO root fetch - processPackages [dadaptation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dadaptation-1.5.tar.gz tmp/dadaptation-2.0.tar.gz --markdown 20230420/d/dadaptation/1.5-2.0/diff.md --exclude *.pyd
+[2023-04-20 17:45:12] INFO root fetch - processPackages [minijinja]: Downloading https://files.pythonhosted.org/packages/3f/77/6e23924f7bd4b1ec38e56f7834a47f921ef94b9ccf173768b9a09dd0cf33/minijinja-0.32.0.tar.gz
+[2023-04-20 17:45:12] INFO root fetch - processPackages [homeservices]: Start processing: lbt-dragonfly
+[2023-04-20 17:45:12] INFO root fetch - main [MainThread]: End processing [homeservices]: success
+[2023-04-20 17:45:13] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-04-20 17:45:13] INFO root fetch - processPackages [minijinja]: executing diffoscope
+[2023-04-20 17:45:13] INFO root fetch - processPackages [minijinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minijinja-0.31.1.tar.gz tmp/minijinja-0.32.0.tar.gz --markdown 20230420/m/minijinja/0.31.1-0.32.0/diff.md --exclude *.pyd
+[2023-04-20 17:45:13] INFO root fetch - processPackages [odeanimate]: Start processing: openctp-tts-6319
+[2023-04-20 17:45:13] INFO root fetch - main [MainThread]: End processing [odeanimate]: success
+[2023-04-20 17:45:13] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-04-20 17:45:13] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230420/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-04-20 17:45:13] INFO root fetch - processPackages [kaflow]: Start processing: chaostoolkit-reliably
+[2023-04-20 17:45:13] INFO root fetch - main [MainThread]: End processing [kaflow]: success
+[2023-04-20 17:45:13] WARNING root fetch - processPackages [openctp-tts-6319]: Skipping, unable to determine old version
+[2023-04-20 17:45:13] INFO root fetch - processPackages [openctp-tts-6319]: Start processing: b2luigi
+[2023-04-20 17:45:13] INFO root fetch - main [MainThread]: End processing [openctp-tts-6319] error
+[2023-04-20 17:45:13] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-20 17:45:13] INFO root fetch - processPackages [b2luigi]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-20 17:45:13] INFO root fetch - processPackages [b2luigi]: Downloading https://files.pythonhosted.org/packages/e6/41/1f0217efb17203d701120fde4c10dff7e4e8e54243f5eb765dc6d476dc0e/b2luigi-0.9.0.tar.gz
+[2023-04-20 17:45:13] INFO root fetch - main [MainThread]: End processing [gptcache]: success
+[2023-04-20 17:45:13] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-04-20 17:45:13] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230420/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-20 17:45:13] INFO root fetch - main [MainThread]: End processing [buteo]: success
+[2023-04-20 17:45:13] INFO root fetch - main [MainThread]: End processing [seg2map]: success
+[2023-04-20 17:45:13] INFO root fetch - processPackages [b2luigi]: Downloading https://files.pythonhosted.org/packages/69/a0/fe31affca8266d425f422ee5cfe5fc18df9b814b13edbd4892c14af16904/b2luigi-0.9.1.tar.gz
+[2023-04-20 17:45:14] INFO root fetch - main [MainThread]: End processing [txtai]: success
+[2023-04-20 17:45:14] INFO root fetch - processPackages [b2luigi]: executing diffoscope
+[2023-04-20 17:45:14] INFO root fetch - processPackages [b2luigi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2luigi-0.9.0.tar.gz tmp/b2luigi-0.9.1.tar.gz --markdown 20230420/b/b2luigi/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 17:45:14] INFO root fetch - main [MainThread]: End processing [dadaptation]: success
+[2023-04-20 17:45:14] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-04-20 17:45:14] INFO root fetch - main [MainThread]: End processing [invenio-users-resources]: success
+[2023-04-20 17:45:15] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-04-20 17:45:15] INFO root fetch - main [MainThread]: End processing [minijinja]: success
+[2023-04-20 17:45:15] INFO root fetch - main [MainThread]: End processing [b2luigi]: success
+[2023-04-20 17:45:15] INFO root fetch - main [MainThread]: Store serial: [17789454]
