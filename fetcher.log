@@ -18467,3 +18467,147 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 16:22:16] INFO root fetch - main [MainThread]: End processing [cloudstructs]: success
 [2023-04-20 16:22:18] INFO root fetch - main [MainThread]: End processing [origen-ai-ecl]: success
 [2023-04-20 16:22:18] INFO root fetch - main [MainThread]: Store serial: [17788212]
+[2023-04-20 16:27:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17788212]
+[2023-04-20 16:27:28] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-20 16:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: soakdb3
+[2023-04-20 16:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-04-20 16:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibm-watson-machine-learning
+[2023-04-20 16:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spdx-tools
+[2023-04-20 16:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-cppython
+[2023-04-20 16:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-04-20 16:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-project-structure
+[2023-04-20 16:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: enot-autodl
+[2023-04-20 16:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rudi-node-read
+[2023-04-20 16:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-blockbee-checkout
+[2023-04-20 16:27:28] INFO root fetch - processPackages [pytest-cppython]: New version: [0.3.1.dev9] Old Version: [0.3.1.dev8]
+[2023-04-20 16:27:28] INFO root fetch - processPackages [spdx-tools]: New version: [0.8.0a1] Old Version: [0.7.1rc1]
+[2023-04-20 16:27:28] INFO root fetch - processPackages [soakdb3]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-20 16:27:28] INFO root fetch - processPackages [rudi-node-read]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 16:27:28] INFO root fetch - processPackages [python-blockbee-checkout]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-20 16:27:28] INFO root fetch - processPackages [enot-autodl]: New version: [3.3.0] Old Version: [3.2.5]
+[2023-04-20 16:27:28] INFO root fetch - processPackages [ibm-watson-machine-learning]: New version: [1.0.99] Old Version: [1.0.96]
+[2023-04-20 16:27:28] INFO root fetch - processPackages [python-project-structure]: New version: [0.8.9b7] Old Version: [0.8.9b0]
+[2023-04-20 16:27:28] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-20 16:27:29] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-20 16:27:29] INFO root fetch - processPackages [python-blockbee-checkout]: Downloading https://files.pythonhosted.org/packages/28/f7/b9a162ba9dc2e20e8489d5c456a97780cc69c8411df1a9775cbcd695ffa1/python-blockbee-checkout-1.0.0.tar.gz
+[2023-04-20 16:27:29] INFO root fetch - processPackages [pytest-cppython]: Downloading https://files.pythonhosted.org/packages/50/17/cd61eaac6d0346f14f9180283d107b121a87408603154fe7ce9ec7771a41/pytest-cppython-0.3.1.dev8.tar.gz
+[2023-04-20 16:27:29] INFO root fetch - processPackages [rudi-node-read]: Downloading https://files.pythonhosted.org/packages/ab/77/b3940b62eee0c97d18ce50a274bb74b48034610ab35a5587c8845ac19067/rudi-node-read-0.1.2.tar.gz
+[2023-04-20 16:27:29] INFO root fetch - processPackages [spdx-tools]: Downloading https://files.pythonhosted.org/packages/24/db/8c895665aeb0bcfa83b82a055bf61a6dc7cc0b55d867e9675adfa4c70969/spdx-tools-0.7.1rc1.tar.gz
+[2023-04-20 16:27:29] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/58/40/a775ffda5d16f4fbab37ee9184852d0b9f96e7d7b19db541f8a51082509e/ibm_watson_machine_learning-1.0.96.tar.gz
+[2023-04-20 16:27:29] INFO root fetch - processPackages [enot-autodl]: Downloading https://files.pythonhosted.org/packages/7e/b0/aa9adcc0a75d3bb696035b78987e80eac6a613ec0d446f3096f7930ecdf8/enot_autodl-3.2.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-20 16:27:29] INFO root fetch - processPackages [python-project-structure]: executing diffoscope
+[2023-04-20 16:27:29] INFO root fetch - processPackages [python-project-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-project-structure-0.8.9b0.tar.gz tmp/python-project-structure-0.8.9b7.tar.gz --markdown 20230420/p/python-project-structure/0.8.9b0-0.8.9b7/diff.md --exclude *.pyd
+[2023-04-20 16:27:29] INFO root fetch - processPackages [soakdb3]: Downloading https://files.pythonhosted.org/packages/af/54/30ea627533f607e5293b9fbb804d2c6b5a7cc9f2f72d02db69b7898503e2/soakdb3-1.1.1.tar.gz
+[2023-04-20 16:27:29] INFO root fetch - processPackages [spdx-tools]: Downloading https://files.pythonhosted.org/packages/88/f1/4ecfab2a950e9e3d892927048ee9ebd5db7c55178f4ffa94ede21cc9c667/spdx-tools-0.8.0a1.tar.gz
+[2023-04-20 16:27:29] INFO root fetch - processPackages [python-blockbee-checkout]: Downloading https://files.pythonhosted.org/packages/48/e6/c086f3f2b7f803a7d03d18b530976835998fcc05446254fdbaa8b86c3256/python-blockbee-checkout-1.0.1.tar.gz
+[2023-04-20 16:27:29] INFO root fetch - processPackages [rudi-node-read]: Downloading https://files.pythonhosted.org/packages/7c/01/a0bc30afb154b4957e989f0df63ef746325f65ff19a5fc7fdbc0d9085ed5/rudi-node-read-0.1.3.tar.gz
+[2023-04-20 16:27:29] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-20 16:27:29] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230420/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-20 16:27:29] INFO root fetch - processPackages [pytest-cppython]: Downloading https://files.pythonhosted.org/packages/cf/01/6ca8358ce49bf463d02521876e1d436f3a17725da1ae95d114d8521a59a4/pytest-cppython-0.3.1.dev9.tar.gz
+[2023-04-20 16:27:29] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-20 16:27:29] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230420/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-20 16:27:29] INFO root fetch - processPackages [ibm-watson-machine-learning]: Downloading https://files.pythonhosted.org/packages/48/45/3f32e9a705a7e6bf8b19591a86cc7099b54ca88fcf8660798dff04d4e6c2/ibm_watson_machine_learning-1.0.99.tar.gz
+[2023-04-20 16:27:29] INFO root fetch - processPackages [spdx-tools]: executing diffoscope
+[2023-04-20 16:27:29] INFO root fetch - processPackages [spdx-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdx-tools-0.7.1rc1.tar.gz tmp/spdx-tools-0.8.0a1.tar.gz --markdown 20230420/s/spdx-tools/0.7.1rc1-0.8.0a1/diff.md --exclude *.pyd
+[2023-04-20 16:27:29] INFO root fetch - processPackages [python-blockbee-checkout]: executing diffoscope
+[2023-04-20 16:27:29] INFO root fetch - processPackages [python-blockbee-checkout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-blockbee-checkout-1.0.0.tar.gz tmp/python-blockbee-checkout-1.0.1.tar.gz --markdown 20230420/p/python-blockbee-checkout/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-20 16:27:29] INFO root fetch - processPackages [rudi-node-read]: executing diffoscope
+[2023-04-20 16:27:29] INFO root fetch - processPackages [rudi-node-read]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudi-node-read-0.1.2.tar.gz tmp/rudi-node-read-0.1.3.tar.gz --markdown 20230420/r/rudi-node-read/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 16:27:29] INFO root fetch - processPackages [pytest-cppython]: executing diffoscope
+[2023-04-20 16:27:29] INFO root fetch - processPackages [pytest-cppython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-cppython-0.3.1.dev8.tar.gz tmp/pytest-cppython-0.3.1.dev9.tar.gz --markdown 20230420/p/pytest-cppython/0.3.1.dev8-0.3.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 16:27:29] INFO root fetch - processPackages [soakdb3]: executing diffoscope
+[2023-04-20 16:27:29] INFO root fetch - processPackages [soakdb3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soakdb3-1.1.0.tar.gz tmp/soakdb3-1.1.1.tar.gz --markdown 20230420/s/soakdb3/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-20 16:27:29] INFO root fetch - processPackages [ibm-watson-machine-learning]: executing diffoscope
+[2023-04-20 16:27:29] INFO root fetch - processPackages [ibm-watson-machine-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watson_machine_learning-1.0.96.tar.gz tmp/ibm_watson_machine_learning-1.0.99.tar.gz --markdown 20230420/i/ibm-watson-machine-learning/1.0.96-1.0.99/diff.md --exclude *.pyd
+[2023-04-20 16:27:30] INFO root fetch - processPackages [enot-autodl]: Downloading https://files.pythonhosted.org/packages/01/3f/bab016e7e2bc9b544baed56a66094d9dd7769a3d88f7b8fe70f15cb5cf1c/enot_autodl-3.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-20 16:27:30] WARNING root fetch - processPackages [enot-autodl]: Skipping package: exceeds size limit 10629259>=10485760
+[2023-04-20 16:27:30] INFO root fetch - processPackages [enot-autodl]: Start processing: PySulfSat
+[2023-04-20 16:27:30] INFO root fetch - main [MainThread]: End processing [enot-autodl] error
+[2023-04-20 16:27:30] INFO root fetch - processPackages [PySulfSat]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 16:27:30] INFO root fetch - processPackages [PySulfSat]: Downloading https://files.pythonhosted.org/packages/39/b0/1fdb0e5bb9062e7ee68c3b6491703fc0666e6b0d01d48eb8c7ebafbb1c65/PySulfSat-0.0.8.tar.gz
+[2023-04-20 16:27:30] INFO root fetch - processPackages [spanishconjugator]: Start processing: Nimbus-Splash
+[2023-04-20 16:27:30] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-20 16:27:30] INFO root fetch - processPackages [Nimbus-Splash]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-20 16:27:31] INFO root fetch - processPackages [Nimbus-Splash]: executing diffoscope
+[2023-04-20 16:27:31] INFO root fetch - processPackages [Nimbus-Splash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nimbus Splash-0.9.2.tar.gz tmp/Nimbus Splash-0.9.3.tar.gz --markdown 20230420/N/Nimbus-Splash/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-20 16:27:31] INFO root fetch - processPackages [python-blockbee-checkout]: Start processing: cppython
+[2023-04-20 16:27:31] INFO root fetch - main [MainThread]: End processing [python-blockbee-checkout]: success
+[2023-04-20 16:27:31] INFO root fetch - processPackages [cppython]: New version: [0.7.1.dev9] Old Version: [0.7.1.dev8]
+[2023-04-20 16:27:31] INFO root fetch - processPackages [spanishconjugator]: Start processing: chiapos
+[2023-04-20 16:27:31] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-20 16:27:31] INFO root fetch - processPackages [chiapos]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 16:27:31] INFO root fetch - processPackages [pytest-cppython]: Start processing: trackintel
+[2023-04-20 16:27:31] INFO root fetch - main [MainThread]: End processing [pytest-cppython]: success
+[2023-04-20 16:27:31] INFO root fetch - processPackages [PySulfSat]: Downloading https://files.pythonhosted.org/packages/ae/aa/a8802f46dd9374b623d5da77b9b29bb59de2846d74f1f58a6219c5be4da0/PySulfSat-0.0.9.tar.gz
+[2023-04-20 16:27:31] INFO root fetch - processPackages [trackintel]: New version: [1.2.1] Old Version: [1.1.9]
+[2023-04-20 16:27:31] INFO root fetch - processPackages [cppython]: Downloading https://files.pythonhosted.org/packages/dd/92/70855730eed481705af05ad34a61e507f34a03e1fe32ea398e50a0c52758/cppython-0.7.1.dev8.tar.gz
+[2023-04-20 16:27:31] INFO root fetch - processPackages [rudi-node-read]: Start processing: siibra
+[2023-04-20 16:27:31] INFO root fetch - main [MainThread]: End processing [rudi-node-read]: success
+[2023-04-20 16:27:31] INFO root fetch - processPackages [siibra]: New version: [0.4a35] Old Version: [0.4a33]
+[2023-04-20 16:27:31] INFO root fetch - processPackages [PySulfSat]: executing diffoscope
+[2023-04-20 16:27:31] INFO root fetch - processPackages [PySulfSat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySulfSat-0.0.8.tar.gz tmp/PySulfSat-0.0.9.tar.gz --markdown 20230420/P/PySulfSat/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 16:27:31] INFO root fetch - processPackages [trackintel]: Downloading https://files.pythonhosted.org/packages/48/82/ac617e09b8dbdbb0ae74033489ff5d6b7def53fb238a5910fcf6d2c94c64/trackintel-1.1.9.tar.gz
+[2023-04-20 16:27:31] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/b7/55/d2568e47a0943e9e5a12cf29d26f469f70291af3b6d1d16be86d5e4991f7/siibra-0.4a33.tar.gz
+[2023-04-20 16:27:31] INFO root fetch - processPackages [chiapos]: executing diffoscope
+[2023-04-20 16:27:31] INFO root fetch - processPackages [chiapos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiapos-1.0.8.tar.gz tmp/chiapos-1.0.9.tar.gz --markdown 20230420/c/chiapos/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 16:27:31] INFO root fetch - processPackages [cppython]: Downloading https://files.pythonhosted.org/packages/86/cb/4f13be0fca04a0e9ee271400651fa7743e3bd4632cb136240833962d793a/cppython-0.7.1.dev9.tar.gz
+[2023-04-20 16:27:31] INFO root fetch - processPackages [python-project-structure]: Start processing: api-console-solver
+[2023-04-20 16:27:31] INFO root fetch - main [MainThread]: End processing [python-project-structure]: success
+[2023-04-20 16:27:31] INFO root fetch - processPackages [api-console-solver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 16:27:31] INFO root fetch - processPackages [cppython]: executing diffoscope
+[2023-04-20 16:27:31] INFO root fetch - processPackages [cppython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cppython-0.7.1.dev8.tar.gz tmp/cppython-0.7.1.dev9.tar.gz --markdown 20230420/c/cppython/0.7.1.dev8-0.7.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 16:27:31] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/f6/e0/6bcc26203b5cad3188fe458d3cb6720d7c2121c31a05d8c3ec30f7fc4e33/siibra-0.4a35.tar.gz
+[2023-04-20 16:27:31] INFO root fetch - processPackages [api-console-solver]: Downloading https://files.pythonhosted.org/packages/7f/f3/0a4c5813a36bb2e1acf1e866615e2164ca10440de6b8d9b56be1d8ee8243/api-console-solver-0.0.8.tar.gz
+[2023-04-20 16:27:32] INFO root fetch - processPackages [trackintel]: Downloading https://files.pythonhosted.org/packages/33/5a/1d22cf97fcc43fff33bdfd97938fc9547a1b7edce3239103a494149f2ebf/trackintel-1.2.1.tar.gz
+[2023-04-20 16:27:32] INFO root fetch - processPackages [Nimbus-Splash]: Start processing: ex2mcmc
+[2023-04-20 16:27:32] INFO root fetch - main [MainThread]: End processing [Nimbus-Splash]: success
+[2023-04-20 16:27:32] WARNING root fetch - processPackages [ex2mcmc]: Skipping, unable to determine old version
+[2023-04-20 16:27:32] INFO root fetch - processPackages [ex2mcmc]: Start processing: cppython-pdm
+[2023-04-20 16:27:32] INFO root fetch - main [MainThread]: End processing [ex2mcmc] error
+[2023-04-20 16:27:32] INFO root fetch - processPackages [cppython-pdm]: New version: [0.3.1.dev9] Old Version: [0.3.1.dev8]
+[2023-04-20 16:27:32] INFO root fetch - processPackages [trackintel]: executing diffoscope
+[2023-04-20 16:27:32] INFO root fetch - processPackages [trackintel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trackintel-1.1.9.tar.gz tmp/trackintel-1.2.1.tar.gz --markdown 20230420/t/trackintel/1.1.9-1.2.1/diff.md --exclude *.pyd
+[2023-04-20 16:27:32] INFO root fetch - processPackages [api-console-solver]: Downloading https://files.pythonhosted.org/packages/a7/0c/1229a4df607c10fee01de2f6b8bfbe449ecc5a30e02413f67ed7c319e321/api-console-solver-0.0.9.tar.gz
+[2023-04-20 16:27:32] INFO root fetch - processPackages [siibra]: executing diffoscope
+[2023-04-20 16:27:32] INFO root fetch - processPackages [siibra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siibra-0.4a33.tar.gz tmp/siibra-0.4a35.tar.gz --markdown 20230420/s/siibra/0.4a33-0.4a35/diff.md --exclude *.pyd
+[2023-04-20 16:27:32] INFO root fetch - processPackages [cppython-pdm]: Downloading https://files.pythonhosted.org/packages/77/f2/9b07a66e38c083de7106e12328c3e6a81a9995aab2a27f520eeb33740745/cppython-pdm-0.3.1.dev8.tar.gz
+[2023-04-20 16:27:32] INFO root fetch - processPackages [soakdb3]: Start processing: embedbase
+[2023-04-20 16:27:32] INFO root fetch - main [MainThread]: End processing [soakdb3]: success
+[2023-04-20 16:27:32] INFO root fetch - processPackages [api-console-solver]: executing diffoscope
+[2023-04-20 16:27:32] INFO root fetch - processPackages [api-console-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-console-solver-0.0.8.tar.gz tmp/api-console-solver-0.0.9.tar.gz --markdown 20230420/a/api-console-solver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 16:27:32] INFO root fetch - processPackages [embedbase]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-20 16:27:32] INFO root fetch - processPackages [embedbase]: Downloading https://files.pythonhosted.org/packages/f6/5b/e3b77c95544b02b0e33f7d8cf084734cb52e10711f8820917b3eefc70e76/embedbase-1.0.4.tar.gz
+[2023-04-20 16:27:32] INFO root fetch - processPackages [PySulfSat]: Start processing: InCli
+[2023-04-20 16:27:32] INFO root fetch - main [MainThread]: End processing [PySulfSat]: success
+[2023-04-20 16:27:32] INFO root fetch - processPackages [InCli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 16:27:32] INFO root fetch - processPackages [cppython-pdm]: Downloading https://files.pythonhosted.org/packages/a8/87/fe46e91e171630150f7f5a348dcc9a982d229e0ef4898bf43729bb2ca3f3/cppython-pdm-0.3.1.dev9.tar.gz
+[2023-04-20 16:27:32] INFO root fetch - processPackages [embedbase]: executing diffoscope
+[2023-04-20 16:27:32] INFO root fetch - processPackages [embedbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedbase-1.0.3.tar.gz tmp/embedbase-1.0.4.tar.gz --markdown 20230420/e/embedbase/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-20 16:27:32] INFO root fetch - processPackages [InCli]: executing diffoscope
+[2023-04-20 16:27:32] INFO root fetch - processPackages [InCli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InCli-0.0.8.tar.gz tmp/InCli-0.0.9.tar.gz --markdown 20230420/I/InCli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 16:27:32] INFO root fetch - processPackages [cppython]: Start processing: CLIbrary
+[2023-04-20 16:27:32] INFO root fetch - main [MainThread]: End processing [cppython]: success
+[2023-04-20 16:27:32] INFO root fetch - processPackages [CLIbrary]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-04-20 16:27:33] INFO root fetch - processPackages [cppython-pdm]: executing diffoscope
+[2023-04-20 16:27:33] INFO root fetch - processPackages [cppython-pdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cppython-pdm-0.3.1.dev8.tar.gz tmp/cppython-pdm-0.3.1.dev9.tar.gz --markdown 20230420/c/cppython-pdm/0.3.1.dev8-0.3.1.dev9/diff.md --exclude *.pyd
+[2023-04-20 16:27:33] INFO root fetch - processPackages [CLIbrary]: Downloading https://files.pythonhosted.org/packages/93/24/36e317024345c3c347cd5600fcb17d05e5283166141af67ffc1885a6742e/clibrary-1.6.2.tar.gz
+[2023-04-20 16:27:33] INFO root fetch - processPackages [CLIbrary]: executing diffoscope
+[2023-04-20 16:27:33] INFO root fetch - processPackages [CLIbrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clibrary-1.6.2.tar.gz tmp/clibrary-1.7.0.tar.gz --markdown 20230420/C/CLIbrary/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-04-20 16:27:33] INFO root fetch - processPackages [api-console-solver]: Start processing: scipion-em-reliontomo
+[2023-04-20 16:27:33] INFO root fetch - main [MainThread]: End processing [api-console-solver]: success
+[2023-04-20 16:27:33] INFO root fetch - processPackages [scipion-em-reliontomo]: New version: [3.1.4] Old Version: [3.1.3]
+[2023-04-20 16:27:34] INFO root fetch - processPackages [scipion-em-reliontomo]: Downloading https://files.pythonhosted.org/packages/c6/1f/7ff81c77d092704e28a508d28ead808f872a4e2ac0a14231f34ca989d8b9/scipion-em-reliontomo-3.1.3.tar.gz
+[2023-04-20 16:27:34] INFO root fetch - main [MainThread]: End processing [embedbase]: success
+[2023-04-20 16:27:34] INFO root fetch - main [MainThread]: End processing [chiapos]: success
+[2023-04-20 16:27:34] INFO root fetch - main [MainThread]: End processing [InCli]: success
+[2023-04-20 16:27:34] INFO root fetch - processPackages [scipion-em-reliontomo]: Downloading https://files.pythonhosted.org/packages/95/92/fac551d21c31e48c20a07ed02ecf3422f48f6c3170d00e3d0696d5f45443/scipion-em-reliontomo-3.1.4.tar.gz
+[2023-04-20 16:27:34] INFO root fetch - main [MainThread]: End processing [trackintel]: success
+[2023-04-20 16:27:34] INFO root fetch - main [MainThread]: End processing [cppython-pdm]: success
+[2023-04-20 16:27:34] INFO root fetch - main [MainThread]: End processing [CLIbrary]: success
+[2023-04-20 16:27:34] INFO root fetch - processPackages [scipion-em-reliontomo]: executing diffoscope
+[2023-04-20 16:27:34] INFO root fetch - processPackages [scipion-em-reliontomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-reliontomo-3.1.3.tar.gz tmp/scipion-em-reliontomo-3.1.4.tar.gz --markdown 20230420/s/scipion-em-reliontomo/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2023-04-20 16:27:34] INFO root fetch - main [MainThread]: End processing [siibra]: success
+[2023-04-20 16:27:35] INFO root fetch - main [MainThread]: End processing [spdx-tools]: success
+[2023-04-20 16:27:36] INFO root fetch - main [MainThread]: End processing [scipion-em-reliontomo]: success
+[2023-04-20 16:27:42] INFO root fetch - main [MainThread]: End processing [ibm-watson-machine-learning]: success
+[2023-04-20 16:27:42] INFO root fetch - main [MainThread]: Store serial: [17788302]
