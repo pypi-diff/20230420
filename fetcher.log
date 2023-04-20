@@ -16711,3 +16711,80 @@ EOFError: EOF read where object expected
 [2023-04-20 14:59:08] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
 [2023-04-20 14:59:09] INFO root fetch - main [MainThread]: End processing [bamt]: success
 [2023-04-20 14:59:09] INFO root fetch - main [MainThread]: Store serial: [17787166]
+[2023-04-20 15:04:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17787166]
+[2023-04-20 15:04:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-20 15:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: featurewiz
+[2023-04-20 15:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bibx
+[2023-04-20 15:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oslili-cli
+[2023-04-20 15:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2023-04-20 15:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: driveup
+[2023-04-20 15:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oslili-cli
+[2023-04-20 15:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: empiric-network
+[2023-04-20 15:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bwc-bsconf
+[2023-04-20 15:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cfscanner
+[2023-04-20 15:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oslili-cli
+[2023-04-20 15:04:19] INFO root fetch - processPackages [driveup]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-20 15:04:19] INFO root fetch - processPackages [bibx]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: New version: [0.6] Old Version: [0.5]
+[2023-04-20 15:04:19] INFO root fetch - processPackages [cfscanner]: New version: [1.3.9] Old Version: [1.3.10]
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: New version: [0.6] Old Version: [0.5]
+[2023-04-20 15:04:19] WARNING root fetch - processPackages [bwc-bsconf]: Skipping, unable to determine old version
+[2023-04-20 15:04:19] INFO root fetch - processPackages [bwc-bsconf]: Start processing: phyper
+[2023-04-20 15:04:19] INFO root fetch - main [MainThread]: End processing [bwc-bsconf] error
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: New version: [0.6] Old Version: [0.5]
+[2023-04-20 15:04:19] INFO root fetch - processPackages [empiric-network]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-20 15:04:19] INFO root fetch - processPackages [featurewiz]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-20 15:04:19] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-20 15:04:19] INFO root fetch - processPackages [phyper]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-20 15:04:19] INFO root fetch - processPackages [empiric-network]: executing diffoscope
+[2023-04-20 15:04:19] INFO root fetch - processPackages [empiric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empiric_network-1.4.8.tar.gz tmp/empiric_network-1.4.9.tar.gz --markdown 20230420/e/empiric-network/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-20 15:04:19] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-20 15:04:19] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230420/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-20 15:04:19] INFO root fetch - processPackages [bibx]: Downloading https://files.pythonhosted.org/packages/61/59/354a0208ca07bdaf32acebee6ad6abf4aa9d3b99ff12a06b6cfdab34e1d9/bibx-0.0.1a0.tar.gz
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: Downloading https://files.pythonhosted.org/packages/78/89/7a0ca44cd324703c3e34fa479a3771b47417920c49a3fa02a624716362c7/oslili-cli-0.5.tar.gz
+[2023-04-20 15:04:19] INFO root fetch - processPackages [cfscanner]: Downloading https://files.pythonhosted.org/packages/10/4f/321b835ac22d8e1006b9992d307df1dfad53cdfe577428c0666276dacaf3/cfscanner-1.3.10.tar.gz
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: Downloading https://files.pythonhosted.org/packages/78/89/7a0ca44cd324703c3e34fa479a3771b47417920c49a3fa02a624716362c7/oslili-cli-0.5.tar.gz
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: Downloading https://files.pythonhosted.org/packages/78/89/7a0ca44cd324703c3e34fa479a3771b47417920c49a3fa02a624716362c7/oslili-cli-0.5.tar.gz
+[2023-04-20 15:04:19] INFO root fetch - processPackages [phyper]: Downloading https://files.pythonhosted.org/packages/c0/e4/5f030b2b3f3b3a3bebddf21375d0cab6a54d83ad5b52c0a4ecdf2a66191f/phyper-1.1.2-py3-none-any.whl
+[2023-04-20 15:04:19] INFO root fetch - processPackages [featurewiz]: Downloading https://files.pythonhosted.org/packages/a3/37/8bf60ab38cc03571208d98ec7148246b9e62aa0b2b4c44160b53d23eb664/featurewiz-0.2.6.tar.gz
+[2023-04-20 15:04:19] INFO root fetch - processPackages [driveup]: Downloading https://files.pythonhosted.org/packages/b2/a2/4ddbca95aea3178b4caaa8b2f5ab239a0e78af5b6a9a03a88443941f6789/driveup-0.2.2.tar.gz
+[2023-04-20 15:04:19] INFO root fetch - processPackages [phyper]: executing diffoscope
+[2023-04-20 15:04:19] INFO root fetch - processPackages [phyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phyper-1.1.1-py3-none-any.whl.zip tmp/phyper-1.1.2-py3-none-any.whl.zip --markdown 20230420/p/phyper/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-20 15:04:19] INFO root fetch - processPackages [bibx]: Downloading https://files.pythonhosted.org/packages/7d/37/757a1085c26386407277e62ec4fb3370c9d7b4511dbb585d54ae0a659c56/bibx-0.0.1a1.tar.gz
+[2023-04-20 15:04:19] INFO root fetch - processPackages [featurewiz]: Downloading https://files.pythonhosted.org/packages/9f/ce/51f1900906ef96875c313be17fb64327ca3b88e0877755745ff86fd10a81/featurewiz-0.2.7.tar.gz
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: Downloading https://files.pythonhosted.org/packages/2d/c0/0f16b1a48a350cb04797d9343daafa7ff5bff0c966985ac9f57d83c990fa/oslili-cli-0.6.tar.gz
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: Downloading https://files.pythonhosted.org/packages/2d/c0/0f16b1a48a350cb04797d9343daafa7ff5bff0c966985ac9f57d83c990fa/oslili-cli-0.6.tar.gz
+[2023-04-20 15:04:19] INFO root fetch - processPackages [driveup]: executing diffoscope
+[2023-04-20 15:04:19] INFO root fetch - processPackages [driveup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/driveup-0.2.1.tar.gz tmp/driveup-0.2.2.tar.gz --markdown 20230420/d/driveup/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: Downloading https://files.pythonhosted.org/packages/2d/c0/0f16b1a48a350cb04797d9343daafa7ff5bff0c966985ac9f57d83c990fa/oslili-cli-0.6.tar.gz
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: executing diffoscope
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslili-cli-0.5.tar.gz tmp/oslili-cli-0.6.tar.gz --markdown 20230420/o/oslili-cli/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: executing diffoscope
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: executing diffoscope
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslili-cli-0.5.tar.gz tmp/oslili-cli-0.6.tar.gz --markdown 20230420/o/oslili-cli/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-20 15:04:19] INFO root fetch - processPackages [featurewiz]: executing diffoscope
+[2023-04-20 15:04:19] INFO root fetch - processPackages [oslili-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslili-cli-0.5.tar.gz tmp/oslili-cli-0.6.tar.gz --markdown 20230420/o/oslili-cli/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-20 15:04:19] INFO root fetch - processPackages [featurewiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurewiz-0.2.6.tar.gz tmp/featurewiz-0.2.7.tar.gz --markdown 20230420/f/featurewiz/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-20 15:04:20] INFO root fetch - processPackages [cfscanner]: Downloading https://files.pythonhosted.org/packages/0c/59/028c8bc01d9a214995c61f68ad59660d8bfa0a59f2879517e947321373c5/cfscanner-1.3.9.tar.gz
+[2023-04-20 15:04:20] INFO root fetch - processPackages [cfscanner]: executing diffoscope
+[2023-04-20 15:04:20] INFO root fetch - processPackages [cfscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfscanner-1.3.10.tar.gz tmp/cfscanner-1.3.9.tar.gz --markdown 20230420/c/cfscanner/1.3.10-1.3.9/diff.md --exclude *.pyd
+[2023-04-20 15:04:20] INFO root fetch - processPackages [bibx]: executing diffoscope
+[2023-04-20 15:04:20] INFO root fetch - processPackages [bibx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibx-0.0.1a0.tar.gz tmp/bibx-0.0.1a1.tar.gz --markdown 20230420/b/bibx/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-04-20 15:04:20] INFO root fetch - processPackages [driveup]: Start processing: python-whitebit-sdk
+[2023-04-20 15:04:20] INFO root fetch - main [MainThread]: End processing [driveup]: success
+[2023-04-20 15:04:21] INFO root fetch - processPackages [python-whitebit-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-20 15:04:21] INFO root fetch - main [MainThread]: End processing [phyper]: success
+[2023-04-20 15:04:21] INFO root fetch - main [MainThread]: End processing [oslili-cli]: success
+[2023-04-20 15:04:21] INFO root fetch - main [MainThread]: End processing [oslili-cli]: success
+[2023-04-20 15:04:21] INFO root fetch - main [MainThread]: End processing [oslili-cli]: success
+[2023-04-20 15:04:21] INFO root fetch - processPackages [python-whitebit-sdk]: Downloading https://files.pythonhosted.org/packages/6a/bd/2b4992bc2ea3e35f95140092fe7d157ed7ea747a5a9acb69fa1d1fa96379/python-whitebit-sdk-1.0.5.tar.gz
+[2023-04-20 15:04:21] INFO root fetch - processPackages [python-whitebit-sdk]: executing diffoscope
+[2023-04-20 15:04:21] INFO root fetch - processPackages [python-whitebit-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-whitebit-sdk-1.0.4.tar.gz tmp/python-whitebit-sdk-1.0.5.tar.gz --markdown 20230420/p/python-whitebit-sdk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-20 15:04:22] INFO root fetch - main [MainThread]: End processing [bibx]: success
+[2023-04-20 15:04:22] INFO root fetch - main [MainThread]: End processing [empiric-network]: success
+[2023-04-20 15:04:22] INFO root fetch - main [MainThread]: End processing [python-whitebit-sdk]: success
+[2023-04-20 15:04:22] INFO root fetch - main [MainThread]: End processing [featurewiz]: success
+[2023-04-20 15:04:25] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-20 15:07:20] ERROR root fetch - processPackages [cfscanner]: Timeout during execution of pkgdiff
+[2023-04-20 15:07:20] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-04-20 15:07:20] INFO root fetch - main [MainThread]: Store serial: [17787205]
