@@ -20023,3 +20023,136 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 17:27:02] INFO root fetch - main [MainThread]: End processing [volcengine]: success
 [2023-04-20 17:27:07] INFO root fetch - main [MainThread]: End processing [generand]: success
 [2023-04-20 17:27:07] INFO root fetch - main [MainThread]: Store serial: [17789164]
+[2023-04-20 17:32:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17789164]
+[2023-04-20 17:32:17] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynndescent
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freemocap
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gridtools-cpp
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spacebench
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: configconfig
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esprepomanager
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hcai-nova-server-nightly
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hcai-nova-server-nightly
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: espaco-exclusivo-package
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ncbimetadata
+[2023-04-20 17:32:17] INFO root fetch - processPackages [freemocap]: New version: [1.0.9rc0] Old Version: [1.0.8rc0]
+[2023-04-20 17:32:17] INFO root fetch - processPackages [gridtools-cpp]: New version: [2.3.0] Old Version: [2.2.3]
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ncbimetadata]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 17:32:17] INFO root fetch - processPackages [esprepomanager]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-20 17:32:17] WARNING root fetch - processPackages [spacebench]: Skipping, unable to determine old version
+[2023-04-20 17:32:17] INFO root fetch - processPackages [configconfig]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-20 17:32:17] INFO root fetch - processPackages [spacebench]: Start processing: pylitterbot
+[2023-04-20 17:32:17] INFO root fetch - processPackages [pynndescent]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-20 17:32:17] INFO root fetch - main [MainThread]: End processing [spacebench] error
+[2023-04-20 17:32:17] INFO root fetch - processPackages [espaco-exclusivo-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 17:32:17] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.3.dev202304201520] Old Version: [0.1.3.dev202304201316]
+[2023-04-20 17:32:17] INFO root fetch - processPackages [pylitterbot]: New version: [2023.4.0] Old Version: [2023.1.2]
+[2023-04-20 17:32:17] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.3.dev202304201520] Old Version: [0.1.3.dev202304201316]
+[2023-04-20 17:32:17] INFO root fetch - processPackages [gridtools-cpp]: Downloading https://files.pythonhosted.org/packages/77/90/7dc642d99bc1a6acdc6f97a57b8e968b8055d6cb0b66f9b8fe6ef082e4d2/gridtools-cpp-2.2.3.tar.gz
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ncbimetadata]: Downloading https://files.pythonhosted.org/packages/52/ed/4338415eb9c86d3359275c44506dff95656a7c721f40275784cc274ae999/ncbimetadata-0.1.1.tar.gz
+[2023-04-20 17:32:17] INFO root fetch - processPackages [configconfig]: Downloading https://files.pythonhosted.org/packages/84/60/dfa5e244536e46bea0ab5600c0164b9ff2f1a9867e5ac928b797e1c4ca3e/configconfig-0.6.1.tar.gz
+[2023-04-20 17:32:17] INFO root fetch - processPackages [espaco-exclusivo-package]: Downloading https://files.pythonhosted.org/packages/8b/32/53037070cd534af896d5e69b9c7e5480c791764898c8bc874bb8b0dd3d5e/espaco_exclusivo_package-0.1.8.tar.gz
+[2023-04-20 17:32:17] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/b1/27/772550173cacd7bb3de44129f81c61d0bf333cf879642041418407c06373/hcai-nova-server-nightly-0.1.3.dev202304201520.tar.gz
+[2023-04-20 17:32:17] INFO root fetch - processPackages [freemocap]: Downloading https://files.pythonhosted.org/packages/b3/49/4104d03b0a455af007427582d5807a20c85b22a4f7fabd53f274b6aa0630/freemocap-1.0.9rc0.tar.gz
+[2023-04-20 17:32:17] INFO root fetch - processPackages [pylitterbot]: Downloading https://files.pythonhosted.org/packages/85/b4/a8afd951934ab13b7b65b0d13f1eda354cde7ef0fc5fe2847eebdaf48c87/pylitterbot-2023.1.2.tar.gz
+[2023-04-20 17:32:17] INFO root fetch - processPackages [esprepomanager]: Downloading https://files.pythonhosted.org/packages/5c/0c/a0e1d450565a0533fe44759d8cb0de8a312187c96fe014c30ee85dcc3eca/esprepomanager-1.0.0.tar.gz
+[2023-04-20 17:32:17] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/b1/27/772550173cacd7bb3de44129f81c61d0bf333cf879642041418407c06373/hcai-nova-server-nightly-0.1.3.dev202304201520.tar.gz
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ncbimetadata]: executing diffoscope
+[2023-04-20 17:32:17] INFO root fetch - processPackages [ncbimetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbimetadata-0.1.0.tar.gz tmp/ncbimetadata-0.1.1.tar.gz --markdown 20230420/n/ncbimetadata/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 17:32:17] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-04-20 17:32:17] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.3.dev202304201316.tar.gz tmp/hcai-nova-server-nightly-0.1.3.dev202304201520.tar.gz --markdown 20230420/h/hcai-nova-server-nightly/0.1.3.dev202304201316-0.1.3.dev202304201520/diff.md --exclude *.pyd
+[2023-04-20 17:32:17] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-04-20 17:32:17] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.3.dev202304201316.tar.gz tmp/hcai-nova-server-nightly-0.1.3.dev202304201520.tar.gz --markdown 20230420/h/hcai-nova-server-nightly/0.1.3.dev202304201316-0.1.3.dev202304201520/diff.md --exclude *.pyd
+[2023-04-20 17:32:17] INFO root fetch - processPackages [freemocap]: executing diffoscope
+[2023-04-20 17:32:17] INFO root fetch - processPackages [freemocap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freemocap-1.0.8rc0.tar.gz tmp/freemocap-1.0.9rc0.tar.gz --markdown 20230420/f/freemocap/1.0.8rc0-1.0.9rc0/diff.md --exclude *.pyd
+[2023-04-20 17:32:17] INFO root fetch - processPackages [pynndescent]: executing diffoscope
+[2023-04-20 17:32:17] INFO root fetch - processPackages [pynndescent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynndescent-0.5.8.tar.gz tmp/pynndescent-0.5.9.tar.gz --markdown 20230420/p/pynndescent/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-20 17:32:17] INFO root fetch - processPackages [gridtools-cpp]: Downloading https://files.pythonhosted.org/packages/38/b8/f7544a768153a1168cff0d58352f53facdad8ff2bc2b1d817dd0e6f00276/gridtools_cpp-2.3.0-py3-none-any.whl
+[2023-04-20 17:32:17] INFO root fetch - processPackages [configconfig]: Downloading https://files.pythonhosted.org/packages/05/a4/8461e47be3ae6c86d0b4cb41143124fe23b46e372471ed6021a89b99de56/configconfig-0.6.2.tar.gz
+[2023-04-20 17:32:17] INFO root fetch - processPackages [pylitterbot]: Downloading https://files.pythonhosted.org/packages/f2/b1/de0c16e430ee9755f9bff522585b0218acc19034efd176310a7abf4a25d9/pylitterbot-2023.4.0.tar.gz
+[2023-04-20 17:32:17] INFO root fetch - processPackages [esprepomanager]: Downloading https://files.pythonhosted.org/packages/50/fa/581ffdbb3c6b26599e3beefd0241762035165824f60e5b6d2b982da2d5a3/esprepomanager-1.1.0.tar.gz
+[2023-04-20 17:32:17] INFO root fetch - processPackages [configconfig]: executing diffoscope
+[2023-04-20 17:32:17] INFO root fetch - processPackages [configconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configconfig-0.6.1.tar.gz tmp/configconfig-0.6.2.tar.gz --markdown 20230420/c/configconfig/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-20 17:32:17] INFO root fetch - processPackages [pylitterbot]: executing diffoscope
+[2023-04-20 17:32:17] INFO root fetch - processPackages [pylitterbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylitterbot-2023.1.2.tar.gz tmp/pylitterbot-2023.4.0.tar.gz --markdown 20230420/p/pylitterbot/2023.1.2-2023.4.0/diff.md --exclude *.pyd
+[2023-04-20 17:32:17] INFO root fetch - processPackages [gridtools-cpp]: executing diffoscope
+[2023-04-20 17:32:17] INFO root fetch - processPackages [gridtools-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridtools-cpp-2.2.3.tar.gz tmp/gridtools_cpp-2.3.0-py3-none-any.whl.zip --markdown 20230420/g/gridtools-cpp/2.2.3-2.3.0/diff.md --exclude *.pyd
+[2023-04-20 17:32:17] INFO root fetch - processPackages [esprepomanager]: executing diffoscope
+[2023-04-20 17:32:17] INFO root fetch - processPackages [esprepomanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esprepomanager-1.0.0.tar.gz tmp/esprepomanager-1.1.0.tar.gz --markdown 20230420/e/esprepomanager/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-20 17:32:17] INFO root fetch - processPackages [espaco-exclusivo-package]: Downloading https://files.pythonhosted.org/packages/e3/fd/52452d064cec2e3002f91559bd68dfd1353f60185fc63dcb3a9923b9a3eb/espaco_exclusivo_package-0.1.9.tar.gz
+[2023-04-20 17:32:18] INFO root fetch - processPackages [espaco-exclusivo-package]: executing diffoscope
+[2023-04-20 17:32:18] INFO root fetch - processPackages [espaco-exclusivo-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espaco_exclusivo_package-0.1.8.tar.gz tmp/espaco_exclusivo_package-0.1.9.tar.gz --markdown 20230420/e/espaco-exclusivo-package/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 17:32:18] INFO root fetch - processPackages [ncbimetadata]: Start processing: suitesparse-graphblas
+[2023-04-20 17:32:18] INFO root fetch - main [MainThread]: End processing [ncbimetadata]: success
+[2023-04-20 17:32:19] INFO root fetch - processPackages [suitesparse-graphblas]: New version: [7.4.4.0] Old Version: [7.4.3.2]
+[2023-04-20 17:32:19] INFO root fetch - processPackages [suitesparse-graphblas]: Downloading https://files.pythonhosted.org/packages/77/da/6754b0811bedb6d79fc37bcdbe311e520e8cff0535bb6628e04f00323751/suitesparse-graphblas-7.4.3.2.tar.gz
+[2023-04-20 17:32:19] INFO root fetch - processPackages [configconfig]: Start processing: langchain-serve
+[2023-04-20 17:32:19] INFO root fetch - main [MainThread]: End processing [configconfig]: success
+[2023-04-20 17:32:19] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-04-20 17:32:19] INFO root fetch - processPackages [pynndescent]: Start processing: xia-engine-terraform
+[2023-04-20 17:32:19] INFO root fetch - main [MainThread]: End processing [pynndescent]: success
+[2023-04-20 17:32:19] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-20 17:32:19] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-20 17:32:19] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230420/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-20 17:32:19] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: graphkit-learn
+[2023-04-20 17:32:19] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-04-20 17:32:19] INFO root fetch - processPackages [suitesparse-graphblas]: Downloading https://files.pythonhosted.org/packages/28/35/3e39487f774ca1773296dcab42c67d99969b06ad5ec7212532276cc6533c/suitesparse-graphblas-7.4.4.0.tar.gz
+[2023-04-20 17:32:19] INFO root fetch - processPackages [graphkit-learn]: New version: [0.2b3] Old Version: [0.2b2]
+[2023-04-20 17:32:19] INFO root fetch - processPackages [graphkit-learn]: executing diffoscope
+[2023-04-20 17:32:19] INFO root fetch - processPackages [graphkit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphkit-learn-0.2b2.tar.gz tmp/graphkit-learn-0.2b3.tar.gz --markdown 20230420/g/graphkit-learn/0.2b2-0.2b3/diff.md --exclude *.pyd
+[2023-04-20 17:32:19] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-04-20 17:32:19] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.0.7-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230420/x/xia-engine-terraform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 17:32:19] INFO root fetch - processPackages [suitesparse-graphblas]: executing diffoscope
+[2023-04-20 17:32:19] INFO root fetch - processPackages [suitesparse-graphblas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suitesparse-graphblas-7.4.3.2.tar.gz tmp/suitesparse-graphblas-7.4.4.0.tar.gz --markdown 20230420/s/suitesparse-graphblas/7.4.3.2-7.4.4.0/diff.md --exclude *.pyd
+[2023-04-20 17:32:19] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: coptpy-stubs
+[2023-04-20 17:32:19] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-04-20 17:32:19] INFO root fetch - processPackages [pylitterbot]: Start processing: fragile
+[2023-04-20 17:32:19] INFO root fetch - main [MainThread]: End processing [pylitterbot]: success
+[2023-04-20 17:32:19] INFO root fetch - processPackages [esprepomanager]: Start processing: langchain
+[2023-04-20 17:32:19] INFO root fetch - main [MainThread]: End processing [esprepomanager]: success
+[2023-04-20 17:32:19] INFO root fetch - processPackages [gridtools-cpp]: Start processing: coptpy
+[2023-04-20 17:32:19] INFO root fetch - main [MainThread]: End processing [gridtools-cpp]: success
+[2023-04-20 17:32:19] INFO root fetch - processPackages [coptpy-stubs]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-20 17:32:19] INFO root fetch - processPackages [fragile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 17:32:19] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-04-20 17:32:19] INFO root fetch - processPackages [espaco-exclusivo-package]: Start processing: wasmtime
+[2023-04-20 17:32:19] INFO root fetch - main [MainThread]: End processing [espaco-exclusivo-package]: success
+[2023-04-20 17:32:20] INFO root fetch - processPackages [coptpy]: New version: [6.5.2] Old Version: [6.5.1]
+[2023-04-20 17:32:20] INFO root fetch - processPackages [coptpy-stubs]: Downloading https://files.pythonhosted.org/packages/60/fe/c7ffabd1040eab32a0ba60b9660156f52cbda5addf1bdb6176b73d8f389e/coptpy_stubs-1.1.0-py3-none-any.whl
+[2023-04-20 17:32:20] INFO root fetch - processPackages [wasmtime]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-04-20 17:32:20] INFO root fetch - processPackages [coptpy]: Downloading https://files.pythonhosted.org/packages/02/00/dde3e0b3ec5bb8c8e0d0e6f3f047e1ecfb5bd5fc7ef0a26bb1dde5277fa1/coptpy-6.5.1-cp39-cp39-win_amd64.whl
+[2023-04-20 17:32:20] INFO root fetch - processPackages [coptpy-stubs]: Downloading https://files.pythonhosted.org/packages/2f/eb/9a89153f4901cd80e76eb5b037878b0403f881f2ce265581ae323711e8dc/coptpy_stubs-1.1.1-py3-none-any.whl
+[2023-04-20 17:32:20] INFO root fetch - processPackages [wasmtime]: Downloading https://files.pythonhosted.org/packages/c8/a9/6b3c350d259979eb7b565c7138f46ec121d1bffcc644da475c80c79c3387/wasmtime-7.0.0-py3-none-win_amd64.whl
+[2023-04-20 17:32:20] INFO root fetch - processPackages [fragile]: executing diffoscope
+[2023-04-20 17:32:20] INFO root fetch - processPackages [fragile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fragile-0.0.8-py3-none-any.whl.zip tmp/fragile-0.0.9-py3-none-any.whl.zip --markdown 20230420/f/fragile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 17:32:20] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-04-20 17:32:20] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230420/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-04-20 17:32:20] INFO root fetch - processPackages [coptpy-stubs]: executing diffoscope
+[2023-04-20 17:32:20] INFO root fetch - processPackages [coptpy-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coptpy_stubs-1.1.0-py3-none-any.whl.zip tmp/coptpy_stubs-1.1.1-py3-none-any.whl.zip --markdown 20230420/c/coptpy-stubs/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-20 17:32:20] INFO root fetch - processPackages [langchain-serve]: Start processing: honeybee-radiance-postprocess
+[2023-04-20 17:32:20] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-20 17:32:20] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-04-20 17:32:20] INFO root fetch - processPackages [wasmtime]: Downloading https://files.pythonhosted.org/packages/88/a4/03144360122561614138ff4e9e7087fd0ba127dfc9d582c3e05e70d5be90/wasmtime-8.0.0-py3-none-win_amd64.whl
+[2023-04-20 17:32:21] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-04-20 17:32:21] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230420/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-04-20 17:32:21] INFO root fetch - processPackages [xia-engine-terraform]: Start processing: oddrn-generator
+[2023-04-20 17:32:21] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-04-20 17:32:21] INFO root fetch - processPackages [oddrn-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 17:32:21] INFO root fetch - processPackages [oddrn-generator]: executing diffoscope
+[2023-04-20 17:32:21] INFO root fetch - processPackages [oddrn-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oddrn-generator-0.1.8.tar.gz tmp/oddrn-generator-0.1.9.tar.gz --markdown 20230420/o/oddrn-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 17:32:21] INFO root fetch - processPackages [coptpy]: Downloading https://files.pythonhosted.org/packages/95/4d/226b0d86fd79350b475bd7c00ec573ec151150f006ed4e1f1d73c1a9aa08/coptpy-6.5.2-cp311-cp311-macosx_11_0_arm64.whl
+[2023-04-20 17:32:21] INFO root fetch - main [MainThread]: End processing [graphkit-learn]: success
+[2023-04-20 17:32:21] INFO root fetch - main [MainThread]: End processing [coptpy-stubs]: success
+[2023-04-20 17:32:21] INFO root fetch - main [MainThread]: End processing [fragile]: success
+[2023-04-20 17:32:22] INFO root fetch - main [MainThread]: End processing [freemocap]: success
+[2023-04-20 17:32:22] INFO root fetch - main [MainThread]: End processing [oddrn-generator]: success
+[2023-04-20 17:32:22] INFO root fetch - processPackages [wasmtime]: executing diffoscope
+[2023-04-20 17:32:22] INFO root fetch - processPackages [wasmtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmtime-7.0.0-py3-none-win_amd64.whl.zip tmp/wasmtime-8.0.0-py3-none-win_amd64.whl.zip --markdown 20230420/w/wasmtime/7.0.0-8.0.0/diff.md --exclude *.pyd
+[2023-04-20 17:32:22] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-04-20 17:32:23] INFO root fetch - processPackages [coptpy]: executing diffoscope
+[2023-04-20 17:32:23] INFO root fetch - processPackages [coptpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coptpy-6.5.1-cp39-cp39-win_amd64.whl.zip tmp/coptpy-6.5.2-cp311-cp311-macosx_11_0_arm64.whl.zip --markdown 20230420/c/coptpy/6.5.1-6.5.2/diff.md --exclude *.pyd
+[2023-04-20 17:32:23] INFO root fetch - main [MainThread]: End processing [suitesparse-graphblas]: success
+[2023-04-20 17:32:25] INFO root fetch - main [MainThread]: End processing [coptpy]: success
+[2023-04-20 17:32:25] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-04-20 17:33:20] INFO root fetch - main [MainThread]: End processing [wasmtime]: success
+[2023-04-20 17:33:20] INFO root fetch - main [MainThread]: Store serial: [17789255]
