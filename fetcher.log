@@ -21869,3 +21869,58 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 18:57:57] INFO root fetch - main [MainThread]: End processing [FairDynamicRec]: success
 [2023-04-20 18:57:58] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
 [2023-04-20 18:57:58] INFO root fetch - main [MainThread]: Store serial: [17790470]
+[2023-04-20 19:03:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790470]
+[2023-04-20 19:03:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-20 19:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specfile
+[2023-04-20 19:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openchord
+[2023-04-20 19:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mujoco
+[2023-04-20 19:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydantic
+[2023-04-20 19:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sortinghat
+[2023-04-20 19:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yotpy
+[2023-04-20 19:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyromania
+[2023-04-20 19:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openchord
+[2023-04-20 19:03:08] INFO root fetch - processPackages [yotpy]: New version: [0.0.72] Old Version: [0.0.71]
+[2023-04-20 19:03:08] INFO root fetch - processPackages [openchord]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-20 19:03:08] INFO root fetch - processPackages [specfile]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-20 19:03:08] INFO root fetch - processPackages [openchord]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-20 19:03:08] INFO root fetch - processPackages [mujoco]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-04-20 19:03:08] INFO root fetch - processPackages [pydantic]: New version: [2.0a3] Old Version: [2.0a2]
+[2023-04-20 19:03:08] INFO root fetch - processPackages [pyromania]: New version: [1.0.0.dev5] Old Version: [1.0.0.dev4]
+[2023-04-20 19:03:08] INFO root fetch - processPackages [sortinghat]: New version: [0.9.0rc1] Old Version: [0.8.1]
+[2023-04-20 19:03:08] INFO root fetch - processPackages [yotpy]: executing diffoscope
+[2023-04-20 19:03:08] INFO root fetch - processPackages [yotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yotpy-0.0.71.tar.gz tmp/yotpy-0.0.72.tar.gz --markdown 20230420/y/yotpy/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2023-04-20 19:03:08] INFO root fetch - processPackages [pydantic]: Downloading https://files.pythonhosted.org/packages/85/6c/de0966156f7ef75c45e06cf1aef3fd7fa260700ce6dd60727b194e43b25b/pydantic-2.0a2.tar.gz
+[2023-04-20 19:03:08] INFO root fetch - processPackages [specfile]: Downloading https://files.pythonhosted.org/packages/34/62/20eddcbef126e85431dc3242ff709176eaaa67d3d3a70ff2f8afeafe4479/specfile-0.9.0.tar.gz
+[2023-04-20 19:03:08] INFO root fetch - processPackages [mujoco]: Downloading https://files.pythonhosted.org/packages/7c/03/7ce6078745085febd22fc4586a63016a71125031b97883d456ce1d64e5ed/mujoco-2.3.3.zip
+[2023-04-20 19:03:08] INFO root fetch - processPackages [openchord]: Downloading https://files.pythonhosted.org/packages/00/b8/64027150d772337add2fa4ed8b99db8155f789edc38ef8b2eee011f23cb4/openchord-0.1.2.tar.gz
+[2023-04-20 19:03:08] INFO root fetch - processPackages [openchord]: Downloading https://files.pythonhosted.org/packages/00/b8/64027150d772337add2fa4ed8b99db8155f789edc38ef8b2eee011f23cb4/openchord-0.1.2.tar.gz
+[2023-04-20 19:03:08] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/e3/0f/65296c8db336b379600bdfa5c905497d27f45057b2e28d5f0a8010f72361/sortinghat-0.8.1.tar.gz
+[2023-04-20 19:03:08] INFO root fetch - processPackages [pyromania]: Downloading https://files.pythonhosted.org/packages/36/06/248c6d8fcf4b850b306546ea286439b40783631878f3d21e4cb49c8cda8d/pyromania-1.0.0.dev4.tar.gz
+[2023-04-20 19:03:08] INFO root fetch - processPackages [openchord]: executing diffoscope
+[2023-04-20 19:03:08] INFO root fetch - processPackages [openchord]: executing diffoscope
+[2023-04-20 19:03:08] INFO root fetch - processPackages [openchord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openchord-0.1.1.tar.gz tmp/openchord-0.1.2.tar.gz --markdown 20230420/o/openchord/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-20 19:03:08] INFO root fetch - processPackages [openchord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openchord-0.1.1.tar.gz tmp/openchord-0.1.2.tar.gz --markdown 20230420/o/openchord/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-20 19:03:08] INFO root fetch - processPackages [pydantic]: Downloading https://files.pythonhosted.org/packages/18/14/da31afdc5cc93a4b80a42cf78595fc15f5e9847b3acd8e6e0267d9568a93/pydantic-2.0a3.tar.gz
+[2023-04-20 19:03:08] INFO root fetch - processPackages [mujoco]: Downloading https://files.pythonhosted.org/packages/b5/36/ee3286682d540e8577d081437ee1a97d09bb19b138e01bfe19243b73df38/mujoco-2.3.4.tar.gz
+[2023-04-20 19:03:08] INFO root fetch - processPackages [pyromania]: Downloading https://files.pythonhosted.org/packages/7d/dd/c5208855467d46acd4d8bb939e6cec3b92e512f6f8a22eedfd822695a31a/pyromania-1.0.0.dev5.tar.gz
+[2023-04-20 19:03:08] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/ba/cc/37863a9ae6014469bba21172d2e38f8a9d563af9a30c773f6000ab5cb873/sortinghat-0.9.0rc1.tar.gz
+[2023-04-20 19:03:08] INFO root fetch - processPackages [specfile]: Downloading https://files.pythonhosted.org/packages/98/58/5da46f58f41bce3602175cc9a4b5e90820385801d225c063e6e9ba50bc97/specfile-0.9.1.tar.gz
+[2023-04-20 19:03:09] INFO root fetch - processPackages [pyromania]: executing diffoscope
+[2023-04-20 19:03:09] INFO root fetch - processPackages [pyromania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyromania-1.0.0.dev4.tar.gz tmp/pyromania-1.0.0.dev5.tar.gz --markdown 20230420/p/pyromania/1.0.0.dev4-1.0.0.dev5/diff.md --exclude *.pyd
+[2023-04-20 19:03:09] INFO root fetch - processPackages [specfile]: executing diffoscope
+[2023-04-20 19:03:09] INFO root fetch - processPackages [specfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specfile-0.9.0.tar.gz tmp/specfile-0.9.1.tar.gz --markdown 20230420/s/specfile/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 19:03:09] INFO root fetch - processPackages [sortinghat]: executing diffoscope
+[2023-04-20 19:03:09] INFO root fetch - processPackages [sortinghat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat-0.8.1.tar.gz tmp/sortinghat-0.9.0rc1.tar.gz --markdown 20230420/s/sortinghat/0.8.1-0.9.0rc1/diff.md --exclude *.pyd
+[2023-04-20 19:03:09] INFO root fetch - processPackages [pydantic]: executing diffoscope
+[2023-04-20 19:03:09] INFO root fetch - processPackages [pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-2.0a2.tar.gz tmp/pydantic-2.0a3.tar.gz --markdown 20230420/p/pydantic/2.0a2-2.0a3/diff.md --exclude *.pyd
+[2023-04-20 19:03:09] INFO root fetch - processPackages [mujoco]: executing diffoscope
+[2023-04-20 19:03:09] INFO root fetch - processPackages [mujoco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco-2.3.3.zip tmp/mujoco-2.3.4.tar.gz --markdown 20230420/m/mujoco/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-04-20 19:03:09] INFO root fetch - main [MainThread]: End processing [yotpy]: success
+[2023-04-20 19:03:10] INFO root fetch - main [MainThread]: End processing [openchord]: success
+[2023-04-20 19:03:10] INFO root fetch - main [MainThread]: End processing [openchord]: success
+[2023-04-20 19:03:10] INFO root fetch - main [MainThread]: End processing [pyromania]: success
+[2023-04-20 19:03:10] INFO root fetch - main [MainThread]: End processing [specfile]: success
+[2023-04-20 19:03:11] INFO root fetch - main [MainThread]: End processing [mujoco]: success
+[2023-04-20 19:03:11] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
+[2023-04-20 19:03:12] INFO root fetch - main [MainThread]: End processing [pydantic]: success
+[2023-04-20 19:03:12] INFO root fetch - main [MainThread]: Store serial: [17790521]
