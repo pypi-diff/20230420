@@ -13835,3 +13835,96 @@ EOFError: EOF read where object expected
 [2023-04-20 12:10:46] INFO root fetch - main [MainThread]: End processing [ansys-platform-instancemanagement]: success
 [2023-04-20 12:10:58] INFO root fetch - main [MainThread]: End processing [python-whitebit-sdk]: success
 [2023-04-20 12:10:58] INFO root fetch - main [MainThread]: Store serial: [17785378]
+[2023-04-20 12:16:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17785378]
+[2023-04-20 12:16:07] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-20 12:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fedml
+[2023-04-20 12:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smc-go
+[2023-04-20 12:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plonetheme.barceloneta
+[2023-04-20 12:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-probs-rdf
+[2023-04-20 12:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: github-actions-tests-louxsdon
+[2023-04-20 12:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: digital-experiments
+[2023-04-20 12:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qc-sign
+[2023-04-20 12:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: didicli
+[2023-04-20 12:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unicodeitplus
+[2023-04-20 12:16:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-project-structure
+[2023-04-20 12:16:07] INFO root fetch - processPackages [digital-experiments]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-20 12:16:07] INFO root fetch - processPackages [fedml]: New version: [0.8.3a9] Old Version: [0.8.3a6]
+[2023-04-20 12:16:07] INFO root fetch - processPackages [sphinx-probs-rdf]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-20 12:16:07] INFO root fetch - processPackages [plonetheme.barceloneta]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-04-20 12:16:07] INFO root fetch - processPackages [smc-go]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-04-20 12:16:07] WARNING root fetch - processPackages [qc-sign]: Skipping, unable to determine old version
+[2023-04-20 12:16:07] INFO root fetch - processPackages [qc-sign]: Start processing: lsst-daf-butler
+[2023-04-20 12:16:07] INFO root fetch - main [MainThread]: End processing [qc-sign] error
+[2023-04-20 12:16:07] WARNING root fetch - processPackages [github-actions-tests-louxsdon]: Skipping, unable to determine old version
+[2023-04-20 12:16:07] INFO root fetch - processPackages [github-actions-tests-louxsdon]: Start processing: llm4gpt
+[2023-04-20 12:16:07] INFO root fetch - main [MainThread]: End processing [github-actions-tests-louxsdon] error
+[2023-04-20 12:16:07] INFO root fetch - processPackages [python-project-structure]: New version: [0.8.9b7] Old Version: [0.8.9b0]
+[2023-04-20 12:16:07] INFO root fetch - processPackages [didicli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 12:16:07] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-20 12:16:07] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.20.18.15.6] Old Version: [2023.4.20.17.47.53]
+[2023-04-20 12:16:07] WARNING root fetch - processPackages [unicodeitplus]: Skipping, unable to determine old version
+[2023-04-20 12:16:07] INFO root fetch - processPackages [unicodeitplus]: Start processing: ncbimetadata
+[2023-04-20 12:16:07] INFO root fetch - main [MainThread]: End processing [unicodeitplus] error
+[2023-04-20 12:16:07] INFO root fetch - processPackages [python-project-structure]: executing diffoscope
+[2023-04-20 12:16:07] INFO root fetch - processPackages [python-project-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-project-structure-0.8.9b0.tar.gz tmp/python-project-structure-0.8.9b7.tar.gz --markdown 20230420/p/python-project-structure/0.8.9b0-0.8.9b7/diff.md --exclude *.pyd
+[2023-04-20 12:16:07] INFO root fetch - processPackages [ncbimetadata]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 12:16:07] INFO root fetch - processPackages [smc-go]: Downloading https://files.pythonhosted.org/packages/1c/4d/46318ad0b44adf4d23c63613864331eba0c4b31d10aa6197bff376bfe293/smc-go-0.0.0.tar.gz
+[2023-04-20 12:16:07] INFO root fetch - processPackages [didicli]: Downloading https://files.pythonhosted.org/packages/1e/b0/b536ecfe93fea13756ef76986b700d3126f49e480657b12333bfa04e016b/didicli-0.0.8.tar.gz
+[2023-04-20 12:16:07] INFO root fetch - processPackages [digital-experiments]: Downloading https://files.pythonhosted.org/packages/65/df/c9662008bc4b2c0b5bc8af9da632fb293a902043d184803b8f7af5744ff8/digital-experiments-1.0.7.tar.gz
+[2023-04-20 12:16:07] INFO root fetch - processPackages [sphinx-probs-rdf]: Downloading https://files.pythonhosted.org/packages/3a/83/268ebe0c00f479693d2ba845f0baa2ecb08576f87afa572a8c9666bf9f28/sphinx_probs_rdf-0.3.0.tar.gz
+[2023-04-20 12:16:07] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/dc/b1/9f18559a0567653c67511c02f80d8778d9d0fd3e9873efffb923379924eb/lsst-daf-butler-26.0.0a20230400.tar.gz
+[2023-04-20 12:16:07] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/62/57/808d838e012532594cad1d35b3744aba6d696be81808e63f8b0af65ac576/llm4gpt-2023.4.20.18.15.6.tar.gz
+[2023-04-20 12:16:07] INFO root fetch - processPackages [ncbimetadata]: Downloading https://files.pythonhosted.org/packages/6a/24/b269ae24d06cc8d31de5f0670b94c63bfb1e8a9568cf1f73d8f4a0427154/ncbimetadata-0.0.8.tar.gz
+[2023-04-20 12:16:07] INFO root fetch - processPackages [digital-experiments]: executing diffoscope
+[2023-04-20 12:16:07] INFO root fetch - processPackages [digital-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital-experiments-1.0.6.tar.gz tmp/digital-experiments-1.0.7.tar.gz --markdown 20230420/d/digital-experiments/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-20 12:16:07] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-04-20 12:16:07] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.3a6.tar.gz tmp/fedml-0.8.3a9.tar.gz --markdown 20230420/f/fedml/0.8.3a6-0.8.3a9/diff.md --exclude *.pyd
+[2023-04-20 12:16:08] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-20 12:16:08] INFO root fetch - processPackages [plonetheme.barceloneta]: executing diffoscope
+[2023-04-20 12:16:08] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.20.17.47.53.tar.gz tmp/llm4gpt-2023.4.20.18.15.6.tar.gz --markdown 20230420/l/llm4gpt/2023.4.20.17.47.53-2023.4.20.18.15.6/diff.md --exclude *.pyd
+[2023-04-20 12:16:08] INFO root fetch - processPackages [plonetheme.barceloneta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plonetheme.barceloneta-3.1.1.tar.gz tmp/plonetheme.barceloneta-3.1.2.tar.gz --markdown 20230420/p/plonetheme.barceloneta/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-04-20 12:16:08] INFO root fetch - processPackages [sphinx-probs-rdf]: Downloading https://files.pythonhosted.org/packages/56/29/c34e6c238055150841714ca7c2ac9844916c883dadb892bad784d0f57982/sphinx_probs_rdf-0.4.0.tar.gz
+[2023-04-20 12:16:08] INFO root fetch - processPackages [didicli]: Downloading https://files.pythonhosted.org/packages/4b/8c/604d51db9c16f86b9315e11aa08078c42363e7798a3173be493ba624e59e/didicli-0.0.9.tar.gz
+[2023-04-20 12:16:08] INFO root fetch - processPackages [smc-go]: Downloading https://files.pythonhosted.org/packages/53/90/1847d13dd3d576a4e5ed89a5decf1386b2d8064371a85f609e75b47197ad/smc-go-1.0.0.tar.gz
+[2023-04-20 12:16:08] INFO root fetch - processPackages [sphinx-probs-rdf]: executing diffoscope
+[2023-04-20 12:16:08] INFO root fetch - processPackages [sphinx-probs-rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_probs_rdf-0.3.0.tar.gz tmp/sphinx_probs_rdf-0.4.0.tar.gz --markdown 20230420/s/sphinx-probs-rdf/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-20 12:16:08] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/63/f1/05460b4cbb11577f16194d576ae8d564636b13a457f218b01be5e8977fcc/lsst-daf-butler-26.0.0a20230500.tar.gz
+[2023-04-20 12:16:08] INFO root fetch - processPackages [didicli]: executing diffoscope
+[2023-04-20 12:16:08] INFO root fetch - processPackages [didicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didicli-0.0.8.tar.gz tmp/didicli-0.0.9.tar.gz --markdown 20230420/d/didicli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 12:16:08] INFO root fetch - processPackages [smc-go]: executing diffoscope
+[2023-04-20 12:16:08] INFO root fetch - processPackages [smc-go]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smc-go-0.0.0.tar.gz tmp/smc-go-1.0.0.tar.gz --markdown 20230420/s/smc-go/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-20 12:16:08] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2023-04-20 12:16:08] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.0.0a20230400.tar.gz tmp/lsst-daf-butler-26.0.0a20230500.tar.gz --markdown 20230420/l/lsst-daf-butler/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-20 12:16:09] INFO root fetch - processPackages [llm4gpt]: Start processing: pysigma-backend-elasticsearch
+[2023-04-20 12:16:09] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-20 12:16:09] INFO root fetch - processPackages [pysigma-backend-elasticsearch]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-20 12:16:09] INFO root fetch - processPackages [didicli]: Start processing: sqlstrings
+[2023-04-20 12:16:09] INFO root fetch - main [MainThread]: End processing [didicli]: success
+[2023-04-20 12:16:09] INFO root fetch - processPackages [sqlstrings]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-20 12:16:09] INFO root fetch - processPackages [digital-experiments]: Start processing: odoo13-addon-photovoltaic-api
+[2023-04-20 12:16:09] INFO root fetch - main [MainThread]: End processing [digital-experiments]: success
+[2023-04-20 12:16:09] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: New version: [13.0.1.1.1] Old Version: [13.0.1.1.0]
+[2023-04-20 12:16:09] INFO root fetch - processPackages [pysigma-backend-elasticsearch]: Downloading https://files.pythonhosted.org/packages/e3/7c/15ab6debfa3d2270819b0f91f4a7d299c2fdf1c6dde71be0229bdfefd469/pysigma_backend_elasticsearch-1.0.3-py3-none-any.whl
+[2023-04-20 12:16:09] INFO root fetch - main [MainThread]: End processing [smc-go]: success
+[2023-04-20 12:16:09] INFO root fetch - processPackages [sqlstrings]: Downloading https://files.pythonhosted.org/packages/2d/15/1f7cfda45361eeca1f9757054762a18e3632f1086d6ca655d7f9043e2d8c/sqlstrings-0.0.6.tar.gz
+[2023-04-20 12:16:09] INFO root fetch - main [MainThread]: End processing [sphinx-probs-rdf]: success
+[2023-04-20 12:16:09] INFO root fetch - processPackages [pysigma-backend-elasticsearch]: executing diffoscope
+[2023-04-20 12:16:09] INFO root fetch - processPackages [pysigma-backend-elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_elasticsearch-1.0.2.tar.gz tmp/pysigma_backend_elasticsearch-1.0.3-py3-none-any.whl.zip --markdown 20230420/p/pysigma-backend-elasticsearch/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-20 12:16:09] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/65/93/e93b3a24b1d70e8c6e3475d5d16920bfc7fc2527e57c271766939a913ec2/odoo13-addon-photovoltaic_api-13.0.1.1.0.tar.gz
+[2023-04-20 12:16:10] INFO root fetch - processPackages [sqlstrings]: Downloading https://files.pythonhosted.org/packages/b0/ac/b3d50a0be0c8d1f6ae277cc87b5d6f1fd2d911aa95fb229d69da45f93a38/sqlstrings-0.0.7.tar.gz
+[2023-04-20 12:16:10] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/a5/6f/bff33686aa2b6de37632e579320313f40784e48dd5a59a1e8d83c5950d57/odoo13-addon-photovoltaic_api-13.0.1.1.1.tar.gz
+[2023-04-20 12:16:10] INFO root fetch - processPackages [sqlstrings]: executing diffoscope
+[2023-04-20 12:16:10] INFO root fetch - processPackages [sqlstrings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlstrings-0.0.6.tar.gz tmp/sqlstrings-0.0.7.tar.gz --markdown 20230420/s/sqlstrings/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-20 12:16:10] INFO root fetch - main [MainThread]: End processing [python-project-structure]: success
+[2023-04-20 12:16:10] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: executing diffoscope
+[2023-04-20 12:16:10] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13-addon-photovoltaic_api-13.0.1.1.0.tar.gz tmp/odoo13-addon-photovoltaic_api-13.0.1.1.1.tar.gz --markdown 20230420/o/odoo13-addon-photovoltaic-api/13.0.1.1.0-13.0.1.1.1/diff.md --exclude *.pyd
+[2023-04-20 12:16:10] INFO root fetch - main [MainThread]: End processing [pysigma-backend-elasticsearch]: success
+[2023-04-20 12:16:11] INFO root fetch - main [MainThread]: End processing [sqlstrings]: success
+[2023-04-20 12:16:12] INFO root fetch - main [MainThread]: End processing [odoo13-addon-photovoltaic-api]: success
+[2023-04-20 12:16:12] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2023-04-20 12:16:14] INFO root fetch - main [MainThread]: End processing [plonetheme.barceloneta]: success
+[2023-04-20 12:16:21] INFO root fetch - processPackages [ncbimetadata]: executing diffoscope
+[2023-04-20 12:16:21] INFO root fetch - processPackages [ncbimetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbimetadata-0.0.7.tar.gz tmp/ncbimetadata-0.0.8.tar.gz --markdown 20230420/n/ncbimetadata/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 12:16:22] INFO root fetch - main [MainThread]: End processing [ncbimetadata]: success
+[2023-04-20 12:16:25] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-04-20 12:16:25] INFO root fetch - main [MainThread]: Store serial: [17785443]
