@@ -16643,3 +16643,71 @@ EOFError: EOF read where object expected
 [2023-04-20 14:53:45] INFO root fetch - main [MainThread]: End processing [manticore]: success
 [2023-04-20 14:53:55] INFO root fetch - main [MainThread]: End processing [convalidatorx]: success
 [2023-04-20 14:53:55] INFO root fetch - main [MainThread]: Store serial: [17787132]
+[2023-04-20 14:58:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17787132]
+[2023-04-20 14:59:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-20 14:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-sdk
+[2023-04-20 14:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airgiant
+[2023-04-20 14:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AnimeCrawler
+[2023-04-20 14:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: regis
+[2023-04-20 14:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pheno-utils
+[2023-04-20 14:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hepi
+[2023-04-20 14:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arfs
+[2023-04-20 14:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bamt
+[2023-04-20 14:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipelime-python
+[2023-04-20 14:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wasscli
+[2023-04-20 14:59:04] INFO root fetch - processPackages [pheno-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 14:59:04] INFO root fetch - processPackages [bamt]: New version: [1.1.40] Old Version: [1.1.33]
+[2023-04-20 14:59:04] INFO root fetch - processPackages [regis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 14:59:04] INFO root fetch - processPackages [AnimeCrawler]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 14:59:04] INFO root fetch - processPackages [qwak-sdk]: New version: [0.1.0] Old Version: [0.0.19rc0]
+[2023-04-20 14:59:04] INFO root fetch - processPackages [airgiant]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 14:59:04] INFO root fetch - processPackages [pipelime-python]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-04-20 14:59:04] INFO root fetch - processPackages [arfs]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-20 14:59:04] INFO root fetch - processPackages [hepi]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 14:59:04] INFO root fetch - processPackages [wasscli]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-20 14:59:05] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-04-20 14:59:05] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.0.19rc0.tar.gz tmp/qwak-sdk-0.1.0.tar.gz --markdown 20230420/q/qwak-sdk/0.0.19rc0-0.1.0/diff.md --exclude *.pyd
+[2023-04-20 14:59:05] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/cc/af/80fb114a8bfcdc9c58860bbb53a4b1ac4d5bb9c009d7f0dc36441e6532e8/pheno-utils-0.1.0.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [AnimeCrawler]: Downloading https://files.pythonhosted.org/packages/83/40/cb1eec4c0ec5819ff935922125b19a337ba103e450ceeeb71cee1a41fca8/AnimeCrawler-0.1.0.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/d1/a0/cda27c23cd84612b453598361fc8db6ff03bf0a5189e8f436d1db558fddf/arfs-1.0.5.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [hepi]: Downloading https://files.pythonhosted.org/packages/00/d9/006d8b12f77f11c35a83a96ce39f0741bf367dc95f24ece730bd0d4121ea/hepi-0.2.8.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [pipelime-python]: Downloading https://files.pythonhosted.org/packages/e0/53/4e62ab844eba9fac101403185edf694237fe971a05164e5d68be05f949a1/pipelime_python-1.4.1.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [wasscli]: Downloading https://files.pythonhosted.org/packages/3b/c5/19557d94e164686a411cf46b875dfe599113d250c2d94e4fe858f2864578/wasscli-0.1.3.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [bamt]: Downloading https://files.pythonhosted.org/packages/b2/30/30e20e17bd7df2948cbd9f0b50fd3316eafab2930e70eaf2d1e405657cff/BAMT-1.1.33.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [airgiant]: Downloading https://files.pythonhosted.org/packages/e4/eb/49c098bdc0b4342a176d827afecbd592342b92b0c051aab2c95d2bc7a5e3/airgiant-0.0.8.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/f7/d4/5567b0c2582042cf005747a4e196d46a7f6b6dca096235f511871513a4f5/pheno-utils-0.1.1.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [regis]: executing diffoscope
+[2023-04-20 14:59:05] INFO root fetch - processPackages [regis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regis-0.1.8.tar.gz tmp/regis-0.1.9.tar.gz --markdown 20230420/r/regis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 14:59:05] INFO root fetch - processPackages [airgiant]: executing diffoscope
+[2023-04-20 14:59:05] INFO root fetch - processPackages [airgiant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airgiant-0.0.7.tar.gz tmp/airgiant-0.0.8.tar.gz --markdown 20230420/a/airgiant/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 14:59:05] INFO root fetch - processPackages [wasscli]: Downloading https://files.pythonhosted.org/packages/33/06/552ad3cdd631a099c62ac5027cbc67fe8f805f580d68c389b953094e13fc/wasscli-0.1.4.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [bamt]: Downloading https://files.pythonhosted.org/packages/13/57/2c08ea159019f58fe356978482c8412c67ca36edd3226ebb35df30a9e8d2/BAMT-1.1.40.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-04-20 14:59:05] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.1.0.tar.gz tmp/pheno-utils-0.1.1.tar.gz --markdown 20230420/p/pheno-utils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 14:59:05] INFO root fetch - processPackages [AnimeCrawler]: Downloading https://files.pythonhosted.org/packages/d0/aa/6c8e997c2df3956417873f771a4b4c1e44822bb8fa81397fd32fd810f56a/AnimeCrawler-0.1.1.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [hepi]: Downloading https://files.pythonhosted.org/packages/dd/42/6913b4112584bd0c9182a4626cf9a949a46f2aa4c9e0d5c3a2f53a1d6570/hepi-0.2.9.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [pipelime-python]: Downloading https://files.pythonhosted.org/packages/29/33/7477efc2b7b1af48625427c15d5d963c15f3677afb6072b113c9f7a257a2/pipelime_python-1.5.0.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/3d/26/21fa3b7c2a09f5d1dbc9f81ff739c7f997907cc5120f980606eee8512983/arfs-1.0.6.tar.gz
+[2023-04-20 14:59:05] INFO root fetch - processPackages [wasscli]: executing diffoscope
+[2023-04-20 14:59:05] INFO root fetch - processPackages [wasscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasscli-0.1.3.tar.gz tmp/wasscli-0.1.4.tar.gz --markdown 20230420/w/wasscli/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-20 14:59:05] INFO root fetch - processPackages [bamt]: executing diffoscope
+[2023-04-20 14:59:05] INFO root fetch - processPackages [bamt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BAMT-1.1.33.tar.gz tmp/BAMT-1.1.40.tar.gz --markdown 20230420/b/bamt/1.1.33-1.1.40/diff.md --exclude *.pyd
+[2023-04-20 14:59:05] INFO root fetch - processPackages [AnimeCrawler]: executing diffoscope
+[2023-04-20 14:59:05] INFO root fetch - processPackages [AnimeCrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AnimeCrawler-0.1.0.tar.gz tmp/AnimeCrawler-0.1.1.tar.gz --markdown 20230420/A/AnimeCrawler/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 14:59:05] INFO root fetch - processPackages [pipelime-python]: executing diffoscope
+[2023-04-20 14:59:05] INFO root fetch - processPackages [pipelime-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipelime_python-1.4.1.tar.gz tmp/pipelime_python-1.5.0.tar.gz --markdown 20230420/p/pipelime-python/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-04-20 14:59:05] INFO root fetch - processPackages [hepi]: executing diffoscope
+[2023-04-20 14:59:05] INFO root fetch - processPackages [hepi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepi-0.2.8.tar.gz tmp/hepi-0.2.9.tar.gz --markdown 20230420/h/hepi/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 14:59:05] INFO root fetch - processPackages [arfs]: executing diffoscope
+[2023-04-20 14:59:05] INFO root fetch - processPackages [arfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arfs-1.0.5.tar.gz tmp/arfs-1.0.6.tar.gz --markdown 20230420/a/arfs/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-20 14:59:06] INFO root fetch - main [MainThread]: End processing [airgiant]: success
+[2023-04-20 14:59:06] INFO root fetch - main [MainThread]: End processing [regis]: success
+[2023-04-20 14:59:07] INFO root fetch - main [MainThread]: End processing [wasscli]: success
+[2023-04-20 14:59:07] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-04-20 14:59:07] INFO root fetch - main [MainThread]: End processing [arfs]: success
+[2023-04-20 14:59:07] INFO root fetch - main [MainThread]: End processing [AnimeCrawler]: success
+[2023-04-20 14:59:07] INFO root fetch - main [MainThread]: End processing [hepi]: success
+[2023-04-20 14:59:07] INFO root fetch - main [MainThread]: End processing [pipelime-python]: success
+[2023-04-20 14:59:08] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-04-20 14:59:09] INFO root fetch - main [MainThread]: End processing [bamt]: success
+[2023-04-20 14:59:09] INFO root fetch - main [MainThread]: Store serial: [17787166]
