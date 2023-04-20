@@ -11037,3 +11037,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 10:49:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-ga20191120-py2]: success
 [2023-04-20 10:49:15] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-04-20 10:49:15] INFO root fetch - main [MainThread]: Store serial: [17783996]
+[2023-04-20 10:54:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783996]
+[2023-04-20 10:54:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-20 10:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-ga20191120
+[2023-04-20 10:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manot
+[2023-04-20 10:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly
+[2023-04-20 10:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-thread
+[2023-04-20 10:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastdeploy
+[2023-04-20 10:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mainnet
+[2023-04-20 10:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assisted-service-client
+[2023-04-20 10:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyroFork-dev
+[2023-04-20 10:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ncbimetadata
+[2023-04-20 10:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: udata-hydra
+[2023-04-20 10:54:24] INFO root fetch - processPackages [alibabacloud-ga20191120]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 10:54:24] INFO root fetch - processPackages [ncbimetadata]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-20 10:54:24] INFO root fetch - processPackages [manot]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-20 10:54:24] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-04-20 10:54:24] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.1.6.dev202304200851] Old Version: [2.1.6.dev202304151023]
+[2023-04-20 10:54:24] INFO root fetch - processPackages [mainnet]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-20 10:54:24] INFO root fetch - processPackages [fastdeploy]: New version: [2.2.8] Old Version: [2.2.7rc4]
+[2023-04-20 10:54:24] INFO root fetch - processPackages [udata-hydra]: New version: [2.0.0.dev956] Old Version: [2.0.0.dev919]
+[2023-04-20 10:54:24] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-04-20 10:54:24] INFO root fetch - processPackages [tf-nightly]: New version: [2.13.0.dev20230420] Old Version: [2.13.0.dev20230419]
+[2023-04-20 10:54:24] INFO root fetch - processPackages [fastdeploy]: executing diffoscope
+[2023-04-20 10:54:24] INFO root fetch - processPackages [fastdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdeploy-2.2.7rc4.tar.gz tmp/fastdeploy-2.2.8.tar.gz --markdown 20230420/f/fastdeploy/2.2.7rc4-2.2.8/diff.md --exclude *.pyd
+[2023-04-20 10:54:24] INFO root fetch - processPackages [alibabacloud-ga20191120]: Downloading https://files.pythonhosted.org/packages/32/84/3006c6a3b5d7f169e57fbffa6c88734716f54b0ef0db9f604381aa10d631/alibabacloud_ga20191120-1.0.8.tar.gz
+[2023-04-20 10:54:25] INFO root fetch - processPackages [manot]: Downloading https://files.pythonhosted.org/packages/cd/7a/5078a7d0c8c72d7f80d79ba906b9ecc393a64bf7006a43cecc280d2ce4dd/manot-0.8.1.tar.gz
+[2023-04-20 10:54:25] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/b4/f2/21c5e350eac83cd4eed629599f3cfc2ef17865d68b12b2af6641154039ab/PyroFork-dev-2.1.6.dev202304151023.tar.gz
+[2023-04-20 10:54:25] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-04-20 10:54:25] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230420/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-04-20 10:54:25] INFO root fetch - processPackages [ncbimetadata]: Downloading https://files.pythonhosted.org/packages/1a/ba/5f24729fc9a84673112448d66fde8f060b978cb3c47731aa08f7a846a037/ncbimetadata-0.0.4.tar.gz
+[2023-04-20 10:54:25] INFO root fetch - processPackages [udata-hydra]: executing diffoscope
+[2023-04-20 10:54:25] INFO root fetch - processPackages [udata-hydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_hydra-2.0.0.dev919.tar.gz tmp/udata_hydra-2.0.0.dev956.tar.gz --markdown 20230420/u/udata-hydra/2.0.0.dev919-2.0.0.dev956/diff.md --exclude *.pyd
+[2023-04-20 10:54:25] INFO root fetch - processPackages [mainnet]: Downloading https://files.pythonhosted.org/packages/79/f9/70824a25ad9cf2190e220c391e616e485165dc91faf491f5d5739fa6f4ed/mainnet-1.1.2.tar.gz
+[2023-04-20 10:54:25] INFO root fetch - processPackages [manot]: executing diffoscope
+[2023-04-20 10:54:25] INFO root fetch - processPackages [manot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manot-0.8.0.tar.gz tmp/manot-0.8.1.tar.gz --markdown 20230420/m/manot/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-20 10:54:25] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-04-20 10:54:25] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230420/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-04-20 10:54:25] INFO root fetch - processPackages [ncbimetadata]: executing diffoscope
+[2023-04-20 10:54:25] INFO root fetch - processPackages [ncbimetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbimetadata-0.0.3.tar.gz tmp/ncbimetadata-0.0.4.tar.gz --markdown 20230420/n/ncbimetadata/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-20 10:54:25] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/2b/66/b8a75a0ef4af4d028451f7827ce5179344fc18fc7f959d7c837d1b0f4555/tf_nightly-2.13.0.dev20230420-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-20 10:54:25] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-04-20 10:54:25] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.1.tar.gz tmp/mainnet-1.1.2.tar.gz --markdown 20230420/m/mainnet/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-20 10:54:25] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/0b/51/1514fb0488c0748e327af4963015a72e20ecdd3421c94348e928c371b6be/PyroFork-dev-2.1.6.dev202304200851.tar.gz
+[2023-04-20 10:54:25] INFO root fetch - processPackages [alibabacloud-ga20191120]: Downloading https://files.pythonhosted.org/packages/eb/6f/237fdcd9b6b01606a499d28417dc8f06b9e33887a738708fd2388ef53f06/alibabacloud_ga20191120-1.0.9.tar.gz
+[2023-04-20 10:54:25] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 522917998>=10485760
+[2023-04-20 10:54:25] INFO root fetch - processPackages [tf-nightly]: Start processing: neosctl
+[2023-04-20 10:54:25] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-04-20 10:54:25] INFO root fetch - processPackages [neosctl]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-04-20 10:54:25] INFO root fetch - processPackages [alibabacloud-ga20191120]: executing diffoscope
+[2023-04-20 10:54:25] INFO root fetch - processPackages [alibabacloud-ga20191120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ga20191120-1.0.8.tar.gz tmp/alibabacloud_ga20191120-1.0.9.tar.gz --markdown 20230420/a/alibabacloud-ga20191120/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 10:54:25] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/81/ee/e3aeb02adbcf669f2c2945b4e0dca4f028f5a1bb73fdbafeef0a67bfd867/neosctl-0.7.5.tar.gz
+[2023-04-20 10:54:25] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-04-20 10:54:25] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.1.6.dev202304151023.tar.gz tmp/PyroFork-dev-2.1.6.dev202304200851.tar.gz --markdown 20230420/P/PyroFork-dev/2.1.6.dev202304151023-2.1.6.dev202304200851/diff.md --exclude *.pyd
+[2023-04-20 10:54:25] INFO root fetch - processPackages [neosctl]: Downloading https://files.pythonhosted.org/packages/db/80/4756f181ce9e2a35c57eb1c2dc237d31f8bc2fe5457636e05e42b1655e06/neosctl-0.7.6.tar.gz
+[2023-04-20 10:54:26] INFO root fetch - processPackages [neosctl]: executing diffoscope
+[2023-04-20 10:54:26] INFO root fetch - processPackages [neosctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosctl-0.7.5.tar.gz tmp/neosctl-0.7.6.tar.gz --markdown 20230420/n/neosctl/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-04-20 10:54:26] INFO root fetch - processPackages [ncbimetadata]: Start processing: d-geolib
+[2023-04-20 10:54:26] INFO root fetch - main [MainThread]: End processing [ncbimetadata]: success
+[2023-04-20 10:54:26] INFO root fetch - processPackages [d-geolib]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-20 10:54:26] INFO root fetch - processPackages [manot]: Start processing: kibana-ql
+[2023-04-20 10:54:26] INFO root fetch - main [MainThread]: End processing [manot]: success
+[2023-04-20 10:54:26] WARNING root fetch - processPackages [kibana-ql]: Skipping, unable to determine old version
+[2023-04-20 10:54:26] INFO root fetch - processPackages [kibana-ql]: Start processing: myUniquePythonPackageName
+[2023-04-20 10:54:26] INFO root fetch - main [MainThread]: End processing [kibana-ql] error
+[2023-04-20 10:54:26] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.101]
+[2023-04-20 10:54:26] INFO root fetch - main [MainThread]: End processing [udata-hydra]: success
+[2023-04-20 10:54:26] INFO root fetch - processPackages [d-geolib]: Downloading https://files.pythonhosted.org/packages/66/78/efd5b1a325138de42c67e0e40cbb26e2987277dd7f1e1cf53cde2226b6e1/d_geolib-0.5.1.tar.gz
+[2023-04-20 10:54:26] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-04-20 10:54:26] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.101.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230420/m/myUniquePythonPackageName/5.5.101-7.10.7/diff.md --exclude *.pyd
+[2023-04-20 10:54:27] INFO root fetch - processPackages [d-geolib]: Downloading https://files.pythonhosted.org/packages/0a/15/ef9e7d189f7ef47cc6c2a67c671da59389a00d40d87b744b098865cd4db2/d_geolib-0.6.0.tar.gz
+[2023-04-20 10:54:27] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-04-20 10:54:27] INFO root fetch - main [MainThread]: End processing [neosctl]: success
+[2023-04-20 10:54:27] INFO root fetch - processPackages [d-geolib]: executing diffoscope
+[2023-04-20 10:54:27] INFO root fetch - processPackages [d-geolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_geolib-0.5.1.tar.gz tmp/d_geolib-0.6.0.tar.gz --markdown 20230420/d/d-geolib/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-04-20 10:54:28] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-04-20 10:54:28] INFO root fetch - main [MainThread]: End processing [fastdeploy]: success
+[2023-04-20 10:54:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-ga20191120]: success
+[2023-04-20 10:54:29] INFO root fetch - main [MainThread]: End processing [d-geolib]: success
+[2023-04-20 10:54:29] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-04-20 10:54:30] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-04-20 10:54:31] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-04-20 10:54:31] INFO root fetch - main [MainThread]: Store serial: [17784038]
