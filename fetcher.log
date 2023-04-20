@@ -18925,3 +18925,111 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 16:38:19] INFO root fetch - main [MainThread]: End processing [halo-reader]: success
 [2023-04-20 16:38:23] INFO root fetch - main [MainThread]: End processing [fabric-cf]: success
 [2023-04-20 16:38:23] INFO root fetch - main [MainThread]: Store serial: [17788489]
+[2023-04-20 16:43:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17788489]
+[2023-04-20 16:43:33] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-20 16:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-id-python
+[2023-04-20 16:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-bank-python
+[2023-04-20 16:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: espm
+[2023-04-20 16:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tessif-examples
+[2023-04-20 16:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jina
+[2023-04-20 16:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kep-solver
+[2023-04-20 16:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dockertown
+[2023-04-20 16:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: postpruner
+[2023-04-20 16:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rmm-cu11
+[2023-04-20 16:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: napari-sam
+[2023-04-20 16:43:33] INFO root fetch - processPackages [tessif-examples]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-20 16:43:33] INFO root fetch - processPackages [napari-sam]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-20 16:43:33] INFO root fetch - processPackages [rmm-cu11]: New version: [23.4.0.1681362075] Old Version: [23.4.0]
+[2023-04-20 16:43:33] INFO root fetch - processPackages [espm]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-04-20 16:43:33] INFO root fetch - processPackages [postpruner]: New version: [2.0] Old Version: [1.2]
+[2023-04-20 16:43:33] INFO root fetch - processPackages [dockertown]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-04-20 16:43:33] INFO root fetch - processPackages [kep-solver]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-04-20 16:43:33] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-20 16:43:33] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-20 16:43:33] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-20 16:43:33] INFO root fetch - processPackages [napari-sam]: executing diffoscope
+[2023-04-20 16:43:33] INFO root fetch - processPackages [napari-sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sam-0.3.8.tar.gz tmp/napari-sam-0.3.9.tar.gz --markdown 20230420/n/napari-sam/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-20 16:43:33] INFO root fetch - processPackages [espm]: Downloading https://files.pythonhosted.org/packages/76/db/69a7828094abd4d458afe70a7984e94ea77888ba7e98c83ae7b4900089a0/espm-0.1.4.tar.gz
+[2023-04-20 16:43:33] INFO root fetch - processPackages [rmm-cu11]: Downloading https://files.pythonhosted.org/packages/d0/88/7bb0638c49e6931cae4cce1093141e873ad7280204e853a59fda2304a029/rmm_cu11-23.4.0.tar.gz
+[2023-04-20 16:43:33] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-20 16:43:33] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230420/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-20 16:43:33] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-04-20 16:43:33] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230420/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-20 16:43:33] INFO root fetch - processPackages [tessif-examples]: Downloading https://files.pythonhosted.org/packages/d2/97/ffedd6a565096e27e29256d5a182b352f0079804d79a54571155a3e95398/tessif-examples-0.3.1.tar.gz
+[2023-04-20 16:43:33] INFO root fetch - processPackages [dockertown]: Downloading https://files.pythonhosted.org/packages/74/7f/8db19d67ef09192fa544f60d77187a241c43c1413f642f32ffd9459c40ad/dockertown-0.1.4.tar.gz
+[2023-04-20 16:43:33] INFO root fetch - processPackages [kep-solver]: Downloading https://files.pythonhosted.org/packages/86/97/c0f23d4314fac38a6a469778b5b020c6ffc7d9e24e1739a7de8520aa9b89/kep_solver-2.1.1.tar.gz
+[2023-04-20 16:43:33] INFO root fetch - processPackages [postpruner]: Downloading https://files.pythonhosted.org/packages/8b/6e/ac53e62ca0c6093a0e59075c3c1b2117ddaeb92ceaee44a16474bafba3ce/postpruner-2.0.tar.gz
+[2023-04-20 16:43:33] INFO root fetch - processPackages [postpruner]: executing diffoscope
+[2023-04-20 16:43:33] INFO root fetch - processPackages [postpruner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postpruner-1.2.tar.gz tmp/postpruner-2.0.tar.gz --markdown 20230420/p/postpruner/1.2-2.0/diff.md --exclude *.pyd
+[2023-04-20 16:43:33] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-04-20 16:43:33] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230420/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-20 16:43:33] INFO root fetch - processPackages [dockertown]: Downloading https://files.pythonhosted.org/packages/fb/da/ef91a0e64ad48a4ccf51a0fc70144b57d3f9d7265837cadaf7ba76380b3a/dockertown-0.2.0.tar.gz
+[2023-04-20 16:43:33] INFO root fetch - processPackages [espm]: Downloading https://files.pythonhosted.org/packages/83/a7/37510394b1c1908473d48fa51852fcb3a572bd1acd6a17531eca2633e248/espm-0.2.0.tar.gz
+[2023-04-20 16:43:33] INFO root fetch - processPackages [tessif-examples]: Downloading https://files.pythonhosted.org/packages/b4/9e/c0cad23d8c737ccd5e3089ab592d12a44786e71c3e99a092976c3501abbb/tessif-examples-0.3.2.tar.gz
+[2023-04-20 16:43:33] INFO root fetch - processPackages [rmm-cu11]: Downloading https://files.pythonhosted.org/packages/6f/d1/c396ee50bb92bd2f7f547c2520a8ba0de6441a8f0662644050431161dd7e/rmm_cu11-23.4.0.1681362075.tar.gz
+[2023-04-20 16:43:33] INFO root fetch - processPackages [kep-solver]: Downloading https://files.pythonhosted.org/packages/72/93/aecf3fb1ee4deed468a28c66e2f9c1d73de99333544ab20900249e855054/kep_solver-2.1.2.tar.gz
+[2023-04-20 16:43:33] INFO root fetch - processPackages [rmm-cu11]: executing diffoscope
+[2023-04-20 16:43:33] INFO root fetch - processPackages [rmm-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rmm_cu11-23.4.0.tar.gz tmp/rmm_cu11-23.4.0.1681362075.tar.gz --markdown 20230420/r/rmm-cu11/23.4.0-23.4.0.1681362075/diff.md --exclude *.pyd
+[2023-04-20 16:43:33] INFO root fetch - processPackages [dockertown]: executing diffoscope
+[2023-04-20 16:43:33] INFO root fetch - processPackages [dockertown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockertown-0.1.4.tar.gz tmp/dockertown-0.2.0.tar.gz --markdown 20230420/d/dockertown/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 16:43:34] INFO root fetch - processPackages [espm]: executing diffoscope
+[2023-04-20 16:43:34] INFO root fetch - processPackages [espm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espm-0.1.4.tar.gz tmp/espm-0.2.0.tar.gz --markdown 20230420/e/espm/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 16:43:34] INFO root fetch - processPackages [tessif-examples]: executing diffoscope
+[2023-04-20 16:43:34] INFO root fetch - processPackages [tessif-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tessif-examples-0.3.1.tar.gz tmp/tessif-examples-0.3.2.tar.gz --markdown 20230420/t/tessif-examples/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-20 16:43:34] INFO root fetch - processPackages [kep-solver]: executing diffoscope
+[2023-04-20 16:43:34] INFO root fetch - processPackages [kep-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kep_solver-2.1.1.tar.gz tmp/kep_solver-2.1.2.tar.gz --markdown 20230420/k/kep-solver/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-04-20 16:43:35] INFO root fetch - processPackages [postpruner]: Start processing: quantconnect-stubs
+[2023-04-20 16:43:35] INFO root fetch - main [MainThread]: End processing [postpruner]: success
+[2023-04-20 16:43:35] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-04-20 16:43:35] INFO root fetch - processPackages [napari-sam]: Start processing: pynyol
+[2023-04-20 16:43:35] INFO root fetch - main [MainThread]: End processing [napari-sam]: success
+[2023-04-20 16:43:35] INFO root fetch - processPackages [pynyol]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 16:43:35] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-04-20 16:43:35] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230420/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-04-20 16:43:35] INFO root fetch - processPackages [pynyol]: Downloading https://files.pythonhosted.org/packages/a9/fe/c93eb59e5f78d6834e0b2f8000e3fda7e8c687a2c3c954d17e6802037223/pynyol-0.1.2.tar.gz
+[2023-04-20 16:43:35] INFO root fetch - processPackages [rmm-cu11]: Start processing: pylibraft-cu11
+[2023-04-20 16:43:35] INFO root fetch - main [MainThread]: End processing [rmm-cu11]: success
+[2023-04-20 16:43:35] INFO root fetch - processPackages [pylibraft-cu11]: New version: [23.4.0.1681363053] Old Version: [23.4.0]
+[2023-04-20 16:43:35] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: optax
+[2023-04-20 16:43:35] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-04-20 16:43:35] INFO root fetch - processPackages [optax]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-20 16:43:35] INFO root fetch - processPackages [pylibraft-cu11]: Downloading https://files.pythonhosted.org/packages/9c/8a/6e089082666cffdf48691b720982a2e69e8ff5b72b5cdc81310dc2e06375/pylibraft_cu11-23.4.0.tar.gz
+[2023-04-20 16:43:35] INFO root fetch - processPackages [pynyol]: Downloading https://files.pythonhosted.org/packages/84/5e/9f9070a2374d0e3f9d8c87b044fef68462b617250c6268dbab380db26d1e/pynyol-0.1.3.tar.gz
+[2023-04-20 16:43:35] INFO root fetch - processPackages [optax]: Downloading https://files.pythonhosted.org/packages/9a/74/66b5c8c59b21017d50a04db5b2eca113418d35c99e17f7a62c76a22c8e88/optax-0.1.4.tar.gz
+[2023-04-20 16:43:35] INFO root fetch - processPackages [pynyol]: executing diffoscope
+[2023-04-20 16:43:35] INFO root fetch - processPackages [pynyol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynyol-0.1.2.tar.gz tmp/pynyol-0.1.3.tar.gz --markdown 20230420/p/pynyol/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 16:43:36] INFO root fetch - processPackages [dockertown]: Start processing: proteinTools
+[2023-04-20 16:43:36] INFO root fetch - main [MainThread]: End processing [dockertown]: success
+[2023-04-20 16:43:36] INFO root fetch - processPackages [proteinTools]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-20 16:43:36] INFO root fetch - processPackages [pylibraft-cu11]: Downloading https://files.pythonhosted.org/packages/c2/ff/cb92a3dfb3218d58e56c91f4aa5fb7bf339d0f7fe063caaea5b94a4a4ca5/pylibraft_cu11-23.4.0.1681363053.tar.gz
+[2023-04-20 16:43:36] INFO root fetch - processPackages [optax]: Downloading https://files.pythonhosted.org/packages/25/76/99b47c028f153b712300ed0f240fbe8cce2684b6c9a937223a71bc3f9d0a/optax-0.1.5.tar.gz
+[2023-04-20 16:43:36] INFO root fetch - processPackages [pylibraft-cu11]: executing diffoscope
+[2023-04-20 16:43:36] INFO root fetch - processPackages [pylibraft-cu11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibraft_cu11-23.4.0.tar.gz tmp/pylibraft_cu11-23.4.0.1681363053.tar.gz --markdown 20230420/p/pylibraft-cu11/23.4.0-23.4.0.1681363053/diff.md --exclude *.pyd
+[2023-04-20 16:43:36] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/07/3b/e000fd5e9773c7541a92c3c10f8d68609704f183581514019738c6578076/proteinTools-1.2.3.tar.gz
+[2023-04-20 16:43:36] INFO root fetch - processPackages [optax]: executing diffoscope
+[2023-04-20 16:43:36] INFO root fetch - processPackages [optax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optax-0.1.4.tar.gz tmp/optax-0.1.5.tar.gz --markdown 20230420/o/optax/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-20 16:43:36] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/4d/14/6756fee97cc397992f9263e4168f19c123c85916812ade67f947fd50ea7d/proteinTools-1.2.4.tar.gz
+[2023-04-20 16:43:36] INFO root fetch - processPackages [espm]: Start processing: duckietown-shell
+[2023-04-20 16:43:36] INFO root fetch - main [MainThread]: End processing [espm]: success
+[2023-04-20 16:43:36] INFO root fetch - processPackages [duckietown-shell]: New version: [5.5.2] Old Version: [5.5.1]
+[2023-04-20 16:43:36] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-04-20 16:43:36] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.2.3.tar.gz tmp/proteinTools-1.2.4.tar.gz --markdown 20230420/p/proteinTools/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-20 16:43:36] INFO root fetch - processPackages [duckietown-shell]: Downloading https://files.pythonhosted.org/packages/43/39/a0f06f56313f064421663eb6de5bf1bef668a98027084ec4fcc3805d31e1/duckietown-shell-5.5.2.tar.gz
+[2023-04-20 16:43:36] INFO root fetch - processPackages [kep-solver]: Start processing: tupa123
+[2023-04-20 16:43:36] INFO root fetch - main [MainThread]: End processing [kep-solver]: success
+[2023-04-20 16:43:36] INFO root fetch - processPackages [tupa123]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-20 16:43:36] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-04-20 16:43:36] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.3.8.tar.gz tmp/tupa123-1.3.9.tar.gz --markdown 20230420/t/tupa123/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-20 16:43:37] INFO root fetch - processPackages [duckietown-shell]: executing diffoscope
+[2023-04-20 16:43:37] INFO root fetch - processPackages [duckietown-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckietown-shell-5.5.1.tar.gz tmp/duckietown-shell-5.5.2.tar.gz --markdown 20230420/d/duckietown-shell/5.5.1-5.5.2/diff.md --exclude *.pyd
+[2023-04-20 16:43:37] INFO root fetch - main [MainThread]: End processing [pylibraft-cu11]: success
+[2023-04-20 16:43:37] INFO root fetch - main [MainThread]: End processing [pynyol]: success
+[2023-04-20 16:43:37] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-04-20 16:43:38] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-04-20 16:43:38] INFO root fetch - main [MainThread]: End processing [duckietown-shell]: success
+[2023-04-20 16:43:38] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-04-20 16:43:39] INFO root fetch - main [MainThread]: End processing [optax]: success
+[2023-04-20 16:43:39] INFO root fetch - main [MainThread]: End processing [tessif-examples]: success
+[2023-04-20 16:43:40] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-04-20 16:43:41] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-20 16:43:41] INFO root fetch - main [MainThread]: Store serial: [17788546]
