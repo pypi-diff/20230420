@@ -15570,3 +15570,87 @@ EOFError: EOF read where object expected
 [2023-04-20 13:49:55] INFO root fetch - main [MainThread]: End processing [pgx]: success
 [2023-04-20 13:49:58] INFO root fetch - main [MainThread]: End processing [asposepdfcloud]: success
 [2023-04-20 13:49:58] INFO root fetch - main [MainThread]: Store serial: [17786510]
+[2023-04-20 13:55:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17786510]
+[2023-04-20 13:55:08] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-20 13:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orbit-database
+[2023-04-20 13:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrealm
+[2023-04-20 13:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-mrp-flattened-bom-xlsx
+[2023-04-20 13:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RELYBillAPIResponse
+[2023-04-20 13:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openapi-readme
+[2023-04-20 13:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: digocli
+[2023-04-20 13:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyGuardPoint
+[2023-04-20 13:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apimapper
+[2023-04-20 13:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torcheval-nightly
+[2023-04-20 13:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: half-orm
+[2023-04-20 13:55:08] INFO root fetch - processPackages [digocli]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 13:55:08] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev3]
+[2023-04-20 13:55:08] INFO root fetch - processPackages [openapi-readme]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-20 13:55:08] WARNING root fetch - processPackages [orbit-database]: Skipping, unable to determine old version
+[2023-04-20 13:55:08] INFO root fetch - processPackages [orbit-database]: Start processing: plix-kws
+[2023-04-20 13:55:08] INFO root fetch - main [MainThread]: End processing [orbit-database] error
+[2023-04-20 13:55:08] INFO root fetch - processPackages [pyrealm]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-20 13:55:08] WARNING root fetch - processPackages [RELYBillAPIResponse]: Skipping, unable to determine old version
+[2023-04-20 13:55:08] INFO root fetch - processPackages [RELYBillAPIResponse]: Start processing: efel
+[2023-04-20 13:55:08] INFO root fetch - processPackages [apimapper]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-20 13:55:08] INFO root fetch - main [MainThread]: End processing [RELYBillAPIResponse] error
+[2023-04-20 13:55:08] WARNING root fetch - processPackages [plix-kws]: Skipping, unable to determine old version
+[2023-04-20 13:55:08] INFO root fetch - processPackages [plix-kws]: Start processing: dbt-coverage
+[2023-04-20 13:55:08] INFO root fetch - main [MainThread]: End processing [plix-kws] error
+[2023-04-20 13:55:08] INFO root fetch - processPackages [pyGuardPoint]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-04-20 13:55:08] INFO root fetch - processPackages [half-orm]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-04-20 13:55:08] INFO root fetch - processPackages [torcheval-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-20 13:55:08] INFO root fetch - processPackages [efel]: New version: [4.1.93] Old Version: [4.1.91]
+[2023-04-20 13:55:08] INFO root fetch - processPackages [dbt-coverage]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-20 13:55:08] INFO root fetch - processPackages [pyrealm]: Downloading https://files.pythonhosted.org/packages/d8/29/8342e3e2000d6ba9596c306918758a600e103af9e9cd3934002f12a9b2c5/pyrealm-0.8.1.tar.gz
+[2023-04-20 13:55:08] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2023-04-20 13:55:08] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2023.4.8.tar.gz tmp/torcheval-nightly-2023.4.9.tar.gz --markdown 20230420/t/torcheval-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-20 13:55:08] INFO root fetch - processPackages [digocli]: Downloading https://files.pythonhosted.org/packages/8b/d5/c91a5b46979996a0fed52c38becddbf20cba649f94b3150b8c87bab9d8bd/digocli-0.0.1.tar.gz
+[2023-04-20 13:55:08] INFO root fetch - processPackages [openapi-readme]: Downloading https://files.pythonhosted.org/packages/ac/19/eee0c9bd9d1720270db979fdba3aff44d287dab69c8dd72e95ec75e2c4ed/openapi_readme-0.2.1.tar.gz
+[2023-04-20 13:55:08] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx]: Downloading https://files.pythonhosted.org/packages/9d/fe/e984e32fd783214e465be4f540e80ce82d702f2a8118ff5e92fd1dd77d1f/odoo14_addon_mrp_flattened_bom_xlsx-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-04-20 13:55:08] INFO root fetch - processPackages [apimapper]: Downloading https://files.pythonhosted.org/packages/64/4d/33420db06049e628e212e597e281b55ac5c5a023bcee42c409cad6c04f59/apimapper-0.7.8.tar.gz
+[2023-04-20 13:55:08] INFO root fetch - processPackages [half-orm]: Downloading https://files.pythonhosted.org/packages/58/d8/688c93ee7461c7d0b710ecd3b69dedbc483ade3b5105530d223f5d76f709/half_orm-0.8.0rc8.tar.gz
+[2023-04-20 13:55:08] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/52/bb/4103b9b174c82b42a5489735159c335b02bc7fd7410d51aeb52955062c62/pyGuardPoint-0.8.6.tar.gz
+[2023-04-20 13:55:08] INFO root fetch - processPackages [pyGuardPoint]: executing diffoscope
+[2023-04-20 13:55:08] INFO root fetch - processPackages [pyGuardPoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGuardPoint-0.8.5.tar.gz tmp/pyGuardPoint-0.8.6.tar.gz --markdown 20230420/p/pyGuardPoint/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-04-20 13:55:08] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/24/df/8560cd38380343a44c6723ac3b5976819ba374352fb13ca609ff2fdff0f1/efel-4.1.93.tar.gz
+[2023-04-20 13:55:09] INFO root fetch - processPackages [dbt-coverage]: Downloading https://files.pythonhosted.org/packages/78/c9/27c5dffceabeac5575bbc970655adf46de484209519f8d33afc10f78e340/dbt-coverage-0.3.2.tar.gz
+[2023-04-20 13:55:09] INFO root fetch - processPackages [pyrealm]: Downloading https://files.pythonhosted.org/packages/84/be/97c4da4ae126f9785912896f27da4a25012df20c30cf68476ea85aa27439/pyrealm-0.9.0.tar.gz
+[2023-04-20 13:55:09] INFO root fetch - processPackages [openapi-readme]: Downloading https://files.pythonhosted.org/packages/04/7b/51741f82c51a87be6a4373b12a45c5205c28e5292ff0b9b9054a6057f4c8/openapi_readme-0.2.2.tar.gz
+[2023-04-20 13:55:09] INFO root fetch - processPackages [digocli]: Downloading https://files.pythonhosted.org/packages/40/88/a731c9872c7531899f9fde4f3e0fa0f74c05aff743c8c948a733bd08d0e9/digocli-0.0.2.tar.gz
+[2023-04-20 13:55:09] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx]: Downloading https://files.pythonhosted.org/packages/cd/71/d774efd76685a66cd11de099c0c456d1b92faaf01fb146d99e213e1dcbc7/odoo14_addon_mrp_flattened_bom_xlsx-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-04-20 13:55:09] INFO root fetch - processPackages [apimapper]: Downloading https://files.pythonhosted.org/packages/68/c6/eab4525895270166631c93dcf55687b5bd0b37e5f83be5b2445fd2488628/apimapper-0.7.9.tar.gz
+[2023-04-20 13:55:09] INFO root fetch - processPackages [pyrealm]: executing diffoscope
+[2023-04-20 13:55:09] INFO root fetch - processPackages [pyrealm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrealm-0.8.1.tar.gz tmp/pyrealm-0.9.0.tar.gz --markdown 20230420/p/pyrealm/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 13:55:09] INFO root fetch - processPackages [efel]: executing diffoscope
+[2023-04-20 13:55:09] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-4.1.91.tar.gz tmp/efel-4.1.93.tar.gz --markdown 20230420/e/efel/4.1.91-4.1.93/diff.md --exclude *.pyd
+[2023-04-20 13:55:09] INFO root fetch - processPackages [openapi-readme]: executing diffoscope
+[2023-04-20 13:55:09] INFO root fetch - processPackages [openapi-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_readme-0.2.1.tar.gz tmp/openapi_readme-0.2.2.tar.gz --markdown 20230420/o/openapi-readme/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-20 13:55:09] INFO root fetch - processPackages [digocli]: executing diffoscope
+[2023-04-20 13:55:09] INFO root fetch - processPackages [digocli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digocli-0.0.1.tar.gz tmp/digocli-0.0.2.tar.gz --markdown 20230420/d/digocli/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 13:55:09] INFO root fetch - processPackages [half-orm]: Downloading https://files.pythonhosted.org/packages/d0/56/92e9ae04b481d755ec8fbdbe357d4d6dfabd7b7c8538865d3d33b92de278/half_orm-0.8.0rc9.tar.gz
+[2023-04-20 13:55:09] INFO root fetch - processPackages [apimapper]: executing diffoscope
+[2023-04-20 13:55:09] INFO root fetch - processPackages [apimapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimapper-0.7.8.tar.gz tmp/apimapper-0.7.9.tar.gz --markdown 20230420/a/apimapper/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-20 13:55:09] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx]: executing diffoscope
+[2023-04-20 13:55:09] INFO root fetch - processPackages [odoo14-addon-mrp-flattened-bom-xlsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_flattened_bom_xlsx-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_mrp_flattened_bom_xlsx-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230420/o/odoo14-addon-mrp-flattened-bom-xlsx/14.0.1.0.1.dev3-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-04-20 13:55:09] INFO root fetch - processPackages [dbt-coverage]: Downloading https://files.pythonhosted.org/packages/e1/fb/6e2c69d66c9ff2293691fdb84e06d5f982faf3cd95535a43f060027d411b/dbt_coverage-0.3.3.tar.gz
+[2023-04-20 13:55:09] INFO root fetch - processPackages [half-orm]: executing diffoscope
+[2023-04-20 13:55:09] INFO root fetch - processPackages [half-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/half_orm-0.8.0rc8.tar.gz tmp/half_orm-0.8.0rc9.tar.gz --markdown 20230420/h/half-orm/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-04-20 13:55:09] INFO root fetch - processPackages [dbt-coverage]: executing diffoscope
+[2023-04-20 13:55:09] INFO root fetch - processPackages [dbt-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-coverage-0.3.2.tar.gz tmp/dbt_coverage-0.3.3.tar.gz --markdown 20230420/d/dbt-coverage/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-20 13:55:10] INFO root fetch - processPackages [openapi-readme]: Start processing: digocli
+[2023-04-20 13:55:10] INFO root fetch - main [MainThread]: End processing [openapi-readme]: success
+[2023-04-20 13:55:10] INFO root fetch - main [MainThread]: End processing [pyGuardPoint]: success
+[2023-04-20 13:55:10] INFO root fetch - processPackages [digocli]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 13:55:10] INFO root fetch - processPackages [digocli]: Downloading https://files.pythonhosted.org/packages/bd/cb/c797c2a6713cd78f56d152338514768e969d26e042729a40eb84b7e5319d/digocli-0.0.3.tar.gz
+[2023-04-20 13:55:10] INFO root fetch - main [MainThread]: End processing [apimapper]: success
+[2023-04-20 13:55:11] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2023-04-20 13:55:11] INFO root fetch - processPackages [digocli]: executing diffoscope
+[2023-04-20 13:55:11] INFO root fetch - processPackages [digocli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digocli-0.0.2.tar.gz tmp/digocli-0.0.3.tar.gz --markdown 20230420/d/digocli/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 13:55:11] INFO root fetch - main [MainThread]: End processing [digocli]: success
+[2023-04-20 13:55:11] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2023-04-20 13:55:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-flattened-bom-xlsx]: success
+[2023-04-20 13:55:11] INFO root fetch - main [MainThread]: End processing [dbt-coverage]: success
+[2023-04-20 13:55:11] INFO root fetch - main [MainThread]: End processing [pyrealm]: success
+[2023-04-20 13:55:12] INFO root fetch - main [MainThread]: End processing [digocli]: success
+[2023-04-20 13:55:12] INFO root fetch - main [MainThread]: End processing [half-orm]: success
+[2023-04-20 13:55:12] INFO root fetch - main [MainThread]: Store serial: [17786571]
