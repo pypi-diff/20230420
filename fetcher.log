@@ -22023,3 +22023,71 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 19:08:27] INFO root fetch - main [MainThread]: End processing [imagen-pytorch]: success
 [2023-04-20 19:08:27] INFO root fetch - main [MainThread]: End processing [devex-sdk]: success
 [2023-04-20 19:08:27] INFO root fetch - main [MainThread]: Store serial: [17790575]
+[2023-04-20 19:13:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790575]
+[2023-04-20 19:13:36] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-20 19:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiopinecone
+[2023-04-20 19:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiogram-ext
+[2023-04-20 19:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audiolm-pytorch
+[2023-04-20 19:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mapchete
+[2023-04-20 19:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skyndo
+[2023-04-20 19:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: great-expectations
+[2023-04-20 19:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mango-explorer-v4
+[2023-04-20 19:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aliendev-cdk
+[2023-04-20 19:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastllama
+[2023-04-20 19:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apimoex
+[2023-04-20 19:13:36] INFO root fetch - processPackages [mango-explorer-v4]: New version: [0.7.3] Old Version: [0.7.1]
+[2023-04-20 19:13:36] INFO root fetch - processPackages [audiolm-pytorch]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-20 19:13:36] WARNING root fetch - processPackages [skyndo]: Skipping, unable to determine old version
+[2023-04-20 19:13:36] INFO root fetch - processPackages [skyndo]: Start processing: pySCIL
+[2023-04-20 19:13:36] INFO root fetch - main [MainThread]: End processing [skyndo] error
+[2023-04-20 19:13:36] INFO root fetch - processPackages [aiogram-ext]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-20 19:13:36] INFO root fetch - processPackages [mapchete]: New version: [2023.4.1] Old Version: [2023.4.0]
+[2023-04-20 19:13:36] INFO root fetch - processPackages [aiopinecone]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 19:13:36] INFO root fetch - processPackages [aliendev-cdk]: New version: [0.1.29] Old Version: [0.1.28]
+[2023-04-20 19:13:36] INFO root fetch - processPackages [great-expectations]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-20 19:13:36] WARNING root fetch - processPackages [fastllama]: Skipping, unable to determine old version
+[2023-04-20 19:13:36] INFO root fetch - processPackages [fastllama]: Start processing: swsh
+[2023-04-20 19:13:36] INFO root fetch - main [MainThread]: End processing [fastllama] error
+[2023-04-20 19:13:36] INFO root fetch - processPackages [mango-explorer-v4]: executing diffoscope
+[2023-04-20 19:13:36] INFO root fetch - processPackages [mango-explorer-v4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_explorer_v4-0.7.1.tar.gz tmp/mango_explorer_v4-0.7.3.tar.gz --markdown 20230420/m/mango-explorer-v4/0.7.1-0.7.3/diff.md --exclude *.pyd
+[2023-04-20 19:13:36] INFO root fetch - processPackages [apimoex]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-20 19:13:36] INFO root fetch - processPackages [aliendev-cdk]: executing diffoscope
+[2023-04-20 19:13:36] INFO root fetch - processPackages [aliendev-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliendev_cdk-0.1.28.tar.gz tmp/aliendev_cdk-0.1.29.tar.gz --markdown 20230420/a/aliendev-cdk/0.1.28-0.1.29/diff.md --exclude *.pyd
+[2023-04-20 19:13:36] INFO root fetch - processPackages [pySCIL]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 19:13:36] INFO root fetch - processPackages [mapchete]: Downloading https://files.pythonhosted.org/packages/85/e4/87bf0073ee44b66a5dc6905219ffad46a03d13bead3ad2d6a3e75c9b2006/mapchete-2023.4.1.tar.gz
+[2023-04-20 19:13:36] INFO root fetch - processPackages [swsh]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 19:13:36] INFO root fetch - processPackages [aiogram-ext]: Downloading https://files.pythonhosted.org/packages/09/bd/efe30db010c96290db9bfb03b3eb0e298d139b1291a80cd952376c900823/aiogram-ext-0.1.0.tar.gz
+[2023-04-20 19:13:36] INFO root fetch - processPackages [great-expectations]: Downloading https://files.pythonhosted.org/packages/47/f9/dcddfa5c9fd3ddae9ea13c325f2f1f83ac4f7865b731786cfd7cb00dba22/great_expectations-0.9.8.tar.gz
+[2023-04-20 19:13:36] INFO root fetch - processPackages [apimoex]: Downloading https://files.pythonhosted.org/packages/4e/6f/bcaeb18145316bca5d4a61c3f4aec0994f0e04361174e3ded84243bf61f9/apimoex-1.2.0.tar.gz
+[2023-04-20 19:13:36] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-04-20 19:13:36] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-0.9.6.tar.gz tmp/audiolm-pytorch-0.9.7.tar.gz --markdown 20230420/a/audiolm-pytorch/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-20 19:13:36] INFO root fetch - processPackages [pySCIL]: Downloading https://files.pythonhosted.org/packages/d4/81/46290deddd2065290310df31c6ccc68c08951324f38af0d1e5c189faab00/pySCIL-0.0.8.tar.gz
+[2023-04-20 19:13:36] INFO root fetch - processPackages [aiopinecone]: Downloading https://files.pythonhosted.org/packages/f2/7a/9b31a4f6bddb4a027ff12428bd77d34dd4cb1ca5b72715076a5fa55a9897/aiopinecone-0.1.3.tar.gz
+[2023-04-20 19:13:36] INFO root fetch - processPackages [mapchete]: executing diffoscope
+[2023-04-20 19:13:36] INFO root fetch - processPackages [mapchete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapchete-2023.4.0.tar.gz tmp/mapchete-2023.4.1.tar.gz --markdown 20230420/m/mapchete/2023.4.0-2023.4.1/diff.md --exclude *.pyd
+[2023-04-20 19:13:36] INFO root fetch - processPackages [swsh]: Downloading https://files.pythonhosted.org/packages/53/10/6edaf18795de1e3d8896fd1f37c13e21801d791400812387fb857092fa72/swsh-0.1.8.tar.gz
+[2023-04-20 19:13:36] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-20 19:13:36] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.0.9.tar.gz tmp/aiogram-ext-0.1.0.tar.gz --markdown 20230420/a/aiogram-ext/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-20 19:13:36] INFO root fetch - processPackages [aiopinecone]: executing diffoscope
+[2023-04-20 19:13:36] INFO root fetch - processPackages [aiopinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopinecone-0.1.2.tar.gz tmp/aiopinecone-0.1.3.tar.gz --markdown 20230420/a/aiopinecone/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 19:13:36] INFO root fetch - processPackages [great-expectations]: Downloading https://files.pythonhosted.org/packages/8b/d0/2c9c16bde554a9df7f053fa3684f89779f6d9543e24eccfc88fbebdaa8a1/great_expectations-0.9.9.tar.gz
+[2023-04-20 19:13:36] INFO root fetch - processPackages [apimoex]: Downloading https://files.pythonhosted.org/packages/cc/51/e70fb4450e37f3d297c7949a57f3e6bed9c128292f2bc4c821644f056dac/apimoex-1.3.0.tar.gz
+[2023-04-20 19:13:37] INFO root fetch - processPackages [swsh]: Downloading https://files.pythonhosted.org/packages/ee/3f/a38c2e3e2022695fa08541e58af486a0cf7dc80e568fc36c25c699bff89e/swsh-0.1.9.tar.gz
+[2023-04-20 19:13:37] WARNING root fetch - processPackages [pySCIL]: Skipping package: exceeds size limit 21562900>=10485760
+[2023-04-20 19:13:37] INFO root fetch - main [MainThread]: End processing [pySCIL] error
+[2023-04-20 19:13:37] INFO root fetch - processPackages [great-expectations]: executing diffoscope
+[2023-04-20 19:13:37] INFO root fetch - processPackages [great-expectations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations-0.9.8.tar.gz tmp/great_expectations-0.9.9.tar.gz --markdown 20230420/g/great-expectations/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-20 19:13:37] INFO root fetch - processPackages [swsh]: executing diffoscope
+[2023-04-20 19:13:37] INFO root fetch - processPackages [swsh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swsh-0.1.8.tar.gz tmp/swsh-0.1.9.tar.gz --markdown 20230420/s/swsh/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 19:13:37] INFO root fetch - processPackages [apimoex]: executing diffoscope
+[2023-04-20 19:13:37] INFO root fetch - processPackages [apimoex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimoex-1.2.0.tar.gz tmp/apimoex-1.3.0.tar.gz --markdown 20230420/a/apimoex/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-20 19:13:37] INFO root fetch - main [MainThread]: End processing [aliendev-cdk]: success
+[2023-04-20 19:13:38] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-04-20 19:13:38] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-20 19:13:38] INFO root fetch - main [MainThread]: End processing [aiopinecone]: success
+[2023-04-20 19:13:38] INFO root fetch - main [MainThread]: End processing [mango-explorer-v4]: success
+[2023-04-20 19:13:38] INFO root fetch - main [MainThread]: End processing [apimoex]: success
+[2023-04-20 19:13:38] INFO root fetch - main [MainThread]: End processing [mapchete]: success
+[2023-04-20 19:13:38] INFO root fetch - main [MainThread]: End processing [swsh]: success
+[2023-04-20 19:13:43] INFO root fetch - main [MainThread]: End processing [great-expectations]: success
+[2023-04-20 19:13:43] INFO root fetch - main [MainThread]: Store serial: [17790615]
