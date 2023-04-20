@@ -1485,3 +1485,104 @@
 [2023-04-20 01:59:36] INFO root fetch - main [MainThread]: End processing [neon-enclosure]: success
 [2023-04-20 01:59:36] INFO root fetch - main [MainThread]: End processing [python-project-structure]: success
 [2023-04-20 01:59:36] INFO root fetch - main [MainThread]: Store serial: [17778493]
+[2023-04-20 02:04:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17778493]
+[2023-04-20 02:04:45] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-20 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytreeclass
+[2023-04-20 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remindmail
+[2023-04-20 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplestapi
+[2023-04-20 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-tools
+[2023-04-20 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-aws-static-website
+[2023-04-20 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poc-poetry-partifact-plugin
+[2023-04-20 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: astrodown
+[2023-04-20 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: breathXplorer
+[2023-04-20 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nerv
+[2023-04-20 02:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-ping
+[2023-04-20 02:04:45] INFO root fetch - processPackages [pytreeclass]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-04-20 02:04:45] INFO root fetch - processPackages [pulumi-aws-static-website]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-20 02:04:45] INFO root fetch - processPackages [simplestapi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-20 02:04:45] INFO root fetch - processPackages [remindmail]: New version: [2023.4.2.2] Old Version: [2023.4.2.1]
+[2023-04-20 02:04:45] INFO root fetch - processPackages [breathXplorer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 02:04:45] INFO root fetch - processPackages [np-tools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-20 02:04:45] WARNING root fetch - processPackages [nerv]: Skipping, unable to determine old version
+[2023-04-20 02:04:45] INFO root fetch - processPackages [nerv]: Start processing: e2eAIOK
+[2023-04-20 02:04:45] INFO root fetch - processPackages [nonebot-plugin-ping]: New version: [1.6.4] Old Version: [1.5.4]
+[2023-04-20 02:04:45] INFO root fetch - processPackages [astrodown]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 02:04:45] INFO root fetch - main [MainThread]: End processing [nerv] error
+[2023-04-20 02:04:45] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-20 02:04:45] INFO root fetch - processPackages [e2eAIOK]: New version: [1.0.1b2023042000] Old Version: [1.0.1b2023041900]
+[2023-04-20 02:04:45] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-04-20 02:04:45] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.4.2.1.tar.gz tmp/remindmail-2023.4.2.2.tar.gz --markdown 20230420/r/remindmail/2023.4.2.1-2023.4.2.2/diff.md --exclude *.pyd
+[2023-04-20 02:04:45] INFO root fetch - processPackages [astrodown]: executing diffoscope
+[2023-04-20 02:04:45] INFO root fetch - processPackages [astrodown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrodown-0.1.8.tar.gz tmp/astrodown-0.1.9.tar.gz --markdown 20230420/a/astrodown/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 02:04:45] INFO root fetch - processPackages [simplestapi]: Downloading https://files.pythonhosted.org/packages/db/34/2346624418d2629cac490ab88465fb2b579ee09c478823bfa4c31ce33bc3/simplestapi-0.1.4.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [pulumi-aws-static-website]: Downloading https://files.pythonhosted.org/packages/19/c6/d298e0846c81771d548c1f456a340f6eb69123d70537fa3543c7ff3e22d3/pulumi_aws_static_website-0.3.0.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [nonebot-plugin-ping]: Downloading https://files.pythonhosted.org/packages/cf/3a/03d1e090d0279ea6811570a3260f7ac573663b65c1b7ff61f0ff979852b8/nonebot_plugin_ping-1.5.4.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [breathXplorer]: Downloading https://files.pythonhosted.org/packages/45/43/8c9c2010ff8b1feb8592bd3c05d69cd24ec3bc1b290efde4a3b885b81a8d/breathXplorer-0.1.2.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: Downloading https://files.pythonhosted.org/packages/34/9d/658e53ee97c5c470d907e1272fae14f639f2bac6b5c5a9fc4322b29b37d8/poc_poetry_partifact_plugin-0.1.0.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [e2eAIOK]: Downloading https://files.pythonhosted.org/packages/fe/8d/7fce97ae2dfeb1e59a9c0f4933eaa11921806fcf890e46d18b5112b2b2f8/e2eAIOK-1.0.1b2023041900.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [np-tools]: Downloading https://files.pythonhosted.org/packages/5b/eb/a007d6ed82a8df24c64663e378ebc797afcba760f8a56a8c744e905d3b6f/np_tools-0.1.4.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [pytreeclass]: Downloading https://files.pythonhosted.org/packages/bc/bf/c81752210a8b13a59fab464769802d62ec2ef893c9e82c65acf57a98306c/pytreeclass-0.3.0.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [simplestapi]: Downloading https://files.pythonhosted.org/packages/a0/2c/5dab60901b77391edb8929125520dabc48ddafd136b772cab14ef47220ff/simplestapi-0.1.5.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [np-tools]: executing diffoscope
+[2023-04-20 02:04:45] INFO root fetch - processPackages [np-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_tools-0.1.3.tar.gz tmp/np_tools-0.1.4.tar.gz --markdown 20230420/n/np-tools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-20 02:04:45] INFO root fetch - processPackages [breathXplorer]: Downloading https://files.pythonhosted.org/packages/65/44/c4b5c0bdd65a7ff6ff935877bd067c5d8d17b26f055990f316b47eb8cbb1/breathXplorer-0.1.3.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [nonebot-plugin-ping]: Downloading https://files.pythonhosted.org/packages/05/1c/b57181963ded45fc9f50514e38f235339b1fb1bbc882d9642bd7f5ae86cf/nonebot_plugin_ping-1.6.4.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [pulumi-aws-static-website]: Downloading https://files.pythonhosted.org/packages/27/08/57eea52d544b4939e0cdcf84b8f600bc0e7bcd9653f81143ea5eae29acf5/pulumi_aws_static_website-0.4.0.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: Downloading https://files.pythonhosted.org/packages/51/22/cd14dcb8a7a5e386ec44d517cce2393820c1ef2af845852629e69ab83a39/poc_poetry_partifact_plugin-0.2.0.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [pytreeclass]: executing diffoscope
+[2023-04-20 02:04:45] INFO root fetch - processPackages [pytreeclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytreeclass-0.2.8.tar.gz tmp/pytreeclass-0.3.0.tar.gz --markdown 20230420/p/pytreeclass/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 02:04:45] INFO root fetch - processPackages [e2eAIOK]: Downloading https://files.pythonhosted.org/packages/cd/25/988f6d476efd9a956fc25713e5b1117ee11dc53d2c52b8d31aa918fc0690/e2eAIOK-1.0.1b2023042000.tar.gz
+[2023-04-20 02:04:45] INFO root fetch - processPackages [simplestapi]: executing diffoscope
+[2023-04-20 02:04:45] INFO root fetch - processPackages [simplestapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplestapi-0.1.4.tar.gz tmp/simplestapi-0.1.5.tar.gz --markdown 20230420/s/simplestapi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-20 02:04:45] INFO root fetch - processPackages [breathXplorer]: executing diffoscope
+[2023-04-20 02:04:45] INFO root fetch - processPackages [breathXplorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breathXplorer-0.1.2.tar.gz tmp/breathXplorer-0.1.3.tar.gz --markdown 20230420/b/breathXplorer/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 02:04:45] INFO root fetch - processPackages [nonebot-plugin-ping]: executing diffoscope
+[2023-04-20 02:04:45] INFO root fetch - processPackages [nonebot-plugin-ping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_ping-1.5.4.tar.gz tmp/nonebot_plugin_ping-1.6.4.tar.gz --markdown 20230420/n/nonebot-plugin-ping/1.5.4-1.6.4/diff.md --exclude *.pyd
+[2023-04-20 02:04:45] INFO root fetch - processPackages [pulumi-aws-static-website]: executing diffoscope
+[2023-04-20 02:04:45] INFO root fetch - processPackages [pulumi-aws-static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_static_website-0.3.0.tar.gz tmp/pulumi_aws_static_website-0.4.0.tar.gz --markdown 20230420/p/pulumi-aws-static-website/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-20 02:04:45] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: executing diffoscope
+[2023-04-20 02:04:45] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poc_poetry_partifact_plugin-0.1.0.tar.gz tmp/poc_poetry_partifact_plugin-0.2.0.tar.gz --markdown 20230420/p/poc-poetry-partifact-plugin/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 02:04:46] INFO root fetch - processPackages [e2eAIOK]: executing diffoscope
+[2023-04-20 02:04:46] INFO root fetch - processPackages [e2eAIOK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eAIOK-1.0.1b2023041900.tar.gz tmp/e2eAIOK-1.0.1b2023042000.tar.gz --markdown 20230420/e/e2eAIOK/1.0.1b2023041900-1.0.1b2023042000/diff.md --exclude *.pyd
+[2023-04-20 02:04:46] INFO root fetch - processPackages [remindmail]: Start processing: torchdatasets-nightly
+[2023-04-20 02:04:46] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-04-20 02:04:46] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1681862579] Old Version: [1681776194]
+[2023-04-20 02:04:47] INFO root fetch - processPackages [np-tools]: Start processing: odoo14-addon-hr-holidays-public
+[2023-04-20 02:04:47] INFO root fetch - main [MainThread]: End processing [np-tools]: success
+[2023-04-20 02:04:47] INFO root fetch - processPackages [odoo14-addon-hr-holidays-public]: New version: [14.0.2.1.2.dev3] Old Version: [14.0.2.1.2.dev2]
+[2023-04-20 02:04:47] INFO root fetch - processPackages [astrodown]: Start processing: e2eAIOK-sda
+[2023-04-20 02:04:47] INFO root fetch - main [MainThread]: End processing [astrodown]: success
+[2023-04-20 02:04:47] INFO root fetch - processPackages [e2eAIOK-sda]: New version: [1.0.1b2023041900] Old Version: [1.0.1b2023041800]
+[2023-04-20 02:04:47] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/c8/8c/9d628a3c298c7a1b816257ffecfa10d4e08b26bd0e26e4d6c8874716e41a/torchdatasets-nightly-1681862579.tar.gz
+[2023-04-20 02:04:47] INFO root fetch - processPackages [odoo14-addon-hr-holidays-public]: Downloading https://files.pythonhosted.org/packages/03/3b/64700594ae1a3350a9246b8037f54d5a344ed0c2ea0adcbbaa17b9e05815/odoo14_addon_hr_holidays_public-14.0.2.1.2.dev2-py3-none-any.whl
+[2023-04-20 02:04:47] INFO root fetch - processPackages [e2eAIOK-sda]: executing diffoscope
+[2023-04-20 02:04:47] INFO root fetch - processPackages [e2eAIOK-sda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eAIOK_sda-1.0.1b2023041800-py3-none-any.whl.zip tmp/e2eAIOK_sda-1.0.1b2023041900-py3-none-any.whl.zip --markdown 20230420/e/e2eAIOK-sda/1.0.1b2023041800-1.0.1b2023041900/diff.md --exclude *.pyd
+[2023-04-20 02:04:47] INFO root fetch - processPackages [simplestapi]: Start processing: mct-nightly
+[2023-04-20 02:04:47] INFO root fetch - main [MainThread]: End processing [simplestapi]: success
+[2023-04-20 02:04:47] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9042023.post411] Old Version: [1.8.0.9032023.post431]
+[2023-04-20 02:04:47] INFO root fetch - processPackages [nonebot-plugin-ping]: Start processing: crowdcores-node
+[2023-04-20 02:04:47] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-04-20 02:04:47] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ping]: success
+[2023-04-20 02:04:47] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1681776194.tar.gz tmp/torchdatasets-nightly-1681862579.tar.gz --markdown 20230420/t/torchdatasets-nightly/1681776194-1681862579/diff.md --exclude *.pyd
+[2023-04-20 02:04:47] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: Start processing: growtopia.py
+[2023-04-20 02:04:47] INFO root fetch - main [MainThread]: End processing [poc-poetry-partifact-plugin]: success
+[2023-04-20 02:04:47] INFO root fetch - processPackages [crowdcores-node]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-04-20 02:04:47] WARNING root fetch - processPackages [growtopia.py]: Skipping, unable to determine old version
+[2023-04-20 02:04:47] INFO root fetch - main [MainThread]: End processing [growtopia.py] error
+[2023-04-20 02:04:47] INFO root fetch - main [MainThread]: End processing [breathXplorer]: success
+[2023-04-20 02:04:47] INFO root fetch - processPackages [crowdcores-node]: executing diffoscope
+[2023-04-20 02:04:47] INFO root fetch - processPackages [crowdcores-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdcores-node-1.0.9.tar.gz tmp/crowdcores-node-1.1.0.tar.gz --markdown 20230420/c/crowdcores-node/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-04-20 02:04:47] INFO root fetch - main [MainThread]: End processing [pytreeclass]: success
+[2023-04-20 02:04:47] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-04-20 02:04:47] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9032023.post431.tar.gz tmp/mct-nightly-1.8.0.9042023.post411.tar.gz --markdown 20230420/m/mct-nightly/1.8.0.9032023.post431-1.8.0.9042023.post411/diff.md --exclude *.pyd
+[2023-04-20 02:04:47] INFO root fetch - processPackages [odoo14-addon-hr-holidays-public]: Downloading https://files.pythonhosted.org/packages/36/ca/ab09981d9adabf5b51561b4af8c5b1bf1feccfc7b98d4fddfc3a4c0c9079/odoo14_addon_hr_holidays_public-14.0.2.1.2.dev3-py3-none-any.whl
+[2023-04-20 02:04:47] INFO root fetch - processPackages [odoo14-addon-hr-holidays-public]: executing diffoscope
+[2023-04-20 02:04:47] INFO root fetch - processPackages [odoo14-addon-hr-holidays-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_holidays_public-14.0.2.1.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_hr_holidays_public-14.0.2.1.2.dev3-py3-none-any.whl.zip --markdown 20230420/o/odoo14-addon-hr-holidays-public/14.0.2.1.2.dev2-14.0.2.1.2.dev3/diff.md --exclude *.pyd
+[2023-04-20 02:04:48] INFO root fetch - main [MainThread]: End processing [pulumi-aws-static-website]: success
+[2023-04-20 02:04:48] INFO root fetch - main [MainThread]: End processing [crowdcores-node]: success
+[2023-04-20 02:04:48] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-04-20 02:04:48] INFO root fetch - main [MainThread]: End processing [e2eAIOK-sda]: success
+[2023-04-20 02:04:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-holidays-public]: success
+[2023-04-20 02:04:50] INFO root fetch - main [MainThread]: End processing [e2eAIOK]: success
+[2023-04-20 02:04:54] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-04-20 02:04:54] INFO root fetch - main [MainThread]: Store serial: [17778538]
