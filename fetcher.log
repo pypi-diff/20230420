@@ -10830,3 +10830,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 10:38:14] INFO root fetch - main [MainThread]: End processing [azure-mgmt-applicationinsights]: success
 [2023-04-20 10:38:30] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-20 10:38:30] INFO root fetch - main [MainThread]: Store serial: [17783893]
+[2023-04-20 10:43:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783893]
+[2023-04-20 10:43:40] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-estimator-nightly
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doxysphinx
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datumaro
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mage-ai
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nlptest
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinybird-cli
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ec2-demo
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mango-library
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccxt
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ncbimetadata
+[2023-04-20 10:43:40] INFO root fetch - processPackages [nlptest]: New version: [1.0.2rc2] Old Version: [1.0.2rc1]
+[2023-04-20 10:43:40] INFO root fetch - processPackages [doxysphinx]: New version: [3.3.0] Old Version: [3.2.3]
+[2023-04-20 10:43:40] INFO root fetch - processPackages [mango-library]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-04-20 10:43:40] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ncbimetadata]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ec2-demo]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-20 10:43:40] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-04-20 10:43:40] INFO root fetch - processPackages [datumaro]: New version: [1.2.0rc3] Old Version: [1.2.0rc2]
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ccxt]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-04-20 10:43:40] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-04-20 10:43:40] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-04-20 10:43:40] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230420/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ncbimetadata]: Downloading https://files.pythonhosted.org/packages/89/c7/9746defaa0812d0f80c635a5774958cbefb70eeb963dc1fc83d28e76f4f9/ncbimetadata-0.0.2.tar.gz
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.8.tar.gz tmp/ccxt-3.0.9.tar.gz --markdown 20230420/c/ccxt/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-04-20 10:43:40] INFO root fetch - processPackages [doxysphinx]: Downloading https://files.pythonhosted.org/packages/7a/5e/5b4e35ec1e0f97a05e4775a562e6f1a85173053cae2457846f326b049378/doxysphinx-3.2.3.tar.gz
+[2023-04-20 10:43:40] INFO root fetch - processPackages [mango-library]: Downloading https://files.pythonhosted.org/packages/03/5b/1129a1b3dd0e077fe1602688bda3e9e6995e58b6fb66eb2de59c96819192/mango-library-0.2.0.tar.gz
+[2023-04-20 10:43:40] INFO root fetch - processPackages [nlptest]: Downloading https://files.pythonhosted.org/packages/e7/87/b5671c2f701b7fad4285a8bf78dd841b9246a4c9f734bc6be8816ac543bb/nlptest-1.0.2rc1.tar.gz
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ec2-demo]: Downloading https://files.pythonhosted.org/packages/25/41/1d991305ce73101336f4f6750596a5745bf855cba1e0d94f66c681827220/ec2-demo-0.1.7.tar.gz
+[2023-04-20 10:43:40] WARNING root fetch - processPackages [nlptest]: Skipping package: exceeds size limit 48517851>=10485760
+[2023-04-20 10:43:40] INFO root fetch - processPackages [nlptest]: Start processing: RiskQuantLib
+[2023-04-20 10:43:40] INFO root fetch - main [MainThread]: End processing [nlptest] error
+[2023-04-20 10:43:40] INFO root fetch - processPackages [RiskQuantLib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ec2-demo]: executing diffoscope
+[2023-04-20 10:43:40] INFO root fetch - processPackages [ec2-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec2-demo-0.1.6.tar.gz tmp/ec2-demo-0.1.7.tar.gz --markdown 20230420/e/ec2-demo/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-20 10:43:40] INFO root fetch - processPackages [doxysphinx]: Downloading https://files.pythonhosted.org/packages/9e/cc/662a586105223a1445f5fd407279554718500bd65a29136070143862ad1b/doxysphinx-3.3.0.tar.gz
+[2023-04-20 10:43:41] INFO root fetch - processPackages [mango-library]: Downloading https://files.pythonhosted.org/packages/54/16/f925ee3d4c2c8ac99d046d6add333768e274c0f22f2e8ea98aeed03f3a42/mango-library-1.0.0.tar.gz
+[2023-04-20 10:43:41] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-04-20 10:43:41] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.8.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230420/m/mage-ai/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-20 10:43:41] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2023-04-20 10:43:41] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.2.0rc2.tar.gz tmp/datumaro-1.2.0rc3.tar.gz --markdown 20230420/d/datumaro/1.2.0rc2-1.2.0rc3/diff.md --exclude *.pyd
+[2023-04-20 10:43:41] INFO root fetch - processPackages [ncbimetadata]: Downloading https://files.pythonhosted.org/packages/d1/5b/8636d1f7050502ba729aa60ed6deef8118fc31f71b0eed52b15cee31cba2/ncbimetadata-0.0.3.tar.gz
+[2023-04-20 10:43:41] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-04-20 10:43:41] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230420/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-04-20 10:43:41] INFO root fetch - processPackages [mango-library]: executing diffoscope
+[2023-04-20 10:43:41] INFO root fetch - processPackages [mango-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-library-0.2.0.tar.gz tmp/mango-library-1.0.0.tar.gz --markdown 20230420/m/mango-library/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-20 10:43:41] INFO root fetch - processPackages [doxysphinx]: executing diffoscope
+[2023-04-20 10:43:41] INFO root fetch - processPackages [doxysphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doxysphinx-3.2.3.tar.gz tmp/doxysphinx-3.3.0.tar.gz --markdown 20230420/d/doxysphinx/3.2.3-3.3.0/diff.md --exclude *.pyd
+[2023-04-20 10:43:41] INFO root fetch - processPackages [ncbimetadata]: executing diffoscope
+[2023-04-20 10:43:41] INFO root fetch - processPackages [ncbimetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbimetadata-0.0.2.tar.gz tmp/ncbimetadata-0.0.3.tar.gz --markdown 20230420/n/ncbimetadata/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 10:43:41] INFO root fetch - processPackages [RiskQuantLib]: executing diffoscope
+[2023-04-20 10:43:41] INFO root fetch - processPackages [RiskQuantLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RiskQuantLib-0.2.8.tar.gz tmp/RiskQuantLib-0.2.9.tar.gz --markdown 20230420/R/RiskQuantLib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 10:43:42] INFO root fetch - processPackages [ec2-demo]: Start processing: piperider
+[2023-04-20 10:43:42] INFO root fetch - main [MainThread]: End processing [ec2-demo]: success
+[2023-04-20 10:43:42] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-04-20 10:43:42] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-04-20 10:43:42] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230420/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-04-20 10:43:42] INFO root fetch - processPackages [ncbimetadata]: Start processing: tff-nightly
+[2023-04-20 10:43:42] INFO root fetch - main [MainThread]: End processing [ncbimetadata]: success
+[2023-04-20 10:43:42] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230419] Old Version: [0.0.1.dev20230418]
+[2023-04-20 10:43:42] INFO root fetch - processPackages [tinybird-cli]: Start processing: qontract-reconcile
+[2023-04-20 10:43:42] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-04-20 10:43:42] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-04-20 10:43:42] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230418-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230419-py2.py3-none-any.whl.zip --markdown 20230420/t/tff-nightly/0.0.1.dev20230418-0.0.1.dev20230419/diff.md --exclude *.pyd
+[2023-04-20 10:43:42] INFO root fetch - processPackages [mango-library]: Start processing: cfripper
+[2023-04-20 10:43:42] INFO root fetch - main [MainThread]: End processing [mango-library]: success
+[2023-04-20 10:43:42] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-20 10:43:43] INFO root fetch - main [MainThread]: End processing [doxysphinx]: success
+[2023-04-20 10:43:43] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-20 10:43:43] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230420/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-20 10:43:43] INFO root fetch - processPackages [cfripper]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-20 10:43:43] INFO root fetch - main [MainThread]: End processing [RiskQuantLib]: success
+[2023-04-20 10:43:43] INFO root fetch - processPackages [cfripper]: Downloading https://files.pythonhosted.org/packages/7e/b8/27135e631d585413df61923101a24633f0adce406e9e3df5984d3cda5813/cfripper-1.8.0.tar.gz
+[2023-04-20 10:43:43] INFO root fetch - processPackages [cfripper]: Downloading https://files.pythonhosted.org/packages/ab/c7/aa701a4fcfb4d32ce745cfe7bc4c2b15afb9dd3b08b5fa7d981ab2e98dd2/cfripper-1.9.0.tar.gz
+[2023-04-20 10:43:43] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-04-20 10:43:43] INFO root fetch - processPackages [cfripper]: executing diffoscope
+[2023-04-20 10:43:43] INFO root fetch - processPackages [cfripper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfripper-1.8.0.tar.gz tmp/cfripper-1.9.0.tar.gz --markdown 20230420/c/cfripper/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 10:43:44] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2023-04-20 10:43:45] INFO root fetch - main [MainThread]: End processing [cfripper]: success
+[2023-04-20 10:43:46] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-04-20 10:43:46] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-04-20 10:43:46] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-04-20 10:43:48] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-20 10:43:52] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-04-20 10:43:52] INFO root fetch - main [MainThread]: Store serial: [17783939]
