@@ -15743,3 +15743,87 @@ EOFError: EOF read where object expected
 [2023-04-20 14:00:26] INFO root fetch - main [MainThread]: End processing [nr-metadata]: success
 [2023-04-20 14:00:28] INFO root fetch - main [MainThread]: End processing [commonground-api-common]: success
 [2023-04-20 14:00:28] INFO root fetch - main [MainThread]: Store serial: [17786638]
+[2023-04-20 14:05:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17786638]
+[2023-04-20 14:05:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-20 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataclasses-avroschema
+[2023-04-20 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpforecaster
+[2023-04-20 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nextcloudtalkbot
+[2023-04-20 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myUniquePythonPackageName
+[2023-04-20 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SciAssist
+[2023-04-20 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coredis
+[2023-04-20 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: catmux
+[2023-04-20 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Mongeasy
+[2023-04-20 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quantplay
+[2023-04-20 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twinlab
+[2023-04-20 14:05:38] INFO root fetch - processPackages [SciAssist]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-04-20 14:05:38] INFO root fetch - processPackages [dataclasses-avroschema]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-20 14:05:38] INFO root fetch - processPackages [catmux]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-20 14:05:38] INFO root fetch - processPackages [nextcloudtalkbot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 14:05:38] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.106]
+[2023-04-20 14:05:38] INFO root fetch - processPackages [Mongeasy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-20 14:05:38] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-20 14:05:38] INFO root fetch - processPackages [twinlab]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-04-20 14:05:38] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-20 14:05:38] INFO root fetch - processPackages [coredis]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-04-20 14:05:38] INFO root fetch - processPackages [nextcloudtalkbot]: executing diffoscope
+[2023-04-20 14:05:38] INFO root fetch - processPackages [nextcloudtalkbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextcloudtalkbot-0.0.8.tar.gz tmp/nextcloudtalkbot-0.0.9.tar.gz --markdown 20230420/n/nextcloudtalkbot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 14:05:38] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-04-20 14:05:38] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.106.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230420/m/myUniquePythonPackageName/5.5.106-7.10.7/diff.md --exclude *.pyd
+[2023-04-20 14:05:38] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-04-20 14:05:38] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230420/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-20 14:05:38] INFO root fetch - processPackages [catmux]: Downloading https://files.pythonhosted.org/packages/d6/cf/4b00fb1f685bf286e636f44b168142d03cd90f224492f0a6b8b31bfa7968/catmux-0.3.1.tar.gz
+[2023-04-20 14:05:38] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/a5/fb/8ce4dad6fb68b86160ad36f9005f6f7f73f9fb007b588515fbe5a9d73588/dataclasses-avroschema-0.8.0.tar.gz
+[2023-04-20 14:05:38] INFO root fetch - processPackages [coredis]: Downloading https://files.pythonhosted.org/packages/9e/15/9498630a748dec93a44ce80042c02bf7978e61fd9f327ff91cdafe3f6552/coredis-4.8.3.tar.gz
+[2023-04-20 14:05:38] INFO root fetch - processPackages [twinlab]: executing diffoscope
+[2023-04-20 14:05:38] INFO root fetch - processPackages [twinlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinlab-0.0.1.tar.gz tmp/twinlab-1.0.0.tar.gz --markdown 20230420/t/twinlab/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-20 14:05:38] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-04-20 14:05:38] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.8.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230420/g/gpforecaster/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-20 14:05:38] INFO root fetch - processPackages [SciAssist]: Downloading https://files.pythonhosted.org/packages/a3/16/92616135cda3d7696b82a2544eaaebd16d6f391601865e1ed91caea2232c/SciAssist-0.0.31.tar.gz
+[2023-04-20 14:05:38] INFO root fetch - processPackages [Mongeasy]: Downloading https://files.pythonhosted.org/packages/7b/77/7253c3636c3ba78bf0ece8b583f12fd12c9c7ceea8412d7db3e9c994b322/Mongeasy-0.1.6.tar.gz
+[2023-04-20 14:05:38] INFO root fetch - processPackages [catmux]: Downloading https://files.pythonhosted.org/packages/72/e0/9f1c19ed71c5ba0c7038188e01b91f695d5df0e01aa23b3936bd0ce31c54/catmux-0.3.2.tar.gz
+[2023-04-20 14:05:38] INFO root fetch - processPackages [SciAssist]: executing diffoscope
+[2023-04-20 14:05:38] INFO root fetch - processPackages [SciAssist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SciAssist-0.0.30.tar.gz tmp/SciAssist-0.0.31.tar.gz --markdown 20230420/S/SciAssist/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-04-20 14:05:38] INFO root fetch - processPackages [Mongeasy]: executing diffoscope
+[2023-04-20 14:05:38] INFO root fetch - processPackages [Mongeasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mongeasy-0.1.5.tar.gz tmp/Mongeasy-0.1.6.tar.gz --markdown 20230420/M/Mongeasy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-20 14:05:38] INFO root fetch - processPackages [coredis]: Downloading https://files.pythonhosted.org/packages/cf/dc/6d8ed835ed3561c0e006b8e2719ac4acc5b2be330a6c40f810ea0b579237/coredis-4.9.0.tar.gz
+[2023-04-20 14:05:38] INFO root fetch - processPackages [dataclasses-avroschema]: Downloading https://files.pythonhosted.org/packages/d7/da/865deccd18dc91b8b341a76779391cca2ea3b77382020e10d3c3f44e53d3/dataclasses-avroschema-0.9.0.tar.gz
+[2023-04-20 14:05:38] INFO root fetch - processPackages [catmux]: executing diffoscope
+[2023-04-20 14:05:38] INFO root fetch - processPackages [catmux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catmux-0.3.1.tar.gz tmp/catmux-0.3.2.tar.gz --markdown 20230420/c/catmux/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-20 14:05:39] INFO root fetch - processPackages [coredis]: executing diffoscope
+[2023-04-20 14:05:39] INFO root fetch - processPackages [coredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coredis-4.8.3.tar.gz tmp/coredis-4.9.0.tar.gz --markdown 20230420/c/coredis/4.8.3-4.9.0/diff.md --exclude *.pyd
+[2023-04-20 14:05:39] INFO root fetch - processPackages [dataclasses-avroschema]: executing diffoscope
+[2023-04-20 14:05:39] INFO root fetch - processPackages [dataclasses-avroschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-avroschema-0.8.0.tar.gz tmp/dataclasses-avroschema-0.9.0.tar.gz --markdown 20230420/d/dataclasses-avroschema/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 14:05:40] INFO root fetch - processPackages [twinlab]: Start processing: quasimodo
+[2023-04-20 14:05:40] INFO root fetch - main [MainThread]: End processing [twinlab]: success
+[2023-04-20 14:05:40] INFO root fetch - processPackages [quasimodo]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-20 14:05:40] INFO root fetch - processPackages [gpforecaster]: Start processing: openapiart
+[2023-04-20 14:05:40] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-04-20 14:05:40] INFO root fetch - processPackages [openapiart]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 14:05:40] INFO root fetch - processPackages [myUniquePythonPackageName]: Start processing: molecule
+[2023-04-20 14:05:40] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-04-20 14:05:40] INFO root fetch - processPackages [molecule]: New version: [5.0.0a1] Old Version: [5.0.0a0]
+[2023-04-20 14:05:40] INFO root fetch - processPackages [openapiart]: executing diffoscope
+[2023-04-20 14:05:40] INFO root fetch - processPackages [openapiart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapiart-0.2.8.tar.gz tmp/openapiart-0.2.9.tar.gz --markdown 20230420/o/openapiart/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 14:05:40] INFO root fetch - processPackages [molecule]: executing diffoscope
+[2023-04-20 14:05:40] INFO root fetch - processPackages [molecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-5.0.0a0.tar.gz tmp/molecule-5.0.0a1.tar.gz --markdown 20230420/m/molecule/5.0.0a0-5.0.0a1/diff.md --exclude *.pyd
+[2023-04-20 14:05:40] INFO root fetch - processPackages [quasimodo]: Downloading https://files.pythonhosted.org/packages/b1/23/076793224b66c723652ba4649486713be96a8d222ed3bc29995e6db55adb/quasimodo-0.7.8.tar.gz
+[2023-04-20 14:05:40] INFO root fetch - processPackages [quasimodo]: Downloading https://files.pythonhosted.org/packages/27/9a/245b499df44ef380a62aeffd6fad10450020400cbc075af21999f1463940/quasimodo-0.7.9.tar.gz
+[2023-04-20 14:05:40] INFO root fetch - processPackages [Mongeasy]: Start processing: ChineseNumberUtils
+[2023-04-20 14:05:40] INFO root fetch - main [MainThread]: End processing [Mongeasy]: success
+[2023-04-20 14:05:40] INFO root fetch - main [MainThread]: End processing [catmux]: success
+[2023-04-20 14:05:40] INFO root fetch - main [MainThread]: End processing [dataclasses-avroschema]: success
+[2023-04-20 14:05:40] INFO root fetch - processPackages [quasimodo]: executing diffoscope
+[2023-04-20 14:05:40] INFO root fetch - processPackages [quasimodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quasimodo-0.7.8.tar.gz tmp/quasimodo-0.7.9.tar.gz --markdown 20230420/q/quasimodo/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-20 14:05:40] INFO root fetch - processPackages [ChineseNumberUtils]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-20 14:05:41] INFO root fetch - main [MainThread]: End processing [SciAssist]: success
+[2023-04-20 14:05:41] INFO root fetch - main [MainThread]: End processing [coredis]: success
+[2023-04-20 14:05:41] INFO root fetch - processPackages [ChineseNumberUtils]: Downloading https://files.pythonhosted.org/packages/b2/d3/1ba75f350248ad2191d808e4065266189a9990b75a0b40286d2847e215bf/ChineseNumberUtils-1.1.2.tar.gz
+[2023-04-20 14:05:41] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-04-20 14:05:41] INFO root fetch - processPackages [ChineseNumberUtils]: executing diffoscope
+[2023-04-20 14:05:41] INFO root fetch - processPackages [ChineseNumberUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChineseNumberUtils-1.1.1.tar.gz tmp/ChineseNumberUtils-1.1.2.tar.gz --markdown 20230420/C/ChineseNumberUtils/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-20 14:05:41] INFO root fetch - main [MainThread]: End processing [openapiart]: success
+[2023-04-20 14:05:42] INFO root fetch - main [MainThread]: End processing [quasimodo]: success
+[2023-04-20 14:05:42] INFO root fetch - main [MainThread]: End processing [ChineseNumberUtils]: success
+[2023-04-20 14:05:43] INFO root fetch - main [MainThread]: End processing [nextcloudtalkbot]: success
+[2023-04-20 14:05:43] INFO root fetch - main [MainThread]: End processing [molecule]: success
+[2023-04-20 14:05:43] INFO root fetch - main [MainThread]: Store serial: [17786703]
