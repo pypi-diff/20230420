@@ -20694,3 +20694,167 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 17:55:53] INFO root fetch - main [MainThread]: End processing [fhempy]: success
 [2023-04-20 17:58:09] INFO root fetch - main [MainThread]: End processing [mercury]: success
 [2023-04-20 17:58:09] INFO root fetch - main [MainThread]: Store serial: [17789628]
+[2023-04-20 18:03:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17789628]
+[2023-04-20 18:03:19] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-04-20 18:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcai-nova-server-nightly
+[2023-04-20 18:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-scw-instance
+[2023-04-20 18:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wicked-expressions
+[2023-04-20 18:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reliably-cli
+[2023-04-20 18:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-pipeline-package
+[2023-04-20 18:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-gitlab
+[2023-04-20 18:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: astrohack
+[2023-04-20 18:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hcai-nova-server-nightly
+[2023-04-20 18:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ufo2ft
+[2023-04-20 18:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mercury
+[2023-04-20 18:03:19] INFO root fetch - processPackages [reliably-cli]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-20 18:03:19] INFO root fetch - processPackages [mercury]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-04-20 18:03:19] INFO root fetch - processPackages [xia-scw-instance]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-20 18:03:19] INFO root fetch - processPackages [wicked-expressions]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-20 18:03:19] INFO root fetch - processPackages [astrohack]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 18:03:19] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 18:03:19] INFO root fetch - processPackages [ufo2ft]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-04-20 18:03:19] INFO root fetch - processPackages [pulumi-gitlab]: New version: [4.9.0a1666628674] Old Version: [4.9.0]
+[2023-04-20 18:03:19] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.3.dev202304201601] Old Version: [0.1.3.dev202304201558]
+[2023-04-20 18:03:19] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.3.dev202304201601] Old Version: [0.1.3.dev202304201558]
+[2023-04-20 18:03:19] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/b6/74/a7632a21170dd03d4953d77431a4f9ca76f0dd8bfdef84c8e3c9069b760f/pulumi_gitlab-4.9.0.tar.gz
+[2023-04-20 18:03:19] INFO root fetch - processPackages [mercury]: Downloading https://files.pythonhosted.org/packages/bd/c7/984ef45422181e8037e119aebf2b8af83a1b9a27d0c31a0bdd54b624d587/mercury-2.2.3.tar.gz
+[2023-04-20 18:03:19] INFO root fetch - processPackages [ufo2ft]: Downloading https://files.pythonhosted.org/packages/ae/68/8dc23a38bebfbaffa49417ada31a29feb3a774f65b0607e9539d98dfa1cf/ufo2ft-2.9.1.zip
+[2023-04-20 18:03:19] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/6c/ff/2eb07b7aaa04c2ca3a949c2d73614bb8b957f9d0a8025f69b26dc83917a3/hcai-nova-server-nightly-0.1.3.dev202304201558.tar.gz
+[2023-04-20 18:03:19] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/6c/ff/2eb07b7aaa04c2ca3a949c2d73614bb8b957f9d0a8025f69b26dc83917a3/hcai-nova-server-nightly-0.1.3.dev202304201558.tar.gz
+[2023-04-20 18:03:19] INFO root fetch - processPackages [wicked-expressions]: Downloading https://files.pythonhosted.org/packages/a5/03/99abde75c7fe75287673972ca196e934053a4d4ffcaf39bfa92924008c4d/wicked_expressions-0.5.1.tar.gz
+[2023-04-20 18:03:19] INFO root fetch - processPackages [astrohack]: Downloading https://files.pythonhosted.org/packages/13/1b/4e8dfce8afd3ccbddc9018e80f3a06d0a1858bedfe7f290d08a1e925ae85/astrohack-0.0.9.tar.gz
+[2023-04-20 18:03:19] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 18:03:19] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.8.tar.gz tmp/my-pipeline-package-1.1.9.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 18:03:19] INFO root fetch - processPackages [xia-scw-instance]: Downloading https://files.pythonhosted.org/packages/94/d0/1739e4ebeeb1e42c4638b63ddb908e66928d90e8bf2d66ede7a728373431/xia_scw_instance-0.0.4-cp39-none-win_amd64.whl
+[2023-04-20 18:03:19] INFO root fetch - processPackages [reliably-cli]: executing diffoscope
+[2023-04-20 18:03:19] INFO root fetch - processPackages [reliably-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliably-cli-0.5.8.tar.gz tmp/reliably-cli-0.5.9.tar.gz --markdown 20230420/r/reliably-cli/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-20 18:03:19] INFO root fetch - processPackages [wicked-expressions]: executing diffoscope
+[2023-04-20 18:03:19] INFO root fetch - processPackages [wicked-expressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wicked_expressions-0.5.0.tar.gz tmp/wicked_expressions-0.5.1.tar.gz --markdown 20230420/w/wicked-expressions/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-20 18:03:19] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/8b/e1/671fc59e906a198c323cae8439e4b857c168f8daa515b92fbbb664ddee80/pulumi_gitlab-4.9.0a1666628674.tar.gz
+[2023-04-20 18:03:19] INFO root fetch - processPackages [astrohack]: executing diffoscope
+[2023-04-20 18:03:19] INFO root fetch - processPackages [astrohack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrohack-0.0.8.tar.gz tmp/astrohack-0.0.9.tar.gz --markdown 20230420/a/astrohack/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 18:03:19] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/39/20/7d37313a460945523a177e405e89c38b7d2b214740331d4a57c9d7bcd589/hcai-nova-server-nightly-0.1.3.dev202304201601.tar.gz
+[2023-04-20 18:03:19] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/39/20/7d37313a460945523a177e405e89c38b7d2b214740331d4a57c9d7bcd589/hcai-nova-server-nightly-0.1.3.dev202304201601.tar.gz
+[2023-04-20 18:03:19] INFO root fetch - processPackages [xia-scw-instance]: executing diffoscope
+[2023-04-20 18:03:19] INFO root fetch - processPackages [xia-scw-instance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_instance-0.0.3-cp39-none-win_amd64.whl.zip tmp/xia_scw_instance-0.0.4-cp39-none-win_amd64.whl.zip --markdown 20230420/x/xia-scw-instance/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-20 18:03:20] INFO root fetch - processPackages [mercury]: executing diffoscope
+[2023-04-20 18:03:20] INFO root fetch - processPackages [mercury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-2.2.2.tar.gz tmp/mercury-2.2.3.tar.gz --markdown 20230420/m/mercury/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-04-20 18:03:20] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-04-20 18:03:20] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-4.9.0.tar.gz tmp/pulumi_gitlab-4.9.0a1666628674.tar.gz --markdown 20230420/p/pulumi-gitlab/4.9.0-4.9.0a1666628674/diff.md --exclude *.pyd
+[2023-04-20 18:03:20] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-04-20 18:03:20] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.3.dev202304201558.tar.gz tmp/hcai-nova-server-nightly-0.1.3.dev202304201601.tar.gz --markdown 20230420/h/hcai-nova-server-nightly/0.1.3.dev202304201558-0.1.3.dev202304201601/diff.md --exclude *.pyd
+[2023-04-20 18:03:20] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-04-20 18:03:20] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.3.dev202304201558.tar.gz tmp/hcai-nova-server-nightly-0.1.3.dev202304201601.tar.gz --markdown 20230420/h/hcai-nova-server-nightly/0.1.3.dev202304201558-0.1.3.dev202304201601/diff.md --exclude *.pyd
+[2023-04-20 18:03:20] INFO root fetch - processPackages [ufo2ft]: Downloading https://files.pythonhosted.org/packages/d3/3d/e8ff020e419a51a36a83f38c4e97dee5f26d672d2378f0f26fbcf096abeb/ufo2ft-2.9.2.zip
+[2023-04-20 18:03:20] INFO root fetch - processPackages [ufo2ft]: executing diffoscope
+[2023-04-20 18:03:20] INFO root fetch - processPackages [ufo2ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufo2ft-2.9.1.zip tmp/ufo2ft-2.9.2.zip --markdown 20230420/u/ufo2ft/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-04-20 18:03:21] INFO root fetch - processPackages [my-pipeline-package]: Start processing: invenio-administration
+[2023-04-20 18:03:21] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 18:03:21] INFO root fetch - processPackages [invenio-administration]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-20 18:03:21] INFO root fetch - processPackages [invenio-administration]: Downloading https://files.pythonhosted.org/packages/00/96/71b4851272ce37a946bfaac412014203c921f96686637ce2d53e1a247b41/invenio-administration-1.2.0.tar.gz
+[2023-04-20 18:03:21] INFO root fetch - processPackages [wicked-expressions]: Start processing: databricks-sdk
+[2023-04-20 18:03:21] INFO root fetch - main [MainThread]: End processing [wicked-expressions]: success
+[2023-04-20 18:03:21] INFO root fetch - processPackages [databricks-sdk]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-04-20 18:03:21] INFO root fetch - processPackages [reliably-cli]: Start processing: pineboo
+[2023-04-20 18:03:21] INFO root fetch - main [MainThread]: End processing [reliably-cli]: success
+[2023-04-20 18:03:21] INFO root fetch - processPackages [xia-scw-instance]: Start processing: kaflow
+[2023-04-20 18:03:21] INFO root fetch - main [MainThread]: End processing [xia-scw-instance]: success
+[2023-04-20 18:03:21] INFO root fetch - processPackages [pineboo]: New version: [1.0.4.1] Old Version: [1.0.4]
+[2023-04-20 18:03:21] INFO root fetch - processPackages [kaflow]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-20 18:03:21] INFO root fetch - processPackages [invenio-administration]: Downloading https://files.pythonhosted.org/packages/f4/a3/a48513de6a8d7eed39e19aa643b267db9bfa7a4104e822b34a25e1eba2d9/invenio-administration-1.3.0.tar.gz
+[2023-04-20 18:03:21] INFO root fetch - processPackages [astrohack]: Start processing: frat-brain
+[2023-04-20 18:03:21] INFO root fetch - main [MainThread]: End processing [astrohack]: success
+[2023-04-20 18:03:21] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/46/81/dc75704d42013e763b0795828bc33f940d142ccafe208023a8acadd4840e/databricks_sdk-0.0.7-py3-none-any.whl
+[2023-04-20 18:03:21] INFO root fetch - processPackages [frat-brain]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-04-20 18:03:21] INFO root fetch - processPackages [kaflow]: Downloading https://files.pythonhosted.org/packages/8c/75/da25045f7ff91faa5d52e7d94cdb522bb295bf7ae21d08a4c21557df065e/kaflow-0.2.2.tar.gz
+[2023-04-20 18:03:21] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/1f/80/47c27cc7ac98e6271d58d057788b70dfdba2a1cdd6a930166f5358ff5598/pineboo-1.0.4.1.tar.gz
+[2023-04-20 18:03:21] INFO root fetch - processPackages [kaflow]: executing diffoscope
+[2023-04-20 18:03:21] INFO root fetch - processPackages [kaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaflow-0.2.1.tar.gz tmp/kaflow-0.2.2.tar.gz --markdown 20230420/k/kaflow/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-20 18:03:22] INFO root fetch - processPackages [invenio-administration]: executing diffoscope
+[2023-04-20 18:03:22] INFO root fetch - processPackages [invenio-administration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-administration-1.2.0.tar.gz tmp/invenio-administration-1.3.0.tar.gz --markdown 20230420/i/invenio-administration/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-20 18:03:22] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/24/ae/764a972ab294aca301916518ce7787748397e0c441a4236054d7302856b0/databricks_sdk-0.1.0-py3-none-any.whl
+[2023-04-20 18:03:22] INFO root fetch - processPackages [frat-brain]: Downloading https://files.pythonhosted.org/packages/c9/f2/73b21332116e8c5ea881ccf96b2b64fa9175c14c8a395e597a44257ac27f/frat_brain-1.3.5.tar.gz
+[2023-04-20 18:03:22] INFO root fetch - processPackages [databricks-sdk]: executing diffoscope
+[2023-04-20 18:03:22] INFO root fetch - processPackages [databricks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_sdk-0.0.7-py3-none-any.whl.zip tmp/databricks_sdk-0.1.0-py3-none-any.whl.zip --markdown 20230420/d/databricks-sdk/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-04-20 18:03:22] INFO root fetch - processPackages [frat-brain]: Downloading https://files.pythonhosted.org/packages/8d/41/cf7d0a6d3c7cf70604a78ffb7c7f66d5bac395f9487b9ad4c41179f6b2e6/frat_brain-1.3.6.tar.gz
+[2023-04-20 18:03:22] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: pdfathom
+[2023-04-20 18:03:22] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-04-20 18:03:22] INFO root fetch - processPackages [frat-brain]: executing diffoscope
+[2023-04-20 18:03:22] INFO root fetch - processPackages [frat-brain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frat_brain-1.3.5.tar.gz tmp/frat_brain-1.3.6.tar.gz --markdown 20230420/f/frat-brain/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-04-20 18:03:22] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: signals-runner
+[2023-04-20 18:03:22] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-04-20 18:03:22] WARNING root fetch - processPackages [pdfathom]: Skipping, unable to determine old version
+[2023-04-20 18:03:22] INFO root fetch - processPackages [pdfathom]: Start processing: dcoraid
+[2023-04-20 18:03:22] INFO root fetch - main [MainThread]: End processing [pdfathom] error
+[2023-04-20 18:03:22] WARNING root fetch - processPackages [signals-runner]: Skipping, unable to determine old version
+[2023-04-20 18:03:22] INFO root fetch - processPackages [signals-runner]: Start processing: hcai-nova-server-nightly
+[2023-04-20 18:03:22] INFO root fetch - main [MainThread]: End processing [signals-runner] error
+[2023-04-20 18:03:22] INFO root fetch - processPackages [dcoraid]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-20 18:03:22] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.3.dev202304201601] Old Version: [0.1.3.dev202304201558]
+[2023-04-20 18:03:22] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-04-20 18:03:22] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.3.dev202304201558.tar.gz tmp/hcai-nova-server-nightly-0.1.3.dev202304201601.tar.gz --markdown 20230420/h/hcai-nova-server-nightly/0.1.3.dev202304201558-0.1.3.dev202304201601/diff.md --exclude *.pyd
+[2023-04-20 18:03:22] INFO root fetch - processPackages [dcoraid]: Downloading https://files.pythonhosted.org/packages/4b/4b/086d768fe30a3aa11e3687a9d6b9784cd9be555442c490dbda65cd0dd0da/dcoraid-0.9.0.tar.gz
+[2023-04-20 18:03:22] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-04-20 18:03:22] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.tar.gz tmp/pineboo-1.0.4.1.tar.gz --markdown 20230420/p/pineboo/1.0.4-1.0.4.1/diff.md --exclude *.pyd
+[2023-04-20 18:03:23] INFO root fetch - processPackages [kaflow]: Start processing: sqlalchemy-easy-softdelete
+[2023-04-20 18:03:23] INFO root fetch - main [MainThread]: End processing [kaflow]: success
+[2023-04-20 18:03:23] INFO root fetch - processPackages [ufo2ft]: Start processing: pubtools-pulp
+[2023-04-20 18:03:23] INFO root fetch - main [MainThread]: End processing [ufo2ft]: success
+[2023-04-20 18:03:23] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-04-20 18:03:23] INFO root fetch - processPackages [dcoraid]: Downloading https://files.pythonhosted.org/packages/c0/f5/368bfc2d71af3f9137b5423efe942bf8fcf37edc18fe8d9ba77e00e6241c/dcoraid-0.9.1.tar.gz
+[2023-04-20 18:03:23] INFO root fetch - processPackages [pubtools-pulp]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-04-20 18:03:23] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Downloading https://files.pythonhosted.org/packages/45/b0/44f527559e533d0e4f9ca2b0c8f050e9865738a3288aaedeec44b51cfc2c/sqlalchemy_easy_softdelete-0.7.1.tar.gz
+[2023-04-20 18:03:23] INFO root fetch - processPackages [pubtools-pulp]: Downloading https://files.pythonhosted.org/packages/6d/39/342bb28540b3630ff0b6c65a2b3eff5ee59449be067fe4d2523d7e6f114d/pubtools-pulp-1.9.2.tar.gz
+[2023-04-20 18:03:23] INFO root fetch - processPackages [dcoraid]: executing diffoscope
+[2023-04-20 18:03:23] INFO root fetch - processPackages [dcoraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcoraid-0.9.0.tar.gz tmp/dcoraid-0.9.1.tar.gz --markdown 20230420/d/dcoraid/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 18:03:23] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Downloading https://files.pythonhosted.org/packages/9c/26/6264409993d2783bb81e21d9baefabdd467eb4b1e544fbafc97b7080d7bf/sqlalchemy_easy_softdelete-0.7.2.tar.gz
+[2023-04-20 18:03:23] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: executing diffoscope
+[2023-04-20 18:03:23] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_easy_softdelete-0.7.1.tar.gz tmp/sqlalchemy_easy_softdelete-0.7.2.tar.gz --markdown 20230420/s/sqlalchemy-easy-softdelete/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-04-20 18:03:23] INFO root fetch - processPackages [pubtools-pulp]: Downloading https://files.pythonhosted.org/packages/29/63/43bbdd09cef55731eeb77d7227b8169800142b5f8e4a062a40386fd07b3b/pubtools-pulp-1.9.3.tar.gz
+[2023-04-20 18:03:24] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: pulumi-tls
+[2023-04-20 18:03:24] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-04-20 18:03:24] INFO root fetch - processPackages [pubtools-pulp]: executing diffoscope
+[2023-04-20 18:03:24] INFO root fetch - processPackages [pubtools-pulp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubtools-pulp-1.9.2.tar.gz tmp/pubtools-pulp-1.9.3.tar.gz --markdown 20230420/p/pubtools-pulp/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-04-20 18:03:24] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1682005131] Old Version: [5.1.0a1680912468]
+[2023-04-20 18:03:24] INFO root fetch - processPackages [frat-brain]: Start processing: mlpath
+[2023-04-20 18:03:24] INFO root fetch - main [MainThread]: End processing [frat-brain]: success
+[2023-04-20 18:03:24] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/21/b9/21e3c8a2199e8d461d3c19b125d900f6fec962a61b9472d258013d177a10/pulumi_tls-5.1.0a1680912468.tar.gz
+[2023-04-20 18:03:24] INFO root fetch - processPackages [databricks-sdk]: Start processing: my-pipeline-package
+[2023-04-20 18:03:24] INFO root fetch - main [MainThread]: End processing [databricks-sdk]: success
+[2023-04-20 18:03:24] INFO root fetch - processPackages [mlpath]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-20 18:03:24] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 18:03:24] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/21/c8/54685874b38d15671ab8f14714604b32471b106df2163eaf64cd0893408e/pulumi_tls-5.1.0a1682005131.tar.gz
+[2023-04-20 18:03:24] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 18:03:24] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.8.tar.gz tmp/my-pipeline-package-1.1.9.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 18:03:24] INFO root fetch - processPackages [mlpath]: Downloading https://files.pythonhosted.org/packages/68/6c/30bba2f0baf59527b85c48dd77e21e10d240390bbe47754d6bb80e13992b/mlpath-1.0.2.tar.gz
+[2023-04-20 18:03:24] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2023-04-20 18:03:24] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1680912468.tar.gz tmp/pulumi_tls-5.1.0a1682005131.tar.gz --markdown 20230420/p/pulumi-tls/5.1.0a1680912468-5.1.0a1682005131/diff.md --exclude *.pyd
+[2023-04-20 18:03:24] INFO root fetch - processPackages [pulumi-gitlab]: Start processing: easytypes
+[2023-04-20 18:03:24] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-04-20 18:03:24] INFO root fetch - processPackages [mlpath]: Downloading https://files.pythonhosted.org/packages/5b/75/9dd80adc245ec5faef8f096c6fd999a10a760763f89229da93e9d40e1af4/mlpath-1.0.3.tar.gz
+[2023-04-20 18:03:25] INFO root fetch - processPackages [easytypes]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-04-20 18:03:25] INFO root fetch - processPackages [invenio-administration]: Start processing: govuk-frontend-django
+[2023-04-20 18:03:25] INFO root fetch - main [MainThread]: End processing [invenio-administration]: success
+[2023-04-20 18:03:25] INFO root fetch - processPackages [easytypes]: Downloading https://files.pythonhosted.org/packages/b4/14/ec7569c93867abd23ef73cc29c3c5ac76508d0b638e4ee6cc6f2e3ca1f77/easytypes-0.5.3.tar.gz
+[2023-04-20 18:03:25] INFO root fetch - processPackages [sqlalchemy-easy-softdelete]: Start processing: chalkpy
+[2023-04-20 18:03:25] INFO root fetch - main [MainThread]: End processing [sqlalchemy-easy-softdelete]: success
+[2023-04-20 18:03:25] INFO root fetch - processPackages [mlpath]: executing diffoscope
+[2023-04-20 18:03:25] INFO root fetch - processPackages [mlpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpath-1.0.2.tar.gz tmp/mlpath-1.0.3.tar.gz --markdown 20230420/m/mlpath/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-20 18:03:25] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-20 18:03:25] WARNING root fetch - processPackages [govuk-frontend-django]: Skipping, unable to determine old version
+[2023-04-20 18:03:25] INFO root fetch - main [MainThread]: End processing [govuk-frontend-django] error
+[2023-04-20 18:03:25] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-20 18:03:25] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230420/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-20 18:03:25] INFO root fetch - processPackages [easytypes]: Downloading https://files.pythonhosted.org/packages/8c/c7/27ab2c849c0153ab2209b86ef65e81d668a53e37f40c7abaec4de4d11595/easytypes-0.5.4.tar.gz
+[2023-04-20 18:03:25] INFO root fetch - processPackages [easytypes]: executing diffoscope
+[2023-04-20 18:03:25] INFO root fetch - processPackages [easytypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytypes-0.5.3.tar.gz tmp/easytypes-0.5.4.tar.gz --markdown 20230420/e/easytypes/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-04-20 18:03:25] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 18:03:26] INFO root fetch - main [MainThread]: End processing [mlpath]: success
+[2023-04-20 18:03:26] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2023-04-20 18:03:26] INFO root fetch - main [MainThread]: End processing [pubtools-pulp]: success
+[2023-04-20 18:03:26] INFO root fetch - main [MainThread]: End processing [easytypes]: success
+[2023-04-20 18:03:27] INFO root fetch - main [MainThread]: End processing [mercury]: success
+[2023-04-20 18:03:28] INFO root fetch - main [MainThread]: End processing [dcoraid]: success
+[2023-04-20 18:03:30] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-04-20 18:03:30] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-20 18:03:30] INFO root fetch - main [MainThread]: Store serial: [17789714]
