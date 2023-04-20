@@ -7353,3 +7353,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 06:04:20] INFO root fetch - main [MainThread]: End processing [dqrobotics]: success
 [2023-04-20 06:04:23] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-04-20 06:04:23] INFO root fetch - main [MainThread]: Store serial: [17781891]
+[2023-04-20 06:09:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781891]
+[2023-04-20 06:09:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-20 06:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipenv
+[2023-04-20 06:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mongoclass
+[2023-04-20 06:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cool-cache
+[2023-04-20 06:09:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osc-fish-complete
+[2023-04-20 06:09:32] INFO root fetch - processPackages [cool-cache]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-20 06:09:32] INFO root fetch - processPackages [mongoclass]: New version: [1.3] Old Version: [1.2]
+[2023-04-20 06:09:32] INFO root fetch - processPackages [pipenv]: New version: [9.1.0] Old Version: [9.0.3]
+[2023-04-20 06:09:32] INFO root fetch - processPackages [osc-fish-complete]: New version: [0.2.0] Old Version: [0.0.1]
+[2023-04-20 06:09:32] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/df/eb/d796f85bc65969569a250c896c8b7d7aacb25a6857914c08cf4ed9bfc7f6/pipenv-9.0.3.tar.gz
+[2023-04-20 06:09:32] INFO root fetch - processPackages [cool-cache]: Downloading https://files.pythonhosted.org/packages/9b/e7/e274321158cede7186945d45b9f19fe2a7ac9b3dcf40cb9dc11af533364c/cool_cache-0.3.1.tar.gz
+[2023-04-20 06:09:32] INFO root fetch - processPackages [osc-fish-complete]: Downloading https://files.pythonhosted.org/packages/4b/1c/c6edc153c98d00e617974e8b15cc1dbd49c2f53e74829b23d8d64f3d9562/osc-fish-complete-0.0.1.tar.gz
+[2023-04-20 06:09:32] INFO root fetch - processPackages [cool-cache]: executing diffoscope
+[2023-04-20 06:09:32] INFO root fetch - processPackages [cool-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cool_cache-0.3.0.tar.gz tmp/cool_cache-0.3.1.tar.gz --markdown 20230420/c/cool-cache/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-20 06:09:32] INFO root fetch - processPackages [mongoclass]: Downloading https://files.pythonhosted.org/packages/36/40/9ec419fb6aa6d53e759764ebebc3742096c20508cff7e5abc59634c72fa5/mongoclass-1.3.tar.gz
+[2023-04-20 06:09:33] INFO root fetch - processPackages [mongoclass]: executing diffoscope
+[2023-04-20 06:09:33] INFO root fetch - processPackages [mongoclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongoclass-1.2.tar.gz tmp/mongoclass-1.3.tar.gz --markdown 20230420/m/mongoclass/1.2-1.3/diff.md --exclude *.pyd
+[2023-04-20 06:09:33] INFO root fetch - processPackages [osc-fish-complete]: Downloading https://files.pythonhosted.org/packages/91/02/77522f59771abfae62f7ea684c290eeaec88b1329546961160794c7ec428/osc-fish-complete-0.2.0.tar.gz
+[2023-04-20 06:09:33] INFO root fetch - processPackages [osc-fish-complete]: executing diffoscope
+[2023-04-20 06:09:33] INFO root fetch - processPackages [osc-fish-complete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osc-fish-complete-0.0.1.tar.gz tmp/osc-fish-complete-0.2.0.tar.gz --markdown 20230420/o/osc-fish-complete/0.0.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 06:09:33] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/53/66/3f7451f27ce52b194f289c5b3ceb6b159ba177a932bea1fef8e1885ccf92/pipenv-9.1.0.tar.gz
+[2023-04-20 06:09:33] INFO root fetch - main [MainThread]: End processing [cool-cache]: success
+[2023-04-20 06:09:34] INFO root fetch - main [MainThread]: End processing [mongoclass]: success
+[2023-04-20 06:09:34] INFO root fetch - main [MainThread]: End processing [osc-fish-complete]: success
+[2023-04-20 06:09:34] INFO root fetch - processPackages [pipenv]: executing diffoscope
+[2023-04-20 06:09:34] INFO root fetch - processPackages [pipenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv-9.0.3.tar.gz tmp/pipenv-9.1.0.tar.gz --markdown 20230420/p/pipenv/9.0.3-9.1.0/diff.md --exclude *.pyd
+[2023-04-20 06:09:39] INFO root fetch - main [MainThread]: End processing [pipenv]: success
+[2023-04-20 06:09:39] INFO root fetch - main [MainThread]: Store serial: [17781916]
