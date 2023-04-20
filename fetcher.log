@@ -21769,3 +21769,103 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 18:52:27] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
 [2023-04-20 18:52:40] INFO root fetch - main [MainThread]: End processing [openctp-tts-651]: success
 [2023-04-20 18:52:40] INFO root fetch - main [MainThread]: Store serial: [17790414]
+[2023-04-20 18:57:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790414]
+[2023-04-20 18:57:50] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-20 18:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talos-install
+[2023-04-20 18:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-opensearch-dsl-signals
+[2023-04-20 18:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: steam-sdk
+[2023-04-20 18:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-identity-sdk
+[2023-04-20 18:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparkpipelineframework
+[2023-04-20 18:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphql-api
+[2023-04-20 18:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aliendev-cdk
+[2023-04-20 18:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: excel-sql-engine
+[2023-04-20 18:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zscaler-api-talkers
+[2023-04-20 18:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: socket-proxy
+[2023-04-20 18:57:50] INFO root fetch - processPackages [talos-install]: New version: [0.2.0.dev340] Old Version: [0.2.0.dev339]
+[2023-04-20 18:57:50] WARNING root fetch - processPackages [django-opensearch-dsl-signals]: Skipping, unable to determine old version
+[2023-04-20 18:57:50] INFO root fetch - processPackages [django-opensearch-dsl-signals]: Start processing: mitreattack-python
+[2023-04-20 18:57:50] INFO root fetch - main [MainThread]: End processing [django-opensearch-dsl-signals] error
+[2023-04-20 18:57:50] INFO root fetch - processPackages [aliendev-cdk]: New version: [0.1.29] Old Version: [0.1.28]
+[2023-04-20 18:57:50] INFO root fetch - processPackages [steam-sdk]: New version: [2023.4.2] Old Version: [2023.4.1]
+[2023-04-20 18:57:50] INFO root fetch - processPackages [graphql-api]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-20 18:57:50] INFO root fetch - processPackages [sparkpipelineframework]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-04-20 18:57:50] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2403]
+[2023-04-20 18:57:50] WARNING root fetch - processPackages [excel-sql-engine]: Skipping, unable to determine old version
+[2023-04-20 18:57:50] INFO root fetch - processPackages [excel-sql-engine]: Start processing: arb-launcher
+[2023-04-20 18:57:50] INFO root fetch - processPackages [zscaler-api-talkers]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-04-20 18:57:50] INFO root fetch - main [MainThread]: End processing [excel-sql-engine] error
+[2023-04-20 18:57:50] INFO root fetch - processPackages [socket-proxy]: New version: [5.0.0] Old Version: [4.0.1]
+[2023-04-20 18:57:50] INFO root fetch - processPackages [mitreattack-python]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-04-20 18:57:50] INFO root fetch - processPackages [talos-install]: Downloading https://files.pythonhosted.org/packages/65/eb/ab5df00bce9b95afcbc84cab57d1dcb9d8a59935dacbfc3859e39dc91bff/talos_install-0.2.0.dev339.tar.gz
+[2023-04-20 18:57:50] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/5d/f0/6fdc96e4f56abc9e9ffdc494f8bc45b7483d5cdaf8798bc6dddb13e5a248/finbourne-identity-sdk-0.0.2403.tar.gz
+[2023-04-20 18:57:50] WARNING root fetch - processPackages [arb-launcher]: Skipping, unable to determine old version
+[2023-04-20 18:57:50] INFO root fetch - processPackages [arb-launcher]: Start processing: pss-pywaapi
+[2023-04-20 18:57:50] INFO root fetch - main [MainThread]: End processing [arb-launcher] error
+[2023-04-20 18:57:50] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/50/a0/742af7c745dadc343ebf3423dec269be707db808f339dc39a3651c42b4a4/steam_sdk-2023.4.1.tar.gz
+[2023-04-20 18:57:50] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/3d/fa/3e08b2f10d000fdf155b4cd13d8eff184aebe669f7c3ae2d74a9de28c473/sparkpipelineframework-1.0.98.tar.gz
+[2023-04-20 18:57:50] INFO root fetch - processPackages [graphql-api]: executing diffoscope
+[2023-04-20 18:57:50] INFO root fetch - processPackages [graphql-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql-api-1.2.8.tar.gz tmp/graphql-api-1.2.9.tar.gz --markdown 20230420/g/graphql-api/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-20 18:57:50] INFO root fetch - processPackages [zscaler-api-talkers]: Downloading https://files.pythonhosted.org/packages/50/f5/39d0361a986a926cc8562d027e3bc48c49e510c47ba73bbe4e30aa2767a0/zscaler_api_talkers-4.0.0.tar.gz
+[2023-04-20 18:57:50] INFO root fetch - processPackages [socket-proxy]: Downloading https://files.pythonhosted.org/packages/be/8c/bfccd6ae08a4eb60b90dfaaa967b055ace7822727b647e6705758ff84f1e/socket_proxy-4.0.1-py3-none-any.whl
+[2023-04-20 18:57:50] INFO root fetch - processPackages [pss-pywaapi]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-20 18:57:50] INFO root fetch - processPackages [aliendev-cdk]: Downloading https://files.pythonhosted.org/packages/2b/11/b81026243ad48d217ab4aa9ead9909b9033a555ad7876bed10ab467f04de/aliendev_cdk-0.1.29.tar.gz
+[2023-04-20 18:57:50] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-04-20 18:57:50] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2403.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230420/f/finbourne-identity-sdk/0.0.2403-0.0.840/diff.md --exclude *.pyd
+[2023-04-20 18:57:50] INFO root fetch - processPackages [talos-install]: Downloading https://files.pythonhosted.org/packages/63/e0/a2385afcaff69128400b5edd5ff39852546299e1f918984a2565c70644ab/talos_install-0.2.0.dev340.tar.gz
+[2023-04-20 18:57:50] INFO root fetch - processPackages [mitreattack-python]: Downloading https://files.pythonhosted.org/packages/2c/d3/95661da36cec74001f53a66d1363b3aa3a2f7f70a453de7a507b8324f1db/mitreattack-python-2.0.8.tar.gz
+[2023-04-20 18:57:50] INFO root fetch - processPackages [aliendev-cdk]: executing diffoscope
+[2023-04-20 18:57:50] INFO root fetch - processPackages [aliendev-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliendev_cdk-0.1.28.tar.gz tmp/aliendev_cdk-0.1.29.tar.gz --markdown 20230420/a/aliendev-cdk/0.1.28-0.1.29/diff.md --exclude *.pyd
+[2023-04-20 18:57:50] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/ee/78/98287a1ba486a6e6da11103d02521b24bc9a3411401990bd3727b3e77b24/steam_sdk-2023.4.2.tar.gz
+[2023-04-20 18:57:50] INFO root fetch - processPackages [pss-pywaapi]: Downloading https://files.pythonhosted.org/packages/e4/83/73aade860ce171a35ea87949c28a0c87571023d22d0da1df0a0fd5852ed7/pss_pywaapi-1.0.2.tar.gz
+[2023-04-20 18:57:50] INFO root fetch - processPackages [socket-proxy]: Downloading https://files.pythonhosted.org/packages/48/16/ed6dcadc366f4e4f0a92563dfe61f89d9f2ce106458a00bb479b7c585e50/socket_proxy-5.0.0-py3-none-any.whl
+[2023-04-20 18:57:50] INFO root fetch - processPackages [talos-install]: executing diffoscope
+[2023-04-20 18:57:50] INFO root fetch - processPackages [talos-install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talos_install-0.2.0.dev339.tar.gz tmp/talos_install-0.2.0.dev340.tar.gz --markdown 20230420/t/talos-install/0.2.0.dev339-0.2.0.dev340/diff.md --exclude *.pyd
+[2023-04-20 18:57:50] INFO root fetch - processPackages [zscaler-api-talkers]: Downloading https://files.pythonhosted.org/packages/84/3b/64782ddfef96e8ca92bfcde8522e89febc056871d2d4d8746a4e247fbaf9/zscaler_api_talkers-4.0.1.tar.gz
+[2023-04-20 18:57:50] INFO root fetch - processPackages [mitreattack-python]: executing diffoscope
+[2023-04-20 18:57:50] INFO root fetch - processPackages [mitreattack-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitreattack-python-2.0.7.tar.gz tmp/mitreattack-python-2.0.8.tar.gz --markdown 20230420/m/mitreattack-python/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-04-20 18:57:50] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/ed/e9/5708be80e63dcc98716549cd991b88c536e6028a551e0fea36d6fbb67d3e/sparkpipelineframework-1.0.99.tar.gz
+[2023-04-20 18:57:50] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-04-20 18:57:50] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam_sdk-2023.4.1.tar.gz tmp/steam_sdk-2023.4.2.tar.gz --markdown 20230420/s/steam-sdk/2023.4.1-2023.4.2/diff.md --exclude *.pyd
+[2023-04-20 18:57:50] INFO root fetch - processPackages [socket-proxy]: executing diffoscope
+[2023-04-20 18:57:50] INFO root fetch - processPackages [socket-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket_proxy-4.0.1-py3-none-any.whl.zip tmp/socket_proxy-5.0.0-py3-none-any.whl.zip --markdown 20230420/s/socket-proxy/4.0.1-5.0.0/diff.md --exclude *.pyd
+[2023-04-20 18:57:50] INFO root fetch - processPackages [zscaler-api-talkers]: executing diffoscope
+[2023-04-20 18:57:50] INFO root fetch - processPackages [zscaler-api-talkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zscaler_api_talkers-4.0.0.tar.gz tmp/zscaler_api_talkers-4.0.1.tar.gz --markdown 20230420/z/zscaler-api-talkers/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-04-20 18:57:50] INFO root fetch - processPackages [sparkpipelineframework]: executing diffoscope
+[2023-04-20 18:57:50] INFO root fetch - processPackages [sparkpipelineframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework-1.0.98.tar.gz tmp/sparkpipelineframework-1.0.99.tar.gz --markdown 20230420/s/sparkpipelineframework/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-04-20 18:57:51] INFO root fetch - processPackages [pss-pywaapi]: Downloading https://files.pythonhosted.org/packages/71/6b/abd2da0715de9540805fed42a6ad50aca1fae83bbd991364b1846e89df2c/pss_pywaapi-1.0.3.tar.gz
+[2023-04-20 18:57:51] INFO root fetch - processPackages [pss-pywaapi]: executing diffoscope
+[2023-04-20 18:57:51] INFO root fetch - processPackages [pss-pywaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pss_pywaapi-1.0.2.tar.gz tmp/pss_pywaapi-1.0.3.tar.gz --markdown 20230420/p/pss-pywaapi/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-20 18:57:52] INFO root fetch - processPackages [aliendev-cdk]: Start processing: FairDynamicRec
+[2023-04-20 18:57:52] INFO root fetch - main [MainThread]: End processing [aliendev-cdk]: success
+[2023-04-20 18:57:52] INFO root fetch - processPackages [FairDynamicRec]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-20 18:57:52] INFO root fetch - processPackages [graphql-api]: Start processing: nkululeko
+[2023-04-20 18:57:52] INFO root fetch - main [MainThread]: End processing [graphql-api]: success
+[2023-04-20 18:57:52] INFO root fetch - processPackages [nkululeko]: New version: [0.44.0] Old Version: [0.43.6]
+[2023-04-20 18:57:52] INFO root fetch - processPackages [socket-proxy]: Start processing: sesg
+[2023-04-20 18:57:52] INFO root fetch - main [MainThread]: End processing [socket-proxy]: success
+[2023-04-20 18:57:52] INFO root fetch - processPackages [FairDynamicRec]: executing diffoscope
+[2023-04-20 18:57:52] INFO root fetch - processPackages [FairDynamicRec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FairDynamicRec-0.0.98.tar.gz tmp/FairDynamicRec-0.0.99.tar.gz --markdown 20230420/F/FairDynamicRec/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-20 18:57:52] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 18:57:52] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/d1/f6/f94b02db5a43a1bb67f959638af3a7f4dc15d23d2377dd839dd6fcc5a403/nkululeko-0.44.0.tar.gz
+[2023-04-20 18:57:52] INFO root fetch - processPackages [mitreattack-python]: Start processing: proteinTools
+[2023-04-20 18:57:52] INFO root fetch - main [MainThread]: End processing [mitreattack-python]: success
+[2023-04-20 18:57:52] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2023-04-20 18:57:52] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.43.6.tar.gz tmp/nkululeko-0.44.0.tar.gz --markdown 20230420/n/nkululeko/0.43.6-0.44.0/diff.md --exclude *.pyd
+[2023-04-20 18:57:52] INFO root fetch - main [MainThread]: End processing [pss-pywaapi]: success
+[2023-04-20 18:57:52] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-04-20 18:57:52] INFO root fetch - processPackages [proteinTools]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-04-20 18:57:53] INFO root fetch - main [MainThread]: End processing [zscaler-api-talkers]: success
+[2023-04-20 18:57:53] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/99/83/b5e9f588cc1aa36cc399f9be2d2b8c8573cdc3002bba621a1980c370815f/proteinTools-1.2.5.tar.gz
+[2023-04-20 18:57:53] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-04-20 18:57:53] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230420/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 18:57:53] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/71/b6/1c6fb607b6be88ace506605c3005832fd7e846155b58925b10fa5bf4ee6e/proteinTools-1.2.6.tar.gz
+[2023-04-20 18:57:53] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-04-20 18:57:53] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.2.5.tar.gz tmp/proteinTools-1.2.6.tar.gz --markdown 20230420/p/proteinTools/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-04-20 18:57:53] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-04-20 18:57:54] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-04-20 18:57:54] INFO root fetch - main [MainThread]: End processing [talos-install]: success
+[2023-04-20 18:57:54] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-04-20 18:57:55] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2023-04-20 18:57:57] INFO root fetch - main [MainThread]: End processing [FairDynamicRec]: success
+[2023-04-20 18:57:58] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
+[2023-04-20 18:57:58] INFO root fetch - main [MainThread]: Store serial: [17790470]
