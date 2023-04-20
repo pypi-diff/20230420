@@ -18089,3 +18089,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 16:00:25] INFO root fetch - main [MainThread]: End processing [gluonts]: success
 [2023-04-20 16:00:37] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
 [2023-04-20 16:00:37] INFO root fetch - main [MainThread]: Store serial: [17787917]
+[2023-04-20 16:05:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17787917]
+[2023-04-20 16:05:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-20 16:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib-holdings
+[2023-04-20 16:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c4m-flexcell
+[2023-04-20 16:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edgartools
+[2023-04-20 16:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nameko-statsd
+[2023-04-20 16:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: danielutils
+[2023-04-20 16:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nameko-eventlog-dispatcher
+[2023-04-20 16:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: batch-ingestion-client-py
+[2023-04-20 16:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deterrers-cli
+[2023-04-20 16:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bicm
+[2023-04-20 16:05:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: testgear-importer-allure
+[2023-04-20 16:05:47] INFO root fetch - processPackages [nameko-eventlog-dispatcher]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-20 16:05:47] INFO root fetch - processPackages [c4m-flexcell]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-20 16:05:47] INFO root fetch - processPackages [nameko-statsd]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-20 16:05:47] INFO root fetch - processPackages [edgartools]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-20 16:05:47] INFO root fetch - processPackages [testgear-importer-allure]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-20 16:05:47] WARNING root fetch - processPackages [batch-ingestion-client-py]: Skipping, unable to determine old version
+[2023-04-20 16:05:47] INFO root fetch - processPackages [danielutils]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-20 16:05:47] INFO root fetch - main [MainThread]: End processing [batch-ingestion-client-py] error
+[2023-04-20 16:05:47] WARNING root fetch - processPackages [lib-holdings]: Skipping, unable to determine old version
+[2023-04-20 16:05:47] INFO root fetch - processPackages [deterrers-cli]: New version: [0.4] Old Version: [0.3]
+[2023-04-20 16:05:47] INFO root fetch - main [MainThread]: End processing [lib-holdings] error
+[2023-04-20 16:05:47] INFO root fetch - processPackages [bicm]: New version: [3.0.0] Old Version: [2.0.4]
+[2023-04-20 16:05:47] INFO root fetch - processPackages [nameko-eventlog-dispatcher]: Downloading https://files.pythonhosted.org/packages/0a/7e/64928f9ca8ad08866e0530bdeb09f2a400e905c8aff8b3d9488041e9f58d/nameko-eventlog-dispatcher-0.4.0.tar.gz
+[2023-04-20 16:05:47] INFO root fetch - processPackages [nameko-statsd]: Downloading https://files.pythonhosted.org/packages/80/34/dc453a1215ec70d474163df14e14204c365f54604a33eea7943fe7cd9e9e/nameko-statsd-0.1.3.tar.gz
+[2023-04-20 16:05:48] INFO root fetch - processPackages [c4m-flexcell]: Downloading https://files.pythonhosted.org/packages/16/ce/c4828990956f71f788fb9ac3c0ddb3887c4be26810f16b0c064757f37d9f/c4m_flexcell-0.3.0.tar.gz
+[2023-04-20 16:05:48] INFO root fetch - processPackages [testgear-importer-allure]: Downloading https://files.pythonhosted.org/packages/b9/6a/79f2b5115d29de4ca499f4ef340da6fc6c302c8da6b74865e7c0e43a87c4/testgear-importer-allure-1.3.0.tar.gz
+[2023-04-20 16:05:48] INFO root fetch - processPackages [bicm]: Downloading https://files.pythonhosted.org/packages/65/f3/2ba0fa8ffe14e814f6f7d30c0bca794cd514430bd7752c391ed8055d7678/bicm-2.0.4.tar.gz
+[2023-04-20 16:05:48] INFO root fetch - processPackages [danielutils]: Downloading https://files.pythonhosted.org/packages/cc/52/119c9619e68135c2ddb3fcd18130c5d9f0b2b52360b996db10d74bc92566/danielutils-0.8.2.tar.gz
+[2023-04-20 16:05:48] INFO root fetch - processPackages [edgartools]: executing diffoscope
+[2023-04-20 16:05:48] INFO root fetch - processPackages [edgartools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgartools-1.8.0.tar.gz tmp/edgartools-1.9.0.tar.gz --markdown 20230420/e/edgartools/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 16:05:48] INFO root fetch - processPackages [deterrers-cli]: Downloading https://files.pythonhosted.org/packages/da/5d/f18127095f672e1f93c050d35a949f78ebf1f8bb4880c728c4ef8ce4ffa5/deterrers-cli-0.4.tar.gz
+[2023-04-20 16:05:48] INFO root fetch - processPackages [danielutils]: executing diffoscope
+[2023-04-20 16:05:48] INFO root fetch - processPackages [danielutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danielutils-0.8.1.tar.gz tmp/danielutils-0.8.2.tar.gz --markdown 20230420/d/danielutils/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-20 16:05:48] INFO root fetch - processPackages [nameko-statsd]: Downloading https://files.pythonhosted.org/packages/1d/ac/6b89c971ac1161f81b3d08d1cd88a419eb13b947066aeeeebab28f6a6d77/nameko-statsd-0.1.4.tar.gz
+[2023-04-20 16:05:48] INFO root fetch - processPackages [testgear-importer-allure]: Downloading https://files.pythonhosted.org/packages/fc/e5/38bb2399bb5082976b6a310dd8ffc8fa09b23d8fc808be17fac3044d8652/testgear-importer-allure-1.3.1.tar.gz
+[2023-04-20 16:05:48] INFO root fetch - processPackages [nameko-eventlog-dispatcher]: Downloading https://files.pythonhosted.org/packages/a4/3a/b839a67ad946aa13eb9ff0c3d467a274084756a47e4393a25a447d28c42f/nameko-eventlog-dispatcher-0.4.1.tar.gz
+[2023-04-20 16:05:48] INFO root fetch - processPackages [c4m-flexcell]: Downloading https://files.pythonhosted.org/packages/94/7e/1e2084b80816e98f9fbf75c4468fc196aa2d9fa6f486d02fb1d8606e4301/c4m_flexcell-0.3.1.tar.gz
+[2023-04-20 16:05:48] INFO root fetch - processPackages [deterrers-cli]: executing diffoscope
+[2023-04-20 16:05:48] INFO root fetch - processPackages [deterrers-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deterrers-cli-0.3.tar.gz tmp/deterrers-cli-0.4.tar.gz --markdown 20230420/d/deterrers-cli/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-20 16:05:48] INFO root fetch - processPackages [bicm]: Downloading https://files.pythonhosted.org/packages/35/81/800b3e1d9a0a826c81db512ad18834bd3e3c1a2173c8b0036b798e7b572b/bicm-3.0.0.tar.gz
+[2023-04-20 16:05:48] INFO root fetch - processPackages [nameko-statsd]: executing diffoscope
+[2023-04-20 16:05:48] INFO root fetch - processPackages [nameko-statsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nameko-statsd-0.1.3.tar.gz tmp/nameko-statsd-0.1.4.tar.gz --markdown 20230420/n/nameko-statsd/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-20 16:05:48] INFO root fetch - processPackages [testgear-importer-allure]: executing diffoscope
+[2023-04-20 16:05:48] INFO root fetch - processPackages [testgear-importer-allure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testgear-importer-allure-1.3.0.tar.gz tmp/testgear-importer-allure-1.3.1.tar.gz --markdown 20230420/t/testgear-importer-allure/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-20 16:05:48] INFO root fetch - processPackages [c4m-flexcell]: executing diffoscope
+[2023-04-20 16:05:48] INFO root fetch - processPackages [c4m-flexcell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_flexcell-0.3.0.tar.gz tmp/c4m_flexcell-0.3.1.tar.gz --markdown 20230420/c/c4m-flexcell/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-20 16:05:48] INFO root fetch - processPackages [nameko-eventlog-dispatcher]: executing diffoscope
+[2023-04-20 16:05:48] INFO root fetch - processPackages [nameko-eventlog-dispatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nameko-eventlog-dispatcher-0.4.0.tar.gz tmp/nameko-eventlog-dispatcher-0.4.1.tar.gz --markdown 20230420/n/nameko-eventlog-dispatcher/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-20 16:05:48] INFO root fetch - processPackages [bicm]: executing diffoscope
+[2023-04-20 16:05:48] INFO root fetch - processPackages [bicm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bicm-2.0.4.tar.gz tmp/bicm-3.0.0.tar.gz --markdown 20230420/b/bicm/2.0.4-3.0.0/diff.md --exclude *.pyd
+[2023-04-20 16:05:49] INFO root fetch - main [MainThread]: End processing [deterrers-cli]: success
+[2023-04-20 16:05:49] INFO root fetch - main [MainThread]: End processing [edgartools]: success
+[2023-04-20 16:05:49] INFO root fetch - main [MainThread]: End processing [danielutils]: success
+[2023-04-20 16:05:49] INFO root fetch - main [MainThread]: End processing [nameko-eventlog-dispatcher]: success
+[2023-04-20 16:05:50] INFO root fetch - main [MainThread]: End processing [nameko-statsd]: success
+[2023-04-20 16:05:50] INFO root fetch - main [MainThread]: End processing [testgear-importer-allure]: success
+[2023-04-20 16:05:50] INFO root fetch - main [MainThread]: End processing [c4m-flexcell]: success
+[2023-04-20 16:05:50] INFO root fetch - main [MainThread]: End processing [bicm]: success
+[2023-04-20 16:05:50] INFO root fetch - main [MainThread]: Store serial: [17787975]
