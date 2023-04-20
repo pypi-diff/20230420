@@ -9459,3 +9459,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 09:06:54] INFO root fetch - main [MainThread]: End processing [crfpy]: success
 [2023-04-20 09:07:07] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-04-20 09:07:07] INFO root fetch - main [MainThread]: Store serial: [17783168]
+[2023-04-20 09:12:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783168]
+[2023-04-20 09:12:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-20 09:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bc-detect-secrets
+[2023-04-20 09:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-excel-import-export
+[2023-04-20 09:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-excel-import-export-demo
+[2023-04-20 09:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbqq
+[2023-04-20 09:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gptloop
+[2023-04-20 09:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jtt-tm-utils
+[2023-04-20 09:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finbourne-access-sdk
+[2023-04-20 09:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dissect.hypervisor
+[2023-04-20 09:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: twb-project
+[2023-04-20 09:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: domolibrary
+[2023-04-20 09:12:16] INFO root fetch - processPackages [odoo-addon-excel-import-export]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-04-20 09:12:16] INFO root fetch - processPackages [odoo-addon-excel-import-export-demo]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-04-20 09:12:16] INFO root fetch - processPackages [dbqq]: New version: [1.3.4] Old Version: [1.2.0]
+[2023-04-20 09:12:16] INFO root fetch - processPackages [gptloop]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 09:12:16] INFO root fetch - processPackages [bc-detect-secrets]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-20 09:12:16] INFO root fetch - processPackages [dissect.hypervisor]: New version: [3.7.dev1] Old Version: [3.6.dev1]
+[2023-04-20 09:12:16] INFO root fetch - processPackages [jtt-tm-utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-20 09:12:16] INFO root fetch - processPackages [domolibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 09:12:16] INFO root fetch - processPackages [twb-project]: New version: [0.7.3a9] Old Version: [0.7.3a8]
+[2023-04-20 09:12:16] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-04-20 09:12:17] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-04-20 09:12:17] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.7.3a8.tar.gz tmp/twb_project-0.7.3a9.tar.gz --markdown 20230420/t/twb-project/0.7.3a8-0.7.3a9/diff.md --exclude *.pyd
+[2023-04-20 09:12:17] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-04-20 09:12:17] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230420/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-04-20 09:12:17] INFO root fetch - processPackages [gptloop]: Downloading https://files.pythonhosted.org/packages/01/0b/adb5bf4d875d3a516822d0f35a2fa293209317d2576c58829102aa845c08/gptloop-0.0.1.tar.gz
+[2023-04-20 09:12:17] INFO root fetch - processPackages [jtt-tm-utils]: Downloading https://files.pythonhosted.org/packages/93/7d/09c3707403185967559b420033f33b25c0da19a0755242992caa8b3c2849/jtt-tm-utils-0.1.1.tar.gz
+[2023-04-20 09:12:17] INFO root fetch - processPackages [dissect.hypervisor]: Downloading https://files.pythonhosted.org/packages/52/35/f5e87be22adbbdcb6a32fcac350f08fe4bd816c87bb2709bb0223dc57bd1/dissect.hypervisor-3.6.dev1.tar.gz
+[2023-04-20 09:12:17] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-20 09:12:17] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.0.8.tar.gz tmp/domolibrary-0.0.9.tar.gz --markdown 20230420/d/domolibrary/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 09:12:17] INFO root fetch - processPackages [odoo-addon-excel-import-export-demo]: Downloading https://files.pythonhosted.org/packages/4c/f6/00fba520ca0c09f62e085e84c80ddc542ee41987b2e2d064031bcd3b8ee6/odoo_addon_excel_import_export_demo-16.0.1.0.0.3-py3-none-any.whl
+[2023-04-20 09:12:17] INFO root fetch - processPackages [dbqq]: Downloading https://files.pythonhosted.org/packages/3f/2c/28b65e9168fb92fe9a9e53adfa9507021f01ade15ed94b229d25c5d73bc0/dbqq-1.3.4.tar.gz
+[2023-04-20 09:12:17] INFO root fetch - processPackages [odoo-addon-excel-import-export]: executing diffoscope
+[2023-04-20 09:12:17] INFO root fetch - processPackages [odoo-addon-excel-import-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_excel_import_export-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_excel_import_export-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-excel-import-export/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-04-20 09:12:17] INFO root fetch - processPackages [bc-detect-secrets]: executing diffoscope
+[2023-04-20 09:12:17] INFO root fetch - processPackages [bc-detect-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc-detect-secrets-1.4.8.tar.gz tmp/bc-detect-secrets-1.4.9.tar.gz --markdown 20230420/b/bc-detect-secrets/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-20 09:12:17] INFO root fetch - processPackages [jtt-tm-utils]: Downloading https://files.pythonhosted.org/packages/c9/ed/3137f23c6d970af2ad5ad6dc2390214b1501a76b84c4ac9faab7eadfe7de/jtt-tm-utils-0.1.2.tar.gz
+[2023-04-20 09:12:17] INFO root fetch - processPackages [gptloop]: Downloading https://files.pythonhosted.org/packages/4c/a7/da46a46c8860cd50abc26c95a86c999b763aaffba851d25391215b208a39/gptloop-0.0.2.tar.gz
+[2023-04-20 09:12:17] INFO root fetch - processPackages [dbqq]: executing diffoscope
+[2023-04-20 09:12:17] INFO root fetch - processPackages [dbqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbqq-1.2.0.tar.gz tmp/dbqq-1.3.4.tar.gz --markdown 20230420/d/dbqq/1.2.0-1.3.4/diff.md --exclude *.pyd
+[2023-04-20 09:12:17] INFO root fetch - processPackages [odoo-addon-excel-import-export-demo]: executing diffoscope
+[2023-04-20 09:12:17] INFO root fetch - processPackages [odoo-addon-excel-import-export-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_excel_import_export_demo-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_excel_import_export_demo-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230420/o/odoo-addon-excel-import-export-demo/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-04-20 09:12:17] INFO root fetch - processPackages [jtt-tm-utils]: executing diffoscope
+[2023-04-20 09:12:17] INFO root fetch - processPackages [jtt-tm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jtt-tm-utils-0.1.1.tar.gz tmp/jtt-tm-utils-0.1.2.tar.gz --markdown 20230420/j/jtt-tm-utils/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-20 09:12:17] INFO root fetch - processPackages [gptloop]: executing diffoscope
+[2023-04-20 09:12:17] INFO root fetch - processPackages [gptloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptloop-0.0.1.tar.gz tmp/gptloop-0.0.2.tar.gz --markdown 20230420/g/gptloop/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 09:12:17] INFO root fetch - processPackages [dissect.hypervisor]: Downloading https://files.pythonhosted.org/packages/f5/28/b0b95f95f7274e64b8b7f04c389b3073566eaa5b24d9d89d91520ecd1ecf/dissect.hypervisor-3.7.dev1.tar.gz
+[2023-04-20 09:12:18] INFO root fetch - processPackages [dissect.hypervisor]: executing diffoscope
+[2023-04-20 09:12:18] INFO root fetch - processPackages [dissect.hypervisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.hypervisor-3.6.dev1.tar.gz tmp/dissect.hypervisor-3.7.dev1.tar.gz --markdown 20230420/d/dissect.hypervisor/3.6.dev1-3.7.dev1/diff.md --exclude *.pyd
+[2023-04-20 09:12:18] INFO root fetch - processPackages [twb-project]: Start processing: tf-hub-nightly
+[2023-04-20 09:12:18] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-04-20 09:12:18] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-04-20 09:12:18] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-04-20 09:12:18] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230420/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-04-20 09:12:19] INFO root fetch - processPackages [gptloop]: Start processing: pydae
+[2023-04-20 09:12:19] INFO root fetch - main [MainThread]: End processing [gptloop]: success
+[2023-04-20 09:12:19] INFO root fetch - main [MainThread]: End processing [jtt-tm-utils]: success
+[2023-04-20 09:12:19] INFO root fetch - processPackages [pydae]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-20 09:12:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-excel-import-export]: success
+[2023-04-20 09:12:19] INFO root fetch - main [MainThread]: End processing [bc-detect-secrets]: success
+[2023-04-20 09:12:19] INFO root fetch - processPackages [pydae]: Downloading https://files.pythonhosted.org/packages/7d/df/18fbeeac68b8076a40737405fc9638efb381a7dae1ccdfa520fe3810b1cd/pydae-0.8.0.tar.gz
+[2023-04-20 09:12:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-excel-import-export-demo]: success
+[2023-04-20 09:12:19] INFO root fetch - main [MainThread]: End processing [dbqq]: success
+[2023-04-20 09:12:19] WARNING root fetch - processPackages [pydae]: Skipping package: exceeds size limit 76279170>=10485760
+[2023-04-20 09:12:19] INFO root fetch - main [MainThread]: End processing [pydae] error
+[2023-04-20 09:12:19] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-20 09:12:20] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-04-20 09:12:20] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-04-20 09:12:20] INFO root fetch - main [MainThread]: End processing [dissect.hypervisor]: success
+[2023-04-20 09:12:20] INFO root fetch - main [MainThread]: Store serial: [17783204]
