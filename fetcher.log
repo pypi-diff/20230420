@@ -10378,3 +10378,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 10:16:17] INFO root fetch - main [MainThread]: End processing [discoart]: success
 [2023-04-20 10:16:54] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-20 10:16:54] INFO root fetch - main [MainThread]: Store serial: [17783637]
+[2023-04-20 10:21:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783637]
+[2023-04-20 10:22:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-result-sender
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nowcasting-datamodel
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avsos
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stellar-keystore
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discoart
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ec2-demo
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ltool
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: motoo
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: UniTok
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ec2-demo
+[2023-04-20 10:22:03] INFO root fetch - processPackages [pytest-result-sender]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ec2-demo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 10:22:03] INFO root fetch - processPackages [avsos]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-20 10:22:03] INFO root fetch - processPackages [stellar-keystore]: New version: [0.1.1] Old Version: [0.1.0.dev2]
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ltool]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ec2-demo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 10:22:03] INFO root fetch - processPackages [discoart]: New version: [0.9.7.dev2] Old Version: [0.9.7]
+[2023-04-20 10:22:03] INFO root fetch - processPackages [motoo]: New version: [1.1.9] Old Version: [1.1.871]
+[2023-04-20 10:22:03] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-04-20 10:22:03] INFO root fetch - processPackages [UniTok]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-04-20 10:22:03] INFO root fetch - processPackages [discoart]: executing diffoscope
+[2023-04-20 10:22:03] INFO root fetch - processPackages [discoart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discoart-0.9.7.tar.gz tmp/discoart-0.9.7.dev2.tar.gz --markdown 20230420/d/discoart/0.9.7-0.9.7.dev2/diff.md --exclude *.pyd
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ec2-demo]: Downloading https://files.pythonhosted.org/packages/eb/fe/2a53a434a2c1c0ab6f0f545e4648209096a98d43d270d43fec0874d37eff/ec2-demo-0.1.2.tar.gz
+[2023-04-20 10:22:03] INFO root fetch - processPackages [motoo]: Downloading https://files.pythonhosted.org/packages/71/0a/0cd2b9297ca9c4a0ae8b029b781a8969b2211946759be3c65676e489fc4f/motoo-1.1.871-py3-none-any.whl
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ec2-demo]: Downloading https://files.pythonhosted.org/packages/eb/fe/2a53a434a2c1c0ab6f0f545e4648209096a98d43d270d43fec0874d37eff/ec2-demo-0.1.2.tar.gz
+[2023-04-20 10:22:03] INFO root fetch - processPackages [pytest-result-sender]: Downloading https://files.pythonhosted.org/packages/f9/7c/7f6dbaca58d2e8e4636f2d9c1e68dcfd90c805c0d9d763038442a7ce4d80/pytest-result-sender-0.0.2.tar.gz
+[2023-04-20 10:22:03] INFO root fetch - processPackages [stellar-keystore]: Downloading https://files.pythonhosted.org/packages/15/5f/c77367dd5664959f85494131c4f0876cfc521a04391bf046bacff92ffedb/stellar_keystore-0.1.1.tar.gz
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ltool]: Downloading https://files.pythonhosted.org/packages/53/8c/d5092e944633b802fc05f0ed499dd3a942ab88b9fe50d6a260396b6156ba/ltool-1.7.3.tar.gz
+[2023-04-20 10:22:03] INFO root fetch - processPackages [avsos]: Downloading https://files.pythonhosted.org/packages/3a/a8/e69406ffe6c791981c8d3a6831c513018afa430fd38d9c8921e1370f0aea/avsos-0.0.6.tar.gz
+[2023-04-20 10:22:03] INFO root fetch - processPackages [UniTok]: Downloading https://files.pythonhosted.org/packages/88/f4/d810aff3796efe75e253d008efd3d8cc04160f2024485c648458d595b66e/UniTok-3.1.3.tar.gz
+[2023-04-20 10:22:03] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/46/cf/dd6c58899170c2ccd2de954f07fc6b6e2313d19af437d1495b30fa15ccb7/nowcasting_datamodel-1.3.7.tar.gz
+[2023-04-20 10:22:03] INFO root fetch - processPackages [stellar-keystore]: executing diffoscope
+[2023-04-20 10:22:03] INFO root fetch - processPackages [stellar-keystore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stellar_keystore-0.1.0.dev2.tar.gz tmp/stellar_keystore-0.1.1.tar.gz --markdown 20230420/s/stellar-keystore/0.1.0.dev2-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 10:22:03] INFO root fetch - processPackages [avsos]: executing diffoscope
+[2023-04-20 10:22:03] INFO root fetch - processPackages [avsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avsos-0.0.5.tar.gz tmp/avsos-0.0.6.tar.gz --markdown 20230420/a/avsos/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-20 10:22:03] INFO root fetch - processPackages [motoo]: executing diffoscope
+[2023-04-20 10:22:03] INFO root fetch - processPackages [motoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motoo-1.1.871-py3-none-any.whl.zip tmp/motoo-1.1.9-py3-none-any.whl.zip --markdown 20230420/m/motoo/1.1.871-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 10:22:03] INFO root fetch - processPackages [UniTok]: executing diffoscope
+[2023-04-20 10:22:03] INFO root fetch - processPackages [UniTok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UniTok-3.1.2.tar.gz tmp/UniTok-3.1.3.tar.gz --markdown 20230420/U/UniTok/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ec2-demo]: Downloading https://files.pythonhosted.org/packages/49/a7/9b941c009b6ea028ba1e7833abfab15d57938176d8e91eb531e60bd397ba/ec2-demo-0.1.3.tar.gz
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ec2-demo]: Downloading https://files.pythonhosted.org/packages/49/a7/9b941c009b6ea028ba1e7833abfab15d57938176d8e91eb531e60bd397ba/ec2-demo-0.1.3.tar.gz
+[2023-04-20 10:22:03] INFO root fetch - processPackages [pytest-result-sender]: Downloading https://files.pythonhosted.org/packages/eb/ee/d6fc7f47badf448604fc63843a976e39c13ae57748c849cbc11759fdd1b6/pytest_result_sender-0.0.3-py3-none-any.whl
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ltool]: Downloading https://files.pythonhosted.org/packages/00/49/67c915f52855993687d004301dfff6a1197017603ee862f9a2e719eac93f/ltool-1.7.4.tar.gz
+[2023-04-20 10:22:03] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-04-20 10:22:03] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.3.6.tar.gz tmp/nowcasting_datamodel-1.3.7.tar.gz --markdown 20230420/n/nowcasting-datamodel/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ec2-demo]: executing diffoscope
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ec2-demo]: executing diffoscope
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ec2-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec2-demo-0.1.2.tar.gz tmp/ec2-demo-0.1.3.tar.gz --markdown 20230420/e/ec2-demo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ec2-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec2-demo-0.1.2.tar.gz tmp/ec2-demo-0.1.3.tar.gz --markdown 20230420/e/ec2-demo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ltool]: executing diffoscope
+[2023-04-20 10:22:03] INFO root fetch - processPackages [ltool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltool-1.7.3.tar.gz tmp/ltool-1.7.4.tar.gz --markdown 20230420/l/ltool/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-04-20 10:22:03] INFO root fetch - processPackages [pytest-result-sender]: executing diffoscope
+[2023-04-20 10:22:03] INFO root fetch - processPackages [pytest-result-sender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-result-sender-0.0.2.tar.gz tmp/pytest_result_sender-0.0.3-py3-none-any.whl.zip --markdown 20230420/p/pytest-result-sender/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 10:22:05] INFO root fetch - processPackages [stellar-keystore]: Start processing: hive-maia
+[2023-04-20 10:22:05] INFO root fetch - main [MainThread]: End processing [stellar-keystore]: success
+[2023-04-20 10:22:05] INFO root fetch - processPackages [discoart]: Start processing: python-vlc-http
+[2023-04-20 10:22:05] INFO root fetch - main [MainThread]: End processing [discoart]: success
+[2023-04-20 10:22:05] INFO root fetch - processPackages [hive-maia]: New version: [1.1.2b0] Old Version: [1.1.2a0]
+[2023-04-20 10:22:05] INFO root fetch - processPackages [python-vlc-http]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 10:22:05] INFO root fetch - processPackages [python-vlc-http]: executing diffoscope
+[2023-04-20 10:22:05] INFO root fetch - processPackages [python-vlc-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-vlc-http-0.0.8.tar.gz tmp/python-vlc-http-0.0.9.tar.gz --markdown 20230420/p/python-vlc-http/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 10:22:05] INFO root fetch - processPackages [avsos]: Start processing: alibabacloud-maxcompute20220104-py2
+[2023-04-20 10:22:05] INFO root fetch - main [MainThread]: End processing [avsos]: success
+[2023-04-20 10:22:05] INFO root fetch - processPackages [alibabacloud-maxcompute20220104-py2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-20 10:22:05] INFO root fetch - processPackages [hive-maia]: Downloading https://files.pythonhosted.org/packages/ed/61/4316ec176f4b958b4f2c75ff5ff85382cc3ebe05a03e276aea68e3b502ed/hive-maia-1.1.2b0.tar.gz
+[2023-04-20 10:22:05] INFO root fetch - main [MainThread]: End processing [motoo]: success
+[2023-04-20 10:22:05] INFO root fetch - main [MainThread]: End processing [UniTok]: success
+[2023-04-20 10:22:05] INFO root fetch - processPackages [hive-maia]: executing diffoscope
+[2023-04-20 10:22:05] INFO root fetch - processPackages [hive-maia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hive-maia-1.1.2a0.tar.gz tmp/hive-maia-1.1.2b0.tar.gz --markdown 20230420/h/hive-maia/1.1.2a0-1.1.2b0/diff.md --exclude *.pyd
+[2023-04-20 10:22:05] INFO root fetch - main [MainThread]: End processing [ec2-demo]: success
+[2023-04-20 10:22:05] INFO root fetch - processPackages [alibabacloud-maxcompute20220104-py2]: Downloading https://files.pythonhosted.org/packages/cd/63/f2320faad4d80b81d9d3aaf72938c691619ce2e62eadd6dfa92802f9f971/alibabacloud_maxcompute20220104_py2-1.0.0.tar.gz
+[2023-04-20 10:22:05] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-04-20 10:22:05] INFO root fetch - main [MainThread]: End processing [ec2-demo]: success
+[2023-04-20 10:22:05] INFO root fetch - main [MainThread]: End processing [pytest-result-sender]: success
+[2023-04-20 10:22:05] INFO root fetch - main [MainThread]: End processing [ltool]: success
+[2023-04-20 10:22:05] INFO root fetch - processPackages [alibabacloud-maxcompute20220104-py2]: Downloading https://files.pythonhosted.org/packages/a4/6b/2712da2141c9f0d0ef14ff84d0d7f646e541bbd84ab6da765c4e7567f50f/alibabacloud_maxcompute20220104_py2-1.1.0.tar.gz
+[2023-04-20 10:22:06] INFO root fetch - processPackages [alibabacloud-maxcompute20220104-py2]: executing diffoscope
+[2023-04-20 10:22:06] INFO root fetch - processPackages [alibabacloud-maxcompute20220104-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_maxcompute20220104_py2-1.0.0.tar.gz tmp/alibabacloud_maxcompute20220104_py2-1.1.0.tar.gz --markdown 20230420/a/alibabacloud-maxcompute20220104-py2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-20 10:22:06] INFO root fetch - main [MainThread]: End processing [python-vlc-http]: success
+[2023-04-20 10:22:06] INFO root fetch - main [MainThread]: End processing [hive-maia]: success
+[2023-04-20 10:22:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-maxcompute20220104-py2]: success
+[2023-04-20 10:22:07] INFO root fetch - main [MainThread]: Store serial: [17783677]
