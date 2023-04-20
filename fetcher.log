@@ -23076,3 +23076,18 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 20:06:49] INFO root fetch - main [MainThread]: End processing [ligo-followup-advocate]: success
 [2023-04-20 20:06:55] INFO root fetch - main [MainThread]: End processing [ethraid]: success
 [2023-04-20 20:06:55] INFO root fetch - main [MainThread]: Store serial: [17791133]
+[2023-04-20 20:11:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17791133]
+[2023-04-20 20:12:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-04-20 20:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-silly-auth
+[2023-04-20 20:12:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pequena
+[2023-04-20 20:12:04] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 20:12:04] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-04-20 20:12:04] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230420/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 20:12:04] INFO root fetch - processPackages [django-silly-auth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-20 20:12:04] INFO root fetch - processPackages [django-silly-auth]: Downloading https://files.pythonhosted.org/packages/98/8f/57672b0e4be020b571021848379d5cd95e85bd1b4d91777b3dcc302038a6/django-silly-auth-1.0.7.tar.gz
+[2023-04-20 20:12:04] INFO root fetch - processPackages [django-silly-auth]: Downloading https://files.pythonhosted.org/packages/11/98/a52801c443569ec55b2a3a1e3266e7bd13150d87f59cb3e6fef71ca28994/django_silly_auth-1.0.8-py3-none-any.whl
+[2023-04-20 20:12:04] INFO root fetch - processPackages [django-silly-auth]: executing diffoscope
+[2023-04-20 20:12:04] INFO root fetch - processPackages [django-silly-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-silly-auth-1.0.7.tar.gz tmp/django_silly_auth-1.0.8-py3-none-any.whl.zip --markdown 20230420/d/django-silly-auth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-20 20:12:05] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-04-20 20:12:05] INFO root fetch - main [MainThread]: End processing [django-silly-auth]: success
+[2023-04-20 20:12:05] INFO root fetch - main [MainThread]: Store serial: [17791160]
