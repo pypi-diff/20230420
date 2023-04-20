@@ -7246,3 +7246,28 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 05:48:25] INFO root fetch - main [MainThread]: End processing [azure-mgmt-apimanagement]: success
 [2023-04-20 05:48:45] INFO root fetch - main [MainThread]: End processing [azure-mgmt-appplatform]: success
 [2023-04-20 05:48:45] INFO root fetch - main [MainThread]: Store serial: [17781811]
+[2023-04-20 05:53:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781811]
+[2023-04-20 05:53:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-20 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybetting
+[2023-04-20 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sf-hamilton
+[2023-04-20 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reytool
+[2023-04-20 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-perm-trans
+[2023-04-20 05:53:55] INFO root fetch - processPackages [django-perm-trans]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-20 05:53:55] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2023-04-20 05:53:55] WARNING root fetch - processPackages [pybetting]: Skipping, unable to determine old version
+[2023-04-20 05:53:55] INFO root fetch - main [MainThread]: End processing [pybetting] error
+[2023-04-20 05:53:55] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-04-20 05:53:56] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-04-20 05:53:56] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230420/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-04-20 05:53:56] INFO root fetch - processPackages [django-perm-trans]: Downloading https://files.pythonhosted.org/packages/60/da/a9bc64e079c21daeeb7f30b82af116a4b1831c14d696c935c867ce40e476/django_perm_trans-0.1.0.tar.gz
+[2023-04-20 05:53:56] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2023-04-20 05:53:56] INFO root fetch - processPackages [django-perm-trans]: Downloading https://files.pythonhosted.org/packages/5d/53/ced23e5d02f7aaa83ee2690de983295616a53f735ea2465ca97793129d9e/django_perm_trans-0.1.1.tar.gz
+[2023-04-20 05:53:56] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2023-04-20 05:53:56] INFO root fetch - processPackages [django-perm-trans]: executing diffoscope
+[2023-04-20 05:53:56] INFO root fetch - processPackages [django-perm-trans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_perm_trans-0.1.0.tar.gz tmp/django_perm_trans-0.1.1.tar.gz --markdown 20230420/d/django-perm-trans/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-20 05:53:56] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2023-04-20 05:53:56] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20230420/s/sf-hamilton/1.9.0-1.9.0rc0/diff.md --exclude *.pyd
+[2023-04-20 05:53:57] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-04-20 05:53:57] INFO root fetch - main [MainThread]: End processing [django-perm-trans]: success
+[2023-04-20 05:53:58] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2023-04-20 05:53:58] INFO root fetch - main [MainThread]: Store serial: [17781827]
