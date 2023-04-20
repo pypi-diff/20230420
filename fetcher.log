@@ -15871,3 +15871,113 @@ EOFError: EOF read where object expected
 [2023-04-20 14:10:54] INFO root fetch - main [MainThread]: End processing [issue-db-api]: success
 [2023-04-20 14:10:56] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-20 14:10:56] INFO root fetch - main [MainThread]: Store serial: [17786736]
+[2023-04-20 14:16:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17786736]
+[2023-04-20 14:16:06] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: constellate
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nobuco
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tap-exact
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdkit
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crunch-cli
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansys-mechanical-core
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polysql
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: win-basic-tools
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyxllib
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: my-pipeline-package
+[2023-04-20 14:16:06] INFO root fetch - processPackages [constellate]: New version: [0.6.92] Old Version: [0.6.91]
+[2023-04-20 14:16:06] INFO root fetch - processPackages [crunch-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-20 14:16:06] INFO root fetch - processPackages [nobuco]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-20 14:16:06] INFO root fetch - processPackages [polysql]: New version: [0.0.35] Old Version: [0.0.34]
+[2023-04-20 14:16:06] INFO root fetch - processPackages [tap-exact]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-20 14:16:06] INFO root fetch - processPackages [sdkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 14:16:06] INFO root fetch - processPackages [win-basic-tools]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ansys-mechanical-core]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-20 14:16:06] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-04-20 14:16:06] INFO root fetch - processPackages [pyxllib]: New version: [0.3.9] Old Version: [0.3.8.1]
+[2023-04-20 14:16:06] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-04-20 14:16:06] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.8.tar.gz tmp/sdkit-1.0.9.tar.gz --markdown 20230420/s/sdkit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 14:16:06] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-04-20 14:16:06] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-0.8.1.tar.gz tmp/crunch-cli-0.9.0.tar.gz --markdown 20230420/c/crunch-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 14:16:06] INFO root fetch - processPackages [polysql]: Downloading https://files.pythonhosted.org/packages/a1/51/42f179228344ff0ba60d68e61baedcb33bbabbc97d5444d5497c3e1f6aef/polysql-0.0.34.tar.gz
+[2023-04-20 14:16:06] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/59/e1/6321c8d331d54e487dcfa8cbf0bb0a3dc32ea6dc73d559db9c99c6d26a7f/tap_exact-0.2.1.tar.gz
+[2023-04-20 14:16:06] INFO root fetch - processPackages [win-basic-tools]: Downloading https://files.pythonhosted.org/packages/27/27/5dcc415aca011c4fe656afad7f54e50c2d447aac4ca529f3006e6d88ae13/win-basic-tools-0.3.3.tar.gz
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ansys-mechanical-core]: Downloading https://files.pythonhosted.org/packages/42/76/2aa7ab6742f28cbca1fec026af3591944baed2a92c0eaf198a7fd4a249b8/ansys-mechanical-core-0.7.2.tar.gz
+[2023-04-20 14:16:06] INFO root fetch - processPackages [my-pipeline-package]: Downloading https://files.pythonhosted.org/packages/c3/85/3eade0aa816e9aa8b7c671f552e866029245bd22ba4f6c5aa1283f0a27d6/my-pipeline-package-1.1.7.tar.gz
+[2023-04-20 14:16:06] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/56/e2/611357077db51eca07e24713965352d50f4e9e93dcb8b662a8fd61181272/nobuco-0.3.0.tar.gz
+[2023-04-20 14:16:06] INFO root fetch - processPackages [tap-exact]: executing diffoscope
+[2023-04-20 14:16:06] INFO root fetch - processPackages [tap-exact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_exact-0.2.0.tar.gz tmp/tap_exact-0.2.1.tar.gz --markdown 20230420/t/tap-exact/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-20 14:16:06] INFO root fetch - processPackages [constellate]: Downloading https://files.pythonhosted.org/packages/85/d9/31fb96f24913fdddfa8e8d9c75ac165eb02b5a13f5802c2e02cfb7df2eaa/constellate-0.6.92-py2.py3-none-any.whl
+[2023-04-20 14:16:06] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 14:16:06] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.1.6.tar.gz tmp/my-pipeline-package-1.1.7.tar.gz --markdown 20230420/m/my-pipeline-package/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ansys-mechanical-core]: Downloading https://files.pythonhosted.org/packages/f6/16/092ac00d4f4060270f1c6d12de265a3b8f8ac0610e6b3ea62eeb5e4867a8/ansys-mechanical-core-0.7.3.tar.gz
+[2023-04-20 14:16:06] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2023-04-20 14:16:06] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.8.1.tar.gz tmp/pyxllib-0.3.9.tar.gz --markdown 20230420/p/pyxllib/0.3.8.1-0.3.9/diff.md --exclude *.pyd
+[2023-04-20 14:16:06] INFO root fetch - processPackages [constellate]: executing diffoscope
+[2023-04-20 14:16:06] INFO root fetch - processPackages [constellate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constellate-0.6.91-py2.py3-none-any.whl.zip tmp/constellate-0.6.92-py2.py3-none-any.whl.zip --markdown 20230420/c/constellate/0.6.91-0.6.92/diff.md --exclude *.pyd
+[2023-04-20 14:16:06] INFO root fetch - processPackages [win-basic-tools]: Downloading https://files.pythonhosted.org/packages/70/87/57580ba95ae0135ffa068800564775315436cede71a9dd4d8ebef18bd48c/win-basic-tools-0.3.4.tar.gz
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ansys-mechanical-core]: executing diffoscope
+[2023-04-20 14:16:06] INFO root fetch - processPackages [ansys-mechanical-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-mechanical-core-0.7.2.tar.gz tmp/ansys-mechanical-core-0.7.3.tar.gz --markdown 20230420/a/ansys-mechanical-core/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-20 14:16:06] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2023-04-20 14:16:06] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.2.1.tar.gz tmp/nobuco-0.3.0.tar.gz --markdown 20230420/n/nobuco/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 14:16:06] INFO root fetch - processPackages [win-basic-tools]: executing diffoscope
+[2023-04-20 14:16:06] INFO root fetch - processPackages [win-basic-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/win-basic-tools-0.3.3.tar.gz tmp/win-basic-tools-0.3.4.tar.gz --markdown 20230420/w/win-basic-tools/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-20 14:16:06] INFO root fetch - processPackages [polysql]: Downloading https://files.pythonhosted.org/packages/e7/8e/3de5d2e0f5943ca24b998f727c491e12d2b09b6918877ccb6233d4a9858e/polysql-0.0.35.tar.gz
+[2023-04-20 14:16:07] INFO root fetch - processPackages [polysql]: executing diffoscope
+[2023-04-20 14:16:07] INFO root fetch - processPackages [polysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polysql-0.0.34.tar.gz tmp/polysql-0.0.35.tar.gz --markdown 20230420/p/polysql/0.0.34-0.0.35/diff.md --exclude *.pyd
+[2023-04-20 14:16:07] INFO root fetch - processPackages [crunch-cli]: Start processing: llm4gpt
+[2023-04-20 14:16:07] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-04-20 14:16:07] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.20.20.13.57] Old Version: [2023.4.20.20.13.36]
+[2023-04-20 14:16:07] INFO root fetch - processPackages [tap-exact]: Start processing: ezyquant
+[2023-04-20 14:16:07] INFO root fetch - main [MainThread]: End processing [tap-exact]: success
+[2023-04-20 14:16:07] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/fb/83/a1eb460cb6e73202d4f00b2987b1385670e18e70c1230ebe75081be1bc0f/llm4gpt-2023.4.20.20.13.36.tar.gz
+[2023-04-20 14:16:07] INFO root fetch - processPackages [ezyquant]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-20 14:16:08] INFO root fetch - processPackages [ezyquant]: Downloading https://files.pythonhosted.org/packages/03/b5/8f0433f889c05eb617233ccd1bdf8d4dc4201d340f67124c820bbbb0a604/ezyquant-0.6.2.tar.gz
+[2023-04-20 14:16:08] INFO root fetch - processPackages [ezyquant]: executing diffoscope
+[2023-04-20 14:16:08] INFO root fetch - processPackages [ezyquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezyquant-0.6.1.tar.gz tmp/ezyquant-0.6.2.tar.gz --markdown 20230420/e/ezyquant/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-20 14:16:08] INFO root fetch - processPackages [my-pipeline-package]: Start processing: llm4gpt
+[2023-04-20 14:16:08] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 14:16:08] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.20.20.13.57] Old Version: [2023.4.20.20.13.36]
+[2023-04-20 14:16:08] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/fb/83/a1eb460cb6e73202d4f00b2987b1385670e18e70c1230ebe75081be1bc0f/llm4gpt-2023.4.20.20.13.36.tar.gz
+[2023-04-20 14:16:08] INFO root fetch - processPackages [sdkit]: Start processing: cmdgpt
+[2023-04-20 14:16:08] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-04-20 14:16:08] INFO root fetch - processPackages [cmdgpt]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-20 14:16:08] INFO root fetch - processPackages [ansys-mechanical-core]: Start processing: dop-integration-libs
+[2023-04-20 14:16:08] INFO root fetch - main [MainThread]: End processing [ansys-mechanical-core]: success
+[2023-04-20 14:16:08] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-20 14:16:08] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/29/71/fe03c0cd0da617603bc00fddc42d444ca2e6aef95f132404daaa1a4b78c2/llm4gpt-2023.4.20.20.13.57.tar.gz
+[2023-04-20 14:16:08] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/29/71/fe03c0cd0da617603bc00fddc42d444ca2e6aef95f132404daaa1a4b78c2/llm4gpt-2023.4.20.20.13.57.tar.gz
+[2023-04-20 14:16:08] INFO root fetch - processPackages [win-basic-tools]: Start processing: myUniquePythonPackageName
+[2023-04-20 14:16:08] INFO root fetch - main [MainThread]: End processing [win-basic-tools]: success
+[2023-04-20 14:16:08] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.106]
+[2023-04-20 14:16:08] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-20 14:16:08] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.20.20.13.36.tar.gz tmp/llm4gpt-2023.4.20.20.13.57.tar.gz --markdown 20230420/l/llm4gpt/2023.4.20.20.13.36-2023.4.20.20.13.57/diff.md --exclude *.pyd
+[2023-04-20 14:16:08] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-20 14:16:08] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.20.20.13.36.tar.gz tmp/llm4gpt-2023.4.20.20.13.57.tar.gz --markdown 20230420/l/llm4gpt/2023.4.20.20.13.36-2023.4.20.20.13.57/diff.md --exclude *.pyd
+[2023-04-20 14:16:08] INFO root fetch - processPackages [cmdgpt]: Downloading https://files.pythonhosted.org/packages/0b/e6/15b59d4f38246be0fdb7e7f17032262f5fad0a7c06428a35d2fe86b11cc8/cmdgpt-0.4.0.tar.gz
+[2023-04-20 14:16:08] INFO root fetch - processPackages [dop-integration-libs]: Downloading https://files.pythonhosted.org/packages/1f/e9/81c127e75d0cc6cea3222298a5061c30d87a73a586ed5e9104f574a6aa5b/dop_integration_libs-0.1.4.tar.gz
+[2023-04-20 14:16:08] INFO root fetch - processPackages [cmdgpt]: executing diffoscope
+[2023-04-20 14:16:08] INFO root fetch - processPackages [cmdgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdgpt-0.3.0.tar.gz tmp/cmdgpt-0.4.0.tar.gz --markdown 20230420/c/cmdgpt/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-20 14:16:08] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-04-20 14:16:08] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.106.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230420/m/myUniquePythonPackageName/5.5.106-7.10.7/diff.md --exclude *.pyd
+[2023-04-20 14:16:09] INFO root fetch - processPackages [dop-integration-libs]: Downloading https://files.pythonhosted.org/packages/f5/f3/93c0a7857f218d90e7c29a2ed637ebe877fef624a43da7ef89bb9d5349a3/dop_integration_libs-0.1.5.tar.gz
+[2023-04-20 14:16:09] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-20 14:16:09] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.4.tar.gz tmp/dop_integration_libs-0.1.5.tar.gz --markdown 20230420/d/dop-integration-libs/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-20 14:16:09] INFO root fetch - processPackages [nobuco]: Start processing: plix-kws
+[2023-04-20 14:16:09] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2023-04-20 14:16:09] WARNING root fetch - processPackages [plix-kws]: Skipping, unable to determine old version
+[2023-04-20 14:16:09] INFO root fetch - processPackages [plix-kws]: Start processing: serverless-sdk
+[2023-04-20 14:16:09] INFO root fetch - main [MainThread]: End processing [plix-kws] error
+[2023-04-20 14:16:09] INFO root fetch - processPackages [serverless-sdk]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-20 14:16:09] INFO root fetch - main [MainThread]: End processing [constellate]: success
+[2023-04-20 14:16:09] INFO root fetch - processPackages [serverless-sdk]: Downloading https://files.pythonhosted.org/packages/b5/9e/5553ee5a32a5d29d6a84fbddf1e28416093d6166514e8c4057e30f2a2daa/serverless-sdk-0.4.3.tar.gz
+[2023-04-20 14:16:09] INFO root fetch - processPackages [serverless-sdk]: executing diffoscope
+[2023-04-20 14:16:09] INFO root fetch - processPackages [serverless-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-sdk-0.4.2.tar.gz tmp/serverless-sdk-0.4.3.tar.gz --markdown 20230420/s/serverless-sdk/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-20 14:16:10] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-04-20 14:16:10] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-20 14:16:10] INFO root fetch - main [MainThread]: End processing [cmdgpt]: success
+[2023-04-20 14:16:11] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-20 14:16:11] INFO root fetch - main [MainThread]: End processing [serverless-sdk]: success
+[2023-04-20 14:16:11] INFO root fetch - main [MainThread]: End processing [ezyquant]: success
+[2023-04-20 14:16:11] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2023-04-20 14:16:12] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-20 14:16:30] INFO root fetch - main [MainThread]: End processing [polysql]: success
+[2023-04-20 14:16:30] INFO root fetch - main [MainThread]: Store serial: [17786789]
