@@ -19299,3 +19299,114 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 16:59:31] INFO root fetch - main [MainThread]: End processing [fabric-am-handlers]: success
 [2023-04-20 16:59:52] INFO root fetch - main [MainThread]: End processing [aspeak]: success
 [2023-04-20 16:59:52] INFO root fetch - main [MainThread]: Store serial: [17788727]
+[2023-04-20 17:05:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17788727]
+[2023-04-20 17:05:08] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-20 17:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opendatacrawler
+[2023-04-20 17:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fwdviewpy
+[2023-04-20 17:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsptrain
+[2023-04-20 17:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-server-proxy
+[2023-04-20 17:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: capellambse
+[2023-04-20 17:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c4m-pdk-sky130
+[2023-04-20 17:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tripmaster
+[2023-04-20 17:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OpenGeode-GeosciencesIO
+[2023-04-20 17:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiorocket
+[2023-04-20 17:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Geode-Background
+[2023-04-20 17:05:08] INFO root fetch - processPackages [Geode-Background]: New version: [7.0.3] Old Version: [7.0.2]
+[2023-04-20 17:05:08] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-04-20 17:05:08] INFO root fetch - processPackages [jupyter-server-proxy]: New version: [4.0.0] Old Version: [3.2.2]
+[2023-04-20 17:05:08] WARNING root fetch - processPackages [opendatacrawler]: Skipping, unable to determine old version
+[2023-04-20 17:05:08] INFO root fetch - processPackages [opendatacrawler]: Start processing: scNodes
+[2023-04-20 17:05:08] INFO root fetch - main [MainThread]: End processing [opendatacrawler] error
+[2023-04-20 17:05:08] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-20 17:05:08] INFO root fetch - processPackages [lsptrain]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-20 17:05:08] INFO root fetch - processPackages [tripmaster]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 17:05:08] INFO root fetch - processPackages [c4m-pdk-sky130]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-20 17:05:08] INFO root fetch - processPackages [aiorocket]: New version: [1.3.1b2] Old Version: [1.3.1b1]
+[2023-04-20 17:05:08] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-04-20 17:05:08] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2023-04-20 17:05:08] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.0.2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.0.3-cp39-cp39-win_amd64.whl.zip --markdown 20230420/G/Geode-Background/7.0.2-7.0.3/diff.md --exclude *.pyd
+[2023-04-20 17:05:08] INFO root fetch - processPackages [scNodes]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-20 17:05:08] INFO root fetch - processPackages [jupyter-server-proxy]: Downloading https://files.pythonhosted.org/packages/bc/72/c3eefe70c8fe9fec67114076822f7a80478fbe8322801b0367b17a40b26b/jupyter-server-proxy-3.2.2.tar.gz
+[2023-04-20 17:05:08] INFO root fetch - processPackages [lsptrain]: Downloading https://files.pythonhosted.org/packages/fc/c2/a1676de59602f9ddb0d375264ba86f226ddae0f4b5c745bd087a4225e15f/lsptrain-0.0.2.tar.gz
+[2023-04-20 17:05:08] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/09/fd/e9ae0048e2cfdb34c532cf587307998c54fdd836edab83b8c839e11228ad/fwdviewpy-0.1.4.tar.gz
+[2023-04-20 17:05:08] INFO root fetch - processPackages [aiorocket]: Downloading https://files.pythonhosted.org/packages/79/cf/8d84d362c86adafc79791df46508df3d475b907fa1ed46568fec433daafb/aiorocket-1.3.1b1.tar.gz
+[2023-04-20 17:05:08] INFO root fetch - processPackages [c4m-pdk-sky130]: Downloading https://files.pythonhosted.org/packages/3e/07/dac9d4331cfcf98e1336f9e62debf41eeb70138df989ecb5ba243d114c0c/c4m_pdk_sky130-0.1.1.tar.gz
+[2023-04-20 17:05:08] INFO root fetch - processPackages [scNodes]: Downloading https://files.pythonhosted.org/packages/69/e1/11bc08806de1ca29404ff31b52f4a23ef08afb5ec0fc3df113dd9466ab61/scNodes-1.1.7.tar.gz
+[2023-04-20 17:05:09] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: executing diffoscope
+[2023-04-20 17:05:09] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_GeosciencesIO-4.0.0-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_GeosciencesIO-4.0.1-cp39-cp39-win_amd64.whl.zip --markdown 20230420/O/OpenGeode-GeosciencesIO/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-04-20 17:05:09] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-04-20 17:05:09] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230420/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-04-20 17:05:09] INFO root fetch - processPackages [tripmaster]: Downloading https://files.pythonhosted.org/packages/2d/33/0e72cc7b5622277d8a0c78e1dcb2608de4693bc841d5418e3c32699ed3f2/tripmaster-1.0.9-py3-none-any.whl
+[2023-04-20 17:05:09] WARNING root fetch - processPackages [c4m-pdk-sky130]: Skipping package: exceeds size limit 14485485>=10485760
+[2023-04-20 17:05:09] INFO root fetch - processPackages [c4m-pdk-sky130]: Start processing: OpenREM
+[2023-04-20 17:05:09] INFO root fetch - main [MainThread]: End processing [c4m-pdk-sky130] error
+[2023-04-20 17:05:09] INFO root fetch - processPackages [jupyter-server-proxy]: Downloading https://files.pythonhosted.org/packages/0a/b6/c9e6b1e6bd84e43811e533a54f20e44537461f0b689198ff53374b58ab21/jupyter_server_proxy-4.0.0.tar.gz
+[2023-04-20 17:05:09] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/c3/69/1b58beea4ec2888ba2d6c26bdfea1567ef178a572b9dd3809f48bfe349fd/fwdviewpy-0.1.5.tar.gz
+[2023-04-20 17:05:09] INFO root fetch - processPackages [lsptrain]: Downloading https://files.pythonhosted.org/packages/73/79/279d26cd8485c80fd5b7053a11435d0aeb77e5a18e96cc0a56e27702f0e9/lsptrain-0.0.3.tar.gz
+[2023-04-20 17:05:09] INFO root fetch - processPackages [OpenREM]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-04-20 17:05:09] INFO root fetch - processPackages [aiorocket]: Downloading https://files.pythonhosted.org/packages/70/1f/a32106d06e9f656b99ed70d9d3b153380647977163be0b30b32583ee3247/aiorocket-1.3.1b2.tar.gz
+[2023-04-20 17:05:09] INFO root fetch - processPackages [tripmaster]: executing diffoscope
+[2023-04-20 17:05:09] INFO root fetch - processPackages [tripmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tripmaster-1.0.8-py3-none-any.whl.zip tmp/tripmaster-1.0.9-py3-none-any.whl.zip --markdown 20230420/t/tripmaster/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 17:05:09] INFO root fetch - processPackages [jupyter-server-proxy]: executing diffoscope
+[2023-04-20 17:05:09] INFO root fetch - processPackages [jupyter-server-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-server-proxy-3.2.2.tar.gz tmp/jupyter_server_proxy-4.0.0.tar.gz --markdown 20230420/j/jupyter-server-proxy/3.2.2-4.0.0/diff.md --exclude *.pyd
+[2023-04-20 17:05:09] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-04-20 17:05:09] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.4.tar.gz tmp/fwdviewpy-0.1.5.tar.gz --markdown 20230420/f/fwdviewpy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-20 17:05:09] INFO root fetch - processPackages [aiorocket]: executing diffoscope
+[2023-04-20 17:05:09] INFO root fetch - processPackages [aiorocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiorocket-1.3.1b1.tar.gz tmp/aiorocket-1.3.1b2.tar.gz --markdown 20230420/a/aiorocket/1.3.1b1-1.3.1b2/diff.md --exclude *.pyd
+[2023-04-20 17:05:09] INFO root fetch - processPackages [lsptrain]: executing diffoscope
+[2023-04-20 17:05:09] INFO root fetch - processPackages [lsptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsptrain-0.0.2.tar.gz tmp/lsptrain-0.0.3.tar.gz --markdown 20230420/l/lsptrain/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-20 17:05:09] INFO root fetch - processPackages [OpenREM]: Downloading https://files.pythonhosted.org/packages/de/cf/5e7039358042e6ffe775f954e461395bbac1c7c2a78b536373dcb4779a20/OpenREM-1.0.0b1.tar.gz
+[2023-04-20 17:05:09] WARNING root fetch - processPackages [scNodes]: Skipping package: exceeds size limit 12072774>=10485760
+[2023-04-20 17:05:09] INFO root fetch - processPackages [scNodes]: Start processing: giphon
+[2023-04-20 17:05:09] INFO root fetch - main [MainThread]: End processing [scNodes] error
+[2023-04-20 17:05:09] INFO root fetch - processPackages [giphon]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-20 17:05:09] INFO root fetch - processPackages [giphon]: Downloading https://files.pythonhosted.org/packages/b5/7f/4f5c91b38622db671f7bdd8623b51930d3f0c54e7101318a4dd98f33af39/giphon-0.1.6.tar.gz
+[2023-04-20 17:05:10] INFO root fetch - processPackages [giphon]: Downloading https://files.pythonhosted.org/packages/eb/63/0b234cd810b2a3090c04eb69f5fd56f6035f8b0cb7ffaef41fae8638ad3f/giphon-0.1.7.tar.gz
+[2023-04-20 17:05:10] INFO root fetch - processPackages [giphon]: executing diffoscope
+[2023-04-20 17:05:10] INFO root fetch - processPackages [giphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giphon-0.1.6.tar.gz tmp/giphon-0.1.7.tar.gz --markdown 20230420/g/giphon/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-20 17:05:10] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Start processing: alacorder
+[2023-04-20 17:05:10] INFO root fetch - main [MainThread]: End processing [OpenGeode-GeosciencesIO]: success
+[2023-04-20 17:05:10] INFO root fetch - processPackages [alacorder]: New version: [79.5.6] Old Version: [79.5.5]
+[2023-04-20 17:05:10] INFO root fetch - processPackages [OpenREM]: Downloading https://files.pythonhosted.org/packages/25/cd/8df75cbf6a7356d885c58fe529dfba9cf984abea7414d73622a6dd9e41d5/OpenREM-1.0.0b2.tar.gz
+[2023-04-20 17:05:10] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/f8/9a/bcff5ef92e986521205a596d459a8c96101bc760ff0305fcf321049873fb/alacorder-79.5.6.tar.gz
+[2023-04-20 17:05:10] INFO root fetch - processPackages [lsptrain]: Start processing: momoa
+[2023-04-20 17:05:10] INFO root fetch - main [MainThread]: End processing [lsptrain]: success
+[2023-04-20 17:05:10] INFO root fetch - processPackages [momoa]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-20 17:05:10] INFO root fetch - processPackages [aiorocket]: Start processing: hhcm-forest
+[2023-04-20 17:05:10] INFO root fetch - main [MainThread]: End processing [aiorocket]: success
+[2023-04-20 17:05:10] INFO root fetch - processPackages [fwdviewpy]: Start processing: jupyter-analysis-tools
+[2023-04-20 17:05:10] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-04-20 17:05:10] INFO root fetch - processPackages [hhcm-forest]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-04-20 17:05:11] INFO root fetch - processPackages [jupyter-analysis-tools]: New version: [0.1.6.dev5] Old Version: [0.1.0]
+[2023-04-20 17:05:11] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-20 17:05:11] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.5.5.tar.gz tmp/alacorder-79.5.6.tar.gz --markdown 20230420/a/alacorder/79.5.5-79.5.6/diff.md --exclude *.pyd
+[2023-04-20 17:05:11] INFO root fetch - processPackages [momoa]: Downloading https://files.pythonhosted.org/packages/e2/ae/2e0fa2e01ffe36f861d8177b2778528c396d7cb6f40d091d02454b1a7fd5/momoa-0.2.0.tar.gz
+[2023-04-20 17:05:11] INFO root fetch - processPackages [jupyter-analysis-tools]: Downloading https://files.pythonhosted.org/packages/d0/f7/7f485e25b6d72451a33768f6b553ff14e8aaf697a30ea334f037fedbcc4a/jupyter-analysis-tools-0.1.0.tar.gz
+[2023-04-20 17:05:11] INFO root fetch - processPackages [momoa]: Downloading https://files.pythonhosted.org/packages/58/0b/2643531545f460384e327574a64a2e97417bf3ca6d5ce6892e5752602f37/momoa-0.2.1.tar.gz
+[2023-04-20 17:05:11] INFO root fetch - processPackages [hhcm-forest]: Downloading https://files.pythonhosted.org/packages/f1/be/657b13944e4b6ca615c0656aa7a5b01c3037287ffc876f49d268c8e0b3b1/hhcm_forest-1.1.7.tar.gz
+[2023-04-20 17:05:11] INFO root fetch - processPackages [tripmaster]: Start processing: pyGPUreg
+[2023-04-20 17:05:11] INFO root fetch - main [MainThread]: End processing [tripmaster]: success
+[2023-04-20 17:05:11] INFO root fetch - processPackages [jupyter-analysis-tools]: Downloading https://files.pythonhosted.org/packages/6b/60/3f6027103e3a299775d4bea7262951ea3df823aae0a0433ed059c49dd715/jupyter-analysis-tools-0.1.6.dev5.tar.gz
+[2023-04-20 17:05:11] INFO root fetch - main [MainThread]: End processing [giphon]: success
+[2023-04-20 17:05:11] INFO root fetch - processPackages [pyGPUreg]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 17:05:11] INFO root fetch - processPackages [momoa]: executing diffoscope
+[2023-04-20 17:05:11] INFO root fetch - processPackages [momoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momoa-0.2.0.tar.gz tmp/momoa-0.2.1.tar.gz --markdown 20230420/m/momoa/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-20 17:05:11] INFO root fetch - processPackages [hhcm-forest]: executing diffoscope
+[2023-04-20 17:05:11] INFO root fetch - processPackages [hhcm-forest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhcm_forest-1.1.6.tar.gz tmp/hhcm_forest-1.1.7.tar.gz --markdown 20230420/h/hhcm-forest/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-04-20 17:05:11] INFO root fetch - main [MainThread]: End processing [jupyter-server-proxy]: success
+[2023-04-20 17:05:11] INFO root fetch - processPackages [OpenREM]: executing diffoscope
+[2023-04-20 17:05:11] INFO root fetch - processPackages [OpenREM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenREM-1.0.0b1.tar.gz tmp/OpenREM-1.0.0b2.tar.gz --markdown 20230420/O/OpenREM/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-04-20 17:05:11] INFO root fetch - processPackages [jupyter-analysis-tools]: executing diffoscope
+[2023-04-20 17:05:11] INFO root fetch - processPackages [jupyter-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-analysis-tools-0.1.0.tar.gz tmp/jupyter-analysis-tools-0.1.6.dev5.tar.gz --markdown 20230420/j/jupyter-analysis-tools/0.1.0-0.1.6.dev5/diff.md --exclude *.pyd
+[2023-04-20 17:05:11] INFO root fetch - processPackages [pyGPUreg]: Downloading https://files.pythonhosted.org/packages/e0/85/cc60ec6ee675f710b13908a55a07a49d66db6035a8888a0462c06a85a616/pyGPUreg-0.1.3.tar.gz
+[2023-04-20 17:05:12] INFO root fetch - processPackages [pyGPUreg]: executing diffoscope
+[2023-04-20 17:05:12] INFO root fetch - processPackages [pyGPUreg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyGPUreg-0.1.2.tar.gz tmp/pyGPUreg-0.1.3.tar.gz --markdown 20230420/p/pyGPUreg/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 17:05:12] INFO root fetch - main [MainThread]: End processing [momoa]: success
+[2023-04-20 17:05:12] INFO root fetch - main [MainThread]: End processing [hhcm-forest]: success
+[2023-04-20 17:05:13] INFO root fetch - main [MainThread]: End processing [jupyter-analysis-tools]: success
+[2023-04-20 17:05:13] INFO root fetch - main [MainThread]: End processing [pyGPUreg]: success
+[2023-04-20 17:05:17] INFO root fetch - main [MainThread]: End processing [OpenREM]: success
+[2023-04-20 17:05:17] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-04-20 17:05:21] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-20 17:05:29] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2023-04-20 17:05:29] INFO root fetch - main [MainThread]: Store serial: [17788793]
