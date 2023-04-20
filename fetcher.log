@@ -6170,3 +6170,37 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 04:06:32] INFO root fetch - main [MainThread]: End processing [bingbong]: success
 [2023-04-20 04:07:11] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-04-20 04:07:11] INFO root fetch - main [MainThread]: Store serial: [17781133]
+[2023-04-20 04:12:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781133]
+[2023-04-20 04:12:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-20 04:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ascii-cli
+[2023-04-20 04:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remindmail
+[2023-04-20 04:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-dllib-spark2
+[2023-04-20 04:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ac-websocket-server
+[2023-04-20 04:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lqwtest
+[2023-04-20 04:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt2ppl-zh
+[2023-04-20 04:12:20] INFO root fetch - processPackages [ascii-cli]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-20 04:12:20] INFO root fetch - processPackages [ac-websocket-server]: New version: [0.2.dev9] Old Version: [0.2.dev8]
+[2023-04-20 04:12:20] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.3.0b20230420] Old Version: [2.3.0b20230418]
+[2023-04-20 04:12:20] INFO root fetch - processPackages [remindmail]: New version: [2023.4.2.2] Old Version: [2023.4.2.1]
+[2023-04-20 04:12:20] WARNING root fetch - processPackages [lqwtest]: Skipping, unable to determine old version
+[2023-04-20 04:12:20] INFO root fetch - main [MainThread]: End processing [lqwtest] error
+[2023-04-20 04:12:20] INFO root fetch - processPackages [gpt2ppl-zh]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-20 04:12:20] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-04-20 04:12:20] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.4.2.1.tar.gz tmp/remindmail-2023.4.2.2.tar.gz --markdown 20230420/r/remindmail/2023.4.2.1-2023.4.2.2/diff.md --exclude *.pyd
+[2023-04-20 04:12:20] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/48/ee/2633e3e129cbf805e23572db02432f0725427a8dde31730fb5ab9fd78fb3/bigdl-dllib-spark2-2.3.0b20230418.tar.gz
+[2023-04-20 04:12:20] INFO root fetch - processPackages [ascii-cli]: Downloading https://files.pythonhosted.org/packages/6e/67/e35d0d46a93cff8a819935a6700d3526dc6e6292daaeb410b2a9413d06df/ascii-cli-0.1.0.tar.gz
+[2023-04-20 04:12:20] INFO root fetch - processPackages [gpt2ppl-zh]: Downloading https://files.pythonhosted.org/packages/7f/af/41efc3cd3131c6f6abfa2d6db49d39b97c2af74b0f8f3f3596c4977198d6/gpt2ppl-zh-0.2.0.tar.gz
+[2023-04-20 04:12:20] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53560060>=10485760
+[2023-04-20 04:12:20] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-04-20 04:12:20] INFO root fetch - processPackages [ascii-cli]: executing diffoscope
+[2023-04-20 04:12:20] INFO root fetch - processPackages [ascii-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascii-cli-0.0.9.tar.gz tmp/ascii-cli-0.1.0.tar.gz --markdown 20230420/a/ascii-cli/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-20 04:12:20] INFO root fetch - processPackages [ac-websocket-server]: executing diffoscope
+[2023-04-20 04:12:20] INFO root fetch - processPackages [ac-websocket-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ac-websocket-server-0.2.dev8.tar.gz tmp/ac-websocket-server-0.2.dev9.tar.gz --markdown 20230420/a/ac-websocket-server/0.2.dev8-0.2.dev9/diff.md --exclude *.pyd
+[2023-04-20 04:12:20] INFO root fetch - processPackages [gpt2ppl-zh]: Downloading https://files.pythonhosted.org/packages/d2/32/33200f8f096200d9553c4e38258f4331a3e3a07971b4414b29dfb7996be3/gpt2ppl-zh-0.3.0.tar.gz
+[2023-04-20 04:12:21] INFO root fetch - processPackages [gpt2ppl-zh]: executing diffoscope
+[2023-04-20 04:12:21] INFO root fetch - processPackages [gpt2ppl-zh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt2ppl-zh-0.2.0.tar.gz tmp/gpt2ppl-zh-0.3.0.tar.gz --markdown 20230420/g/gpt2ppl-zh/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 04:12:21] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-04-20 04:12:21] INFO root fetch - main [MainThread]: End processing [ascii-cli]: success
+[2023-04-20 04:12:22] INFO root fetch - main [MainThread]: End processing [gpt2ppl-zh]: success
+[2023-04-20 04:12:34] INFO root fetch - main [MainThread]: End processing [ac-websocket-server]: success
+[2023-04-20 04:12:34] INFO root fetch - main [MainThread]: Store serial: [17781169]
