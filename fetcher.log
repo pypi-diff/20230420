@@ -14036,3 +14036,147 @@ EOFError: EOF read where object expected
 [2023-04-20 12:21:39] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
 [2023-04-20 12:21:40] INFO root fetch - main [MainThread]: End processing [bp-data-grid]: success
 [2023-04-20 12:21:40] INFO root fetch - main [MainThread]: Store serial: [17785497]
+[2023-04-20 12:26:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17785497]
+[2023-04-20 12:26:49] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jpeglib
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-opinionated-constructs
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forestadmin-datasource-sqlalchemy
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm4gpt
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: forestadmin-agent-toolkit
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ddmrp-history
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlstrings
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ebilab
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: forestadmin-agent-flask
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: matflow-new
+[2023-04-20 12:26:49] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.20.18.21.56] Old Version: [2023.4.20.18.20.32]
+[2023-04-20 12:26:49] INFO root fetch - processPackages [jpeglib]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-20 12:26:49] INFO root fetch - processPackages [forestadmin-agent-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-04-20 12:26:49] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-04-20 12:26:49] INFO root fetch - processPackages [cdk-opinionated-constructs]: New version: [2.0.0] Old Version: [1.9.1]
+[2023-04-20 12:26:49] INFO root fetch - processPackages [forestadmin-agent-flask]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-04-20 12:26:49] INFO root fetch - processPackages [odoo14-addon-ddmrp-history]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1.dev2]
+[2023-04-20 12:26:49] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-04-20 12:26:49] INFO root fetch - processPackages [sqlstrings]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ebilab]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-04-20 12:26:49] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/76/48/4980a319cb962b1b5e8ce287c4863761ff01cf0f0c4ffe3e652286d604e2/llm4gpt-2023.4.20.18.20.32.tar.gz
+[2023-04-20 12:26:49] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/81/13/0c3fe634cf5d3e6712d4ec8d958264f0c031fc9a780b5218485b96f58641/forestadmin_agent_toolkit-0.1.0b8.tar.gz
+[2023-04-20 12:26:49] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/3e/f4/f6de754630a7c19c8ec4ce4d777e771d743b1e084b0ecf590ffcf9141d99/forestadmin_agent_flask-0.1.0b8.tar.gz
+[2023-04-20 12:26:49] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/68/c9/418420420155f18aa38d7861e0cfcd92e65ff36933188ec860c52817fd64/matflow_new-0.3.0a9.tar.gz
+[2023-04-20 12:26:49] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/55/ec/8247e4e82a326de5c38702a86bb40c226be2e246beada914406074f12e31/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz
+[2023-04-20 12:26:49] INFO root fetch - processPackages [odoo14-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/df/6b/d27cbf37f4053b86396c1b532bdfd80dd68cde91ce88d065e23c31f68c4f/odoo14_addon_ddmrp_history-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-04-20 12:26:49] INFO root fetch - processPackages [sqlstrings]: Downloading https://files.pythonhosted.org/packages/ef/8f/941a9487bae66c2036719a15b3105168320021f0431b8763df25c808803a/sqlstrings-0.0.8.tar.gz
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ebilab]: Downloading https://files.pythonhosted.org/packages/84/40/1cb5b1bc586b7b6fdd885a6ff6e3752d357168fee27c414a2da2dfcfb706/ebilab-2.2.1.tar.gz
+[2023-04-20 12:26:49] INFO root fetch - processPackages [cdk-opinionated-constructs]: Downloading https://files.pythonhosted.org/packages/ec/fd/c1bd489cd189855eedb8db698c646d895b9b73554417e049ada61c17ce9c/cdk-opinionated-constructs-2.0.0.tar.gz
+[2023-04-20 12:26:49] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-04-20 12:26:49] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230420/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-04-20 12:26:49] INFO root fetch - processPackages [jpeglib]: executing diffoscope
+[2023-04-20 12:26:49] INFO root fetch - processPackages [jpeglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpeglib-0.9.2.tar.gz tmp/jpeglib-0.9.3.tar.gz --markdown 20230420/j/jpeglib/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-20 12:26:49] INFO root fetch - processPackages [llm4gpt]: Downloading https://files.pythonhosted.org/packages/2c/70/190ab0be0b49b8fbb5d1a1e56191f2c29b8dafc568ce71667ca66d84eaa8/llm4gpt-2023.4.20.18.21.56.tar.gz
+[2023-04-20 12:26:49] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/e3/82/284d5a98e9849700b9bd0243463ae74bb810fb8f891ef63246ae48a9b25a/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ebilab]: Downloading https://files.pythonhosted.org/packages/c5/84/b71ef90ec9fce84dbd7a0cef9987cd4a6e3121bc988b38de1d633e0134e9/ebilab-2.3.0.tar.gz
+[2023-04-20 12:26:49] INFO root fetch - processPackages [cdk-opinionated-constructs]: executing diffoscope
+[2023-04-20 12:26:49] INFO root fetch - processPackages [cdk-opinionated-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-opinionated-constructs-1.9.1.tar.gz tmp/cdk-opinionated-constructs-2.0.0.tar.gz --markdown 20230420/c/cdk-opinionated-constructs/1.9.1-2.0.0/diff.md --exclude *.pyd
+[2023-04-20 12:26:49] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/16/5e/7c7f370b88a6f11719865650299ba7dd6f764570d0460a4859718445c239/forestadmin_agent_flask-0.1.0b9.tar.gz
+[2023-04-20 12:26:49] INFO root fetch - processPackages [odoo14-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/81/3e/36e9248336dd460e5a4feea086f40165aa851938561df807a7364f0d79fb/odoo14_addon_ddmrp_history-14.0.1.0.2-py3-none-any.whl
+[2023-04-20 12:26:49] INFO root fetch - processPackages [sqlstrings]: executing diffoscope
+[2023-04-20 12:26:49] INFO root fetch - processPackages [sqlstrings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlstrings-0.0.7.tar.gz tmp/sqlstrings-0.0.8.tar.gz --markdown 20230420/s/sqlstrings/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 12:26:49] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: executing diffoscope
+[2023-04-20 12:26:49] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz --markdown 20230420/f/forestadmin-datasource-sqlalchemy/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-04-20 12:26:49] INFO root fetch - processPackages [forestadmin-agent-flask]: executing diffoscope
+[2023-04-20 12:26:49] INFO root fetch - processPackages [forestadmin-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_flask-0.1.0b8.tar.gz tmp/forestadmin_agent_flask-0.1.0b9.tar.gz --markdown 20230420/f/forestadmin-agent-flask/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-04-20 12:26:49] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/b0/db/01961164568425eb2d6b5765179369ee253f7483d07942f3e15613dfc4c6/forestadmin_agent_toolkit-0.1.0b9.tar.gz
+[2023-04-20 12:26:49] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-20 12:26:49] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.20.18.20.32.tar.gz tmp/llm4gpt-2023.4.20.18.21.56.tar.gz --markdown 20230420/l/llm4gpt/2023.4.20.18.20.32-2023.4.20.18.21.56/diff.md --exclude *.pyd
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ebilab]: executing diffoscope
+[2023-04-20 12:26:49] INFO root fetch - processPackages [ebilab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebilab-2.2.1.tar.gz tmp/ebilab-2.3.0.tar.gz --markdown 20230420/e/ebilab/2.2.1-2.3.0/diff.md --exclude *.pyd
+[2023-04-20 12:26:49] INFO root fetch - processPackages [odoo14-addon-ddmrp-history]: executing diffoscope
+[2023-04-20 12:26:49] INFO root fetch - processPackages [odoo14-addon-ddmrp-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp_history-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp_history-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230420/o/odoo14-addon-ddmrp-history/14.0.1.0.1.dev2-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-04-20 12:26:50] INFO root fetch - processPackages [forestadmin-agent-toolkit]: executing diffoscope
+[2023-04-20 12:26:50] INFO root fetch - processPackages [forestadmin-agent-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz --markdown 20230420/f/forestadmin-agent-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-04-20 12:26:51] INFO root fetch - processPackages [matflow-new]: Start processing: hyperfast-python-template
+[2023-04-20 12:26:51] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-04-20 12:26:51] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-20 12:26:51] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/a7/68/e31afe1452845ca7b73a5315c2db62d94d456824e747d9ca216d05ab525b/hyperfast_python_template-0.2.5.tar.gz
+[2023-04-20 12:26:51] INFO root fetch - processPackages [sqlstrings]: Start processing: phyper
+[2023-04-20 12:26:51] INFO root fetch - main [MainThread]: End processing [sqlstrings]: success
+[2023-04-20 12:26:51] INFO root fetch - processPackages [phyper]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-20 12:26:51] INFO root fetch - processPackages [forestadmin-agent-flask]: Start processing: qodex-moxa-il1214
+[2023-04-20 12:26:51] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-flask]: success
+[2023-04-20 12:26:51] INFO root fetch - processPackages [qodex-moxa-il1214]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-04-20 12:26:51] INFO root fetch - processPackages [cdk-opinionated-constructs]: Start processing: beatlesalbuns
+[2023-04-20 12:26:51] INFO root fetch - main [MainThread]: End processing [cdk-opinionated-constructs]: success
+[2023-04-20 12:26:51] INFO root fetch - processPackages [phyper]: Downloading https://files.pythonhosted.org/packages/95/82/09eded5d805ee1a64134629646e19ac9dcff8af850203f7da88f3e15cc1b/phyper-1.0.0-py3-none-any.whl
+[2023-04-20 12:26:51] WARNING root fetch - processPackages [beatlesalbuns]: Skipping, unable to determine old version
+[2023-04-20 12:26:51] INFO root fetch - processPackages [beatlesalbuns]: Start processing: tfs-pandas
+[2023-04-20 12:26:51] INFO root fetch - main [MainThread]: End processing [beatlesalbuns] error
+[2023-04-20 12:26:51] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/a5/7c/36b9831a32d02c7f60958aed8e7ea0a53a26b63a575df158ac011f6c2903/hyperfast_python_template-0.2.6.tar.gz
+[2023-04-20 12:26:51] INFO root fetch - processPackages [odoo14-addon-ddmrp-history]: Start processing: waveforms
+[2023-04-20 12:26:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp-history]: success
+[2023-04-20 12:26:51] INFO root fetch - processPackages [waveforms]: New version: [1.5.87] Old Version: [1.5.86]
+[2023-04-20 12:26:51] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Start processing: quakesaver-client
+[2023-04-20 12:26:51] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-sqlalchemy]: success
+[2023-04-20 12:26:51] INFO root fetch - processPackages [qodex-moxa-il1214]: Downloading https://files.pythonhosted.org/packages/09/be/85f736f1d3a846e66f4ef93ae1b1757a9ebba6f3893e81b482e89296b720/qodex_moxa_il1214-0.0.32-py3-none-any.whl
+[2023-04-20 12:26:51] INFO root fetch - processPackages [tfs-pandas]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-04-20 12:26:51] INFO root fetch - processPackages [quakesaver-client]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-20 12:26:51] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-20 12:26:51] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.2.5.tar.gz tmp/hyperfast_python_template-0.2.6.tar.gz --markdown 20230420/h/hyperfast-python-template/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-20 12:26:51] INFO root fetch - processPackages [phyper]: Downloading https://files.pythonhosted.org/packages/4b/88/626fa31c1dd05b953d734cc8ef0be27486312cdabe6bb82f3e5b7d43a10f/phyper-1.1.0-py3-none-any.whl
+[2023-04-20 12:26:51] INFO root fetch - processPackages [qodex-moxa-il1214]: executing diffoscope
+[2023-04-20 12:26:51] INFO root fetch - processPackages [qodex-moxa-il1214]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_moxa_il1214-0.0.31-py3-none-any.whl.zip tmp/qodex_moxa_il1214-0.0.32-py3-none-any.whl.zip --markdown 20230420/q/qodex-moxa-il1214/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-04-20 12:26:51] INFO root fetch - processPackages [tfs-pandas]: Downloading https://files.pythonhosted.org/packages/a4/6a/9f2a9bf6896aadcc9022f27e70065e3b16d600c6a777508787fb18c2884d/tfs-pandas-3.5.1.tar.gz
+[2023-04-20 12:26:51] INFO root fetch - processPackages [quakesaver-client]: Downloading https://files.pythonhosted.org/packages/a4/45/d4969eb82edc23310176e5a66c988ede98587ea679f06eef6222159d1d64/quakesaver_client-1.1.0.tar.gz
+[2023-04-20 12:26:51] INFO root fetch - processPackages [phyper]: executing diffoscope
+[2023-04-20 12:26:51] INFO root fetch - processPackages [phyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phyper-1.0.0-py3-none-any.whl.zip tmp/phyper-1.1.0-py3-none-any.whl.zip --markdown 20230420/p/phyper/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-20 12:26:52] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-04-20 12:26:52] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.5.86.tar.gz tmp/waveforms-1.5.87.tar.gz --markdown 20230420/w/waveforms/1.5.86-1.5.87/diff.md --exclude *.pyd
+[2023-04-20 12:26:52] INFO root fetch - processPackages [quakesaver-client]: Downloading https://files.pythonhosted.org/packages/fd/86/4549be8997c848bc897aae0c27e0af973306ae48afac822a0b56cd07c8e4/quakesaver_client-1.1.1.tar.gz
+[2023-04-20 12:26:52] INFO root fetch - processPackages [tfs-pandas]: Downloading https://files.pythonhosted.org/packages/05/0d/df9e86b96849df3146612a664f58b21a57f70f8607e8d7d3a067f5a1cb61/tfs-pandas-3.5.2.tar.gz
+[2023-04-20 12:26:52] INFO root fetch - processPackages [llm4gpt]: Start processing: jupyterhub
+[2023-04-20 12:26:52] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-20 12:26:52] INFO root fetch - processPackages [quakesaver-client]: executing diffoscope
+[2023-04-20 12:26:52] INFO root fetch - processPackages [quakesaver-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quakesaver_client-1.1.0.tar.gz tmp/quakesaver_client-1.1.1.tar.gz --markdown 20230420/q/quakesaver-client/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-20 12:26:52] INFO root fetch - processPackages [tfs-pandas]: executing diffoscope
+[2023-04-20 12:26:52] INFO root fetch - processPackages [tfs-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfs-pandas-3.5.1.tar.gz tmp/tfs-pandas-3.5.2.tar.gz --markdown 20230420/t/tfs-pandas/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-04-20 12:26:52] INFO root fetch - processPackages [jupyterhub]: New version: [4.0.0b2] Old Version: [4.0.0b1]
+[2023-04-20 12:26:52] INFO root fetch - processPackages [ebilab]: Start processing: python-cord
+[2023-04-20 12:26:52] INFO root fetch - main [MainThread]: End processing [ebilab]: success
+[2023-04-20 12:26:52] WARNING root fetch - processPackages [python-cord]: Skipping, unable to determine old version
+[2023-04-20 12:26:52] INFO root fetch - processPackages [python-cord]: Start processing: sqlstrings
+[2023-04-20 12:26:52] INFO root fetch - main [MainThread]: End processing [python-cord] error
+[2023-04-20 12:26:52] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Start processing: pynight
+[2023-04-20 12:26:52] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-toolkit]: success
+[2023-04-20 12:26:52] INFO root fetch - processPackages [sqlstrings]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 12:26:53] INFO root fetch - processPackages [pynight]: New version: [0.2.1] Old Version: [0.2.0.1]
+[2023-04-20 12:26:53] INFO root fetch - processPackages [jupyterhub]: Downloading https://files.pythonhosted.org/packages/33/c4/3995bfe02b74d3270be1daf610faa0995128f10441231f2aa6d0c1296a95/jupyterhub-4.0.0b1.tar.gz
+[2023-04-20 12:26:53] INFO root fetch - processPackages [hyperfast-python-template]: Start processing: macrometa-target-bigquery
+[2023-04-20 12:26:53] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-20 12:26:53] INFO root fetch - processPackages [qodex-moxa-il1214]: Start processing: cardsort
+[2023-04-20 12:26:53] INFO root fetch - main [MainThread]: End processing [qodex-moxa-il1214]: success
+[2023-04-20 12:26:53] INFO root fetch - processPackages [sqlstrings]: Downloading https://files.pythonhosted.org/packages/1f/f8/01d10bf4077636307f4002e71cc7dd48678519a467a3978d603dd81bc6bb/sqlstrings-0.0.9.tar.gz
+[2023-04-20 12:26:53] INFO root fetch - processPackages [cardsort]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-04-20 12:26:53] INFO root fetch - processPackages [macrometa-target-bigquery]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-20 12:26:53] INFO root fetch - processPackages [pynight]: Downloading https://files.pythonhosted.org/packages/36/b8/4784bbcf09bda377460acfd1cac689d895058b3005f82c2aaa0c5c5b69e8/pynight-0.2.0.1.tar.gz
+[2023-04-20 12:26:53] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-04-20 12:26:53] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.1.2.tar.gz tmp/cardsort-0.2.0.tar.gz --markdown 20230420/c/cardsort/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 12:26:53] INFO root fetch - processPackages [sqlstrings]: executing diffoscope
+[2023-04-20 12:26:53] INFO root fetch - processPackages [sqlstrings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlstrings-0.0.8.tar.gz tmp/sqlstrings-0.0.9.tar.gz --markdown 20230420/s/sqlstrings/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 12:26:53] INFO root fetch - main [MainThread]: End processing [phyper]: success
+[2023-04-20 12:26:53] INFO root fetch - processPackages [jupyterhub]: Downloading https://files.pythonhosted.org/packages/d4/56/9e5f1c432c8c8a3f9ab52be8c79a01f3f471e78c9fbc04d99f864b416b5a/jupyterhub-4.0.0b2.tar.gz
+[2023-04-20 12:26:53] INFO root fetch - processPackages [pynight]: Downloading https://files.pythonhosted.org/packages/e0/46/993534905224174537637836a4fd5a40a553dbc21fa2d33cc527d2b82a44/pynight-0.2.1.tar.gz
+[2023-04-20 12:26:53] INFO root fetch - processPackages [macrometa-target-bigquery]: Downloading https://files.pythonhosted.org/packages/2a/f4/b43c10b29c41729ba72db968a49d849340f330265b9979192c4587884cef/macrometa-target-bigquery-0.0.7.tar.gz
+[2023-04-20 12:26:53] INFO root fetch - processPackages [jupyterhub]: executing diffoscope
+[2023-04-20 12:26:53] INFO root fetch - processPackages [jupyterhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-4.0.0b1.tar.gz tmp/jupyterhub-4.0.0b2.tar.gz --markdown 20230420/j/jupyterhub/4.0.0b1-4.0.0b2/diff.md --exclude *.pyd
+[2023-04-20 12:26:53] INFO root fetch - processPackages [pynight]: executing diffoscope
+[2023-04-20 12:26:53] INFO root fetch - processPackages [pynight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynight-0.2.0.1.tar.gz tmp/pynight-0.2.1.tar.gz --markdown 20230420/p/pynight/0.2.0.1-0.2.1/diff.md --exclude *.pyd
+[2023-04-20 12:26:53] INFO root fetch - processPackages [macrometa-target-bigquery]: executing diffoscope
+[2023-04-20 12:26:53] INFO root fetch - processPackages [macrometa-target-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-bigquery-0.0.6.tar.gz tmp/macrometa-target-bigquery-0.0.7.tar.gz --markdown 20230420/m/macrometa-target-bigquery/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-20 12:26:54] INFO root fetch - main [MainThread]: End processing [tfs-pandas]: success
+[2023-04-20 12:26:54] INFO root fetch - main [MainThread]: End processing [quakesaver-client]: success
+[2023-04-20 12:26:54] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-04-20 12:26:54] INFO root fetch - main [MainThread]: End processing [sqlstrings]: success
+[2023-04-20 12:26:54] INFO root fetch - main [MainThread]: End processing [pynight]: success
+[2023-04-20 12:26:54] INFO root fetch - main [MainThread]: End processing [macrometa-target-bigquery]: success
+[2023-04-20 12:26:56] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-04-20 12:26:59] INFO root fetch - main [MainThread]: End processing [jpeglib]: success
+[2023-04-20 12:27:16] INFO root fetch - main [MainThread]: End processing [jupyterhub]: success
+[2023-04-20 12:27:16] INFO root fetch - main [MainThread]: Store serial: [17785582]
