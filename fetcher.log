@@ -22467,3 +22467,91 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 19:35:06] INFO root fetch - main [MainThread]: End processing [yotpy]: success
 [2023-04-20 19:35:07] INFO root fetch - main [MainThread]: End processing [phiflow]: success
 [2023-04-20 19:35:07] INFO root fetch - main [MainThread]: Store serial: [17790802]
+[2023-04-20 19:40:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790802]
+[2023-04-20 19:40:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-20 19:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystream-protobuf
+[2023-04-20 19:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odeanimate
+[2023-04-20 19:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maisaedu-utilities-prefect
+[2023-04-20 19:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maisaedu-poormans-dms
+[2023-04-20 19:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np-config
+[2023-04-20 19:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apdaily
+[2023-04-20 19:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiogram-ext
+[2023-04-20 19:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gradient-accumulator
+[2023-04-20 19:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: np-workflows
+[2023-04-20 19:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unstructured-inference
+[2023-04-20 19:40:16] INFO root fetch - processPackages [odeanimate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 19:40:16] INFO root fetch - processPackages [np-workflows]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-20 19:40:16] INFO root fetch - processPackages [aiogram-ext]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 19:40:16] INFO root fetch - processPackages [pystream-protobuf]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-04-20 19:40:16] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 19:40:16] WARNING root fetch - processPackages [apdaily]: Skipping, unable to determine old version
+[2023-04-20 19:40:16] INFO root fetch - processPackages [gradient-accumulator]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-20 19:40:16] INFO root fetch - processPackages [apdaily]: Start processing: psdist
+[2023-04-20 19:40:16] INFO root fetch - main [MainThread]: End processing [apdaily] error
+[2023-04-20 19:40:16] INFO root fetch - processPackages [np-config]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-20 19:40:16] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 19:40:16] INFO root fetch - processPackages [unstructured-inference]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-20 19:40:16] INFO root fetch - processPackages [psdist]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 19:40:16] INFO root fetch - processPackages [pystream-protobuf]: Downloading https://files.pythonhosted.org/packages/c5/e3/18f775c397c64889ecef62a09a05f8ed3186d89d3ba65d5717019c2087ca/pystream-protobuf-1.6.3.tar.gz
+[2023-04-20 19:40:16] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/4a/a0/cadfec3e0e2c0b805fdf79e6a75b88028dbd16785507e559a3b128be0d40/np_workflows-1.4.8.tar.gz
+[2023-04-20 19:40:16] INFO root fetch - processPackages [np-config]: Downloading https://files.pythonhosted.org/packages/cd/1a/5ff99b43b8944c29cb529150ef6045ff9a638cc6180695973aa31e292527/np_config-0.4.8.tar.gz
+[2023-04-20 19:40:16] INFO root fetch - processPackages [aiogram-ext]: Downloading https://files.pythonhosted.org/packages/53/03/7ffbbdcbf7dad49dabcc99fa1091414829283ac7dcef3934049f42e1ece1/aiogram-ext-0.1.3.tar.gz
+[2023-04-20 19:40:16] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/51/c8/520652d19cdb586cb001f3e2fd10b49475ec1fcf77f5ebf25ee483d4f069/maisaedu-poormans-dms-1.0.8.tar.gz
+[2023-04-20 19:40:16] INFO root fetch - processPackages [odeanimate]: Downloading https://files.pythonhosted.org/packages/61/ec/21eacd6b9e1abe46863eff272778c958268e35f171daf71183f1a3015ee0/odeanimate-0.0.9.tar.gz
+[2023-04-20 19:40:16] INFO root fetch - processPackages [psdist]: Downloading https://files.pythonhosted.org/packages/5c/7c/29fecb12a9641c888f826506e92eea19ea7614e651a56432384177e3007b/psdist-0.1.2.tar.gz
+[2023-04-20 19:40:16] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/27/aa/a84fbe50d4cd0665bd3f2b32671a030342ad0e5347c62cd84baa19cb1e64/maisaedu-utilities-prefect-1.0.8.tar.gz
+[2023-04-20 19:40:16] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-20 19:40:16] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.1.2.tar.gz tmp/aiogram-ext-0.1.3.tar.gz --markdown 20230420/a/aiogram-ext/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 19:40:16] INFO root fetch - processPackages [odeanimate]: executing diffoscope
+[2023-04-20 19:40:16] INFO root fetch - processPackages [odeanimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odeanimate-0.0.8.tar.gz tmp/odeanimate-0.0.9.tar.gz --markdown 20230420/o/odeanimate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 19:40:16] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/7e/5e/035f9239a29a6f6db27f40611e190b89e456b53cec97dcb41b0e1a8e7526/unstructured_inference-0.4.1.tar.gz
+[2023-04-20 19:40:17] INFO root fetch - processPackages [gradient-accumulator]: Downloading https://files.pythonhosted.org/packages/c0/c5/658c17710c98962bcbc954ead2b48ae164a9657c2cadb9d46c29b6b67e86/gradient-accumulator-0.4.1.tar.gz
+[2023-04-20 19:40:17] INFO root fetch - processPackages [unstructured-inference]: executing diffoscope
+[2023-04-20 19:40:17] INFO root fetch - processPackages [unstructured-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured_inference-0.4.0.tar.gz tmp/unstructured_inference-0.4.1.tar.gz --markdown 20230420/u/unstructured-inference/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-20 19:40:17] INFO root fetch - processPackages [pystream-protobuf]: Downloading https://files.pythonhosted.org/packages/89/4a/ab5bd8cca64786d2167743a68c60affd7148789fb497d984bc428bcae1be/pystream-protobuf-1.6.4.tar.gz
+[2023-04-20 19:40:17] INFO root fetch - processPackages [gradient-accumulator]: executing diffoscope
+[2023-04-20 19:40:17] INFO root fetch - processPackages [gradient-accumulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradient-accumulator-0.4.0.tar.gz tmp/gradient-accumulator-0.4.1.tar.gz --markdown 20230420/g/gradient-accumulator/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-20 19:40:17] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/ed/99/a23ee9bfb873117551eec660bd84c094982c2fb7cd4151a37d8bc013b461/np_workflows-1.4.9.tar.gz
+[2023-04-20 19:40:17] INFO root fetch - processPackages [pystream-protobuf]: executing diffoscope
+[2023-04-20 19:40:17] INFO root fetch - processPackages [pystream-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystream-protobuf-1.6.3.tar.gz tmp/pystream-protobuf-1.6.4.tar.gz --markdown 20230420/p/pystream-protobuf/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-04-20 19:40:17] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/7b/dc/9a6d6cd7622f50c7981e2b4362ed76ba8142b4b75f73867b9b409d609cf0/maisaedu-poormans-dms-1.0.9.tar.gz
+[2023-04-20 19:40:17] INFO root fetch - processPackages [np-config]: Downloading https://files.pythonhosted.org/packages/81/10/77d3e96f9107386cc98f38ae1785c9ddf708cff40eb0b588bda92d83af9d/np_config-0.4.9.tar.gz
+[2023-04-20 19:40:17] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/95/7c/dbd9fa092dadcd28e2e350cd4738749237ca8191a62152c690a10b487d1a/maisaedu-utilities-prefect-1.0.9.tar.gz
+[2023-04-20 19:40:17] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-04-20 19:40:17] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.4.8.tar.gz tmp/np_workflows-1.4.9.tar.gz --markdown 20230420/n/np-workflows/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-20 19:40:17] INFO root fetch - processPackages [np-config]: executing diffoscope
+[2023-04-20 19:40:17] INFO root fetch - processPackages [np-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_config-0.4.8.tar.gz tmp/np_config-0.4.9.tar.gz --markdown 20230420/n/np-config/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-20 19:40:17] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-04-20 19:40:17] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230420/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 19:40:17] INFO root fetch - processPackages [psdist]: Downloading https://files.pythonhosted.org/packages/ca/8b/ea79562d245ce5be7a3d1fc1c10dc86edd003d42a34d794fc1fdf01291f2/psdist-0.1.3.tar.gz
+[2023-04-20 19:40:17] INFO root fetch - processPackages [psdist]: executing diffoscope
+[2023-04-20 19:40:17] INFO root fetch - processPackages [psdist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psdist-0.1.2.tar.gz tmp/psdist-0.1.3.tar.gz --markdown 20230420/p/psdist/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 19:40:17] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-04-20 19:40:17] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230420/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 19:40:18] INFO root fetch - processPackages [aiogram-ext]: Start processing: pywdgen
+[2023-04-20 19:40:18] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-20 19:40:18] WARNING root fetch - processPackages [pywdgen]: Skipping, unable to determine old version
+[2023-04-20 19:40:18] INFO root fetch - processPackages [pywdgen]: Start processing: np-config
+[2023-04-20 19:40:18] INFO root fetch - main [MainThread]: End processing [pywdgen] error
+[2023-04-20 19:40:18] INFO root fetch - processPackages [np-config]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-20 19:40:18] INFO root fetch - processPackages [np-config]: executing diffoscope
+[2023-04-20 19:40:18] INFO root fetch - processPackages [np-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_config-0.4.8.tar.gz tmp/np_config-0.4.9.tar.gz --markdown 20230420/n/np-config/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-20 19:40:18] INFO root fetch - processPackages [unstructured-inference]: Start processing: np-workflows
+[2023-04-20 19:40:18] INFO root fetch - main [MainThread]: End processing [unstructured-inference]: success
+[2023-04-20 19:40:18] INFO root fetch - processPackages [np-workflows]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-20 19:40:18] INFO root fetch - processPackages [gradient-accumulator]: Start processing: module-qc-database-tools
+[2023-04-20 19:40:18] INFO root fetch - main [MainThread]: End processing [gradient-accumulator]: success
+[2023-04-20 19:40:18] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-04-20 19:40:18] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.4.8.tar.gz tmp/np_workflows-1.4.9.tar.gz --markdown 20230420/n/np-workflows/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-20 19:40:18] WARNING root fetch - processPackages [module-qc-database-tools]: Skipping, unable to determine old version
+[2023-04-20 19:40:18] INFO root fetch - main [MainThread]: End processing [module-qc-database-tools] error
+[2023-04-20 19:40:19] INFO root fetch - main [MainThread]: End processing [odeanimate]: success
+[2023-04-20 19:40:19] INFO root fetch - main [MainThread]: End processing [pystream-protobuf]: success
+[2023-04-20 19:40:19] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-04-20 19:40:19] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-04-20 19:40:19] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-04-20 19:40:19] INFO root fetch - main [MainThread]: End processing [np-config]: success
+[2023-04-20 19:40:19] INFO root fetch - main [MainThread]: End processing [psdist]: success
+[2023-04-20 19:40:19] INFO root fetch - main [MainThread]: End processing [np-config]: success
+[2023-04-20 19:40:20] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-04-20 19:40:20] INFO root fetch - main [MainThread]: Store serial: [17790851]
