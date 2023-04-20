@@ -5983,3 +5983,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 03:50:48] INFO root fetch - main [MainThread]: End processing [edc-adverse-event]: success
 [2023-04-20 03:50:49] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-04-20 03:50:49] INFO root fetch - main [MainThread]: Store serial: [17781010]
+[2023-04-20 03:55:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781010]
+[2023-04-20 03:55:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-20 03:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatdl
+[2023-04-20 03:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trailwatch
+[2023-04-20 03:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llamabot
+[2023-04-20 03:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatts
+[2023-04-20 03:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eQTac
+[2023-04-20 03:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatlearn
+[2023-04-20 03:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-orca
+[2023-04-20 03:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-friesian
+[2023-04-20 03:55:58] WARNING root fetch - processPackages [chatdl]: Skipping, unable to determine old version
+[2023-04-20 03:55:58] INFO root fetch - main [MainThread]: End processing [chatdl] error
+[2023-04-20 03:55:58] WARNING root fetch - processPackages [chatlearn]: Skipping, unable to determine old version
+[2023-04-20 03:55:58] INFO root fetch - main [MainThread]: End processing [chatlearn] error
+[2023-04-20 03:55:58] WARNING root fetch - processPackages [chatts]: Skipping, unable to determine old version
+[2023-04-20 03:55:58] INFO root fetch - main [MainThread]: End processing [chatts] error
+[2023-04-20 03:55:58] INFO root fetch - processPackages [eQTac]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-20 03:55:58] INFO root fetch - processPackages [trailwatch]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-20 03:55:58] INFO root fetch - processPackages [llamabot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 03:55:58] INFO root fetch - processPackages [bigdl-orca]: New version: [2.3.0b20230420] Old Version: [2.3.0b20230418]
+[2023-04-20 03:55:58] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.3.0b20230420] Old Version: [2.3.0b20230418]
+[2023-04-20 03:55:59] INFO root fetch - processPackages [eQTac]: Downloading https://files.pythonhosted.org/packages/ee/f2/7ed0ab28548173f18dde3c632a69adca03b93c760782f5fadb93f4404a9a/eQTac-1.0.6.tar.gz
+[2023-04-20 03:55:59] INFO root fetch - processPackages [llamabot]: Downloading https://files.pythonhosted.org/packages/8c/77/360013b912689bcadc9699ffbfd0c59717ab5c032c425ce8f661e39484f5/llamabot-0.0.9.tar.gz
+[2023-04-20 03:55:59] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/74/f7/2e03b5bef092f221c23ecfb4dbe1acaf8031194fb31211b6188c47a028bb/bigdl_orca-2.3.0b20230418-py3-none-manylinux1_x86_64.whl
+[2023-04-20 03:55:59] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/8b/61/def9dba339522ee7fa5c54153e82093b27ffbdca1716fda21d289fd6642b/bigdl_friesian-2.3.0b20230420-py3-none-manylinux1_x86_64.whl
+[2023-04-20 03:55:59] INFO root fetch - processPackages [eQTac]: executing diffoscope
+[2023-04-20 03:55:59] INFO root fetch - processPackages [eQTac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eQTac-1.0.5.tar.gz tmp/eQTac-1.0.6.tar.gz --markdown 20230420/e/eQTac/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-20 03:55:59] INFO root fetch - processPackages [trailwatch]: Downloading https://files.pythonhosted.org/packages/3e/25/d33001cfd173c44810f3334ab68415e742737336b32b96aad7a840292659/trailwatch-0.3.0.tar.gz
+[2023-04-20 03:55:59] INFO root fetch - processPackages [llamabot]: executing diffoscope
+[2023-04-20 03:55:59] INFO root fetch - processPackages [llamabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamabot-0.0.8.tar.gz tmp/llamabot-0.0.9.tar.gz --markdown 20230420/l/llamabot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 03:55:59] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20367738>=10485760
+[2023-04-20 03:55:59] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-04-20 03:55:59] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-04-20 03:55:59] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.3.0b20230418-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.3.0b20230420-py3-none-manylinux1_x86_64.whl.zip --markdown 20230420/b/bigdl-friesian/2.3.0b20230418-2.3.0b20230420/diff.md --exclude *.pyd
+[2023-04-20 03:55:59] INFO root fetch - processPackages [trailwatch]: executing diffoscope
+[2023-04-20 03:55:59] INFO root fetch - processPackages [trailwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailwatch-0.2.0.tar.gz tmp/trailwatch-0.3.0.tar.gz --markdown 20230420/t/trailwatch/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-20 03:56:00] INFO root fetch - main [MainThread]: End processing [llamabot]: success
+[2023-04-20 03:56:00] INFO root fetch - main [MainThread]: End processing [eQTac]: success
+[2023-04-20 03:56:00] INFO root fetch - main [MainThread]: End processing [trailwatch]: success
+[2023-04-20 03:56:01] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-04-20 03:56:01] INFO root fetch - main [MainThread]: Store serial: [17781040]
