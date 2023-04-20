@@ -6625,3 +6625,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 04:49:28] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230420/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
 [2023-04-20 04:49:36] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
 [2023-04-20 04:49:36] INFO root fetch - main [MainThread]: Store serial: [17781394]
+[2023-04-20 04:54:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781394]
+[2023-04-20 04:54:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-20 04:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pitricks
+[2023-04-20 04:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: generand
+[2023-04-20 04:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: my-pipeline-package
+[2023-04-20 04:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wom-py
+[2023-04-20 04:54:45] INFO root fetch - processPackages [my-pipeline-package]: New version: [1.1] Old Version: [1.0]
+[2023-04-20 04:54:45] INFO root fetch - processPackages [pitricks]: New version: [0.1.3a3] Old Version: [0.1.3a2]
+[2023-04-20 04:54:45] WARNING root fetch - processPackages [generand]: Skipping, unable to determine old version
+[2023-04-20 04:54:45] INFO root fetch - main [MainThread]: End processing [generand] error
+[2023-04-20 04:54:45] INFO root fetch - processPackages [wom-py]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-20 04:54:45] INFO root fetch - processPackages [my-pipeline-package]: Downloading https://files.pythonhosted.org/packages/3b/12/4a0526192dd0ffd8b3956efe4a238aa8285242421a0a0417c3c55828873f/my-pipeline-package-1.0.tar.gz
+[2023-04-20 04:54:45] INFO root fetch - processPackages [pitricks]: Downloading https://files.pythonhosted.org/packages/42/d3/2c0554f4457ba3acca19ffbdbd3cad27d7cba697c3eaec285e4147a766f9/pitricks-0.1.3a2.tar.gz
+[2023-04-20 04:54:45] INFO root fetch - processPackages [wom-py]: Downloading https://files.pythonhosted.org/packages/41/f7/38936aa74e0869021abf26bbf98b724c8e98edd3243d4b23f338a0eec976/wom_py-0.3.3.tar.gz
+[2023-04-20 04:54:45] INFO root fetch - processPackages [pitricks]: Downloading https://files.pythonhosted.org/packages/8c/99/00751187d0f12b859a68fd78d3ac0f944cefb71c9fb5bf848cfd7cadce7d/pitricks-0.1.3a3.tar.gz
+[2023-04-20 04:54:45] INFO root fetch - processPackages [my-pipeline-package]: Downloading https://files.pythonhosted.org/packages/f1/71/a3c27d252f9c2e009ae54be55b7d2e347ac2bfaac5ed9109b3b861033505/my-pipeline-package-1.1.tar.gz
+[2023-04-20 04:54:45] INFO root fetch - processPackages [pitricks]: executing diffoscope
+[2023-04-20 04:54:45] INFO root fetch - processPackages [pitricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitricks-0.1.3a2.tar.gz tmp/pitricks-0.1.3a3.tar.gz --markdown 20230420/p/pitricks/0.1.3a2-0.1.3a3/diff.md --exclude *.pyd
+[2023-04-20 04:54:45] INFO root fetch - processPackages [wom-py]: executing diffoscope
+[2023-04-20 04:54:45] INFO root fetch - processPackages [wom-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wom_py-0.3.2.tar.gz tmp/wom_py-0.3.3.tar.gz --markdown 20230420/w/wom-py/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-20 04:54:45] INFO root fetch - processPackages [my-pipeline-package]: executing diffoscope
+[2023-04-20 04:54:45] INFO root fetch - processPackages [my-pipeline-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-pipeline-package-1.0.tar.gz tmp/my-pipeline-package-1.1.tar.gz --markdown 20230420/m/my-pipeline-package/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-20 04:54:46] INFO root fetch - main [MainThread]: End processing [my-pipeline-package]: success
+[2023-04-20 04:54:46] INFO root fetch - main [MainThread]: End processing [pitricks]: success
+[2023-04-20 04:54:46] INFO root fetch - main [MainThread]: End processing [wom-py]: success
+[2023-04-20 04:54:46] INFO root fetch - main [MainThread]: Store serial: [17781408]
