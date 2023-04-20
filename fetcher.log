@@ -8534,3 +8534,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 07:52:15] INFO root fetch - processPackages [wcommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcommon-1.3.8.tar.gz tmp/wcommon-1.5.1.tar.gz --markdown 20230420/w/wcommon/1.3.8-1.5.1/diff.md --exclude *.pyd
 [2023-04-20 07:52:16] INFO root fetch - main [MainThread]: End processing [wcommon]: success
 [2023-04-20 07:52:16] INFO root fetch - main [MainThread]: Store serial: [17782604]
+[2023-04-20 07:57:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17782604]
+[2023-04-20 07:57:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-20 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cli-aws-mfa
+[2023-04-20 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pequena
+[2023-04-20 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eva-decord
+[2023-04-20 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-cpp-python
+[2023-04-20 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p-ttauto-crawler
+[2023-04-20 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-sale-stock-operating-unit
+[2023-04-20 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-sb-simple-migrations
+[2023-04-20 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: exceltotable
+[2023-04-20 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addons-oca-operating-unit
+[2023-04-20 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: obsidian-pdf-gen
+[2023-04-20 07:57:24] INFO root fetch - processPackages [cli-aws-mfa]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 07:57:24] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 07:57:24] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 07:57:24] WARNING root fetch - processPackages [obsidian-pdf-gen]: Skipping, unable to determine old version
+[2023-04-20 07:57:24] INFO root fetch - processPackages [obsidian-pdf-gen]: Start processing: macrometa-source-postgres
+[2023-04-20 07:57:24] INFO root fetch - main [MainThread]: End processing [obsidian-pdf-gen] error
+[2023-04-20 07:57:24] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 07:57:24] INFO root fetch - processPackages [eva-decord]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-20 07:57:24] WARNING root fetch - processPackages [odoo14-addon-sale-stock-operating-unit]: Skipping, unable to determine old version
+[2023-04-20 07:57:24] INFO root fetch - processPackages [odoo14-addon-sale-stock-operating-unit]: Start processing: wcommon
+[2023-04-20 07:57:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-stock-operating-unit] error
+[2023-04-20 07:57:25] INFO root fetch - processPackages [wcommon]: New version: [1.5.1] Old Version: [1.3.8]
+[2023-04-20 07:57:25] INFO root fetch - processPackages [macrometa-source-postgres]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-04-20 07:57:25] WARNING root fetch - processPackages [exceltotable]: Skipping, unable to determine old version
+[2023-04-20 07:57:25] INFO root fetch - processPackages [exceltotable]: Start processing: quartic-sdk
+[2023-04-20 07:57:25] INFO root fetch - main [MainThread]: End processing [exceltotable] error
+[2023-04-20 07:57:25] INFO root fetch - processPackages [odoo14-addons-oca-operating-unit]: New version: [14.0.20230419.0] Old Version: [14.0.20230215.0]
+[2023-04-20 07:57:25] INFO root fetch - processPackages [django-sb-simple-migrations]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-20 07:57:25] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-04-20 07:57:25] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.0.8.tar.gz tmp/p-ttauto-crawler-0.0.9.tar.gz --markdown 20230420/p/p-ttauto-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 07:57:25] INFO root fetch - processPackages [wcommon]: executing diffoscope
+[2023-04-20 07:57:25] INFO root fetch - processPackages [wcommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcommon-1.3.8.tar.gz tmp/wcommon-1.5.1.tar.gz --markdown 20230420/w/wcommon/1.3.8-1.5.1/diff.md --exclude *.pyd
+[2023-04-20 07:57:25] INFO root fetch - processPackages [macrometa-source-postgres]: executing diffoscope
+[2023-04-20 07:57:25] INFO root fetch - processPackages [macrometa-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-postgres-0.0.43.tar.gz tmp/macrometa-source-postgres-0.0.44.tar.gz --markdown 20230420/m/macrometa-source-postgres/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-04-20 07:57:25] INFO root fetch - processPackages [quartic-sdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-20 07:57:25] INFO root fetch - processPackages [eva-decord]: Downloading https://files.pythonhosted.org/packages/22/16/181e74c75ae4e3fc9cc7bc55d7654665cb080d693bef597ee2ee13bfe6dc/eva_decord-0.6.0-py3-none-win_amd64.whl
+[2023-04-20 07:57:25] INFO root fetch - processPackages [django-sb-simple-migrations]: Downloading https://files.pythonhosted.org/packages/4d/75/991eb9acd53788a6f12ba11a1d6bea863c863584a0f389b86da86995cf56/django-sb-simple-migrations-0.6.0.tar.gz
+[2023-04-20 07:57:25] INFO root fetch - processPackages [odoo14-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/29/fa/b5b2a4e724737de73f66b063320762726a039f9320aa4e674d35a85af824/odoo14_addons_oca_operating_unit-14.0.20230215.0-py3-none-any.whl
+[2023-04-20 07:57:25] INFO root fetch - processPackages [cli-aws-mfa]: Downloading https://files.pythonhosted.org/packages/40/c9/c5e2fc6795b36debb3b30d041d910efe9b9fa1796c63c2447f6d21781f54/cli-aws-mfa-0.0.8.tar.gz
+[2023-04-20 07:57:25] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-04-20 07:57:25] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230420/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 07:57:25] WARNING root fetch - processPackages [eva-decord]: Skipping package: exceeds size limit 25473270>=10485760
+[2023-04-20 07:57:25] INFO root fetch - processPackages [eva-decord]: Start processing: distributed-transcoder-common
+[2023-04-20 07:57:25] INFO root fetch - main [MainThread]: End processing [eva-decord] error
+[2023-04-20 07:57:25] INFO root fetch - processPackages [cli-aws-mfa]: executing diffoscope
+[2023-04-20 07:57:25] INFO root fetch - processPackages [cli-aws-mfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli-aws-mfa-0.0.7.tar.gz tmp/cli-aws-mfa-0.0.8.tar.gz --markdown 20230420/c/cli-aws-mfa/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 07:57:25] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-04-20 07:57:25] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230420/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 07:57:25] INFO root fetch - processPackages [distributed-transcoder-common]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-20 07:57:25] INFO root fetch - processPackages [quartic-sdk]: Downloading https://files.pythonhosted.org/packages/e1/84/0897828c4f90e1b59f0f40235112332cf3a62bca16d7424e04dcd1d08a20/quartic-sdk-2.8.0.tar.gz
+[2023-04-20 07:57:25] INFO root fetch - processPackages [django-sb-simple-migrations]: Downloading https://files.pythonhosted.org/packages/de/87/3d1f5d9d67142e27ea76390b385a5df7d02a2350d20fc3deff0ac5dd86b5/django_sb_simple_migrations-0.7.0.tar.gz
+[2023-04-20 07:57:25] INFO root fetch - processPackages [odoo14-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/2a/81/0514db79e16cbff7f96c32851eaafd8504f9936270015267969d8d3f7de5/odoo14_addons_oca_operating_unit-14.0.20230419.0-py3-none-any.whl
+[2023-04-20 07:57:25] INFO root fetch - processPackages [django-sb-simple-migrations]: executing diffoscope
+[2023-04-20 07:57:25] INFO root fetch - processPackages [django-sb-simple-migrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sb-simple-migrations-0.6.0.tar.gz tmp/django_sb_simple_migrations-0.7.0.tar.gz --markdown 20230420/d/django-sb-simple-migrations/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-20 07:57:25] INFO root fetch - processPackages [odoo14-addons-oca-operating-unit]: executing diffoscope
+[2023-04-20 07:57:25] INFO root fetch - processPackages [odoo14-addons-oca-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_operating_unit-14.0.20230215.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_operating_unit-14.0.20230419.0-py3-none-any.whl.zip --markdown 20230420/o/odoo14-addons-oca-operating-unit/14.0.20230215.0-14.0.20230419.0/diff.md --exclude *.pyd
+[2023-04-20 07:57:25] INFO root fetch - processPackages [distributed-transcoder-common]: executing diffoscope
+[2023-04-20 07:57:25] INFO root fetch - processPackages [distributed-transcoder-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distributed-transcoder-common-0.2.8.tar.gz tmp/distributed_transcoder_common-0.2.9.tar.gz --markdown 20230420/d/distributed-transcoder-common/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 07:57:25] INFO root fetch - processPackages [quartic-sdk]: Downloading https://files.pythonhosted.org/packages/17/19/ccb9adcc99c8c271bdd321719d094d77b47148c98fab4d457b3bd3b86b6c/quartic-sdk-2.9.0.tar.gz
+[2023-04-20 07:57:26] INFO root fetch - main [MainThread]: End processing [wcommon]: success
+[2023-04-20 07:57:26] INFO root fetch - processPackages [quartic-sdk]: executing diffoscope
+[2023-04-20 07:57:26] INFO root fetch - processPackages [quartic-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quartic-sdk-2.8.0.tar.gz tmp/quartic-sdk-2.9.0.tar.gz --markdown 20230420/q/quartic-sdk/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-20 07:57:26] INFO root fetch - main [MainThread]: End processing [macrometa-source-postgres]: success
+[2023-04-20 07:57:26] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-04-20 07:57:26] INFO root fetch - main [MainThread]: End processing [cli-aws-mfa]: success
+[2023-04-20 07:57:26] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-04-20 07:57:26] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-operating-unit]: success
+[2023-04-20 07:57:26] INFO root fetch - main [MainThread]: End processing [distributed-transcoder-common]: success
+[2023-04-20 07:57:27] INFO root fetch - main [MainThread]: End processing [django-sb-simple-migrations]: success
+[2023-04-20 07:57:27] INFO root fetch - main [MainThread]: End processing [quartic-sdk]: success
+[2023-04-20 07:57:28] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-04-20 07:57:28] INFO root fetch - main [MainThread]: Store serial: [17782653]
