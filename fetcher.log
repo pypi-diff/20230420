@@ -22992,3 +22992,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 20:01:35] INFO root fetch - main [MainThread]: End processing [large-image-source-openslide]: success
 [2023-04-20 20:01:35] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
 [2023-04-20 20:01:35] INFO root fetch - main [MainThread]: Store serial: [17791081]
+[2023-04-20 20:06:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17791081]
+[2023-04-20 20:06:44] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-20 20:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image-source-pil
+[2023-04-20 20:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image-source-test
+[2023-04-20 20:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: large-image-source-tiff
+[2023-04-20 20:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: large-image-source-tifffile
+[2023-04-20 20:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: large-image-source-vips
+[2023-04-20 20:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ligo-followup-advocate
+[2023-04-20 20:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyquokka
+[2023-04-20 20:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyanzo
+[2023-04-20 20:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dequeai
+[2023-04-20 20:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xyz-py
+[2023-04-20 20:06:44] INFO root fetch - processPackages [ligo-followup-advocate]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-20 20:06:44] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.20.4.dev8] Old Version: [1.20.4.dev71]
+[2023-04-20 20:06:44] INFO root fetch - processPackages [pyanzo]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-04-20 20:06:44] INFO root fetch - processPackages [dequeai]: New version: [0.724] Old Version: [0.722]
+[2023-04-20 20:06:44] INFO root fetch - processPackages [pyquokka]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-04-20 20:06:44] INFO root fetch - processPackages [xyz-py]: New version: [5.3.1] Old Version: [5.3.0]
+[2023-04-20 20:06:44] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.20.4.dev8] Old Version: [1.20.4.dev71]
+[2023-04-20 20:06:45] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-20 20:06:45] INFO root fetch - processPackages [large-image-source-test]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-20 20:06:45] INFO root fetch - processPackages [large-image-source-pil]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-04-20 20:06:45] INFO root fetch - processPackages [pyanzo]: executing diffoscope
+[2023-04-20 20:06:45] INFO root fetch - processPackages [pyanzo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanzo-3.3.8.tar.gz tmp/pyanzo-3.3.9.tar.gz --markdown 20230420/p/pyanzo/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-04-20 20:06:45] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2023-04-20 20:06:45] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.20.4.dev71.tar.gz tmp/large-image-source-vips-1.20.4.dev8.tar.gz --markdown 20230420/l/large-image-source-vips/1.20.4.dev71-1.20.4.dev8/diff.md --exclude *.pyd
+[2023-04-20 20:06:45] INFO root fetch - processPackages [pyquokka]: Downloading https://files.pythonhosted.org/packages/d2/8b/c89b3e6b9ed5aeaf49eba524a40846e7060c939bcee2339dff5a396536ae/pyquokka-0.2.1-py3-none-any.whl
+[2023-04-20 20:06:45] INFO root fetch - processPackages [xyz-py]: Downloading https://files.pythonhosted.org/packages/8a/e9/467f799ea11704e6a3900c1aa92f435dbb6566424b42c81e1023c8415e1c/xyz_py-5.3.1.tar.gz
+[2023-04-20 20:06:45] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/f3/2a/281c10a6b79d1e099b8dc61263bb824943832d3692846da1c756a4d10916/dequeai-0.724.tar.gz
+[2023-04-20 20:06:45] INFO root fetch - processPackages [ligo-followup-advocate]: Downloading https://files.pythonhosted.org/packages/f8/7a/8768ff029ca148df170de5e2b9b4a4e1b0aaef4b75a43627f4dce62ba81e/ligo-followup-advocate-1.2.1.tar.gz
+[2023-04-20 20:06:45] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2023-04-20 20:06:45] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.20.4.dev71.tar.gz tmp/large-image-source-tifffile-1.20.4.dev8.tar.gz --markdown 20230420/l/large-image-source-tifffile/1.20.4.dev71-1.20.4.dev8/diff.md --exclude *.pyd
+[2023-04-20 20:06:45] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-04-20 20:06:45] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.722.tar.gz tmp/dequeai-0.724.tar.gz --markdown 20230420/d/dequeai/0.722-0.724/diff.md --exclude *.pyd
+[2023-04-20 20:06:45] INFO root fetch - processPackages [xyz-py]: executing diffoscope
+[2023-04-20 20:06:45] INFO root fetch - processPackages [xyz-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_py-5.3.0.tar.gz tmp/xyz_py-5.3.1.tar.gz --markdown 20230420/x/xyz-py/5.3.0-5.3.1/diff.md --exclude *.pyd
+[2023-04-20 20:06:45] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2023-04-20 20:06:45] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20230420/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-20 20:06:45] INFO root fetch - processPackages [large-image-source-test]: executing diffoscope
+[2023-04-20 20:06:45] INFO root fetch - processPackages [large-image-source-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-test-1.9.1.dev6.tar.gz tmp/large-image-source-test-1.9.1.dev8.tar.gz --markdown 20230420/l/large-image-source-test/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-20 20:06:45] INFO root fetch - processPackages [large-image-source-pil]: executing diffoscope
+[2023-04-20 20:06:45] INFO root fetch - processPackages [large-image-source-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-pil-1.9.1.dev6.tar.gz tmp/large-image-source-pil-1.9.1.dev8.tar.gz --markdown 20230420/l/large-image-source-pil/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-04-20 20:06:45] INFO root fetch - processPackages [pyquokka]: Downloading https://files.pythonhosted.org/packages/14/65/04f173d55d9506adbbdbcfde2c70edf636a9394169713ffd372b4c059b4e/pyquokka-0.2.3-py3-none-any.whl
+[2023-04-20 20:06:45] INFO root fetch - processPackages [pyquokka]: executing diffoscope
+[2023-04-20 20:06:45] INFO root fetch - processPackages [pyquokka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquokka-0.2.1-py3-none-any.whl.zip tmp/pyquokka-0.2.3-py3-none-any.whl.zip --markdown 20230420/p/pyquokka/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-04-20 20:06:46] INFO root fetch - processPackages [large-image-source-vips]: Start processing: ethraid
+[2023-04-20 20:06:46] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2023-04-20 20:06:46] INFO root fetch - processPackages [ethraid]: New version: [1.0.0] Old Version: [0.1.90]
+[2023-04-20 20:06:46] INFO root fetch - processPackages [ligo-followup-advocate]: executing diffoscope
+[2023-04-20 20:06:46] INFO root fetch - processPackages [ligo-followup-advocate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ligo-followup-advocate-1.2.0.tar.gz tmp/ligo-followup-advocate-1.2.1.tar.gz --markdown 20230420/l/ligo-followup-advocate/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-20 20:06:46] INFO root fetch - processPackages [large-image-source-tifffile]: Start processing: fabrictestbed-extensions
+[2023-04-20 20:06:46] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2023-04-20 20:06:46] INFO root fetch - processPackages [dequeai]: Start processing: aeivasta
+[2023-04-20 20:06:46] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-04-20 20:06:46] INFO root fetch - processPackages [ethraid]: executing diffoscope
+[2023-04-20 20:06:46] INFO root fetch - processPackages [ethraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethraid-0.1.90.tar.gz tmp/ethraid-1.0.0.tar.gz --markdown 20230420/e/ethraid/0.1.90-1.0.0/diff.md --exclude *.pyd
+[2023-04-20 20:06:46] INFO root fetch - processPackages [fabrictestbed-extensions]: New version: [1.4.2rc6] Old Version: [1.4.2rc5]
+[2023-04-20 20:06:46] WARNING root fetch - processPackages [aeivasta]: Skipping, unable to determine old version
+[2023-04-20 20:06:46] INFO root fetch - processPackages [aeivasta]: Start processing: metaerg
+[2023-04-20 20:06:46] INFO root fetch - main [MainThread]: End processing [aeivasta] error
+[2023-04-20 20:06:46] INFO root fetch - processPackages [metaerg]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-20 20:06:47] INFO root fetch - processPackages [large-image-source-test]: Start processing: upgini
+[2023-04-20 20:06:47] INFO root fetch - main [MainThread]: End processing [large-image-source-test]: success
+[2023-04-20 20:06:47] INFO root fetch - processPackages [metaerg]: Downloading https://files.pythonhosted.org/packages/16/fb/7389e1c833ad118dc13eedbcf78913914600ae0f6cd0ec0ab260627125b4/metaerg-2.3.8.tar.gz
+[2023-04-20 20:06:47] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-04-20 20:06:47] INFO root fetch - processPackages [fabrictestbed-extensions]: Downloading https://files.pythonhosted.org/packages/8e/bd/7b680fac06d3dc970178c25a18635a818aa5500eea3eb2e45472577afff4/fabrictestbed-extensions-1.4.2rc6.tar.gz
+[2023-04-20 20:06:47] INFO root fetch - main [MainThread]: End processing [large-image-source-pil]: success
+[2023-04-20 20:06:47] INFO root fetch - main [MainThread]: End processing [xyz-py]: success
+[2023-04-20 20:06:47] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2023-04-20 20:06:47] INFO root fetch - processPackages [fabrictestbed-extensions]: executing diffoscope
+[2023-04-20 20:06:47] INFO root fetch - processPackages [fabrictestbed-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-extensions-1.4.2rc5.tar.gz tmp/fabrictestbed-extensions-1.4.2rc6.tar.gz --markdown 20230420/f/fabrictestbed-extensions/1.4.2rc5-1.4.2rc6/diff.md --exclude *.pyd
+[2023-04-20 20:06:47] INFO root fetch - processPackages [metaerg]: Downloading https://files.pythonhosted.org/packages/59/4a/0605d2dcbab89e0acde4b644da74430523170d911eb9b77abb556d95e17d/metaerg-2.3.9.tar.gz
+[2023-04-20 20:06:47] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-04-20 20:06:47] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230420/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-04-20 20:06:47] INFO root fetch - processPackages [metaerg]: executing diffoscope
+[2023-04-20 20:06:47] INFO root fetch - processPackages [metaerg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaerg-2.3.8.tar.gz tmp/metaerg-2.3.9.tar.gz --markdown 20230420/m/metaerg/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-20 20:06:47] INFO root fetch - main [MainThread]: End processing [pyanzo]: success
+[2023-04-20 20:06:47] INFO root fetch - main [MainThread]: End processing [pyquokka]: success
+[2023-04-20 20:06:49] INFO root fetch - main [MainThread]: End processing [fabrictestbed-extensions]: success
+[2023-04-20 20:06:49] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-04-20 20:06:49] INFO root fetch - main [MainThread]: End processing [metaerg]: success
+[2023-04-20 20:06:49] INFO root fetch - main [MainThread]: End processing [ligo-followup-advocate]: success
+[2023-04-20 20:06:55] INFO root fetch - main [MainThread]: End processing [ethraid]: success
+[2023-04-20 20:06:55] INFO root fetch - main [MainThread]: Store serial: [17791133]
