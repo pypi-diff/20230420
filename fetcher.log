@@ -9773,3 +9773,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 09:33:47] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-04-20 09:33:48] INFO root fetch - main [MainThread]: End processing [twilio]: success
 [2023-04-20 09:33:48] INFO root fetch - main [MainThread]: Store serial: [17783317]
+[2023-04-20 09:38:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783317]
+[2023-04-20 09:39:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-20 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: structlog-sentry
+[2023-04-20 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rcmpy
+[2023-04-20 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tpfunc
+[2023-04-20 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipymock
+[2023-04-20 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stellar-keystore
+[2023-04-20 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exampleData
+[2023-04-20 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-hr-utilization-report
+[2023-04-20 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastdeploy
+[2023-04-20 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-hr-utilization-report
+[2023-04-20 09:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addons-oca-timesheet
+[2023-04-20 09:39:00] INFO root fetch - processPackages [structlog-sentry]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-20 09:39:00] INFO root fetch - processPackages [odoo14-addons-oca-timesheet]: New version: [14.0.20230419.0] Old Version: [14.0.20221130.0]
+[2023-04-20 09:39:00] INFO root fetch - processPackages [tpfunc]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-20 09:39:00] WARNING root fetch - processPackages [exampleData]: Skipping, unable to determine old version
+[2023-04-20 09:39:00] INFO root fetch - processPackages [exampleData]: Start processing: UniTok
+[2023-04-20 09:39:00] INFO root fetch - processPackages [ipymock]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-04-20 09:39:00] INFO root fetch - main [MainThread]: End processing [exampleData] error
+[2023-04-20 09:39:00] INFO root fetch - processPackages [odoo12-addon-hr-utilization-report]: New version: [12.0.1.0.3.99.dev5] Old Version: [12.0.1.0.3.99.dev4]
+[2023-04-20 09:39:00] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev3]
+[2023-04-20 09:39:00] WARNING root fetch - processPackages [stellar-keystore]: Skipping, unable to determine old version
+[2023-04-20 09:39:00] INFO root fetch - processPackages [stellar-keystore]: Start processing: barocert
+[2023-04-20 09:39:00] INFO root fetch - main [MainThread]: End processing [stellar-keystore] error
+[2023-04-20 09:39:00] INFO root fetch - processPackages [rcmpy]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-20 09:39:00] INFO root fetch - processPackages [fastdeploy]: New version: [2.2.8] Old Version: [2.2.7rc4]
+[2023-04-20 09:39:00] INFO root fetch - processPackages [barocert]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-20 09:39:00] INFO root fetch - processPackages [UniTok]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-04-20 09:39:01] INFO root fetch - processPackages [tpfunc]: Downloading https://files.pythonhosted.org/packages/9b/a9/507aa13d068214107ac06fc00f3fdbedc5c31455c9cd238e5fd3dfa29322/tpfunc-1.2.3.tar.gz
+[2023-04-20 09:39:01] INFO root fetch - processPackages [odoo14-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/d6/1b/a6ce128e8552dff4b700c1912e455b7d27acd1b2e02b42bdd67896911b96/odoo14_addons_oca_timesheet-14.0.20221130.0-py3-none-any.whl
+[2023-04-20 09:39:01] INFO root fetch - processPackages [odoo12-addon-hr-utilization-report]: Downloading https://files.pythonhosted.org/packages/d6/a2/f306518ac9e517a75240189778f390978e1b8dd37eb5901894011b246376/odoo12_addon_hr_utilization_report-12.0.1.0.3.99.dev4-py3-none-any.whl
+[2023-04-20 09:39:01] INFO root fetch - processPackages [rcmpy]: Downloading https://files.pythonhosted.org/packages/70/7a/ff54e590beccaef9f2313c401a54c990fbc76dbcb99a8d928882a5e73987/rcmpy-1.0.0.tar.gz
+[2023-04-20 09:39:01] INFO root fetch - processPackages [fastdeploy]: Downloading https://files.pythonhosted.org/packages/4f/6e/3ff313f214f599665c81938a412a3fdbb467ba6113d36e73f9c0ce3a6221/fastdeploy-2.2.7rc4.tar.gz
+[2023-04-20 09:39:01] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: Downloading https://files.pythonhosted.org/packages/38/ee/d62da3573807bd62f59d22cd3a287cdb898c1f607c02e20c9448490c99de/odoo14_addon_hr_utilization_report-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-04-20 09:39:01] INFO root fetch - processPackages [ipymock]: Downloading https://files.pythonhosted.org/packages/a4/a6/211817ea199389ed4a2cd55b24fb870a9bd6995bcc5cc25801788986f267/ipymock-0.1.0.tar.gz
+[2023-04-20 09:39:01] INFO root fetch - processPackages [barocert]: Downloading https://files.pythonhosted.org/packages/d9/42/527fe35b92487c75f5c1671f2e89ce980d8a2378680035ac7dd51b8ac894/barocert-1.0.0-py3-none-any.whl
+[2023-04-20 09:39:01] INFO root fetch - processPackages [structlog-sentry]: Downloading https://files.pythonhosted.org/packages/5a/30/c549e7f37e3efc1d709d0e6a345f7743aaffc8f265b06a0b85c92c9ac9b5/structlog_sentry-2.0.2.tar.gz
+[2023-04-20 09:39:01] INFO root fetch - processPackages [UniTok]: Downloading https://files.pythonhosted.org/packages/de/ef/066a05f7eb62589c337d1761dd6153308fc2573e8b5c9926e0bb8de8d104/UniTok-3.1.2.tar.gz
+[2023-04-20 09:39:01] INFO root fetch - processPackages [tpfunc]: Downloading https://files.pythonhosted.org/packages/be/b4/f7d46e61c459f7b2286dabe7061cae8b35409f2151fc76a44229a54d4278/tpfunc-1.2.4.tar.gz
+[2023-04-20 09:39:01] INFO root fetch - processPackages [ipymock]: executing diffoscope
+[2023-04-20 09:39:01] INFO root fetch - processPackages [ipymock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymock-0.0.7.tar.gz tmp/ipymock-0.1.0.tar.gz --markdown 20230420/i/ipymock/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-04-20 09:39:01] INFO root fetch - processPackages [odoo14-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/43/fe/15129963597618ddd68b549f57f9893036a8b843013ea1f018b6489e02f1/odoo14_addons_oca_timesheet-14.0.20230419.0-py3-none-any.whl
+[2023-04-20 09:39:01] INFO root fetch - processPackages [structlog-sentry]: executing diffoscope
+[2023-04-20 09:39:01] INFO root fetch - processPackages [structlog-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structlog_sentry-2.0.1.tar.gz tmp/structlog_sentry-2.0.2.tar.gz --markdown 20230420/s/structlog-sentry/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-20 09:39:01] INFO root fetch - processPackages [rcmpy]: Downloading https://files.pythonhosted.org/packages/8c/db/91410fbdf5d70f09525646d6157a016ba6ced7a1411591a815341ce00423/rcmpy-1.1.0.tar.gz
+[2023-04-20 09:39:01] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: Downloading https://files.pythonhosted.org/packages/c2/47/c8102e9fc445c8f8ac03ba8b8a19bfd599b14adb27025cb706784a8e6405/odoo14_addon_hr_utilization_report-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-04-20 09:39:01] INFO root fetch - processPackages [UniTok]: executing diffoscope
+[2023-04-20 09:39:01] INFO root fetch - processPackages [UniTok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UniTok-3.1.1.tar.gz tmp/UniTok-3.1.2.tar.gz --markdown 20230420/U/UniTok/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-04-20 09:39:01] INFO root fetch - processPackages [odoo12-addon-hr-utilization-report]: Downloading https://files.pythonhosted.org/packages/19/4c/051ed68919bc6b6b2a8c9e24ea156b62c66c8b3a98fd1cf7702ca1ddf391/odoo12_addon_hr_utilization_report-12.0.1.0.3.99.dev5-py3-none-any.whl
+[2023-04-20 09:39:01] INFO root fetch - processPackages [fastdeploy]: Downloading https://files.pythonhosted.org/packages/94/63/24eb7c1b17f12cf84be0a1bcba4aac99cdf3ccd62bf906a0d2d2f5166ac9/fastdeploy-2.2.8.tar.gz
+[2023-04-20 09:39:01] INFO root fetch - processPackages [tpfunc]: executing diffoscope
+[2023-04-20 09:39:01] INFO root fetch - processPackages [tpfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpfunc-1.2.3.tar.gz tmp/tpfunc-1.2.4.tar.gz --markdown 20230420/t/tpfunc/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-20 09:39:01] INFO root fetch - processPackages [barocert]: Downloading https://files.pythonhosted.org/packages/fe/a7/6e48b94fd09ec0176b2da907aa8eb546963e1b4409cf92c3e6d1896a40ee/barocert-1.0.1-py3-none-any.whl
+[2023-04-20 09:39:01] INFO root fetch - processPackages [odoo14-addons-oca-timesheet]: executing diffoscope
+[2023-04-20 09:39:01] INFO root fetch - processPackages [odoo14-addons-oca-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_timesheet-14.0.20221130.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_timesheet-14.0.20230419.0-py3-none-any.whl.zip --markdown 20230420/o/odoo14-addons-oca-timesheet/14.0.20221130.0-14.0.20230419.0/diff.md --exclude *.pyd
+[2023-04-20 09:39:01] INFO root fetch - processPackages [rcmpy]: executing diffoscope
+[2023-04-20 09:39:01] INFO root fetch - processPackages [rcmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcmpy-1.0.0.tar.gz tmp/rcmpy-1.1.0.tar.gz --markdown 20230420/r/rcmpy/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-20 09:39:01] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: executing diffoscope
+[2023-04-20 09:39:01] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_utilization_report-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_hr_utilization_report-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230420/o/odoo14-addon-hr-utilization-report/14.0.1.0.2.dev3-14.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-04-20 09:39:01] INFO root fetch - processPackages [barocert]: executing diffoscope
+[2023-04-20 09:39:01] INFO root fetch - processPackages [barocert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barocert-1.0.0-py3-none-any.whl.zip tmp/barocert-1.0.1-py3-none-any.whl.zip --markdown 20230420/b/barocert/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-20 09:39:01] INFO root fetch - processPackages [fastdeploy]: executing diffoscope
+[2023-04-20 09:39:01] INFO root fetch - processPackages [fastdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdeploy-2.2.7rc4.tar.gz tmp/fastdeploy-2.2.8.tar.gz --markdown 20230420/f/fastdeploy/2.2.7rc4-2.2.8/diff.md --exclude *.pyd
+[2023-04-20 09:39:01] INFO root fetch - processPackages [odoo12-addon-hr-utilization-report]: executing diffoscope
+[2023-04-20 09:39:01] INFO root fetch - processPackages [odoo12-addon-hr-utilization-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_utilization_report-12.0.1.0.3.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_hr_utilization_report-12.0.1.0.3.99.dev5-py3-none-any.whl.zip --markdown 20230420/o/odoo12-addon-hr-utilization-report/12.0.1.0.3.99.dev4-12.0.1.0.3.99.dev5/diff.md --exclude *.pyd
+[2023-04-20 09:39:02] INFO root fetch - main [MainThread]: End processing [structlog-sentry]: success
+[2023-04-20 09:39:03] INFO root fetch - main [MainThread]: End processing [tpfunc]: success
+[2023-04-20 09:39:03] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-timesheet]: success
+[2023-04-20 09:39:03] INFO root fetch - main [MainThread]: End processing [ipymock]: success
+[2023-04-20 09:39:03] INFO root fetch - main [MainThread]: End processing [UniTok]: success
+[2023-04-20 09:39:03] INFO root fetch - main [MainThread]: End processing [barocert]: success
+[2023-04-20 09:39:03] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-utilization-report]: success
+[2023-04-20 09:39:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-utilization-report]: success
+[2023-04-20 09:39:03] INFO root fetch - main [MainThread]: End processing [rcmpy]: success
+[2023-04-20 09:39:04] INFO root fetch - main [MainThread]: End processing [fastdeploy]: success
+[2023-04-20 09:39:04] INFO root fetch - main [MainThread]: Store serial: [17783361]
