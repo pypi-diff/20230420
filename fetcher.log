@@ -15654,3 +15654,92 @@ EOFError: EOF read where object expected
 [2023-04-20 13:55:12] INFO root fetch - main [MainThread]: End processing [digocli]: success
 [2023-04-20 13:55:12] INFO root fetch - main [MainThread]: End processing [half-orm]: success
 [2023-04-20 13:55:12] INFO root fetch - main [MainThread]: Store serial: [17786571]
+[2023-04-20 14:00:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17786571]
+[2023-04-20 14:00:22] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi-template
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ztfin2p3
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-framework
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shafara-tool-kit
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsml
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ord-mediascout-client
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plix-kws
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: myUniquePythonPackageName
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graphkit-learn
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skytek-utils
+[2023-04-20 14:00:22] WARNING root fetch - processPackages [shafara-tool-kit]: Skipping, unable to determine old version
+[2023-04-20 14:00:22] INFO root fetch - processPackages [shafara-tool-kit]: Start processing: mozilla-version
+[2023-04-20 14:00:22] INFO root fetch - main [MainThread]: End processing [shafara-tool-kit] error
+[2023-04-20 14:00:22] WARNING root fetch - processPackages [ztfin2p3]: Skipping, unable to determine old version
+[2023-04-20 14:00:22] INFO root fetch - processPackages [plix-kws]: New version: [0.1012] Old Version: [0.1010]
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ztfin2p3]: Start processing: dop-integration-libs
+[2023-04-20 14:00:22] INFO root fetch - main [MainThread]: End processing [ztfin2p3] error
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ord-mediascout-client]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-20 14:00:22] INFO root fetch - processPackages [tsml]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-20 14:00:22] INFO root fetch - processPackages [hyfi-template]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-20 14:00:22] INFO root fetch - processPackages [graphkit-learn]: New version: [0.2b3] Old Version: [0.2b2]
+[2023-04-20 14:00:22] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.106]
+[2023-04-20 14:00:22] INFO root fetch - processPackages [seven-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-20 14:00:22] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 14:00:22] INFO root fetch - processPackages [graphkit-learn]: executing diffoscope
+[2023-04-20 14:00:22] INFO root fetch - processPackages [graphkit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphkit-learn-0.2b2.tar.gz tmp/graphkit-learn-0.2b3.tar.gz --markdown 20230420/g/graphkit-learn/0.2b2-0.2b3/diff.md --exclude *.pyd
+[2023-04-20 14:00:22] WARNING root fetch - processPackages [skytek-utils]: Skipping, unable to determine old version
+[2023-04-20 14:00:22] INFO root fetch - processPackages [skytek-utils]: Start processing: nr-metadata
+[2023-04-20 14:00:22] INFO root fetch - main [MainThread]: End processing [skytek-utils] error
+[2023-04-20 14:00:22] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-04-20 14:00:22] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.2.tar.gz tmp/dop_integration_libs-0.1.3.tar.gz --markdown 20230420/d/dop-integration-libs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 14:00:22] INFO root fetch - processPackages [mozilla-version]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-04-20 14:00:22] INFO root fetch - processPackages [nr-metadata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 14:00:22] ERROR root fetch - processPackages [plix-kws]: Unable to fetch info: No such project/version 'plix-kws' 0.1010
+[2023-04-20 14:00:22] INFO root fetch - processPackages [plix-kws]: Start processing: plix-kws
+[2023-04-20 14:00:22] INFO root fetch - main [MainThread]: End processing [plix-kws] error
+[2023-04-20 14:00:22] WARNING root fetch - processPackages [plix-kws]: Skipping, unable to determine old version
+[2023-04-20 14:00:22] INFO root fetch - processPackages [plix-kws]: Start processing: pywrapid
+[2023-04-20 14:00:22] INFO root fetch - main [MainThread]: End processing [plix-kws] error
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ord-mediascout-client]: Downloading https://files.pythonhosted.org/packages/15/a6/f2f5abbe20690db937973a59875cdef06a053cb8b4a83e11b220100d4c4d/ord_mediascout_client-0.0.5.tar.gz
+[2023-04-20 14:00:22] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/ea/7d/3abbe3e0218621b943e505c465d2084a2baf494df9c84279dc9e9a1407fe/hyfi_template-0.1.5.tar.gz
+[2023-04-20 14:00:22] INFO root fetch - processPackages [nr-metadata]: executing diffoscope
+[2023-04-20 14:00:22] INFO root fetch - processPackages [nr-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nr-metadata-1.0.8.tar.gz tmp/nr-metadata-1.0.9.tar.gz --markdown 20230420/n/nr-metadata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-20 14:00:22] WARNING root fetch - processPackages [ord-mediascout-client]: Skipping package: exceeds size limit 28954520>=10485760
+[2023-04-20 14:00:22] INFO root fetch - processPackages [ord-mediascout-client]: Start processing: myUniquePythonPackageName
+[2023-04-20 14:00:22] INFO root fetch - main [MainThread]: End processing [ord-mediascout-client] error
+[2023-04-20 14:00:22] INFO root fetch - processPackages [seven-framework]: Downloading https://files.pythonhosted.org/packages/7f/6a/8dd7364d2a60d0b5147d14dcf9083999ee4ad4942275a8800135cac11a2c/seven_framework-1.1.8.tar.gz
+[2023-04-20 14:00:22] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-04-20 14:00:22] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.1.4.tar.gz tmp/hyfi_template-0.1.5.tar.gz --markdown 20230420/h/hyfi-template/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-20 14:00:22] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.106]
+[2023-04-20 14:00:22] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-04-20 14:00:22] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.106.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230420/m/myUniquePythonPackageName/5.5.106-7.10.7/diff.md --exclude *.pyd
+[2023-04-20 14:00:22] INFO root fetch - processPackages [mozilla-version]: Downloading https://files.pythonhosted.org/packages/18/e9/faa4ad2fbfd02bcf89578caaaea054c34494eac6b23d528ec45022980f40/mozilla-version-1.2.0.tar.gz
+[2023-04-20 14:00:22] INFO root fetch - processPackages [pywrapid]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-20 14:00:22] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-04-20 14:00:22] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.106.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230420/m/myUniquePythonPackageName/5.5.106-7.10.7/diff.md --exclude *.pyd
+[2023-04-20 14:00:22] INFO root fetch - processPackages [tsml]: Downloading https://files.pythonhosted.org/packages/fd/21/781f3b21ccdfb9ecc33ebc2a5f1e988a1754b0589be38f1e89fb35c470eb/tsml-0.0.7.tar.gz
+[2023-04-20 14:00:22] INFO root fetch - processPackages [tsml]: executing diffoscope
+[2023-04-20 14:00:22] INFO root fetch - processPackages [tsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsml-0.0.6.tar.gz tmp/tsml-0.0.7.tar.gz --markdown 20230420/t/tsml/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-20 14:00:22] INFO root fetch - processPackages [pywrapid]: Downloading https://files.pythonhosted.org/packages/bc/e2/f20a7b1849e6d7bdeba287767b9495e7ed00a4832d2fecc42692a3a65681/pywrapid-0.2.6.tar.gz
+[2023-04-20 14:00:22] INFO root fetch - processPackages [seven-framework]: Downloading https://files.pythonhosted.org/packages/28/c0/458db664a69b4b4618ad287bbb4ab4422019f23d75759d591959d27422be/seven_framework-1.1.9.tar.gz
+[2023-04-20 14:00:22] INFO root fetch - processPackages [mozilla-version]: Downloading https://files.pythonhosted.org/packages/3d/85/86f14c1f6b5d8b4f32713d0465fe4896786fa4e53f9c1fdbc842def23bed/mozilla-version-2.0.0.tar.gz
+[2023-04-20 14:00:22] INFO root fetch - processPackages [seven-framework]: executing diffoscope
+[2023-04-20 14:00:22] INFO root fetch - processPackages [seven-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_framework-1.1.8.tar.gz tmp/seven_framework-1.1.9.tar.gz --markdown 20230420/s/seven-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-20 14:00:22] INFO root fetch - processPackages [mozilla-version]: executing diffoscope
+[2023-04-20 14:00:22] INFO root fetch - processPackages [mozilla-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozilla-version-1.2.0.tar.gz tmp/mozilla-version-2.0.0.tar.gz --markdown 20230420/m/mozilla-version/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-20 14:00:22] INFO root fetch - processPackages [pywrapid]: Downloading https://files.pythonhosted.org/packages/58/a0/d2f5ffb86cd416ab9879ff7e2be895075548dcefaf4429f39d24b5c7ce9a/pywrapid-0.2.7.tar.gz
+[2023-04-20 14:00:23] INFO root fetch - processPackages [pywrapid]: executing diffoscope
+[2023-04-20 14:00:23] INFO root fetch - processPackages [pywrapid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywrapid-0.2.6.tar.gz tmp/pywrapid-0.2.7.tar.gz --markdown 20230420/p/pywrapid/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-20 14:00:23] INFO root fetch - processPackages [dop-integration-libs]: Start processing: commonground-api-common
+[2023-04-20 14:00:23] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-04-20 14:00:23] INFO root fetch - processPackages [commonground-api-common]: New version: [1.9.0] Old Version: [1.10.2]
+[2023-04-20 14:00:23] INFO root fetch - processPackages [commonground-api-common]: Downloading https://files.pythonhosted.org/packages/89/e1/893afb8d4e899a0734027fe6636f4101c1d6c758c527943c5951ac57cd8a/commonground-api-common-1.10.2.tar.gz
+[2023-04-20 14:00:23] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-04-20 14:00:24] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-04-20 14:00:24] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-04-20 14:00:24] INFO root fetch - main [MainThread]: End processing [seven-framework]: success
+[2023-04-20 14:00:24] INFO root fetch - main [MainThread]: End processing [mozilla-version]: success
+[2023-04-20 14:00:24] INFO root fetch - main [MainThread]: End processing [pywrapid]: success
+[2023-04-20 14:00:24] INFO root fetch - main [MainThread]: End processing [tsml]: success
+[2023-04-20 14:00:24] INFO root fetch - processPackages [commonground-api-common]: Downloading https://files.pythonhosted.org/packages/c5/b4/bff7e033b5265f4d7eb2a93fa6621add9f501009661f43fe4afa4d0cd1d8/commonground-api-common-1.9.0.tar.gz
+[2023-04-20 14:00:25] INFO root fetch - processPackages [commonground-api-common]: executing diffoscope
+[2023-04-20 14:00:25] INFO root fetch - processPackages [commonground-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonground-api-common-1.10.2.tar.gz tmp/commonground-api-common-1.9.0.tar.gz --markdown 20230420/c/commonground-api-common/1.10.2-1.9.0/diff.md --exclude *.pyd
+[2023-04-20 14:00:26] INFO root fetch - main [MainThread]: End processing [graphkit-learn]: success
+[2023-04-20 14:00:26] INFO root fetch - main [MainThread]: End processing [nr-metadata]: success
+[2023-04-20 14:00:28] INFO root fetch - main [MainThread]: End processing [commonground-api-common]: success
+[2023-04-20 14:00:28] INFO root fetch - main [MainThread]: Store serial: [17786638]
