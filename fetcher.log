@@ -7120,3 +7120,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 05:37:16] INFO root fetch - main [MainThread]: End processing [azure-mgmt-netapp]: success
 [2023-04-20 05:37:53] INFO root fetch - main [MainThread]: End processing [azure-mgmt-web]: success
 [2023-04-20 05:37:53] INFO root fetch - main [MainThread]: Store serial: [17781735]
+[2023-04-20 05:43:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781735]
+[2023-04-20 05:43:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-20 05:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: binance-connector-at
+[2023-04-20 05:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpservice
+[2023-04-20 05:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grizzly-framework
+[2023-04-20 05:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyfi-template
+[2023-04-20 05:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigraph-schema
+[2023-04-20 05:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gmail-scanner
+[2023-04-20 05:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: papermill-origami
+[2023-04-20 05:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-keycloak-async
+[2023-04-20 05:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phe3d
+[2023-04-20 05:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eQTac
+[2023-04-20 05:43:06] WARNING root fetch - processPackages [hyfi-template]: Skipping, unable to determine old version
+[2023-04-20 05:43:06] INFO root fetch - processPackages [hyfi-template]: Start processing: docs-versions-menu
+[2023-04-20 05:43:06] INFO root fetch - main [MainThread]: End processing [hyfi-template] error
+[2023-04-20 05:43:06] WARNING root fetch - processPackages [binance-connector-at]: Skipping, unable to determine old version
+[2023-04-20 05:43:06] INFO root fetch - processPackages [binance-connector-at]: Start processing: django-perm-trans
+[2023-04-20 05:43:06] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-04-20 05:43:06] WARNING root fetch - processPackages [phe3d]: Skipping, unable to determine old version
+[2023-04-20 05:43:06] INFO root fetch - main [MainThread]: End processing [binance-connector-at] error
+[2023-04-20 05:43:06] INFO root fetch - main [MainThread]: End processing [phe3d] error
+[2023-04-20 05:43:06] INFO root fetch - processPackages [docs-versions-menu]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-20 05:43:06] INFO root fetch - processPackages [bigraph-schema]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-20 05:43:06] INFO root fetch - processPackages [eQTac]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-20 05:43:06] INFO root fetch - processPackages [papermill-origami]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 05:43:06] INFO root fetch - processPackages [gmail-scanner]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-20 05:43:06] INFO root fetch - processPackages [grizzly-framework]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-20 05:43:06] WARNING root fetch - processPackages [django-perm-trans]: Skipping, unable to determine old version
+[2023-04-20 05:43:06] INFO root fetch - main [MainThread]: End processing [django-perm-trans] error
+[2023-04-20 05:43:06] WARNING root fetch - processPackages [python-keycloak-async]: Skipping, unable to determine old version
+[2023-04-20 05:43:06] INFO root fetch - main [MainThread]: End processing [python-keycloak-async] error
+[2023-04-20 05:43:06] INFO root fetch - processPackages [docs-versions-menu]: Downloading https://files.pythonhosted.org/packages/b0/3a/477e9fc44fd91c666be3f9f4c0c22772da59f00e4a632f87bb857714262e/docs_versions_menu-0.5.1.tar.gz
+[2023-04-20 05:43:06] INFO root fetch - processPackages [bigraph-schema]: Downloading https://files.pythonhosted.org/packages/ea/57/d7ba2bb980f87e458408e39d987cd4e4628114bb1cdf07a363bfe347e35e/bigraph-schema-0.0.4.tar.gz
+[2023-04-20 05:43:06] INFO root fetch - processPackages [grizzly-framework]: Downloading https://files.pythonhosted.org/packages/12/91/0b0124bf7fccce519a9224b55775fc8655322f5e66118522e982a02bc1d8/grizzly-framework-0.9.7.tar.gz
+[2023-04-20 05:43:06] INFO root fetch - processPackages [gmail-scanner]: Downloading https://files.pythonhosted.org/packages/ec/8c/85143bdbcdd30159d326e84a7f522566b7ba8885f39505ed2453bc673ba3/gmail_scanner-1.0.4.tar.gz
+[2023-04-20 05:43:06] INFO root fetch - processPackages [eQTac]: Downloading https://files.pythonhosted.org/packages/41/26/a6708c1ee21b81e235ed4ad58f06d16fe51f7fa96181162ad73d11ce63c0/eQTac-1.0.7.tar.gz
+[2023-04-20 05:43:06] INFO root fetch - processPackages [papermill-origami]: Downloading https://files.pythonhosted.org/packages/f9/79/67ff48d6bd20991130c434894ad537f24ffafcdfcab02f51067a64f006a8/papermill_origami-0.0.8.tar.gz
+[2023-04-20 05:43:06] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-04-20 05:43:06] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230420/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-04-20 05:43:06] INFO root fetch - processPackages [gmail-scanner]: executing diffoscope
+[2023-04-20 05:43:06] INFO root fetch - processPackages [gmail-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmail_scanner-1.0.3.tar.gz tmp/gmail_scanner-1.0.4.tar.gz --markdown 20230420/g/gmail-scanner/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-20 05:43:06] INFO root fetch - processPackages [eQTac]: executing diffoscope
+[2023-04-20 05:43:06] INFO root fetch - processPackages [eQTac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eQTac-1.0.6.tar.gz tmp/eQTac-1.0.7.tar.gz --markdown 20230420/e/eQTac/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-20 05:43:07] INFO root fetch - processPackages [docs-versions-menu]: Downloading https://files.pythonhosted.org/packages/9e/b7/33bb6d00593ce0a7df5d4b13871b798d1cc8fd798933f036b058568dbe2d/docs_versions_menu-0.5.2.tar.gz
+[2023-04-20 05:43:07] INFO root fetch - processPackages [bigraph-schema]: Downloading https://files.pythonhosted.org/packages/61/2a/a7f2e1d6aa05d2d0b98b2e99ff185e22d8f832bddc10d4a951bb378fa464/bigraph-schema-0.0.5.tar.gz
+[2023-04-20 05:43:07] INFO root fetch - processPackages [grizzly-framework]: Downloading https://files.pythonhosted.org/packages/39/7f/595e5565760bc129ca3a6f110f24c4913ea3609992d21d9d85e1ed7a41e8/grizzly-framework-0.9.8.tar.gz
+[2023-04-20 05:43:07] INFO root fetch - processPackages [papermill-origami]: Downloading https://files.pythonhosted.org/packages/6e/32/a69940a5ca2f1d0e6110f6fc13b01cf98c838767ddc5f82f0eb7c75cebe5/papermill_origami-0.0.9.tar.gz
+[2023-04-20 05:43:07] INFO root fetch - processPackages [bigraph-schema]: executing diffoscope
+[2023-04-20 05:43:07] INFO root fetch - processPackages [bigraph-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigraph-schema-0.0.4.tar.gz tmp/bigraph-schema-0.0.5.tar.gz --markdown 20230420/b/bigraph-schema/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-20 05:43:07] INFO root fetch - processPackages [papermill-origami]: executing diffoscope
+[2023-04-20 05:43:07] INFO root fetch - processPackages [papermill-origami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papermill_origami-0.0.8.tar.gz tmp/papermill_origami-0.0.9.tar.gz --markdown 20230420/p/papermill-origami/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 05:43:07] INFO root fetch - processPackages [grizzly-framework]: executing diffoscope
+[2023-04-20 05:43:07] INFO root fetch - processPackages [grizzly-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizzly-framework-0.9.7.tar.gz tmp/grizzly-framework-0.9.8.tar.gz --markdown 20230420/g/grizzly-framework/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-20 05:43:07] INFO root fetch - processPackages [docs-versions-menu]: executing diffoscope
+[2023-04-20 05:43:07] INFO root fetch - processPackages [docs-versions-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docs_versions_menu-0.5.1.tar.gz tmp/docs_versions_menu-0.5.2.tar.gz --markdown 20230420/d/docs-versions-menu/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-20 05:43:08] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-04-20 05:43:08] INFO root fetch - main [MainThread]: End processing [eQTac]: success
+[2023-04-20 05:43:08] INFO root fetch - main [MainThread]: End processing [gmail-scanner]: success
+[2023-04-20 05:43:08] INFO root fetch - main [MainThread]: End processing [bigraph-schema]: success
+[2023-04-20 05:43:08] INFO root fetch - main [MainThread]: End processing [grizzly-framework]: success
+[2023-04-20 05:43:08] INFO root fetch - main [MainThread]: End processing [papermill-origami]: success
+[2023-04-20 05:43:09] INFO root fetch - main [MainThread]: End processing [docs-versions-menu]: success
+[2023-04-20 05:43:09] INFO root fetch - main [MainThread]: Store serial: [17781777]
