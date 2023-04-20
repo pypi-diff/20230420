@@ -6651,3 +6651,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 04:54:46] INFO root fetch - main [MainThread]: End processing [pitricks]: success
 [2023-04-20 04:54:46] INFO root fetch - main [MainThread]: End processing [wom-py]: success
 [2023-04-20 04:54:46] INFO root fetch - main [MainThread]: Store serial: [17781408]
+[2023-04-20 04:59:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781408]
+[2023-04-20 04:59:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-20 04:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: noise2read
+[2023-04-20 04:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msgspec
+[2023-04-20 04:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thu-learn-downloader
+[2023-04-20 04:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gplately
+[2023-04-20 04:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aga
+[2023-04-20 04:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-promptify-py
+[2023-04-20 04:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twb-project
+[2023-04-20 04:59:55] INFO root fetch - processPackages [twb-project]: New version: [0.7.3a9] Old Version: [0.7.3a8]
+[2023-04-20 04:59:55] INFO root fetch - processPackages [noise2read]: New version: [0.0.73] Old Version: [0.0.71]
+[2023-04-20 04:59:55] INFO root fetch - processPackages [aga]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-20 04:59:55] INFO root fetch - processPackages [msgspec]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-20 04:59:55] INFO root fetch - processPackages [thu-learn-downloader]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 04:59:55] INFO root fetch - processPackages [gplately]: New version: [1.0] Old Version: [0.4]
+[2023-04-20 04:59:55] WARNING root fetch - processPackages [openai-promptify-py]: Skipping, unable to determine old version
+[2023-04-20 04:59:55] INFO root fetch - main [MainThread]: End processing [openai-promptify-py] error
+[2023-04-20 04:59:55] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-04-20 04:59:55] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.7.3a8.tar.gz tmp/twb_project-0.7.3a9.tar.gz --markdown 20230420/t/twb-project/0.7.3a8-0.7.3a9/diff.md --exclude *.pyd
+[2023-04-20 04:59:55] INFO root fetch - processPackages [aga]: executing diffoscope
+[2023-04-20 04:59:55] INFO root fetch - processPackages [aga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aga-0.9.0.tar.gz tmp/aga-0.9.1.tar.gz --markdown 20230420/a/aga/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 04:59:55] INFO root fetch - processPackages [noise2read]: Downloading https://files.pythonhosted.org/packages/45/ff/2b29a45b4441248f6028a7cf0e80d2798243e98b52e3ee682e2c3a511cf9/noise2read-0.0.71.tar.gz
+[2023-04-20 04:59:55] INFO root fetch - processPackages [msgspec]: Downloading https://files.pythonhosted.org/packages/b2/11/ec75058f046fa1792136bdaea4215dc4d57c0685e8b4ae89d06848500241/msgspec-0.9.0.tar.gz
+[2023-04-20 04:59:55] INFO root fetch - processPackages [gplately]: Downloading https://files.pythonhosted.org/packages/7f/14/bd6e630c27dacdc1911d17e80cb9ba3123d7bb5a727ff237f86d5554d1a4/gplately-0.4.tar.gz
+[2023-04-20 04:59:55] INFO root fetch - processPackages [thu-learn-downloader]: Downloading https://files.pythonhosted.org/packages/b9/b1/10860181688936832714cd6f11b3590c78dc507037fe53ea8e5c54ccb5ee/thu_learn_downloader-0.1.8.tar.gz
+[2023-04-20 04:59:55] INFO root fetch - processPackages [gplately]: Downloading https://files.pythonhosted.org/packages/3a/0d/743bf45a5079d2f47f602ad4c4a3ac5291cb4b9c5c70498872296916db7a/gplately-1.0.tar.gz
+[2023-04-20 04:59:55] INFO root fetch - processPackages [noise2read]: Downloading https://files.pythonhosted.org/packages/13/ec/7838598fe83e3c601876a6118e2b2694d11d76a2149f47d7ece206787b3e/noise2read-0.0.73.tar.gz
+[2023-04-20 04:59:55] INFO root fetch - processPackages [msgspec]: Downloading https://files.pythonhosted.org/packages/46/4a/86b834cc4b368ef7f76d74b50e523126b6df014ad0fe27472be1a6a76c75/msgspec-0.9.1.tar.gz
+[2023-04-20 04:59:55] INFO root fetch - processPackages [noise2read]: executing diffoscope
+[2023-04-20 04:59:55] INFO root fetch - processPackages [noise2read]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noise2read-0.0.71.tar.gz tmp/noise2read-0.0.73.tar.gz --markdown 20230420/n/noise2read/0.0.71-0.0.73/diff.md --exclude *.pyd
+[2023-04-20 04:59:55] INFO root fetch - processPackages [gplately]: executing diffoscope
+[2023-04-20 04:59:55] INFO root fetch - processPackages [gplately]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gplately-0.4.tar.gz tmp/gplately-1.0.tar.gz --markdown 20230420/g/gplately/0.4-1.0/diff.md --exclude *.pyd
+[2023-04-20 04:59:55] INFO root fetch - processPackages [msgspec]: executing diffoscope
+[2023-04-20 04:59:55] INFO root fetch - processPackages [msgspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgspec-0.9.0.tar.gz tmp/msgspec-0.9.1.tar.gz --markdown 20230420/m/msgspec/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 04:59:56] INFO root fetch - processPackages [thu-learn-downloader]: Downloading https://files.pythonhosted.org/packages/9d/74/992144c7ba4621c5d50d6923a66b2b20c0ba03716cc497806e4c3791fa1a/thu_learn_downloader-0.1.9.tar.gz
+[2023-04-20 04:59:56] INFO root fetch - main [MainThread]: End processing [aga]: success
+[2023-04-20 04:59:56] INFO root fetch - processPackages [thu-learn-downloader]: executing diffoscope
+[2023-04-20 04:59:56] INFO root fetch - processPackages [thu-learn-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thu_learn_downloader-0.1.8.tar.gz tmp/thu_learn_downloader-0.1.9.tar.gz --markdown 20230420/t/thu-learn-downloader/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 04:59:56] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-04-20 04:59:57] INFO root fetch - main [MainThread]: End processing [gplately]: success
+[2023-04-20 04:59:57] INFO root fetch - main [MainThread]: End processing [noise2read]: success
+[2023-04-20 04:59:57] INFO root fetch - main [MainThread]: End processing [msgspec]: success
+[2023-04-20 04:59:57] INFO root fetch - main [MainThread]: End processing [thu-learn-downloader]: success
+[2023-04-20 04:59:57] INFO root fetch - main [MainThread]: Store serial: [17781459]
