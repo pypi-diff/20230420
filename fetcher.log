@@ -15390,3 +15390,74 @@ EOFError: EOF read where object expected
 [2023-04-20 13:34:09] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
 [2023-04-20 13:34:09] INFO root fetch - main [MainThread]: End processing [cloth-simulation]: success
 [2023-04-20 13:34:09] INFO root fetch - main [MainThread]: Store serial: [17786421]
+[2023-04-20 13:39:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17786421]
+[2023-04-20 13:39:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-metadata
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyre-check-nightly
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gcip
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baikal-sdk
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ms-imputedhours-core
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raga-cli
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirrocumulus
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-serve
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bridgecrew
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clannotation
+[2023-04-20 13:39:18] INFO root fetch - processPackages [clannotation]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 13:39:18] WARNING root fetch - processPackages [odoo12-addon-metadata]: Skipping, unable to determine old version
+[2023-04-20 13:39:18] INFO root fetch - processPackages [odoo12-addon-metadata]: Start processing: browserstack-sdk
+[2023-04-20 13:39:18] INFO root fetch - main [MainThread]: End processing [odoo12-addon-metadata] error
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ms-imputedhours-core]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-20 13:39:18] INFO root fetch - processPackages [baikal-sdk]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-20 13:39:18] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev14]
+[2023-04-20 13:39:18] INFO root fetch - processPackages [raga-cli]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-20 13:39:18] INFO root fetch - processPackages [gcip]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-20 13:39:18] INFO root fetch - processPackages [cirrocumulus]: New version: [1.1.9.post3] Old Version: [1.1.9.post2]
+[2023-04-20 13:39:18] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-20 13:39:18] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101681989101] Old Version: [0.0.101681902704]
+[2023-04-20 13:39:18] INFO root fetch - processPackages [browserstack-sdk]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-04-20 13:39:18] INFO root fetch - processPackages [clannotation]: executing diffoscope
+[2023-04-20 13:39:18] INFO root fetch - processPackages [clannotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clannotation-0.0.1.tar.gz tmp/clannotation-0.0.2.tar.gz --markdown 20230420/c/clannotation/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 13:39:18] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-04-20 13:39:18] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev14.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230420/l/langchain-serve/0.0.9.dev14-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-04-20 13:39:18] INFO root fetch - processPackages [baikal-sdk]: Downloading https://files.pythonhosted.org/packages/d7/05/16337d4f6d515c111a39d9ba24b95dbd4473c810a11a41ff5d7f6dedd941/baikal-sdk-1.2.3.tar.gz
+[2023-04-20 13:39:18] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-20 13:39:18] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/70/e1/fd6234c80402b35806a04e9ef8268fdda06f9c4fe63463cb0a5634946b8f/raga-cli-0.0.5.tar.gz
+[2023-04-20 13:39:18] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230420/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ms-imputedhours-core]: Downloading https://files.pythonhosted.org/packages/e8/bd/828308497aa0de2c4aff0b04a5819ff4137775ac43ec267f0697bacc5e6a/ms_imputedhours_core-0.3.5.tar.gz
+[2023-04-20 13:39:18] INFO root fetch - processPackages [gcip]: Downloading https://files.pythonhosted.org/packages/4d/34/06f5e31a1e04a7d6626fda08cb23ed5d90dfcdec93634e1391fccf5be2fa/gcip-3.0.0-py3-none-any.whl
+[2023-04-20 13:39:18] INFO root fetch - processPackages [cirrocumulus]: Downloading https://files.pythonhosted.org/packages/90/80/dda1059e59bc3c29bbbed870bb24a15e65961f03ada9b8153bd76bc38c03/cirrocumulus-1.1.9.post2.tar.gz
+[2023-04-20 13:39:18] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/02/23/65e85f06c3dd6112e55483dc232b95ef896c9be16f5c8514c10f30b16d0f/pyre-check-nightly-0.0.101681902704.tar.gz
+[2023-04-20 13:39:18] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23156848>=10485760
+[2023-04-20 13:39:18] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: llm4gpt
+[2023-04-20 13:39:18] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-04-20 13:39:18] INFO root fetch - processPackages [llm4gpt]: New version: [2023.4.20.19.30.9] Old Version: [2023.4.20.19.18.41]
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ms-imputedhours-core]: executing diffoscope
+[2023-04-20 13:39:18] INFO root fetch - processPackages [ms-imputedhours-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_imputedhours_core-0.3.4.tar.gz tmp/ms_imputedhours_core-0.3.5.tar.gz --markdown 20230420/m/ms-imputedhours-core/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-20 13:39:18] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/f1/ba/70266ee2c6d4ce37ae10afb1af291981c6af6cd62b4fcdfd178943ed4bf9/raga-cli-0.0.6.tar.gz
+[2023-04-20 13:39:18] INFO root fetch - processPackages [llm4gpt]: executing diffoscope
+[2023-04-20 13:39:19] INFO root fetch - processPackages [gcip]: Downloading https://files.pythonhosted.org/packages/f5/03/d86acfd3b911e606b173a31eb6c21e14c4e2b2887ca72daced9cb395f327/gcip-3.0.1-py3-none-any.whl
+[2023-04-20 13:39:19] INFO root fetch - processPackages [llm4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm4gpt-2023.4.20.19.18.41.tar.gz tmp/llm4gpt-2023.4.20.19.30.9.tar.gz --markdown 20230420/l/llm4gpt/2023.4.20.19.18.41-2023.4.20.19.30.9/diff.md --exclude *.pyd
+[2023-04-20 13:39:19] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/ae/23/df144bd725db22571a8c35a103b539b02f41a112a41f1e51062b4652da43/browserstack_sdk-1.7.2.tar.gz
+[2023-04-20 13:39:19] INFO root fetch - processPackages [baikal-sdk]: Downloading https://files.pythonhosted.org/packages/05/c9/d1589abbf4ccd72827e63651fbf1b11350264d8ebf560ef3bbc0127c8eb8/baikal-sdk-1.2.4.tar.gz
+[2023-04-20 13:39:19] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-04-20 13:39:19] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.0.5.tar.gz tmp/raga-cli-0.0.6.tar.gz --markdown 20230420/r/raga-cli/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-20 13:39:19] INFO root fetch - processPackages [browserstack-sdk]: executing diffoscope
+[2023-04-20 13:39:19] INFO root fetch - processPackages [browserstack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserstack_sdk-1.7.1.tar.gz tmp/browserstack_sdk-1.7.2.tar.gz --markdown 20230420/b/browserstack-sdk/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-04-20 13:39:19] INFO root fetch - processPackages [gcip]: executing diffoscope
+[2023-04-20 13:39:19] INFO root fetch - processPackages [gcip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcip-3.0.0-py3-none-any.whl.zip tmp/gcip-3.0.1-py3-none-any.whl.zip --markdown 20230420/g/gcip/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-20 13:39:19] INFO root fetch - processPackages [baikal-sdk]: executing diffoscope
+[2023-04-20 13:39:19] INFO root fetch - processPackages [baikal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baikal-sdk-1.2.3.tar.gz tmp/baikal-sdk-1.2.4.tar.gz --markdown 20230420/b/baikal-sdk/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-20 13:39:19] INFO root fetch - processPackages [cirrocumulus]: Downloading https://files.pythonhosted.org/packages/5e/f5/d6f75b6724dd1e257367c7bd66e9bab80b82492ba21a00c28c1697391851/cirrocumulus-1.1.9.post3.tar.gz
+[2023-04-20 13:39:19] INFO root fetch - processPackages [cirrocumulus]: executing diffoscope
+[2023-04-20 13:39:19] INFO root fetch - processPackages [cirrocumulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirrocumulus-1.1.9.post2.tar.gz tmp/cirrocumulus-1.1.9.post3.tar.gz --markdown 20230420/c/cirrocumulus/1.1.9.post2-1.1.9.post3/diff.md --exclude *.pyd
+[2023-04-20 13:39:20] INFO root fetch - main [MainThread]: End processing [clannotation]: success
+[2023-04-20 13:39:20] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-04-20 13:39:20] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-20 13:39:20] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-04-20 13:39:20] INFO root fetch - main [MainThread]: End processing [ms-imputedhours-core]: success
+[2023-04-20 13:39:20] INFO root fetch - main [MainThread]: End processing [baikal-sdk]: success
+[2023-04-20 13:39:20] INFO root fetch - main [MainThread]: End processing [gcip]: success
+[2023-04-20 13:39:21] INFO root fetch - main [MainThread]: End processing [llm4gpt]: success
+[2023-04-20 13:39:21] INFO root fetch - main [MainThread]: End processing [browserstack-sdk]: success
+[2023-04-20 13:39:28] INFO root fetch - main [MainThread]: End processing [cirrocumulus]: success
+[2023-04-20 13:39:28] INFO root fetch - main [MainThread]: Store serial: [17786456]
