@@ -22555,3 +22555,99 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 19:40:19] INFO root fetch - main [MainThread]: End processing [np-config]: success
 [2023-04-20 19:40:20] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
 [2023-04-20 19:40:20] INFO root fetch - main [MainThread]: Store serial: [17790851]
+[2023-04-20 19:45:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790851]
+[2023-04-20 19:45:29] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-rename
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ss13-tools
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ethraid
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dolfyn
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: balena-sdk-python
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bbctestingcock
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JTPackageTest
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pywdgen
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: satcfdi
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dm-control
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ss13-tools]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-04-20 19:45:29] INFO root fetch - processPackages [JTPackageTest]: New version: [0.0.6] Old Version: [0.0.2]
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ethraid]: New version: [1.0.0] Old Version: [0.1.90]
+[2023-04-20 19:45:29] INFO root fetch - processPackages [bbctestingcock]: New version: [0.2] Old Version: [0.1]
+[2023-04-20 19:45:29] INFO root fetch - processPackages [nonebot-plugin-rename]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-04-20 19:45:29] INFO root fetch - processPackages [satcfdi]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-04-20 19:45:29] WARNING root fetch - processPackages [pywdgen]: Skipping, unable to determine old version
+[2023-04-20 19:45:29] INFO root fetch - processPackages [balena-sdk-python]: New version: [12.6.12] Old Version: [12.6.11]
+[2023-04-20 19:45:29] INFO root fetch - processPackages [pywdgen]: Start processing: bbctestingcock
+[2023-04-20 19:45:29] INFO root fetch - main [MainThread]: End processing [pywdgen] error
+[2023-04-20 19:45:29] INFO root fetch - processPackages [dolfyn]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-04-20 19:45:29] INFO root fetch - processPackages [dm-control]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-20 19:45:29] INFO root fetch - processPackages [bbctestingcock]: New version: [0.2] Old Version: [0.1]
+[2023-04-20 19:45:29] INFO root fetch - processPackages [bbctestingcock]: Downloading https://files.pythonhosted.org/packages/b2/07/d90b3c82414404dad58e2e98f779be0fe2486f5fe9005ad3e158f8a04847/bbctestingcock-0.1.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [bbctestingcock]: Downloading https://files.pythonhosted.org/packages/b2/07/d90b3c82414404dad58e2e98f779be0fe2486f5fe9005ad3e158f8a04847/bbctestingcock-0.1.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [JTPackageTest]: Downloading https://files.pythonhosted.org/packages/d3/e0/d34f437a7982ea47cc8926026ee97b2ed3e0ce1b916525447ec33854c2eb/JTPackageTest-0.0.2.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ss13-tools]: Downloading https://files.pythonhosted.org/packages/a2/3d/1c1e385fb0bf2d25aafbaf6e3784cc1f015f5ea1fd67e6ef448dee0b4ef4/ss13_tools-2.2.1.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/c5/f4/731bae14159184cc0b1c1f734930ee200fd560ba547c0fff3fb6be3c52ad/nonebot_plugin_rename-1.0.0.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [balena-sdk-python]: Downloading https://files.pythonhosted.org/packages/a3/00/9ae4a76ad7139758b9f504e64318cbad3432e57116b30eca1723df33b792/balena_sdk_python-12.6.11.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [dm-control]: Downloading https://files.pythonhosted.org/packages/53/fe/5db2f2647f5d852b2de3c1274ef992a5556441bb60be3db5cad79dac0462/dm_control-1.0.8.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ethraid]: executing diffoscope
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ethraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethraid-0.1.90.tar.gz tmp/ethraid-1.0.0.tar.gz --markdown 20230420/e/ethraid/0.1.90-1.0.0/diff.md --exclude *.pyd
+[2023-04-20 19:45:29] INFO root fetch - processPackages [dolfyn]: Downloading https://files.pythonhosted.org/packages/7a/0d/508bcc7da33d03f45aa68a7b8da08d26f0c5d001a8a91a2a215bc7b01dab/dolfyn-1.2.1.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [bbctestingcock]: Downloading https://files.pythonhosted.org/packages/56/43/92d844cb1deb3ab3a5561ececa105add94c1e046d2fe11a1cc1463eaad9b/bbctestingcock-0.2.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [bbctestingcock]: Downloading https://files.pythonhosted.org/packages/56/43/92d844cb1deb3ab3a5561ececa105add94c1e046d2fe11a1cc1463eaad9b/bbctestingcock-0.2.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [bbctestingcock]: executing diffoscope
+[2023-04-20 19:45:29] INFO root fetch - processPackages [bbctestingcock]: executing diffoscope
+[2023-04-20 19:45:29] INFO root fetch - processPackages [bbctestingcock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbctestingcock-0.1.tar.gz tmp/bbctestingcock-0.2.tar.gz --markdown 20230420/b/bbctestingcock/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-20 19:45:29] INFO root fetch - processPackages [bbctestingcock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbctestingcock-0.1.tar.gz tmp/bbctestingcock-0.2.tar.gz --markdown 20230420/b/bbctestingcock/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-20 19:45:29] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/c8/d0/c117933bd7ea656459a299e377f6977e39baac1dbe946fd5c30f4d629ba7/nonebot_plugin_rename-1.0.2.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [balena-sdk-python]: Downloading https://files.pythonhosted.org/packages/c5/85/78bed0c1541ebb0b29b0fc003536ea82d464cc3c470a9d9691b1865c5ce9/balena_sdk_python-12.6.12.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [satcfdi]: executing diffoscope
+[2023-04-20 19:45:29] INFO root fetch - processPackages [satcfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satcfdi-4.0.8.tar.gz tmp/satcfdi-4.0.9.tar.gz --markdown 20230420/s/satcfdi/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ss13-tools]: Downloading https://files.pythonhosted.org/packages/31/bc/ba789e87b2a0a2fc6d4d4fff729b413c4802281ec8eb8c5ab73b769a2089/ss13_tools-2.2.2.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [JTPackageTest]: Downloading https://files.pythonhosted.org/packages/7b/e3/9b6ce1c71d3a1a96cf068e7d859c1cbca1909a1ffc5af06fdad551c88342/JTPackageTest-0.0.6.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [nonebot-plugin-rename]: executing diffoscope
+[2023-04-20 19:45:29] INFO root fetch - processPackages [nonebot-plugin-rename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_rename-1.0.0.tar.gz tmp/nonebot_plugin_rename-1.0.2.tar.gz --markdown 20230420/n/nonebot-plugin-rename/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-04-20 19:45:29] INFO root fetch - processPackages [balena-sdk-python]: executing diffoscope
+[2023-04-20 19:45:29] INFO root fetch - processPackages [balena-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balena_sdk_python-12.6.11.tar.gz tmp/balena_sdk_python-12.6.12.tar.gz --markdown 20230420/b/balena-sdk-python/12.6.11-12.6.12/diff.md --exclude *.pyd
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ss13-tools]: executing diffoscope
+[2023-04-20 19:45:29] INFO root fetch - processPackages [ss13-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ss13_tools-2.2.1.tar.gz tmp/ss13_tools-2.2.2.tar.gz --markdown 20230420/s/ss13-tools/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-04-20 19:45:29] INFO root fetch - processPackages [JTPackageTest]: executing diffoscope
+[2023-04-20 19:45:29] INFO root fetch - processPackages [JTPackageTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JTPackageTest-0.0.2.tar.gz tmp/JTPackageTest-0.0.6.tar.gz --markdown 20230420/J/JTPackageTest/0.0.2-0.0.6/diff.md --exclude *.pyd
+[2023-04-20 19:45:29] INFO root fetch - processPackages [dolfyn]: Downloading https://files.pythonhosted.org/packages/1d/c3/de9312a436e5471c29837b1b65244cd4db6b0b9e608d383cd11d84fe9387/dolfyn-1.3.0.tar.gz
+[2023-04-20 19:45:29] INFO root fetch - processPackages [dolfyn]: executing diffoscope
+[2023-04-20 19:45:29] INFO root fetch - processPackages [dolfyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolfyn-1.2.1.tar.gz tmp/dolfyn-1.3.0.tar.gz --markdown 20230420/d/dolfyn/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-04-20 19:45:30] WARNING root fetch - processPackages [dm-control]: Skipping package: exceeds size limit 38954622>=10485760
+[2023-04-20 19:45:30] INFO root fetch - processPackages [dm-control]: Start processing: flipper-client
+[2023-04-20 19:45:30] INFO root fetch - main [MainThread]: End processing [dm-control] error
+[2023-04-20 19:45:30] INFO root fetch - processPackages [flipper-client]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-20 19:45:30] INFO root fetch - processPackages [flipper-client]: Downloading https://files.pythonhosted.org/packages/61/14/35a157e579d772732def5a5d465d04f6eaa8ae66ddd1875b20f6b5067ee5/flipper-client-1.3.1.tar.gz
+[2023-04-20 19:45:30] INFO root fetch - processPackages [flipper-client]: Downloading https://files.pythonhosted.org/packages/a5/10/6d721964f3d576770a0b2c19f2e35efcb3e07b8e00560e53f418f2a852e7/flipper-client-1.3.2.tar.gz
+[2023-04-20 19:45:31] INFO root fetch - processPackages [flipper-client]: executing diffoscope
+[2023-04-20 19:45:31] INFO root fetch - processPackages [flipper-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flipper-client-1.3.1.tar.gz tmp/flipper-client-1.3.2.tar.gz --markdown 20230420/f/flipper-client/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-20 19:45:31] INFO root fetch - processPackages [bbctestingcock]: Start processing: NeuroRuler
+[2023-04-20 19:45:31] INFO root fetch - main [MainThread]: End processing [bbctestingcock]: success
+[2023-04-20 19:45:31] INFO root fetch - processPackages [NeuroRuler]: New version: [1.7] Old Version: [0.0.3]
+[2023-04-20 19:45:31] INFO root fetch - processPackages [bbctestingcock]: Start processing: sql-metadata
+[2023-04-20 19:45:31] INFO root fetch - main [MainThread]: End processing [bbctestingcock]: success
+[2023-04-20 19:45:31] INFO root fetch - processPackages [NeuroRuler]: Downloading https://files.pythonhosted.org/packages/f4/09/faef7885817a51220f0ad2ab08c2e82b258e102774cd6ecce809e6dff801/NeuroRuler-0.0.3.tar.gz
+[2023-04-20 19:45:31] INFO root fetch - processPackages [sql-metadata]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-04-20 19:45:31] INFO root fetch - processPackages [NeuroRuler]: executing diffoscope
+[2023-04-20 19:45:31] INFO root fetch - processPackages [NeuroRuler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeuroRuler-0.0.3.tar.gz tmp/NeuroRuler-1.7.tar.gz --markdown 20230420/N/NeuroRuler/0.0.3-1.7/diff.md --exclude *.pyd
+[2023-04-20 19:45:31] INFO root fetch - processPackages [JTPackageTest]: Start processing: dvc-studio-client
+[2023-04-20 19:45:31] INFO root fetch - main [MainThread]: End processing [JTPackageTest]: success
+[2023-04-20 19:45:31] INFO root fetch - processPackages [sql-metadata]: Downloading https://files.pythonhosted.org/packages/af/5e/aa098470ce2c8950c8668473f1c3404e267cc5cef29cd01a808237f35643/sql_metadata-2.7.0.tar.gz
+[2023-04-20 19:45:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rename]: success
+[2023-04-20 19:45:31] INFO root fetch - processPackages [dvc-studio-client]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-20 19:45:31] INFO root fetch - processPackages [sql-metadata]: Downloading https://files.pythonhosted.org/packages/f7/c0/61731ddba44b2e9afc31cc35892c20510504dbec9fc20903bffa0a583993/sql_metadata-2.8.0.tar.gz
+[2023-04-20 19:45:31] INFO root fetch - processPackages [dvc-studio-client]: Downloading https://files.pythonhosted.org/packages/d0/cd/914bb754fb135c0e751536f38738ab190ab52680e4b1a5ddfcb7bf6414b0/dvc-studio-client-0.8.0.tar.gz
+[2023-04-20 19:45:31] INFO root fetch - processPackages [sql-metadata]: executing diffoscope
+[2023-04-20 19:45:31] INFO root fetch - processPackages [sql-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_metadata-2.7.0.tar.gz tmp/sql_metadata-2.8.0.tar.gz --markdown 20230420/s/sql-metadata/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-04-20 19:45:32] INFO root fetch - processPackages [dvc-studio-client]: executing diffoscope
+[2023-04-20 19:45:32] INFO root fetch - processPackages [dvc-studio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-studio-client-0.7.0.tar.gz tmp/dvc-studio-client-0.8.0.tar.gz --markdown 20230420/d/dvc-studio-client/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-20 19:45:32] INFO root fetch - main [MainThread]: End processing [balena-sdk-python]: success
+[2023-04-20 19:45:32] INFO root fetch - main [MainThread]: End processing [flipper-client]: success
+[2023-04-20 19:45:32] INFO root fetch - main [MainThread]: End processing [ss13-tools]: success
+[2023-04-20 19:45:32] INFO root fetch - main [MainThread]: End processing [NeuroRuler]: success
+[2023-04-20 19:45:33] INFO root fetch - main [MainThread]: End processing [dolfyn]: success
+[2023-04-20 19:45:33] INFO root fetch - main [MainThread]: End processing [sql-metadata]: success
+[2023-04-20 19:45:33] INFO root fetch - main [MainThread]: End processing [dvc-studio-client]: success
+[2023-04-20 19:45:35] INFO root fetch - main [MainThread]: End processing [satcfdi]: success
+[2023-04-20 19:45:36] INFO root fetch - main [MainThread]: End processing [ethraid]: success
+[2023-04-20 19:45:36] INFO root fetch - main [MainThread]: Store serial: [17790899]
