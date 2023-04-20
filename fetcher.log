@@ -7513,3 +7513,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 06:25:26] INFO root fetch - main [MainThread]: End processing [spiralflow]: success
 [2023-04-20 06:25:28] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2023-04-20 06:25:28] INFO root fetch - main [MainThread]: Store serial: [17781997]
+[2023-04-20 06:30:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17781997]
+[2023-04-20 06:30:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-20 06:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huble
+[2023-04-20 06:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: list2tree
+[2023-04-20 06:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypop7
+[2023-04-20 06:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-hr-expense
+[2023-04-20 06:30:36] WARNING root fetch - processPackages [list2tree]: Skipping, unable to determine old version
+[2023-04-20 06:30:36] INFO root fetch - main [MainThread]: End processing [list2tree] error
+[2023-04-20 06:30:36] INFO root fetch - processPackages [pypop7]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-20 06:30:36] INFO root fetch - processPackages [huble]: New version: [0.2.301] Old Version: [0.2.300]
+[2023-04-20 06:30:37] INFO root fetch - processPackages [odoo-addons-oca-hr-expense]: New version: [15.0.20230419.0] Old Version: [15.0.20230222.0]
+[2023-04-20 06:30:37] INFO root fetch - processPackages [pypop7]: Downloading https://files.pythonhosted.org/packages/02/eb/88dc6dc33931e7683ec418e8268d9a5022ef7a0b850e7fd1832a1575eea1/pypop7-0.0.8.tar.gz
+[2023-04-20 06:30:37] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/f1/52/415e52bf0e314f5ce776abf03d7a25124a734c337dd28c379dc67547545c/huble-0.2.301.tar.gz
+[2023-04-20 06:30:37] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-20 06:30:37] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.300.tar.gz tmp/huble-0.2.301.tar.gz --markdown 20230420/h/huble/0.2.300-0.2.301/diff.md --exclude *.pyd
+[2023-04-20 06:30:37] INFO root fetch - processPackages [odoo-addons-oca-hr-expense]: Downloading https://files.pythonhosted.org/packages/8f/b0/f6d7b5707fa7cdd17be5e391a8754248025c6327a0049f715bb87c79a20a/odoo_addons_oca_hr_expense-15.0.20230222.0-py3-none-any.whl
+[2023-04-20 06:30:37] INFO root fetch - processPackages [odoo-addons-oca-hr-expense]: Downloading https://files.pythonhosted.org/packages/b7/68/91de2114795f4e50e94a8a40bf9d441cf6dc756da646bc9be61da6c0661e/odoo_addons_oca_hr_expense-15.0.20230419.0-py3-none-any.whl
+[2023-04-20 06:30:37] INFO root fetch - processPackages [odoo-addons-oca-hr-expense]: executing diffoscope
+[2023-04-20 06:30:37] INFO root fetch - processPackages [odoo-addons-oca-hr-expense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_hr_expense-15.0.20230222.0-py3-none-any.whl.zip tmp/odoo_addons_oca_hr_expense-15.0.20230419.0-py3-none-any.whl.zip --markdown 20230420/o/odoo-addons-oca-hr-expense/15.0.20230222.0-15.0.20230419.0/diff.md --exclude *.pyd
+[2023-04-20 06:30:37] INFO root fetch - processPackages [pypop7]: Downloading https://files.pythonhosted.org/packages/0b/59/7c739a24a7b7c0e86e779fb527835d56a5ac26958068c31ebb128a763caa/pypop7-0.0.9.tar.gz
+[2023-04-20 06:30:38] INFO root fetch - processPackages [pypop7]: executing diffoscope
+[2023-04-20 06:30:38] INFO root fetch - processPackages [pypop7]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypop7-0.0.8.tar.gz tmp/pypop7-0.0.9.tar.gz --markdown 20230420/p/pypop7/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-20 06:30:38] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-20 06:30:38] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-hr-expense]: success
+[2023-04-20 06:30:40] INFO root fetch - main [MainThread]: End processing [pypop7]: success
+[2023-04-20 06:30:40] INFO root fetch - main [MainThread]: Store serial: [17782040]
