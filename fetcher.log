@@ -21700,3 +21700,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-20 18:47:13] INFO root fetch - main [MainThread]: End processing [openctp-ctp-651]: success
 [2023-04-20 18:47:14] INFO root fetch - main [MainThread]: End processing [openctp-ctp-667]: success
 [2023-04-20 18:47:14] INFO root fetch - main [MainThread]: Store serial: [17790364]
+[2023-04-20 18:52:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17790364]
+[2023-04-20 18:52:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-20 18:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talos-install
+[2023-04-20 18:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jcopvision
+[2023-04-20 18:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openctp-tts-651
+[2023-04-20 18:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openctp-tts-669
+[2023-04-20 18:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: govtech-data
+[2023-04-20 18:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tokmon
+[2023-04-20 18:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amlopschat
+[2023-04-20 18:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: falcon-ml-xgboost
+[2023-04-20 18:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: click-skeleton
+[2023-04-20 18:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bazel-runfiles
+[2023-04-20 18:52:24] INFO root fetch - processPackages [jcopvision]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-20 18:52:24] INFO root fetch - processPackages [tokmon]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-20 18:52:24] INFO root fetch - processPackages [govtech-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 18:52:24] INFO root fetch - processPackages [openctp-tts-651]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 18:52:24] INFO root fetch - processPackages [amlopschat]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-20 18:52:24] INFO root fetch - processPackages [openctp-tts-669]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-20 18:52:24] WARNING root fetch - processPackages [talos-install]: Skipping, unable to determine old version
+[2023-04-20 18:52:24] INFO root fetch - processPackages [click-skeleton]: New version: [0.9.1] Old Version: [0.9]
+[2023-04-20 18:52:24] INFO root fetch - processPackages [talos-install]: Start processing: datasette-dashboards
+[2023-04-20 18:52:24] INFO root fetch - main [MainThread]: End processing [talos-install] error
+[2023-04-20 18:52:24] INFO root fetch - processPackages [falcon-ml-xgboost]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-20 18:52:24] INFO root fetch - processPackages [bazel-runfiles]: New version: [0.21.0] Old Version: [0.20.0]
+[2023-04-20 18:52:24] INFO root fetch - processPackages [click-skeleton]: executing diffoscope
+[2023-04-20 18:52:24] INFO root fetch - processPackages [click-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click-skeleton-0.9.tar.gz tmp/click-skeleton-0.9.1.tar.gz --markdown 20230420/c/click-skeleton/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-04-20 18:52:24] INFO root fetch - processPackages [datasette-dashboards]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-20 18:52:24] INFO root fetch - processPackages [openctp-tts-669]: Downloading https://files.pythonhosted.org/packages/af/1e/0833b9762e42f5938ca864a52c241a260445edb1bad9f98b2f86317b1792/openctp_tts_669-0.0.1-cp39-cp39-win_amd64.whl
+[2023-04-20 18:52:24] INFO root fetch - processPackages [openctp-tts-651]: Downloading https://files.pythonhosted.org/packages/93/cc/9e85759e82c7af4b9c2229e0fe97052a63acc4d41f13aaeebfc1bff811c6/openctp_tts_651-0.0.1-cp39-cp39-win_amd64.whl
+[2023-04-20 18:52:24] INFO root fetch - processPackages [tokmon]: Downloading https://files.pythonhosted.org/packages/b1/91/1b1b0bc217fd185aa515e19075ac9387a3dc11b55324ee61f217b6ddd7e7/tokmon-0.1.3.tar.gz
+[2023-04-20 18:52:24] INFO root fetch - processPackages [falcon-ml-xgboost]: Downloading https://files.pythonhosted.org/packages/51/dd/f86b5cf15826c866f52edd1d488c6e06000f394147c79b1e7883347ae0d2/falcon-ml-xgboost-0.1.0.tar.gz
+[2023-04-20 18:52:24] INFO root fetch - processPackages [amlopschat]: Downloading https://files.pythonhosted.org/packages/ae/30/61cc3f8eecaca9df4a2a5225409d0f20afeb6e9fdf90d589c5439511742d/amlopschat-1.0.5.tar.gz
+[2023-04-20 18:52:24] INFO root fetch - processPackages [jcopvision]: Downloading https://files.pythonhosted.org/packages/39/5e/f9c5f0d43dde150b3c32ce795ded545f03c783085ebf33d353f177028fe0/jcopvision-0.2.5.tar.gz
+[2023-04-20 18:52:24] INFO root fetch - processPackages [bazel-runfiles]: Downloading https://files.pythonhosted.org/packages/a4/69/44691cda8a004083236c0105861ff890de4351343a98eb3c5f8e5c311c29/bazel_runfiles-0.20.0-py3-none-any.whl
+[2023-04-20 18:52:24] INFO root fetch - processPackages [datasette-dashboards]: Downloading https://files.pythonhosted.org/packages/89/a3/859484e0b3394d79455e5defeb79ea4c781be6959ff63062aa0fc24f4e4d/datasette-dashboards-0.4.0.tar.gz
+[2023-04-20 18:52:24] INFO root fetch - processPackages [tokmon]: executing diffoscope
+[2023-04-20 18:52:24] INFO root fetch - processPackages [tokmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokmon-0.1.2.tar.gz tmp/tokmon-0.1.3.tar.gz --markdown 20230420/t/tokmon/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-20 18:52:24] INFO root fetch - processPackages [govtech-data]: executing diffoscope
+[2023-04-20 18:52:24] INFO root fetch - processPackages [govtech-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/govtech_data-0.1.8.tar.gz tmp/govtech_data-0.1.9.tar.gz --markdown 20230420/g/govtech-data/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 18:52:24] INFO root fetch - processPackages [jcopvision]: executing diffoscope
+[2023-04-20 18:52:24] INFO root fetch - processPackages [jcopvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcopvision-0.2.4.tar.gz tmp/jcopvision-0.2.5.tar.gz --markdown 20230420/j/jcopvision/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-20 18:52:24] INFO root fetch - processPackages [falcon-ml-xgboost]: Downloading https://files.pythonhosted.org/packages/ba/56/1857897b6ca19b079666990b0e53078b1edc99d6a1e8df773dc7e52bbc48/falcon-ml-xgboost-0.2.0.tar.gz
+[2023-04-20 18:52:24] INFO root fetch - processPackages [amlopschat]: executing diffoscope
+[2023-04-20 18:52:24] INFO root fetch - processPackages [amlopschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopschat-1.0.4.tar.gz tmp/amlopschat-1.0.5.tar.gz --markdown 20230420/a/amlopschat/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-20 18:52:24] INFO root fetch - processPackages [bazel-runfiles]: Downloading https://files.pythonhosted.org/packages/c5/b9/a2179369af27c88becc1398bdfe817c229497d981484d313060fdc0fe94e/bazel_runfiles-0.21.0-py3-none-any.whl
+[2023-04-20 18:52:24] INFO root fetch - processPackages [falcon-ml-xgboost]: executing diffoscope
+[2023-04-20 18:52:24] INFO root fetch - processPackages [falcon-ml-xgboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falcon-ml-xgboost-0.1.0.tar.gz tmp/falcon-ml-xgboost-0.2.0.tar.gz --markdown 20230420/f/falcon-ml-xgboost/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-20 18:52:25] INFO root fetch - processPackages [datasette-dashboards]: Downloading https://files.pythonhosted.org/packages/a6/53/80dc944ad1f724cc35ec60a797c204587bbe67b252808619a6c9919746e8/datasette_dashboards-0.5.0.tar.gz
+[2023-04-20 18:52:25] INFO root fetch - processPackages [bazel-runfiles]: executing diffoscope
+[2023-04-20 18:52:25] INFO root fetch - processPackages [bazel-runfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bazel_runfiles-0.20.0-py3-none-any.whl.zip tmp/bazel_runfiles-0.21.0-py3-none-any.whl.zip --markdown 20230420/b/bazel-runfiles/0.20.0-0.21.0/diff.md --exclude *.pyd
+[2023-04-20 18:52:25] INFO root fetch - processPackages [openctp-tts-669]: Downloading https://files.pythonhosted.org/packages/d8/4c/c2084cd068084f688520b345ec9b44bed772c73d96d03c8172bcd508f58b/openctp_tts_669-0.0.2-cp39-cp39-win_amd64.whl
+[2023-04-20 18:52:25] INFO root fetch - processPackages [openctp-tts-651]: Downloading https://files.pythonhosted.org/packages/b3/b1/88804d619f34e302365bfdc9dc451ce519fdd2a8e0712380578ca617b5c3/openctp_tts_651-0.0.2-cp39-cp39-win_amd64.whl
+[2023-04-20 18:52:25] INFO root fetch - processPackages [datasette-dashboards]: executing diffoscope
+[2023-04-20 18:52:25] INFO root fetch - processPackages [datasette-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette-dashboards-0.4.0.tar.gz tmp/datasette_dashboards-0.5.0.tar.gz --markdown 20230420/d/datasette-dashboards/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-20 18:52:25] INFO root fetch - main [MainThread]: End processing [click-skeleton]: success
+[2023-04-20 18:52:26] INFO root fetch - main [MainThread]: End processing [govtech-data]: success
+[2023-04-20 18:52:26] INFO root fetch - main [MainThread]: End processing [tokmon]: success
+[2023-04-20 18:52:26] INFO root fetch - main [MainThread]: End processing [bazel-runfiles]: success
+[2023-04-20 18:52:26] INFO root fetch - processPackages [openctp-tts-669]: executing diffoscope
+[2023-04-20 18:52:26] INFO root fetch - processPackages [openctp-tts-669]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_tts_669-0.0.1-cp39-cp39-win_amd64.whl.zip tmp/openctp_tts_669-0.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230420/o/openctp-tts-669/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 18:52:26] INFO root fetch - processPackages [openctp-tts-651]: executing diffoscope
+[2023-04-20 18:52:26] INFO root fetch - processPackages [openctp-tts-651]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_tts_651-0.0.1-cp39-cp39-win_amd64.whl.zip tmp/openctp_tts_651-0.0.2-cp39-cp39-win_amd64.whl.zip --markdown 20230420/o/openctp-tts-651/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-20 18:52:26] INFO root fetch - main [MainThread]: End processing [falcon-ml-xgboost]: success
+[2023-04-20 18:52:26] INFO root fetch - main [MainThread]: End processing [jcopvision]: success
+[2023-04-20 18:52:26] INFO root fetch - main [MainThread]: End processing [datasette-dashboards]: success
+[2023-04-20 18:52:27] INFO root fetch - main [MainThread]: End processing [openctp-tts-669]: success
+[2023-04-20 18:52:27] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
+[2023-04-20 18:52:40] INFO root fetch - main [MainThread]: End processing [openctp-tts-651]: success
+[2023-04-20 18:52:40] INFO root fetch - main [MainThread]: Store serial: [17790414]
