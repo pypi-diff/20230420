@@ -14702,3 +14702,93 @@ EOFError: EOF read where object expected
 [2023-04-20 12:53:31] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
 [2023-04-20 12:53:31] INFO root fetch - main [MainThread]: End processing [sip]: success
 [2023-04-20 12:53:31] INFO root fetch - main [MainThread]: Store serial: [17785972]
+[2023-04-20 12:58:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17785972]
+[2023-04-20 12:58:40] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-20 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-product-contract-date-end-unrequired
+[2023-04-20 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgeql
+[2023-04-20 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hcaptcha-challenger
+[2023-04-20 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rdflib-ocdm
+[2023-04-20 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperfast-python-template
+[2023-04-20 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ec2-demo
+[2023-04-20 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kili
+[2023-04-20 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: meltanolabs-tap-gmail
+[2023-04-20 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coalestr
+[2023-04-20 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-sql-explorer-squad-v2
+[2023-04-20 12:58:40] INFO root fetch - processPackages [bridgeql]: New version: [0.1.8b0] Old Version: [0.1.7b0]
+[2023-04-20 12:58:40] WARNING root fetch - processPackages [rdflib-ocdm]: Skipping, unable to determine old version
+[2023-04-20 12:58:40] INFO root fetch - processPackages [ec2-demo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-20 12:58:40] INFO root fetch - processPackages [rdflib-ocdm]: Start processing: odoo12-addon-easy-my-coop-rest-api
+[2023-04-20 12:58:40] INFO root fetch - main [MainThread]: End processing [rdflib-ocdm] error
+[2023-04-20 12:58:40] WARNING root fetch - processPackages [meltanolabs-tap-gmail]: Skipping, unable to determine old version
+[2023-04-20 12:58:40] WARNING root fetch - processPackages [odoo12-addon-product-contract-date-end-unrequired]: Skipping, unable to determine old version
+[2023-04-20 12:58:40] INFO root fetch - processPackages [coalestr]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-04-20 12:58:40] INFO root fetch - processPackages [meltanolabs-tap-gmail]: Start processing: cardsort
+[2023-04-20 12:58:40] INFO root fetch - processPackages [django-sql-explorer-squad-v2]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-20 12:58:40] INFO root fetch - main [MainThread]: End processing [meltanolabs-tap-gmail] error
+[2023-04-20 12:58:40] INFO root fetch - processPackages [odoo12-addon-product-contract-date-end-unrequired]: Start processing: unb-cs2613
+[2023-04-20 12:58:40] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-20 12:58:40] WARNING root fetch - processPackages [odoo12-addon-easy-my-coop-rest-api]: Skipping, unable to determine old version
+[2023-04-20 12:58:40] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-contract-date-end-unrequired] error
+[2023-04-20 12:58:40] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-04-20 12:58:40] INFO root fetch - processPackages [odoo12-addon-easy-my-coop-rest-api]: Start processing: dg-itest
+[2023-04-20 12:58:40] INFO root fetch - main [MainThread]: End processing [odoo12-addon-easy-my-coop-rest-api] error
+[2023-04-20 12:58:40] INFO root fetch - processPackages [hcaptcha-challenger]: New version: [0.4.3.3] Old Version: [0.4.3.2]
+[2023-04-20 12:58:40] INFO root fetch - processPackages [dg-itest]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-20 12:58:40] INFO root fetch - processPackages [unb-cs2613]: New version: [23.1.0] Old Version: [23.0.0]
+[2023-04-20 12:58:40] INFO root fetch - processPackages [cardsort]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-20 12:58:40] INFO root fetch - processPackages [bridgeql]: executing diffoscope
+[2023-04-20 12:58:40] INFO root fetch - processPackages [bridgeql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgeql-0.1.7b0.tar.gz tmp/bridgeql-0.1.8b0.tar.gz --markdown 20230420/b/bridgeql/0.1.7b0-0.1.8b0/diff.md --exclude *.pyd
+[2023-04-20 12:58:40] INFO root fetch - processPackages [coalestr]: executing diffoscope
+[2023-04-20 12:58:40] INFO root fetch - processPackages [coalestr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coalestr-0.2.7.tar.gz tmp/coalestr-0.2.9.tar.gz --markdown 20230420/c/coalestr/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-04-20 12:58:40] INFO root fetch - processPackages [django-sql-explorer-squad-v2]: Downloading https://files.pythonhosted.org/packages/17/7d/ba0aef44249fc7cb67d85605dbc668b7e6216e96bac79a72261477529fe0/django_sql_explorer_squad_v2-0.9.2-py3-none-any.whl
+[2023-04-20 12:58:40] INFO root fetch - processPackages [ec2-demo]: Downloading https://files.pythonhosted.org/packages/7e/0b/668ce4f91cdd6f15598defea1556449c012aeecaddacd78e944c605011b6/ec2-demo-0.1.8.tar.gz
+[2023-04-20 12:58:40] INFO root fetch - processPackages [hcaptcha-challenger]: Downloading https://files.pythonhosted.org/packages/bb/ff/84f71b7dcf6a36cc51f6fa28939c5fe1f4be34b6cf9ada863ecc423126e5/hcaptcha-challenger-0.4.3.2.tar.gz
+[2023-04-20 12:58:40] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2023-04-20 12:58:40] INFO root fetch - processPackages [dg-itest]: Downloading https://files.pythonhosted.org/packages/26/40/9cb3da097f64d6b31b62ba264c6d208b3e026ef4e5c18831a48d79dd7b23/dg-itest-0.0.3.tar.gz
+[2023-04-20 12:58:40] INFO root fetch - processPackages [unb-cs2613]: Downloading https://files.pythonhosted.org/packages/ac/3a/cf5e2a361eb47e466f20588e50ea0786294140e1c72bead40b5bb3b7d412/unb-cs2613-23.0.0.tar.gz
+[2023-04-20 12:58:40] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/a8/66/9d99735870b8aa3aa108fed1e227a6d2fb0bbf9fec933a527da91ce0eada/cardsort-0.2.1.tar.gz
+[2023-04-20 12:58:40] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/db/3b/78da1fab1c522efcdf3b075800fc719e74113546f43868ac3af0eb99197c/hyperfast_python_template-0.2.7.tar.gz
+[2023-04-20 12:58:41] INFO root fetch - processPackages [ec2-demo]: Downloading https://files.pythonhosted.org/packages/9d/d5/591e35eaafa72d6772d9f850a8fd048364510d5dbbf87abe1aa1f475873d/ec2-demo-0.1.9.tar.gz
+[2023-04-20 12:58:41] INFO root fetch - processPackages [django-sql-explorer-squad-v2]: Downloading https://files.pythonhosted.org/packages/3a/2f/0e4d7c27e58b6976b77133ff377c5c63d3231e22076cd26ed30fb03a1610/django_sql_explorer_squad_v2-0.9.3-py3-none-any.whl
+[2023-04-20 12:58:41] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-20 12:58:41] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.2.6.tar.gz tmp/hyperfast_python_template-0.2.7.tar.gz --markdown 20230420/h/hyperfast-python-template/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-20 12:58:41] INFO root fetch - processPackages [dg-itest]: Downloading https://files.pythonhosted.org/packages/ba/ae/ac86576b6c13970c5c91b1aef52103ba4a362b5c0b30722a15baf9fb4552/dg-itest-0.0.4.tar.gz
+[2023-04-20 12:58:41] INFO root fetch - processPackages [unb-cs2613]: Downloading https://files.pythonhosted.org/packages/85/4b/af7f38d5a862f3a2166b6d0da4afa6bdacda2c8bff285907136812cedacf/unb-cs2613-23.1.0.tar.gz
+[2023-04-20 12:58:41] INFO root fetch - processPackages [ec2-demo]: executing diffoscope
+[2023-04-20 12:58:41] INFO root fetch - processPackages [django-sql-explorer-squad-v2]: executing diffoscope
+[2023-04-20 12:58:41] INFO root fetch - processPackages [ec2-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec2-demo-0.1.8.tar.gz tmp/ec2-demo-0.1.9.tar.gz --markdown 20230420/e/ec2-demo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-20 12:58:41] INFO root fetch - processPackages [django-sql-explorer-squad-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sql_explorer_squad_v2-0.9.2-py3-none-any.whl.zip tmp/django_sql_explorer_squad_v2-0.9.3-py3-none-any.whl.zip --markdown 20230420/d/django-sql-explorer-squad-v2/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-20 12:58:41] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/4a/f1/9a4e573d96a4f0abe8689e5c694a190b734dde15be49ba2cf66936bb3bfb/cardsort-0.2.2.tar.gz
+[2023-04-20 12:58:41] INFO root fetch - processPackages [dg-itest]: executing diffoscope
+[2023-04-20 12:58:41] INFO root fetch - processPackages [dg-itest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg-itest-0.0.3.tar.gz tmp/dg-itest-0.0.4.tar.gz --markdown 20230420/d/dg-itest/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-20 12:58:41] INFO root fetch - processPackages [unb-cs2613]: executing diffoscope
+[2023-04-20 12:58:41] INFO root fetch - processPackages [unb-cs2613]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unb-cs2613-23.0.0.tar.gz tmp/unb-cs2613-23.1.0.tar.gz --markdown 20230420/u/unb-cs2613/23.0.0-23.1.0/diff.md --exclude *.pyd
+[2023-04-20 12:58:41] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2023-04-20 12:58:41] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-04-20 12:58:41] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.1.tar.gz tmp/cardsort-0.2.2.tar.gz --markdown 20230420/c/cardsort/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-20 12:58:41] INFO root fetch - processPackages [hcaptcha-challenger]: Downloading https://files.pythonhosted.org/packages/6e/5e/7722edd5b1b2f9bea1b714b9f32f7dee31bb908a289f0ac12939254d5eb3/hcaptcha-challenger-0.4.3.3.tar.gz
+[2023-04-20 12:58:41] INFO root fetch - processPackages [kili]: executing diffoscope
+[2023-04-20 12:58:41] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20230420/k/kili/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-04-20 12:58:41] INFO root fetch - processPackages [hcaptcha-challenger]: executing diffoscope
+[2023-04-20 12:58:41] INFO root fetch - processPackages [hcaptcha-challenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcaptcha-challenger-0.4.3.2.tar.gz tmp/hcaptcha-challenger-0.4.3.3.tar.gz --markdown 20230420/h/hcaptcha-challenger/0.4.3.2-0.4.3.3/diff.md --exclude *.pyd
+[2023-04-20 12:58:41] INFO root fetch - processPackages [coalestr]: Start processing: digimat.bac0
+[2023-04-20 12:58:41] INFO root fetch - main [MainThread]: End processing [coalestr]: success
+[2023-04-20 12:58:41] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-20 12:58:42] INFO root fetch - processPackages [bridgeql]: Start processing: pynamodb-utils
+[2023-04-20 12:58:42] INFO root fetch - main [MainThread]: End processing [bridgeql]: success
+[2023-04-20 12:58:42] INFO root fetch - processPackages [pynamodb-utils]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-04-20 12:58:42] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-04-20 12:58:42] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230420/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-20 12:58:42] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-20 12:58:42] INFO root fetch - processPackages [pynamodb-utils]: executing diffoscope
+[2023-04-20 12:58:42] INFO root fetch - processPackages [pynamodb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamodb_utils-1.1.9.tar.gz tmp/pynamodb_utils-1.2.0.tar.gz --markdown 20230420/p/pynamodb-utils/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-04-20 12:58:42] INFO root fetch - main [MainThread]: End processing [unb-cs2613]: success
+[2023-04-20 12:58:42] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-04-20 12:58:42] INFO root fetch - main [MainThread]: End processing [ec2-demo]: success
+[2023-04-20 12:58:43] INFO root fetch - main [MainThread]: End processing [django-sql-explorer-squad-v2]: success
+[2023-04-20 12:58:43] INFO root fetch - main [MainThread]: End processing [dg-itest]: success
+[2023-04-20 12:58:43] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2023-04-20 12:58:43] INFO root fetch - main [MainThread]: End processing [hcaptcha-challenger]: success
+[2023-04-20 12:58:43] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-04-20 12:58:57] INFO root fetch - main [MainThread]: End processing [pynamodb-utils]: success
+[2023-04-20 12:58:57] INFO root fetch - main [MainThread]: Store serial: [17786032]
