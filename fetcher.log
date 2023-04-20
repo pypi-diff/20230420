@@ -9901,3 +9901,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-20 09:44:16] INFO root fetch - main [MainThread]: End processing [nifcloud-cli]: success
 [2023-04-20 09:44:17] INFO root fetch - main [MainThread]: End processing [nton]: success
 [2023-04-20 09:44:17] INFO root fetch - main [MainThread]: Store serial: [17783392]
+[2023-04-20 09:49:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17783392]
+[2023-04-20 09:49:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-20 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongoclass
+[2023-04-20 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scipion-em-imod
+[2023-04-20 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sag-py-auth
+[2023-04-20 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scipion-em-emantomo
+[2023-04-20 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scipion-em-dynamo
+[2023-04-20 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-nightly
+[2023-04-20 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DLMS-SPODES
+[2023-04-20 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pool-cue
+[2023-04-20 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lucidtech-las
+[2023-04-20 09:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: os-ios-app-automation
+[2023-04-20 09:49:26] INFO root fetch - processPackages [mongoclass]: New version: [1.4] Old Version: [1.3]
+[2023-04-20 09:49:26] INFO root fetch - processPackages [scipion-em-emantomo]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-04-20 09:49:26] INFO root fetch - processPackages [sag-py-auth]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-20 09:49:26] INFO root fetch - processPackages [scipion-em-imod]: New version: [3.1.8] Old Version: [3.1.7]
+[2023-04-20 09:49:26] INFO root fetch - processPackages [lucidtech-las]: New version: [8.9.0] Old Version: [8.8.0]
+[2023-04-20 09:49:26] INFO root fetch - processPackages [pool-cue]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-20 09:49:26] INFO root fetch - processPackages [os-ios-app-automation]: New version: [1.16] Old Version: [1.15]
+[2023-04-20 09:49:26] INFO root fetch - processPackages [scipion-em-dynamo]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-04-20 09:49:26] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-20 09:49:26] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-04-20 09:49:26] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-04-20 09:49:26] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230420/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-20 09:49:26] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-04-20 09:49:26] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230420/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-04-20 09:49:26] INFO root fetch - processPackages [sag-py-auth]: Downloading https://files.pythonhosted.org/packages/94/5b/1e4fcb5cc0e696f3162d4d093a8ae7e492009b46921aa1d084e9ad00ce8f/sag-py-auth-0.1.4.tar.gz
+[2023-04-20 09:49:26] INFO root fetch - processPackages [scipion-em-emantomo]: Downloading https://files.pythonhosted.org/packages/f9/a9/7d6f9caaec22e57f9c6f7894be8df1798a8328157087385f20fc22dd116a/scipion-em-emantomo-3.1.2.tar.gz
+[2023-04-20 09:49:26] INFO root fetch - processPackages [os-ios-app-automation]: Downloading https://files.pythonhosted.org/packages/06/22/43d902d145e624d44b2dd20a94b6fee1cdde95e7beb1d7c809071ec3f1f4/os_ios_app_automation-1.15.tar.gz
+[2023-04-20 09:49:26] INFO root fetch - processPackages [scipion-em-imod]: Downloading https://files.pythonhosted.org/packages/94/7a/262611e5a847824c55b86146850737d1dc13ae5381e451197344741e6571/scipion-em-imod-3.1.7.tar.gz
+[2023-04-20 09:49:26] INFO root fetch - processPackages [mongoclass]: Downloading https://files.pythonhosted.org/packages/09/3f/62417618758e940d548d8a458ed6aaefea56485249ebe9807fa10c39ed21/mongoclass-1.4.tar.gz
+[2023-04-20 09:49:26] INFO root fetch - processPackages [lucidtech-las]: Downloading https://files.pythonhosted.org/packages/83/ef/cd816b2d13f72e65cc0e3e08978260b529bbfdc3560393f31a5567f166d2/lucidtech-las-8.8.0.tar.gz
+[2023-04-20 09:49:26] INFO root fetch - processPackages [scipion-em-dynamo]: Downloading https://files.pythonhosted.org/packages/0e/06/18d756fc477a9faf167144f1c0b90369e74f002ac8214206347ed553b1af/scipion-em-dynamo-3.1.8.tar.gz
+[2023-04-20 09:49:26] INFO root fetch - processPackages [pool-cue]: Downloading https://files.pythonhosted.org/packages/e7/7d/3c72c064c8d72613e5323b4636d94e850071b0f4142e91d358380af808c9/pool_cue-1.1.0.tar.gz
+[2023-04-20 09:49:26] INFO root fetch - processPackages [pool-cue]: executing diffoscope
+[2023-04-20 09:49:26] INFO root fetch - processPackages [pool-cue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pool_cue-1.0.1.tar.gz tmp/pool_cue-1.1.0.tar.gz --markdown 20230420/p/pool-cue/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-20 09:49:26] INFO root fetch - processPackages [mongoclass]: executing diffoscope
+[2023-04-20 09:49:26] INFO root fetch - processPackages [mongoclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongoclass-1.3.tar.gz tmp/mongoclass-1.4.tar.gz --markdown 20230420/m/mongoclass/1.3-1.4/diff.md --exclude *.pyd
+[2023-04-20 09:49:26] INFO root fetch - processPackages [scipion-em-imod]: Downloading https://files.pythonhosted.org/packages/04/c7/093b83e538de303cc740b5dfa86354f3296d75556c07da71c60c3786f39c/scipion-em-imod-3.1.8.tar.gz
+[2023-04-20 09:49:26] INFO root fetch - processPackages [scipion-em-imod]: executing diffoscope
+[2023-04-20 09:49:26] INFO root fetch - processPackages [scipion-em-imod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-imod-3.1.7.tar.gz tmp/scipion-em-imod-3.1.8.tar.gz --markdown 20230420/s/scipion-em-imod/3.1.7-3.1.8/diff.md --exclude *.pyd
+[2023-04-20 09:49:27] INFO root fetch - processPackages [os-ios-app-automation]: Downloading https://files.pythonhosted.org/packages/21/29/6adb281f9416007bbfbb676305e418d5ca6d3cb84a40f29b8d753cd591b6/os_ios_app_automation-1.16.tar.gz
+[2023-04-20 09:49:27] INFO root fetch - processPackages [sag-py-auth]: Downloading https://files.pythonhosted.org/packages/e9/93/5cc1cc1ade3dbd5b0c787fb6afb93a0ce823b74699e7240673ef5890a4c1/sag-py-auth-0.1.5.tar.gz
+[2023-04-20 09:49:27] INFO root fetch - processPackages [scipion-em-emantomo]: Downloading https://files.pythonhosted.org/packages/44/32/d6c97314a1e8d6edf4f4a2cf1f4cb265f434080ec769f47c968e2ed20645/scipion-em-emantomo-3.1.3.tar.gz
+[2023-04-20 09:49:27] INFO root fetch - processPackages [sag-py-auth]: executing diffoscope
+[2023-04-20 09:49:27] INFO root fetch - processPackages [lucidtech-las]: Downloading https://files.pythonhosted.org/packages/bd/ae/dc38a4fd635e0fdf47a95d0e5073030b87783caae159231c268d7145886d/lucidtech-las-8.9.0.tar.gz
+[2023-04-20 09:49:27] INFO root fetch - processPackages [scipion-em-dynamo]: Downloading https://files.pythonhosted.org/packages/fa/42/87e294e41a5327d84dd9117c44c2dd241ce407f7bfcf98a87e28fe0b6518/scipion-em-dynamo-3.1.9.tar.gz
+[2023-04-20 09:49:27] INFO root fetch - processPackages [sag-py-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sag-py-auth-0.1.4.tar.gz tmp/sag-py-auth-0.1.5.tar.gz --markdown 20230420/s/sag-py-auth/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-20 09:49:27] INFO root fetch - processPackages [scipion-em-emantomo]: executing diffoscope
+[2023-04-20 09:49:27] INFO root fetch - processPackages [scipion-em-emantomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-emantomo-3.1.2.tar.gz tmp/scipion-em-emantomo-3.1.3.tar.gz --markdown 20230420/s/scipion-em-emantomo/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-04-20 09:49:27] INFO root fetch - processPackages [os-ios-app-automation]: executing diffoscope
+[2023-04-20 09:49:27] INFO root fetch - processPackages [os-ios-app-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os_ios_app_automation-1.15.tar.gz tmp/os_ios_app_automation-1.16.tar.gz --markdown 20230420/o/os-ios-app-automation/1.15-1.16/diff.md --exclude *.pyd
+[2023-04-20 09:49:27] INFO root fetch - processPackages [lucidtech-las]: executing diffoscope
+[2023-04-20 09:49:27] INFO root fetch - processPackages [scipion-em-dynamo]: executing diffoscope
+[2023-04-20 09:49:27] INFO root fetch - processPackages [lucidtech-las]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucidtech-las-8.8.0.tar.gz tmp/lucidtech-las-8.9.0.tar.gz --markdown 20230420/l/lucidtech-las/8.8.0-8.9.0/diff.md --exclude *.pyd
+[2023-04-20 09:49:27] INFO root fetch - processPackages [scipion-em-dynamo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230420:/home/abi/fetcher/20230420:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-dynamo-3.1.8.tar.gz tmp/scipion-em-dynamo-3.1.9.tar.gz --markdown 20230420/s/scipion-em-dynamo/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-04-20 09:49:28] INFO root fetch - main [MainThread]: End processing [pool-cue]: success
+[2023-04-20 09:49:28] INFO root fetch - main [MainThread]: End processing [mongoclass]: success
+[2023-04-20 09:49:28] INFO root fetch - main [MainThread]: End processing [lucidtech-las]: success
+[2023-04-20 09:49:28] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-04-20 09:49:28] INFO root fetch - main [MainThread]: End processing [os-ios-app-automation]: success
+[2023-04-20 09:49:28] INFO root fetch - main [MainThread]: End processing [sag-py-auth]: success
+[2023-04-20 09:49:29] INFO root fetch - main [MainThread]: End processing [scipion-em-dynamo]: success
+[2023-04-20 09:49:29] INFO root fetch - main [MainThread]: End processing [scipion-em-imod]: success
+[2023-04-20 09:49:35] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-04-20 09:49:41] INFO root fetch - main [MainThread]: End processing [scipion-em-emantomo]: success
+[2023-04-20 09:49:41] INFO root fetch - main [MainThread]: Store serial: [17783422]
